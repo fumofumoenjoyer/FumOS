@@ -30,7 +30,7 @@ edk2-shell
 efibootmgr
 espeakup
 ethtool
-exfatprogs
+exfat-utils
 f2fs-tools
 fatresize
 foot-terminfo
@@ -130,6 +130,8 @@ wvdial
 xfsprogs
 xl2tpd
 zsh
+zsh-autosuggestions
+zsh-syntax-highlighting
 
 # System
 archiso
@@ -358,6 +360,7 @@ noto-fonts
 opendesktop-fonts
 ttf-opensans
 freetype2
+nerd-fonts
 
 # Printing Support
 cups
@@ -397,7 +400,7 @@ kdeconnect
 kde-gtk-config
 kinfocenter
 kio-fuse
-konsole
+kitty
 kscreen
 kwallet-pam
 kwayland-integration
@@ -421,9 +424,10 @@ powerdevil
 print-manager
 qbittorrent
 sweeper
-spectacle
+flameshot
 xdg-desktop-portal-kde
 xsettingsd
+xwaylandvideobridge
 
 # Display Manager
 sddm
@@ -465,3 +469,8 @@ mkinitcpio-openswap
 # AUR
 downgrade
 trizen
+
+# Nvidia
+nvidia-dkms
+nvidia-settings
+nvidia-utils
