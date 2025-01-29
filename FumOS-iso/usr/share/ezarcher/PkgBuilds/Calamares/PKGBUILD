@@ -1,0 +1,42 @@
+# Ezarcher Calamares Installer pkgbuild
+
+pkgname=calamares
+pkgver=3.3.12
+_pkgver=3.3.12
+pkgrel=6
+pkgdesc='Distribution-independent installer framework'
+arch=('x86_64')
+license=(GPL)
+url="https://github.com/calamares/calamares"
+license=('LGPL')
+depends=('cryptsetup' 'dmidecode' 'doxygen' 'gptfdisk' 'hwinfo' 'kconfig' 'kcoreaddons' 'ki18n' 'kparts' 'kpmcore' 'kservice' 'kwidgetsaddons' 'libatasmart' 'libplasma' 'libpwquality' 'polkit-qt6' 'pybind11' 'python' 'qt6-declarative' 'qt6-svg' 'qt6-tools' 'qt6-virtualkeyboard' 'qt6-webengine' 'rsync' 'solid' 'squashfs-tools' 'udisks2' 'upower' 'yaml-cpp')
+makedepends=( 'cmake' 'extra-cmake-modules' 'gawk' 'git' 'kpmcore' 'python-jsonschema' 'python-pyaml' 'python-unidecode')
+
+source=("$pkgname-$pkgver.tar.gz::https://github.com/calamares/calamares/releases/download/v$pkgver/calamares-$pkgver.tar.gz")
+sha256sums=('4de95c434326f3ee683480eabc6a9be23ecbe0120f99ef7cec831674b12f30a3')
+
+build() {
+	cd ${srcdir}/calamares-${pkgver}
+
+	mkdir -p build
+	cd build
+        cmake .. \
+              -DCMAKE_BUILD_TYPE=Release \
+              -DCMAKE_INSTALL_PREFIX=/usr \
+              -DCMAKE_INSTALL_LIBDIR=/usr/lib \
+              -DINSTALL_CONFIG=OFF \
+              -DWITH_QT6=ON \
+              -DWITH_PYBIND11=ON \
+              -DSKIP_MODULES="tracking webview interactiveterminal initramfs netinstall \
+                              initramfscfg dracut dracutlukscfg finishedq summaryq \
+                              dummyprocess dummypython dummycpp usersq oemid packagechooser \
+                              dummypythonqt services-openrc keyboardq zfs zfshostid \
+                              localeq plasmalnf welcomeq notesqml packagechooserq"
+        make
+}
+
+package() {
+	cd ${srcdir}/calamares-${pkgver}/build
+	make DESTDIR="$pkgdir" install
+	install -Dm644 "../calamares.desktop" "$pkgdir/usr/share/applications/calamares.desktop"
+}
