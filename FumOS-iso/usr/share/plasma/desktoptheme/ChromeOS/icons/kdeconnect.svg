@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   id="svg"
+   inkscape:version="1.2.1 (9c6d41e410, 2022-07-14, custom)"
+   sodipodi:docname="kdeconnect.svg"
+   version="1.1"
+   viewBox="0 0 32 32"
+   width="32"
+   height="32"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview21"
+     bordercolor="#666666"
+     borderopacity="1"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:current-layer="22-22-kdeconnect"
+     inkscape:cx="62.884565"
+     inkscape:cy="7.8440914"
+     inkscape:pagecheckerboard="false"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-height="708"
+     inkscape:window-maximized="1"
+     inkscape:window-width="1368"
+     inkscape:window-x="0"
+     inkscape:window-y="28"
+     inkscape:zoom="7.5853272"
+     objecttolerance="10"
+     pagecolor="#ffffff"
+     showgrid="true"
+     inkscape:showpageshadow="2"
+     inkscape:deskcolor="#ffffff">
+    <inkscape:grid
+       id="grid830"
+       type="xygrid"
+       originx="0"
+       originy="0" />
+  </sodipodi:namedview>
+  <defs
+     id="defs3">
+    <style
+       id="current-color-scheme"
+       type="text/css">.ColorScheme-Text { color:#dedede; } .ColorScheme-Highlight { color:#5294e2; }</style>
+  </defs>
+  <g
+     id="22-22-kdeconnect"
+     transform="translate(-318,-529.35999)">
+    <rect
+       x="355"
+       y="534.35999"
+       width="22"
+       height="22"
+       fill="none"
+       id="rect14" />
+    <g
+       transform="translate(-14)"
+       class="ColorScheme-Text"
+       fill="currentColor"
+       id="g20">
+      <path
+         id="path16"
+         d="m 41,8 c -0.554,0 -1,0.446 -1,1 v 14 c 0,0.554 0.446,1 1,1 h 8 c 0.554,0 1,-0.446 1,-1 V 9 C 50,8.446 49.554,8 49,8 Z m 1,2 h 6 v 12 h -6 z"
+         transform="translate(335,529.36)" />
+      <rect
+         x="378"
+         y="549.35999"
+         width="4"
+         height="1"
+         id="rect18"
+         style="opacity:0.45;stroke-width:1.1547"
+         rx="0.5"
+         ry="0.5" />
+    </g>
+  </g>
+  <g
+     id="16-16-kdeconnect">
+    <rect
+       x="-18"
+       y="7.9999924"
+       width="16"
+       height="16"
+       fill="none"
+       id="rect23" />
+    <g
+       transform="translate(-390,-529.36001)"
+       class="ColorScheme-Text"
+       fill="currentColor"
+       id="g1478">
+      <path
+         id="path1474"
+         d="m 41,8 c -0.554,0 -1,0.446 -1,1 v 14 c 0,0.554 0.446,1 1,1 h 8 c 0.554,0 1,-0.446 1,-1 V 9 C 50,8.446 49.554,8 49,8 Z m 1,2 h 6 v 12 h -6 z"
+         transform="translate(335,529.36)" />
+      <rect
+         x="378"
+         y="549.35999"
+         width="4"
+         height="1"
+         id="rect1476"
+         style="opacity:0.45;stroke-width:1.1547"
+         rx="0.5"
+         ry="0.5" />
+    </g>
+  </g>
+  <g
+     id="kdeconnect"
+     transform="translate(-40)">
+    <rect
+       id="rect873"
+       width="32"
+       height="32"
+       x="40"
+       y="0"
+       rx="0"
+       ry="0"
+       style="fill:none" />
+    <g
+       id="g1637"
+       class="ColorScheme-Text"
+       fill="currentColor">
+      <path
+         id="rect1095"
+         d="m 51,4 c -1.662,0 -3,1.338 -3,3 v 18 c 0,1.662 1.338,3 3,3 h 10 c 1.662,0 3,-1.338 3,-3 V 7 C 64,5.338 62.662,4 61,4 Z m 0,2 h 10 c 0.554,0 1,0.446 1,1 v 18 c 0,0.554 -0.446,1 -1,1 H 51 c -0.554,0 -1,-0.446 -1,-1 V 7 c 0,-0.554 0.446,-1 1,-1 z" />
+      <rect
+         id="rect1428"
+         width="6"
+         height="2"
+         x="53"
+         y="23"
+         rx="1"
+         ry="1"
+         style="opacity:0.45" />
+    </g>
+  </g>
+</svg>

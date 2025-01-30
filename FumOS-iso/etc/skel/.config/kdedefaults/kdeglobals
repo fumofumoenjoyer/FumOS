@@ -1,0 +1,8 @@
+[General]
+ColorScheme=ChromeOSDark
+
+[Icons]
+Theme=Tela-dark
+
+[KDE]
+widgetStyle=kvantum-dark
