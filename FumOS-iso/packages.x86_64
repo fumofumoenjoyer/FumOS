@@ -329,7 +329,7 @@ curl
 dnsutils
 ethtool
 filezilla
-firefox
+#firefox
 gnome-nettool
 inetutils
 iptables-nft
@@ -469,8 +469,17 @@ mkinitcpio-openswap
 # AUR
 downgrade
 trizen
+yay
+librewolf
+vscodium
+vscodium-marketplace
+oh-my-posh-bin
 
 # Nvidia
-nvidia-dkms
+nvidia-open-dkms
 nvidia-settings
 nvidia-utils
+
+# Chaotic aur
+chaotic-keyring
+chaotic-mirrorlist
