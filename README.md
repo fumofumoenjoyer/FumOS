@@ -2,8 +2,9 @@
 FumoFumo inspired Archlinux-based meme distro with [Ezarcher as its base](https://sourceforge.net/projects/ezarch/)
 
 ## Downloads
-I havent made a relase yet, tho if you wanna test it follow the build instructions.
+Sadly i dont have any other way to host this for now
 
+https://drive.google.com/file/d/1OfpgbKrNSVagXR__cppQfgzDrpS85Inc/view?usp=sharing
 
 ## Build Instructions
 Install the [Chaotic AUR repo](https://aur.chaotic.cx/), then clone this repo and run ```steps.sh``` as root on an archlinux compatible machine to build the ISO, it should appear in the ```out``` directory.
