@@ -1,5 +1,6 @@
 # FumOS
 FumoFumo inspired Archlinux-based meme distro with [Ezarcher as its base](https://sourceforge.net/projects/ezarch/)
+
 ## Downloads
 I havent made a relase yet, tho if you wanna test it follow the build instructions.
 
@@ -7,10 +8,19 @@ I havent made a relase yet, tho if you wanna test it follow the build instructio
 ## Build Instructions
 Install the [Chaotic AUR repo](https://aur.chaotic.cx/), then clone this repo and run ```steps.sh``` as root on an archlinux compatible machine to build the ISO, it should appear in the ```out``` directory.
 
+## Known issues
+Sometimes on nvidia gpus it may take up to 5 minutes to load the live environment, i havent found a solution yet
+
+
 ## Recommendations After install
 [Install the CachyOS repos](https://wiki.cachyos.org/features/optimized_repos/)
 
 [Use my .zshrc](https://github.com/fumofumoenjoyer/dotfiles/blob/master/.zshrc) for the custom prompt and fastfetch on startup.
+
+If you use an nvidia GPU install your drivers
+```
+yay -Syyu nvidia-dkms nvidia-settings nvidia-utils lib32-nvidia-utils
+```
 
 ## Screenshots
 ![2025-01-29_14-19](https://github.com/user-attachments/assets/3f35fd19-0652-40b0-946e-54db09a74902)
