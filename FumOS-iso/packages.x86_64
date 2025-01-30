@@ -53,6 +53,7 @@ less
 libfido2
 libusb-compat
 linux-lts
+#linux-cachyos
 linux-atm
 linux-firmware
 linux-firmware-bnx2x
@@ -181,6 +182,7 @@ libisofs
 libisoburn
 libblockdev
 linux-lts-headers
+#linux-cachyos-headers
 logrotate
 lsb-release
 lsof
@@ -308,7 +310,7 @@ xf86-video-amdgpu
 xf86-video-ati
 xf86-video-dummy
 xf86-video-fbdev
-xf86-video-nouveau
+#xf86-video-nouveau
 xf86-video-qxl
 xf86-video-vesa
 xf86-video-vmware
@@ -474,11 +476,6 @@ librewolf
 vscodium
 vscodium-marketplace
 oh-my-posh-bin
-
-# Nvidia
-nvidia-open-dkms
-nvidia-settings
-nvidia-utils
 
 # Chaotic aur
 chaotic-keyring
