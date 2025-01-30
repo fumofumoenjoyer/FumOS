@@ -10,7 +10,7 @@ Install the [Chaotic AUR repo](https://aur.chaotic.cx/), then clone this repo an
 ## Recommendations After install
 [Install the CachyOS repos](https://wiki.cachyos.org/features/optimized_repos/)
 
-[Use my zshrc](https://github.com/fumofumoenjoyer/dotfiles/blob/master/.zshrc) for the custom prompt and fastfetch on startup.
+[Use my .zshrc](https://github.com/fumofumoenjoyer/dotfiles/blob/master/.zshrc) for the custom prompt and fastfetch on startup.
 
 ## Screenshots
 ![2025-01-29_14-19](https://github.com/user-attachments/assets/3f35fd19-0652-40b0-946e-54db09a74902)
