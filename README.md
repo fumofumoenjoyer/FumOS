@@ -15,7 +15,7 @@ FumOS 2025.1 "Cirno" is here!
 
 Sadly i dont have any other way to host this for now
 
-https://drive.google.com/file/d/12081c3vth55C4Xiv9BBXY9iJZa4j2jsY/view?usp=sharing
+https://drive.google.com/file/d/1UVxWFUszL4XVmPXj56frMX6LHkxH76CN/view?usp=sharing
 
 wtf is signature checking, if it doesnt work download it again or build it from source lewl
 
