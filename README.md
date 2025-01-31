@@ -11,6 +11,8 @@ Fumos on Fastfetch
 Custom theme included (not enabled by default)
 
 ## Downloads
+FumOS 2025.1 "Cirno" is here!  
+
 Sadly i dont have any other way to host this for now
 
 https://drive.google.com/file/d/12081c3vth55C4Xiv9BBXY9iJZa4j2jsY/view?usp=sharing
