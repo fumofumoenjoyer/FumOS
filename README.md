@@ -34,7 +34,7 @@ Sadly i cant find a way to enable the custom theme by default, so for the full F
 
 If you use an nvidia GPU install your drivers
 ```
-yay -Syyu nvidia-dkms nvidia-settings nvidia-utils lib32-nvidia-utils
+yay -Syyu nvidia-open-dkms nvidia-settings nvidia-utils lib32-nvidia-utils
 ```
 
 ## Screenshots
