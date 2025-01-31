@@ -362,7 +362,6 @@ noto-fonts
 opendesktop-fonts
 ttf-opensans
 freetype2
-nerd-fonts
 
 # Printing Support
 cups
