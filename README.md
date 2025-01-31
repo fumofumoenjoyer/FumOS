@@ -12,6 +12,7 @@ Install the [Chaotic AUR repo](https://aur.chaotic.cx/), then clone this repo an
 ## Known issues
 Sometimes on nvidia gpus it may take up to 5 minutes to load the live environment, i havent found a solution yet
 
+Sadly i cant find a way to enable the custom theme by default, so for the full FumOS experience, once you install FumOS select one of the "ChromeOS" global themes (yes thats the theme i modified), its not required, but its there if u want it, cirno pops up when you login.
 
 ## Recommendations After install
 [Install the CachyOS repos](https://wiki.cachyos.org/features/optimized_repos/)
