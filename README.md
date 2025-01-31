@@ -1,6 +1,15 @@
 # FumOS
 FumoFumo inspired Archlinux-based meme distro with [Ezarcher as its base](https://sourceforge.net/projects/ezarch/)
 
+## Features
+More private, hardened librewolf web browser thanks to [Vanguard Browser](https://github.com/Michael-Sebero/Vanguard-Browser)
+
+Zsh as the default user shell
+
+Fumos on Fastfetch
+
+Custom theme included (not enabled by default)
+
 ## Downloads
 Sadly i dont have any other way to host this for now
 
