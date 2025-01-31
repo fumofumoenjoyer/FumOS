@@ -8,7 +8,7 @@ Zsh as the default user shell
 
 Fumos on Fastfetch
 
-Custom theme included (not enabled by default)
+Custom theme included (not enabled by default, see the known issues section)
 
 ## Downloads
 FumOS 2025.1 "Cirno" is here!  
