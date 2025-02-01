@@ -1,4 +1,4 @@
-NAME="FumOS Nyarch Linux"
+NAME="FumOS Linux"
 PRETTY_NAME="FumOS Linux"
 ID=arch
 BUILD_ID=rolling
