@@ -8,14 +8,14 @@ Zsh as the default user shell
 
 Fumos on Fastfetch
 
-Custom theme included (not enabled by default, see the known issues section)
+Custom theme included (not enabled on live environment, autoapplies to the user once installed)
 
 ## Downloads
 FumOS 2025.1 "Cirno" is here!  
 
 Sadly i dont have any other way to host this for now
 
-https://drive.google.com/file/d/18z0xQLyGag1JN14jGwVvixo9_hQp4Rvx/view?usp=sharing
+https://drive.google.com/file/d/1xsLMO8pXqr1BiRHbkG821hIvPY-oa2PW/view?usp=sharing
 
 wtf is signature checking, if it doesnt work download it again or build it from source lewl
 
@@ -24,8 +24,6 @@ Install the [Chaotic AUR repo](https://aur.chaotic.cx/), then clone this repo an
 
 ## Known issues
 Sometimes on nvidia gpus it may take up to 5 minutes to load the live environment, i havent found a solution yet
-
-Sadly i cant find a way to enable the custom theme by default, so for the full FumOS experience, once you install FumOS select one of the "ChromeOS" global themes (yes thats the theme i modified), its not required, but its there if u want it, cirno pops up when you login.
 
 ## Recommendations After install
 [Install the CachyOS repos](https://wiki.cachyos.org/features/optimized_repos/)
