@@ -22,7 +22,6 @@ Nvidia ISO:
 
 TBU
 
-wtf is signature checking, if it doesnt work download it again or build it from source lewl
 
 ## Build Instructions
 Install the [Chaotic AUR repo](https://aur.chaotic.cx/), then clone this repo and run ```steps.sh``` as root on an archlinux compatible machine to build the ISO, it should appear in the ```out``` directory.
