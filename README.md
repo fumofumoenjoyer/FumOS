@@ -31,6 +31,7 @@ Sometimes on nvidia gpus it may take up to 5 minutes to load the live environmen
 [Use my .zshrc](https://github.com/fumofumoenjoyer/dotfiles/blob/master/.zshrc) for the custom prompt and fastfetch on startup.
 
 If you use an nvidia GPU install your drivers
+### Warning these commands are for newer GPUs (1600's and 2000's series and newer only) Check the [Archwiki](https://wiki.archlinux.org/title/NVIDIA) to find the adequate packages for your machine.
 ```
 yay -Syyu nvidia-open-dkms nvidia-settings nvidia-utils lib32-nvidia-utils
 ```
