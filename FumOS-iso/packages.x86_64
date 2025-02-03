@@ -32,6 +32,7 @@ espeakup
 ethtool
 exfat-utils
 f2fs-tools
+flatpak
 fatresize
 foot-terminfo
 fsarchiver
@@ -385,6 +386,7 @@ system-config-printer
 
 # KDE
 abiword
+konsole
 accountsservice
 aisleriot
 ark
@@ -414,7 +416,6 @@ meld
 fastfetch
 okular
 oxygen
-packagekit-qt6
 papirus-icon-theme
 pavucontrol-qt
 plasma-browser-integration
