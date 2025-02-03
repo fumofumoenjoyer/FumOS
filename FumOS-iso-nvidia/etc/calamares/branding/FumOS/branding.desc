@@ -1,0 +1,48 @@
+# Ezarcher custom settings
+# SPDX-FileCopyrightText: no
+# SPDX-License-Identifier: CC0-1.0
+#
+# Product branding information
+#
+---
+componentName:  FumOS
+
+welcomeStyleCalamares:   false
+
+welcomeExpandingLogo:   true
+
+windowExpanding:    normal
+
+windowSize: 800px,520px
+
+windowPlacement: center
+
+sidebar: widget
+
+navigation: widget
+
+strings:
+    productName:         "FumOS"
+    shortProductName:    FumOS
+    version:             2025.1 "Cirno"
+    shortVersion:        2025.1
+    versionedName:       FumOS 2025.1 "Cirno"
+    shortVersionedName:  FumOS 2025.1
+    bootloaderEntryName: FumOS
+    productUrl:          https://github.fumofumo.dev
+
+images:
+    productIcon:         "squid.png"
+    productLogo:         "logo.png"
+    productWallpaper:    "wallpaper.png"
+    productWelcome:      "languages.png"
+
+style:
+   SidebarBackground:        "#292F34"
+   SidebarText:              "#FFFFFF"
+   SidebarTextCurrent:       "#292F34"
+   SidebarBackgroundCurrent: "#D35400"
+
+slideshow:               "show.qml"
+
+slideshowAPI: 2

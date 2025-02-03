@@ -1,0 +1,79 @@
+<svg width="22" height="22" version="1.1" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <style id="current-color-scheme" type="text/css">.ColorScheme-Text {
+        color:#dfdfdf;
+      }
+      .ColorScheme-Background {
+        color:#eff0f1;
+      }
+      .ColorScheme-Highlight {
+        color:#3daee9;
+      }
+      .ColorScheme-ViewText {
+        color:#31363b;
+      }
+      .ColorScheme-ViewBackground {
+        color:#fcfcfc;
+      }
+      .ColorScheme-ViewHover {
+        color:#93cee9;
+      }
+      .ColorScheme-ViewFocus{
+        color:#3daee9;
+      }
+      .ColorScheme-ButtonText {
+        color:#31363b;
+      }
+      .ColorScheme-ButtonBackground {
+        color:#eff0f1;
+      }
+      .ColorScheme-ButtonHover {
+        color:#93cee9;
+      }
+      .ColorScheme-ButtonFocus{
+        color:#3daee9;
+      }</style>
+ </defs>
+ <use id="ibus-keyboard" transform="translate(0,35)" width="100%" height="100%" xlink:href="#keyboard-layout"/>
+ <g id="22-22-keyboard-layout" transform="translate(0,-22)">
+  <rect y="22" width="22" height="22" rx="0" ry="0" fill="none"/>
+  <g class="ColorScheme-Text" transform="translate(0,2)" fill="currentColor">
+   <path d="m4 24c-1.662 0-3 1.338-3 3v8c0 1.662 1.338 3 3 3h14c1.662 0 3-1.338 3-3v-8c0-1.662-1.338-3-3-3zm0 2h14c0.554 0 1 0.446 1 1v8c0 0.554-0.446 1-1 1h-14c-0.554 0-1-0.446-1-1v-8c0-0.554 0.446-1 1-1z"/>
+   <circle cx="17" cy="34" r="1"/>
+   <rect x="7" y="33" width="8" height="2" rx="1" ry="1"/>
+   <circle cx="17" cy="31" r="1"/>
+   <circle cx="17" cy="28" r="1"/>
+   <circle cx="14" cy="31" r="1"/>
+   <circle cx="14" cy="28" r="1"/>
+   <circle cx="11" cy="31" r="1"/>
+   <circle cx="11" cy="28" r="1"/>
+   <circle cx="8" cy="31" r="1"/>
+   <circle cx="8" cy="28" r="1"/>
+   <circle cx="5" cy="31" r="1"/>
+   <circle cx="5" cy="28" r="1"/>
+   <circle cx="5" cy="34" r="1"/>
+  </g>
+ </g>
+ <g id="keyboard-layout" transform="translate(30,-39)">
+  <rect y="35" width="32" height="32" rx="0" ry="0" fill="none" stroke-width="1.4546"/>
+  <g class="ColorScheme-Text" fill="currentColor">
+   <rect x="9" y="55" width="14" height="2" rx="1" ry="1" stroke-width="1.0801"/>
+   <circle cx="6" cy="48" r="1" stroke-width=".6875"/>
+   <path d="m5 42c-2.216 0-4 1.784-4 4v12c0 2.216 1.784 4 4 4h22c2.216 0 4-1.784 4-4v-12c0-2.216-1.784-4-4-4zm0 2h22c1.108 0 2 0.892 2 2v12c0 1.108-0.892 2-2 2h-22c-1.108 0-2-0.892-2-2v-12c0-1.108 0.892-2 2-2z"/>
+   <circle cx="10" cy="48" r="1" stroke-width=".6875"/>
+   <circle cx="14" cy="48" r="1" stroke-width=".6875"/>
+   <circle cx="18" cy="48" r="1" stroke-width=".6875"/>
+   <circle cx="22" cy="48" r="1" stroke-width=".6875"/>
+   <circle cx="26" cy="48" r="1" stroke-width=".6875"/>
+   <circle cx="6" cy="52" r="1" stroke-width=".6875"/>
+   <circle cx="10" cy="52" r="1" stroke-width=".6875"/>
+   <circle cx="14" cy="52" r="1" stroke-width=".6875"/>
+   <circle cx="18" cy="52" r="1" stroke-width=".6875"/>
+   <circle cx="22" cy="52" r="1" stroke-width=".6875"/>
+   <circle cx="26" cy="52" r="1" stroke-width=".6875"/>
+   <circle cx="6" cy="56" r="1" stroke-width=".6875"/>
+   <circle cx="26" cy="56" r="1" stroke-width=".6875"/>
+  </g>
+ </g>
+ <use id="22-22-ibus-keyboard" transform="translate(0,37)" width="100%" height="100%" xlink:href="#22-22-keyboard-layout"/>
+</svg>

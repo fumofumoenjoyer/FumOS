@@ -1,0 +1,5 @@
+[FlatpakSources]
+Sources=flathub
+
+[ResourcesModel]
+currentApplicationBackend=flatpak-backend

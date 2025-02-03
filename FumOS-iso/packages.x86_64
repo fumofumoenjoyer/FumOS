@@ -39,7 +39,6 @@ fsarchiver
 gpart
 gpm
 gptfdisk
-grml-zsh-config
 grub
 hdparm
 hyperv
@@ -478,8 +477,6 @@ trizen
 yay
 paru
 librewolf
-vscodium
-vscodium-marketplace
 oh-my-posh-bin
 tela-icon-theme-git
 

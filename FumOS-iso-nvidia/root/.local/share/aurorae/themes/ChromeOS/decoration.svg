@@ -1,0 +1,182 @@
+<svg width="300" height="300" version="1.1" viewBox="0 0 300 300" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <linearGradient id="shadow-active">
+   <stop stop-opacity=".28" offset="0"/>
+   <stop stop-opacity=".13725" offset=".375"/>
+   <stop stop-opacity="0" offset="1"/>
+  </linearGradient>
+  <linearGradient id="shadow-inactive">
+   <stop stop-opacity=".58824" offset="0"/>
+   <stop stop-opacity=".13725" offset=".75"/>
+   <stop stop-opacity="0" offset="1"/>
+  </linearGradient>
+  <linearGradient id="linearGradient1020" x1="253" x2="237" y1="95" y2="95" gradientTransform="matrix(1,0,0,6,0,-435)" gradientUnits="userSpaceOnUse" xlink:href="#shadow-active"/>
+  <linearGradient id="linearGradient1030" x1="242.5" x2="235.75" y1="95" y2="95" gradientTransform="matrix(2.6667 0 0 6 -391.67 -435)" gradientUnits="userSpaceOnUse">
+   <stop stop-opacity=".28" offset="0"/>
+   <stop stop-opacity=".13725" offset=".38889"/>
+   <stop stop-opacity="0" offset="1"/>
+  </linearGradient>
+  <linearGradient id="linearGradient2080" x1="245" x2="239" y1="95" y2="95" gradientTransform="matrix(1,0,0,6,0,-435)" gradientUnits="userSpaceOnUse" xlink:href="#shadow-inactive"/>
+  <linearGradient id="linearGradient2084" x1="242.5" x2="239.5" y1="95" y2="95" gradientTransform="matrix(2.6667 0 0 6 -391.67 -435)" gradientUnits="userSpaceOnUse" xlink:href="#shadow-inactive"/>
+  <radialGradient id="radialGradient1266" cx="259.84" cy="103.43" r="10" gradientTransform="matrix(8.0213e-7 -1.8667 2.4 1.6065e-6 6.7577 585.04)" gradientUnits="userSpaceOnUse" xlink:href="#shadow-active"/>
+  <linearGradient id="linearGradient1494" x1="248" x2="236" y1="95" y2="95" gradientTransform="matrix(2,0,0,6,-241,-435)" gradientUnits="userSpaceOnUse" xlink:href="#shadow-active"/>
+  <linearGradient id="linearGradient2274" x1="248" x2="236" y1="94.333" y2="94.333" gradientTransform="matrix(2 0 0 .69231 -241 35.692)" gradientUnits="userSpaceOnUse" xlink:href="#shadow-active"/>
+  <radialGradient id="radialGradient2494" cx="262.22" cy="93.333" r="10" gradientTransform="matrix(6.8281e-7 -1.6 2.4 1.0242e-6 -132 458.56)" gradientUnits="userSpaceOnUse" xlink:href="#shadow-active"/>
+  <radialGradient id="radialGradient2498" cx="265" cy="93.333" r="10" gradientTransform="matrix(-6.5251e-7 -.8 .7 -5.7095e-7 179.67 312)" gradientUnits="userSpaceOnUse" xlink:href="#shadow-inactive"/>
+  <linearGradient id="linearGradient2500" x1="245" x2="237" y1="95" y2="95" gradientTransform="translate(-145,-345)" gradientUnits="userSpaceOnUse" xlink:href="#shadow-inactive"/>
+  <linearGradient id="linearGradient2502" x1="245" x2="238" y1="95" y2="95" gradientTransform="matrix(1,0,0,6,0,-435)" gradientUnits="userSpaceOnUse" xlink:href="#shadow-inactive"/>
+  <radialGradient id="radialGradient2504" cx="265" cy="93.333" r="10" gradientTransform="matrix(-1.6013e-6 -.6 .7 -1.8682e-6 179.67 249)" gradientUnits="userSpaceOnUse" xlink:href="#shadow-inactive"/>
+  <linearGradient id="linearGradient2506" x1="245" x2="238" y1="95" y2="95" gradientUnits="userSpaceOnUse" xlink:href="#shadow-inactive"/>
+  <linearGradient id="linearGradient2508" x1="245" x2="239" y1="95" y2="95" gradientTransform="translate(-155,-345)" gradientUnits="userSpaceOnUse" xlink:href="#shadow-inactive"/>
+ </defs>
+ <g id="decoration-right" transform="matrix(-1 0 0 1 447 -48)">
+  <rect x="235" y="105" width="20" height="60" opacity="0" stroke-width="2.1909" style="paint-order:stroke fill markers"/>
+  <rect x="229" y="105" width="12" height="60" fill="url(#linearGradient1494)" style="paint-order:stroke fill markers"/>
+  <rect x="241" y="105" width="14" height="60" fill="#244fae" style="paint-order:stroke fill markers"/>
+ </g>
+ <g id="decoration-topleft" transform="translate(-163,-59)">
+  <rect x="235" y="80" width="20" height="20" opacity="0" stroke-width="1.4606" style="paint-order:stroke fill markers"/>
+  <path transform="translate(163,59)" d="m66 21v18h26v-18z" fill="url(#radialGradient2494)" style="paint-order:stroke fill markers"/>
+  <path d="m245 86c-2.216 0-4 1.784-4 4v26h14v-30z" fill="#244fae" style="paint-order:stroke fill markers"/>
+  <rect x="229" y="98" width="12" height="18" fill="url(#linearGradient2274)" style="paint-order:stroke fill markers"/>
+  <path transform="translate(0,-5)" d="m245 91c-2.216 0-4 1.784-4 4v0.71484c0-2.0577 1.784-3.7148 4-3.7148h10v-1z" fill="#fff" opacity=".15" style="paint-order:stroke fill markers"/>
+ </g>
+ <g id="decoration-left" transform="translate(-163,-48)">
+  <rect x="235" y="105" width="20" height="60" opacity="0" stroke-width="2.1909" style="paint-order:stroke fill markers"/>
+  <rect x="229" y="105" width="12" height="60" fill="url(#linearGradient1494)" style="paint-order:stroke fill markers"/>
+  <rect x="241" y="105" width="14" height="60" fill="#244fae" style="paint-order:stroke fill markers"/>
+ </g>
+ <g id="decoration-top" transform="matrix(0 1 -1.6667 0 367 -214)">
+  <rect x="235" y="105" width="20" height="60" opacity="0" stroke-width="2.1909" style="paint-order:stroke fill markers"/>
+  <rect x="235" y="105" width="6" height="60" fill="url(#linearGradient1020)" style="paint-order:stroke fill markers"/>
+  <rect x="241" y="105" width="30" height="60" fill="#244fae" style="paint-order:stroke fill markers"/>
+  <rect x="241" y="105" width="1" height="60" fill="#fff" opacity=".15" style="paint-order:stroke fill markers"/>
+ </g>
+ <use transform="matrix(-1,0,0,1,284,0)" width="100%" height="100%" xlink:href="#g917"/>
+ <use transform="matrix(-1,0,0,1,284,0)" width="100%" height="100%" xlink:href="#g949"/>
+ <rect id="decoration-center" x="92" y="57" width="100" height="60" fill="#244fae" style="paint-order:stroke fill markers"/>
+ <g id="decoration-bottomleft" transform="matrix(1,0,0,-1,-163,217)">
+  <rect x="235" y="80" width="20" height="20" opacity="0" stroke-width="1.4606" style="paint-order:stroke fill markers"/>
+  <path d="m229 100v-20h26v20z" fill="url(#radialGradient1266)" style="paint-order:stroke fill markers"/>
+  <path transform="matrix(1,0,0,-1,163,227)" d="m78 127c0 2.216 1.784 4 4 4h10v-4z" fill="#f5f5f5" style="paint-order:stroke fill markers"/>
+ </g>
+ <g id="decoration-bottom" transform="matrix(0 -1 -1.6667 0 367 372)">
+  <rect x="235" y="105" width="20" height="60" opacity="0" stroke-width="2.1909" style="paint-order:stroke fill markers"/>
+  <rect x="235" y="105" width="16" height="60" fill="url(#linearGradient1030)" style="paint-order:stroke fill markers"/>
+  <rect x="251" y="105" width="4" height="60" fill="#f5f5f5" style="paint-order:stroke fill markers"/>
+ </g>
+ <use transform="matrix(-1,0,0,1,284,0)" width="100%" height="100%" xlink:href="#g969"/>
+ <g id="decoration-topright" transform="matrix(-1 0 0 1 447 -59)">
+  <rect x="235" y="80" width="20" height="20" opacity="0" stroke-width="1.4606" style="paint-order:stroke fill markers"/>
+  <path transform="translate(163,59)" d="m66 21v18h26v-18z" fill="url(#radialGradient2494)" style="paint-order:stroke fill markers"/>
+  <path d="m245 86c-2.216 0-4 1.784-4 4v26h14v-30z" fill="#244fae" style="paint-order:stroke fill markers"/>
+  <rect x="229" y="98" width="12" height="18" fill="url(#linearGradient2274)" style="paint-order:stroke fill markers"/>
+  <path transform="translate(0,-5)" d="m245 91c-2.216 0-4 1.784-4 4v0.71484c0-2.0577 1.784-3.7148 4-3.7148h10v-1z" fill="#fff" opacity=".15" style="paint-order:stroke fill markers"/>
+ </g>
+ <g id="decoration-bottomright" transform="rotate(180,223.5,108.5)">
+  <rect x="235" y="80" width="20" height="20" opacity="0" stroke-width="1.4606" style="paint-order:stroke fill markers"/>
+  <path d="m229 100v-20h26v20z" fill="url(#radialGradient1266)" style="paint-order:stroke fill markers"/>
+  <path transform="matrix(1,0,0,-1,163,227)" d="m78 127c0 2.216 1.784 4 4 4h10v-4z" fill="#f5f5f5" style="paint-order:stroke fill markers"/>
+ </g>
+ <g id="decoration-inactive-topleft" transform="translate(-163 75)">
+  <rect x="235" y="80" width="20" height="20" opacity="0" stroke-width="1.4606" style="paint-order:stroke fill markers"/>
+  <path d="m229 80v10h16v-10z" fill="url(#radialGradient2504)" opacity=".65" style="paint-order:stroke fill markers"/>
+  <path d="m245 86c-2.216 0-4 1.784-4 4v26h14v-30z" fill="#244fae" style="paint-order:stroke fill markers"/>
+  <rect x="229" y="90" width="12" height="26" fill="url(#linearGradient2506)" opacity=".65" style="paint-order:stroke fill markers"/>
+  <rect transform="rotate(90)" x="80" y="-255" width="6" height="10" fill="url(#linearGradient2508)" opacity=".65" style="paint-order:stroke fill markers"/>
+  <path d="m245 86c-2.216 0-4 1.784-4 4v26h14v-30z" opacity=".1" style="paint-order:stroke fill markers"/>
+  <path transform="translate(0,-5)" d="m245 91c-2.216 0-4 1.784-4 4v0.71484c0-2.0577 1.784-3.7148 4-3.7148h10v-1z" fill="#fff" opacity=".1" style="paint-order:stroke fill markers"/>
+ </g>
+ <g id="decoration-inactive-left" transform="translate(-163 86)">
+  <rect x="235" y="105" width="20" height="60" opacity="0" stroke-width="2.1909" style="paint-order:stroke fill markers"/>
+  <rect x="229" y="105" width="12" height="60" fill="url(#linearGradient2502)" opacity=".65" style="paint-order:stroke fill markers"/>
+  <rect x="241" y="105" width="14" height="60" fill="#244fae" style="paint-order:stroke fill markers"/>
+  <rect x="241" y="105" width="14" height="60" opacity=".1" style="paint-order:stroke fill markers"/>
+ </g>
+ <g id="decoration-inactive-top" transform="matrix(0 1 -1.6667 0 367 -80)">
+  <rect x="235" y="105" width="20" height="60" opacity="0" stroke-width="2.1909" style="paint-order:stroke fill markers"/>
+  <rect x="235" y="105" width="6" height="60" fill="url(#linearGradient2080)" opacity=".65" style="paint-order:stroke fill markers"/>
+  <rect x="241" y="105" width="30" height="60" fill="#244fae" style="paint-order:stroke fill markers"/>
+  <rect x="241" y="105" width="30" height="60" opacity=".1" style="paint-order:stroke fill markers"/>
+  <rect x="241" y="105" width="1" height="60" fill="#fff" opacity=".1" style="paint-order:stroke fill markers"/>
+ </g>
+ <g id="decoration-inactive-bottomleft" transform="matrix(1 0 0 -1 -163 351)">
+  <rect x="235" y="80" width="20" height="20" opacity="0" stroke-width="1.4606" style="paint-order:stroke fill markers"/>
+  <path d="m229 80v20h16v-20z" fill="url(#radialGradient2498)" opacity=".65" style="paint-order:stroke fill markers"/>
+  <path d="m245 96c-2.216 0-4 1.784-4 4h14v-4z" fill="#f5f5f5" style="paint-order:stroke fill markers"/>
+  <rect transform="rotate(90)" x="80" y="-255" width="16" height="10" fill="url(#linearGradient2500)" opacity=".65" style="paint-order:stroke fill markers"/>
+ </g>
+ <g id="decoration-inactive-bottom" transform="matrix(0 -1 -1.6667 0 367 506)">
+  <rect x="235" y="105" width="20" height="60" opacity="0" stroke-width="2.1909" style="paint-order:stroke fill markers"/>
+  <rect x="235" y="105" width="16" height="60" fill="url(#linearGradient2084)" opacity=".65" style="paint-order:stroke fill markers"/>
+  <rect x="251" y="105" width="4" height="60" fill="#f5f5f5" style="paint-order:stroke fill markers"/>
+ </g>
+ <g id="decoration-inactive-topright" transform="matrix(-1 0 0 1 447 75)">
+  <rect x="235" y="80" width="20" height="20" opacity="0" stroke-width="1.4606" style="paint-order:stroke fill markers"/>
+  <path d="m229 80v10h16v-10z" fill="url(#radialGradient2504)" opacity=".65" style="paint-order:stroke fill markers"/>
+  <path d="m245 86c-2.216 0-4 1.784-4 4v26h14v-30z" fill="#244fae" style="paint-order:stroke fill markers"/>
+  <rect x="229" y="90" width="12" height="26" fill="url(#linearGradient2506)" opacity=".65" style="paint-order:stroke fill markers"/>
+  <rect transform="rotate(90)" x="80" y="-255" width="6" height="10" fill="url(#linearGradient2508)" opacity=".65" style="paint-order:stroke fill markers"/>
+  <path d="m245 86c-2.216 0-4 1.784-4 4v26h14v-30z" opacity=".1" style="paint-order:stroke fill markers"/>
+  <path transform="translate(0,-5)" d="m245 91c-2.216 0-4 1.784-4 4v0.71484c0-2.0577 1.784-3.7148 4-3.7148h10v-1z" fill="#fff" opacity=".1" style="paint-order:stroke fill markers"/>
+ </g>
+ <g id="decoration-inactive-right" transform="matrix(-1 0 0 1 447 86)">
+  <rect x="235" y="105" width="20" height="60" opacity="0" stroke-width="2.1909" style="paint-order:stroke fill markers"/>
+  <rect x="229" y="105" width="12" height="60" fill="url(#linearGradient2502)" opacity=".65" style="paint-order:stroke fill markers"/>
+  <rect x="241" y="105" width="14" height="60" fill="#244fae" style="paint-order:stroke fill markers"/>
+  <rect x="241" y="105" width="14" height="60" opacity=".1" style="paint-order:stroke fill markers"/>
+ </g>
+ <g id="decoration-inactive-bottomright" transform="rotate(180,223.5,175.5)">
+  <rect x="235" y="80" width="20" height="20" opacity="0" stroke-width="1.4606" style="paint-order:stroke fill markers"/>
+  <path d="m229 80v20h16v-20z" fill="url(#radialGradient2498)" opacity=".65" style="paint-order:stroke fill markers"/>
+  <path d="m245 96c-2.216 0-4 1.784-4 4h14v-4z" fill="#f5f5f5" style="paint-order:stroke fill markers"/>
+  <rect transform="rotate(90)" x="80" y="-255" width="16" height="10" fill="url(#linearGradient2500)" opacity=".65" style="paint-order:stroke fill markers"/>
+ </g>
+ <g id="decoration-inactive-center">
+  <rect id="decoration-inactive-center_" x="92" y="191" width="100" height="60" fill="#244fae" style="paint-order:stroke fill markers"/>
+  <rect x="92" y="191" width="100" height="60" opacity=".1" style="paint-order:stroke fill markers"/>
+ </g>
+ <g id="mask-right" transform="matrix(-1 0 0 1 784.24 -50.729)">
+  <rect x="235" y="105" width="20" height="60" opacity="0" stroke-width="2.1909" style="paint-order:stroke fill markers"/>
+  <rect x="229" y="105" width="12" height="60" fill="none"/>
+  <rect x="241" y="105" width="14" height="60"/>
+ </g>
+ <g id="mask-topleft" transform="translate(174.24 -61.729)">
+  <rect x="235" y="80" width="20" height="20" opacity="0" stroke-width="1.4606" style="paint-order:stroke fill markers"/>
+  <path transform="translate(163,59)" d="m66 21v18h26v-18z" fill="none"/>
+  <path d="m245 86c-2.216 0-4 1.784-4 4v26h14v-30z"/>
+  <rect x="229" y="98" width="12" height="18" fill="none"/>
+ </g>
+ <g id="mask-left" transform="translate(174.24 -50.729)">
+  <rect x="235" y="105" width="20" height="60" opacity="0" stroke-width="2.1909" style="paint-order:stroke fill markers"/>
+  <rect x="229" y="105" width="12" height="60" fill="none"/>
+  <rect x="241" y="105" width="14" height="60"/>
+ </g>
+ <g id="mask-top" transform="matrix(0 1 -1.6667 0 704.24 -216.73)">
+  <rect x="235" y="105" width="20" height="60" opacity="0" stroke-width="2.1909" style="paint-order:stroke fill markers"/>
+  <rect x="235" y="105" width="6" height="60" fill="none"/>
+  <rect x="241" y="105" width="30" height="60"/>
+ </g>
+ <rect id="mask-center" x="429.24" y="54.271" width="100" height="60" stroke-width="3.7795"/>
+ <g id="mask-bottomleft" transform="matrix(1 0 0 -1 174.24 214.27)">
+  <rect x="235" y="80" width="20" height="20" opacity="0" stroke-width="1.4606" style="paint-order:stroke fill markers"/>
+  <path d="m229 100v-20h26v20z" fill="none"/>
+  <path transform="matrix(1,0,0,-1,163,227)" d="m78 127c0 2.216 1.784 4 4 4h10v-4z"/>
+ </g>
+ <g id="mask-bottom" transform="matrix(0 -1 -1.6667 0 704.24 369.27)">
+  <rect x="235" y="105" width="20" height="60" opacity="0" stroke-width="2.1909" style="paint-order:stroke fill markers"/>
+  <rect x="235" y="105" width="16" height="60" fill="none"/>
+  <rect x="251" y="105" width="4" height="60"/>
+ </g>
+ <g id="mask-topright" transform="matrix(-1 0 0 1 784.24 -61.729)">
+  <rect x="235" y="80" width="20" height="20" opacity="0" stroke-width="1.4606" style="paint-order:stroke fill markers"/>
+  <path transform="translate(163,59)" d="m66 21v18h26v-18z" fill="none"/>
+  <path d="m245 86c-2.216 0-4 1.784-4 4v26h14v-30z"/>
+  <rect x="229" y="98" width="12" height="18" fill="none"/>
+ </g>
+ <g id="mask-bottomright" transform="rotate(180 392.12 107.14)">
+  <rect x="235" y="80" width="20" height="20" opacity="0" stroke-width="1.4606" style="paint-order:stroke fill markers"/>
+  <path d="m229 100v-20h26v20z" fill="none"/>
+  <path transform="matrix(1,0,0,-1,163,227)" d="m78 127c0 2.216 1.784 4 4 4h10v-4z"/>
+ </g>
+</svg>
