@@ -25,9 +25,7 @@ Install the [Chaotic AUR repo](https://aur.chaotic.cx/), then clone this repo an
 ## Known issues
 None for now :)
 ## Recommendations After install
-[Install the CachyOS repos](https://wiki.cachyos.org/features/optimized_repos/)
-
-[Use my .zshrc](https://github.com/fumofumoenjoyer/dotfiles/blob/master/.zshrc) for the custom prompt and fastfetch on startup.
+[Use my .zshrc](https://github.com/fumofumoenjoyer/dotfiles/blob/master/.zshrc) for the custom prompt and fastfetch on terminal startup.
 
 If you use an nvidia GPU install your drivers
 ### Warning these packages are for newer GPUs (1600's and 2000's series and newer only) Check the [Archwiki](https://wiki.archlinux.org/title/NVIDIA) to find the adequate packages for your machine.
