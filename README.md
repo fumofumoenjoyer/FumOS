@@ -20,7 +20,7 @@ https://drive.google.com/file/d/169IUJEiLu8PFpS1HUaB7nwguGHxDb81K/view?usp=shari
 Nvidia ISO:
 ### Warning this ISO for newer GPUs (GTX1600's and RTX2000's series and newer only) For Older models use the standard ISO and check the [Archwiki](https://wiki.archlinux.org/title/NVIDIA) to find the adequate packages for your machine.
 
-TBU
+https://drive.google.com/file/d/15tOmGvJ9Jbxh0JkIVy3dDROqCotKX_3e/view?usp=sharing
 
 
 ## Build Instructions
