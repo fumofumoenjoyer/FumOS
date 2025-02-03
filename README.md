@@ -13,9 +13,14 @@ Custom theme included (not enabled on live environment, autoapplies to the user 
 ## Downloads
 FumOS 2025.1 "Cirno" is here!  
 
-Sadly i dont have any other way to host this for now
+Standard ISO:
 
-https://drive.google.com/file/d/1xsLMO8pXqr1BiRHbkG821hIvPY-oa2PW/view?usp=sharing
+https://drive.google.com/file/d/169IUJEiLu8PFpS1HUaB7nwguGHxDb81K/view?usp=sharing
+
+Nvidia ISO:
+### Warning this ISO for newer GPUs (1600's and 2000's series and newer only) For Older models install the standard ISO and check the [Archwiki](https://wiki.archlinux.org/title/NVIDIA) to find the adequate packages for your machine.
+
+TBU
 
 wtf is signature checking, if it doesnt work download it again or build it from source lewl
 
@@ -24,14 +29,6 @@ Install the [Chaotic AUR repo](https://aur.chaotic.cx/), then clone this repo an
 
 ## Known issues
 None for now :)
-## Recommendations After install
-[Use my .zshrc](https://github.com/fumofumoenjoyer/dotfiles/blob/master/.zshrc) for the custom prompt and fastfetch on terminal startup.
-
-If you use an nvidia GPU install your drivers
-### Warning these packages are for newer GPUs (1600's and 2000's series and newer only) Check the [Archwiki](https://wiki.archlinux.org/title/NVIDIA) to find the adequate packages for your machine.
-```
-yay -Syyu nvidia-open-dkms nvidia-settings nvidia-utils lib32-nvidia-utils
-```
 
 ## Screenshots
 ![2025-01-30_11-13](https://github.com/user-attachments/assets/4d209653-9ebf-472f-910b-c964e8dc6d9d)
