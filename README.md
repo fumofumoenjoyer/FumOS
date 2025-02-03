@@ -18,7 +18,7 @@ Standard ISO:
 https://drive.google.com/file/d/169IUJEiLu8PFpS1HUaB7nwguGHxDb81K/view?usp=sharing
 
 Nvidia ISO:
-### Warning this ISO for newer GPUs (1600's and 2000's series and newer only) For Older models install the standard ISO and check the [Archwiki](https://wiki.archlinux.org/title/NVIDIA) to find the adequate packages for your machine.
+### Warning this ISO for newer GPUs (1600's and 2000's series and newer only) For Older models use the standard ISO and check the [Archwiki](https://wiki.archlinux.org/title/NVIDIA) to find the adequate packages for your machine.
 
 TBU
 
