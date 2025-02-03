@@ -23,15 +23,14 @@ wtf is signature checking, if it doesnt work download it again or build it from 
 Install the [Chaotic AUR repo](https://aur.chaotic.cx/), then clone this repo and run ```steps.sh``` as root on an archlinux compatible machine to build the ISO, it should appear in the ```out``` directory.
 
 ## Known issues
-Sometimes on nvidia gpus it may take up to 5 minutes to load the live environment, i havent found a solution yet
-
+None for now :)
 ## Recommendations After install
 [Install the CachyOS repos](https://wiki.cachyos.org/features/optimized_repos/)
 
 [Use my .zshrc](https://github.com/fumofumoenjoyer/dotfiles/blob/master/.zshrc) for the custom prompt and fastfetch on startup.
 
 If you use an nvidia GPU install your drivers
-### Warning these commands are for newer GPUs (1600's and 2000's series and newer only) Check the [Archwiki](https://wiki.archlinux.org/title/NVIDIA) to find the adequate packages for your machine.
+### Warning these packages are for newer GPUs (1600's and 2000's series and newer only) Check the [Archwiki](https://wiki.archlinux.org/title/NVIDIA) to find the adequate packages for your machine.
 ```
 yay -Syyu nvidia-open-dkms nvidia-settings nvidia-utils lib32-nvidia-utils
 ```
