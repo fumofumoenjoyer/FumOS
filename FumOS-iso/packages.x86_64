@@ -483,3 +483,7 @@ tela-icon-theme-git
 # Chaotic aur
 chaotic-keyring
 chaotic-mirrorlist
+
+#FumOS repo
+fumosay
+fumofetch-git

@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # shellcheck disable=SC2034
 
-iso_name="FumOS"
+iso_name="FumOS-nvidia"
 iso_label="FumOS_$(date --date="@${SOURCE_DATE_EPOCH:-$(date +%s)}" +%y%m)"
 iso_publisher="FumOS Linux <https://sourceforge.net/projects/ezarch/>"
 iso_application="FumOS DVD"

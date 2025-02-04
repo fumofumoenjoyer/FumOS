@@ -489,3 +489,7 @@ nvidia-open-dkms
 nvidia-settings
 nvidia-utils
 lib32-nvidia-utils
+
+#FumOS repo
+fumosay
+fumofetch-git
