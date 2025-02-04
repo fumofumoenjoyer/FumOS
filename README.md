@@ -6,7 +6,9 @@ More private, hardened librewolf web browser thanks to [Vanguard Browser](https:
 
 Zsh as the default user shell
 
-Fumos on Fastfetch
+Fumos everywhere! Custom fastfetch with Fumos, Fumosay and Fumofetch preinstalled!
+
+The [FumOS Repo](https://gitlab.com/fumofumoenjoyer/fumos-repo)
 
 Custom theme included and enabled by default
 
