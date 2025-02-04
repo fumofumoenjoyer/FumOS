@@ -33,6 +33,14 @@ sudo pacman-key --init && sudo pacman-key --populate && sudo pacman -Syyu
 ```
 You should also reboot after doing this
 ## Screenshots
-![2025-01-30_11-13](https://github.com/user-attachments/assets/4d209653-9ebf-472f-910b-c964e8dc6d9d)
-![2025-01-30_11-14](https://github.com/user-attachments/assets/2c8ef704-bce4-4a16-8b03-306a7f916936)
-![fumos](https://github.com/user-attachments/assets/bbb5b250-2dfe-4cbb-874e-88d516d2adc2)
+### Desktop
+![2025-02-03_21-07](https://github.com/user-attachments/assets/218ca2dc-a63a-448c-93d3-e73084e038f1)
+### Fastfetch
+![2025-02-03_21-06](https://github.com/user-attachments/assets/94cc5a8c-87bf-4c7a-9c0c-d9a6efc4714d)
+### Splash screen (After login)
+![2025-02-03_21-09](https://github.com/user-attachments/assets/f3ffd74c-5d51-484d-9ad9-f9c65e00e060)
+
+
+
+
+
