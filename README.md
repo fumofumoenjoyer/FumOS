@@ -17,13 +17,12 @@ FumOS 2025.1 "Cirno" is here!
 
 Standard ISO:
 
-https://drive.google.com/file/d/169IUJEiLu8PFpS1HUaB7nwguGHxDb81K/view?usp=sharing
+https://drive.google.com/file/d/1OjHCoCbjTR82mqulanmd5kkn5mImYVSz/view?usp=sharing
 
 Nvidia ISO:
 ### Warning this ISO for newer GPUs (GTX1600's and RTX2000's series and newer only) For Older models use the standard ISO and check the [Archwiki](https://wiki.archlinux.org/title/NVIDIA) to find the adequate packages for your machine.
 
-https://drive.google.com/file/d/15tOmGvJ9Jbxh0JkIVy3dDROqCotKX_3e/view?usp=sharing
-
+https://drive.google.com/file/d/12NHmmloLlNVLzKFzwWM5K06Z9LWMGRog/view?usp=sharing
 
 ## Build Instructions
 Install the [Chaotic AUR repo](https://aur.chaotic.cx/), then clone this repo and run ```steps.sh``` as root on an archlinux compatible machine to build the ISO, it should appear in the ```out``` directory.
