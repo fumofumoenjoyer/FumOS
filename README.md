@@ -31,6 +31,7 @@ You might need to update and/or refresh your keyrings before you can install new
 ```
 sudo pacman-key --init && sudo pacman-key --populate && sudo pacman -Syyu
 ```
+You should also reboot after doing this
 ## Screenshots
 ![2025-01-30_11-13](https://github.com/user-attachments/assets/4d209653-9ebf-472f-910b-c964e8dc6d9d)
 ![2025-01-30_11-14](https://github.com/user-attachments/assets/2c8ef704-bce4-4a16-8b03-306a7f916936)
