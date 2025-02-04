@@ -22,7 +22,7 @@ https://drive.google.com/file/d/1f_c3CnVZ49cXDq8x1mRbevMr0N9kLFuJ/view?usp=shari
 Nvidia ISO:
 ### Warning this ISO for newer GPUs (GTX1600's and RTX2000's series and newer) only, For Older models use the standard ISO and check the [Archwiki](https://wiki.archlinux.org/title/NVIDIA) to find the adequate packages for your machine.
 
-https://drive.google.com/file/d/1rWzMc3odwHr2XLsyDPt8wy7cU07nrDWH/view?usp=sharing
+https://drive.google.com/file/d/1RkgHPjMYCSNWq_zUEsvWsZbZvRaJ0RrG/view?usp=sharing
 
 ## Build Instructions
 Install the [Chaotic AUR repo](https://aur.chaotic.cx/), then clone this repo and run ```steps.sh``` as root on an archlinux compatible machine to build the ISO, it should appear in the ```out``` directory.
