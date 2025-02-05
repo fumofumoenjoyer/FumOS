@@ -27,7 +27,7 @@ https://drive.google.com/file/d/1RkgHPjMYCSNWq_zUEsvWsZbZvRaJ0RrG/view?usp=shari
 ## Build Instructions
 Install the [Chaotic AUR repo](https://aur.chaotic.cx/), then clone this repo and run ```steps.sh``` as root on an archlinux compatible machine to build the ISO, it should appear in the ```out``` directory.
 
-## Known issues
+## Recommendations after install
 You should update and refresh your keyrings before you can install new packages, you can do that with this command:
 ```
 sudo pacman-key --init && sudo pacman-key --populate && yay -Syyu
