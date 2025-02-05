@@ -30,7 +30,7 @@ Install the [Chaotic AUR repo](https://aur.chaotic.cx/), then clone this repo an
 ## Known issues
 You should update and refresh your keyrings before you can install new packages, you can do that with this command:
 ```
-sudo pacman-key --init && sudo pacman-key --populate && sudo pacman -Syyu
+sudo pacman-key --init && sudo pacman-key --populate && yay -Syyu
 ```
 You should also reboot after doing this
 ## Screenshots
