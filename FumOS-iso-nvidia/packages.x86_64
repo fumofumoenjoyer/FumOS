@@ -121,7 +121,7 @@ udftools
 usb_modeswitch
 usbmuxd
 usbutils
-vim
+neovim
 virtualbox-guest-utils
 vpnc
 wireless-regdb
@@ -384,7 +384,7 @@ simple-scan
 system-config-printer
 
 # KDE
-abiword
+partitionmanager
 konsole
 accountsservice
 aisleriot
@@ -479,6 +479,7 @@ paru
 librewolf
 oh-my-posh-bin
 tela-icon-theme-git
+pamac
 
 # Chaotic aur
 chaotic-keyring
