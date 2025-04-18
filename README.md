@@ -4,9 +4,9 @@ FumoFumo inspired Archlinux-based meme distro with [Ezarcher as its base](https:
 ## Features
 More private, hardened librewolf web browser thanks to [Vanguard Browser](https://github.com/Michael-Sebero/Vanguard-Browser)
 
-Zsh as the default user shell
+Nushell as the default user shell
 
-Fumos everywhere! Custom fastfetch with Fumos, Fumosay and Fumofetch preinstalled!
+Fumos everywhere! Custom fastfetch with Fumos, Fumosay, Gensoquote and Fumofetch preinstalled!
 
 The [FumOS Repo](https://gitlab.com/fumofumoenjoyer/fumos-repo)
 
