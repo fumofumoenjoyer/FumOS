@@ -15,6 +15,7 @@ brltty
 broadcom-wl-dkms
 btrfs-progs
 clonezilla
+nushell
 cryptsetup
 darkhttpd
 ddrescue
@@ -33,6 +34,7 @@ ethtool
 exfat-utils
 f2fs-tools
 flatpak
+lolcat
 fatresize
 foot-terminfo
 fsarchiver
@@ -480,6 +482,7 @@ librewolf
 oh-my-posh-bin
 tela-icon-theme-git
 pamac
+brave-bin
 
 # Chaotic aur
 chaotic-keyring
@@ -488,3 +491,4 @@ chaotic-mirrorlist
 #FumOS repo
 fumosay
 fumofetch-git
+gensoquote-git

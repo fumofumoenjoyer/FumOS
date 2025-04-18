@@ -15,6 +15,7 @@ brltty
 broadcom-wl-dkms
 btrfs-progs
 clonezilla
+nushell
 cryptsetup
 darkhttpd
 ddrescue
@@ -26,6 +27,7 @@ dmraid
 dnsmasq
 dosfstools
 e2fsprogs
+lolcat
 edk2-shell
 efibootmgr
 espeakup
@@ -480,6 +482,7 @@ librewolf
 oh-my-posh-bin
 tela-icon-theme-git
 pamac
+brave-bin
 
 # Chaotic aur
 chaotic-keyring
@@ -494,3 +497,4 @@ lib32-nvidia-utils
 #FumOS repo
 fumosay
 fumofetch-git
+gensoquote-git
