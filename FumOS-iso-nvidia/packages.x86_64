@@ -434,7 +434,6 @@ sweeper
 flameshot
 xdg-desktop-portal-kde
 xsettingsd
-xwaylandvideobridge
 
 # Display Manager
 sddm
