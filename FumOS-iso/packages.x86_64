@@ -468,7 +468,7 @@ solid
 yaml-cpp
 
 # Calamares
-calamares-garuda
+calamares
 ckbcomp
 mkinitcpio-openswap
 
