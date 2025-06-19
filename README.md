@@ -2,9 +2,7 @@
 FumoFumo inspired Archlinux-based meme distro with [Ezarcher as its base](https://sourceforge.net/projects/ezarch/)
 
 ## Features
-More private, hardened librewolf web browser thanks to [Vanguard Browser](https://github.com/Michael-Sebero/Vanguard-Browser)
-
-Nushell as the default user shell
+Zsh as the default user shell
 
 Fumos everywhere! Custom fastfetch with Fumos, Fumosay, Gensoquote and Fumofetch preinstalled!
 
@@ -17,7 +15,7 @@ FumOS 2025.1 "Cirno" is here!
 
 Standard ISO:
 
-https://drive.google.com/file/d/1c_-y3PMCH5R6IUVv8uf3dycgPC8RDC1k/view?usp=sharing
+[https://drive.google.com/file/d/1c_-y3PMCH5R6IUVv8uf3dycgPC8RDC1k/view?usp=sharing](https://drive.google.com/file/d/1VQzNtrONWiVGNnPqNW_pq_6-meS3J_NL/view?usp=sharing)
 
 ## Build Instructions
 Install the [Chaotic AUR repo](https://aur.chaotic.cx/), then clone this repo and run ```steps.sh``` as root on an archlinux compatible machine to build the ISO, it should appear in the ```out``` directory.
