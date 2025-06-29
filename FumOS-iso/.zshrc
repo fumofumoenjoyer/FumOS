@@ -15,8 +15,11 @@ compinit
 #prompt
 eval "$(oh-my-posh init zsh --config '~/prompt.json')"
 
+export PATH=$PATH:~/.cargo/bin/
 
-fastfetch
 source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
+clear
+fastfetch
+
 
