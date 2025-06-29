@@ -30,9 +30,7 @@ sudo grub-mkconfig -o /boot/grub/grub.cfg
 
 cd
 
-flatpak install sober
 flatpak install vesktop
-flatpak install stremio
 flatpak install flatseal
 
 cd
