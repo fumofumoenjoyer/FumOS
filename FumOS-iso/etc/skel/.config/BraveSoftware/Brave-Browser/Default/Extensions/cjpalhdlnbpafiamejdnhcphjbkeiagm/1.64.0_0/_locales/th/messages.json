@@ -1,0 +1,1314 @@
+{
+   "1pApplyChanges": {
+      "description": "English: Apply changes",
+      "message": "นำไปใช้"
+   },
+   "1pEnableMyFiltersLabel": {
+      "description": "Label for the checkbox use to enable/disable 'My filters' list",
+      "message": "เปิดใช้งานการปรับแต่งตัวกรองของฉัน"
+   },
+   "1pExport": {
+      "description": "Button in the 'My filters' pane",
+      "message": "ส่งออก"
+   },
+   "1pExportFilename": {
+      "description": "English: my-ublock-static-filters_{{datetime}}.txt",
+      "message": "my-ublock-static-filters_{{datetime}}.txt"
+   },
+   "1pImport": {
+      "description": "Button in the 'My filters' pane",
+      "message": "นำเข้าและเพิ่มต่อท้าย…"
+   },
+   "1pPageName": {
+      "description": "appears as tab name in dashboard",
+      "message": "ตัวกรองของฉัน"
+   },
+   "1pTrustMyFiltersLabel": {
+      "description": "Label for the checkbox use to trust the content of 'My filters' list",
+      "message": "อนุญาตการปรับแต่งตัวกรองที่ต้องมีความน่าเชื่อถือ"
+   },
+   "1pTrustWarning": {
+      "description": "Warning against copy-pasting filters from random sources",
+      "message": "ไม่อนุญาตให้เพิ่มตัวกรองจากแหล่งที่มาที่ไม่น่าเชื่อถือ"
+   },
+   "3pApplyChanges": {
+      "description": "English: Apply changes",
+      "message": "Apply changes"
+   },
+   "3pAutoUpdatePrompt1": {
+      "description": "A checkbox in the _3rd-party filters_ pane",
+      "message": "อัปเดตรายการตัวกรองอัตโนมัติ"
+   },
+   "3pExternalListObsolete": {
+      "description": "used as a tooltip for the out-of-date icon beside a list",
+      "message": "ล้าสมัย"
+   },
+   "3pExternalListsHint": {
+      "description": "Short information about how to use the textarea to import external filter lists by URL",
+      "message": "หนึ่ง URL ต่อบรรทัด URL ที่ไม่ถูกต้องจะถูกละเว้น"
+   },
+   "3pGroupAds": {
+      "description": "Filter lists section name",
+      "message": "โฆษณา"
+   },
+   "3pGroupAnnoyances": {
+      "description": "Filter lists section name",
+      "message": "Annoyances"
+   },
+   "3pGroupCookies": {
+      "description": "Filter lists section name",
+      "message": "คำประกาศการใช้คุ้กกี้"
+   },
+   "3pGroupCustom": {
+      "description": "Filter lists section name",
+      "message": "กำหนดเอง"
+   },
+   "3pGroupDefault": {
+      "description": "Filter lists section name",
+      "message": "Built-in"
+   },
+   "3pGroupMalware": {
+      "description": "Filter lists section name",
+      "message": "Malware domains"
+   },
+   "3pGroupMultipurpose": {
+      "description": "Filter lists section name",
+      "message": "Multipurpose"
+   },
+   "3pGroupPrivacy": {
+      "description": "Filter lists section name",
+      "message": "ความเป็นส่วนตัว"
+   },
+   "3pGroupRegions": {
+      "description": "Filter lists section name",
+      "message": "ภูมิภาค, ภาษา"
+   },
+   "3pGroupSocial": {
+      "description": "Filter lists section name",
+      "message": "วิดเจ็ตโซเชียล"
+   },
+   "3pIgnoreGenericCosmeticFilters": {
+      "description": "This will cause uBO to ignore all generic cosmetic filters.",
+      "message": "Ignore generic cosmetic filters"
+   },
+   "3pIgnoreGenericCosmeticFiltersInfo": {
+      "description": "Describes the purpose of the 'Ignore generic cosmetic filters' feature.",
+      "message": "Generic cosmetic filters are those cosmetic filters which are meant to apply on all web sites. Enabling this option will eliminate the memory and CPU overhead added to web pages as a result of handling generic cosmetic filters.\n\nIt is recommended to enable this option on less powerful devices."
+   },
+   "3pImport": {
+      "description": "The label for the checkbox used to import external filter lists",
+      "message": "นำเข้า..."
+   },
+   "3pLastUpdate": {
+      "description": "used as a tooltip for the clock icon beside a list",
+      "message": "อัพเดตล่าสุด: {{ago}}"
+   },
+   "3pListsOfBlockedHostsHeader": {
+      "description": "English: Lists of blocked hosts",
+      "message": "Lists of blocked hosts"
+   },
+   "3pListsOfBlockedHostsPerListStats": {
+      "description": "Appears aside each filter list in the _3rd-party filters_ pane",
+      "message": "{{used}} ใช้ไปแล้วจาก {{total}}"
+   },
+   "3pListsOfBlockedHostsPrompt": {
+      "description": "Appears at the top of the _3rd-party filters_ pane",
+      "message": "{{netFilterCount}} ตัวกรองเครือข่าย ＋ {{cosmeticFilterCount}} ตกแต่งตัวกรองจาก:"
+   },
+   "3pNetworkError": {
+      "description": "used as a tooltip for error icon beside a list",
+      "message": "ความผิดพลาดของเครือข่ายขวางกั้นการอัปเดต"
+   },
+   "3pPageName": {
+      "description": "appears as tab name in dashboard",
+      "message": "รายการตัวกรอง"
+   },
+   "3pParseAllABPHideFiltersInfo": {
+      "description": "Describes the purpose of the 'Parse and enforce cosmetic filters' feature.",
+      "message": "ฟิลเตอร์ตกแต่งทำหน้าที่ซ่อนองค์ประกอบในหน้าเว็บซึ่งถือว่าเป็นภาพที่รบกวนสายตา และไม่สามารถบล็อกได้โดยกลไกการกรองตามคำขอของเครือข่าย"
+   },
+   "3pParseAllABPHideFiltersPrompt1": {
+      "description": "English: Parse and enforce Adblock+ element hiding filters.",
+      "message": "แยกวิเคราะห์และบังคับใช้ฟิลเตอร์ตกแต่ง"
+   },
+   "3pPurgeAll": {
+      "description": "A button in the in the _3rd-party filters_ pane",
+      "message": "ล้างแคชทั้งหมด"
+   },
+   "3pSuspendUntilListsAreLoaded": {
+      "description": "A checkbox in the 'Filter lists' pane",
+      "message": "ระงับกิจกรรมเครือข่ายจนกว่าจะโหลดรายการตัวกรองทั้งหมด"
+   },
+   "3pUpdateNow": {
+      "description": "A button in the in the _3rd-party filters_ pane",
+      "message": "อัปเดตเดี๋ยวนี้"
+   },
+   "3pUpdating": {
+      "description": "used as a tooltip for the spinner icon beside a list",
+      "message": "กำลังอัปเดต..."
+   },
+   "3pViewContent": {
+      "description": "used as a tooltip for eye icon beside a list",
+      "message": "view content"
+   },
+   "GB": {
+      "description": "short for 'gigabytes'",
+      "message": "GB"
+   },
+   "KB": {
+      "description": "short for 'kilobytes'",
+      "message": "กิโลไบต์"
+   },
+   "MB": {
+      "description": "short for 'megabytes'",
+      "message": "เมกะไบต์"
+   },
+   "aboutBackupDataButton": {
+      "description": "Text for button to create a backup of all settings",
+      "message": "แบ็กอัพไปยังไฟล์…"
+   },
+   "aboutBackupFilename": {
+      "description": "English: my-ublock-backup_{{datetime}}.txt",
+      "message": "my-ublock-backup_{{datetime}}.txt"
+   },
+   "aboutCDNs": {
+      "description": "Shown in the About pane",
+      "message": "uBO's ถือครองรายการตัวกรองที่เก็บไว้ที่ \u003Ca href=\"https://wikipedia.org/wiki/Content_delivery_network\">CDNs\u003C/a>:"
+   },
+   "aboutCDNsInfo": {
+      "description": "Shown in the About pane",
+      "message": "CDN ที่สุ่มเลือกจะถูกใช้เมื่อจำเป็นต้องอัปเดตรายการตัวกรอง"
+   },
+   "aboutChangelog": {
+      "description": "",
+      "message": "บันทึกการเปลี่ยนแปลง"
+   },
+   "aboutCode": {
+      "description": "English: Source code (GPLv3)",
+      "message": "ซอร์สโค้ด (GPLv3)"
+   },
+   "aboutContributors": {
+      "description": "English: Contributors",
+      "message": "ผู้ร่วมพัฒนา"
+   },
+   "aboutDependencies": {
+      "description": "Shown in the About pane",
+      "message": "External dependencies (GPLv3-compatible):"
+   },
+   "aboutFilterLists": {
+      "description": "Link text to uBO's own filter lists repo",
+      "message": "รายการตัวกรอง"
+   },
+   "aboutPageName": {
+      "description": "appears as tab name in dashboard",
+      "message": "เกี่ยวกับ"
+   },
+   "aboutPrivacyPolicy": {
+      "description": "Link to privacy policy on GitHub (English)",
+      "message": "นโยบายความเป็นส่วนตัว"
+   },
+   "aboutResetDataButton": {
+      "description": "English: Reset to default settings...",
+      "message": "ปรับเป็นการตั้งค่าเริ่มต้น"
+   },
+   "aboutResetDataConfirm": {
+      "description": "Message asking user to confirm reset",
+      "message": "การตั้งค่าทั้งหมดของคุณจะถูกลบทิ้ง และ uBlock₀ จะรีสตาร์ท\n\nรีเซ็ต uBlock₀ เป็นค่าเริ่มต้นโรงงาน?"
+   },
+   "aboutRestoreDataButton": {
+      "description": "English: Restore from file...",
+      "message": "คืนค่าจากไฟล์…"
+   },
+   "aboutRestoreDataConfirm": {
+      "description": "Message asking user to confirm restore",
+      "message": "การตั้งค่าทั้งหมดของคุณจะถูกเขียนทับโดยใช้ข้อมูลที่แบ็กอัพไว้บน {{time}} และ uBlock₀ จะรีสตาร์ท\n\nเขียนทับการตั้งค่าทั้งหมดด้วยข้อมูลที่แบ็กอัพหรือไม่?"
+   },
+   "aboutRestoreDataError": {
+      "description": "Message to display when an error occurred during restore",
+      "message": "ไม่สามารถอ่านข้อมูลได้หรือข้อมูลไม่ถูกต้อง"
+   },
+   "aboutSourceCode": {
+      "description": "Link text to source code repo",
+      "message": "ซอร์สโค้ด"
+   },
+   "aboutTranslations": {
+      "description": "Link text to translations repo",
+      "message": "การแปลภาษา"
+   },
+   "advancedSettingsPageName": {
+      "description": "Title for the advanced settings page",
+      "message": "การตั้งค่าขั้นสูง"
+   },
+   "advancedSettingsWarning": {
+      "description": "A warning to users at the top of 'Advanced settings' page",
+      "message": "คำเตือน! ปรับเปลี่ยนการตั้งค่าขั้นสูงเหล่านี้ด้วยความระมัดระวัง"
+   },
+   "assetViewerPageName": {
+      "description": "Title for the asset viewer page",
+      "message": "uBlock₀ — โปรแกรมดูสิ่งที่ถือครอง"
+   },
+   "clickToLoad": {
+      "description": "Message used in frame placeholders",
+      "message": "คลิกเพื่อโหลด"
+   },
+   "cloudDeviceNamePrompt": {
+      "description": "used as a prompt for the user to provide a custom device name",
+      "message": "ชื่ออุปกรณ์นี้:"
+   },
+   "cloudNoData": {
+      "description": "",
+      "message": "…\n…"
+   },
+   "cloudPull": {
+      "description": "tooltip",
+      "message": "นำเข้าจากที่เก็บบนคลาวด์"
+   },
+   "cloudPullAndMerge": {
+      "description": "tooltip",
+      "message": "นำเข้าจากที่เก็บบนคลาวด์และผสานเข้ากับการตั้งค่าปัจจุบัน"
+   },
+   "cloudPush": {
+      "description": "tooltip",
+      "message": "ส่งออกไปที่เก็บบนคลาวด์"
+   },
+   "contextMenuBlockElementInFrame": {
+      "description": "An entry in the browser's contextual menu",
+      "message": "บล๊อกองค์ประกอบในเฟรม…"
+   },
+   "contextMenuSubscribeToList": {
+      "description": "An entry in the browser's contextual menu",
+      "message": "สมัครรับรายชื่อตัวกรอง..."
+   },
+   "contextMenuTemporarilyAllowLargeMediaElements": {
+      "description": "A context menu entry, present when large media elements have been blocked on the current site",
+      "message": "อนุญาตองค์ประกอบชนิด Media ขนาดใหญ่ชั่วคราว"
+   },
+   "contextMenuViewSource": {
+      "description": "A context menu entry, to view the source code of the target resource",
+      "message": "ดูต้นฉบับ"
+   },
+   "dashboardName": {
+      "description": "English: uBlock₀ — Dashboard",
+      "message": "uBlock₀ — หน้าหลัก"
+   },
+   "dashboardUnsavedWarning": {
+      "description": "A warning in the dashboard when navigating away from unsaved changes",
+      "message": "คำเตือน! คุณมีการเปลี่ยนแปลงที่ยังไม่ได้บันทึก"
+   },
+   "dashboardUnsavedWarningIgnore": {
+      "description": "Label for button to ignore unsaved changes",
+      "message": "ไม่สนใจ"
+   },
+   "dashboardUnsavedWarningStay": {
+      "description": "Label for button to prevent navigating away from unsaved changes",
+      "message": "อยู่ต่อ"
+   },
+   "docblockedBack": {
+      "description": "English: Go back",
+      "message": "ย้อนกลับ"
+   },
+   "docblockedClose": {
+      "description": "English: Close this window",
+      "message": "ปิดหน้าต่างนี้"
+   },
+   "docblockedDisable": {
+      "description": "Button text to navigate to the blocked page",
+      "message": "ดำเนินการ"
+   },
+   "docblockedDisablePermanent": {
+      "description": "English: Permanently",
+      "message": "ถาวร"
+   },
+   "docblockedDisableTemporary": {
+      "description": "English: Temporarily",
+      "message": "ชั่วคราว"
+   },
+   "docblockedDontWarn": {
+      "description": "Label for checkbox in document-blocked page",
+      "message": "ไม่ต้องแจ้งเตือนอีกเกี่ยวกับเว็บไซต์นี้"
+   },
+   "docblockedFoundIn": {
+      "description": "English: List of filter list names follows",
+      "message": "พบใน:"
+   },
+   "docblockedNoParamsPrompt": {
+      "description": "label to be used for the parameter-less URL: https://cloud.githubusercontent.com/assets/585534/9832014/bfb1b8f0-593b-11e5-8a27-fba472a5529a.png",
+      "message": "ไม่ระบุพารามิเตอร์"
+   },
+   "docblockedProceed": {
+      "description": "English: Disable strict blocking for {{hostname}} ...",
+      "message": "ปิดใช้งานการปิดกั้นสำหรับ {{hostname}}"
+   },
+   "docblockedPrompt1": {
+      "description": "Used in the strict-blocking page",
+      "message": "uBlock Origin ป้องกันไม่ให้โหลดหน้าต่อไปนี้:"
+   },
+   "docblockedPrompt2": {
+      "description": "Used in the strict-blocking page",
+      "message": "เนื่องจากตัวกรองดังต่อไปนี้"
+   },
+   "docblockedRedirectPrompt": {
+      "description": "Text warning about an incoming redirect",
+      "message": "เว็บเพจที่บล๊อกต้องการเด้งไปเว็บไซต์อื่น หากคุณต้องการดำเนินการต่อ คุณจะถูกนำทางโดยตรงไปที่: {{url}}"
+   },
+   "docblockedTitle": {
+      "description": "Used as a title for the document-blocked page",
+      "message": "เพจถูกบล็อค"
+   },
+   "dummy": {
+      "description": "so we dont need to deal with comma for last entry",
+      "message": "This entry must be the last one"
+   },
+   "elapsedManyDaysAgo": {
+      "description": "English: {{value}} days ago",
+      "message": "{{value}} วันที่แล้ว"
+   },
+   "elapsedManyHoursAgo": {
+      "description": "English: {{value}} hours ago",
+      "message": "{{value}} ชั่วโมงที่แล้ว"
+   },
+   "elapsedManyMinutesAgo": {
+      "description": "English: {{value}} minutes ago",
+      "message": "{{value}} นาทีที่แล้ว"
+   },
+   "elapsedOneDayAgo": {
+      "description": "English: a day ago",
+      "message": "เมื่อวันก่อน"
+   },
+   "elapsedOneHourAgo": {
+      "description": "English: an hour ago",
+      "message": "เมื่อชั่วโมงที่แล้ว"
+   },
+   "elapsedOneMinuteAgo": {
+      "description": "English: a minute ago",
+      "message": "เมื่อนาทีที่แล้ว"
+   },
+   "errorCantConnectTo": {
+      "description": "English: Network error: {{msg}}",
+      "message": "เครือข่ายผิดพลาด: {{msg}}"
+   },
+   "extName": {
+      "description": "extension name.",
+      "message": "uBlock Origin"
+   },
+   "extShortDesc": {
+      "description": "this will be in the Chrome web store: must be 132 characters or less",
+      "message": "มาแล้ว! โปรแกรมบล็อกโฆษณาได้อย่างมีประสิทธิภาพ โดยที่ไม่กินซีพียูหรือแรม"
+   },
+   "fennecMenuItemBlockingOff": {
+      "description": "Firefox-specific: appears as 'uBlock₀ (off)'",
+      "message": "ปิด"
+   },
+   "genericApplyChanges": {
+      "description": "for generic 'Apply changes' buttons",
+      "message": "ใช้การเปลี่ยนแปลง"
+   },
+   "genericBytes": {
+      "description": "",
+      "message": "ไบต์"
+   },
+   "genericCopyToClipboard": {
+      "description": "Label for buttons used to copy something to the clipboard",
+      "message": "คัดลอกไปยังคลิปบอร์ด"
+   },
+   "genericMergeViewScrollLock": {
+      "description": "Tooltip for the button used to lock scrolling between the views in the 'My rules' pane",
+      "message": "สลับการล็อกการเลื่อน"
+   },
+   "genericRevert": {
+      "description": "for generic 'Revert' buttons",
+      "message": "คืนค่ากลับ"
+   },
+   "genericSelectAll": {
+      "description": "Label for buttons used to select all text in editor",
+      "message": "เลือกทั้งหมด"
+   },
+   "genericSubmit": {
+      "description": "for generic 'Submit' buttons",
+      "message": "ยืนยัน"
+   },
+   "linterMainReport": {
+      "description": "Summary of number of errors as reported by the linter ",
+      "message": "ข้อผิดพลาด: {{count}}"
+   },
+   "logAll": {
+      "description": "Appears in the logger's tab selector",
+      "message": "ทั้งหมด"
+   },
+   "logBehindTheScene": {
+      "description": "Pretty name for behind-the-scene network requests",
+      "message": "ตาราง"
+   },
+   "logFilterPrompt": {
+      "description": "Placeholder string for logger output filtering input field",
+      "message": "ตัวกรองเนื้อหาบันทึก"
+   },
+   "logRequestsHeaderDomain": {
+      "description": "English: Domain",
+      "message": "โดเมน"
+   },
+   "logRequestsHeaderFilter": {
+      "description": "English: Filter",
+      "message": "ตัวกรอง"
+   },
+   "logRequestsHeaderType": {
+      "description": "English: Type",
+      "message": "ประเภท"
+   },
+   "logRequestsHeaderURL": {
+      "description": "English: URL",
+      "message": "URL"
+   },
+   "loggerClearTip": {
+      "description": "Tooltip for the eraser in the logger page; used to blank the content of the logger",
+      "message": "ล้างบันทึก"
+   },
+   "loggerCurrentTab": {
+      "description": "Appears in the logger's tab selector",
+      "message": "แท็บปัจจุบัน"
+   },
+   "loggerDomInspectorTip": {
+      "description": "Tooltip for the DOM inspector button in the logger page",
+      "message": "สลับตัวตรวจสอบ DOM"
+   },
+   "loggerEntryDetailsContext": {
+      "description": "Label to identify a context field (typically a hostname)",
+      "message": "บริบท"
+   },
+   "loggerEntryDetailsFilter": {
+      "description": "Label to identify a filter field",
+      "message": "ตัวกรอง"
+   },
+   "loggerEntryDetailsFilterList": {
+      "description": "Label to identify a filter list field",
+      "message": "รายการตัวกรอง"
+   },
+   "loggerEntryDetailsHeader": {
+      "description": "Small header to identify the 'Details' pane for a specific logger entry",
+      "message": "รายละเอียด"
+   },
+   "loggerEntryDetailsPartyness": {
+      "description": "Label to identify a field providing partyness information",
+      "message": "การรวมกลุ่ม"
+   },
+   "loggerEntryDetailsRootContext": {
+      "description": "Label to identify a root context field (typically a hostname)",
+      "message": "ปฐมบท"
+   },
+   "loggerEntryDetailsRule": {
+      "description": "Label to identify a rule field",
+      "message": "กฎ"
+   },
+   "loggerEntryDetailsType": {
+      "description": "Label to identify the type of an entry",
+      "message": "ประเภท"
+   },
+   "loggerEntryDetailsURL": {
+      "description": "Label to identify the URL of an entry",
+      "message": "URL"
+   },
+   "loggerExportEncodeMarkdown": {
+      "description": "Label for radio-button to pick export text format",
+      "message": "ทำเครื่องหมายลง"
+   },
+   "loggerExportEncodePlain": {
+      "description": "Label for radio-button to pick export text format",
+      "message": "ธรรมดา"
+   },
+   "loggerExportFormatList": {
+      "description": "Label for radio-button to pick export format",
+      "message": "รายการ"
+   },
+   "loggerExportFormatTable": {
+      "description": "Label for radio-button to pick export format",
+      "message": "ตาราง"
+   },
+   "loggerInfoTip": {
+      "description": "Tooltip for the top-right info label in the logger page",
+      "message": "uBlock Origin wiki: ตัวลงบันทึก"
+   },
+   "loggerPauseTip": {
+      "description": "Tooltip for the pause button in the logger page",
+      "message": "หยุดการบันทึก Log (ลบทิ้งทั้งหมด)"
+   },
+   "loggerPopupPanelTip": {
+      "description": "Tooltip for the popup panel button in the logger page",
+      "message": "สลับแผงป๊อปอัป"
+   },
+   "loggerReloadTip": {
+      "description": "Tooltip for the reload button in the logger page",
+      "message": "โหลดเนื้อหาแท็บปัจจุบันใหม่"
+   },
+   "loggerRowFiltererBuiltin1p": {
+      "description": "A keyword in the built-in row filtering expression",
+      "message": "ฝ่ายที่ 1"
+   },
+   "loggerRowFiltererBuiltin3p": {
+      "description": "A keyword in the built-in row filtering expression",
+      "message": "บุคคลที่ 3"
+   },
+   "loggerRowFiltererBuiltinAllowed": {
+      "description": "A keyword in the built-in row filtering expression",
+      "message": "อนุญาต"
+   },
+   "loggerRowFiltererBuiltinBlocked": {
+      "description": "A keyword in the built-in row filtering expression",
+      "message": "บล๊อกอยู่"
+   },
+   "loggerRowFiltererBuiltinEventful": {
+      "description": "A keyword in the built-in row filtering expression: all items corresponding to uBO doing something (blocked, allowed, redirected, etc.)",
+      "message": "eventful"
+   },
+   "loggerRowFiltererBuiltinModified": {
+      "description": "A keyword in the built-in row filtering expression",
+      "message": "แก้ไขแล้ว"
+   },
+   "loggerRowFiltererBuiltinNot": {
+      "description": "A keyword in the built-in row filtering expression",
+      "message": "ไม่"
+   },
+   "loggerRowFiltererBuiltinTip": {
+      "description": "Tooltip for the button to bring up logger output filtering options",
+      "message": "ตัวเลือกตัวกรองบันทึก"
+   },
+   "loggerRowFiltererButtonTip": {
+      "description": "Tooltip for the row filterer button in the logger page",
+      "message": "สลับตัวกรองบันทึก"
+   },
+   "loggerSettingDiscardPrompt": {
+      "description": "Logger setting: A sentence to describe the purpose of the settings below",
+      "message": "รายการบันทึกที่ไม่ครบถ้วนทั้ง 3 เงื่อนไขตามด้านล่างจะถูกละทิ้งโดยอัตโนมัติ"
+   },
+   "loggerSettingHideColumnContext": {
+      "description": "A label for the context column",
+      "message": "{{input}} บริบท"
+   },
+   "loggerSettingHideColumnFilter": {
+      "description": "A label for the filter or rule column",
+      "message": "{{input}} ตัวกรอง/กฏ"
+   },
+   "loggerSettingHideColumnPartyness": {
+      "description": "A label for the partyness column",
+      "message": "{{input}} การจัดกลุ่ม"
+   },
+   "loggerSettingHideColumnTime": {
+      "description": "A label for the time column",
+      "message": "{{input}} เวลา"
+   },
+   "loggerSettingHideColumnsPrompt": {
+      "description": "Logger settings: a sentence to describe the purpose of the checkboxes below",
+      "message": "ซ่อนคอลัมน์"
+   },
+   "loggerSettingPerEntryLineCount": {
+      "description": "A logger setting",
+      "message": "ใช้ {{input}} บรรทัดต่อรายการในโหมดการขยายแนวตั้ง"
+   },
+   "loggerSettingPerEntryMaxAge": {
+      "description": "A logger setting",
+      "message": "สงวนรายการ {{input}} นาที"
+   },
+   "loggerSettingPerTabMaxEntries": {
+      "description": "A logger setting",
+      "message": "สงวนจำนวนมากที่สุด {{input}} รายการต่อแท็บ"
+   },
+   "loggerSettingPerTabMaxLoads": {
+      "description": "A logger setting",
+      "message": "สงวนจำนวนมากที่สุด {{input}} หน้าโหลดต่อแท็บ"
+   },
+   "loggerStaticFilteringFinderSentence1": {
+      "description": "Below this sentence, the filter list(s) in which the filter was found",
+      "message": "ตัวกรองแบบคงที่ \u003Ccode>{{filter}}\u003C/code> พบใน:"
+   },
+   "loggerStaticFilteringFinderSentence2": {
+      "description": "Message to show when a filter cannot be found in any filter lists",
+      "message": "ตัวกรองแบบคงที่ไม่พบในรายการตัวกรองที่เปิดอยู่"
+   },
+   "loggerStaticFilteringHeader": {
+      "description": "Small header to identify the static filtering section",
+      "message": "ตัวกรองแบบคงที่"
+   },
+   "loggerStaticFilteringSentence": {
+      "description": "Used in the static filtering wizard",
+      "message": "{{action}} การร้องขอเครือข่ายของ {{type}} {{br}}ซึ่ง URL ตรงกันกับ {{url}} {{br}}และมีต้นทางที่ {{origin}},{{br}}{{importance}} มีตัวกรองที่ยกเว้นตรงกัน"
+   },
+   "loggerStaticFilteringSentencePartAllow": {
+      "description": "Used in the static filtering wizard",
+      "message": "อนุญาต"
+   },
+   "loggerStaticFilteringSentencePartAnyOrigin": {
+      "description": "Used in the static filtering wizard",
+      "message": "จากที่ใดก็ได้"
+   },
+   "loggerStaticFilteringSentencePartAnyType": {
+      "description": "Used in the static filtering wizard",
+      "message": "ประเภทใดก็ได้"
+   },
+   "loggerStaticFilteringSentencePartBlock": {
+      "description": "Used in the static filtering wizard",
+      "message": "บล็อก"
+   },
+   "loggerStaticFilteringSentencePartImportant": {
+      "description": "Used in the static filtering wizard",
+      "message": "ถึงแม้ว่า"
+   },
+   "loggerStaticFilteringSentencePartNotImportant": {
+      "description": "Used in the static filtering wizard",
+      "message": "ยกเว้นเมื่อ"
+   },
+   "loggerStaticFilteringSentencePartOrigin": {
+      "description": "Used in the static filtering wizard",
+      "message": "จาก “{{origin}}”"
+   },
+   "loggerStaticFilteringSentencePartType": {
+      "description": "Used in the static filtering wizard",
+      "message": "ประเภท “{{type}}”"
+   },
+   "loggerURLFilteringContextLabel": {
+      "description": "Label for the context selector",
+      "message": "บริบท:"
+   },
+   "loggerURLFilteringHeader": {
+      "description": "Small header to identify the dynamic URL filtering section",
+      "message": "เงื่อนไข URL"
+   },
+   "loggerURLFilteringTypeLabel": {
+      "description": "Label for the type selector",
+      "message": "ประเภท"
+   },
+   "loggerUnpauseTip": {
+      "description": "Tooltip for the play button in the logger page",
+      "message": "ยกเลิกการหยุดบันทึกชั่วคราว"
+   },
+   "pickerContextMenuEntry": {
+      "description": "An entry in the browser's contextual menu",
+      "message": "บล็อคองค์ประกอบ"
+   },
+   "pickerCosmeticFilters": {
+      "description": "English: Cosmetic filters",
+      "message": "ฟิลเตอร์"
+   },
+   "pickerCosmeticFiltersHint": {
+      "description": "English: Click, Ctrl-click",
+      "message": "คลิก, Ctrl-คลิก"
+   },
+   "pickerCreate": {
+      "description": "English: Create",
+      "message": "สร้าง"
+   },
+   "pickerNetFilters": {
+      "description": "English: header for a type of filter in the element picker dialog",
+      "message": "ฟิลเตอร์เครื่อข่าย"
+   },
+   "pickerPick": {
+      "description": "English: Pick",
+      "message": "เลือก"
+   },
+   "pickerPreview": {
+      "description": "Element picker preview mode: will cause the elements matching the current filter to be removed from the page",
+      "message": "ตัวอย่าง"
+   },
+   "pickerQuit": {
+      "description": "English: Quit",
+      "message": "ออก"
+   },
+   "popup1pScriptRulePrompt": {
+      "description": "",
+      "message": "สคริปภายใน"
+   },
+   "popup3pAnyRulePrompt": {
+      "description": "",
+      "message": "บุคคลที่ 3"
+   },
+   "popup3pFrameFilter": {
+      "description": "Appears as an option to filter out firewall rows",
+      "message": "กรอบ"
+   },
+   "popup3pFrameRulePrompt": {
+      "description": "",
+      "message": "กรอบบุคคลที่3"
+   },
+   "popup3pPassiveRulePrompt": {
+      "description": "",
+      "message": "CSS/รูปภาพ บุคคลที่ 3"
+   },
+   "popup3pScriptFilter": {
+      "description": "Appears as an option to filter out firewall rows",
+      "message": "สคริปต์"
+   },
+   "popup3pScriptRulePrompt": {
+      "description": "",
+      "message": "สคริปท์บุคคลที่3"
+   },
+   "popupAnyRulePrompt": {
+      "description": "",
+      "message": "ทั้งหมด"
+   },
+   "popupBlockedOnThisPagePrompt": {
+      "description": "English: on this page",
+      "message": "ในหน้านี้"
+   },
+   "popupBlockedOnThisPage_v2": {
+      "description": "For the new mobile-friendly popup design",
+      "message": "ถูกบล็อกบนหน้านี้"
+   },
+   "popupBlockedRequestPrompt": {
+      "description": "English: requests blocked",
+      "message": "การร้องขอถูกปฏิเสธ"
+   },
+   "popupBlockedSinceInstallPrompt": {
+      "description": "English: since install",
+      "message": "ตั้งแต่ติดตั้ง"
+   },
+   "popupBlockedSinceInstall_v2": {
+      "description": "For the new mobile-friendly popup design",
+      "message": "ถูกบล็อกตั้งแต่ติดตั้ง"
+   },
+   "popupBlockedStats": {
+      "description": "Example: 15 (13%)",
+      "message": "{{count}} or {{percent}}%"
+   },
+   "popupDomainsConnected_v2": {
+      "description": "For the new mobile-friendly popup design",
+      "message": "Domains connected"
+   },
+   "popupHitDomainCount": {
+      "description": "appears in popup",
+      "message": "{{count}} ใน {{total}}"
+   },
+   "popupHitDomainCountPrompt": {
+      "description": "appears in popup",
+      "message": "โดเมนที่เชื่อมต่อ"
+   },
+   "popupImageRulePrompt": {
+      "description": "",
+      "message": "รูปภาพ"
+   },
+   "popupInlineScriptRulePrompt": {
+      "description": "",
+      "message": "สคริปท์อินไลน์"
+   },
+   "popupLessButton_v2": {
+      "description": "Label to be used to hide popup panel sections",
+      "message": "แสดงน้อยลง"
+   },
+   "popupMoreButton_v2": {
+      "description": "Label to be used to show popup panel sections",
+      "message": "เพิ่มเติม"
+   },
+   "popupNoCosmeticFiltering_v2": {
+      "description": "Caption for the no-cosmetic-filtering per-site switch",
+      "message": "ฟิลเตอร์"
+   },
+   "popupNoLargeMedia_v2": {
+      "description": "Caption for the no-large-media per-site switch",
+      "message": "องค์ประกอบ media ขนาดใหญ่"
+   },
+   "popupNoPopups_v2": {
+      "description": "Caption for the no-popups per-site switch",
+      "message": "หน้าต่าง Pop-up"
+   },
+   "popupNoRemoteFonts_v2": {
+      "description": "Caption for the no-remote-fonts per-site switch",
+      "message": "ฟอนต์ที่เว็บไชต์กำหนด"
+   },
+   "popupNoScripting_v2": {
+      "description": "Caption for the no-scripting per-site switch",
+      "message": "JavaScript"
+   },
+   "popupOr": {
+      "description": "English: or",
+      "message": "หรือ"
+   },
+   "popupPowerSwitchInfo": {
+      "description": "English: Click: disable/enable uBlock₀ for this site.\n\nCtrl+click: disable uBlock₀ only on this page.",
+      "message": "คลิก: ปิด/เปิดการทำงานของ uBlock₀ สำหรับเว็บไซต์นี้ \nCtrl+คลิก: ปิดการทำงานของ uBlock₀ เฉพาะหน้าเว็บนี้"
+   },
+   "popupPowerSwitchInfo1": {
+      "description": "Message to be read by screen readers",
+      "message": "Click to disable uBlock₀ for this site.\n\nCtrl+click to disable uBlock₀ only on this page."
+   },
+   "popupPowerSwitchInfo2": {
+      "description": "Message to be read by screen readers",
+      "message": "กดเพื่อเปิดใช้่งาน uBlock₀ สำหรับเว็บนี้"
+   },
+   "popupTipDashboard": {
+      "description": "English: Click to open the dashboard",
+      "message": "เปิด dashboard"
+   },
+   "popupTipGlobalRules": {
+      "description": "Tooltip when hovering the top-most cell of the global-rules column.",
+      "message": "กฏทั่วเว็บ: คอลัมน์นี้มีไว้สำหรับกฏที่ใช้กับทุกเว็บไซต์"
+   },
+   "popupTipLocalRules": {
+      "description": "Tooltip when hovering the top-most cell of the local-rules column.",
+      "message": "กฏเว็บเดียว: คอลัมน์นี้มีไว้สําหรับกฏบนเว็บไซต์นี้เท่านั้น\nกฏเว็บเดียวจะถูกใช้งานก่อนกฏครอบคลุม"
+   },
+   "popupTipLog": {
+      "description": "Tooltip used for the logger icon in the panel",
+      "message": "เปิดบันทึกการทำงาน"
+   },
+   "popupTipNoCosmeticFiltering": {
+      "description": "Tooltip for the no-cosmetic-filtering per-site switch",
+      "message": "Toggle cosmetic filtering for this site"
+   },
+   "popupTipNoCosmeticFiltering1": {
+      "description": "Tooltip for the no-cosmetic-filtering per-site switch",
+      "message": "คลิกเพื่อปิดการใช้ฟิลเตอร์บนเว็บไซต์นี้"
+   },
+   "popupTipNoCosmeticFiltering2": {
+      "description": "Tooltip for the no-cosmetic-filtering per-site switch",
+      "message": "Click to enable cosmetic filtering on this site"
+   },
+   "popupTipNoLargeMedia": {
+      "description": "Tooltip for the no-large-media per-site switch",
+      "message": "เปลี่ยนสถานะการบล็อกองค์ประกอบ media ขนาดใหญ่บนเว็บไชต์นี้"
+   },
+   "popupTipNoLargeMedia1": {
+      "description": "Tooltip for the no-large-media per-site switch",
+      "message": "คลิกเพื่อปิดกั้นองค์ประกอบชนิด Media ที่มีขนาดใหญ่ในเว็บไซต์นี้"
+   },
+   "popupTipNoLargeMedia2": {
+      "description": "Tooltip for the no-large-media per-site switch",
+      "message": "คลิกเพื่อยกเลิกการปิดกั้นองค์ประกอบชนิด Media ที่มีขนาดใหญ่ในเว็บไซต์นี้"
+   },
+   "popupTipNoPopups": {
+      "description": "Tooltip for the no-popups per-site switch",
+      "message": "เปลี่ยนสถานะการบล็อกป็อบอัพบนเว็บไชต์นี้"
+   },
+   "popupTipNoPopups1": {
+      "description": "Tooltip for the no-popups per-site switch",
+      "message": "คลิกเพื่อบล็อกป๊อปอัปทั้งหมดในเว็บไซต์นี้"
+   },
+   "popupTipNoPopups2": {
+      "description": "Tooltip for the no-popups per-site switch",
+      "message": "คลิกเพื่อยกเลิกการบล็อกป๊อปอัปทั้งหมดในเว็บไซต์นี้"
+   },
+   "popupTipNoRemoteFonts": {
+      "description": "Tooltip for the no-remote-fonts per-site switch",
+      "message": "สลับเป็นฟอนต์เครื่องที่บล็อกสำหรับเว็บนี้"
+   },
+   "popupTipNoRemoteFonts1": {
+      "description": "Tooltip for the no-remote-fonts per-site switch",
+      "message": "คลิกเพื่อบล็อกฟอนต์จากเว็บไซต์นี้"
+   },
+   "popupTipNoRemoteFonts2": {
+      "description": "Tooltip for the no-remote-fonts per-site switch",
+      "message": "คลิกเพื่อยกเลิกการบล็อกป๊อปอัปทั้งหมดในเว็บไซต์นี้"
+   },
+   "popupTipNoScripting1": {
+      "description": "Tooltip for the no-scripting per-site switch",
+      "message": "กดเพื่อปิดการใช้งาน JavaScript บนเว็บไซต์นี้"
+   },
+   "popupTipNoScripting2": {
+      "description": "Tooltip for the no-scripting per-site switch",
+      "message": "กดเพื่อยกเลิกการบล็อก JavaScript บนเว็บไซต์นี้"
+   },
+   "popupTipPicker": {
+      "description": "English: Enter element picker mode",
+      "message": "เข้าสู่โหมดเลือก element"
+   },
+   "popupTipReport": {
+      "description": "Tooltip used for the 'chat' icon in the panel",
+      "message": "Report an issue on this website"
+   },
+   "popupTipRevertRules": {
+      "description": "Tooltip when hovering over the eraser in the dynamic filtering pane.",
+      "message": "ยกเลิกการเปลี่ยนแปลง"
+   },
+   "popupTipSaveRules": {
+      "description": "Tooltip when hovering over the padlock in the dynamic filtering pane.",
+      "message": "คลิกเพื่อให้ทําให้การเปลี่ยนแปลงถาวร"
+   },
+   "popupTipZapper": {
+      "description": "Tooltip for the element-zapper icon in the popup panel",
+      "message": "เข้าสู่โหมดโจมตีองค์ประกอบ"
+   },
+   "popupVersion": {
+      "description": "Example of use: Version 1.26.4",
+      "message": "เวอร์ชัน"
+   },
+   "relaxBlockingMode": {
+      "description": "Label for keyboard shortcut used to relax blocking mode",
+      "message": "ผ่อนปรนโหมดการบล๊อก"
+   },
+   "rulesCommit": {
+      "description": "This will persist temporary rules",
+      "message": "ยืนยัน"
+   },
+   "rulesDefaultFileName": {
+      "description": "default file name to use",
+      "message": "my-ublock-dynamic-rules_{{datetime}}.txt"
+   },
+   "rulesEdit": {
+      "description": "Will enable manual-edit mode (textarea)",
+      "message": "แก้ไข"
+   },
+   "rulesEditDiscard": {
+      "description": "Will discard manually-edited content and exit manual-edit mode",
+      "message": "ละทิ้ง"
+   },
+   "rulesEditSave": {
+      "description": "Will save manually-edited content and exit manual-edit mode",
+      "message": "บันทึก"
+   },
+   "rulesExport": {
+      "description": "Button in the 'My rules' pane",
+      "message": "ส่งออกไปยังไฟล์"
+   },
+   "rulesFormatHint": {
+      "description": "English: dynamic rule syntax and full documentation.",
+      "message": "ข้อกำหนดเงื่อนไข: \u003Ccode>การดำเนินการประเภทแหล่งปลายทาง\u003C/code> (\u003Ca href='https://github.com/gorhill/uBlock/wiki/Dynamic-filtering:-rule-syntax'>เอกสารฉบับเต็ม\u003C/a>)"
+   },
+   "rulesHint": {
+      "description": "English: List of your dynamic filtering rules.",
+      "message": "รายการเงื่อนไขตัวกรองแบบไดนามิกของคุณ"
+   },
+   "rulesImport": {
+      "description": "",
+      "message": "นำเข้าจากไฟล์"
+   },
+   "rulesPageName": {
+      "description": "appears as tab name in dashboard",
+      "message": "เงื่อนไขของฉัน"
+   },
+   "rulesPermanentHeader": {
+      "description": "header",
+      "message": "กฏถาวร"
+   },
+   "rulesRevert": {
+      "description": "This will remove all temporary rules",
+      "message": "คืนกลับ"
+   },
+   "rulesSort": {
+      "description": "English: label for sort option.",
+      "message": "เรียง"
+   },
+   "rulesSortByDestination": {
+      "description": "English: a sort option for list of rules.",
+      "message": "ปลายทาง"
+   },
+   "rulesSortBySource": {
+      "description": "English: a sort option for list of rules.",
+      "message": "แหล่งที่มา"
+   },
+   "rulesSortByType": {
+      "description": "English: a sort option for list of rules.",
+      "message": "ประเภทกฎ"
+   },
+   "rulesTemporaryHeader": {
+      "description": "header",
+      "message": "กฏชั่วคราว"
+   },
+   "settingPerSiteSwitchGroup": {
+      "description": "",
+      "message": "Default behavior"
+   },
+   "settingPerSiteSwitchGroupSynopsis": {
+      "description": "",
+      "message": "These default behaviors can be overridden on a per-site basis"
+   },
+   "settingsAdvanced": {
+      "description": "Section for controlling advanced-user settings",
+      "message": "ขั้นสูง"
+   },
+   "settingsAdvancedSynopsis": {
+      "description": "Description of section controlling advanced-user settings",
+      "message": "เป็นฟีเจอร์ที่เหมาะสำหรับผู้ใช้ที่เชี่ยวชาญเท่านั้น"
+   },
+   "settingsAdvancedUserPrompt": {
+      "description": "Checkbox to let user access advanced, technical features",
+      "message": "ฉันเป็นผู้ใช้ขั้นสูง (\u003Ca href='https://github.com/gorhill/uBlock/wiki/Advanced-user-features'>โปรดอ่านเอกสารสำคัญ\u003C/a>)"
+   },
+   "settingsAdvancedUserSettings": {
+      "description": "For the tooltip of a link which gives access to advanced settings",
+      "message": "การตั้งค่าขั้นสูง"
+   },
+   "settingsAppearance": {
+      "description": "Section for controlling user interface appearance",
+      "message": "รูปแบบการแสดงผล"
+   },
+   "settingsCloudStorageEnabledPrompt": {
+      "description": "",
+      "message": "เปิดการเก็บข้อมูลบน Cloud"
+   },
+   "settingsCollapseBlockedPrompt": {
+      "description": "English: Hide placeholders of blocked elements",
+      "message": "ซ่อนตัวยึดตําแหน่งขององค์ประกอบที่ถูกบล็อก"
+   },
+   "settingsColorBlindPrompt": {
+      "description": "English: Color-blind friendly",
+      "message": "เป็นมิตรกับคนตาบอดสี"
+   },
+   "settingsContextMenuPrompt": {
+      "description": "English: Make use of context menu where appropriate",
+      "message": "Make use of context menu where appropriate"
+   },
+   "settingsHyperlinkAuditingDisabledPrompt": {
+      "description": "English: ",
+      "message": "Disable hyperlink auditing"
+   },
+   "settingsIconBadgePrompt": {
+      "description": "English: Show the number of blocked requests on the icon",
+      "message": "แสดงจำนวนคำขอเครือข่ายที่ถูกปฏิเสธบนไอคอน"
+   },
+   "settingsLastBackupPrompt": {
+      "description": "English: Last backup:",
+      "message": "การสำรองข้อมูลครั้งล่าสุด"
+   },
+   "settingsLastRestorePrompt": {
+      "description": "English: Last restore:",
+      "message": "การคืนค่าครั้งล่าสุด:"
+   },
+   "settingsNoCSPReportsPrompt": {
+      "description": "background information: https://github.com/gorhill/uBlock/issues/3150",
+      "message": "บล็อกรายงาน CSP"
+   },
+   "settingsNoCosmeticFilteringPrompt": {
+      "description": "",
+      "message": "Disable cosmetic filtering"
+   },
+   "settingsNoLargeMediaPrompt": {
+      "description": "",
+      "message": "ปิดกั้นองค์ประกอบชนิด Media ที่มีขนาดใหญ่กว่า {{input}} KB"
+   },
+   "settingsNoRemoteFontsPrompt": {
+      "description": "",
+      "message": "ฟอนต์เครื่องที่บล็อก"
+   },
+   "settingsNoScriptingPrompt": {
+      "description": "The default state for the per-site no-scripting switch",
+      "message": "ปิดการใช้งาน JavaScript"
+   },
+   "settingsPageName": {
+      "description": "appears as tab name in dashboard",
+      "message": "การตั้งค่า"
+   },
+   "settingsPrefetchingDisabledPrompt": {
+      "description": "English: ",
+      "message": "ปิดใช้งานการดึงข้อมูลล่วงหน้า (เพื่อป้องกันการเชื่อมต่อสำหรับคำขอเครือข่ายที่ถูกบล็อก)"
+   },
+   "settingsThemeAccent0Label": {
+      "description": "Label for checkbox to pick an accent color",
+      "message": "Custom accent color"
+   },
+   "settingsThemeLabel": {
+      "description": "Label for checkbox to enable a custom dark theme",
+      "message": "รูปแบบการแสดงผล"
+   },
+   "settingsTooltipsPrompt": {
+      "description": "A checkbox in the Settings pane",
+      "message": "ปิดคำอธิบาย"
+   },
+   "settingsUncloakCnamePrompt": {
+      "description": "background information: https://github.com/uBlockOrigin/uBlock-issues/issues/1513",
+      "message": "เปิดเผยชื่อตามหลักเกณฑ์"
+   },
+   "settingsWebRTCIPAddressHiddenPrompt": {
+      "description": "English: ",
+      "message": "ป้องกันไม่ให้ WebRTC รั่วไหลที่อยู่ IP ภายในเครื่อง"
+   },
+   "shortcutCapturePlaceholder": {
+      "description": "Placeholder string for input field used to capture a keyboard shortcut",
+      "message": "พิมพ์ทางลัด"
+   },
+   "shortcutsPageName": {
+      "description": "appears as tab name in dashboard",
+      "message": "ทางลัด"
+   },
+   "showDashboardButton": {
+      "description": "Firefox/Fennec-specific: Show Dashboard",
+      "message": "แสดงแดชบอร์ด"
+   },
+   "showNetworkLogButton": {
+      "description": "Firefox/Fennec-specific: Show Logger",
+      "message": "แสดงบันทึก"
+   },
+   "statsPageName": {
+      "description": "Title for the logger window",
+      "message": "uBlock₀ — บันทึก"
+   },
+   "storageUsed": {
+      "description": " In Setting pane, renders as (example): Storage used: 13.2 MB",
+      "message": "หน่วยความจำที่ใช้: {{value}} {{unit}}"
+   },
+   "subscribeButton": {
+      "description": "For the button used to subscribe to a filter list",
+      "message": "สมัครสมาชิก"
+   },
+   "subscriberConfirm": {
+      "description": "No longer used",
+      "message": "uBlock₀: เพิ่ม URL ต่อไปนี้ในรายการตัวกรองแบบกำหนดเองของคุณหรือไม่ ?\n\nชื่อ: \"{{title}}\"\nURL: {{url}}"
+   },
+   "supportFindSpecificButton": {
+      "description": "A clickable link in the filter issue reporter section",
+      "message": "ค้นหารายงานคล้ายกันบน GitHub"
+   },
+   "supportOpenButton": {
+      "description": "Text for button which open an external webpage in Support pane",
+      "message": "เปิด"
+   },
+   "supportPageName": {
+      "description": "appears as tab name in dashboard",
+      "message": "สนับสนุน"
+   },
+   "supportRedact": {
+      "description": "Text for 'Redact' button",
+      "message": "Redact"
+   },
+   "supportReportSpecificButton": {
+      "description": "Text for button which open an external webpage in Support pane",
+      "message": "สร้างรายงานใหม่"
+   },
+   "supportS1H": {
+      "description": "Header of 'Documentation' section in Support pane",
+      "message": "เอกสารอ้างอิง"
+   },
+   "supportS1P1": {
+      "description": "First paragraph of 'Documentation' section in Support pane",
+      "message": "อ่านเอกสารข้อมูลที่ \u003Ccode>uBlock/wiki\u003C/code> เพื่อเรียนรู้ฟีเจอร์ทั้งหมดของ uBlock Origin"
+   },
+   "supportS2H": {
+      "description": "Header of 'Questions and support' section in Support pane",
+      "message": "คำถามและการสนับสนุน"
+   },
+   "supportS2P1": {
+      "description": "First paragraph of 'Questions and support' section in Support pane",
+      "message": "การตอบคำถามและการสนับสนุนอื่น ๆ ที่เตรียมไว้ให้บน subreddit \u003Ccode>/r/uBlockOrigin\u003C/code>"
+   },
+   "supportS3H": {
+      "description": "Header of 'Filter issues' section in Support pane",
+      "message": "คัดกรองปัญหา/เว็บไซต์ที่ไม่สมบูรณ์"
+   },
+   "supportS3P1": {
+      "description": "First paragraph of 'Filter issues' section in Support pane",
+      "message": "รายงานปัญหาการกรองด้วยเว็บไซต์เฉพาะที่ \u003Cspan data-url=\"https://github.com/uBlockOrigin/uAssets/issues?q=is%3Aissue\">\u003Ccode>uBlockOrigin/uAssets\u003C/code> ตัวติดตามปัญหา\u003C/span>. \u003Cu>ต้องใช้บัญชี GitHub\u003C/u>"
+   },
+   "supportS3P2": {
+      "description": "Second paragraph of 'Filter issues' section in Support pane",
+      "message": "\u003Cb>สำคัญ:\u003C/b> หลีกเลี่ยงการใช้ตัวบล๊อกอื่น ๆ ร่วมกันกับ uBlock Origin ซึ่งอาจทำให้เกิดปัญหาในการกรองของหน้าเว็บไซต์ที่ต้องการ"
+   },
+   "supportS3P3": {
+      "description": "Third paragraph of 'Filter issues' section in Support pane",
+      "message": "\u003Cb>เคล็ดลับ:\u003C/b> ให้แน่ใจว่ารายการตัวกรองของคุณได้รับการอัปเดตแล้ว \u003Cspan data-url=\"logger-ui.html#_\">ตัวบันทึก\u003C/span> เป็นเครื่องมือหลักในการวินิจฉัยปัญหาที่เกี่ยวเนื่อง"
+   },
+   "supportS4H": {
+      "description": "Header of 'Bug report' section in Support pane",
+      "message": "รายงานข้อผิดพลาด"
+   },
+   "supportS4P1": {
+      "description": "First paragraph of 'Bug report' section in Support pane",
+      "message": "รายงานปัญหาด้วย uBlock Origin เอง \u003Cspan data-url=\"https://github.com/uBlockOrigin/uBlock-issues/issues?q=is%3Aissue\">\u003Ccode>uBlockOrigin/uBlock-issue\u003C/code> ปัญหาตัวติดตาม\u003C/span>. \u003Cu>ต้องใช้บัญชี GitHub\u003C/u>"
+   },
+   "supportS5H": {
+      "description": "Header of 'Troubleshooting Information' section in Support pane",
+      "message": "ข้อมูลการแก้ไขปัญหา"
+   },
+   "supportS5P1": {
+      "description": "First paragraph of 'Troubleshooting Information' section in Support pane",
+      "message": "ด้านล่างนี้เป็นข้อมูลทางเทคนิคซึ่งอาจเป็นประโยชน์ในกรณีที่อาสาสมัครพยายามให้การช่วยเหลือในการแก้ไขปัญหาให้คุณ"
+   },
+   "supportS5P2": {
+      "description": "Second paragraph of 'Troubleshooting Information' section in Support pane",
+      "message": "\u003Cb>สำคัญ:\u003C/b> ข้อมูลที่อาจเป็นความลับหรือละเอียดอ่อนจะถูกแก้ไขตามค่าเริ่มต้น ข้อมูลที่แก้ไขอาจะทำให้การแก้ไขปัญหายากขึ้น"
+   },
+   "supportS6Checkbox1": {
+      "description": "A checkbox to use for NSFW sites",
+      "message": "ติดป้ายเว็บเพจว่าเป็น “NSFW” (\u003Ca href=\"https://wikipedia.org/wiki/Not_safe_for_work\">“ไม่ปลอดภัยกับงาน (Not Safe For Work)”\u003C/a>)"
+   },
+   "supportS6H": {
+      "description": "Header of 'Report a filter issue' section in Support pane",
+      "message": "รายงานปัญหาตัวกรอง"
+   },
+   "supportS6P1S1": {
+      "description": "A paragraph in the filter issue reporter section",
+      "message": "เพื่อเป็นการลดภาระอาสาสมัครจากการรายงานซ้ำซ้อน โปรดตรวจสอบก่อนว่าปัญหาดังกล่าวได้รับการรายงานไปแล้วหรือยัง \u003Cb>หมายเหตุ:\u003C/b> คลิกที่ปุ่มจะเป็นการส่งต้นทางของหน้าเว็บไปยัง GitHub"
+   },
+   "supportS6P2S1": {
+      "description": "A paragraph in the filter issue reporter section",
+      "message": "มีการอัปเดตรายการตัวกรองประจำวัน ให้แน่ใจว่าปัญหาของคุณยังไม่ได้ระบุไว้ในรายการตัวกรองล่าสุด"
+   },
+   "supportS6P2S2": {
+      "description": "A paragraph in the filter issue reporter section",
+      "message": "ตรวจสอบว่าปัญหายังคงอยู่หลังจากมีการโหลดหน้าเว็บเพจที่มีปัญหาซ้ำแล้ว"
+   },
+   "supportS6Select1": {
+      "description": "Label for widget to select type of issue",
+      "message": "เว็บเพจ…"
+   },
+   "supportS6Select1Option0": {
+      "description": "An entry in the widget used to select the type of issue",
+      "message": "-- เลือกรายการ --"
+   },
+   "supportS6Select1Option1": {
+      "description": "An entry in the widget used to select the type of issue",
+      "message": "แสดงโฆษณาหรือสิ่งที่ตกค้างอยู่"
+   },
+   "supportS6Select1Option2": {
+      "description": "An entry in the widget used to select the type of issue",
+      "message": "มีโอเวอร์เลย์หรือสิ่งอื่น ๆ ที่รบกวน"
+   },
+   "supportS6Select1Option3": {
+      "description": "An entry in the widget used to select the type of issue",
+      "message": "ตรวจหา uBlock Origin"
+   },
+   "supportS6Select1Option4": {
+      "description": "An entry in the widget used to select the type of issue",
+      "message": "มีปัญหาที่เกี่ยวเนื่องกับความเป็นส่วนตัว"
+   },
+   "supportS6Select1Option5": {
+      "description": "An entry in the widget used to select the type of issue",
+      "message": "ความผิดปกติเมื่อเปิดใช้งาน uBlock Origin"
+   },
+   "supportS6Select1Option6": {
+      "description": "An entry in the widget used to select the type of issue",
+      "message": "เปิดแท็บหรือหน้าต่างที่ไม่ต้องการ"
+   },
+   "supportS6Select1Option7": {
+      "description": "An entry in the widget used to select the type of issue",
+      "message": "นำไปสู่แบดแวร์ ฟิชชิ่ง"
+   },
+   "supportS6URL": {
+      "description": "Label for the URL of the page",
+      "message": "ที่อยู่ของเว็บเพจ:"
+   },
+   "supportUnredact": {
+      "description": "Text for 'Unredact' button",
+      "message": "Unredact"
+   },
+   "toggleCosmeticFiltering": {
+      "description": "Label for keyboard shortcut used to toggle cosmetic filtering",
+      "message": "สลับตัวกรองการตกแต่ง"
+   },
+   "toggleJavascript": {
+      "description": "Label for keyboard shortcut used to toggle no-scripting switch",
+      "message": "สลับ JavaScript"
+   },
+   "unprocessedRequestTooltip": {
+      "description": "A warning which will appear in the popup panel if needed",
+      "message": "ไม่สามารถกรองได้สมบูรณ์เมื่อตอนเริ่มเบราว์เซอร์ โหลดหน้าเว็บใหม่เพื่อให้การกรองสมบูรณ์"
+   },
+   "whitelistApply": {
+      "description": "English: Apply changes",
+      "message": "ใช้การเปลี่ยนแปลง"
+   },
+   "whitelistExport": {
+      "description": "Button in the 'Trusted sites' pane",
+      "message": "ส่งออก"
+   },
+   "whitelistExportFilename": {
+      "description": "The default filename to use for import/export purpose",
+      "message": "my-ublock-whitelist_{{datetime}}.txt"
+   },
+   "whitelistImport": {
+      "description": "Button in the 'Trusted sites' pane",
+      "message": "นำเข้าและรวม"
+   },
+   "whitelistPageName": {
+      "description": "appears as tab name in dashboard",
+      "message": "เว็บไซต์ที่เชื่อถือได้"
+   },
+   "whitelistPrompt": {
+      "description": "A concise description of the 'Trusted sites' pane.",
+      "message": "ระบุไซต์ที่เชื่อถือได้เพื่อกำหนดว่าควรปิดการใช้งาน uBlock Origin ที่หน้าเว็บใด พิมพ์หนึ่งรายการต่อบรรทัด"
+   }
+}
