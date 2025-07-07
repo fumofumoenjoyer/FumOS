@@ -1,0 +1,92 @@
+{
+    "installWebExtensionIntro": {
+        "message": "Nainstalujte webové rozšíření"
+    },
+    "installWebExtension": {
+        "message": "Webové rozšíření je nejjednodušší způsob, jak spustit proxy Snowflake. Jednoduše jej nainstalujte na <a href=\"https://addons.mozilla.org/en-US/firefox/addon/torproject-snowflake/\">Firefox</a> nebo <a href=\"https://chrome.google.com/webstore/detail/snowflake/mafpmfcccpbjnhfhjnllmmalhifmlcie\">Chrome</a>, povolte rozšíření a sledujte, jak se ikona změní na zelenou, když se uživatel připojí přes váš proxy!"
+    },
+    "webBadgeInstructions": {
+        "message": "Pokud zapnete Snowflake níže a necháte kartu prohlížeče otevřenou, uživatel se může připojit prostřednictvím takto vytvořeného proxy serveru!"
+    },
+    "possible": {
+        "message": "Případně můžete sami vložit proxy server Snowflake do stránky na vlastním webu (např. <a href=\"https://relay.love\">relay.love</a>). Návštěvníci vašeho webu mohou vstoupit na stránku, povolit proxy server a nechat jej otevřený, aby přes něj mohli lidé procházet (chová se a vypadá přesně jako webové rozšíření)."
+    },
+    "StandaloneTitle": {
+        "message": "Provozujte samostatný proxy server"
+    },
+    "fileBug": {
+        "message": "Pokud se setkáte s problémy s aplikací Snowflake - ať už ji používáte, nebo ji spouštíte - zvažte nahlášení chyby.  Existují dva způsoby, jak podat hlášení o chybě:"
+    },
+    "installStandalone": {
+        "message": "Pokud chcete spustit verzi proxy serveru Snowflake pro příkazový řádek na počítači nebo serveru, podívejte se do <a href=\"https://community.torproject.org/relay/setup/snowflake/standalone/\">našeho průvodce</a> pro spuštění samostatného proxy serveru Snowflake."
+    },
+    "reportingBugs": {
+        "message": "Hlášení chyb"
+    },
+    "sharedAccount": {
+        "message": "Podejte <a href=\"https://anonticket.onionize.space/\">anonymní požadavek na podporu</a> vygenerováním identifikátoru a přihlášením se pomocí něj. Poté najděte projekt Snowflake v <strong>Seznamu všech projektů</strong> a vytvořte nový požadavek/hlášení."
+    },
+    "descriptive": {
+        "message": "Popište prosím svůj problém co nejpodrobněji a, pokud je to možné, připojte i zprávy z logů, které nám pomohou bug reprodukovat."
+    },
+    "contactSnowflakeDevs": {
+        "message": "Pokud máte zájem o využití technologie Snowflake ve své aplikaci, obraťte se na <a href=\"https://lists.torproject.org/cgi-bin/mailman/listinfo/anti-censorship-team\">tým pro ochranu proti cenzuře</a>."
+    },
+    "webBadgeTitle": {
+        "message": "Nechte tuto kartu prohlížeče otevřenou nebo vložte náš kód na své webové stránky"
+    },
+    "installChrome": {
+        "message": "Nainstalovat do Chromu"
+    },
+    "bugTracker": {
+        "message": "<a href=\"https://gitlab.onionize.space/\">Požádejte o účet </a> na GitLabu projektu Tor, potom <a href=\"https://gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/snowflake/-/issues\">otevřete nový požadavek</a> v projektu Snowflake."
+    },
+    "websiteIntro": {
+        "message": "Snowflake je systém, který <strong>umožňuje lidem z celého světa přístup k cenzurovaným webovým stránkám a aplikacím</strong>. Podobně jako sítě VPN pomáhají uživatelům obejít cenzuru na internetu, Snowflake vám pomůže vyhnout se pozornosti cenzorů internetu tím, že vaše internetová aktivita bude vypadat, jako byste používali internet pro běžné video nebo hlasové hovory."
+    },
+    "websiteIntro2": {
+        "message": "K dispozici je řada nástrojů, jako je například Snowflake, které „transformují“ internetové aktivity, přičemž každý z nich využívá jinou techniku. Některé z nich přesměrovávají internetový provoz tak, aby vypadal, že pochází od populárních poskytovatelů cloudových služeb, jako jsou Microsoft Azure a Amazon Web Services. Jiné internetový provoz zakódují tak, aby se jevil jako zcela náhodný."
+    },
+    "censoredUsers": {
+        "message": "Na rozdíl od sítí VPN nemusíte pro připojení se k proxy Snowflake instalovat samostatnou aplikaci. Obvykle se jedná o funkci pro obcházení, která je zabudována do stávajících aplikací. V současné době je Snowflake k dispozici uvnitř <a href=\"https://torproject.org/download\">prohlížeče Tor</a> na počítači a Androidu, <a href=\"https://onionbrowser.com\">prohlížeče Onion</a> na iOS a <a href=\"https://orbot.app\">aplikace Orbot</a> na Androidu a iOS. Pokud jste si některou z těchto aplikací stáhli a nainstalovali a ve vaší zemi je cenzurována, můžete cenzuru obejít aktivací Snowflake skrze nastavení dané aplikace."
+    },
+    "volunteer": {
+        "message": "Můžete se připojit k tisícům dobrovolníků z celého světa, kteří mají nainstalovaný a spuštěný proxy server Snowflake. Nemusíte si dělat starosti s tím, na které webové stránky lidé přistupují prostřednictvím vašeho proxy serveru Snowflake. Jejich viditelná IP adresa při prohlížení bude odpovídat jejich výstupnímu uzlu Tor, nikoliv vaší."
+    },
+    "embed": {
+        "message": "Vložit"
+    },
+    "howSnowflakeWorks": {
+        "message": "Zjistěte více o tom, jak Snowflake funguje"
+    },
+    "snowflakeTechOverview": {
+        "message": "Snowflake je nová technologie obcházení cenzury, součást rodiny <a href=\"https://gitweb.torproject.org/torspec.git/tree/pt-spec.txt\">Pluggable Transports</a>, která je neustále zdokonalována. Zajímá vás více informací o její architektuře? Neváhejte a podívejte se na tento <a href=\"https://gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/snowflake/-/wikis/Technical%20Overview\">Technický přehled</a> (v angličtině)."
+    },
+    "faq": {
+        "message": "Hledám podporu s používáním Snowflake"
+    },
+    "support": {
+        "message": "Pokud se při pokusu o připojení k síti Tor pomocí Snowflake setkáte s problémy, kanál podpory Tor je dostupný na <a href=\"https://t.me/TorProjectSupportBot\">Telegramu</a>. Odpovědi můžete také procházet na <a href=\"https://support.torproject.org/censorship/\">Portálu podpory Tor</a> a na <a href=\"https://forum.torproject.org/tag/snowflake\">Tor Fóru</a>."
+    },
+    "websiteIntro3": {
+        "message": "Pro cenzurní orgány je tak nákladné uvažovat o blokování takových nástrojů pro obcházení, neboť k dosažení původního cíle by bylo nutné blokovat velkou část internetu."
+    },
+    "browser": {
+        "message": "Použijte Snowflake pro obcházení cenzury"
+    },
+    "extension": {
+        "message": "Pomozte lidem obejít cenzuru: provozujte proxy Snowflake"
+    },
+    "installOptions": {
+        "message": "Existují různé způsoby, jak spustit proxy server Snowflake (od začátečníků po pokročilé):"
+    },
+    "installFirefox": {
+        "message": "Nainstalovat do Firefoxu"
+    },
+    "installExtension": {
+        "message": "Věděli jste, že Snowflake proxy jsou provozovány výhradně dobrovolníky? Jinak řečeno, uživateli je přiřazeno náhodné Snowflake proxy, které provozuje dobrovolník, jako jste vy! Pokud tedy chcete lidem pomoci obejít cenzuru, zvažte nainstalování a provozování Snowflake proxy. Jedinou podmínkou je, aby internet ve vaší zemi nebyl <strong>silně cenzurován</strong>."
+    },
+    "installEdge": {
+        "message": "Nainstalovat do Edge"
+    }
+}

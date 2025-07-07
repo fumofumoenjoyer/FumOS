@@ -1,0 +1,92 @@
+{
+    "browser": {
+        "message": "Snowflake를 사용하여 검열 우회"
+    },
+    "reportingBugs": {
+        "message": "버그 보고"
+    },
+    "extension": {
+        "message": "사람들이 검열을 피할 수 있도록 돕기: Snowflake 프록시 운영"
+    },
+    "descriptive": {
+        "message": "경험하신 버그를 가능한 자세히 설명해 티켓에 담아주세요. 로그 메시지도 같이 담아주시면 Tor 프로젝트 측에서 버그를 재현하는 데 도움이 돼요."
+    },
+    "bugTracker": {
+        "message": "Tor 프로젝트 GitLab에서 <a href=\"https://gitlab.onionize.space/\">계정을 요청</a>한 다음 Snowflake 프로젝트에서 <a href=\"https://gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/snowflake/-/issues\">새 이슈를 엽니다</a>."
+    },
+    "installChrome": {
+        "message": "Chrome에 설치"
+    },
+    "installFirefox": {
+        "message": "FIrefox에 설치"
+    },
+    "embed": {
+        "message": "임베디드 플러그인"
+    },
+    "censoredUsers": {
+        "message": "VPN과 달리, Snowflake 프록시에 접속하고 검열을 우회하기 위해 별도의 애플리케이션을 설치할 필요가 없어요. 일반적으로 기존 앱에 내장된 우회 기능이에요. 현재 Snowflake는 데스크톱 및 안드로이드의 <a href=\"https://torproject.org/download\">Tor 브라우저</a>, iOS의 <a href=\"https://onionbrowser.com\">Onion 브라우저</a>, 안드로이드 및 iOS의 <a href=\"https://orbot.app\">Orbot</a>에서 사용할 수 있어요. 이러한 앱 중 하나라도 다운로드하여 설치한 적이 있으며, 해당 국가에서 검열을 받는 경우, 앱의 설정 페이지를 통해 Snowflake를 활성화하여 검열을 우회할 수 있어요."
+    },
+    "installExtension": {
+        "message": "Snowflake 프록시가 전적으로 자원봉사로 운영된다는 것을 알고 있었나요? 다시 말해서, 사용자는 귀하와 같은 자원봉사자에 의해 운영되는 임의의 Snowflake 자원봉사 프록시와 접속돼요! 그러므로, 만일 사람들이 검열을 피할 수 있도록 돕고 싶다면, Snowflake 프록시를 설치하고 운영하는 것을 고려해보세요. 유일한 전제조건은 해당 국가의 인터넷이 아직 심하게 검열되지 <strong>않았다는</strong> 거예요."
+    },
+    "volunteer": {
+        "message": "Snowflake 프록시를 설치하고 실행 중인 전 세계 수천 명의 자원봉사자와 함께하실 수 있어요. 사람들이 Snowflake 프록시를 통해 어떤 웹 사이트에 액세스하는지는 걱정할 필요가 없어요. 눈에 보이는 브라우징 IP 주소는 Tor 종료 노드가 아니라 그들의 Tor 종료 노드와 일치할 거예요."
+    },
+    "installOptions": {
+        "message": "Snowflake 프록시를 실행하는 방법에는 여러 가지가 있어요(초보부터 고급까지):"
+    },
+    "installWebExtensionIntro": {
+        "message": "Install the web extension"
+    },
+    "installWebExtension": {
+        "message": "웹 확장은 Snowflake 프록시를 실행하는 가장 쉬운 방법이에요. <a href=\"https://addons.mozilla.org/en-US/firefox/addon/torproject-snowflake/\">Firefox</a> 또는 <a href=\"https://chrome.google.com/webstore/detail/snowflake/mafpmfcccpbjnhfhjnllmmalhifmlcie\">Chrome</a>에 간단히 설치하고 확장 기능을 활성화한 다음, 사용자가 프록시를 통해 접속할 때 아이콘이 녹색으로 변하는 것을 지켜보세요!"
+    },
+    "webBadgeTitle": {
+        "message": "이 브라우저 탭을 열어두거나 웹사이트에 웹 뱃지를 삽입하세요"
+    },
+    "webBadgeInstructions": {
+        "message": "아래 Snowflake를 켜고 브라우저 탭을 열어두면, 사용자가 새 프록시를 통해 접속할 수 있어요!"
+    },
+    "possible": {
+        "message": "또는, 자신의 웹 사이트(예: <a href=\"https://relay.love\">relay.love</a>) 페이지에 Snowflake 프록시를 직접 삽입할 수 있어요. 사이트 방문자는 페이지에 들어가서, 프록시를 활성화하고, 사람들이 이를 통해 프록시를 사용할 수 있도록 열어 둘 수 있어요(웹 확장 프로그램과 똑같이 작동하는 것처럼 보여요)."
+    },
+    "StandaloneTitle": {
+        "message": "독립형 프록시 실행"
+    },
+    "installStandalone": {
+        "message": "데스크톱이나 서버에서 명령줄 버전의 Snowflake 프록시를 실행하려면, Snowflake 독립 실행형 프록시 실행 <a href=\"https://community.torproject.org/relay/setup/snowflake/standalone/\">guide</a> 를 참조하세요."
+    },
+    "fileBug": {
+        "message": "Snowflake를 사용 중이든 실행 중이든 관계없이 문제가 발생하는 경우, bug report 제출을 고려해보세요.   Bug report를 제출하는 방법에는 두 가지가 있어요:"
+    },
+    "sharedAccount": {
+        "message": "식별자를 생성하고 로그인하여 <a href=\"https://anonticket.onionize.space/\">익명 티켓</a>을 제출하세요. 그런 다음, <strong>모든 프로젝트 목록</strong>에서 Snowflake 프로젝트를 찾아 새 이슈를 생성하세요."
+    },
+    "faq": {
+        "message": "Snowflake 사용에 대한 지원 요청"
+    },
+    "support": {
+        "message": "Snowflake를 사용하여 Tor에 접속하는 동안 문제가 발생하는 경우, <a href=\"https://t.me/TorProjectSupportBot\">Telegram</a>에서 Tor 지원 채널에 문의할 수 있어요. <a href=\"https://support.torproject.org/ko/censorship/\">Tor Support Portal</a>과 <a href=\"https://forum.torproject.org/tag/snowflake\">Tor Forum</a>에서 답변을 찾아볼 수도 있어요."
+    },
+    "websiteIntro": {
+        "message": "Snowflake는 <strong>전 세계 사람들이 검열된 웹사이트와 애플리케이션에 접근할 수 있도록 해주는</strong> 시스템이에요. VPN이 사용자들이 인터넷 검열을 우회 하도록 도와주는 것과 비슷하게, Snowflake는 인터넷 활동이 일반적인 영상이나 음성 통화를 위해 인터넷을 사용하는 것처럼 보이게 함으로써 인터넷 검열자들에게 눈에 띄지 않도록 도와줍니다."
+    },
+    "websiteIntro2": {
+        "message": "각각 다른 기술을 사용하여 인터넷 활동을 \"변환\"하는 Snowflake와 같은 사용 가능한 수많은 도구가 있어요. 일부는 Microsoft Azure와 Amazon Web Services와 같은 인기 있는 클라우드 제공자들로부터 오는 것처럼 보이기 위해 인터넷 트래픽을 리디렉션해요. 다른 것들은 인터넷 트래픽을 완전히 무작위적으로 보이도록 뒤섞어요."
+    },
+    "websiteIntro3": {
+        "message": "따라서 검열관들이 이러한 우회 도구를 차단하는 것을 고려하는 것은 초기 목표를 달성하기 위해 인터넷의 많은 부분을 차단해야 하기 때문에 비용이 많이 듭니다."
+    },
+    "contactSnowflakeDevs": {
+        "message": "애플리케이션 내에서 Snowflake를 활용하는데 관심이 있다면, <a href=\"https://lists.torproject.org/cgi-bin/mailman/listinfo/anti-censorship-team\">anti-censorship team</a>에 문의하세요."
+    },
+    "howSnowflakeWorks": {
+        "message": "Snowflake 작동 방식에 대해 자세히 알아보기"
+    },
+    "snowflakeTechOverview": {
+        "message": "Snowflake는 <a href=\"https://gitweb.torproject.org/torspec.git/tree/pt-spec.txt\">Pluggable Transports</a> 제품군의 일부인 새로운 우회 기술로, 지속적으로 개선되고 있어요. 아키텍처에 대해 더 자세히 알고 싶습니까? <a href=\"https://gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/snowflake/-/wikis/Technical%20Overview\">Technical overview</a> (영문)를 자유롭게 확인하세요."
+    },
+    "installEdge": {
+        "message": "Edge에 설치"
+    }
+}

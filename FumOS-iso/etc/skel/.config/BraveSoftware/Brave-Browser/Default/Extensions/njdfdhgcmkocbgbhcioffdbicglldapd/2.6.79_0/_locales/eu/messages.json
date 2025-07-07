@@ -1,0 +1,530 @@
+{
+    "extensionDescription": {
+        "message": "CDNen bidez (Content Delivery Networks) miaketaren aurka babesten zaitu, tokiko baliabideetara birbideratuz.",
+        "description": "Protects you against tracking through CDNs (Content Delivery Networks) by redirecting to local resources."
+    },
+    "amountInjectedDescription": {
+        "message": "Instalaziotik edukiak entregatzeko sareko tokiko baliabideen injekzio kopurua.",
+        "description": "Amount injected description."
+    },
+    "optionsTitle": {
+        "message": "Aukerak",
+        "description": "Options title"
+    },
+    "showIconBadgeTitle": {
+        "message": "Injekzioen zenbaketak ikonoan erakutsi",
+        "description": "Show icon badge title"
+    },
+    "showIconBadgeDescription": {
+        "message": "Gehigarriaren ikonoan injektatutako baliabideen kopurua erakutsi.",
+        "description": "Show icon badge description."
+    },
+    "blockMissingTitle": {
+        "message": "Falta diren errekurtsoen eskaerak blokeatu",
+        "description": "Block requests for missing resources title"
+    },
+    "blockMissingDescription": {
+        "message": "Atzemandako eskaera bertan behera utzi, eskatutako baliabidea toki jakin batean erabilgarri ez badago.",
+        "description": "Block requests for missing resources description."
+    },
+    "disablePrefetchTitle": {
+        "message": "Esteken aurrekarga desaktibatu",
+        "description": "Disable prefetch title"
+    },
+    "disablePrefetchDescription": {
+        "message": "Baimenduta ez dauden eskaerak banaketa-sareetara iragaz daitezen saihestu.",
+        "description": "Disable prefetch description."
+    },
+    "stripMetadataTitle": {
+        "message": "Baimendutako eskaeren metadatuak ezabatu",
+        "description": "Strip metadata title"
+    },
+    "stripMetadataDescription": {
+        "message": "Ezabatu pribatutasuna hobetzeko baimendutako CDN eskaeren datu sentikorrak.",
+        "description": "Strip metadata description."
+    },
+    "allowlistedDomainsTitle": {
+        "message": "Desaktibatu LocalCDN domeinu hauetarako:",
+        "description": "Deactivate LocalCDN for these domains:"
+    },
+    "allowlistedDomainsDescription": {
+        "message": "Sartu domeinuak bertan LocalCDN desaktibatzeko. Lerro bakoitzeko sarrera bat.",
+        "description": "Enter domains to disable LocalCDN there. One entry per line."
+    },
+    "advancedLabel": {
+        "message": "Aurreratua",
+        "description": "Advanced label"
+    },
+    "generateRuleSetTitle": {
+        "message": "Sortu arau multzoak zure iragarki-blokeatzailerako",
+        "description": "Generate rule sets for your adblocker"
+    },
+    "generateRuleSetDescription": {
+        "message": "Iragarkien blokeatzaile bat erabiltzen ari bazara, hemen sor ditzakezu arauak. Arau horiek eskuz gehitu behar dituzu zure iragarki-blokeatzailean.",
+        "description": "In case you are using an adblocker you can generate the rules here. You have to add these rules manually in your adblocker."
+    },
+    "lastUpdate": {
+        "message": "Azken eguneratzea:",
+        "description": "Last update:"
+    },
+    "copyRuleSet": {
+        "message": "Kopiatu",
+        "description": "Text of button to copy ruleset"
+    },
+    "loggingTitle": {
+        "message": "Erregistroa gaitu",
+        "description": "Enable logging"
+    },
+    "loggingDescription": {
+        "message": "Erregistroa menuaren ikonoarekin ireki dezakezu. Erregistroa ezabatu egingo da nabigatzailea ixten duzunean edo erregistroa desaktibatzen duzuenean.",
+        "description": "You can open the log with the icon in the menu. The log will be deleted when you close the browser or disable logging."
+    },
+    "featureBreaksWebsitesDescription": {
+        "message": "Funtzio honek webguneak hausten ditu. Ez utzi aktibatuta, ukitutako domeinuak baimendutakoen zerrendari eskuz gehitzeko prestatuta egon ezean.",
+        "description": "This feature breaks websites. Do not leave it enabled, unless you are prepared to manually add affected domains to the allow list."
+    },
+    "featureBreaksWebsitesButton": {
+        "message": "Desaktibatu",
+        "description": "Disable"
+    },
+    "labelManipulateDOM": {
+        "message": "Iragazi HTML iturburu-kodea",
+        "description": "Filter HTML source code"
+    },
+    "labelDonate": {
+        "message": "Dohaintza",
+        "description": "Donate"
+    },
+    "negateHtmlFilterListTitle": {
+        "message": "Inbertitu HTML iragazkia",
+        "description": "Invert HTML filter"
+    },
+    "negateHtmlFilterListDescription": {
+        "message": "Aktibatu aukera hau beti HTML iragazkia aplikatzeko. Zerrendako domeinuak ez dira kontuan hartuko. Aukera hori desaktibatuta badago, HTML iragazkia zerrendako domeinuei bakarrik aplikatuko zaie.",
+        "description": "Enable this option to always apply the HTML filter. The domains in the list will be ignored then. If this option is disabled, the HTML filter is only applied to domains in the list."
+    },
+    "negateHtmlFilterListWarning": {
+        "message": "Funtzio horrek webguneak hautsi ditzake. Wiki orriko informazioa kontuan izan.",
+        "description": "This function can break websites. Please note the information on the Wiki page."
+    },
+    "htmlFilterDomainsTitleExclude": {
+        "message": "Ez aplikatu HTML iragazkia domeinu hauei:",
+        "description": "Do not apply HTML filter to these domains:"
+    },
+    "htmlFilterDomainsDescription": {
+        "message": "Idatzi HTML iragazkiak tratatu edo baztertu behar dituen eremuak. Lerro bakoitzeko sarrera bat.",
+        "description": "Enter the domains to be handled or ignored by the HTML filter. One entry per line."
+    },
+    "htmlFilterDomainsTitleInclude": {
+        "message": "HTML iragazkia aplikatu eremu hauetarako:",
+        "description": "Apply HTML filter for these domains:"
+    },
+    "blockGoogleFontsTitle": {
+        "message": "Googleren iturri tipografikoak blokeatu",
+        "description": "Block Google Fonts"
+    },
+    "blockGoogleFontsDescription": {
+        "message": "Falta diren errekurtsoak eska badaitezke, “fonts.googleapis.com” -erako konexioak ez dira blokeatzen. Gaitu aukera hau eskaera horiek blokeatzeko.",
+        "description": "If requests for missing resources are allowed, connections to \"fonts.googleapis.com\" are not blocked. Enable this option to block these requests."
+    },
+    "chooseIconStyle": {
+        "message": "Aukeratu ikono bat gehigarri honetarako",
+        "description": "Choose an icon for this extension"
+    },
+    "internalStatisticsTitle": {
+        "message": "Barne-estatistikak",
+        "description": "Internal statistics"
+    },
+    "internalStatisticsDescription": {
+        "message": "Funtzio hau, gaur egun, fase esperimentalean dago. Ez dago datu-transmisiorik. Dena da lokala zure gailuan.",
+        "description": "No data transmission. It’s all local on your device."
+    },
+    "headerStatistics": {
+        "message": "Estatistikak",
+        "description": "Statistics. The header of a statistics page."
+    },
+    "labelToday": {
+        "message": "Gaur",
+        "description": "Statistics view for today."
+    },
+    "labelPastWeek": {
+        "message": "Joan den astean",
+        "description": "Statistics view for past week."
+    },
+    "labelPastMonth": {
+        "message": "Joan den hilean",
+        "description": "Statistics view for past month."
+    },
+    "labelPastYear": {
+        "message": "Iaz",
+        "description": "Statistics view for past year."
+    },
+    "labelAll": {
+        "message": "",
+        "description": "Statistics view over the whole time range"
+    },
+    "labelDelete": {
+        "message": "Ezabatu",
+        "description": "Button to delete all statistics data."
+    },
+    "labelAvg": {
+        "message": "Batez bestekoa (berritzeak eguneko)",
+        "description": "Followed by a number of average injections per day within a specific period."
+    },
+    "labelInjectedFrameworks": {
+        "message": "Ordeztutako frameworkak",
+        "description": "Followed by a number of injections within a specific period."
+    },
+    "dialogConfirmDeleteStatistics": {
+        "message": "Ziur zaude estatistika guztiak ezabatu nahi dituzula?",
+        "description": "Are you sure you want to delete all the statistics?"
+    },
+    "labelDomainsAllowlistGoogleFonts": {
+        "message": "Domeinu hauek Google Fonts karga dezakete. Lerro bakoitzeko sarrera bat.",
+        "description": "These domains are allowed to load Google Fonts. One entry per line."
+    },
+    "btnGeneral": {
+        "message": "Oinarrizkoa",
+        "description": "Basic"
+    },
+    "btnAdvanced": {
+        "message": "Aurreratua",
+        "description": "Advanced"
+    },
+    "btnOther": {
+        "message": "Beste bat",
+        "description": "Other"
+    },
+    "btnInfo": {
+        "message": "Informazioa",
+        "description": "Info"
+    },
+    "headerStorageType": {
+        "message": "Biltegiratze mota",
+        "description": "Storage type"
+    },
+    "labelStorageTypeLocal": {
+        "message": "Lokala",
+        "description": "Local"
+    },
+    "labelStorageTypeSync": {
+        "message": "Sinkronizazioa",
+        "description": "Sync"
+    },
+    "headerImportExport": {
+        "message": "Inportazioa/esportazioa",
+        "description": "Import/Export"
+    },
+    "labelExportData": {
+        "message": "Babeskopia fitxategian",
+        "description": "Back up to file"
+    },
+    "labelImportData": {
+        "message": "Artxibo batetik leheneratu",
+        "description": "Restore from file"
+    },
+    "dialogImportSuccessful": {
+        "message": "Inportazio arrakastatsua",
+        "description": "Import successful"
+    },
+    "dialogImportFailed": {
+        "message": "Huts egindako inportazioa",
+        "description": "Import failed"
+    },
+    "updateNotificationTitle": {
+        "message": "Jakinarazi eguneratu eta gero",
+        "description": "Notification after an update"
+    },
+    "updateNotificationNever": {
+        "message": "Inoiz ez (eguneratze isilak)",
+        "description": "Never (Silent Updates)"
+    },
+    "updateNotificationOnlyRules": {
+        "message": "CDN berriak eta arauak",
+        "description": "Only if new CDNs and rules"
+    },
+    "updateNotificationAlways": {
+        "message": "Beti",
+        "description": "Always"
+    },
+    "websiteBroken": {
+        "message": "Webgunea ez dabil?",
+        "description": "Website broken?"
+    },
+    "hideDonationButton": {
+        "message": "Ezkutatu dohaintza-botoia",
+        "description": "Hide donation button"
+    },
+    "betaLabel": {
+        "message": "Beta (β)",
+        "description": "beta"
+    },
+    "changeBadgeColorMissingResourcesTitle": {
+        "message": "Adierazi ikonoan falta diren baliabideak",
+        "description": "Indicate missing resources on the icon"
+    },
+    "changeBadgeColorMissingResourcesDescription": {
+        "message": "Aldatu intsigniaren kolorea baliabideak falta badira.",
+        "description": "Change the badge color if resources are missing."
+    },
+    "titleHelp": {
+        "message": "Laguntza",
+        "description": "Help"
+    },
+    "helpIntroductionTitle": {
+        "message": "Sarrera",
+        "description": "Introduction"
+    },
+    "helpHtmlFilterTitle": {
+        "message": "Zer da “HTML iragazkia”?",
+        "description": "What is »HTML filter«?"
+    },
+    "helpRuleGeneratorTitle": {
+        "message": "Arau-sortzailea",
+        "description": "Rule generator"
+    },
+    "helpWebsiteIssuesTitle": {
+        "message": "Webgune batzuek itxura arraroa dute edo ez dira erabilerrazak",
+        "description": "Some websites look strange or are not easy to use"
+    },
+    "helpBlockGoogleFontsTitle": {
+        "message": "Zergatik dago “Blokeatu Google Fonts” aukera?",
+        "description": "Why is there a »Block Google Fonts« option?"
+    },
+    "helpStatisticsTitle": {
+        "message": "Zer gertatzen da estatistikekin? Zerbait transferitzen zaio zerbitzari bati?",
+        "description": "What about the statistics? Is anything transferred to any servers?"
+    },
+    "helpWhatWillBeSynchronizedTitle": {
+        "message": "Zer sinkronizatuko da “sync” aukeratzen duzunean biltegiratze mota gisa?",
+        "description": "What will be synchronized when I select »sync« as storage type?"
+    },
+    "helpBrowserCompatibilityTitle": {
+        "message": "Nabigatzaileekiko bateragarritasuna",
+        "description": "Browser compatibility"
+    },
+    "helpIntroductionDescription": {
+        "message": "LocalCDN web nabigatzailearen gehigarri bat da, Edukiak Banatzeko Sareak emulatzen dituena, zure pribatutasuna hobetzeko. Trafikoa geldiarazten du, tokiko frameworkak/liburutegiak aurkitzen ditu eta webgunean injektatzen ditu. Erabili hurrengo proben erabilgarritasuna behar bezala babestuta zauden jakiteko. Informazio gehiago nahi izanez gero, irakurri tutoriala edo gure Wiki orriak.",
+        "description": "LocalCDN is a web browser extension that emulates Content Delivery Networks to improve your online privacy. It intercepts traffic, finds supported frameworks/libraries locally, and injects them into the website. Feel free to use the following testing utility to find out if you are properly protected. For more information read the tutorial or our Wiki pages."
+    },
+    "helpLinkTestUtility": {
+        "message": "Probaren erabilgarritasuna",
+        "description": "Testing utility"
+    },
+    "helpLinkTutorial": {
+        "message": "Tutoretza",
+        "description": "Tutorial"
+    },
+    "helpLinkWikiPages": {
+        "message": "Wiki orriak",
+        "description": "Wiki pages"
+    },
+    "helpHtmlFilterDescription": {
+        "message": "Gehienetan, LocalCDNk erraz ordezka ditzake inkrustatutako frameworkak, eta pribatutasuna hobetzen du. Kasu batzuetan, webgunea hori eragozten saia daiteke HTML iturburu-kodean aukera batzuk ezarriz. LocalCDNk HTML iturburu-kodea irakurtzen du nabigatzailean agertu aurretik, eta zati hori ezabatzen du (gorriz).",
+        "description": "In most cases LocalCDN can easily replace embedded frameworks and improves privacy. In some cases the website may try to prevent this by setting certain options in the HTML source code. LocalCDN reads the HTML source code before it is displayed in the browser and removes these part (red)."
+    },
+    "helpHtmlFilterBefore": {
+        "message": "HTML iragazkiak adibide honen karaktere gorriak ezabatzen ditu:",
+        "description": "The HTML filter removes the red characters from this example:"
+    },
+    "helpHtmlFilterAfter": {
+        "message": "Emaitza honako hau da:",
+        "description": "The result then looks like this:"
+    },
+    "helpHtmlFilterWhyTitle": {
+        "message": "Zergatik ezabatu behar dira jatorri gurutzatua eta osotasuna duten atributuak?",
+        "description": "Why is it necessary to remove crossorigin and integrity attributes?"
+    },
+    "helpHtmlFilterCrossorigin": {
+        "message": "Crossorigin atributuak ordezkapena eragozten du, destinoa ez datorrelako bat eskatutakoarekin.",
+        "description": "The crossorigin attribute prevents the replacement because the destination does not match the requested one."
+    },
+    "helpHtmlFilterIntegrity": {
+        "message": "Diskoan lekua aurrezteko eta framework gehiago eskaintzeko, LocalCDNk framework bat eguneratzen du. Integritatearen etiketa fitxategi baten hash balioa da. Egiaztapenak huts egiten badu, nabigatzaileak ez du frameworkik izango. Osotasunaren egiaztapenak huts egingo du, adibidez, jQuery 1.10.1 eta jQuery 1.12.4 hash balioak desberdinak direlako.",
+        "description": "To save disk space and to deliver more frameworks LocalCDN upgrades a framework. An integrity tag is the hash value of a file. If the check fails, the browser won‘t include a framework. The integrity check will fail because the hash values for e.g. jQuery 1.10.1 and jQuery 1.12.4 are different."
+    },
+    "helpHtmlFilterErrors": {
+        "message": "Tamalez, batzuetan karaktere bereziak oker agertzen dira. Kasu horretan, berriro desaktiba dezakezu doikuntza, dieresiak behar bezala ager daitezen.",
+        "description": "Unfortunately, it sometimes happens that special characters are then displayed incorrectly. In this case you can deactivate the setting again, to display the umlauts correctly."
+    },
+    "helpRuleGeneratorDescription": {
+        "message": "LocalCDNra bateragarriak diren CDN konexio guztiak automatikoki birbideratu nahi badituzu, arau horiek gehitu ahal izango dizkiozu zure iragarki-blokeatzaileari, birhelbide horiek ahalbidetzeko. Arau horiek gehitu nahi ez badituzu, CDN konexio bakoitza banaka egiteko aukera eman behar duzu webgune bakoitzerako.",
+        "description": "If you want to automatically redirect all supported CDN connections to LocalCDN, you can add these rules to your adblocker to allow these redirections. If you do not want to add these rules, you must allow each CDN connection individually for each website."
+    },
+    "helpRuleGeneratorUblockTitle": {
+        "message": "Bakarrik uBlock Origin:",
+        "description": "Only uBlock Origin:"
+    },
+    "helpRuleGeneratorUblockDescription": {
+        "message": "Arau horiek “bitarteko” edo “zail” moduan baino ez dira garrantzitsuak, hirugarrenen baliabide guztiak blokeatzen dituelako. Ez dira beharrezkoak “lehenetsita”, “erraz” edo “oso erraz” moduan. Informazio gehiago nahi izanez gero, bisitatu uBlock Originen wikia.",
+        "description": "These rules are only relevant in »medium« or »hard« mode, because it blocks all 3rd-party resources. They are not necessary in »default«, »easy« or »very-easy« mode. For more information, please visit the uBlock Origin Wiki."
+    },
+    "helpRuleGeneratorUblockTableIcon": {
+        "message": "Ikonoa",
+        "description": "Icon"
+    },
+    "helpRuleGeneratorUblockTableMode": {
+        "message": "Modua",
+        "description": "Mode"
+    },
+    "helpRuleGeneratorUblockTableUseful": {
+        "message": "Arau erabilgarriak",
+        "description": "Rules useful"
+    },
+    "helpRuleGeneratorUblockTableDefaultEasy": {
+        "message": "Lehenetsita/erraz",
+        "description": "Default/Easy"
+    },
+    "helpRuleGeneratorUblockTableMedium": {
+        "message": "Ertaina",
+        "description": "Medium"
+    },
+    "helpRuleGeneratorUblockTableHard": {
+        "message": "Saila",
+        "description": "Hard"
+    },
+    "helpWebsiteIssuesDescription": {
+        "message": "Bi arrazoi daude: edo LocalCDNk oraindik eskaintzen ez duen marko/liburutegi bat edo sop bat behar da. SOP bat (Same Origin Policy) nabigatzaileak karga ditzakeen datuak zehazten dituen segurtasun mekanismo bat da. Dokumentu maltzurrak isolatzen eta eraso-bektoreak murrizten laguntzen du. Politika honek nabigatzaileak LocalCDNren kanpoko frameworkak kargatzea eragozten du. Zoritxarrez, oraingoz ez dago horretarako irtenbiderik.",
+        "description": "There are two possible reasons: Either a framework/library is required that LocalCDN doesn‘t (yet) deliver or an SOP. A SOP (Same origin policy) is a security mechanism that determines what data the browser is allowed to load. It helps to isolate malicious documents and thus reduce possible attack vectors. This policy prevents the browser from loading the external frameworks of LocalCDN. Unfortunately there is no solution for this at the moment."
+    },
+    "helpBlockGoogleFontsDescription": {
+        "message": "LocalCDNk “Google Material Icons” ordezka dezake. Konexioa atzemateko, zure iragarki-blokeatzaileak (adibidez, uBlock Origin, uMatrix edo AdGuard) eskaera egiteko aukera eman behar du. LocalCDNk eskaera horiek entzuten ditu, eta kontsultak “Google Material Icons” badu, errekurtsoa aldatu egingo da. “Falta diren eduki-eskaerak blokeatu” aukera desmarkatuz gero, existitzen ez diren baliabideak pasatu ahal izango dira eta “Google Fonts” kargatuko da, “Google Material Icons” eta “Google Fonts” gailuek domeinu bera erabiltzen baitute. Hau nahi ez baduzu, “Google Fonts” blokea dezakezu LocalCDNn.",
+        "description": "LocalCDN can replace »Google Material Icons«. To catch the connection your adblocker (e.g. uBlock Origin, uMatrix or AdGuard) must allow the request. LocalCDN listens on these requests and if the query contains »Google Material Icons«, the resource will be replaced. If you uncheck the »Block requests for missing content« option, non-existent resources will be allowed to pass and »Google Fonts« will be loaded, because »Google Material Icons« and »Google Fonts« use the same domain. If you don‘t want this, you can block »Google Fonts« on LocalCDN."
+    },
+    "helpStatisticsDescription": {
+        "message": "Ez beldurtu, ez da ezer transmitituko. Nire printzipio guztien kontra joango nintzateke. Estatistikek (JSON formatua) honako informazio hau dute: data, CDN+kontagailua eta framework+kontagailua. Hori da dena. Adibide bat daukat hemen:",
+        "description": "Don‘t panic, nothing will be transmitted. It would be against all my principles. The statistics (JSON format) contains the following information: Date, CDN+counter and framework+counter. That‘s all. I‘ve an example here:"
+    },
+    "helpStatisticsContent": {
+        "message": "Estatistiketan ez dago informaziorik nabigatzaileari, sistema eragileari, webgune eskatzaileari, IP helbideei edo beste edozein informaziori buruz. Data bakarrik, CDN+kontagailua eta framework+kontagailua. LocalCDNek zein marko ordezkatzen dituen erakusten dio, zein maiztasunekin eta zein CDNekin eskatu ziren.",
+        "description": "The statistics contain no information about the browser, operating system, requesting website, IP addresses or any other information. Just date, CDN+counter and framework+counter. It shows you which frameworks are replaced by LocalCDNs how often and which CDNs were requested."
+    },
+    "helpStatisticsTruthTitle": {
+        "message": "Nola dakit hori egia dela?",
+        "description": "How do I know that‘s true?"
+    },
+    "helpStatisticsTruthDescription": {
+        "message": "Hedapenen biltegiratzea zuzenean ikus daiteke Firefox nabigatzailearekin. Ireki “about: debugging” URLa, aldatu “Storage” eta hautatu “Extension Storage”. “InternalStatisticsData” kodean aurkituko dituzu jasotako datuak. Kopiatu eta JSON PrettyPrinter batean jarri, irakurgarriagoak izan daitezen. Kontuan izan lehenengo eta azken komatxoa eta gakoa kendu behar dituzula. Bideo honetan ikusi beharko zenuke.",
+        "description": "The extension storage can be viewed directly with the Firefox browser. Open the URL »about:debugging«, switch to »Storage« and select »Extension Storage«. Under the key »internalStatisticsData« you will find the collected data. Just copy it and put it into a JSON PrettyPrinter to make it more readable. Please note that you have to remove the first and last quotation mark and the key to it. You should be able to see this clearly in this video."
+    },
+    "helpSyncTitle": {
+        "message": "Zer sinkronizatuko da “sync” aukeratzen duzunean biltegiratze mota gisa?",
+        "description": "What will be synchronized when I select »sync« as storage type?"
+    },
+    "helpSyncDescription": {
+        "message": "Sinkronizazioak funtzionatzeko, Firefoxen kontu batekin saioa hasi behar duzu gailuan eta osagarriak konfigurazioan sinkronizatu behar dituzu. Sinkronizazio-zerbitzari independente batek ere funtzionatuko du zure kontrolpean. Horrek LocalCDNren doikuntza gehienak sinkronizatuko ditu gailu guztietan.",
+        "description": "Sync will only work if you are logged in with a Firefox account on the device and have allowed add-ons to sync in the settings. A separate sync server under your control will also work. This will synchronize most of the settings of LocalCDN across all devices."
+    },
+    "helpSyncAccount": {
+        "message": "Sinkronizazio-konturik ez baduzu, ez da ezer sinkronizatuko. Kasu horretan, ez du axola zer biltegiratze mota hautatu duzun.",
+        "description": "If you don‘t have a sync account, nothing will be synchronized. In that case it makes no difference what type of storage you have selected."
+    },
+    "helpSyncContentNever": {
+        "message": "Inoiz sinkronizatuta ez dauden gauzak:",
+        "description": "Things that are never synchronized:"
+    },
+    "helpNumberOfInjections": {
+        "message": "Injekzio kopurua",
+        "description": "Numbers of injections"
+    },
+    "helpYes": {
+        "message": "Bai",
+        "description": "Yes"
+    },
+    "helpNo": {
+        "message": "Ez",
+        "description": "No"
+    },
+    "helpData": {
+        "message": "Datuak",
+        "description": "Data"
+    },
+    "helpSyncContentEver": {
+        "message": "Sinkronizatuko diren doikuntzak:",
+        "description": "Settings that will be synchronized:"
+    },
+    "helpIcons": {
+        "message": "Aurrez zehaztua, argia, urdina/grisa",
+        "description": "Default, Light, Blue/Grey"
+    },
+    "helpSyncContentLinks": {
+        "message": "Firefox Sync buruzko informazio gehiago:",
+        "description": "More information about Firefox Sync:"
+    },
+    "helpBrowserCompatibility": {
+        "message": "Nabigatzaileekiko bateragarritasuna",
+        "description": "Browser compatibility"
+    },
+    "helpReplace": {
+        "message": "Ordeztu",
+        "description": "Replace"
+    },
+    "helpReplaceOther": {
+        "message": "Beste baliabide batzuk ordeztu",
+        "description": "Replace other resources"
+    },
+    "helpUpgradeAllResources": {
+        "message": "Baliabide guztiak eguneratu",
+        "description": "Upgrade all resources"
+    },
+    "helpExplanationChrome": {
+        "message": "Chromium-en oinarritutako nabigatzaile guztiak",
+        "description": "All Chromium based Browser"
+    },
+    "helpLimitation": {
+        "message": "Hau ez da LocalCDNren muga bat, Chromium-en oinarritutako nabigatzaileen APIren euskarri falta baizik.",
+        "description": "This is not a limitation of LocalCDN, but missing API support of Chromium based browsers."
+    },
+    "titleBadgeDefault": {
+        "message": "Aurrez zehaztutako ikonoa",
+        "description": "Default badge"
+    },
+    "titleBadgeHTMLFilter": {
+        "message": "Ikonoa HTML iragazkian",
+        "description": "HTML filter badge"
+    },
+    "titleBadgeMissingResource": {
+        "message": "Baliabidearen kredentziala ez dago edo blokeatuta dago",
+        "description": "Missing or blocked resources badge"
+    },
+    "counterBlocked": {
+        "message": "Blokeatuta",
+        "description": "Blocked"
+    },
+    "counterMissing": {
+        "message": "Ez dago",
+        "description": "Missing"
+    },
+    "permissionRevokedHeader": {
+        "message": "Baimena erretiratuta",
+        "description": "Permission revoked"
+    },
+    "permissionRevokedPermissionName": {
+        "message": "Sartu zure webgune guztietarako datuetan",
+        "description": "The exact name of the permission. Exactly as it is displayed in Firefox."
+    },
+    "permissionRevokedDescription": {
+        "message": "Mesedez, ez desgaitu baimena. LocalCDN-k baimena behar du eskaerak detektatzeko eta CDN-ra bideratzeko.",
+        "description": "Please do not disable the permission. LocalCDN needs the permission to detect and redirect requests to CDNs."
+    },
+    "helpWhyThisPermission": {
+        "message": "Zergatik behar du hedapen honek baimen hau?",
+        "description": "Why does this extension need this permission?"
+    },
+    "helpPermissionDescription": {
+        "message": "LocalCDN-k jakin behar du weborri batek zer eskaera sortzen dituen horiek bideratzeko edo blokeatzeko. MV3-rekin, baimen hau aukerakoa da.",
+        "description": "LocalCDN needs to know which requests are created by a website to redirect or block it. With the introduction of MV3, this permission is listed as an optional permission."
+    },
+    "permissionMissing": {
+        "message": "Baimena falta da",
+        "description": "Missing permission"
+    },
+    "permissionAllow": {
+        "message": "Baimendu",
+        "description": "Allow"
+    },
+    "permissionMoreInfo": {
+        "message": "Informazio gehiago",
+        "description": "More info"
+    }
+}

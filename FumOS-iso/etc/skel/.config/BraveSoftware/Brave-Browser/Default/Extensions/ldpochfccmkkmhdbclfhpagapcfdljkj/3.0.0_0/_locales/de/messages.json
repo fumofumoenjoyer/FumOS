@@ -1,0 +1,70 @@
+{
+   "advancedLabel": {
+      "description": "Advanced label.",
+      "message": "Erweitert"
+   },
+   "amountInjectedDescription": {
+      "description": "Amount injected description.",
+      "message": "Anzahl der lokalen Injektionen von den CDN-Ressourcen seit der Installation."
+   },
+   "amountInjectedTitle": {
+      "description": "Amount injected title.",
+      "message": "Zähler für lokal injizierte Ressourcen"
+   },
+   "blockMissingDescription": {
+      "description": "Block requests for missing resources description.",
+      "message": "Abgefangene Anforderung unterbinden, falls angeforderte Datei nicht lokal verfügbar ist."
+   },
+   "blockMissingTitle": {
+      "description": "Block requests for missing resources title.",
+      "message": "Blockiere Anfordern fehlender Inhalte"
+   },
+   "disablePrefetchDescription": {
+      "description": "Disable prefetch description.",
+      "message": "Verhindere, dass unerlaubte Anfragen an die CDNs durchsickern."
+   },
+   "disablePrefetchTitle": {
+      "description": "Disable prefetch title.",
+      "message": "Deaktiviere link prefetching"
+   },
+   "disableProtectionTitle": {
+      "description": "Disable protection title.",
+      "message": "Schutz für diese Seite deaktivieren"
+   },
+   "enableProtectionTitle": {
+      "description": "Enable protection title.",
+      "message": "Schutz aktivieren"
+   },
+   "extensionDescription": {
+      "description": "Extension description.",
+      "message": "Schützt vor Tracking durch \"gratis\", zentralisiertes Abliefern von Content."
+   },
+   "optionsTitle": {
+      "description": "Options title.",
+      "message": "Einstellungen"
+   },
+   "showIconBadgeDescription": {
+      "description": "Show icon badge description.",
+      "message": "Zeige die Anzahl der injizierten Ressourcen im Erweiterungs-Icon."
+   },
+   "showIconBadgeTitle": {
+      "description": "Show icon badge title.",
+      "message": "Zeige Anzahl der Injektionen am Icon"
+   },
+   "stripMetadataDescription": {
+      "description": "Strip metadata description.",
+      "message": "Lösche sensible Daten aus erlaubten CDN-Anfragen zur Verbesserung des Datenschutzes."
+   },
+   "stripMetadataTitle": {
+      "description": "Strip metadata title.",
+      "message": "Entferne Metadaten von erlaubten Anfragen"
+   },
+   "whitelistedDomainsDescription": {
+      "description": "Whitelisted domains description.",
+      "message": "Gebe zu ignorierende Domains an. Trenne mehrere Einträge durch Semikolons (;)."
+   },
+   "whitelistedDomainsTitle": {
+      "description": "Whitelisted domains title.",
+      "message": "Domains von Prüfung ausschließen"
+   }
+}

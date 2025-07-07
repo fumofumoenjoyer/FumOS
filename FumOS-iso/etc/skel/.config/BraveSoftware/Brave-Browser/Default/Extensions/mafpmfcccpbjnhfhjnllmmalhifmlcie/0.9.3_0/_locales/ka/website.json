@@ -1,0 +1,92 @@
+{
+    "webBadgeTitle": {
+        "message": "დატოვეთ ბრაუზერის ჩანართი გახსნილი და ჩააშენეთ ვებნიშანი თქვენს საიტზე"
+    },
+    "webBadgeInstructions": {
+        "message": "თუ ჩართავთ Snowflake-ს ქვემოთ და დატოვებთ ჩანართს გახსნილს, მომხმარებელს შეეძლება თქვენი პროქსის გავლით დაკავშირება!"
+    },
+    "StandaloneTitle": {
+        "message": "ცალკე გაუშვით პროქსი"
+    },
+    "possible": {
+        "message": "გარდა ამისა, შეგიძლიათ ჩაამატოთ Snowflake-პროქსი საკუთარ ვებსაიტზე (მაგ., <a href=\"https://relay.love\">relay.love</a>). თქვენი საიტის სტუმრებს კი შეეძლებათ გვერდზე შესვლისას ჩართონ პროქსი და დატოვონ გახსნილი, რომ მათი ქსელი გამოიყენოს ხალხმა (იმუშავებს ზუსტად ისე, როგორც ვებგაფართოება)."
+    },
+    "installStandalone": {
+        "message": "თუ გსურთ, გაუშვათ Snowflake-პროქსი ბრძანებათა ველიდან თქვენს კომპიუტერზე ან სერვერზე, იხილეთ <a href=\"https://community.torproject.org/relay/setup/snowflake/standalone/\">მითითებები</a> დამოუკიდებელი Snowflake-პროქსის გასაშვებად."
+    },
+    "reportingBugs": {
+        "message": "მოგვახსენეთ ხარვეზები"
+    },
+    "fileBug": {
+        "message": "თუ რამე ხარვეზს გადააწყდით Snowflake-თან დაკავშირებით — ან პროქსის გამოყენებისას, ან მისი გაშვებისას – გთხოვთ, გვაცნობოთ მოხსენების გამოგზავნით. ორი გზა გაქვთ ამისთვის:"
+    },
+    "bugTracker": {
+        "message": "<a href=\"https://gitlab.onionize.space/\">მოითხოვოთ ანგარიში</a> Tor-პროექტისთვის GitLab-ზე, შემდეგ კი <a href=\"https://gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/snowflake/-/issues\">წამოიწყოთ ახალი განხილვა</a> Snowflake-პროექტში."
+    },
+    "volunteer": {
+        "message": "შეგიძლიათ შეუერთდეთ იმ ათასობით მოხალისეს მთელი მსოფლიოდან, რომელთაც გაშვებული აქვთ Snowflake-პროქსი. ნუ იღელვებთ საიტებზე, რომელთაც თქვენი Snowflake-ის გავლით მოინახულებს ხალხი. მათ ხილულ IP-მისამართად გამოჩნდება Tor-ის გამსვლელი წერტილის მისამართი და არა თქვენი კომპიუტერის ან ქსელის."
+    },
+    "installFirefox": {
+        "message": "ჩადგით Firefox-ში"
+    },
+    "installChrome": {
+        "message": "ჩადგით Chrome-ში"
+    },
+    "censoredUsers": {
+        "message": "განსხვავებით VPN-ებისა, არ დაგჭირდებათ ცალკე პროგრამის დაყენება Snowflake-პროქსისთან კავშირისთვის და ცენზურის ასარიდებლად. ჩვეულებრივ, არსებულ აპლიკაციებშივეა ჩაშენებული გვერდის ავლის საშუალებად. ამჟამად Snowflake ხელმისაწვდომია <a href=\"https://torproject.org/download\">Tor-ბრაუზერში</a> კომპიუტერსა და Android-ზე, <a href=\"https://onionbrowser.com\">Onion-ბრაუზერში</a> iOS-ზე, აგრეთვე <a href=\"https://orbot.app\">Orbot-ში</a> Android-სა და iOS-ზე. თუ გადმოწერთ და დააყენებთ რომელიმე მათგანს და ისინი იზღუდება თქვენს ქვეყანაში, ცენზურის არიდება შეგეძლებათ Snowflake-ის ამოქმედებით პროგრამის პარამეტრებიდან."
+    },
+    "websiteIntro": {
+        "message": "Snowflake წარმოადგენს სისტემას, რომელიც <strong>ეხმარება ხალხს მთელ მსოფლიოში, წვდომა ჰქონდეთ შეზღუდულ საიტებთან და პროგრამებთან</strong>. მსგავსად VPN-ებისა, Snowflake საშუალებას იძლევა, თავი აარიდოთ ზედამხედველთა დაწესებულ ცენზურას და ისე წარმოაჩინოთ, თითქოს ინტერნეტს ჩვეულებრივი ხმოვანი ან ვიდეოზარისთვის იყენებთ."
+    },
+    "websiteIntro2": {
+        "message": "არაერთი საშუალება არსებობს, მსგავსად Snowflake-ისა, რომლებიც „გარდაქმნის“ ინტერნეტით მიმოცვლილ მონაცემებს და ამისთვის სხვადასხვა ხერხს იყენებს. ზოგი ამისამართებს ისე, თითქოს კავშირი ცნობილი ღრუბლოვანი მომსახურებებიდან მომდინარეობს, როგორებიცაა Microsoft Azure და Amazon Web Services. სხვები კი ისე შიფრავს, რომ შემთხვევითი სახე მიიღოს."
+    },
+    "websiteIntro3": {
+        "message": "ამის გამო, ცენზურის დამწესებლებს აღარ უღირთ ამგვარი საშუალებების დევნა, ვინაიდან მოუწევთ ინტერნეტის იმაზე მეტად შეზღუდვა, ვიდრე გეგმავდნენ თავდაპირველი მიზნის მისაღწევად."
+    },
+    "installOptions": {
+        "message": "რამდენიმე გზაა Snowflake-პროქსის გასაშვებად (დამწყებთათვის და გამოცდილთათვის):"
+    },
+    "descriptive": {
+        "message": "გთხოვთ, შეეცადოთ მეტად ვრცლად აღწეროთ საკითხი ბილეთში და თუ შესაძლებელია, დაურთოთ აღრიცხვის შეტყობინებები, რაც დაგვეხმარება გადავამოწმოთ ხარვეზი."
+    },
+    "sharedAccount": {
+        "message": "გახსნათ <a href=\"https://anonticket.onionize.space/\">ბილეთი ვინაობის გაუმხელად</a> საგანგებო ამომცნობის შედგენითა და ანგარიშზე მისი მეშვეობით შესვლით. შემდეგ მონახოთ Snowflake <strong>პროექტების ჩამონათვალში</strong> და წამოიწყოთ ახალი განხილვა ხარვეზის შესახებ."
+    },
+    "contactSnowflakeDevs": {
+        "message": "თუ სურვილი გაქვთ, ჩააშენოთ Snowflake თქვენსავე პროგრამაში, შეეხმიანეთ <a href=\"https://lists.torproject.org/cgi-bin/mailman/listinfo/anti-censorship-team\">ცენზურის არიდების საკითხებზე მომუშავე ჩვენს გუნდს</a>."
+    },
+    "howSnowflakeWorks": {
+        "message": "იხილეთ ვრცლად, თუ როგორ მუშაობს Snowflake"
+    },
+    "embed": {
+        "message": "ჩაშენება"
+    },
+    "snowflakeTechOverview": {
+        "message": "Snowflake ცენზურის არიდების ახალი საშუალებაა, <a href=\"https://gitweb.torproject.org/torspec.git/tree/pt-spec.txt\">მისაერთებელი გადამყვანების</a> ოჯახიდან და მუდმივად უმჯობესდება. გსურთ, უკეთ გაერკვეთ მის აგებულებაში? გაეცანით ამ <a href=\"https://gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/snowflake/-/wikis/Technical%20Overview\">ტექნიკურ მიმოხილვას</a> (ინგლისურად)."
+    },
+    "faq": {
+        "message": "დახმარება გესაჭიროებათ Snowflake-ის გამოსაყენებლად"
+    },
+    "support": {
+        "message": "თუ წააწყდით რამე სიძნელეს Tor-თან Snowflake-ით დაკავშირებისას, Tor-ის მხარდაჭერის არხი ხელმისაწვდომია <a href=\"https://t.me/TorProjectSupportBot\">Telegram-ზე</a>. აგრეთვე, შეგიძლიათ გადახედოთ <a href=\"https://support.torproject.org/censorship/\">Tor-ის მხარდაჭერის გვერდსა</a> და <a href=\"https://forum.torproject.org/tag/snowflake\">Tor-ის ფორუმს</a> კითხვებზე პასუხის მისაღებად."
+    },
+    "browser": {
+        "message": "გამოიყენეთ Snowflake ცენზურის ასარიდებლად"
+    },
+    "extension": {
+        "message": "დაეხმარეთ სხვებს ცენზურის არიდებაში: აამუშავეთ Snoflake-პროქსი"
+    },
+    "installWebExtensionIntro": {
+        "message": "ჩადგით ვებგაფართოება"
+    },
+    "installExtension": {
+        "message": "იცოდით, რომ Snowflake მუშაობს სრულიად მოხალისეების ძალისხმევით? ანუ მომხმარებელი უერთდება შემთხვევით შერჩეულ Snowflake-პროქსის, რომელიც სწორედ თქვენნაირი მოხალისის მიერაა გაშვებული! ასე რომ, თუ გსურთ დაეხმაროთ ხალხს ცენზურისთვის გვერდის ავლაში, დააყენეთ და გაუშვით Snowflake-პროქსი. ერთადერთი წინაპირობაა, რომ ინტერნეტი თქვენს ქვეყანაში მაინც <strong>არ</strong> უნდა იყოს ძლიერი ცენზურის ქვეშ."
+    },
+    "installWebExtension": {
+        "message": "გაფართოება ყველაზე იოლი გზაა Snowflake-პროქსის გასაშვებად. მხოლოდ დააყენეთ <a href=\"https://addons.mozilla.org/en-US/firefox/addon/torproject-snowflake/\">Firefox</a> ან <a href=\"https://chrome.google.com/webstore/detail/snowflake/mafpmfcccpbjnhfhjnllmmalhifmlcie\">Chrome</a>, აამოქმედეთ გაფართოება და დააკვირდით ხატულას, როცა გამწვანდება, მომხმარებელი მისი გავლით გადის კავშირზე!"
+    },
+    "installEdge": {
+        "message": "ჩადგით Edge-ში"
+    }
+}

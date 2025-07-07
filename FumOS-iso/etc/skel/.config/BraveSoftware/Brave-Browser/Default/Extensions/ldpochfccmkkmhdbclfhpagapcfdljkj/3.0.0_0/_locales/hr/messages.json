@@ -1,0 +1,70 @@
+{
+   "advancedLabel": {
+      "description": "Advanced label.",
+      "message": "Napredno"
+   },
+   "amountInjectedDescription": {
+      "description": "Amount injected description.",
+      "message": "Broj lokalno umetnutih resursa iz mreža za dostavu sadržaja (CDN-ova) od instalacije."
+   },
+   "amountInjectedTitle": {
+      "description": "Amount injected title.",
+      "message": "Brojač lokalno umetnutih resursa"
+   },
+   "blockMissingDescription": {
+      "description": "Block requests for missing resources description.",
+      "message": "Otkazuje zahtjeve, ako potrebni resurs nije dostupan lokalno."
+   },
+   "blockMissingTitle": {
+      "description": "Block requests for missing resources title.",
+      "message": "Blokiraj zahtjeve za resurse koji nedostaju"
+   },
+   "disablePrefetchDescription": {
+      "description": "Disable prefetch description.",
+      "message": "Onemogući da nedopušteni zahtjevi iscure do mreža za dostavu sadržaja (CDN-ova)."
+   },
+   "disablePrefetchTitle": {
+      "description": "Disable prefetch title.",
+      "message": "Onemogući predučitavanje poveznica"
+   },
+   "disableProtectionTitle": {
+      "description": "Disable protection title.",
+      "message": "Onemogući zaštitu na ovoj stranici"
+   },
+   "enableProtectionTitle": {
+      "description": "Enable protection title.",
+      "message": "Omogući zaštitu"
+   },
+   "extensionDescription": {
+      "description": "Extension description.",
+      "message": "Štiti Vas od praćenja kroz \"besplatnu\", centraliziranu dostavu sadržaja."
+   },
+   "optionsTitle": {
+      "description": "Options title.",
+      "message": "Opcije"
+   },
+   "showIconBadgeDescription": {
+      "description": "Show icon badge description.",
+      "message": "Prikazuje broj umetnutih resursa na ikoni proširenja."
+   },
+   "showIconBadgeTitle": {
+      "description": "Show icon badge title.",
+      "message": "Prikaži broj umetanja na ikoni"
+   },
+   "stripMetadataDescription": {
+      "description": "Strip metadata description.",
+      "message": "Za poboljšanu privatnost, briše senzitivne podatke iz dopuštenih zahtjeva za CDN-ove."
+   },
+   "stripMetadataTitle": {
+      "description": "Strip metadata title.",
+      "message": "Ukloni meta-podatke iz dopuštenih zahtjeva"
+   },
+   "whitelistedDomainsDescription": {
+      "description": "Whitelisted domains description.",
+      "message": "Unesite domene za njihovo dodavanje na listu dopuštenih domena. Višestruke unose odvojite točka-zarezom (;)."
+   },
+   "whitelistedDomainsTitle": {
+      "description": "Whitelisted domains title.",
+      "message": "Izuzmi domene od inspekcije"
+   }
+}

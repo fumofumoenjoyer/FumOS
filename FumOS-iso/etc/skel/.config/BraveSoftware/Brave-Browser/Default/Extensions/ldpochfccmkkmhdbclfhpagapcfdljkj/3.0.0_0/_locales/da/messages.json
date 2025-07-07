@@ -1,0 +1,70 @@
+{
+   "advancedLabel": {
+      "description": "Advanced label.",
+      "message": "Avanceret"
+   },
+   "amountInjectedDescription": {
+      "description": "Amount injected description.",
+      "message": "Antal injektioner af lokale ressourcer siden installation."
+   },
+   "amountInjectedTitle": {
+      "description": "Amount injected title.",
+      "message": "Optælling af lokalt leverede ressourcer"
+   },
+   "blockMissingDescription": {
+      "description": "Block requests for missing resources description.",
+      "message": "Annullerer en forespørgsel hvis den forespurgte ressource ikke findes lokalt."
+   },
+   "blockMissingTitle": {
+      "description": "Block requests for missing resources title.",
+      "message": "Bloker forespørgsler efter manglende ressourcer"
+   },
+   "disablePrefetchDescription": {
+      "description": "Disable prefetch description.",
+      "message": "Forhindrer ikke-tilladte forespørgsler i at blive lækket til leverandør-netværk."
+   },
+   "disablePrefetchTitle": {
+      "description": "Disable prefetch title.",
+      "message": "Deaktiver forhåndshentning af link"
+   },
+   "disableProtectionTitle": {
+      "description": "Disable protection title.",
+      "message": "Deaktiver beskyttelse for dette websted"
+   },
+   "enableProtectionTitle": {
+      "description": "Enable protection title.",
+      "message": "Aktiver beskyttelse"
+   },
+   "extensionDescription": {
+      "description": "Extension description.",
+      "message": "Beskytter dig imod sporing af \"gratis\", centraliserede indholdsleverandører."
+   },
+   "optionsTitle": {
+      "description": "Options title.",
+      "message": "Indstillinger"
+   },
+   "showIconBadgeDescription": {
+      "description": "Show icon badge description.",
+      "message": "Viser antallet af injicerede ressourcer på udvidelsens ikon."
+   },
+   "showIconBadgeTitle": {
+      "description": "Show icon badge title.",
+      "message": "Vis antal af injektioner på ikon"
+   },
+   "stripMetadataDescription": {
+      "description": "Strip metadata description.",
+      "message": "Sletter følsomme data fra tilladte CDN-forespørgsler for at mindste eksponeringen."
+   },
+   "stripMetadataTitle": {
+      "description": "Strip metadata title.",
+      "message": "Fjern metadata fra tilladte forespørgsler"
+   },
+   "whitelistedDomainsDescription": {
+      "description": "Whitelisted domains description.",
+      "message": "Tilføj domæner der ikke skal inspiceres. Separer flere med semikolon (;)."
+   },
+   "whitelistedDomainsTitle": {
+      "description": "Whitelisted domains title.",
+      "message": "Udeluk disse domæner fra inspektion"
+   }
+}

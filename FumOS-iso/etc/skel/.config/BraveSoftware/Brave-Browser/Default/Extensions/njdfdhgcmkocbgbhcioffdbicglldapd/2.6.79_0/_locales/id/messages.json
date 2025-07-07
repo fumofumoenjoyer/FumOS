@@ -1,0 +1,530 @@
+{
+   "advancedLabel": {
+      "description": "Advanced label",
+      "message": "Lanjutan"
+   },
+   "allowlistedDomainsDescription": {
+      "description": "Enter domains to disable LocalCDN there. One entry per line.",
+      "message": "Masukkan domain ke daftar putih. 1 entri per baris."
+   },
+   "allowlistedDomainsTitle": {
+      "description": "Deactivate LocalCDN for these domains:",
+      "message": "Nonaktifkan LocalCDN untuk domain ini:"
+   },
+   "amountInjectedDescription": {
+      "description": "Amount injected description.",
+      "message": "Jumlah injeksi sumber daya Jaringan Distribusi Konten lokal sejak pemasangan."
+   },
+   "betaLabel": {
+      "description": "beta",
+      "message": "Beta"
+   },
+   "blockGoogleFontsDescription": {
+      "description": "If requests for missing resources are allowed, connections to \"fonts.googleapis.com\" are not blocked. Enable this option to block these requests.",
+      "message": "Jika permintaan untuk sumber daya yang hilang diizinkan, koneksi ke \"fonts.googleapis.com\" tidak akan diblokir. Aktifkan opsi ini untuk memblokir permintaan."
+   },
+   "blockGoogleFontsTitle": {
+      "description": "Block Google Fonts",
+      "message": "Blokir Fon Google"
+   },
+   "blockMissingDescription": {
+      "description": "Block requests for missing resources description.",
+      "message": "Batalkan pencegatan permintaan jika sumber daya yang dibutuhkan tidak tersedia secara lokal."
+   },
+   "blockMissingTitle": {
+      "description": "Block requests for missing resources title",
+      "message": "Blokir permintaan untuk sumber daya yang hilang"
+   },
+   "btnAdvanced": {
+      "description": "Advanced",
+      "message": "Lanjutan"
+   },
+   "btnGeneral": {
+      "description": "Basic",
+      "message": "Dasar"
+   },
+   "btnInfo": {
+      "description": "Info",
+      "message": "Info"
+   },
+   "btnOther": {
+      "description": "Other",
+      "message": "Lainnya"
+   },
+   "changeBadgeColorMissingResourcesDescription": {
+      "description": "Change the badge color if resources are missing.",
+      "message": "Ubah warna lencana jika sumber daya tidak ada."
+   },
+   "changeBadgeColorMissingResourcesTitle": {
+      "description": "Indicate missing resources on the icon",
+      "message": "Mengindikasikan sumber daya tidak ada pada ikon"
+   },
+   "chooseIconStyle": {
+      "description": "Choose an icon for this extension",
+      "message": "Pilih ikon untuk ekstensi ini"
+   },
+   "copyRuleSet": {
+      "description": "Text of button to copy ruleset",
+      "message": "Salin"
+   },
+   "counterBlocked": {
+      "description": "Blocked",
+      "message": "Diblokir"
+   },
+   "counterMissing": {
+      "description": "Missing",
+      "message": "Hilang"
+   },
+   "dialogConfirmDeleteStatistics": {
+      "description": "Are you sure you want to delete all the statistics?",
+      "message": "Apakah Anda yakin ingin menghapus semua statistik?"
+   },
+   "dialogImportFailed": {
+      "description": "Import failed",
+      "message": "Impor gagal"
+   },
+   "dialogImportSuccessful": {
+      "description": "Import successful",
+      "message": "Impor berhasil"
+   },
+   "disablePrefetchDescription": {
+      "description": "Disable prefetch description.",
+      "message": "Mencegah permintaan yang dicekal bocor ke jaringan pengiriman."
+   },
+   "disablePrefetchTitle": {
+      "description": "Disable prefetch title",
+      "message": "Nonaktifkan pra-ambil tautan"
+   },
+   "extensionDescription": {
+      "description": "Protects you against tracking through CDNs (Content Delivery Networks) by redirecting to local resources.",
+      "message": "Melindungi Anda dari pelacakan melalui CDN (Content Delivery Networks) dengan mengalihkannya ke sumber lokal."
+   },
+   "featureBreaksWebsitesButton": {
+      "description": "Disable",
+      "message": "Nonaktifkan"
+   },
+   "featureBreaksWebsitesDescription": {
+      "description": "This feature breaks websites. Do not leave it enabled, unless you are prepared to manually add affected domains to the allow list.",
+      "message": "Fitur ini akan membuat situs web tidak bekerja dengan benar. Jangan membiarkannya aktif, kecuali jika Anda siap menambahkan secara manual semua domain yang terdampak ke dalam daftar putih."
+   },
+   "generateRuleSetDescription": {
+      "description": "In case you are using an adblocker you can generate the rules here. You have to add these rules manually in your adblocker.",
+      "message": "Jika Anda menggunakan pemblokir iklan, Anda bisa membuat aturannya di sini. Anda harus menambahkan aturan ini secara manual ke pemblokir iklan Anda."
+   },
+   "generateRuleSetTitle": {
+      "description": "Generate rule sets for your adblocker",
+      "message": "Buat aturan untuk pemblokir iklan Anda"
+   },
+   "headerImportExport": {
+      "description": "Import/Export",
+      "message": "Impor/Ekspor"
+   },
+   "headerStatistics": {
+      "description": "Statistics. The header of a statistics page.",
+      "message": "Statistik"
+   },
+   "headerStorageType": {
+      "description": "Storage type",
+      "message": "Tipe penyimpanan"
+   },
+   "helpBlockGoogleFontsDescription": {
+      "description": "LocalCDN can replace »Google Material Icons«. To catch the connection your adblocker (e.g. uBlock Origin, uMatrix or AdGuard) must allow the request. LocalCDN listens on these requests and if the query contains »Google Material Icons«, the resource will be replaced. If you uncheck the »Block requests for missing content« option, non-existent resources will be allowed to pass and »Google Fonts« will be loaded, because »Google Material Icons« and »Google Fonts« use the same domain. If you don‘t want this, you can block »Google Fonts« on LocalCDN.",
+      "message": "LocalCDN dapat mengubah »Google Material Icons«. Untuk mendapatkan koneksinya pemblokir iklan Anda (mis. uBlock Origin, uMatrix or AdGuard) harus memperbolehkan permintaannya. LocalCDN mendengarkan pada permintaan ini dan jika kueri berisi »Google Material Icons«, sumber daya ini akan diubah. Jika Anda tidak mencentang opsi »Blokir permintaan untuk sumber daya yang hilang«, sumber daya yang tidak tersedia akan diperbolehkan untuk lewat dan »Google Fonts« akan dimuat, karena »Google Material Icons« dan »Google Fonts« menggunakan domain yang sama. Jika Anda tidak menginginkan ini, Anda dapat memblokir »Google Fonts« di LocalCDN."
+   },
+   "helpBlockGoogleFontsTitle": {
+      "description": "Why is there a »Block Google Fonts« option?",
+      "message": "Kenapa ada opsi »Blokir Google Fonts«?"
+   },
+   "helpBrowserCompatibility": {
+      "description": "Browser compatibility",
+      "message": "Kompatibilitas peramban"
+   },
+   "helpBrowserCompatibilityTitle": {
+      "description": "Browser compatibility",
+      "message": "Kompatibilitas peramban"
+   },
+   "helpData": {
+      "description": "Data",
+      "message": "Data"
+   },
+   "helpExplanationChrome": {
+      "description": "All Chromium based Browser",
+      "message": "Semua Peramban berbasis Chromium"
+   },
+   "helpHtmlFilterAfter": {
+      "description": "The result then looks like this:",
+      "message": "Hasilnya akan terlihat seperti ini:"
+   },
+   "helpHtmlFilterBefore": {
+      "description": "The HTML filter removes the red characters from this example:",
+      "message": "Filter HTML menghapus karakter merah dari contoh ini:"
+   },
+   "helpHtmlFilterCrossorigin": {
+      "description": "The crossorigin attribute prevents the replacement because the destination does not match the requested one.",
+      "message": "Atribut crossorigin mencegah perubahan karena destinasi tidak cocok dengan yang diminta."
+   },
+   "helpHtmlFilterDescription": {
+      "description": "In most cases LocalCDN can easily replace embedded frameworks and improves privacy. In some cases the website may try to prevent this by setting certain options in the HTML source code. LocalCDN reads the HTML source code before it is displayed in the browser and removes these part (red).",
+      "message": "Dalam banyak kasus LocalCDN dapat mengubah kerangka kerja yang tersemat secara mudah dan meningkatkan privasi. Dalam beberapa kasus situs web mungkin mencegahnya dengan menetapkan beberapa opsi di kode sumber HTML. LocalCDN membaca kode sumber HTML sebelum ditampilkan di peramban dan menghilangkan bagian-bagian ini (merah)."
+   },
+   "helpHtmlFilterErrors": {
+      "description": "Unfortunately, it sometimes happens that special characters are then displayed incorrectly. In this case you can deactivate the setting again, to display the umlauts correctly.",
+      "message": "Sayangnya, terkadang terjadi bahwa karakter khusus ditampilkan dengan tidak benar. Dalam kasus Anda dapat menonaktifkan pengaturannya lagi, untuk menampilkan umlaut dengan benar."
+   },
+   "helpHtmlFilterIntegrity": {
+      "description": "To save disk space and to deliver more frameworks LocalCDN upgrades a framework. An integrity tag is the hash value of a file. If the check fails, the browser won‘t include a framework. The integrity check will fail because the hash values for e.g. jQuery 1.10.1 and jQuery 1.12.4 are different.",
+      "message": "Untuk menyimpan ruang disk dan menyediakan lebih banyak kerangka kerja LocalCDN meningkatkan sebuah kerangka kerja. Sebuah tanda integritas adalah nilai hash dari sebuah file. Jika pemeriksaan gagal, peramban tidak menambahkan sebuah kerangka kerja. Pemeriksaan integritas akan gagal karena nilai hash untuk mis. jQuery 1.10.1 dan jQuery 1.12.4 berbeda."
+   },
+   "helpHtmlFilterTitle": {
+      "description": "What is »HTML filter«?",
+      "message": "Apa itu »filter HTML«?"
+   },
+   "helpHtmlFilterWhyTitle": {
+      "description": "Why is it necessary to remove crossorigin and integrity attributes?",
+      "message": "Mengapa perlu menghapus atribut crossorigin dan integrity?"
+   },
+   "helpIcons": {
+      "description": "Default, Light, Blue/Grey",
+      "message": "Default, Terang, Biru/Abu-abu"
+   },
+   "helpIntroductionDescription": {
+      "description": "LocalCDN is a web browser extension that emulates Content Delivery Networks to improve your online privacy. It intercepts traffic, finds supported frameworks/libraries locally, and injects them into the website. Feel free to use the following testing utility to find out if you are properly protected. For more information read the tutorial or our Wiki pages.",
+      "message": "LocalCDN adalah sebuah ekstensi peramban jaringan yang mengemulasikan Content Delivery Networks untuk meningkatkan privasi daring Anda. Ia akan mencegat lalu lintas, mencari kerangka kerja/pustaka yang didukung secara lokal, dan menginjeksikannya ke dalam situs jaringan. Gunakan alat uji berikut untuk melihat apakah Anda sudah terlindungi dengan baik. Informasi lebih lanjut silakan baca tutorial atau halaman Wiki kami."
+   },
+   "helpIntroductionTitle": {
+      "description": "Introduction",
+      "message": "Introduksi"
+   },
+   "helpLimitation": {
+      "description": "This is not a limitation of LocalCDN, but missing API support of Chromium based browsers.",
+      "message": "Ini bukanlah sebuah limitasi dari LocalCDN, melainkan tidak ada dukungan API dari peramban berbasis Chromium."
+   },
+   "helpLinkTestUtility": {
+      "description": "Testing utility",
+      "message": "Utilitas penguji coba"
+   },
+   "helpLinkTutorial": {
+      "description": "Tutorial",
+      "message": "Tutorial"
+   },
+   "helpLinkWikiPages": {
+      "description": "Wiki pages",
+      "message": "Halaman wiki"
+   },
+   "helpNo": {
+      "description": "No",
+      "message": "Tidak"
+   },
+   "helpNumberOfInjections": {
+      "description": "Numbers of injections",
+      "message": "Jumlah injeksi"
+   },
+   "helpPermissionDescription": {
+      "description": "LocalCDN needs to know which requests are created by a website to redirect or block it. With the introduction of MV3, this permission is listed as an optional permission.",
+      "message": "LocalCDN perlu tahu permintaan mana yang dibuat oleh sebuah situs web untuk mengalihkan atau memblokirnya. Dengan adanya MV3, perizinan ini diterapkan sebagai izin opsional."
+   },
+   "helpReplace": {
+      "description": "Replace",
+      "message": "Ganti"
+   },
+   "helpReplaceOther": {
+      "description": "Replace other resources",
+      "message": "Ganti sumber data lainnya"
+   },
+   "helpRuleGeneratorDescription": {
+      "description": "If you want to automatically redirect all supported CDN connections to LocalCDN, you can add these rules to your adblocker to allow these redirections. If you do not want to add these rules, you must allow each CDN connection individually for each website.",
+      "message": "Jika Anda tidak ingin meneruskan semua koneksi CDN yang didikung ke LocalCDN, Anda dapat menambahkan aturan ini ke pemblokir iklan untuk mengizinkan penerusannya. Jika Anda tidak ingin menambahkan aturan ini, Anda harus mengizinkan setiap koneksi CDN secara individu untuk setiap situs web."
+   },
+   "helpRuleGeneratorTitle": {
+      "description": "Rule generator",
+      "message": "Pembuat aturan"
+   },
+   "helpRuleGeneratorUblockDescription": {
+      "description": "These rules are only relevant in »medium« or »hard« mode, because it blocks all 3rd-party resources. They are not necessary in »default«, »easy« or »very-easy« mode. For more information, please visit the uBlock Origin Wiki.",
+      "message": "Aturan ini hanya relevan dalam mode »medium« atau »hard«, karena memblokir semua sumber daya pihak ketiga. Mereka tidak dibutuhkan dalam mode »default«, »easy« atau »very-easy«. Untuk informasi lanjut, silakan kunjungi Wiki uBlock Origin."
+   },
+   "helpRuleGeneratorUblockTableDefaultEasy": {
+      "description": "Default/Easy",
+      "message": "Bawaan/Mudah"
+   },
+   "helpRuleGeneratorUblockTableHard": {
+      "description": "Hard",
+      "message": "Sulit"
+   },
+   "helpRuleGeneratorUblockTableIcon": {
+      "description": "Icon",
+      "message": "Ikon"
+   },
+   "helpRuleGeneratorUblockTableMedium": {
+      "description": "Medium",
+      "message": "Sedang"
+   },
+   "helpRuleGeneratorUblockTableMode": {
+      "description": "Mode",
+      "message": "Mode"
+   },
+   "helpRuleGeneratorUblockTableUseful": {
+      "description": "Rules useful",
+      "message": "Aturan berguna"
+   },
+   "helpRuleGeneratorUblockTitle": {
+      "description": "Only uBlock Origin:",
+      "message": "Hanya uBlock Origin:"
+   },
+   "helpStatisticsContent": {
+      "description": "The statistics contain no information about the browser, operating system, requesting website, IP addresses or any other information. Just date, CDN+counter and framework+counter. It shows you which frameworks are replaced by LocalCDNs how often and which CDNs were requested.",
+      "message": "Statistik tidak berisi informasi tentang peramban, sistem operasi, situs web yang diminta, alamat IP atau pun informasi lain. Hanya tanggal, CDN+penghitung dan KerangkaKerja+penghitung. Itu menunjukkan kerangka kerja apa saja yang diubah oleh LocalCDN, sebeberapa sering CDN yang diminta dan CDN apa saja yang diminta."
+   },
+   "helpStatisticsDescription": {
+      "description": "Don‘t panic, nothing will be transmitted. It would be against all my principles. The statistics (JSON format) contains the following information: Date, CDN+counter and framework+counter. That‘s all. I‘ve an example here:",
+      "message": "Jangan panik, tidak ada apa pun yang dikirimkan. Itu akan bertentangan dengan semua prinsip saya. Statistik (format JSON) berisi informasi berikut: Tanggal, CDN+penghitung dan KerangkaKerja+penghitung. Itu semuanya. Saya punya sebuah contoh di sini:"
+   },
+   "helpStatisticsTitle": {
+      "description": "What about the statistics? Is anything transferred to any servers?",
+      "message": "Bagaimana dengan statistiknya? Apakah ada yang ditransfer ke server mana pun?"
+   },
+   "helpStatisticsTruthDescription": {
+      "description": "The extension storage can be viewed directly with the Firefox browser. Open the URL »about:debugging«, switch to »Storage« and select »Extension Storage«. Under the key »internalStatisticsData« you will find the collected data. Just copy it and put it into a JSON PrettyPrinter to make it more readable. Please note that you have to remove the first and last quotation mark and the key to it. You should be able to see this clearly in this video.",
+      "message": "Penyimpanan ekstensi dapat dilihat langsung dengan peramban Firefox. Buka URL »about:debugging«, alihkan ke »Penyimpanan« dan pilih »Penyimpanan Pengaya«. Di bawah kunci »internalStatisticsData« Anda akan menemukan data yang dikumpulkan. Cukup salin dan masukkan ke PrettyPrinter JSON agar lebih mudah dibaca. Harap dicatat bahwa Anda harus menghapus tanda kutip pertama dan terakhir serta kuncinya. Anda harus dapat melihat ini dengan jelas di video ini."
+   },
+   "helpStatisticsTruthTitle": {
+      "description": "How do I know that‘s true?",
+      "message": "Bagaimana saya tahu bahwa itu benar?"
+   },
+   "helpSyncAccount": {
+      "description": "If you don‘t have a sync account, nothing will be synchronized. In that case it makes no difference what type of storage you have selected.",
+      "message": "Jika Anda tidak memiliki akun sinkron, tidak ada apa pun yang akan disinkronkan. Dalam kasus itu tidak membuat perbedaan antara tipe penyimpanan apa yang Anda telah pilih."
+   },
+   "helpSyncContentEver": {
+      "description": "Settings that will be synchronized:",
+      "message": "Pengaturan yang akan disinkronisasikan:"
+   },
+   "helpSyncContentLinks": {
+      "description": "More information about Firefox Sync:",
+      "message": "Informasi lebih lanjut tentang Firefox Sync:"
+   },
+   "helpSyncContentNever": {
+      "description": "Things that are never synchronized:",
+      "message": "Hal-hal yang tidak akan disinkron:"
+   },
+   "helpSyncDescription": {
+      "description": "Sync will only work if you are logged in with a Firefox account on the device and have allowed add-ons to sync in the settings. A separate sync server under your control will also work. This will synchronize most of the settings of LocalCDN across all devices.",
+      "message": "Sinkron hanya bekerja jika Anda masuk dengan akun Firefox pada perangkat ini dan memperbolehkan pengaya untuk sinkron dalam pengaturannya. Sebuah server penyinkronan terpisah dalam kendali Anda akan juga bekerja. Ini akan menyinkronkan banyaknya pengaturan LocalCDN pada semua perangkat."
+   },
+   "helpSyncTitle": {
+      "description": "What will be synchronized when I select »sync« as storage type?",
+      "message": "Apa yang disinkronkan ketika saya memilih »sinkron« sebagai tipe penyimpanan?"
+   },
+   "helpUpgradeAllResources": {
+      "description": "Upgrade all resources",
+      "message": "Tingkatkan semua sumber daya"
+   },
+   "helpWebsiteIssuesDescription": {
+      "description": "There are two possible reasons: Either a framework/library is required that LocalCDN doesn‘t (yet) deliver or an SOP. A SOP (Same origin policy) is a security mechanism that determines what data the browser is allowed to load. It helps to isolate malicious documents and thus reduce possible attack vectors. This policy prevents the browser from loading the external frameworks of LocalCDN. Unfortunately there is no solution for this at the moment.",
+      "message": "Ada dua alasan yang memungkinkan: Sebuah kerangka kerja/pustaka dibutuhkan yang LocalCDN belum menyediakan atau sebuah SOP. Sebuah SOP (kebijakan asal yang sama) adalah mekanisme yang menentukan data apa peramban diperbolehkan untuk muat. Juga membantu mengisolasikan dokumen jahat dan mengurangi vektor serangan. Kebijakan ini mencegah peramban dari memuat kerangka kerja dari LocalCDN. Sayangnya belum ada solusi untuk ini pada saat ini."
+   },
+   "helpWebsiteIssuesTitle": {
+      "description": "Some websites look strange or are not easy to use",
+      "message": "Beberapa situs tampak aneh atau tidak mudah digunakan"
+   },
+   "helpWhatWillBeSynchronizedTitle": {
+      "description": "What will be synchronized when I select »sync« as storage type?",
+      "message": "Apa yang akan disinkronisasikan saat Saya memilih »sinkron« sebagai tipe penyimpanan?"
+   },
+   "helpWhyThisPermission": {
+      "description": "Why does this extension need this permission?",
+      "message": "Mengapa ekstensi ini memerlukan izin ini?"
+   },
+   "helpYes": {
+      "description": "Yes",
+      "message": "Iya"
+   },
+   "hideDonationButton": {
+      "description": "Hide donation button",
+      "message": "Sembunyikan tombol donasi"
+   },
+   "htmlFilterDomainsDescription": {
+      "description": "Enter the domains to be handled or ignored by the HTML filter. One entry per line.",
+      "message": "Masukkan domain yang terdampak atau diabaikan oleh filter HTML. 1 entri per baris."
+   },
+   "htmlFilterDomainsTitleExclude": {
+      "description": "Do not apply HTML filter to these domains:",
+      "message": "Jangan terapkan filter HTML untuk domain ini:"
+   },
+   "htmlFilterDomainsTitleInclude": {
+      "description": "Apply HTML filter for these domains:",
+      "message": "Terapkan filter HTML untuk domain ini:"
+   },
+   "internalStatisticsDescription": {
+      "description": "No data transmission. It’s all local on your device.",
+      "message": "Fungsi ini masih dalam tahap eksperimental. Tidak ada data yang dikirim. Semuanya lokal pada perangkat Anda."
+   },
+   "internalStatisticsTitle": {
+      "description": "Internal statistics",
+      "message": "Statistik internal"
+   },
+   "labelAll": {
+      "description": "Statistics view over the whole time range",
+      "message": "Semua"
+   },
+   "labelAvg": {
+      "description": "Followed by a number of average injections per day within a specific period.",
+      "message": "Sedang (Pengalihan per hari)"
+   },
+   "labelDelete": {
+      "description": "Button to delete all statistics data.",
+      "message": "Hapus"
+   },
+   "labelDomainsAllowlistGoogleFonts": {
+      "description": "These domains are allowed to load Google Fonts. One entry per line.",
+      "message": "Domain ini diizinkan untuk memuat Google Fonts. 1 entri per baris."
+   },
+   "labelDonate": {
+      "description": "Donate",
+      "message": "Donasi"
+   },
+   "labelExportData": {
+      "description": "Back up to file",
+      "message": "Cadangkan ke berkas"
+   },
+   "labelImportData": {
+      "description": "Restore from file",
+      "message": "Pulihkan dari berkas"
+   },
+   "labelInjectedFrameworks": {
+      "description": "Followed by a number of injections within a specific period.",
+      "message": "Ganti framework"
+   },
+   "labelManipulateDOM": {
+      "description": "Filter HTML source code",
+      "message": "Filter kode sumber HTML"
+   },
+   "labelPastMonth": {
+      "description": "Statistics view for past month.",
+      "message": "Bulan lalu"
+   },
+   "labelPastWeek": {
+      "description": "Statistics view for past week.",
+      "message": "Minggu lalu"
+   },
+   "labelPastYear": {
+      "description": "Statistics view for past year.",
+      "message": "Tahun lalu"
+   },
+   "labelStorageTypeLocal": {
+      "description": "Local",
+      "message": "Lokal"
+   },
+   "labelStorageTypeSync": {
+      "description": "Sync",
+      "message": "Sinkron"
+   },
+   "labelToday": {
+      "description": "Statistics view for today.",
+      "message": "Hari ini"
+   },
+   "lastUpdate": {
+      "description": "Last update:",
+      "message": "Terakhir diperbarui:"
+   },
+   "loggingDescription": {
+      "description": "You can open the log with the icon in the menu. The log will be deleted when you close the browser or disable logging.",
+      "message": "Anda bisa membuka log dengan tombol di dalam menu. Log akan dihapus setelah Anda menutup peramban atau menonaktifkannya."
+   },
+   "loggingTitle": {
+      "description": "Enable logging",
+      "message": "Aktifkan pencatatan log"
+   },
+   "negateHtmlFilterListDescription": {
+      "description": "Enable this option to always apply the HTML filter. The domains in the list will be ignored then. If this option is disabled, the HTML filter is only applied to domains in the list.",
+      "message": "Aktifkan opsi untuk selalu menerapkan filter HTML. Domain dalam daftar akan diabaikan. Jika opsi ini dinonaktifkan, filter HTML hanya akan diterapkan ke domain di dalam daftar."
+   },
+   "negateHtmlFilterListTitle": {
+      "description": "Invert HTML filter",
+      "message": "Inversi filter HTML"
+   },
+   "negateHtmlFilterListWarning": {
+      "description": "This function can break websites. Please note the information on the Wiki page.",
+      "message": "Fungsi ini bisa membuat situs web tidak bekerja dengan benar. Silakan baca informasinya pada halaman Wiki."
+   },
+   "optionsTitle": {
+      "description": "Options title",
+      "message": "Opsi"
+   },
+   "permissionAllow": {
+      "description": "Allow",
+      "message": "Perbolehkan"
+   },
+   "permissionMissing": {
+      "description": "Missing permission",
+      "message": "Izin belum ada"
+   },
+   "permissionMoreInfo": {
+      "description": "More info",
+      "message": "Info lebih lanjut"
+   },
+   "permissionRevokedDescription": {
+      "description": "Please do not disable the permission. LocalCDN needs the permission to detect and redirect requests to CDNs.",
+      "message": "Jangan nonaktifkan izinnya. LocalCDN memerlukan izin untuk mendeteksi dan mengalihkan permintaan ke CDN."
+   },
+   "permissionRevokedHeader": {
+      "description": "Permission revoked",
+      "message": "Perizinan ditolak"
+   },
+   "permissionRevokedPermissionName": {
+      "description": "The exact name of the permission. Exactly as it is displayed in Firefox.",
+      "message": "Akses semua data Anda untuk semua situs web"
+   },
+   "showIconBadgeDescription": {
+      "description": "Show icon badge description.",
+      "message": "Tampilkan jumlah injeksi sumber daya pada ekstensi ikon."
+   },
+   "showIconBadgeTitle": {
+      "description": "Show icon badge title",
+      "message": "Tampilkan jumlah injeksi pada ikon"
+   },
+   "stripMetadataDescription": {
+      "description": "Strip metadata description.",
+      "message": "Hapus data sensitif dari permintaan CDN yang diizinkan untuk meningkatkan privasi."
+   },
+   "stripMetadataTitle": {
+      "description": "Strip metadata title",
+      "message": "Buang data meta dari permintaan yang diizinkan"
+   },
+   "titleBadgeDefault": {
+      "description": "Default badge",
+      "message": "Lencana bawaan"
+   },
+   "titleBadgeHTMLFilter": {
+      "description": "HTML filter badge",
+      "message": "Lencana saringan HTML"
+   },
+   "titleBadgeMissingResource": {
+      "description": "Missing or blocked resources badge",
+      "message": "Lecana sumber daya hilang atau diblokir"
+   },
+   "titleHelp": {
+      "description": "Help",
+      "message": "Bantuan"
+   },
+   "updateNotificationAlways": {
+      "description": "Always",
+      "message": "Selalu"
+   },
+   "updateNotificationNever": {
+      "description": "Never (Silent Updates)",
+      "message": "Tidak pernah"
+   },
+   "updateNotificationOnlyRules": {
+      "description": "Only if new CDNs and rules",
+      "message": "Hanya aturan dan CDN baru"
+   },
+   "updateNotificationTitle": {
+      "description": "Notification after an update",
+      "message": "Notifikasi setelah pembaruan"
+   },
+   "websiteBroken": {
+      "description": "Website broken?",
+      "message": "Situs web tidak bekerja?"
+   }
+}

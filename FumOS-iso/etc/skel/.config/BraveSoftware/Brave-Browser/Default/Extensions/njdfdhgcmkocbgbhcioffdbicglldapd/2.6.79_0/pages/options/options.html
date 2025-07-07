@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Options | LocalCDN</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="utf-8">
+        <link rel="shortcut icon" href="../images/favicon.ico" type="image/x-icon">
+        <link rel="icon" href="../images/favicon.ico" type="image/x-icon">
+        <link rel="stylesheet" type="text/css" href="../../modules/internal/color-picker/color-picker.css">
+        <link rel="stylesheet" type="text/css" href="options.css">
+        <link rel="stylesheet" type="text/css" href="../base.css">
+    </head>
+    <body>
+        <script src="../../modules/internal/color-picker/color-picker.js"></script>
+
+        <script src="../../core/constants.js"></script>
+        <script src="../../core/storage-manager.js"></script>
+        <script src="../../modules/internal/helpers.js"></script>
+        <script src="../../modules/internal/rule-generator.js"></script>
+        <script src="../../modules/internal/wrappers.js"></script>
+        <script defer src="../../core/resources.js"></script>
+        <script defer src="../../core/mappings.js"></script>
+
+        <script src="options-basic.js"></script>
+        <script src="options-advanced.js"></script>
+        <script src="options-other.js"></script>
+        <script src="options-info.js"></script>
+
+        <script src="options.js"></script>
+
+        <div class="btn-group">
+            <input type="button" id="btn-general-tab" class="option-buttons option-buttons-active" data-option-tab="general-tab" data-i18n-content="btnGeneral" value="General">
+            <input type="button" id="btn-advanced-tab" class="option-buttons" data-option-tab="advanced-tab" data-i18n-content="btnAdvanced" value="Advanced">
+            <input type="button" id="btn-export-import-tab" class="option-buttons" data-option-tab="export-import-tab" data-i18n-content="btnOther" value="Other">
+            <input type="button" id="btn-info-tab" class="option-buttons" data-option-tab="info-tab" data-i18n-content="btnInfo" value="Info">
+        </div>
+
+        <div id="chromium-banner" class="chromium-banner">Non-Firefox browsers do not support all features of LocalCDN. <a class="no-icon" href="../help/help.html#browser-compatibility">Read more</a></div>
+
+        <div id="general-tab" class="tab-content">
+            <div class="option-group">
+                <div class="option">
+                    <div class="title-option">
+                        <label class="b-contain">
+                            <input data-option="showIconBadge" type="checkbox">
+                            <span data-i18n-content="showIconBadgeTitle">Display injection counts on icon</span>
+                            <span class="b-input"></span>
+                        </label>
+                    </div>
+                    <div class="description-option" data-i18n-content="showIconBadgeDescription">Show the number of injected resources on the extension icon.</div>
+                </div>
+                <div class="option">
+                    <div class="title-option b-contain">
+                        <span data-i18n-content="updateNotificationTitle">Notification after an update</span>
+                    </div>
+                    <div class="description-option">
+                        <select id="update-notification" data-option="updateNotification">
+                            <option value="0" data-i18n-content="updateNotificationNever">Never (Silent Updates)</option>
+                            <option value="1" data-i18n-content="updateNotificationOnlyRules">Only new CDN and rules</option>
+                            <option value="2" data-i18n-content="updateNotificationAlways">Always</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="option">
+                    <div class="title-option">
+                        <label class="b-contain">
+                            <input data-option="disablePrefetch" type="checkbox">
+                            <span data-i18n-content="disablePrefetchTitle">Disable link prefetching</span>
+                            <span class="b-input"></span>
+                        </label>
+                    </div>
+                    <div class="description-option" data-i18n-content="disablePrefetchDescription">Prevent disallowed requests from leaking out to delivery networks.</div>
+                </div>
+                <div class="option">
+                    <div class="title-option">
+                        <label class="b-contain">
+                            <input data-option="stripMetadata" type="checkbox">
+                            <span data-i18n-content="stripMetadataTitle">Strip metadata from allowed requests</span>
+                            <span class="b-input"></span>
+                        </label>
+                    </div>
+                    <div class="description-option" data-i18n-content="stripMetadataDescription">Erase sensitive data from allowed CDN requests for improved privacy.</div>
+                </div>
+                <div class="option">
+                    <div class="title-option">
+                        <label class="b-contain">
+                            <input data-option="internalStatistics" type="checkbox">
+                            <span data-i18n-content="internalStatisticsTitle">Internal statistics</span>
+                            <span class="b-input"></span>
+                        </label>
+                    </div>
+                    <div class="description-option" data-i18n-content="internalStatisticsDescription">No data transmission. It's all local on your device.</div>
+                </div>
+                <div class="option">
+                    <div class="title-option">
+                        <label class="b-contain">
+                            <input data-option="hideDonationButton" type="checkbox">
+                            <span data-i18n-content="hideDonationButton">Hide donation button</span>
+                            <span class="b-input"></span>
+                        </label>
+                    </div>
+                </div>
+            </div>
+            <div class="option-group">
+                <div class="option">
+                    <div class="title-option without-checkbox" data-i18n-content="allowlistedDomainsTitle">Deactivate LocalCDN for these domains:</div>
+                    <textarea rows="7" id="allowlistedDomains" class="input-text without-checkbox" data-option="allowlistedDomains"></textarea>
+                    <div class="description-option without-checkbox">
+                        <span data-i18n-content="allowlistedDomainsDescription">Enter domains to disable LocalCDN there. One domain per line.</span><br><br>
+                        <span class="monoblock">
+                            <img class="checked-unchecked" src="../../icons/checked.svg" alt=""> example.com<br>
+                            <img class="checked-unchecked" src="../../icons/checked.svg" alt=""> sub.example.com<br>
+                            <img class="checked-unchecked" src="../../icons/checked.svg" alt=""> *.example.com<br>
+                            <img class="checked-unchecked" src="../../icons/checked.svg" alt=""> *.com<br>
+                            <img class="checked-unchecked" src="../../icons/unchecked.svg" alt=""> https://example.com<br>
+                            <img class="checked-unchecked" src="../../icons/unchecked.svg" alt=""> https://*.example.com<br>
+                            <img class="checked-unchecked" src="../../icons/unchecked.svg" alt=""> https://example.com/page/example.html
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="advanced-tab" class="tab-content">
+            <div class="notice notice-warning hidden" id="notice-block-missing">
+                <div class="notice-head">
+                    <span data-i18n-content="blockMissingTitle">Block requests for missing resources</span>
+                </div>
+                <div class="notice-body" dir="ltr">
+                    <div class="notice-message" data-i18n-content="featureBreaksWebsitesDescription">
+                        This feature breaks websites. Do not leave it enabled, unless you are prepared to manually allowlist any affected domains.
+                    </div>
+                    <div class="button button-notice button-warning" id="button-block-missing" data-i18n-content="featureBreaksWebsitesButton">
+                        Disable
+                    </div>
+                </div>
+            </div>
+            <div class="option-group">
+                <div class="option">
+                    <div class="title-option">
+                        <label class="b-contain">
+                            <input id="blockMissing" data-option="blockMissing" type="checkbox">
+                            <span data-i18n-content="blockMissingTitle">Block requests for missing resources</span>
+                            <span class="b-input"></span>
+                        </label>
+                        <span class="badge badge-warning" data-i18n-content="advancedLabel">Advanced</span>
+                    </div>
+                    <div class="description-option" data-i18n-content="blockMissingDescription">Cancel intercepted request if the required resource is not locally available.</div>
+                </div>
+                <div id="block-google-fonts" class="option">
+                    <div class="title-option">
+                        <label class="b-contain">
+                            <input id="blockGoogleFonts" data-option="blockGoogleFonts" type="checkbox">
+                            <span data-i18n-content="blockGoogleFontsTitle">Block Google Fonts</span>
+                            <span class="b-input"></span>
+                        </label>
+                    </div>
+                    <div class="description-option" data-i18n-content="blockGoogleFontsDescription">If you use the rules of the rule generator, requests to "fonts.googleapis.com" are allowed to substitute "Google Material Icons" automatically. If you want to block the other requests, enable this option.</div>
+                    <div id="div-domains-allowlist-google-fonts">
+                        <div class="description-option"><textarea rows="7" id="allowedDomainsGoogleFonts" class="input-text without-checkbox" data-option="allowedDomainsGoogleFonts"></textarea></div>
+                        <div class="description-option">
+                            <span data-i18n-content="labelDomainsAllowlistGoogleFonts">These domains are allowed to load Google Fonts. One domain per line.</span><br>
+                            <span class="monoblock">
+                                <img class="checked-unchecked" src="../../icons/checked.svg" alt=""> example.com<br>
+                                <img class="checked-unchecked" src="../../icons/checked.svg" alt=""> sub.example.com<br>
+                                <img class="checked-unchecked" src="../../icons/checked.svg" alt=""> *.example.com<br>
+                                <img class="checked-unchecked" src="../../icons/checked.svg" alt=""> *.com<br>
+                                <img class="checked-unchecked" src="../../icons/unchecked.svg" alt=""> https://example.com<br>
+                                <img class="checked-unchecked" src="../../icons/unchecked.svg" alt=""> https://*.example.com<br>
+                                <img class="checked-unchecked" src="../../icons/unchecked.svg" alt=""> https://example.com/page/example.html
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="option">
+                    <div class="title-option">
+                        <label class="b-contain">
+                            <input id="enableLogging" data-option="enableLogging" type="checkbox">
+                            <span data-i18n-content="loggingTitle">Enable logging</span>
+                            <span class="b-input"></span>
+                        </label>
+                    </div>
+                    <div class="description-option" data-i18n-content="loggingDescription">You can open the log with the icon in the menu. The log will be deleted when you close the browser or disable logging.</div>
+                </div>
+                <div class="option">
+                    <div class="title-option">
+                        <label class="b-contain">
+                            <input id="changeBadgeColorMissingResources" data-option="changeBadgeColorMissingResources" type="checkbox">
+                            <span data-i18n-content="changeBadgeColorMissingResourcesTitle">Indicate missing resources on the icon</span>
+                            <span class="b-input"></span>
+                        </label>
+                    </div>
+                    <div class="description-option" data-i18n-content="changeBadgeColorMissingResourcesDescription">Change the badge color if resources are missing.</div>
+                </div>
+            </div>
+            <div id="html-filter-div" class="option-group">
+                <div class="option">
+                    <div id="html-filter-domains-title-exclude" class="title-option without-checkbox" data-i18n-content="htmlFilterDomainsTitleExclude">Do not apply HTML filter to these domains:</div>
+                    <div id="html-filter-domains-title-include" class="title-option without-checkbox" data-i18n-content="htmlFilterDomainsTitleInclude">Apply HTML filter to these domains:</div>
+                    <textarea rows="7" id="domainsManipulateDOM" class="input-text without-checkbox" data-option="domainsManipulateDOM"></textarea>
+                    <div class="description-option without-checkbox">
+                        <span data-i18n-content="htmlFilterDomainsDescription">Enter the domains to be handled or ignored by the HTML filter. One domain per line.</span><br>
+                        <span class="monoblock">
+                            <img class="checked-unchecked" src="../../icons/checked.svg" alt=""> example.com<br>
+                            <img class="checked-unchecked" src="../../icons/checked.svg" alt=""> sub.example.com<br>
+                            <img class="checked-unchecked" src="../../icons/checked.svg" alt=""> *.example.com<br>
+                            <img class="checked-unchecked" src="../../icons/checked.svg" alt=""> *.com<br>
+                            <img class="checked-unchecked" src="../../icons/unchecked.svg" alt=""> https://example.com<br>
+                            <img class="checked-unchecked" src="../../icons/unchecked.svg" alt=""> https://*.example.com<br>
+                            <img class="checked-unchecked" src="../../icons/unchecked.svg" alt=""> https://example.com/page/example.html
+                        </span>
+                    </div>
+                </div>
+                <div class="option">
+                    <div class="title-option">
+                        <label class="b-contain">
+                            <input id="negateHtmlFilterList" data-option="negateHtmlFilterList" type="checkbox">
+                            <span data-i18n-content="negateHtmlFilterListTitle">Invert HTML filter</span>
+                            <span class="b-input"></span>
+                        </label>
+                        <span class="badge badge-warning" data-i18n-content="advancedLabel">Advanced</span>
+                    </div>
+                    <div class="description-option" data-i18n-content="negateHtmlFilterListDescription">Enable this option to always apply the HTML filter. The domains in the list will be ignored then. If this option is disabled, the HTML filter is only applied to domains in the list.</div>
+                </div>
+                <a id="negate-html-filter-list-warning" data-i18n-content="negateHtmlFilterListWarning">This function can break websites. Please note the information on the Wiki page.</a>
+            </div>
+            <div class="option-group">
+                <div class="option">
+                    <div class="title-option without-checkbox">
+                        <a class="no-icon" href="../help/help.html#rule-generator">
+                            <span data-i18n-content="generateRuleSetTitle">Generate rule set</span>
+                            <span id="ruleset-help" class="options-help-icon"></span>
+                        </a>
+                    </div>
+                    <div class="description-option without-checkbox">
+                        <p class="without-checkbox" data-i18n-content="generateRuleSetDescription">In case you're using an adblocker you can generate the rules here. You have to add these rules manually in your adblocker.</p>
+                    </div>
+                    <div class="ruleset-generator">
+                        <p id="last-mapping-update" class="description-option last-update without-checkbox" data-i18n-content="lastUpdate">Last update:</p>
+                    </div>
+                    <div class="ruleset-generator">
+                        <label class="b-contain" for="generate-ublock-rules">uBlock
+                            <input id="generate-ublock-rules" name="rule-sets" data-ruleset="uBlock" type="radio" value="uBlock">
+                            <span class="b-input"></span>
+                        </label>
+                    </div>
+                    <div class="ruleset-generator">
+                        <label class="b-contain" for="generate-umatrix-rules">uMatrix
+                            <input id="generate-umatrix-rules" name="rule-sets" data-ruleset="uMatrix" type="radio" value="uMatrix">
+                            <span class="b-input"></span>
+                        </label>
+                    </div>
+                    <div class="ruleset-generator">
+                        <label class="b-contain" for="generate-adguard-rules">AdGuard
+                            <input id="generate-adguard-rules" name="rule-sets" data-ruleset="AdGuard" type="radio" value="AdGuard">
+                            <span class="b-input"></span>
+                        </label>
+                    </div>
+                    <div class="ruleset-generator">
+                        <label class="b-contain" for="generate-noscript-rules">NoScript
+                            <input id="generate-noscript-rules" name="rule-sets" data-ruleset="NoScript" type="radio" value="NoScript">
+                            <span class="b-input"></span>
+                        </label>
+                    </div>
+                    <textarea rows="12" id="generated-rules" readonly></textarea>
+                    <button id="button-copy-rule-set" value="Copy" class="btns"><span data-i18n-content="copyRuleSet">Copy</span><span id="button-copy-rule-set-icon"></span></button>
+                </div>
+            </div>
+        </div>
+
+        <div id="export-import-tab" class="tab-content">
+            <div id="icon-style-div" class="option-group">
+                <div id="section-icon-style" class="option">
+                    <div class="title-option without-checkbox" data-i18n-content="chooseIconStyle">Choose an icon for this extension</div>
+                    <div class="div-icons-badge-colors">
+                        <div class="div-selected-icon">
+                            <label class="b-contain" for="icon-default">
+                                <img src="../../icons/action/default/icon32-default.png" alt="" class="icons">
+                                <img src="../../icons/action/default/icon32-disabled.png" alt="" class="icons">
+                                <input id="icon-default" name="selected-icon" type="radio" data-option="selectedIcon" value="Default">
+                                <span class="b-input"></span>
+                            </label>
+                            <label class="b-contain" for="icon-grey">
+                                <img src="../../icons/action/grey/icon32-default.png" alt="" class="icons">
+                                <img src="../../icons/action/grey/icon32-disabled.png" alt="" class="icons">
+                                <input id="icon-grey" name="selected-icon" type="radio" data-option="selectedIcon" value="Grey">
+                                <span class="b-input"></span>
+                            </label>
+                            <label class="b-contain" for="icon-light">
+                                <img src="../../icons/action/light/icon32-default.png" alt="" class="icons">
+                                <img src="../../icons/action/light/icon32-disabled.png" alt="" class="icons">
+                                <input id="icon-light" name="selected-icon" type="radio" data-option="selectedIcon" value="Light">
+                                <span class="b-input"></span>
+                            </label>
+                        </div>
+                        <div class="div-badge">
+                            <p class="title-option" data-i18n-content="titleBadgeDefault">Default badge</p>
+                            <div id="badge-preview-top">
+                                <div>
+                                    <img id="icon-badge-preview" src="../../icons/action/default/icon38-default.png" alt="" class="icons">
+                                    <div id="counter-preview-badge"><span>17</span></div>
+                                </div>
+                            </div>
+                            <div id="badge-preview-bottom">
+                                <div class="colorpicker">
+                                    <div id="pre-badged-background-color"></div>
+                                    <input id="badged-background-color" data-option="badgeDefaultBackgroundColor" class="input-text" maxlength="7"><img id="restore-background-color" class="img-restore-color" src="../../icons/restore.svg" alt=""><br>
+                                </div>
+                                <div id="div-badged-text-color" class="colorpicker">
+                                    <div id="pre-badged-text-color"></div>
+                                    <input id="badged-text-color"  data-option="badgeDefaultTextColor" class="input-text" maxlength="7"><img id="restore-text-color" class="img-restore-color" src="../../icons/restore.svg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div id="div-html-badge" class="div-badge">
+                            <p class="title-option" data-i18n-content="titleBadgeHTMLFilter">HTML filter badge</p>
+                            <div id="html-badge-preview-top">
+                                <div>
+                                    <img id="html-icon-badge-preview" src="../../icons/action/default/icon38-default.png" alt="" class="icons">
+                                    <div id="html-counter-preview-badge"><span>17</span></div>
+                                </div>
+                            </div>
+                            <div id="html-badge-preview-bottom">
+                                <div class="colorpicker">
+                                    <div id="html-pre-badged-background-color"></div>
+                                    <input id="html-badged-background-color" data-option="badgeHTMLFilterBackgroundColor" class="input-text" maxlength="7"><img id="html-restore-background-color" class="img-restore-color" src="../../icons/restore.svg" alt=""><br>
+                                </div>
+                                <div id="html-div-badged-text-color" class="colorpicker">
+                                    <div id="html-pre-badged-text-color"></div>
+                                    <input id="html-badged-text-color"  data-option="badgeHTMLfilterTextColor" class="input-text" maxlength="7"><img id="html-restore-text-color" class="img-restore-color" src="../../icons/restore.svg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="div-badge">
+                            <p class="title-option" data-i18n-content="titleBadgeMissingResource">Missing resource badge</p>
+                            <div id="missing-badge-preview-top">
+                                <div>
+                                    <img id="missing-icon-badge-preview" src="../../icons/action/default/icon38-default.png" alt="" class="icons">
+                                    <div id="missing-counter-preview-badge"><span>17</span></div>
+                                </div>
+                            </div>
+                            <div id="missing-badge-preview-bottom">
+                                <div class="colorpicker">
+                                    <div id="missing-pre-badged-background-color"></div>
+                                    <input id="missing-badged-background-color" data-option="badgeMissingResourceBackgroundColor" class="input-text" maxlength="7"><img id="missing-restore-background-color" class="img-restore-color" src="../../icons/restore.svg" alt=""><br>
+                                </div>
+                                <div id="missing-div-badged-text-color" class="colorpicker">
+                                    <div id="missing-pre-badged-text-color"></div>
+                                    <input id="missing-badged-text-color"  data-option="badgeMissingResourceTextColor" class="input-text" maxlength="7"><img id="missing-restore-text-color" class="img-restore-color" src="../../icons/restore.svg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="option-group">
+                <div class="option">
+                    <div class="title-option without-checkbox"><span data-i18n-content="headerStorageType">Storage type</span><span id="sync-help" class="options-help-icon"></span></div>
+                    <label class="b-contain storage-type" for="storage-type-local"><span  data-i18n-content="labelStorageTypeLocal">Local (recommended)</span>
+                        <input id="storage-type-local" data-option="storageType" name="storage-type" type="radio" value="local">
+                        <span class="b-input"></span>
+                    </label>
+                    <label class="b-contain storage-type" for="storage-type-sync"><span data-i18n-content="labelStorageTypeSync">Sync</span>
+                        <input id="storage-type-sync" data-option="storageType" name="storage-type" type="radio" value="sync">
+                        <span class="b-input"></span>
+                        <span class="badge badge-warning" data-i18n-content="betaLabel">Beta</span>
+                    </label>
+                </div>
+                <div class="option">
+                    <div class="title-option without-checkbox" data-i18n-content="headerImportExport">Import/Export</div>
+                    <div class="import-export">
+                        <input type="button" id="import-data" class="btns" value="Import Data" data-i18n-content="labelImportData">
+                        <input type="button" id="export-data" class="btns" value="Export Data" data-i18n-content="labelExportData">
+                        <div class="hidden">
+                            <input id="import-file-picker" type="file" accept="text/plain">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="info-tab" class="tab-content">
+            <div class="option-group">
+                <div class="option info">
+                    <div>
+                        <input type="button" id="cdn" class="btns" value="cdn">
+                        <input type="button" id="framework" class="btns" value="framework">
+                    </div>
+                    <ul id="unsupported-frameworks">
+                        <li>Font Awesome are not supported by your browser</li>
+                        <li>Google Material Icons are not supported by your browser</li>
+                    </ul>
+                    <textarea rows="12" cols="15" id="generated-list" readonly></textarea>
+                </div>
+            </div>
+            <div class="option-group">
+                <div class="option">
+                    <ul class="option-links">
+                        <li><a id="link-welcome-page" href="../welcome/welcome.html" class="no-icon">Welcome page (In-App)</a></li>
+                        <li><a id="link-changelog" href="../updates/updates.html" class="no-icon">Changelog (In-App)</a></li>
+                        <li><a id="link-donate" href="../donate/donate.html" class="no-icon">Donate (In-App)</a></li>
+                        <li><a id="link-faq" href="../help/help.html" class="no-icon">FAQ (In-App)</a></li>
+                        <li><a id="link-statistic" href="../statistics/statistics.html" class="no-icon"><span data-i18n-content="internalStatisticsTitle">Statistics</span> <span>(In-App)</span></a></li>
+                        <li><a id="link-logging" href="../logging/logging.html" class="no-icon">Logs <span>(In-App)</span></a></li>
+                    </ul>
+                    <ul class="option-links">
+                        <li><a id="link-codeberg" href="https://codeberg.org/nobody/LocalCDN" target="_blank" rel="nofollow noopener noreferrer">Source (www.codeberg.org)</a></li>
+                        <li><a id="link-website" href="https://www.localcdn.org" target="_blank" rel="nofollow noopener noreferrer">Website (www.localcdn.org)</a></li>
+                        <li><a id="link-website-test" href="https://www.localcdn.org/test" target="_blank" rel="nofollow noopener noreferrer">Testing Utility (www.localcdn.org/test)</a></li>
+                        <li><a id="link-translate" href="https://hosted.weblate.org/projects/localcdn/localcdn/" target="_blank" rel="nofollow noopener noreferrer">Translate (www.weblate.org)</a></li>
+                        <li><a id="link-thanks" href="https://www.localcdn.org/thanks" target="_blank" rel="nofollow noopener noreferrer">Credits (www.localcdn.org)</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="notice notice-default hidden" id="notice-locale">
+            <div class="notice-body" dir="ltr">
+                <div class="notice-message">
+                    Your preferred language is not yet fully supported. Please help out by translating this add-on on Weblate.
+                </div>
+                <a class="button button-notice button-warning no-icon" href="https://hosted.weblate.org/projects/localcdn/localcdn/" target="_blank" rel="noopener noreferrer">
+                    Translate
+                </a>
+            </div>
+        </div>
+        <p class="footer">LocalCDN v<span id="label-version"></span></p>
+    </body>
+</html>

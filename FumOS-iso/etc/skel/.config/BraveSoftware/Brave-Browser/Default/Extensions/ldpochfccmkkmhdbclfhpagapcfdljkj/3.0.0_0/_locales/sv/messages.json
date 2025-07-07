@@ -1,0 +1,70 @@
+{
+   "advancedLabel": {
+      "description": "Advanced label.",
+      "message": "Avancerat"
+   },
+   "amountInjectedDescription": {
+      "description": "Amount injected description.",
+      "message": "Mängden lokala resursinjektioner för innehållsleveransnätverk sedan installationen."
+   },
+   "amountInjectedTitle": {
+      "description": "Amount injected title.",
+      "message": "Räknare för lokalt insatta resurser"
+   },
+   "blockMissingDescription": {
+      "description": "Block requests for missing resources description.",
+      "message": "Avbryt avlyssnad begäran om den nödvändiga resursen inte är lokalt tillgänglig."
+   },
+   "blockMissingTitle": {
+      "description": "Block requests for missing resources title.",
+      "message": "Blockera förfrågningar när resurs saknas"
+   },
+   "disablePrefetchDescription": {
+      "description": "Disable prefetch description.",
+      "message": "Förhindra otillåtna förfrågningar från att läcka ut till leveransnätverk."
+   },
+   "disablePrefetchTitle": {
+      "description": "Disable prefetch title.",
+      "message": "Inaktivera länkförhandshämtning"
+   },
+   "disableProtectionTitle": {
+      "description": "Disable protection title.",
+      "message": "Inaktivera skydd för den här sidan"
+   },
+   "enableProtectionTitle": {
+      "description": "Enable protection title.",
+      "message": "Aktivera skydd"
+   },
+   "extensionDescription": {
+      "description": "Extension description.",
+      "message": "Skyddar dig mot att spåras av \"gratis\" centraliserad innehållsleverans."
+   },
+   "optionsTitle": {
+      "description": "Options title.",
+      "message": "Alternativ"
+   },
+   "showIconBadgeDescription": {
+      "description": "Show icon badge description.",
+      "message": "Visa antalet insatta resurser på tilläggsikonen."
+   },
+   "showIconBadgeTitle": {
+      "description": "Show icon badge title.",
+      "message": "Visa insättningsantal på ikonen"
+   },
+   "stripMetadataDescription": {
+      "description": "Strip metadata description.",
+      "message": "Radera känslig data från tillåtna CDN-förfrågningar för förbättrad integritet."
+   },
+   "stripMetadataTitle": {
+      "description": "Strip metadata title.",
+      "message": "Skala bort metadata från tillåtna förfrågningar"
+   },
+   "whitelistedDomainsDescription": {
+      "description": "Whitelisted domains description.",
+      "message": "Ange domäner för vitlistning. Separera flera domänposter med semikolon (;)."
+   },
+   "whitelistedDomainsTitle": {
+      "description": "Whitelisted domains title.",
+      "message": "Exkludera domäner från inspektioner"
+   }
+}

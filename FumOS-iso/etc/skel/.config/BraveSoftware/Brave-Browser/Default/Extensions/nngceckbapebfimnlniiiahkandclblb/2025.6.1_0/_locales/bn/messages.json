@@ -1,0 +1,5407 @@
+{
+   "aNotificationWasSentToYourDevice": {
+      "message": "A notification was sent to your device"
+   },
+   "about": {
+      "message": "সম্বন্ধে"
+   },
+   "aboutBitwarden": {
+      "message": "About Bitwarden"
+   },
+   "acceptPolicies": {
+      "message": "এই বাক্সটি টিক করে আপনি নিম্নলিখিতগুলিতে সম্মত হন:"
+   },
+   "acceptPoliciesRequired": {
+      "message": "Terms of Service and Privacy Policy have not been acknowledged."
+   },
+   "accessDenied": {
+      "message": "Access denied. You do not have permission to view this page."
+   },
+   "accessing": {
+      "message": "Accessing"
+   },
+   "accountActions": {
+      "message": "Account actions"
+   },
+   "accountEmail": {
+      "message": "Account email"
+   },
+   "accountLimitReached": {
+      "message": "Account limit reached. Log out of an account to add another."
+   },
+   "accountRestricted": {
+      "message": "Account restricted"
+   },
+   "accountRestrictedOptionDescription": {
+      "message": "Use your account encryption key, derived from your account's username and Master Password, to encrypt the export and restrict import to only the current Bitwarden account."
+   },
+   "accountSecurity": {
+      "message": "Account security"
+   },
+   "accountSuccessfullyCreated": {
+      "message": "Account successfully created!"
+   },
+   "active": {
+      "message": "active"
+   },
+   "activeAccount": {
+      "message": "Active account"
+   },
+   "activeUserEmailNotFoundLoggingYouOut": {
+      "message": "Active user email not found. Logging you out."
+   },
+   "add": {
+      "message": "Add"
+   },
+   "addAccount": {
+      "message": "Add account"
+   },
+   "addAttachment": {
+      "message": "Add attachment"
+   },
+   "addCardMenu": {
+      "message": "Add card"
+   },
+   "addDomain": {
+      "description": "'Domain' here refers to an internet domain name (e.g. 'bitwarden.com') and the message in whole described the act of putting a domain value into the context.",
+      "message": "Add domain"
+   },
+   "addField": {
+      "message": "Add field"
+   },
+   "addFolder": {
+      "message": "ফোল্ডার জুড়ুন"
+   },
+   "addIdentityMenu": {
+      "message": "Add identity"
+   },
+   "addItem": {
+      "message": "বস্তু জুড়ুন"
+   },
+   "addLogin": {
+      "message": "একটি লগইন জুড়ুন "
+   },
+   "addLoginMenu": {
+      "message": "Add login"
+   },
+   "addLoginNotificationDesc": {
+      "message": "\"লগইন যোগ করুন বিজ্ঞপ্তি\" স্বয়ংক্রিয়ভাবে আপনই যখনই প্রথমবারের জন্য লগ ইন করেন তখন আপনার ভল্টে নতুন লগইনগুলি সংরক্ষণ করতে অনুরোধ জানায়।"
+   },
+   "addLoginNotificationDescAlt": {
+      "message": "Ask to add an item if one isn't found in your vault. Applies to all logged in accounts."
+   },
+   "addNewCardItemAria": {
+      "description": "Screen reader text (aria-label) for new card button within inline menu",
+      "message": "Add new vault card item, opens in a new window"
+   },
+   "addNewIdentityItemAria": {
+      "description": "Screen reader text (aria-label) for new identity button within inline menu",
+      "message": "Add new vault identity item, opens in a new window"
+   },
+   "addNewLoginItemAria": {
+      "description": "Screen reader text (aria-label) for new login button within inline menu",
+      "message": "Add new vault login item, opens in a new window"
+   },
+   "addNewVaultItem": {
+      "description": "Screen reader text (aria-label) for new item button in overlay",
+      "message": "Add new vault item"
+   },
+   "addWebsite": {
+      "message": "Add website"
+   },
+   "addedFolder": {
+      "message": "ফোল্ডার জোড়া হয়েছে"
+   },
+   "addedItem": {
+      "message": "বস্তু যোগ করা হয়েছে"
+   },
+   "additionalContentAvailable": {
+      "message": "Additional content is available"
+   },
+   "additionalInformation": {
+      "message": "Additional information"
+   },
+   "additionalOptions": {
+      "message": "Additional options"
+   },
+   "address": {
+      "message": "ঠিকানা"
+   },
+   "address1": {
+      "message": "ঠিকানা ১"
+   },
+   "address2": {
+      "message": "ঠিকানা ২"
+   },
+   "address3": {
+      "message": "ঠিকানা ৩"
+   },
+   "adminApprovalRequestSentToAdmins": {
+      "message": "Your request has been sent to your admin."
+   },
+   "adminApprovalRequested": {
+      "message": "Admin approval requested"
+   },
+   "adminConsole": {
+      "message": "Admin Console"
+   },
+   "aliasDomain": {
+      "message": "Alias domain"
+   },
+   "allItems": {
+      "message": "সকল বস্তু"
+   },
+   "allSends": {
+      "description": "'Send' is a noun and the name of a feature called 'Bitwarden Send'. It should not be translated.",
+      "message": "All Sends"
+   },
+   "allVaults": {
+      "message": "All vaults"
+   },
+   "alreadyHaveAccount": {
+      "message": "Already have an account?"
+   },
+   "alwaysForThisSite": {
+      "message": "Always for this site"
+   },
+   "ampersandCharacterDescriptor": {
+      "description": "Represents the & key in screen reader content as a readable word",
+      "message": "Ampersand"
+   },
+   "and": {
+      "message": "and"
+   },
+   "andContinueCreatingYourAccount": {
+      "message": "and continue creating your account."
+   },
+   "apiAccessToken": {
+      "message": "API Access Token"
+   },
+   "apiKey": {
+      "message": "API Key"
+   },
+   "apiUrl": {
+      "message": "এপিআই সার্ভার URL"
+   },
+   "appLogoLabel": {
+      "message": "Bitwarden logo"
+   },
+   "appName": {
+      "message": "Bitwarden"
+   },
+   "appearance": {
+      "message": "Appearance"
+   },
+   "approveFromYourOtherDevice": {
+      "message": "Approve from your other device"
+   },
+   "april": {
+      "message": "এপ্রিল"
+   },
+   "assign": {
+      "message": "Assign"
+   },
+   "assignToCollections": {
+      "message": "Assign to collections"
+   },
+   "asteriskCharacterDescriptor": {
+      "description": "Represents the * key in screen reader content as a readable word",
+      "message": "Asterisk"
+   },
+   "atAnyTime": {
+      "message": "at any time."
+   },
+   "atRiskChangePrompt": {
+      "description": "Notification body when a login triggers an at-risk password change request and the change password domain is known.",
+      "message": "Your password for this site is at-risk. $ORGANIZATION$ has requested that you change it.",
+      "placeholders": {
+         "organization": {
+            "content": "$1",
+            "example": "Acme Corp"
+         }
+      }
+   },
+   "atRiskNavigatePrompt": {
+      "description": "Notification body when a login triggers an at-risk password change request and no change password domain is provided.",
+      "message": "$ORGANIZATION$ wants you to change this password because it is at-risk. Navigate to your account settings to change the password.",
+      "placeholders": {
+         "organization": {
+            "content": "$1",
+            "example": "Acme Corp"
+         }
+      }
+   },
+   "atRiskPassword": {
+      "message": "At-risk password"
+   },
+   "atRiskPasswordDescSingleOrg": {
+      "message": "$ORGANIZATION$ is requesting you change one password because it is at-risk.",
+      "placeholders": {
+         "organization": {
+            "content": "$1",
+            "example": "Acme Corp"
+         }
+      }
+   },
+   "atRiskPasswords": {
+      "message": "At-risk passwords"
+   },
+   "atRiskPasswordsDescMultiOrgPlural": {
+      "message": "Your organizations are requesting you change the $COUNT$ passwords because they are at-risk.",
+      "placeholders": {
+         "count": {
+            "content": "$1",
+            "example": "2"
+         }
+      }
+   },
+   "atRiskPasswordsDescSingleOrgPlural": {
+      "message": "$ORGANIZATION$ is requesting you change the $COUNT$ passwords because they are at-risk.",
+      "placeholders": {
+         "count": {
+            "content": "$2",
+            "example": "2"
+         },
+         "organization": {
+            "content": "$1",
+            "example": "Acme Corp"
+         }
+      }
+   },
+   "atSignCharacterDescriptor": {
+      "description": "Represents the @ key in screen reader content as a readable word",
+      "message": "At sign"
+   },
+   "attachmentSaved": {
+      "message": "সংযুক্তিটি সংরক্ষণ করা হয়েছে।"
+   },
+   "attachments": {
+      "message": "সংযুক্তি"
+   },
+   "august": {
+      "message": "আগস্ট"
+   },
+   "authenticating": {
+      "message": "Authenticating"
+   },
+   "authenticationSessionTimedOut": {
+      "message": "The authentication session timed out. Please restart the login process."
+   },
+   "authenticationTimeout": {
+      "message": "Authentication timeout"
+   },
+   "authenticatorAppDescV2": {
+      "description": "'Bitwarden Authenticator' is a product name and should not be translated.",
+      "message": "Enter a code generated by an authenticator app like Bitwarden Authenticator."
+   },
+   "authenticatorAppTitle": {
+      "message": "প্রমাণীকরণকারী অ্যাপ"
+   },
+   "authenticatorKey": {
+      "message": "Authenticator key"
+   },
+   "authenticatorKeyTotp": {
+      "message": "প্রমাণীকরণকারী কী (TOTP)"
+   },
+   "autoFill": {
+      "message": "স্বতঃপূরণ"
+   },
+   "autoFillAndSave": {
+      "message": "স্বতঃপূরণ ও সংরক্ষণ"
+   },
+   "autoFillCard": {
+      "message": "Autofill card"
+   },
+   "autoFillIdentity": {
+      "message": "Autofill identity"
+   },
+   "autoFillInfo": {
+      "message": "বর্তমান ব্রাউজার ট্যাবের জন্য স্বয়ংক্রিয় পূরণের কোনও লগইন উপলব্ধ নেই।"
+   },
+   "autoFillLogin": {
+      "message": "Autofill login"
+   },
+   "autoFillOnPageLoad": {
+      "message": "Autofill on page load?"
+   },
+   "autoFillOnPageLoadNo": {
+      "message": "Do not autofill on page load"
+   },
+   "autoFillOnPageLoadUseDefault": {
+      "message": "Use default setting"
+   },
+   "autoFillOnPageLoadYes": {
+      "message": "Autofill on page load"
+   },
+   "autoFillSuccess": {
+      "message": "স্বতঃপূরণকৃত বস্তু"
+   },
+   "autoFillSuccessAndSavedUri": {
+      "message": "স্বতঃপূরণকৃত বস্তু ও সংরক্ষিত URI"
+   },
+   "autofillBlockedNoticeGuidance": {
+      "message": "Change this in settings"
+   },
+   "autofillBlockedNoticeV2": {
+      "message": "Autofill is blocked for this website."
+   },
+   "autofillError": {
+      "message": "এই পৃষ্ঠায় নির্বাচিত বস্তুটি স্বতঃপূর্ণে অক্ষম। পরিবর্তে তথ্যটি অনুলিপিত করুন এবং আটকান।"
+   },
+   "autofillIframeWarning": {
+      "message": "The form is hosted by a different domain than the URI of your saved login. Choose OK to autofill anyway, or Cancel to stop."
+   },
+   "autofillIframeWarningTip": {
+      "message": "To prevent this warning in the future, save this URI, $HOSTNAME$, to your Bitwarden login item for this site.",
+      "placeholders": {
+         "hostname": {
+            "content": "$1",
+            "example": "www.example.com"
+         }
+      }
+   },
+   "autofillKeyboardManagerShortcutsLabel": {
+      "message": "Manage shortcuts"
+   },
+   "autofillKeyboardShortcutSectionTitle": {
+      "message": "Autofill shortcut"
+   },
+   "autofillKeyboardShortcutUpdateLabel": {
+      "message": "Change shortcut"
+   },
+   "autofillLoginShortcutNotSet": {
+      "message": "The autofill login shortcut is not set. Change this in the browser's settings."
+   },
+   "autofillLoginShortcutText": {
+      "message": "The autofill login shortcut is $COMMAND$. Manage all shortcuts in the browser's settings.",
+      "placeholders": {
+         "command": {
+            "content": "$1",
+            "example": "CTRL+Shift+L"
+         }
+      }
+   },
+   "autofillOnPageLoadSetToDefault": {
+      "description": "Toast message for informing the user that autofill on page load has been set to the default setting.",
+      "message": "Autofill on page load set to use default setting."
+   },
+   "autofillOptions": {
+      "message": "Autofill options"
+   },
+   "autofillOverlayVisibilityOff": {
+      "description": "Overlay setting select option for disabling autofill overlay",
+      "message": "Off"
+   },
+   "autofillOverlayVisibilityOnButtonClick": {
+      "description": "Overlay appearance select option for showing the field on click of the overlay icon",
+      "message": "When autofill icon is selected"
+   },
+   "autofillOverlayVisibilityOnFieldFocus": {
+      "description": "Overlay appearance select option for showing the field on focus of the input element",
+      "message": "When field is selected (on focus)"
+   },
+   "autofillPageLoadPolicyActivated": {
+      "message": "Your organization policies have turned on autofill on page load."
+   },
+   "autofillSelectInfoWithCommand": {
+      "message": "Select an item from this screen, use the shortcut $COMMAND$, or explore other options in settings.",
+      "placeholders": {
+         "command": {
+            "content": "$1",
+            "example": "CTRL+Shift+L"
+         }
+      }
+   },
+   "autofillSelectInfoWithoutCommand": {
+      "message": "Select an item from this screen, or explore other options in settings."
+   },
+   "autofillSettings": {
+      "message": "Autofill settings"
+   },
+   "autofillShortcut": {
+      "message": "Autofill keyboard shortcut"
+   },
+   "autofillShortcutTextSafari": {
+      "message": "Default autofill shortcut: $COMMAND$.",
+      "placeholders": {
+         "command": {
+            "content": "$1",
+            "example": "CTRL+Shift+L"
+         }
+      }
+   },
+   "autofillSpotlightDesc": {
+      "message": "Turn off your browser's autofill settings, so they don't conflict with Bitwarden."
+   },
+   "autofillSpotlightTitle": {
+      "message": "Easily find autofill suggestions"
+   },
+   "autofillSuggestions": {
+      "message": "Autofill suggestions"
+   },
+   "autofillSuggestionsSectionTitle": {
+      "message": "Autofill suggestions"
+   },
+   "autofillSuggestionsTip": {
+      "message": "Save a login item for this site to autofill"
+   },
+   "autofillTitle": {
+      "description": "Title for a button that autofills a login item.",
+      "message": "Autofill - $ITEMNAME$",
+      "placeholders": {
+         "itemname": {
+            "content": "$1",
+            "example": "Secret Item"
+         }
+      }
+   },
+   "autofillTitleWithField": {
+      "description": "Title for a button that autofills a login item.",
+      "message": "Autofill - $ITEMNAME$ - $FIELD$",
+      "placeholders": {
+         "field": {
+            "content": "$2",
+            "example": "Username"
+         },
+         "itemname": {
+            "content": "$1",
+            "example": "Secret Item"
+         }
+      }
+   },
+   "availableAccounts": {
+      "message": "Available accounts"
+   },
+   "avoidAmbiguous": {
+      "description": "Label for the avoid ambiguous characters checkbox.",
+      "message": "Avoid ambiguous characters"
+   },
+   "awaitDesktop": {
+      "message": "ডেস্কটপ থেকে নিশ্চিতকরণের অপেক্ষায়"
+   },
+   "awaitDesktopDesc": {
+      "message": "ব্রাউজারের জন্য বায়োমেট্রিক্স সক্ষম করতে দয়া করে Bitwarden ডেস্কটপ অ্যাপ্লিকেশনটিতে বায়োমেট্রিক্স ব্যবহার সক্ষম করুন।"
+   },
+   "awaitingConfirmation": {
+      "message": "Awaiting confirmation"
+   },
+   "awaitingSSO": {
+      "message": "Awaiting SSO authentication"
+   },
+   "awaitingSSODesc": {
+      "message": "Please continue to log in using your company credentials."
+   },
+   "awaitingSecurityKeyInteraction": {
+      "message": "Awaiting security key interaction..."
+   },
+   "back": {
+      "message": "পেছন"
+   },
+   "backSlashCharacterDescriptor": {
+      "description": "Represents the back slash key in screen reader content as a readable word",
+      "message": "Back slash"
+   },
+   "backTo": {
+      "description": "Navigate back to a previous folder or collection",
+      "message": "Back to $NAME$",
+      "placeholders": {
+         "name": {
+            "content": "$1",
+            "example": "Work"
+         }
+      }
+   },
+   "backtickCharacterDescriptor": {
+      "description": "Represents the ` key in screen reader content as a readable word",
+      "message": "Backtick"
+   },
+   "badgeCounterDesc": {
+      "message": "Indicate how many logins you have for the current web page."
+   },
+   "baseDomain": {
+      "description": "Domain name. Ex. website.com",
+      "message": "ভিত্তি ডোমেইন"
+   },
+   "baseDomainOptionRecommended": {
+      "description": "Domain name. Ex. website.com",
+      "message": "Base domain (recommended)"
+   },
+   "baseUrl": {
+      "message": "সার্ভার URL"
+   },
+   "beta": {
+      "message": "Beta"
+   },
+   "biometricsFailedDesc": {
+      "message": "Biometrics cannot be completed, consider using a master password or logging out. If this persists, please contact Bitwarden support."
+   },
+   "biometricsFailedTitle": {
+      "message": "Biometrics failed"
+   },
+   "biometricsNotAvailableDesc": {
+      "message": "Biometric unlock is currently unavailable. Please try again later."
+   },
+   "biometricsNotAvailableTitle": {
+      "message": "Biometric unlock unavailable"
+   },
+   "biometricsNotEnabledDesc": {
+      "message": "ব্রাউজার বায়োমেট্রিক্সের জন্য প্রথমে সেটিংসে ডেস্কটপ বায়োমেট্রিক সক্ষম করা প্রয়োজন।"
+   },
+   "biometricsNotEnabledTitle": {
+      "message": "বায়োমেট্রিকস সক্ষম নেই"
+   },
+   "biometricsNotSupportedDesc": {
+      "message": "ব্রাউজার বায়োমেট্রিক্স এই ডিভাইসে সমর্থিত নয়।"
+   },
+   "biometricsNotSupportedTitle": {
+      "message": "বায়োমেট্রিক্স অসমর্থিত"
+   },
+   "biometricsNotUnlockedDesc": {
+      "message": "Please unlock this user in the desktop application and try again."
+   },
+   "biometricsNotUnlockedTitle": {
+      "message": "User locked or logged out"
+   },
+   "biometricsStatusHelptextAutoSetupNeeded": {
+      "message": "Biometric unlock is unavailable due to misconfigured system files."
+   },
+   "biometricsStatusHelptextDesktopDisconnected": {
+      "message": "Biometric unlock is unavailable because the Bitwarden desktop app is closed."
+   },
+   "biometricsStatusHelptextHardwareUnavailable": {
+      "message": "Biometric unlock is currently unavailable."
+   },
+   "biometricsStatusHelptextManualSetupNeeded": {
+      "message": "Biometric unlock is unavailable due to misconfigured system files."
+   },
+   "biometricsStatusHelptextNotEnabledInDesktop": {
+      "message": "Biometric unlock is unavailable because it is not enabled for $EMAIL$ in the Bitwarden desktop app.",
+      "placeholders": {
+         "email": {
+            "content": "$1",
+            "example": "mail@example.com"
+         }
+      }
+   },
+   "biometricsStatusHelptextUnavailableReasonUnknown": {
+      "message": "Biometric unlock is currently unavailable for an unknown reason."
+   },
+   "biometricsStatusHelptextUnlockNeeded": {
+      "message": "Biometric unlock is unavailable because PIN or password unlock is required first."
+   },
+   "bitWebVaultApp": {
+      "message": "Bitwarden web app"
+   },
+   "bitwardenAccount": {
+      "message": "Bitwarden account"
+   },
+   "bitwardenAuthenticator": {
+      "message": "Bitwarden Authenticator"
+   },
+   "bitwardenForBusiness": {
+      "message": "Bitwarden for Business"
+   },
+   "bitwardenForBusinessPageDesc": {
+      "message": "Bitwarden for Business allows you to share your vault items with others by using an organization. Learn more on the bitwarden.com website."
+   },
+   "bitwardenOverlayButton": {
+      "description": "Page title for the iframe containing the overlay button",
+      "message": "Bitwarden autofill menu button"
+   },
+   "bitwardenOverlayMenuAvailable": {
+      "description": "Screen reader text for announcing when the overlay opens on the page",
+      "message": "Bitwarden autofill menu available. Press the down arrow key to select."
+   },
+   "bitwardenSecretsManager": {
+      "message": "Bitwarden Secrets Manager"
+   },
+   "bitwardenVault": {
+      "description": "Page title in overlay",
+      "message": "Bitwarden autofill menu"
+   },
+   "blockedDomains": {
+      "message": "Blocked domains"
+   },
+   "blockedDomainsDesc": {
+      "message": "Autofill and other related features will not be offered for these websites. You must refresh the page for changes to take effect."
+   },
+   "blockedDomainsSavedSuccess": {
+      "message": "Blocked domain changes saved"
+   },
+   "braceLeftCharacterDescriptor": {
+      "description": "Represents the { key in screen reader content as a readable word",
+      "message": "Left brace"
+   },
+   "braceRightCharacterDescriptor": {
+      "description": "Represents the } key in screen reader content as a readable word",
+      "message": "Right brace"
+   },
+   "bracketLeftCharacterDescriptor": {
+      "description": "Represents the [ key in screen reader content as a readable word",
+      "message": "Left bracket"
+   },
+   "bracketRightCharacterDescriptor": {
+      "description": "Represents the ] key in screen reader content as a readable word",
+      "message": "Right bracket"
+   },
+   "brand": {
+      "message": "ব্র্যান্ড"
+   },
+   "browserNotSupportClipboard": {
+      "message": "আপনার ওয়েব ব্রাউজার সহজে ক্লিপবোর্ড অনুলিপি সমর্থন করে না। পরিবর্তে এটি নিজেই অনুলিপি করুন।"
+   },
+   "bulkCollectionAssignmentDialogDescriptionPlural": {
+      "message": "Only organization members with access to these collections will be able to see the items."
+   },
+   "bulkCollectionAssignmentDialogDescriptionSingular": {
+      "message": "Only organization members with access to these collections will be able to see the item."
+   },
+   "bulkCollectionAssignmentWarning": {
+      "message": "You have selected $TOTAL_COUNT$ items. You cannot update $READONLY_COUNT$ of the items because you do not have edit permissions.",
+      "placeholders": {
+         "readonly_count": {
+            "content": "$2"
+         },
+         "total_count": {
+            "content": "$1",
+            "example": "10"
+         }
+      }
+   },
+   "byContinuingYouAgreeToThe": {
+      "message": "By continuing, you agree to the"
+   },
+   "cancel": {
+      "message": "বাতিল"
+   },
+   "cannotRemoveViewOnlyCollections": {
+      "message": "You cannot remove collections with View only permissions: $COLLECTIONS$",
+      "placeholders": {
+         "collections": {
+            "content": "$1",
+            "example": "Work, Personal"
+         }
+      }
+   },
+   "capitalize": {
+      "description": "Make the first letter of a work uppercase.",
+      "message": "বড় হাতের করুন"
+   },
+   "cardBrandDetails": {
+      "message": "$BRAND$ details",
+      "placeholders": {
+         "brand": {
+            "content": "$1",
+            "example": "Visa"
+         }
+      }
+   },
+   "cardDetails": {
+      "message": "Card details"
+   },
+   "cardExpiredMessage": {
+      "message": "If you've renewed it, update the card's information"
+   },
+   "cardExpiredTitle": {
+      "message": "Expired card"
+   },
+   "cardMetrics": {
+      "message": "out of $TOTAL$",
+      "placeholders": {
+         "total": {
+            "content": "$1",
+            "example": "5"
+         }
+      }
+   },
+   "cardNumberEndsWith": {
+      "description": "Used within the inline menu to provide an aria description when users are attempting to fill a card cipher.",
+      "message": "card number ends with"
+   },
+   "cardholderName": {
+      "message": "কার্ডধারীর নাম"
+   },
+   "cards": {
+      "message": "কার্ডগুলো"
+   },
+   "caretCharacterDescriptor": {
+      "description": "Represents the ^ key in screen reader content as a readable word",
+      "message": "Caret"
+   },
+   "catchallEmail": {
+      "message": "Catch-all email"
+   },
+   "catchallEmailDesc": {
+      "message": "Use your domain's configured catch-all inbox."
+   },
+   "cfTypeBoolean": {
+      "message": "বুলিয়ান"
+   },
+   "cfTypeCheckbox": {
+      "message": "Checkbox"
+   },
+   "cfTypeHidden": {
+      "message": "লুকায়িত"
+   },
+   "cfTypeLinked": {
+      "description": "This describes a field that is 'linked' (tied) to another field.",
+      "message": "Linked"
+   },
+   "cfTypeText": {
+      "message": "পাঠ্য"
+   },
+   "change": {
+      "message": "Change"
+   },
+   "changeAtRiskPassword": {
+      "message": "Change at-risk password"
+   },
+   "changeAtRiskPasswordsFaster": {
+      "message": "Change at-risk passwords faster"
+   },
+   "changeAtRiskPasswordsFasterDesc": {
+      "message": "Update your settings so you can quickly autofill your passwords and generate new ones"
+   },
+   "changeButtonTitle": {
+      "message": "Change password - $ITEMNAME$",
+      "placeholders": {
+         "itemname": {
+            "content": "$1",
+            "example": "Secret Item"
+         }
+      }
+   },
+   "changeMasterPassword": {
+      "message": "মূল পাসওয়ার্ড পরিবর্তন"
+   },
+   "changeMasterPasswordOnWebConfirmation": {
+      "message": "You can change your master password on the Bitwarden web app."
+   },
+   "changePassword": {
+      "description": "Change password button for browser at risk notification on login.",
+      "message": "Change password"
+   },
+   "changedPasswordNotificationDesc": {
+      "message": "Ask to update a login's password when a change is detected on a website."
+   },
+   "changedPasswordNotificationDescAlt": {
+      "message": "Ask to update a login's password when a change is detected on a website. Applies to all logged in accounts."
+   },
+   "characterMinimum": {
+      "message": "$LENGTH$ character minimum",
+      "placeholders": {
+         "length": {
+            "content": "$1",
+            "example": "14"
+         }
+      }
+   },
+   "checkBoxHelpText": {
+      "message": "Use checkboxes if you'd like to autofill a form's checkbox, like a remember email"
+   },
+   "checkForBreaches": {
+      "message": "Check known data breaches for this password"
+   },
+   "checkPassword": {
+      "message": "পাসওয়ার্ড উন্মুক্ত হয়েছে কিনা তা পরীক্ষা করুন।"
+   },
+   "checkYourEmail": {
+      "message": "Check your email"
+   },
+   "chooseCipherForPasskeyAuth": {
+      "message": "Choose a passkey to log in with"
+   },
+   "chooseCipherForPasskeySave": {
+      "message": "Choose a login to save this passkey to"
+   },
+   "chooseFile": {
+      "message": "Choose File"
+   },
+   "cityTown": {
+      "message": "শহর"
+   },
+   "clear": {
+      "description": "To clear something out. example: To clear browser history.",
+      "message": "পরিষ্কার"
+   },
+   "clearClipboard": {
+      "description": "Clipboard is the operating system thing where you copy/paste data to on your device.",
+      "message": "ক্লিপবোর্ড পরিষ্কার"
+   },
+   "clearClipboardDesc": {
+      "description": "Clipboard is the operating system thing where you copy/paste data to on your device.",
+      "message": "আপনার ক্লিপবোর্ড থেকে অনুলিপিত মানগুলি স্বয়ংক্রিয়ভাবে সাফ করে।"
+   },
+   "clearFiltersOrTryAnother": {
+      "message": "Clear filters or try another search term"
+   },
+   "clearGeneratorHistoryTitle": {
+      "message": "Clear generator history"
+   },
+   "clearHistory": {
+      "message": "Clear history"
+   },
+   "cleargGeneratorHistoryDescription": {
+      "message": "If you continue, all entries will be permanently deleted from generator's history. Are you sure you want to continue?"
+   },
+   "clickToAutofill": {
+      "message": "Click items in autofill suggestion to fill"
+   },
+   "clickToAutofillOnVault": {
+      "message": "Click items to autofill on Vault view"
+   },
+   "clone": {
+      "message": "নকল"
+   },
+   "cloneItem": {
+      "message": "বস্তুটি নকল করুন"
+   },
+   "close": {
+      "message": "বন্ধ করুন"
+   },
+   "codeSent": {
+      "message": "Code sent"
+   },
+   "collection": {
+      "message": "Collection"
+   },
+   "collections": {
+      "message": "সংগ্রহ"
+   },
+   "colonCharacterDescriptor": {
+      "description": "Represents the : key in screen reader content as a readable word",
+      "message": "Colon"
+   },
+   "commaCharacterDescriptor": {
+      "description": "Represents the , key in screen reader content as a readable word",
+      "message": "Comma"
+   },
+   "commandAutofillCardDesc": {
+      "message": "Autofill the last used card for the current website"
+   },
+   "commandAutofillIdentityDesc": {
+      "message": "Autofill the last used identity for the current website"
+   },
+   "commandAutofillLoginDesc": {
+      "message": "Autofill the last used login for the current website"
+   },
+   "commandGeneratePasswordDesc": {
+      "message": "ক্লিপবোর্ডে একটি নতুন এলোমেলো পাসওয়ার্ড তৈরি এবং অনুলিপিত করুন"
+   },
+   "commandLockVaultDesc": {
+      "message": "ভল্ট লক করুন"
+   },
+   "commandOpenPopup": {
+      "message": "ভল্ট পপআপ খুলুন"
+   },
+   "commandOpenSidebar": {
+      "message": "সাইডবারে ভল্ট খুলুন"
+   },
+   "commonImportFormats": {
+      "description": "Label indicating the most common import formats",
+      "message": "Common formats"
+   },
+   "communityForums": {
+      "message": "Explore Bitwarden community forums"
+   },
+   "compactMode": {
+      "message": "Compact mode"
+   },
+   "company": {
+      "message": "প্রতিষ্ঠান"
+   },
+   "confirm": {
+      "message": "Confirm"
+   },
+   "confirmContinueToBrowserKeyboardShortcutSettingsContent": {
+      "description": "Body content for dialog which asks if the user wants to proceed to the browser's keyboard shortcut settings page",
+      "message": "You can view and set extension shortcuts in your browser's settings."
+   },
+   "confirmContinueToBrowserPasswordManagementSettingsContent": {
+      "description": "Body content for dialog which asks if the user wants to proceed to the browser's password management settings page",
+      "message": "Change your browser's autofill and password management settings."
+   },
+   "confirmContinueToBrowserSettingsTitle": {
+      "description": "Title for dialog which asks if the user wants to proceed to a relevant browser settings page",
+      "message": "Continue to browser settings?"
+   },
+   "confirmContinueToHelpCenter": {
+      "description": "Title for dialog which asks if the user wants to proceed to a relevant Help Center page",
+      "message": "Continue to Help Center?"
+   },
+   "confirmContinueToHelpCenterKeyboardShortcutsContent": {
+      "description": "Body content for dialog which asks if the user wants to proceed to the Help Center's page about browser keyboard shortcut settings",
+      "message": "You can view and set extension shortcuts in your browser's settings."
+   },
+   "confirmContinueToHelpCenterPasswordManagementContent": {
+      "description": "Body content for dialog which asks if the user wants to proceed to the Help Center's page about browser password management settings",
+      "message": "Change your browser's autofill and password management settings."
+   },
+   "confirmFilePassword": {
+      "message": "Confirm file password"
+   },
+   "confirmIdentity": {
+      "message": "Confirm your identity to continue."
+   },
+   "confirmMasterPassword": {
+      "message": "Confirm master password"
+   },
+   "confirmMasterPasswordRequired": {
+      "message": "Master password retype is required."
+   },
+   "confirmNewMasterPass": {
+      "message": "Confirm new master password"
+   },
+   "confirmSshKeyPassword": {
+      "message": "Confirm password"
+   },
+   "confirmVaultExport": {
+      "message": "ভল্ট রফতানির নিশ্চয়তা দিন"
+   },
+   "confirmVaultImport": {
+      "message": "Confirm vault import"
+   },
+   "confirmVaultImportDesc": {
+      "message": "This file is password-protected. Please enter the file password to import data."
+   },
+   "contactCSToAvoidDataLossPart1": {
+      "description": "This is part of a larger sentence. The full sentence will read 'Contact customer success to avoid additional data loss.'",
+      "message": "Contact customer success"
+   },
+   "contactCSToAvoidDataLossPart2": {
+      "description": "This is part of a larger sentence. The full sentence will read 'Contact customer success to avoid additional data loss.'",
+      "message": "to avoid additional data loss."
+   },
+   "contactInfo": {
+      "message": "Contact info"
+   },
+   "contactSupport": {
+      "message": "Contact Bitwarden support"
+   },
+   "contactYourOrgAdmin": {
+      "message": "Items in deactivated organizations cannot be accessed. Contact your organization owner for assistance."
+   },
+   "contextMenuItemDesc": {
+      "message": "Use a secondary click to access password generation and matching logins for the website."
+   },
+   "contextMenuItemDescAlt": {
+      "message": "Use a secondary click to access password generation and matching logins for the website. Applies to all logged in accounts."
+   },
+   "continue": {
+      "message": "অবিরত"
+   },
+   "continueLoggingIn": {
+      "message": "Continue logging in"
+   },
+   "continueToAuthenticatorPageDesc": {
+      "message": "Bitwarden Authenticator allows you to store authenticator keys and generate TOTP codes for 2-step verification flows. Learn more on the bitwarden.com website"
+   },
+   "continueToBitwardenDotCom": {
+      "message": "Continue to bitwarden.com?"
+   },
+   "continueToBrowserExtensionStore": {
+      "message": "Continue to browser extension store?"
+   },
+   "continueToBrowserExtensionStoreDesc": {
+      "message": "Help others find out if Bitwarden is right for them. Visit your browser's extension store and leave a rating now."
+   },
+   "continueToHelpCenter": {
+      "message": "Continue to Help Center?"
+   },
+   "continueToHelpCenterDesc": {
+      "message": "Learn more about how to use Bitwarden on the Help Center."
+   },
+   "continueToPasswordlessDotDevPageDesc": {
+      "message": "Create smooth and secure login experiences free from traditional passwords with Passwordless.dev. Learn more on the bitwarden.com website."
+   },
+   "continueToSecretsManagerPageDesc": {
+      "message": "Securely store, manage, and share developer secrets with Bitwarden Secrets Manager. Learn more on the bitwarden.com website."
+   },
+   "continueToWebApp": {
+      "message": "Continue to web app?"
+   },
+   "continueToWebAppDesc": {
+      "message": "Explore more features of your Bitwarden account on the web app."
+   },
+   "copy": {
+      "description": "Copy to clipboard",
+      "message": "Copy"
+   },
+   "copyAddress": {
+      "message": "Copy address"
+   },
+   "copyCompany": {
+      "message": "Copy company"
+   },
+   "copyCustomField": {
+      "message": "Copy $FIELD$",
+      "placeholders": {
+         "field": {
+            "content": "$1",
+            "example": "Custom field label"
+         }
+      }
+   },
+   "copyCustomFieldNameInvalidElement": {
+      "message": "Unable to identify a valid form element. Try inspecting the HTML instead."
+   },
+   "copyCustomFieldNameNotUnique": {
+      "message": "No unique identifier found."
+   },
+   "copyElementIdentifier": {
+      "message": "Copy custom field name"
+   },
+   "copyEmail": {
+      "message": "Copy email"
+   },
+   "copyFieldValue": {
+      "description": "Title for a button that copies a field value to the clipboard.",
+      "message": "Copy $FIELD$, $VALUE$",
+      "placeholders": {
+         "field": {
+            "content": "$1",
+            "example": "Username"
+         },
+         "value": {
+            "content": "$2",
+            "example": "Foo"
+         }
+      }
+   },
+   "copyFingerprint": {
+      "message": "Copy fingerprint"
+   },
+   "copyInfoTitle": {
+      "description": "Title for a button that opens a menu with options to copy information from an item.",
+      "message": "Copy info - $ITEMNAME$",
+      "placeholders": {
+         "itemname": {
+            "content": "$1",
+            "example": "Secret Item"
+         }
+      }
+   },
+   "copyLicenseNumber": {
+      "message": "Copy license number"
+   },
+   "copyLink": {
+      "message": "Copy link"
+   },
+   "copyName": {
+      "message": "Copy name"
+   },
+   "copyNote": {
+      "message": "নোট অনুলিপিত করুন"
+   },
+   "copyNoteTitle": {
+      "description": "Title for a button copies a note to the clipboard.",
+      "message": "Copy Note - $ITEMNAME$",
+      "placeholders": {
+         "itemname": {
+            "content": "$1",
+            "example": "Secret Note Item"
+         }
+      }
+   },
+   "copyNotes": {
+      "message": "Copy notes"
+   },
+   "copyNumber": {
+      "message": "নম্বর অনুলিপিত করুন"
+   },
+   "copyPassphrase": {
+      "message": "Copy passphrase"
+   },
+   "copyPassportNumber": {
+      "message": "Copy passport number"
+   },
+   "copyPassword": {
+      "message": "পাসওয়ার্ড অনুলিপিত করুন"
+   },
+   "copyPhone": {
+      "message": "Copy phone"
+   },
+   "copyPrivateKey": {
+      "message": "Copy private key"
+   },
+   "copyPublicKey": {
+      "message": "Copy public key"
+   },
+   "copySSN": {
+      "message": "Copy Social Security number"
+   },
+   "copySecurityCode": {
+      "message": "সুরক্ষা কোড অনুলিপিত করুন"
+   },
+   "copySendLink": {
+      "description": "'Send' is a noun and the name of a feature called 'Bitwarden Send'. It should not be translated.",
+      "message": "Send লিঙ্ক কপি করুন"
+   },
+   "copySuccessful": {
+      "message": "Copy Successful"
+   },
+   "copyTOTP": {
+      "message": "Copy Authenticator key (TOTP)"
+   },
+   "copyUri": {
+      "message": "URI অনুলিপিত করুন"
+   },
+   "copyUsername": {
+      "message": "ব্যবহারকারীর নাম অনুলিপিত করুন"
+   },
+   "copyValue": {
+      "message": "মান অনুলিপিত করুন"
+   },
+   "copyVerificationCode": {
+      "message": "যাচাইকরণ কোড অনুলিপিত করুন"
+   },
+   "copyWebsite": {
+      "message": "Copy website"
+   },
+   "couldNotCompleteBiometrics": {
+      "message": "Could not complete biometrics."
+   },
+   "couldNotDecryptVaultItemsBelow": {
+      "message": "Bitwarden could not decrypt the vault item(s) listed below."
+   },
+   "country": {
+      "message": "দেশ"
+   },
+   "createAccount": {
+      "message": "অ্যাকাউন্ট তৈরি করুন"
+   },
+   "createFoldersToOrganize": {
+      "message": "Create folders to organize your vault items"
+   },
+   "createSend": {
+      "description": "'Send' is a noun and the name of a feature called 'Bitwarden Send'. It should not be translated.",
+      "message": "New Send"
+   },
+   "createdSend": {
+      "description": "'Send' is a noun and the name of a feature called 'Bitwarden Send'. It should not be translated.",
+      "message": "Send created"
+   },
+   "createdSendSuccessfully": {
+      "description": "'Send' is a noun and the name of a feature called 'Bitwarden Send'. It should not be translated.",
+      "message": "Send created successfully!"
+   },
+   "creatingAccountOn": {
+      "message": "Creating account on"
+   },
+   "currentMasterPass": {
+      "message": "Current master password"
+   },
+   "currentTab": {
+      "message": "বর্তমান ট্যাব"
+   },
+   "currentUri": {
+      "description": "The URI of one of the current open tabs in the browser.",
+      "message": "বর্তমান  URI"
+   },
+   "custom": {
+      "message": "Custom"
+   },
+   "customEnvironment": {
+      "message": "পছন্দসই পরিবেশ"
+   },
+   "customFields": {
+      "message": "পছন্দসই ক্ষেত্র"
+   },
+   "dark": {
+      "description": "Dark color",
+      "message": "অন্ধকার"
+   },
+   "data": {
+      "message": "Data"
+   },
+   "dateCreated": {
+      "description": "ex. Date this item was created",
+      "message": "Created"
+   },
+   "dateParsingError": {
+      "message": "There was an error saving your deletion and expiration dates."
+   },
+   "datePasswordUpdated": {
+      "description": "ex. Date this password was updated",
+      "message": "পাসওয়ার্ড হালনাগাদকৃত"
+   },
+   "dateUpdated": {
+      "description": "ex. Date this item was updated",
+      "message": "হালনাগাদকৃত"
+   },
+   "days": {
+      "message": "$DAYS$ days",
+      "placeholders": {
+         "days": {
+            "content": "$1",
+            "example": "2"
+         }
+      }
+   },
+   "december": {
+      "message": "ডিসেম্বর"
+   },
+   "decryptionError": {
+      "message": "Decryption error"
+   },
+   "default": {
+      "message": "পূর্ব-নির্ধারিত"
+   },
+   "defaultAutoFillOnPageLoad": {
+      "message": "Default autofill setting for login items"
+   },
+   "defaultAutoFillOnPageLoadDesc": {
+      "message": "You can turn off autofill on page load for individual login items from the item's Edit view."
+   },
+   "defaultLabel": {
+      "description": "A label that indicates the default value for a field with the current default value in parentheses.",
+      "message": "Default ($VALUE$)",
+      "placeholders": {
+         "value": {
+            "content": "$1",
+            "example": "Base domain"
+         }
+      }
+   },
+   "defaultMatchDetection": {
+      "description": "Default URI match detection for autofill.",
+      "message": "পূর্ব-নির্ধারিত মিল সনাক্তকরণ"
+   },
+   "defaultUriMatchDetection": {
+      "description": "Default URI match detection for autofill.",
+      "message": "পূর্ব-নির্ধারিত URI মিল সনাক্তকরণ"
+   },
+   "defaultUriMatchDetectionDesc": {
+      "message": "স্বতঃপূরণের মতো ক্রিয়া সম্পাদন করার সময় লগইনগুলির জন্য URI মিল সনাক্তকরণ যে পূর্ব-নির্ধারিত পদ্ধতিতে পরিচালনা করা হবে তা চয়ন করুন।"
+   },
+   "delete": {
+      "message": "Delete"
+   },
+   "deleteAttachment": {
+      "message": "সংযুক্তি মুছুন"
+   },
+   "deleteAttachmentConfirmation": {
+      "message": "আপনি কি এই সংযুক্তিটি মোছার বিষয়ে নিশ্চিত?"
+   },
+   "deleteAttachmentName": {
+      "message": "Delete attachment $NAME$",
+      "placeholders": {
+         "name": {
+            "content": "$1",
+            "example": "Attachment Name"
+         }
+      }
+   },
+   "deleteCustomField": {
+      "message": "Delete $LABEL$",
+      "placeholders": {
+         "label": {
+            "content": "$1",
+            "example": "Custom field"
+         }
+      }
+   },
+   "deleteFolder": {
+      "message": "ফোল্ডার মুছুন"
+   },
+   "deleteFolderConfirmation": {
+      "message": "আপনি কি নিশ্চিত যে এই ফোল্ডারটি মুছতে চান?"
+   },
+   "deleteFolderPermanently": {
+      "message": "Are you sure you want to permanently delete this folder?"
+   },
+   "deleteForever": {
+      "message": "Delete forever"
+   },
+   "deleteItem": {
+      "message": "বস্তু মুছুন"
+   },
+   "deleteItemConfirmation": {
+      "message": "আপনি কি সত্যিই আবর্জনাতে পাঠাতে চান?"
+   },
+   "deleteSend": {
+      "description": "'Send' is a noun and the name of a feature called 'Bitwarden Send'. It should not be translated.",
+      "message": "Delete Send"
+   },
+   "deleteSendConfirmation": {
+      "description": "'Send' is a noun and the name of a feature called 'Bitwarden Send'. It should not be translated.",
+      "message": "Are you sure you want to delete this Send?"
+   },
+   "deleteSendPermanentConfirmation": {
+      "description": "'Send' is a noun and the name of a feature called 'Bitwarden Send'. It should not be translated.",
+      "message": "Are you sure you want to permanently delete this Send?"
+   },
+   "deleteWebsite": {
+      "message": "Delete website"
+   },
+   "deletedAttachment": {
+      "message": "সংযুক্তি মোছা হয়েছে"
+   },
+   "deletedFolder": {
+      "message": "ফোল্ডার মোছা হয়েছে"
+   },
+   "deletedItem": {
+      "message": "বস্তুতটি আবর্জনাতে পাঠানো হয়েছে"
+   },
+   "deletedSend": {
+      "description": "'Send' is a noun and the name of a feature called 'Bitwarden Send'. It should not be translated.",
+      "message": "Send deleted"
+   },
+   "deletionDate": {
+      "message": "Deletion date"
+   },
+   "deletionDateAndTimeRequired": {
+      "message": "A deletion date and time are required."
+   },
+   "deletionDateDescV2": {
+      "description": "'Send' is a noun and the name of a feature called 'Bitwarden Send'. It should not be translated.",
+      "message": "The Send will be permanently deleted on this date."
+   },
+   "deletionDateIsInvalid": {
+      "message": "The deletion date provided is not valid."
+   },
+   "description": {
+      "message": "Description"
+   },
+   "desktopIntegrationDisabledDesc": {
+      "message": "Bitwarden ডেস্কটপ অ্যাপ্লিকেশনটিতে ব্রাউজার ইন্টিগ্রেশন সক্ষম নেই। ডেস্কটপ অ্যাপ্লিকেশন মধ্যে সেটিংস এ দয়া করে এটি সক্ষম করুন।"
+   },
+   "desktopIntegrationDisabledTitle": {
+      "message": "ব্রাউজার একীকরণ সক্ষম নেই"
+   },
+   "desktopIntegrationVerificationText": {
+      "message": "ডেস্কটপ অ্যাপ্লিকেশন এই আঙুলের ছাপ প্রদর্শন করে কিনা তা যাচাই করুন:"
+   },
+   "desktopSyncVerificationTitle": {
+      "message": "ডেস্কটপ সিঙ্ক যাচাইকরণ"
+   },
+   "destination": {
+      "message": "Destination"
+   },
+   "deviceApprovalRequired": {
+      "message": "Device approval required. Select an approval option below:"
+   },
+   "deviceApprovalRequiredV2": {
+      "message": "Device approval required"
+   },
+   "deviceTrusted": {
+      "message": "Device trusted"
+   },
+   "disableAutoTotpCopyDesc": {
+      "message": "যদি আপনার লগইনের সাথে একটি প্রমাণীকরণ কী থাকে, আপনি যখনই লগইনটি স্বতঃপূরণ করেন তবে TOTP যাচাইকরণ কোডটি স্বয়ংক্রিয়ভাবে আপনার ক্লিপবোর্ডে অনুলিপিত করা হয়।"
+   },
+   "disabled": {
+      "message": "Disabled"
+   },
+   "disabledOrganizationFilterError": {
+      "message": "Items in suspended Organizations cannot be accessed. Contact your Organization owner for assistance."
+   },
+   "dismiss": {
+      "message": "Dismiss"
+   },
+   "display": {
+      "message": "Display"
+   },
+   "doNotTrust": {
+      "message": "Do not trust"
+   },
+   "dollarSignCharacterDescriptor": {
+      "description": "Represents the $ key in screen reader content as a readable word",
+      "message": "Dollar sign"
+   },
+   "domainAddedToExcludedDomains": {
+      "message": "$DOMAIN$ added to excluded domains.",
+      "placeholders": {
+         "domain": {
+            "content": "$1",
+            "example": "duckduckgo.com"
+         }
+      }
+   },
+   "domainName": {
+      "description": "Domain name. Ex. website.com",
+      "message": "Domain name"
+   },
+   "domainsTitle": {
+      "description": "A category title describing the concept of web domains",
+      "message": "Domains"
+   },
+   "dontAskAgainOnThisDeviceFor30Days": {
+      "message": "Don't ask again on this device for 30 days"
+   },
+   "doubleQuoteCharacterDescriptor": {
+      "description": "Represents the double quote key in screen reader content as a readable word",
+      "message": "Double quote"
+   },
+   "downloadAttachment": {
+      "message": "Download - $ITEMNAME$",
+      "placeholders": {
+         "itemname": {
+            "content": "$1",
+            "example": "Your File"
+         }
+      }
+   },
+   "downloadAttachmentName": {
+      "message": "Download $NAME$",
+      "placeholders": {
+         "name": {
+            "content": "$1",
+            "example": "Attachment Name"
+         }
+      }
+   },
+   "downloadBitwarden": {
+      "message": "Download Bitwarden"
+   },
+   "downloadBitwardenOnAllDevices": {
+      "message": "Download Bitwarden on all devices"
+   },
+   "downloadFromBitwardenNow": {
+      "message": "Download from bitwarden.com now"
+   },
+   "downloadOnTheAppStore": {
+      "message": "Download on the App Store"
+   },
+   "dr": {
+      "message": "ডাঃ"
+   },
+   "dragToReorder": {
+      "message": "Drag to reorder"
+   },
+   "dragToSort": {
+      "message": "বাছাই করতে টানুন"
+   },
+   "duoDescV2": {
+      "description": "'Duo Security' and 'Duo Mobile' are product names and should not be translated.",
+      "message": "Enter a code generated by Duo Security."
+   },
+   "duoHealthCheckResultsInNullAuthUrlError": {
+      "message": "Error connecting with the Duo service. Use a different two-step login method or contact Duo for assistance."
+   },
+   "duoOrganizationDesc": {
+      "description": "'Duo Security' and 'Duo Mobile' are product names and should not be translated.",
+      "message": "Duo Mobile app, এসএমএস, ফোন কল, বা U2F সুরক্ষা কী ব্যবহার করে আপনার সংস্থার জন্য Duo Security এর মাধ্যমে যাচাই করুন।"
+   },
+   "duoRequiredForAccount": {
+      "message": "Duo two-step login is required for your account."
+   },
+   "duoTwoFactorRequiredPageSubtitle": {
+      "message": "Duo two-step login is required for your account. Follow the steps below to finish logging in."
+   },
+   "edit": {
+      "message": "সম্পাদনা"
+   },
+   "editField": {
+      "message": "Edit field"
+   },
+   "editFieldLabel": {
+      "message": "Edit $LABEL$",
+      "placeholders": {
+         "label": {
+            "content": "$1",
+            "example": "Custom field"
+         }
+      }
+   },
+   "editFolder": {
+      "message": "ফোল্ডার সম্পাদনা"
+   },
+   "editFolderWithName": {
+      "message": "Edit folder: $FOLDERNAME$",
+      "placeholders": {
+         "foldername": {
+            "content": "$1",
+            "example": "Social"
+         }
+      }
+   },
+   "editItem": {
+      "message": "বস্তু সম্পাদনা"
+   },
+   "editItemHeader": {
+      "message": "Edit $TYPE$",
+      "placeholders": {
+         "type": {
+            "content": "$1",
+            "example": "Login"
+         }
+      }
+   },
+   "editSend": {
+      "description": "'Send' is a noun and the name of a feature called 'Bitwarden Send'. It should not be translated.",
+      "message": "Edit Send"
+   },
+   "editedFolder": {
+      "message": "ফোল্ডার সম্পাদিত"
+   },
+   "editedItem": {
+      "message": "সম্পাদিত বস্তু"
+   },
+   "editedSend": {
+      "description": "'Send' is a noun and the name of a feature called 'Bitwarden Send'. It should not be translated.",
+      "message": "Send saved"
+   },
+   "email": {
+      "message": "ই-মেইল"
+   },
+   "emailAddress": {
+      "message": "ইমেইল ঠিকানা"
+   },
+   "emailDescV2": {
+      "message": "Enter a code sent to your email."
+   },
+   "emailGenerated": {
+      "message": "Email generated"
+   },
+   "emailRequired": {
+      "message": "ইমেইল ঠিকানা প্রয়োজন।"
+   },
+   "emailTitle": {
+      "message": "ই-মেইল"
+   },
+   "emailVerificationRequired": {
+      "message": "ইমেইল সত্যায়ন প্রয়োজন"
+   },
+   "emailVerificationRequiredDesc": {
+      "message": "You must verify your email to use this feature. You can verify your email in the web vault."
+   },
+   "emailVerifiedV2": {
+      "message": "Email verified"
+   },
+   "emergencyAccessTrustWarning": {
+      "message": "For the security of your account, only confirm if you have granted emergency access to this user and their fingerprint matches what is displayed in their account"
+   },
+   "emptyVaultDescription": {
+      "message": "The vault protects more than just your passwords. Store secure logins, IDs, cards and notes securely here."
+   },
+   "emptyVaultNudgeBody": {
+      "message": "Use the importer to quickly transfer logins to Bitwarden without manually adding them."
+   },
+   "emptyVaultNudgeButton": {
+      "message": "Import now"
+   },
+   "emptyVaultNudgeTitle": {
+      "message": "Import existing passwords"
+   },
+   "enableAddLoginNotification": {
+      "message": "Ask to add login"
+   },
+   "enableAnimations": {
+      "message": "Enable animations"
+   },
+   "enableAutoBiometricsPrompt": {
+      "message": "Ask for biometrics on launch"
+   },
+   "enableAutoFillOnPageLoad": {
+      "message": "পৃষ্ঠা লোডে স্বতঃপূরণ সক্ষম করুন"
+   },
+   "enableAutoFillOnPageLoadDesc": {
+      "message": "যদি কোনও লগইন ফর্ম সনাক্ত হয়, ওয়েব পৃষ্ঠাটি লোড হওয়ার পরে স্বয়ংক্রিয়ভাবে স্বতঃপূরণ করুন।"
+   },
+   "enableAutoFillOnPageLoadSectionTitle": {
+      "message": "Autofill on page load"
+   },
+   "enableAutoTotpCopy": {
+      "message": "Copy TOTP automatically"
+   },
+   "enableBadgeCounter": {
+      "message": "Show badge counter"
+   },
+   "enableChangedPasswordNotification": {
+      "message": "Ask to update existing login"
+   },
+   "enableContextMenuItem": {
+      "message": "Show context menu options"
+   },
+   "enableFavicon": {
+      "message": "Show website icons"
+   },
+   "enableUsePasskeys": {
+      "message": "Ask to save and use passkeys"
+   },
+   "encExportAccountWarningDesc": {
+      "message": "Account encryption keys are unique to each Bitwarden user account, so you can't import an encrypted export into a different account."
+   },
+   "encExportKeyWarningDesc": {
+      "message": "This export encrypts your data using your account's encryption key. If you ever rotate your account's encryption key you should export again since you will not be able to decrypt this export file."
+   },
+   "enterSshKeyPassword": {
+      "message": "Enter password"
+   },
+   "enterSshKeyPasswordDesc": {
+      "message": "Enter the password for the SSH key."
+   },
+   "enterTheCodeFromYourAuthenticatorApp": {
+      "message": "Enter the code from your authenticator app"
+   },
+   "enterTheCodeSentToYourEmail": {
+      "message": "Enter the code sent to your email"
+   },
+   "enterVerificationCodeSentToEmail": {
+      "message": "Enter the verification code that was sent to your email."
+   },
+   "enterYourAccountEmailAddressAndYourPasswordHintWillBeSentToYou": {
+      "message": "Enter your account email address and your password hint will be sent to you"
+   },
+   "enterprisePolicyRequirementsApplied": {
+      "message": "Enterprise policy requirements have been applied to this setting"
+   },
+   "enterpriseSingleSignOn": {
+      "message": "এন্টারপ্রাইজ একক সাইন-অন"
+   },
+   "environmentSaved": {
+      "message": "পরিবেশের URL গুলি সংরক্ষণ করা হয়েছে।"
+   },
+   "equalsCharacterDescriptor": {
+      "description": "Represents the = key in screen reader content as a readable word",
+      "message": "Equals"
+   },
+   "error": {
+      "message": "Error"
+   },
+   "errorAssigningTargetCollection": {
+      "message": "Error assigning target collection."
+   },
+   "errorAssigningTargetFolder": {
+      "message": "Error assigning target folder."
+   },
+   "errorEnableBiometricDesc": {
+      "message": "ডেস্কটপ অ্যাপ্লিকেশন দ্বারা কর্মটি বাতিলকৃত"
+   },
+   "errorEnableBiometricTitle": {
+      "message": "বায়োমেট্রিক্স সক্ষম করতে অক্ষম"
+   },
+   "errorOccurred": {
+      "message": "একটি ত্রুটি উৎপন্ন হয়েছে"
+   },
+   "errorRefreshingAccessToken": {
+      "message": "Access Token Refresh Error"
+   },
+   "errorRefreshingAccessTokenDesc": {
+      "message": "No refresh token or API keys found. Please try logging out and logging back in."
+   },
+   "eu": {
+      "description": "European Union",
+      "message": "EU"
+   },
+   "ex": {
+      "message": "উদাহরণ"
+   },
+   "exact": {
+      "message": "হুবহু"
+   },
+   "exclamationCharacterDescriptor": {
+      "description": "Represents the ! key in screen reader content as a readable word",
+      "message": "Exclamation mark"
+   },
+   "excludedDomains": {
+      "message": "Excluded domains"
+   },
+   "excludedDomainsDesc": {
+      "message": "Bitwarden will not ask to save login details for these domains. You must refresh the page for changes to take effect."
+   },
+   "excludedDomainsDescAlt": {
+      "message": "Bitwarden will not ask to save login details for these domains for all logged in accounts. You must refresh the page for changes to take effect."
+   },
+   "excludedDomainsInvalidDomain": {
+      "message": "$DOMAIN$ is not a valid domain",
+      "placeholders": {
+         "domain": {
+            "content": "$1",
+            "example": "duckduckgo.com"
+         }
+      }
+   },
+   "excludedDomainsSavedSuccess": {
+      "message": "Excluded domain changes saved"
+   },
+   "experimentalFeature": {
+      "message": "Compromised or untrusted websites can exploit autofill on page load."
+   },
+   "expiration": {
+      "message": "মেয়াদোত্তীর্ণতা"
+   },
+   "expirationDate": {
+      "message": "Expiration date"
+   },
+   "expirationDateAndTimeRequired": {
+      "message": "An expiration date and time are required."
+   },
+   "expirationDateIsInvalid": {
+      "message": "The expiration date provided is not valid."
+   },
+   "expirationMonth": {
+      "message": "মেয়াদোত্তীর্ণ মাস"
+   },
+   "expirationYear": {
+      "message": "মেয়াদোত্তীর্ণ বছর"
+   },
+   "expired": {
+      "message": "অবসায়িত"
+   },
+   "expiredLink": {
+      "message": "Expired link"
+   },
+   "exportFrom": {
+      "message": "Export from"
+   },
+   "exportMasterPassword": {
+      "message": "আপনার ভল্ট তথ্য রফতানি করতে আপনার মূল পাসওয়ার্ডটি দিন।"
+   },
+   "exportPasswordDescription": {
+      "message": "This password will be used to export and import this file"
+   },
+   "exportSuccess": {
+      "message": "Vault data exported"
+   },
+   "exportTypeHeading": {
+      "message": "Export type"
+   },
+   "exportVault": {
+      "message": "ভল্ট রফতানি"
+   },
+   "exportWarningDesc": {
+      "message": "এই রফতানীতে একটি বিনা-এনক্রিপ্টেড করা বিন্যাসে আপনার ভল্ট তথ্য রয়েছে। আপনার রফতানিকৃত হওয়া ফাইল নিরাপত্তাহীন চ্যানেলগুলির মাধ্যমে (যেমন ইমেল) সংরক্ষণ বা প্রেরণ করা উচিত নয়। আপনি এটি ব্যবহার করে কাজ শেষ করার পর সাথে সাথে মুছে ফেলুন।"
+   },
+   "exportingIndividualVaultDescription": {
+      "message": "Only the individual vault items associated with $EMAIL$ will be exported. Organization vault items will not be included. Only vault item information will be exported and will not include associated attachments.",
+      "placeholders": {
+         "email": {
+            "content": "$1",
+            "example": "name@example.com"
+         }
+      }
+   },
+   "exportingIndividualVaultWithAttachmentsDescription": {
+      "message": "Only the individual vault items including attachments associated with $EMAIL$ will be exported. Organization vault items will not be included",
+      "placeholders": {
+         "email": {
+            "content": "$1",
+            "example": "name@example.com"
+         }
+      }
+   },
+   "exportingOrganizationVaultDesc": {
+      "message": "Only the organization vault associated with $ORGANIZATION$ will be exported. Items in individual vaults or other organizations will not be included.",
+      "placeholders": {
+         "organization": {
+            "content": "$1",
+            "example": "ACME Moving Co."
+         }
+      }
+   },
+   "exportingOrganizationVaultTitle": {
+      "message": "Exporting organization vault"
+   },
+   "exportingPersonalVaultTitle": {
+      "message": "Exporting individual vault"
+   },
+   "exposedMasterPassword": {
+      "message": "Exposed Master Password"
+   },
+   "exposedMasterPasswordDesc": {
+      "message": "Password found in a data breach. Use a unique password to protect your account. Are you sure you want to use an exposed password?"
+   },
+   "extDesc": {
+      "description": "Extension description, MUST be less than 112 characters (Safari restriction)",
+      "message": "At home, at work, or on the go, Bitwarden easily secures all your passwords, passkeys, and sensitive information"
+   },
+   "extName": {
+      "description": "Extension name, MUST be less than 40 characters (Safari restriction)",
+      "message": "Bitwarden Password Manager"
+   },
+   "extensionWidth": {
+      "message": "Extension width"
+   },
+   "extraWide": {
+      "message": "Extra wide"
+   },
+   "faviconDesc": {
+      "message": "Show a recognizable image next to each login."
+   },
+   "faviconDescAlt": {
+      "message": "Show a recognizable image next to each login. Applies to all logged in accounts."
+   },
+   "favorite": {
+      "message": "প্রিয়"
+   },
+   "favorites": {
+      "message": "প্রিয়গুলো"
+   },
+   "featureNotSupported": {
+      "message": "Feature not yet supported"
+   },
+   "featureUnavailable": {
+      "message": "বৈশিষ্ট্য অনুপলব্ধ"
+   },
+   "february": {
+      "message": "ফেব্রুয়ারী"
+   },
+   "fieldAdded": {
+      "message": "$LABEL$ added",
+      "placeholders": {
+         "label": {
+            "content": "$1",
+            "example": "Custom field"
+         }
+      }
+   },
+   "fieldLabel": {
+      "message": "Field label"
+   },
+   "fieldType": {
+      "message": "Field type"
+   },
+   "fieldsNeedAttention": {
+      "message": "$COUNT$ field(s) above need your attention.",
+      "placeholders": {
+         "count": {
+            "content": "$1",
+            "example": "4"
+         }
+      }
+   },
+   "fifteenMinutes": {
+      "message": "১৫ মিনিট"
+   },
+   "file": {
+      "message": "ফাইল"
+   },
+   "fileEncryptedExportWarningDesc": {
+      "message": "This file export will be password protected and require the file password to decrypt."
+   },
+   "fileFormat": {
+      "message": "ফাইলের ধরণ"
+   },
+   "filePassword": {
+      "message": "File password"
+   },
+   "filePasswordAndConfirmFilePasswordDoNotMatch": {
+      "message": "“File password”  and “Confirm file password“ do not match."
+   },
+   "fileSavedToDevice": {
+      "message": "File saved to device. Manage from your device downloads."
+   },
+   "fileSend": {
+      "message": "File Send"
+   },
+   "fileSends": {
+      "message": "File Sends"
+   },
+   "fileToShare": {
+      "message": "File to share"
+   },
+   "fill": {
+      "description": "This string is used on the vault page to indicate autofilling. Horizontal space is limited in the interface here so try and keep translations as concise as possible.",
+      "message": "Fill"
+   },
+   "fillAndSave": {
+      "message": "Fill and save"
+   },
+   "fillCredentialsFor": {
+      "description": "Screen reader text for when overlay item is in focused",
+      "message": "Fill credentials for"
+   },
+   "fillGeneratedPassword": {
+      "description": "Heading for the password generator within the inline menu",
+      "message": "Fill generated password"
+   },
+   "fillVerificationCode": {
+      "message": "Fill verification code"
+   },
+   "fillVerificationCodeAria": {
+      "description": "Aria label for the heading displayed the inline menu for totp code autofill",
+      "message": "Fill Verification Code"
+   },
+   "filterApplied": {
+      "message": "One filter applied"
+   },
+   "filterAppliedPlural": {
+      "message": "$COUNT$ filters applied",
+      "placeholders": {
+         "count": {
+            "content": "$1",
+            "example": "3"
+         }
+      }
+   },
+   "filterVault": {
+      "message": "Filter vault"
+   },
+   "filters": {
+      "message": "Filters"
+   },
+   "fingerprintMatchInfo": {
+      "message": "Please make sure your vault is unlocked and the Fingerprint phrase matches on the other device."
+   },
+   "fingerprintPhrase": {
+      "description": "A 'fingerprint phrase' is a unique word phrase (similar to a passphrase) that a user can use to authenticate their public key with another user, for the purposes of sharing.",
+      "message": "ফিঙ্গারপ্রিন্ট ফ্রেজ"
+   },
+   "fingerprintPhraseHeader": {
+      "message": "Fingerprint phrase"
+   },
+   "finishCreatingYourAccountBySettingAPassword": {
+      "message": "Finish creating your account by setting a password"
+   },
+   "finishJoiningThisOrganizationBySettingAMasterPassword": {
+      "message": "Finish joining this organization by setting a master password."
+   },
+   "firstName": {
+      "message": "নামের প্রথমাংশ"
+   },
+   "fiveMinutes": {
+      "message": "৫ মিনিট"
+   },
+   "folder": {
+      "message": "ফোল্ডার"
+   },
+   "folderHintText": {
+      "message": "Nest a folder by adding the parent folder's name followed by a “/”. Example: Social/Forums"
+   },
+   "folderName": {
+      "message": "Folder name"
+   },
+   "folders": {
+      "message": "ফোল্ডারসমূহ"
+   },
+   "followTheLinkInTheEmailSentTo": {
+      "message": "Follow the link in the email sent to"
+   },
+   "followTheStepsBelowToFinishLoggingIn": {
+      "message": "Follow the steps below to finish logging in."
+   },
+   "followTheStepsBelowToFinishLoggingInWithSecurityKey": {
+      "message": "Follow the steps below to finish logging in with your security key."
+   },
+   "forwaderInvalidOperation": {
+      "description": "Displayed when the user is forbidden from using the API by the forwarding service.",
+      "message": "$SERVICENAME$ refused your request. Please contact your service provider for assistance.",
+      "placeholders": {
+         "servicename": {
+            "content": "$1",
+            "example": "SimpleLogin"
+         }
+      }
+   },
+   "forwaderInvalidOperationWithMessage": {
+      "description": "Displayed when the user is forbidden from using the API by the forwarding service with an error message.",
+      "message": "$SERVICENAME$ refused your request: $ERRORMESSAGE$",
+      "placeholders": {
+         "errormessage": {
+            "content": "$2",
+            "example": "Please verify your email address to continue."
+         },
+         "servicename": {
+            "content": "$1",
+            "example": "SimpleLogin"
+         }
+      }
+   },
+   "forwaderInvalidToken": {
+      "description": "Displayed when the user's API token is empty or rejected by the forwarding service.",
+      "message": "Invalid $SERVICENAME$ API token",
+      "placeholders": {
+         "servicename": {
+            "content": "$1",
+            "example": "SimpleLogin"
+         }
+      }
+   },
+   "forwaderInvalidTokenWithMessage": {
+      "description": "Displayed when the user's API token is rejected by the forwarding service with an error message.",
+      "message": "Invalid $SERVICENAME$ API token: $ERRORMESSAGE$",
+      "placeholders": {
+         "errormessage": {
+            "content": "$2",
+            "example": "Please verify your email address to continue."
+         },
+         "servicename": {
+            "content": "$1",
+            "example": "SimpleLogin"
+         }
+      }
+   },
+   "forwardSlashCharacterDescriptor": {
+      "description": "Represents the / key in screen reader content as a readable word",
+      "message": "Forward slash"
+   },
+   "forwardedEmail": {
+      "message": "Forwarded email alias"
+   },
+   "forwardedEmailDesc": {
+      "message": "Generate an email alias with an external forwarding service."
+   },
+   "forwarderDomainName": {
+      "description": "Labels the domain name email forwarder service option",
+      "message": "Email domain"
+   },
+   "forwarderDomainNameHint": {
+      "description": "Guidance provided for email forwarding services that support multiple email domains.",
+      "message": "Choose a domain that is supported by the selected service"
+   },
+   "forwarderError": {
+      "description": "Reports an error returned by a forwarding service to the user.",
+      "message": "$SERVICENAME$ error: $ERRORMESSAGE$",
+      "placeholders": {
+         "errormessage": {
+            "content": "$2",
+            "example": "Invalid characters in domain name."
+         },
+         "servicename": {
+            "content": "$1",
+            "example": "SimpleLogin"
+         }
+      }
+   },
+   "forwarderGeneratedBy": {
+      "description": "Displayed with the address on the forwarding service's configuration screen.",
+      "message": "Generated by Bitwarden."
+   },
+   "forwarderGeneratedByWithWebsite": {
+      "description": "Displayed with the address on the forwarding service's configuration screen.",
+      "message": "Website: $WEBSITE$. Generated by Bitwarden.",
+      "placeholders": {
+         "WEBSITE": {
+            "content": "$1",
+            "example": "www.example.com"
+         }
+      }
+   },
+   "forwarderNoAccountId": {
+      "description": "Displayed when the forwarding service fails to return an account ID.",
+      "message": "Unable to obtain $SERVICENAME$ masked email account ID.",
+      "placeholders": {
+         "servicename": {
+            "content": "$1",
+            "example": "SimpleLogin"
+         }
+      }
+   },
+   "forwarderNoDomain": {
+      "description": "Displayed when the domain is empty or domain authorization failed at the forwarding service.",
+      "message": "Invalid $SERVICENAME$ domain.",
+      "placeholders": {
+         "servicename": {
+            "content": "$1",
+            "example": "SimpleLogin"
+         }
+      }
+   },
+   "forwarderNoUrl": {
+      "description": "Displayed when the url of the forwarding service wasn't supplied.",
+      "message": "Invalid $SERVICENAME$ url.",
+      "placeholders": {
+         "servicename": {
+            "content": "$1",
+            "example": "SimpleLogin"
+         }
+      }
+   },
+   "forwarderUnknownError": {
+      "description": "Displayed when the forwarding service failed due to an unknown error.",
+      "message": "Unknown $SERVICENAME$ error occurred.",
+      "placeholders": {
+         "servicename": {
+            "content": "$1",
+            "example": "SimpleLogin"
+         }
+      }
+   },
+   "forwarderUnknownForwarder": {
+      "description": "Displayed when the forwarding service is not supported.",
+      "message": "Unknown forwarder: '$SERVICENAME$'.",
+      "placeholders": {
+         "servicename": {
+            "content": "$1",
+            "example": "JustTrust.us"
+         }
+      }
+   },
+   "fourHours": {
+      "message": "৪ ঘন্টা"
+   },
+   "freeBitwardenFamilies": {
+      "message": "Free Bitwarden Families"
+   },
+   "freeBitwardenFamiliesPageDesc": {
+      "message": "You are eligible for Free Bitwarden Families. Redeem this offer today in the web app."
+   },
+   "freeOrgsCannotUseAttachments": {
+      "message": "Free organizations cannot use attachments"
+   },
+   "fullName": {
+      "message": "Full name"
+   },
+   "general": {
+      "message": "General"
+   },
+   "generateEmail": {
+      "message": "Generate email"
+   },
+   "generatePassphrase": {
+      "message": "Generate passphrase"
+   },
+   "generatePassword": {
+      "message": "পাসওয়ার্ড তৈরি করুন"
+   },
+   "generatePasswordCopied": {
+      "message": "পাসওয়ার্ড তৈরি করুন (অনুলিপিকৃত)"
+   },
+   "generatePasswordSlideDesc": {
+      "description": "Description of the generate password slide on the at-risk password page carousel",
+      "message": "Quickly generate a strong, unique password with the Bitwarden autofill menu on the at-risk site."
+   },
+   "generatePasswordSlideImgAltPeriod": {
+      "message": "Illustration of the Bitwarden autofill menu displaying a generated password."
+   },
+   "generateUsername": {
+      "message": "Generate username"
+   },
+   "generatedPassword": {
+      "message": "Generated password"
+   },
+   "generator": {
+      "description": "Short for 'credential generator'.",
+      "message": "উৎপাদক"
+   },
+   "generatorHistory": {
+      "message": "Generator history"
+   },
+   "generatorNudgeBodyAria": {
+      "description": "Aria label for the body content of the generator nudge",
+      "message": "Easily create strong and unique passwords by clicking on the Generate password button to help you keep your logins secure."
+   },
+   "generatorNudgeBodyOne": {
+      "description": "Two part message",
+      "example": "Easily create strong and unique passwords by clicking on {icon} to help you keep your logins secure.",
+      "message": "Easily create strong and unique passwords by clicking on"
+   },
+   "generatorNudgeBodyTwo": {
+      "description": "Two part message",
+      "example": "Easily create strong and unique passwords by clicking on {icon} to help you keep your logins secure.",
+      "message": "to help you keep your logins secure."
+   },
+   "generatorNudgeTitle": {
+      "message": "Quickly create passwords"
+   },
+   "generatorPolicyInEffect": {
+      "description": "Indicates that a policy limits the credential generator screen.",
+      "message": "Enterprise policy requirements have been applied to your generator options."
+   },
+   "getItOnGooglePlay": {
+      "message": "Get it on Google Play"
+   },
+   "getMasterPasswordHint": {
+      "message": "মূল পাসওয়ার্ডের ইঙ্গিত পান"
+   },
+   "getTheDesktopApp": {
+      "message": "Get the desktop app"
+   },
+   "getTheDesktopAppDesc": {
+      "message": "Access your vault without a browser, then set up unlock with biometrics to expedite unlocking in both the desktop app and browser extension."
+   },
+   "getTheMobileApp": {
+      "message": "Get the mobile app"
+   },
+   "getTheMobileAppDesc": {
+      "message": "Access your passwords on the go with the Bitwarden mobile app."
+   },
+   "gettingStartedTutorial": {
+      "message": "শুরু করার গৃহশিক্ষা"
+   },
+   "gettingStartedTutorialVideo": {
+      "message": "ব্রাউজার এক্সটেনশান থেকে কীভাবে সর্বাধিক লাভবান হতে পারবেন তা জানতে আমাদের শুরু করার গৃহশিক্ষাটি দেখুন"
+   },
+   "goBack": {
+      "message": "Go back"
+   },
+   "good": {
+      "description": "ex. A good password. Scale: Weak -> Good -> Strong",
+      "message": "ভাল"
+   },
+   "gotIt": {
+      "message": "Got it"
+   },
+   "greaterThanCharacterDescriptor": {
+      "description": "Represents the > key in screen reader content as a readable word",
+      "message": "Greater than"
+   },
+   "hasItemsVaultNudgeBodyOne": {
+      "message": "Autofill items for the current page"
+   },
+   "hasItemsVaultNudgeBodyThree": {
+      "message": "Search your vault for something else"
+   },
+   "hasItemsVaultNudgeBodyTwo": {
+      "message": "Favorite items for easy access"
+   },
+   "hasItemsVaultNudgeTitle": {
+      "message": "Welcome to your vault!"
+   },
+   "hashSignCharacterDescriptor": {
+      "description": "Represents the # key in screen reader content as a readable word",
+      "message": "Hash sign"
+   },
+   "helpCenter": {
+      "message": "Bitwarden Help center"
+   },
+   "helpFeedback": {
+      "message": "সহায়তা এবং প্রতিক্রিয়া"
+   },
+   "hiddenHelpText": {
+      "message": "Use hidden fields for sensitive data like a password"
+   },
+   "hideCharacterCount": {
+      "message": "Hide character count"
+   },
+   "hideMatchDetection": {
+      "message": "Hide match detection $WEBSITE$",
+      "placeholders": {
+         "website": {
+            "content": "$1",
+            "example": "https://example.com"
+         }
+      }
+   },
+   "hideTextByDefault": {
+      "message": "Hide text by default"
+   },
+   "hideYourEmail": {
+      "message": "Hide your email address from viewers."
+   },
+   "hintEqualsPassword": {
+      "message": "আপনার পাসওয়ার্ডের ইঙ্গিতটি আপনার পাসওয়ার্ড হতে পারবে না।"
+   },
+   "host": {
+      "description": "A URL's host value. For example, the host of https://sub.domain.com:443 is 'sub.domain.com:443'.",
+      "message": "নিয়ন্ত্রণকর্তা"
+   },
+   "hostedAt": {
+      "message": "hosted at"
+   },
+   "hostname": {
+      "description": "Part of a URL.",
+      "message": "Hostname"
+   },
+   "hours": {
+      "message": "Hours"
+   },
+   "howToAutofill": {
+      "message": "How to autofill"
+   },
+   "hyphenCharacterDescriptor": {
+      "description": "Represents the _ key in screen reader content as a readable word",
+      "message": "Underscore"
+   },
+   "iconsUrl": {
+      "message": "আইকন সার্ভার URL"
+   },
+   "identification": {
+      "message": "Identification"
+   },
+   "identities": {
+      "message": "পরিচয়"
+   },
+   "identityName": {
+      "message": "পরিচয়ের নাম"
+   },
+   "identityUrl": {
+      "message": "পরিচয় সার্ভার URL"
+   },
+   "ignore": {
+      "message": "Ignore"
+   },
+   "immediately": {
+      "message": "সঙ্গে সঙ্গে"
+   },
+   "importData": {
+      "description": "Used for the header of the import dialog, the import button and within the file-password-prompt",
+      "message": "Import data"
+   },
+   "importDirectlyFromLastPass": {
+      "message": "Import directly from LastPass"
+   },
+   "importEncKeyError": {
+      "message": "Error decrypting the exported file. Your encryption key does not match the encryption key used export the data."
+   },
+   "importError": {
+      "message": "Import error"
+   },
+   "importErrorDesc": {
+      "message": "There was a problem with the data you tried to import. Please resolve the errors listed below in your source file and try again."
+   },
+   "importFormatError": {
+      "message": "Data is not formatted correctly. Please check your import file and try again."
+   },
+   "importFromCSV": {
+      "message": "Import from CSV"
+   },
+   "importItems": {
+      "message": "বস্তু আমদানি"
+   },
+   "importNothingError": {
+      "message": "Nothing was imported."
+   },
+   "importSshKey": {
+      "message": "Import"
+   },
+   "importSshKeyFromClipboard": {
+      "message": "Import key from clipboard"
+   },
+   "importSuccess": {
+      "message": "Data successfully imported"
+   },
+   "importSuccessNumberOfItems": {
+      "message": "A total of $AMOUNT$ items were imported.",
+      "placeholders": {
+         "amount": {
+            "content": "$1",
+            "example": "2"
+         }
+      }
+   },
+   "importTargetHint": {
+      "description": "Located as a hint under the import target. Will be appended by either folder or collection, depending if the user is importing into an individual or an organizational vault.",
+      "message": "Select this option if you want the imported file contents moved to a $DESTINATION$",
+      "placeholders": {
+         "destination": {
+            "content": "$1",
+            "example": "folder or collection"
+         }
+      }
+   },
+   "importUnassignedItemsError": {
+      "message": "File contains unassigned items."
+   },
+   "importWarning": {
+      "message": "You are importing data to $ORGANIZATION$. Your data may be shared with members of this organization. Do you want to proceed?",
+      "placeholders": {
+         "organization": {
+            "content": "$1",
+            "example": "My Org Name"
+         }
+      }
+   },
+   "important": {
+      "message": "Important:"
+   },
+   "importingYourAccount": {
+      "message": "Importing your account..."
+   },
+   "include": {
+      "description": "Card header for password generator include block",
+      "message": "Include"
+   },
+   "includeNumber": {
+      "message": "নম্বর অন্তর্ভুক্ত করুন"
+   },
+   "includeSharedFolders": {
+      "message": "Include shared folders"
+   },
+   "incorrectCode": {
+      "message": "Incorrect code"
+   },
+   "incorrectPassword": {
+      "message": "Incorrect password"
+   },
+   "incorrectPin": {
+      "message": "Incorrect PIN"
+   },
+   "incorrectUsernameOrPassword": {
+      "message": "Incorrect username or password"
+   },
+   "inputEmail": {
+      "message": "Input is not an email address."
+   },
+   "inputForbiddenCharacters": {
+      "message": "The following characters are not allowed: $CHARACTERS$",
+      "placeholders": {
+         "characters": {
+            "content": "$1",
+            "example": "@, #, $, %"
+         }
+      }
+   },
+   "inputMaxLength": {
+      "message": "Input must not exceed $COUNT$ characters in length.",
+      "placeholders": {
+         "count": {
+            "content": "$1",
+            "example": "20"
+         }
+      }
+   },
+   "inputMaxValue": {
+      "message": "Input value must not exceed $MAX$.",
+      "placeholders": {
+         "max": {
+            "content": "$1",
+            "example": "100"
+         }
+      }
+   },
+   "inputMinLength": {
+      "message": "Input must be at least $COUNT$ characters long.",
+      "placeholders": {
+         "count": {
+            "content": "$1",
+            "example": "8"
+         }
+      }
+   },
+   "inputMinValue": {
+      "message": "Input value must be at least $MIN$.",
+      "placeholders": {
+         "min": {
+            "content": "$1",
+            "example": "8"
+         }
+      }
+   },
+   "inputRequired": {
+      "message": "Input is required."
+   },
+   "inputTrimValidator": {
+      "description": "Notification to inform the user that a form's input can't contain only whitespace.",
+      "message": "Input must not contain only whitespace."
+   },
+   "insecurePageWarning": {
+      "message": "Warning: This is an unsecured HTTP page, and any information you submit can potentially be seen and changed by others. This Login was originally saved on a secure (HTTPS) page."
+   },
+   "insecurePageWarningFillPrompt": {
+      "message": "Do you still wish to fill this login?"
+   },
+   "insertU2f": {
+      "message": "আপনার কম্পিউটারের ইউএসবি পোর্টে আপনার সুরক্ষা কী ঢোকান। এটিতে যদি একটি বোতাম থাকে তবে তা স্পর্শ করুন।"
+   },
+   "instructionsFor": {
+      "description": "The title for the import tool instructions.",
+      "message": "$NAME$ Instructions",
+      "placeholders": {
+         "name": {
+            "content": "$1",
+            "example": "LastPass (csv)"
+         }
+      }
+   },
+   "introCarouselLabel": {
+      "message": "Welcome to Bitwarden"
+   },
+   "invalidEmail": {
+      "message": "অকার্যকর ইমেইল ঠিকানা।"
+   },
+   "invalidFilePassword": {
+      "message": "Invalid file password, please use the password you entered when you created the export file."
+   },
+   "invalidMasterPassword": {
+      "message": "অবৈধ মূল পাসওয়ার্ড"
+   },
+   "invalidPin": {
+      "message": "অবৈধ পিন কোড।"
+   },
+   "invalidSshKey": {
+      "message": "The SSH key is invalid"
+   },
+   "invalidVerificationCode": {
+      "message": "Invalid verification code"
+   },
+   "inviteAccepted": {
+      "message": "Invitation accepted"
+   },
+   "itemAddedToFavorites": {
+      "message": "Item added to favorites"
+   },
+   "itemAutoFillOnPageLoad": {
+      "message": "Autofill on page load (if set up in Options)"
+   },
+   "itemDetails": {
+      "message": "Item details"
+   },
+   "itemHistory": {
+      "message": "Item history"
+   },
+   "itemInformation": {
+      "message": "বস্তু তথ্য"
+   },
+   "itemLocation": {
+      "message": "Item Location"
+   },
+   "itemMovedToOrg": {
+      "message": "Item moved to $ORGNAME$",
+      "placeholders": {
+         "orgname": {
+            "content": "$1",
+            "example": "Company Name"
+         }
+      }
+   },
+   "itemName": {
+      "message": "Item name"
+   },
+   "itemRemovedFromFavorites": {
+      "message": "Item removed from favorites"
+   },
+   "itemSuggestions": {
+      "message": "Suggested items"
+   },
+   "itemsInTrash": {
+      "message": "Items in trash"
+   },
+   "itemsMovedToOrg": {
+      "message": "Items moved to $ORGNAME$",
+      "placeholders": {
+         "orgname": {
+            "content": "$1",
+            "example": "Company Name"
+         }
+      }
+   },
+   "itemsWithNoFolder": {
+      "message": "Items with no folder"
+   },
+   "january": {
+      "message": "জানুয়ারী"
+   },
+   "joinOrganization": {
+      "message": "Join organization"
+   },
+   "joinOrganizationName": {
+      "message": "Join $ORGANIZATIONNAME$",
+      "placeholders": {
+         "organizationName": {
+            "content": "$1",
+            "example": "My Org Name"
+         }
+      }
+   },
+   "july": {
+      "message": "জুলাই"
+   },
+   "june": {
+      "message": "জুন"
+   },
+   "justOnce": {
+      "message": "Just once"
+   },
+   "keyConnectorDomain": {
+      "message": "Key Connector domain"
+   },
+   "labelWithNotification": {
+      "description": "Label for the notification with a new login suggestion.",
+      "message": "$LABEL$: New notification",
+      "placeholders": {
+         "label": {
+            "content": "$1",
+            "example": "Login"
+         }
+      }
+   },
+   "lastEdited": {
+      "message": "Last edited"
+   },
+   "lastName": {
+      "message": "নামের শেষাংশ"
+   },
+   "lastPassAuthRequired": {
+      "message": "LastPass authentication required"
+   },
+   "lastPassEmail": {
+      "message": "LastPass Email"
+   },
+   "lastPassMFADesc": {
+      "message": "Enter your one-time passcode from your authentication app"
+   },
+   "lastPassMFARequired": {
+      "message": "LastPass multifactor authentication required"
+   },
+   "lastPassMasterPassword": {
+      "message": "LastPass master password"
+   },
+   "lastPassOOBDesc": {
+      "message": "Approve the login request in your authentication app or enter a one-time passcode."
+   },
+   "lastPassTryAgainCheckEmail": {
+      "message": "Try again or look for an email from LastPass to verify it's you."
+   },
+   "lastPassYubikeyDesc": {
+      "message": "Insert the YubiKey associated with your LastPass account into your computer's USB port, then touch its button."
+   },
+   "lastSeenOn": {
+      "message": "last seen on: $DATE$",
+      "placeholders": {
+         "date": {
+            "content": "$1",
+            "example": "Jun 15, 2015"
+         }
+      }
+   },
+   "lastSync": {
+      "message": "শেষ সিঙ্ক:"
+   },
+   "launch": {
+      "message": "শুরু"
+   },
+   "launchDuo": {
+      "message": "Launch Duo"
+   },
+   "launchWebsite": {
+      "message": "Launch website"
+   },
+   "launchWebsiteName": {
+      "message": "Launch website $ITEMNAME$",
+      "placeholders": {
+         "itemname": {
+            "content": "$1",
+            "example": "Secret item"
+         }
+      }
+   },
+   "learnAboutImportOptions": {
+      "message": "Learn about your import options"
+   },
+   "learnMore": {
+      "message": "আরও জানুন"
+   },
+   "learnMoreAboutAuthenticators": {
+      "message": "Learn more about authenticators"
+   },
+   "learnMoreAboutAutofill": {
+      "message": "Learn more about autofill"
+   },
+   "learnMoreAboutAutofillOnPageLoadLinkText": {
+      "message": "Learn more about risks"
+   },
+   "learnMoreAboutBlockedDomains": {
+      "message": "Learn more about blocked domains"
+   },
+   "leaveOrganization": {
+      "message": "Leave organization"
+   },
+   "leaveOrganizationConfirmation": {
+      "message": "Are you sure you want to leave this organization?"
+   },
+   "leftOrganization": {
+      "message": "You have left the organization."
+   },
+   "legacyEncryptionUnsupported": {
+      "message": "Legacy encryption is no longer supported. Please contact support to recover your account."
+   },
+   "length": {
+      "message": "দৈর্ঘ্য"
+   },
+   "lessThanCharacterDescriptor": {
+      "description": "Represents the \u003C key in screen reader content as a readable word",
+      "message": "Less than"
+   },
+   "licenseNumber": {
+      "message": "লাইসেন্স নম্বর"
+   },
+   "light": {
+      "description": "Light color",
+      "message": "উজ্জ্বল"
+   },
+   "limitSendViews": {
+      "message": "Limit views"
+   },
+   "limitSendViewsCount": {
+      "description": "Displayed under the limit views field on Send",
+      "message": "$ACCESSCOUNT$ views left",
+      "placeholders": {
+         "accessCount": {
+            "content": "$1",
+            "example": "2"
+         }
+      }
+   },
+   "limitSendViewsHint": {
+      "description": "Displayed under the limit views field on Send",
+      "message": "No one can view this Send after the limit is reached."
+   },
+   "linked": {
+      "message": "Linked"
+   },
+   "linkedHelpText": {
+      "message": "Use a linked field when you are experiencing autofill issues for a specific website."
+   },
+   "linkedLabelHelpText": {
+      "message": "Enter the the field's html id, name, aria-label, or placeholder."
+   },
+   "linkedValue": {
+      "description": "This describes a value that is 'linked' (tied) to another value.",
+      "message": "Linked value"
+   },
+   "loading": {
+      "message": "Loading"
+   },
+   "location": {
+      "message": "Location"
+   },
+   "lock": {
+      "description": "Verb form: to make secure or inaccessible by",
+      "message": "লক"
+   },
+   "lockAll": {
+      "message": "Lock all"
+   },
+   "lockNow": {
+      "message": "এখনই লক করুন"
+   },
+   "lockWithMasterPassOnRestart": {
+      "message": "ব্রাউজার পুনরারম্ভতে মূল পাসওয়ার্ড দিয়ে লক করুন"
+   },
+   "lockWithMasterPassOnRestart1": {
+      "message": "Require master password on browser restart"
+   },
+   "locked": {
+      "message": "locked"
+   },
+   "logIn": {
+      "message": "Log in"
+   },
+   "logInRequestSent": {
+      "message": "Request sent"
+   },
+   "logInToBitwarden": {
+      "message": "Log in to Bitwarden"
+   },
+   "logInWithPasskey": {
+      "message": "Log in with passkey"
+   },
+   "logInWithPasskeyAriaLabel": {
+      "description": "ARIA label for the inline menu button that logs in with a passkey.",
+      "message": "Log in with passkey"
+   },
+   "logInWithPasskeyQuestion": {
+      "message": "Log in with passkey?"
+   },
+   "logOut": {
+      "message": "লগ আউট"
+   },
+   "logOutConfirmation": {
+      "message": "আপনি লগ আউট করতে চান?"
+   },
+   "loggedInAsOn": {
+      "message": "$HOSTNAME$ এ $EMAIL$  হিসাবে লগ ইনকৃত",
+      "placeholders": {
+         "email": {
+            "content": "$1",
+            "example": "name@example.com"
+         },
+         "hostname": {
+            "content": "$2",
+            "example": "bitwarden.com"
+         }
+      }
+   },
+   "loggedInExclamation": {
+      "message": "Logged in!"
+   },
+   "loggedOut": {
+      "message": "প্রস্থানকৃত"
+   },
+   "loggedOutDesc": {
+      "message": "You have been logged out of your account."
+   },
+   "loggingInTo": {
+      "message": "Logging in to $DOMAIN$",
+      "placeholders": {
+         "domain": {
+            "content": "$1",
+            "example": "example.com"
+         }
+      }
+   },
+   "loginApproved": {
+      "message": "Login approved"
+   },
+   "loginCredentials": {
+      "message": "Login credentials"
+   },
+   "loginExpired": {
+      "message": "আপনার লগইন মাত্রকালটির মেয়াদ শেষ হয়ে গেছে।"
+   },
+   "loginInitiated": {
+      "message": "Login initiated"
+   },
+   "loginOrCreateNewAccount": {
+      "message": "আপনার সুরক্ষিত ভল্টে প্রবেশ করতে লগ ইন করুন অথবা একটি নতুন অ্যাকাউন্ট তৈরি করুন।"
+   },
+   "loginSaveSuccess": {
+      "description": "Message displayed when login details are successfully saved.",
+      "message": "Login saved"
+   },
+   "loginToVaultMenu": {
+      "message": "Log in to your vault"
+   },
+   "loginUnavailable": {
+      "message": "লগইন অনুপলব্ধ"
+   },
+   "loginUpdateSuccess": {
+      "description": "Message displayed when login details are successfully updated.",
+      "message": "Login updated"
+   },
+   "loginUpdateTaskSuccess": {
+      "description": "Shown to user after login is updated.",
+      "message": "Great job! You took the steps to make you and $ORGANIZATION$ more secure.",
+      "placeholders": {
+         "organization": {
+            "content": "$1"
+         }
+      }
+   },
+   "loginUpdateTaskSuccessAdditional": {
+      "description": "Shown to user after login is updated.",
+      "message": "Thank you for making $ORGANIZATION$ more secure. You have $TASK_COUNT$ more passwords to update.",
+      "placeholders": {
+         "organization": {
+            "content": "$1"
+         },
+         "task_count": {
+            "content": "$2"
+         }
+      }
+   },
+   "loginWithDevice": {
+      "message": "Log in with device"
+   },
+   "loginWithMasterPassword": {
+      "message": "Log in with master password"
+   },
+   "logins": {
+      "message": "লগিনগুলি"
+   },
+   "lowercaseAriaLabel": {
+      "message": "Lowercase"
+   },
+   "lowercaseDescription": {
+      "description": "Full description for the password generator lowercase character checkbox",
+      "message": "Include lowercase characters"
+   },
+   "lowercaseLabel": {
+      "description": "Label for the password generator lowercase character checkbox",
+      "message": "a-z"
+   },
+   "makeDefault": {
+      "description": "Button text for the setting that allows overriding the default browser autofill settings",
+      "message": "Make default"
+   },
+   "manage": {
+      "message": "পরিচালনা"
+   },
+   "march": {
+      "message": "মার্চ"
+   },
+   "masterPass": {
+      "message": "মূল পাসওয়ার্ড"
+   },
+   "masterPassDesc": {
+      "message": "মূল পাসওয়ার্ড হল সেই পাসওয়ার্ডটি যা আপনি নিজের ভল্ট ব্যাবহার করতে ব্যবহার করেন। এটি খুব গুরুত্বপূর্ণ যে আপনি নিজের মূল পাসওয়ার্ডটি ভুলে যাবেন না। আপনি যদি ভুলে গিয়ে থাকেন তবে পাসওয়ার্ডটি পুনরুদ্ধার করার কোনও উপায় নেই।"
+   },
+   "masterPassDoesntMatch": {
+      "message": "মূল পাসওয়ার্ড নিশ্চিতকরণ মেলেনি।"
+   },
+   "masterPassHint": {
+      "message": "মূল পাসওয়ার্ড ইঙ্গিত (ঐচ্ছিক)"
+   },
+   "masterPassHintDesc": {
+      "message": "যদি আপনি আপনার পাসওয়ার্ড ভুলে যান তাহলে একটি মূল পাসওয়ার্ডের ইঙ্গিতটি আপনাকে মনে করাতে সাহায্য করতে পারে।"
+   },
+   "masterPassHintLabel": {
+      "message": "Master password hint"
+   },
+   "masterPassHintText": {
+      "message": "If you forget your password, the password hint can be sent to your email. $CURRENT$/$MAXIMUM$ character maximum.",
+      "placeholders": {
+         "current": {
+            "content": "$1",
+            "example": "0"
+         },
+         "maximum": {
+            "content": "$2",
+            "example": "50"
+         }
+      }
+   },
+   "masterPassImportant": {
+      "message": "Your master password cannot be recovered if you forget it!"
+   },
+   "masterPassSent": {
+      "message": "আমরা আপনাকে আপনার মূল পাসওয়ার্ডের ইঙ্গিত সহ একটি ইমেল প্রেরণ করেছি।"
+   },
+   "masterPassword": {
+      "message": "Master password"
+   },
+   "masterPasswordHint": {
+      "message": "Your master password cannot be recovered if you forget it!"
+   },
+   "masterPasswordMinlength": {
+      "description": "The Master Password must be at least a specific number of characters long.",
+      "message": "Master password must be at least $VALUE$ characters long.",
+      "placeholders": {
+         "value": {
+            "content": "$1",
+            "example": "8"
+         }
+      }
+   },
+   "masterPasswordPolicyInEffect": {
+      "message": "এক বা একাধিক সংস্থার নীতিগুলির কারণে নিম্নলিখিত প্রয়োজনসমূহ মূল পাসওয়ার্ডের পূরণ করা প্রয়োজন:"
+   },
+   "masterPasswordPolicyRequirementsNotMet": {
+      "message": "আপনার নতুন মূল পাসওয়ার্ড নীতির প্রয়োজনীয়তা পূরণ করে না।"
+   },
+   "masterPasswordRequired": {
+      "message": "Master password is required."
+   },
+   "matchDetection": {
+      "description": "URI match detection for autofill.",
+      "message": "মিল সনাক্তকরণ"
+   },
+   "maxAccessCountReached": {
+      "description": "This text will be displayed after a Send has been accessed the maximum amount of times.",
+      "message": "Max access count reached"
+   },
+   "maxFileSize": {
+      "message": "সর্বোচ্চ ফাইলের আকার ১০০ এমবি।"
+   },
+   "maxFileSizeSansPunctuation": {
+      "message": "Maximum file size is 500 MB"
+   },
+   "may": {
+      "message": "মে"
+   },
+   "middleName": {
+      "message": "নামের মধ্যাংশ"
+   },
+   "minNumbers": {
+      "message": "সর্বনিম্ন সংখ্যা"
+   },
+   "minSpecial": {
+      "message": "ন্যূনতম বিশেষ"
+   },
+   "minutes": {
+      "message": "Minutes"
+   },
+   "moreFromBitwarden": {
+      "message": "More from Bitwarden"
+   },
+   "moreOptionsLabel": {
+      "description": "Aria label for a button that opens a menu with more options for an item.",
+      "message": "More options, $ITEMNAME$",
+      "placeholders": {
+         "itemname": {
+            "content": "$1",
+            "example": "Secret Item"
+         }
+      }
+   },
+   "moreOptionsTitle": {
+      "description": "Title for a button that opens a menu with more options for an item.",
+      "message": "More options - $ITEMNAME$",
+      "placeholders": {
+         "itemname": {
+            "content": "$1",
+            "example": "Secret Item"
+         }
+      }
+   },
+   "move": {
+      "message": "Move"
+   },
+   "moveToOrgDesc": {
+      "message": "Choose an organization that you wish to move this item to. Moving to an organization transfers ownership of the item to that organization. You will no longer be the direct owner of this item once it has been moved."
+   },
+   "moveToOrganization": {
+      "message": "Move to organization"
+   },
+   "movedItemToOrg": {
+      "message": "$ITEMNAME$ moved to $ORGNAME$",
+      "placeholders": {
+         "itemname": {
+            "content": "$1",
+            "example": "Secret Item"
+         },
+         "orgname": {
+            "content": "$2",
+            "example": "Company Name"
+         }
+      }
+   },
+   "mr": {
+      "message": "জনাব"
+   },
+   "mrs": {
+      "message": "জনাবা"
+   },
+   "ms": {
+      "message": "জনাবা"
+   },
+   "multiSelectClearAll": {
+      "message": "Clear all"
+   },
+   "multiSelectLoading": {
+      "message": "Retrieving options..."
+   },
+   "multiSelectNotFound": {
+      "message": "No items found"
+   },
+   "multiSelectPlaceholder": {
+      "message": "-- Type to filter --"
+   },
+   "multifactorAuthenticationCancelled": {
+      "message": "Multifactor authentication cancelled"
+   },
+   "multifactorAuthenticationFailed": {
+      "message": "Multifactor authentication failed"
+   },
+   "multipleFieldsNeedAttention": {
+      "message": "$COUNT$ fields need your attention.",
+      "placeholders": {
+         "count": {
+            "content": "$1",
+            "example": "2"
+         }
+      }
+   },
+   "multipleInputEmails": {
+      "message": "1 or more emails are invalid"
+   },
+   "mx": {
+      "message": "Mx"
+   },
+   "myVault": {
+      "message": "আমার ভল্ট"
+   },
+   "nCollections": {
+      "message": "$COUNT$ collections",
+      "placeholders": {
+         "count": {
+            "content": "$1",
+            "example": "2"
+         }
+      }
+   },
+   "name": {
+      "message": "নাম"
+   },
+   "nameRequired": {
+      "message": "নাম প্রয়োজন।"
+   },
+   "nativeMessaginPermissionErrorDesc": {
+      "message": "Bitwarden ডেস্কটপ অ্যাপ্লিকেশনটির সাথে যোগাযোগের অনুমতি ছাড়াই আমরা ব্রাউজার এক্সটেনশনে বায়োমেট্রিক সরবরাহ করতে পারি না। অনুগ্রহপূর্বক আবার চেষ্টা করুন।"
+   },
+   "nativeMessaginPermissionErrorTitle": {
+      "message": "অনুমতি দেওয়া হয়নি"
+   },
+   "nativeMessaginPermissionSidebarDesc": {
+      "message": "This action cannot be done in the sidebar, please retry the action in the popup or popout."
+   },
+   "nativeMessaginPermissionSidebarTitle": {
+      "message": "Permission request error"
+   },
+   "nativeMessagingInvalidEncryptionDesc": {
+      "message": "ডেস্কটপ অ্যাপ্লিকেশনটি সুরক্ষিত যোগাযোগ চ্যানেলকে অবৈধ করেছে। দয়া করে এই ক্রিয়াটি আবার চেষ্টা করুন"
+   },
+   "nativeMessagingInvalidEncryptionTitle": {
+      "message": "ডেস্কটপ যোগাযোগ ব্যাহত"
+   },
+   "nativeMessagingWrongUserDesc": {
+      "message": "ডেস্কটপ অ্যাপ্লিকেশনটি একটি ভিন্ন অ্যাকাউন্টে লগইনকৃত। উভয় অ্যাপ্লিকেশন একই অ্যাকাউন্টে লগ ইন করা রয়েছে কিনা তা নিশ্চিত করুন।"
+   },
+   "nativeMessagingWrongUserKeyDesc": {
+      "message": "Biometric unlock failed. The biometric secret key failed to unlock the vault. Please try to set up biometrics again."
+   },
+   "nativeMessagingWrongUserKeyTitle": {
+      "message": "Biometric key missmatch"
+   },
+   "nativeMessagingWrongUserTitle": {
+      "message": "অ্যাকাউন্ট মেলেনি"
+   },
+   "needADifferentMethod": {
+      "message": "Need a different method?"
+   },
+   "needAnotherOptionV1": {
+      "message": "Need another option?"
+   },
+   "never": {
+      "message": "কখনই না"
+   },
+   "neverLockWarning": {
+      "message": "আপনি কি নিশ্চিত যে \"কখনই না\" বিকল্পটি ব্যবহার করবেন? আপনার লক বিকল্পগুলি \"কখনই না\" এ সেট করার ফলে আপনার ডিভাইসে ভল্টের এনক্রিপশন কী সঞ্চয় করা হবে। আপনি যদি এই বিকল্পটি ব্যবহার করেন তবে আপনার ডিভাইসটি সঠিকভাবে সুরক্ষিত রাখা নিশ্চিত করা উচিত।"
+   },
+   "new": {
+      "message": "New"
+   },
+   "newAccountCreated": {
+      "message": "আপনার নতুন অ্যাকাউন্ট তৈরি করা হয়েছে! আপনি এখন প্রবেশ করতে পারেন।"
+   },
+   "newAccountCreated2": {
+      "message": "Your new account has been created!"
+   },
+   "newAroundHere": {
+      "message": "New around here?"
+   },
+   "newAttachment": {
+      "message": "নতুন সংযুক্তি যুক্ত করুন"
+   },
+   "newCard": {
+      "description": "Button text to display within inline menu when there are no matching items on a credit card field",
+      "message": "New card"
+   },
+   "newCardNudgeBody": {
+      "message": "With cards, easily autofill payment forms securely and accurately."
+   },
+   "newCardNudgeTitle": {
+      "message": "Seamless online checkout"
+   },
+   "newCustomField": {
+      "message": "নতুন পছন্দসই ক্ষেত্র"
+   },
+   "newFolder": {
+      "message": "New folder"
+   },
+   "newIdentity": {
+      "description": "Button text to display within inline menu when there are no matching items on an identity field",
+      "message": "New identity"
+   },
+   "newIdentityNudgeBody": {
+      "message": "With identities, quickly autofill long registration or contact forms."
+   },
+   "newIdentityNudgeTitle": {
+      "message": "Simplify creating accounts"
+   },
+   "newItem": {
+      "description": "Button text to display in overlay when there are no matching items",
+      "message": "New item"
+   },
+   "newItemHeader": {
+      "message": "New $TYPE$",
+      "placeholders": {
+         "type": {
+            "content": "$1",
+            "example": "Login"
+         }
+      }
+   },
+   "newLogin": {
+      "description": "Button text to display within inline menu when there are no matching items on a login field",
+      "message": "New login"
+   },
+   "newLoginNudgeBodyBold": {
+      "description": "This is in multiple parts to allow for bold text in the middle of the sentence.",
+      "example": "Include a Website so this login appears as an autofill suggestion.",
+      "message": "Website"
+   },
+   "newLoginNudgeBodyOne": {
+      "description": "This is in multiple parts to allow for bold text in the middle of the sentence.",
+      "example": "Include a Website so this login appears as an autofill suggestion.",
+      "message": "Include a"
+   },
+   "newLoginNudgeBodyTwo": {
+      "description": "This is in multiple parts to allow for bold text in the middle of the sentence.",
+      "example": "Include a Website so this login appears as an autofill suggestion.",
+      "message": "so this login appears as an autofill suggestion."
+   },
+   "newLoginNudgeTitle": {
+      "message": "Save time with autofill"
+   },
+   "newMasterPass": {
+      "message": "New master password"
+   },
+   "newNoteNudgeBody": {
+      "message": "With notes, securely store sensitive data like banking or insurance details."
+   },
+   "newNoteNudgeTitle": {
+      "message": "Keep your sensitive data safe"
+   },
+   "newNotification": {
+      "message": "New notification"
+   },
+   "newPassword": {
+      "message": "New password"
+   },
+   "newSshNudgeBodyOne": {
+      "description": "Two part message",
+      "example": "Store your keys and connect with the SSH agent for fast, encrypted authentication. Learn more about SSH agent",
+      "message": "Store your keys and connect with the SSH agent for fast, encrypted authentication."
+   },
+   "newSshNudgeBodyTwo": {
+      "description": "Two part message",
+      "example": "Store your keys and connect with the SSH agent for fast, encrypted authentication. Learn more about SSH agent",
+      "message": "Learn more about SSH agent"
+   },
+   "newSshNudgeTitle": {
+      "message": "Developer-friendly SSH access"
+   },
+   "newToBitwarden": {
+      "message": "New to Bitwarden?"
+   },
+   "newUri": {
+      "message": "নতুন URI"
+   },
+   "nextSecurityTaskAction": {
+      "description": "Message prompting user to undertake completion of another security task.",
+      "message": "Change next password"
+   },
+   "no": {
+      "message": "না"
+   },
+   "noAttachments": {
+      "message": "সংযুক্তি নেই।"
+   },
+   "noCards": {
+      "message": "No cards"
+   },
+   "noCollectionsInList": {
+      "message": "তালিকার জন্য কোনও সংগ্রহ নেই।"
+   },
+   "noEditPermissions": {
+      "message": "You don't have permission to edit this item"
+   },
+   "noEmail": {
+      "message": "No email?"
+   },
+   "noFileChosen": {
+      "message": "No file chosen"
+   },
+   "noFolders": {
+      "message": "তালিকার জন্য কোনও ফোল্ডার নেই।"
+   },
+   "noFoldersAdded": {
+      "message": "No folders added"
+   },
+   "noFoldersFound": {
+      "description": "Used as a message within the notification bar when no folders are found",
+      "message": "No folders found"
+   },
+   "noIdentities": {
+      "message": "No identities"
+   },
+   "noItemsInList": {
+      "message": "তালিকার জন্য কোনও বস্তু নেই।"
+   },
+   "noItemsInTrash": {
+      "message": "No items in trash"
+   },
+   "noItemsInTrashDesc": {
+      "message": "Items you delete will appear here and be permanently deleted after 30 days"
+   },
+   "noItemsMatchSearch": {
+      "message": "No items match your search"
+   },
+   "noItemsToShow": {
+      "description": "Text to show in overlay if there are no matching items",
+      "message": "No items to show"
+   },
+   "noLastPassDataFound": {
+      "message": "No LastPass data found"
+   },
+   "noMatchingLogins": {
+      "message": "কোনও মিলত লগইন নেই।"
+   },
+   "noMatchingLoginsForSite": {
+      "message": "No matching logins for this site"
+   },
+   "noMatchingPasskeyLogin": {
+      "message": "You do not have a matching login for this site."
+   },
+   "noOrganizationsList": {
+      "message": "আপনি কোনও সংস্থার অন্তর্ভুক্ত নন। সংগঠনগুলি আপনাকে নিরাপদে অন্য ব্যবহারকারীর সাথে বস্তুসমূহ ভাগ করে নেওয়ার অনুমতি দেয়।"
+   },
+   "noPasskeysFoundForThisApplication": {
+      "message": "No passkeys found for this application."
+   },
+   "noPasswordsInList": {
+      "message": "তালিকার জন্য কোনও পাসওয়ার্ড নেই।"
+   },
+   "noPermissionsViewPage": {
+      "message": "You do not have permissions to view this page. Try logging in with a different account."
+   },
+   "noTwoStepProviders": {
+      "message": "এই অ্যাকাউন্টে দ্বি-পদক্ষেপ লগইন সক্ষম রয়েছে, তবে কনফিগারকৃত দ্বি-পদক্ষেপ সরবরাহকারীদের কোনওটিই এই ওয়েব ব্রাউজার দ্বারা সমর্থিত নয়।"
+   },
+   "noTwoStepProviders2": {
+      "message": "দয়া করে একটি সমর্থিত ওয়েব ব্রাউজার ব্যবহার করুন (যেমন ক্রোম) এবং/অথবা অতিরিক্ত সরবরাহকারী যুক্ত করুন যা ওয়েব ব্রাউজারগুলিতে আরও ভাল সমর্থিত (যেমন একটি প্রমাণীকরণকারী অ্যাপ)।"
+   },
+   "noValuesToCopy": {
+      "message": "No values to copy"
+   },
+   "noneFolder": {
+      "description": "This is the folder for uncategorized items",
+      "message": "কোন ফোল্ডার নেই"
+   },
+   "note": {
+      "message": "নোট"
+   },
+   "notes": {
+      "message": "নোট"
+   },
+   "nothingGeneratedRecently": {
+      "message": "You haven't generated anything recently"
+   },
+   "nothingSelected": {
+      "message": "You have not selected anything."
+   },
+   "nothingToShow": {
+      "message": "Nothing to show"
+   },
+   "notificationAddDesc": {
+      "message": "Bitwarden আপনার জন্য এই পাসওয়ার্ডটি মনে রাখবে?"
+   },
+   "notificationAddSave": {
+      "message": "হ্যাঁ, এখনই সংরক্ষণ করুন"
+   },
+   "notificationChangeDesc": {
+      "message": "আপনি কি এই পাসওয়ার্ডটি Bitwarden এ হালনাগাদ করতে চান?"
+   },
+   "notificationChangeSave": {
+      "message": "হ্যাঁ, এখনই হালনাগাদ করুন"
+   },
+   "notificationEditTooltip": {
+      "description": "Tooltip and Aria label for edit button on cipher item",
+      "message": "Edit before saving"
+   },
+   "notificationLoginSaveConfirmation": {
+      "description": "Shown to user after item is saved.",
+      "message": "saved to Bitwarden."
+   },
+   "notificationLoginUpdatedConfirmation": {
+      "description": "Shown to user after item is updated.",
+      "message": "updated in Bitwarden."
+   },
+   "notificationNewItemAria": {
+      "description": "Aria label for the new item button in notification bar confirmation message when error is prompted",
+      "message": "New Item, opens in new window"
+   },
+   "notificationSentDevice": {
+      "message": "A notification has been sent to your device."
+   },
+   "notificationSentDeviceAnchor": {
+      "message": "web app"
+   },
+   "notificationSentDevicePart1": {
+      "message": "Unlock Bitwarden on your device or on the"
+   },
+   "notificationSentDevicePart2": {
+      "message": "Make sure the Fingerprint phrase matches the one below before approving."
+   },
+   "notificationUnlock": {
+      "message": "Unlock"
+   },
+   "notificationUnlockDesc": {
+      "message": "Unlock your Bitwarden vault to complete the autofill request."
+   },
+   "notificationViewAria": {
+      "description": "Aria label for the view button in notification bar confirmation message",
+      "message": "View $ITEMNAME$, opens in new window",
+      "placeholders": {
+         "itemName": {
+            "content": "$1"
+         }
+      }
+   },
+   "notifications": {
+      "message": "Notifications"
+   },
+   "notificationsUrl": {
+      "message": "বিজ্ঞপ্তি সার্ভার URL"
+   },
+   "november": {
+      "message": "নভেম্বর"
+   },
+   "nudgeBadgeAria": {
+      "message": "1 notification"
+   },
+   "numWords": {
+      "message": "শব্দের সংখ্যা"
+   },
+   "number": {
+      "message": "নম্বর"
+   },
+   "numbersDescription": {
+      "description": "Full description for the password generator numbers checkbox",
+      "message": "Include numbers"
+   },
+   "numbersLabel": {
+      "description": "Label for the password generator numbers checkbox",
+      "message": "0-9"
+   },
+   "october": {
+      "message": "অক্টোবর"
+   },
+   "ok": {
+      "message": "ঠিক আছে"
+   },
+   "onLocked": {
+      "message": "সিস্টেম লকে"
+   },
+   "onRestart": {
+      "message": "ব্রাউজার পুনঃসূচনাই"
+   },
+   "oneDay": {
+      "message": "1 day"
+   },
+   "oneHour": {
+      "message": "১ ঘণ্টা"
+   },
+   "oneMinute": {
+      "message": "১ মিনিট"
+   },
+   "openInNewTab": {
+      "message": "Open in new tab"
+   },
+   "opensInANewWindow": {
+      "message": "Opens in a new window"
+   },
+   "options": {
+      "message": "বিকল্পসমূহ"
+   },
+   "or": {
+      "message": "or"
+   },
+   "orCopyPasteFileContents": {
+      "message": "or copy/paste the import file contents"
+   },
+   "orgPermissionsUpdatedMustSetPassword": {
+      "description": "Used as a card title description on the set password page to explain why the user is there",
+      "message": "Your organization permissions were updated, requiring you to set a master password."
+   },
+   "orgRequiresYouToSetPassword": {
+      "description": "Used as a card title description on the set password page to explain why the user is there",
+      "message": "Your organization requires you to set a master password."
+   },
+   "orgTrustWarning": {
+      "message": "For the security of your account, only proceed if you are a member of this organization, have account recovery enabled, and the fingerprint displayed below matches the organization's fingerprint."
+   },
+   "orgTrustWarning1": {
+      "message": "This organization has an Enterprise policy that will enroll you in account recovery. Enrollment will allow organization administrators to change your password. Only proceed if you recognize this organization and the fingerprint phrase displayed below matches the organization's fingerprint."
+   },
+   "organization": {
+      "description": "An entity of multiple related people (ex. a team or business organization).",
+      "message": "সংগঠন"
+   },
+   "organizationIsDeactivated": {
+      "message": "Organization is deactivated"
+   },
+   "organizationIsDisabled": {
+      "message": "Organization suspended."
+   },
+   "organizationName": {
+      "message": "Organization name"
+   },
+   "organizationNotTrusted": {
+      "message": "Organization is not trusted"
+   },
+   "other": {
+      "message": "অন্যান্য"
+   },
+   "otherOptions": {
+      "message": "Other options"
+   },
+   "overrideDefaultBrowserAutoFillSettings": {
+      "description": "Label for the setting that allows overriding the default browser autofill settings",
+      "message": "Make Bitwarden your default password manager"
+   },
+   "overrideDefaultBrowserAutofillDescription": {
+      "description": "Dialog message facilitating the ability to override a chrome browser's default autofill behavior",
+      "message": "Ignoring this option may cause conflicts between Bitwarden autofill suggestions and your browser's."
+   },
+   "overrideDefaultBrowserAutofillTitle": {
+      "description": "Dialog title facilitating the ability to override a chrome browser's default autofill behavior",
+      "message": "Make Bitwarden your default password manager?"
+   },
+   "overwritePasskey": {
+      "message": "Overwrite passkey?"
+   },
+   "overwritePasskeyAlert": {
+      "message": "This item already contains a passkey. Are you sure you want to overwrite the current passkey?"
+   },
+   "overwritePassword": {
+      "message": "ওভাররাইট পাসওয়ার্ড"
+   },
+   "overwritePasswordConfirmation": {
+      "message": "আপনি কি নিশ্চিত যে আপনি বর্তমান পাসওয়ার্ডটি ওভাররাইট করতে চান?"
+   },
+   "overwriteUsername": {
+      "message": "Overwrite username"
+   },
+   "overwriteUsernameConfirmation": {
+      "message": "Are you sure you want to overwrite the current username?"
+   },
+   "owner": {
+      "message": "Owner"
+   },
+   "ownerYou": {
+      "message": "Owner: You"
+   },
+   "ownership": {
+      "message": "মালিকানা"
+   },
+   "parenLeftCharacterDescriptor": {
+      "description": "Represents the ( key in screen reader content as a readable word",
+      "message": "Left parenthesis"
+   },
+   "parenRightCharacterDescriptor": {
+      "description": "Represents the ) key in screen reader content as a readable word",
+      "message": "Right parenthesis"
+   },
+   "partialUsername": {
+      "description": "Screen reader text for when a login item is focused where a partial username is displayed. SR will announce this phrase before reading the text of the partial username",
+      "message": "Partial username"
+   },
+   "passGen": {
+      "message": "পাসওয়ার্ড উৎপাদক"
+   },
+   "passGenInfo": {
+      "message": "আপনার লগইনগুলির জন্য স্বয়ংক্রিয়ভাবে শক্তিশালী, অদ্বিতীয় পাসওয়ার্ড তৈরি করুন।"
+   },
+   "passcode": {
+      "message": "Passcode"
+   },
+   "passkeyAlreadyExists": {
+      "message": "A passkey already exists for this application."
+   },
+   "passkeyFeatureIsNotImplementedForAccountsWithoutMasterPassword": {
+      "message": "Verification required by the initiating site. This feature is not yet implemented for accounts without master password."
+   },
+   "passkeyItem": {
+      "message": "Passkey Item"
+   },
+   "passkeyNotCopied": {
+      "message": "Passkey will not be copied"
+   },
+   "passkeyNotCopiedAlert": {
+      "message": "The passkey will not be copied to the cloned item. Do you want to continue cloning this item?"
+   },
+   "passkeyRemoved": {
+      "message": "Passkey removed"
+   },
+   "passkeys": {
+      "description": "A section header for a list of passkeys.",
+      "message": "Passkeys"
+   },
+   "passphrase": {
+      "message": "পাসফ্রেজ"
+   },
+   "passphraseGenerated": {
+      "message": "Passphrase generated"
+   },
+   "passphraseNumWordsRecommendationHint": {
+      "description": "Appended to `spinboxBoundariesHint` to recommend a number of words to the user. This must include any language-specific 'sentence' separator characters (e.g. a space in english).",
+      "message": " Use $RECOMMENDED$ words or more to generate a strong passphrase.",
+      "placeholders": {
+         "recommended": {
+            "content": "$1",
+            "example": "6"
+         }
+      }
+   },
+   "passportNumber": {
+      "message": "পাসপোর্ট নম্বর"
+   },
+   "password": {
+      "message": "পাসওয়ার্ড"
+   },
+   "passwordConfirmation": {
+      "message": "Master password confirmation"
+   },
+   "passwordConfirmationDesc": {
+      "message": "This action is protected. To continue, please re-enter your master password to verify your identity."
+   },
+   "passwordCopied": {
+      "message": "পাসওয়ার্ড অনুলিপিত"
+   },
+   "passwordExposed": {
+      "message": "ডেটা লঙ্ঘনে এই পাসওয়ার্ডটি $VALUE$ সময় (গুলি) উন্মুক্ত করা হয়েছে। আপনার এটি পরিবর্তন করা উচিত।",
+      "placeholders": {
+         "value": {
+            "content": "$1",
+            "example": "2"
+         }
+      }
+   },
+   "passwordGenerated": {
+      "message": "Password generated"
+   },
+   "passwordGenerator": {
+      "message": "Password generator"
+   },
+   "passwordHistory": {
+      "message": "পাসওয়ার্ড ইতিহাস"
+   },
+   "passwordLengthRecommendationHint": {
+      "description": "Appended to `spinboxBoundariesHint` to recommend a length to the user. This must include any language-specific 'sentence' separator characters (e.g. a space in english).",
+      "message": " Use $RECOMMENDED$ characters or more to generate a strong password.",
+      "placeholders": {
+         "recommended": {
+            "content": "$1",
+            "example": "14"
+         }
+      }
+   },
+   "passwordPrompt": {
+      "message": "Master password re-prompt"
+   },
+   "passwordProtected": {
+      "message": "পাসওয়ার্ড সুরক্ষিত"
+   },
+   "passwordProtectedOptionDescription": {
+      "message": "Set a file password to encrypt the export and import it to any Bitwarden account using the password for decryption."
+   },
+   "passwordRegenerated": {
+      "description": "Notification message for when a password has been regenerated",
+      "message": "Password regenerated"
+   },
+   "passwordRepromptDisabledAutofillOnPageLoad": {
+      "description": "Toast message for describing that master password re-prompt cannot be autofilled on page load.",
+      "message": "Items with master password re-prompt cannot be autofilled on page load. Autofill on page load turned off."
+   },
+   "passwordSafe": {
+      "message": "এই পাসওয়ার্ডটি কোনও পরিচিত তথ্য লঙ্ঘনে পাওয়া যায় নি। এটি ব্যবহার করা নিরাপদ হওয়া উচিত।"
+   },
+   "passwordSaved": {
+      "description": "Notification message for when saving credentials has succeeded.",
+      "message": "Password saved!"
+   },
+   "passwordStrengthScore": {
+      "message": "Password strength score $SCORE$",
+      "placeholders": {
+         "score": {
+            "content": "$1",
+            "example": "4"
+         }
+      }
+   },
+   "passwordUpdated": {
+      "description": "Notification message for when updating credentials has succeeded.",
+      "message": "Password updated!"
+   },
+   "passwordlessDotDev": {
+      "message": "Passwordless.dev"
+   },
+   "passwords": {
+      "description": "A section header for a list of passwords.",
+      "message": "Passwords"
+   },
+   "percentSignCharacterDescriptor": {
+      "description": "Represents the % key in screen reader content as a readable word",
+      "message": "Percent sign"
+   },
+   "periodCharacterDescriptor": {
+      "description": "Represents the . key in screen reader content as a readable word",
+      "message": "Period"
+   },
+   "permanentlyDeleteAttachmentConfirmation": {
+      "message": "Are you sure you want to permanently delete this attachment?"
+   },
+   "permanentlyDeleteItem": {
+      "message": "স্থায়ীভাবে বস্তু মুছুন"
+   },
+   "permanentlyDeleteItemConfirmation": {
+      "message": "আপনি কি নিশ্চিত এই বস্তুটি স্থায়ীভাবে মুছতে চান?"
+   },
+   "permanentlyDeletedItem": {
+      "message": "বস্তুটি স্থায়ীভাবে মুছে ফেলা হয়েছে"
+   },
+   "personalDetails": {
+      "message": "Personal details"
+   },
+   "personalItemTransferWarningSingular": {
+      "message": "1 item will be permanently transferred to the selected organization. You will no longer own this item."
+   },
+   "personalItemWithOrgTransferWarningSingular": {
+      "message": "1 item will be permanently transferred to $ORG$. You will no longer own this item.",
+      "placeholders": {
+         "org": {
+            "content": "$1",
+            "example": "Organization name"
+         }
+      }
+   },
+   "personalItemsTransferWarningPlural": {
+      "message": "$PERSONAL_ITEMS_COUNT$ items will be permanently transferred to the selected organization. You will no longer own these items.",
+      "placeholders": {
+         "personal_items_count": {
+            "content": "$1",
+            "example": "2"
+         }
+      }
+   },
+   "personalItemsWithOrgTransferWarningPlural": {
+      "message": "$PERSONAL_ITEMS_COUNT$ items will be permanently transferred to $ORG$. You will no longer own these items.",
+      "placeholders": {
+         "org": {
+            "content": "$2",
+            "example": "Organization name"
+         },
+         "personal_items_count": {
+            "content": "$1",
+            "example": "2"
+         }
+      }
+   },
+   "personalOwnershipPolicyInEffect": {
+      "message": "একটি প্রতিষ্ঠানের নীতি আপনার মালিকানা বিকল্পগুলিকে প্রভাবিত করছে।"
+   },
+   "personalOwnershipPolicyInEffectImports": {
+      "message": "An organization policy has blocked importing items into your individual vault."
+   },
+   "personalOwnershipSubmitError": {
+      "message": "একটি এন্টারপ্রাইজ নীতির কারণে, আপনি আপনার ব্যক্তিগত ভল্টে বস্তুসমূহ সংরক্ষণ করা থেকে সীমাবদ্ধ। একটি প্রতিষ্ঠানের মালিকানা বিকল্পটি পরিবর্তন করুন এবং উপলভ্য সংগ্রহগুলি থেকে চয়ন করুন।"
+   },
+   "personalVaultExportPolicyInEffect": {
+      "message": "One or more organization policies prevents you from exporting your individual vault."
+   },
+   "phone": {
+      "message": "ফোন"
+   },
+   "pin": {
+      "description": "PIN code. Ex. The short code (often numeric) that you use to unlock a device.",
+      "message": "পিন"
+   },
+   "pinRequired": {
+      "message": "পিন কোড প্রয়োজন।"
+   },
+   "pipeCharacterDescriptor": {
+      "description": "Represents the | key in screen reader content as a readable word",
+      "message": "Pipe"
+   },
+   "pleaseRestartRegistrationOrTryLoggingIn": {
+      "message": "Please restart registration or try logging in."
+   },
+   "plusAddressedEmail": {
+      "description": "Username generator option that appends a random sub-address to the username. For example: address+subaddress@email.com",
+      "message": "Plus addressed email"
+   },
+   "plusAddressedEmailDesc": {
+      "message": "Use your email provider's sub-addressing capabilities."
+   },
+   "plusCharacterDescriptor": {
+      "description": "Represents the + key in screen reader content as a readable word",
+      "message": "Plus"
+   },
+   "plusNMore": {
+      "message": "+ $QUANTITY$ more",
+      "placeholders": {
+         "quantity": {
+            "content": "$1",
+            "example": "5"
+         }
+      }
+   },
+   "policyInEffectLowercase": {
+      "message": "এক বা একাধিক ছোট হাতের অক্ষর রয়েছে"
+   },
+   "policyInEffectMinComplexity": {
+      "message": "$SCORE$ এর সর্বনিম্ন জটিলতার স্কোর",
+      "placeholders": {
+         "score": {
+            "content": "$1",
+            "example": "4"
+         }
+      }
+   },
+   "policyInEffectMinLength": {
+      "message": "$LENGTH$ এর সর্বনিম্ন দৈর্ঘ্য",
+      "placeholders": {
+         "length": {
+            "content": "$1",
+            "example": "14"
+         }
+      }
+   },
+   "policyInEffectNumbers": {
+      "message": "এক বা একাধিক সংখ্যা রয়েছে"
+   },
+   "policyInEffectSpecial": {
+      "message": "নিম্নলিখিত বিশেষ অক্ষরগুলির একটি বা একাধিক রয়েছে $CHARS$",
+      "placeholders": {
+         "chars": {
+            "content": "$1",
+            "example": "!@#$%^&*"
+         }
+      }
+   },
+   "policyInEffectUppercase": {
+      "message": "এক বা একাধিক বড় হাতের অক্ষর রয়েছে"
+   },
+   "popOut": {
+      "message": "Pop out"
+   },
+   "popOutNewWindow": {
+      "message": "একটি নতুন উইন্ডোতে পপ আউট"
+   },
+   "popoutExtension": {
+      "message": "Popout extension"
+   },
+   "popup2faCloseMessage": {
+      "message": "আপনার যাচাইকরণ কোডটির জন্য আপনার ইমেলটি পরীক্ষা করতে পপআপ উইন্ডোটির বাইরে ক্লিক করলে এই পপআপটি বন্ধ হয়ে যাবে। আপনি কি এই পপআপটি একটি নতুন উইন্ডোতে খুলতে চান যাতে এটি বন্ধ না হয়?"
+   },
+   "popupU2fCloseMessage": {
+      "message": "ব্রাউজারটি এই পপআপ উইন্ডোতে U2F অনুরোধগুলি প্রক্রিয়া করতে পারে না। আপনি কি এই পপআপটি একটি নতুন উইন্ডোতে খুলতে চান যাতে আপনি U2F ব্যবহার করে লগ ইন করতে পারেন?"
+   },
+   "ppremiumSignUpFuture": {
+      "message": "ভবিষ্যতের সমস্ত প্রিমিয়াম বৈশিষ্ট্য। আরও শীঘ্রই আসছে!"
+   },
+   "ppremiumSignUpReports": {
+      "message": "আপনার ভল্টটি সুরক্ষিত রাখতে পাসওয়ার্ড স্বাস্থ্যকরন, অ্যাকাউন্ট স্বাস্থ্য এবং ডেটা লঙ্ঘনের প্রতিবেদন।"
+   },
+   "ppremiumSignUpStorage": {
+      "message": "ফাইল সংযুক্তির জন্য ১ জিবি এনক্রিপ্টেড স্থান।"
+   },
+   "ppremiumSignUpSupport": {
+      "message": "অগ্রাধিকার গ্রাহক সমর্থন।"
+   },
+   "ppremiumSignUpTotp": {
+      "message": "আপনার ভল্টে লগইনগুলির জন্য TOTP যাচাইকরণ কোড (2FA) উৎপাদক।"
+   },
+   "premium": {
+      "message": "Premium"
+   },
+   "premiumCurrentMember": {
+      "message": "আপনি প্রিমিয়াম সদস্য!"
+   },
+   "premiumCurrentMemberThanks": {
+      "message": "Bitwarden কে সমর্থন করার জন্য আপনাকে ধন্যবাদ।"
+   },
+   "premiumFeatures": {
+      "message": "Upgrade to Premium and receive:"
+   },
+   "premiumManage": {
+      "message": "সদস্যতা পরিচালনা"
+   },
+   "premiumManageAlert": {
+      "message": "আপনি bitwarden.com ওয়েব ভল্টে আপনার সদস্যপদ পরিচালনা করতে পারেন। আপনি কি এখনই ওয়েবসাইটটি দেখতে চান?"
+   },
+   "premiumMembership": {
+      "message": "প্রিমিয়াম সদস্য"
+   },
+   "premiumNotCurrentMember": {
+      "message": "আপনি বর্তমানে প্রিমিয়াম সদস্য নন।"
+   },
+   "premiumPrice": {
+      "message": "সমস্ত মাত্র $PRICE$ / বছরের জন্য!",
+      "placeholders": {
+         "price": {
+            "content": "$1",
+            "example": "$10"
+         }
+      }
+   },
+   "premiumPriceV2": {
+      "message": "All for just $PRICE$ per year!",
+      "placeholders": {
+         "price": {
+            "content": "$1",
+            "example": "$10"
+         }
+      }
+   },
+   "premiumPurchase": {
+      "message": "প্রিমিয়াম কিনুন"
+   },
+   "premiumPurchaseAlertV2": {
+      "message": "You can purchase Premium from your account settings on the Bitwarden web app."
+   },
+   "premiumRefresh": {
+      "message": "সদস্যতা সতেজ করুন"
+   },
+   "premiumRequired": {
+      "message": "প্রিমিয়াম আবশ্যক"
+   },
+   "premiumRequiredDesc": {
+      "message": "এই বৈশিষ্ট্যটি ব্যবহার করতে একটি প্রিমিয়াম সদস্যতার প্রয়োজন।"
+   },
+   "premiumSignUpAndGet": {
+      "message": "প্রিমিয়াম সদস্যতার জন্য সাইন আপ করুন এবং পান:"
+   },
+   "premiumSignUpEmergency": {
+      "message": "Emergency access."
+   },
+   "premiumSignUpTwoStepOptions": {
+      "message": "Proprietary two-step login options such as YubiKey and Duo."
+   },
+   "premiumSubcriptionRequired": {
+      "message": "Premium subscription required"
+   },
+   "pressYourYubiKeyToAuthenticate": {
+      "message": "Press your YubiKey to authenticate"
+   },
+   "privacyPermissionAdditionNotGrantedDescription": {
+      "description": "Description for the dialog that appears when the user has not granted the extension permission to set privacy settings",
+      "message": "You must grant browser privacy permissions to Bitwarden to set it as the default password manager."
+   },
+   "privacyPermissionAdditionNotGrantedTitle": {
+      "description": "Title for the dialog that appears when the user has not granted the extension permission to set privacy settings",
+      "message": "Unable to set Bitwarden as the default password manager"
+   },
+   "privacyPolicy": {
+      "message": "গোপনীয়তা নীতি"
+   },
+   "privateNote": {
+      "message": "Private note"
+   },
+   "questionCharacterDescriptor": {
+      "description": "Represents the ? key in screen reader content as a readable word",
+      "message": "Question mark"
+   },
+   "quickLogin": {
+      "message": "Quick and easy login"
+   },
+   "quickLoginBody": {
+      "message": "Set up biometric unlock and autofill to log into your accounts without typing a single letter."
+   },
+   "random": {
+      "message": "Random"
+   },
+   "randomWord": {
+      "message": "Random word"
+   },
+   "rateExtension": {
+      "message": "এক্সটেনশনটি মূল্যায়ন করুন"
+   },
+   "reTypeMasterPass": {
+      "message": "পুনরায় মূল পাসওয়ার্ডটি লিখুন"
+   },
+   "readSecurityKey": {
+      "message": "Read security key"
+   },
+   "receiveMarketingEmailsV2": {
+      "message": "Get advice, announcements, and research opportunities from Bitwarden in your inbox."
+   },
+   "recoveryCodeDesc": {
+      "message": "আপনার সমস্ত দ্বি-গুণক সরবরাহকারীদের অ্যাক্সেস হারিয়েছেন? আপনার অ্যাকাউন্ট থেকে সমস্ত দ্বি-গুণক সরবরাহকারীদের অক্ষম করতে আপনার পুনরুদ্ধার কোডটি ব্যবহার করুন।"
+   },
+   "recoveryCodeTitle": {
+      "message": "পুনরুদ্ধার কোড"
+   },
+   "refresh": {
+      "message": "পুনঃসতেজ"
+   },
+   "refreshComplete": {
+      "message": "পুনঃসতেজ সম্পূর্ণ"
+   },
+   "regEx": {
+      "description": "A programming term, also known as 'RegEx'.",
+      "message": "নিয়মিত অভিব্যাক্তি"
+   },
+   "regeneratePassword": {
+      "message": "পাসওয়ার্ড পুনঃতৈরি করুন"
+   },
+   "rememberEmail": {
+      "message": "Remember email"
+   },
+   "rememberThisDevice": {
+      "message": "Remember this device"
+   },
+   "rememberThisDeviceToMakeFutureLoginsSeamless": {
+      "message": "Remember this device to make future logins seamless"
+   },
+   "remove": {
+      "message": "সরান"
+   },
+   "removeItem": {
+      "description": "Remove a selected option, such as a folder or collection",
+      "message": "Remove $NAME$",
+      "placeholders": {
+         "name": {
+            "content": "$1",
+            "example": "Work"
+         }
+      }
+   },
+   "removeMasterPassword": {
+      "message": "প্রধান পাসওয়ার্ডটি অপসারণ করুন"
+   },
+   "removeMasterPasswordForOrganizationUserKeyConnector": {
+      "message": "A master password is no longer required for members of the following organization. Please confirm the domain below with your organization administrator."
+   },
+   "removePasskey": {
+      "message": "Remove passkey"
+   },
+   "removePassword": {
+      "message": "পাসওয়ার্ড অপসারণ করুন"
+   },
+   "removePasswordConfirmation": {
+      "message": "আপনি কি নিশ্চিত যে আপনি এই পাসওয়ার্ডটি অপসারণ করতে চান?"
+   },
+   "removedMasterPassword": {
+      "message": "প্রধান পাসওয়ার্ড অপসারিত হয়েছে।"
+   },
+   "removedPassword": {
+      "message": "পাসওয়ার্ড অপসারিত হয়েছে"
+   },
+   "reorderFieldDown": {
+      "message": "$LABEL$ moved down, position $INDEX$ of $LENGTH$",
+      "placeholders": {
+         "index": {
+            "content": "$2",
+            "example": "1"
+         },
+         "label": {
+            "content": "$1",
+            "example": "Custom field"
+         },
+         "length": {
+            "content": "$3",
+            "example": "3"
+         }
+      }
+   },
+   "reorderFieldUp": {
+      "message": "$LABEL$ moved up, position $INDEX$ of $LENGTH$",
+      "placeholders": {
+         "index": {
+            "content": "$2",
+            "example": "1"
+         },
+         "label": {
+            "content": "$1",
+            "example": "Custom field"
+         },
+         "length": {
+            "content": "$3",
+            "example": "3"
+         }
+      }
+   },
+   "reorderToggleButton": {
+      "message": "Reorder $LABEL$. Use arrow key to move item up or down.",
+      "placeholders": {
+         "label": {
+            "content": "$1",
+            "example": "Custom field"
+         }
+      }
+   },
+   "reorderWebsiteUriButton": {
+      "message": "Reorder website URI. Use arrow key to move item up or down."
+   },
+   "requestAdminApproval": {
+      "message": "Request admin approval"
+   },
+   "requestHint": {
+      "message": "Request hint"
+   },
+   "requestPasswordHint": {
+      "message": "Request password hint"
+   },
+   "required": {
+      "message": "required"
+   },
+   "resendCode": {
+      "message": "Resend code"
+   },
+   "resendNotification": {
+      "message": "Resend notification"
+   },
+   "resetPasswordAutoEnrollInviteWarning": {
+      "message": "This organization has an enterprise policy that will automatically enroll you in password reset. Enrollment will allow organization administrators to change your master password."
+   },
+   "resetPasswordPolicyAutoEnroll": {
+      "message": "Automatic enrollment"
+   },
+   "resolveTheErrorsBelowAndTryAgain": {
+      "message": "Resolve the errors below and try again."
+   },
+   "restartRegistration": {
+      "message": "Restart registration"
+   },
+   "restore": {
+      "message": "Restore"
+   },
+   "restoreItem": {
+      "message": "বস্তু পুনরুদ্ধার"
+   },
+   "restoredItem": {
+      "message": "বস্তু পুনরুদ্ধারকৃত"
+   },
+   "retry": {
+      "message": "Retry"
+   },
+   "reviewAndChangeAtRiskPassword": {
+      "message": "Review and change one at-risk password"
+   },
+   "reviewAndChangeAtRiskPasswordsPlural": {
+      "message": "Review and change $COUNT$ at-risk passwords",
+      "placeholders": {
+         "count": {
+            "content": "$1",
+            "example": "2"
+         }
+      }
+   },
+   "reviewAtRiskLoginSlideImgAltPeriod": {
+      "message": "Illustration of a list of logins that are at-risk."
+   },
+   "reviewAtRiskLogins": {
+      "message": "Review at-risk logins"
+   },
+   "reviewAtRiskLoginsSlideDesc": {
+      "description": "Description of the review at-risk login slide on the at-risk password page carousel",
+      "message": "Your organization passwords are at-risk because they are weak, reused, and/or exposed."
+   },
+   "reviewAtRiskPasswords": {
+      "message": "Review at-risk passwords"
+   },
+   "save": {
+      "message": "সংরক্ষণ"
+   },
+   "saveAsNewLoginAction": {
+      "description": "Button text for saving login details as a new entry.",
+      "message": "Save as new login"
+   },
+   "saveCipherAttemptFailed": {
+      "description": "Notification message for when saving credentials has failed.",
+      "message": "Error saving credentials. Check console for details."
+   },
+   "saveCipherAttemptSuccess": {
+      "description": "Notification message for when saving credentials has succeeded.",
+      "message": "Credentials saved successfully!"
+   },
+   "saveFailure": {
+      "description": "Error message shown when the system fails to save login details.",
+      "message": "Error saving"
+   },
+   "saveFailureDetails": {
+      "description": "Detailed error message shown when saving login details fails.",
+      "message": "Oh no! We couldn't save this. Try entering the details manually."
+   },
+   "saveLogin": {
+      "description": "Prompt asking the user if they want to save their login details.",
+      "message": "Save login"
+   },
+   "savePasskey": {
+      "message": "Save passkey"
+   },
+   "savePasskeyNewLogin": {
+      "message": "Save passkey as new login"
+   },
+   "saveToBitwarden": {
+      "description": "Confirmation message for saving a login to Bitwarden",
+      "message": "Save to Bitwarden"
+   },
+   "search": {
+      "message": "Search"
+   },
+   "searchCollection": {
+      "message": "সংগ্রহ অনুসন্ধান"
+   },
+   "searchFolder": {
+      "message": "ফোল্ডার অনুসন্ধান"
+   },
+   "searchSavePasskeyNewLogin": {
+      "message": "Search or save passkey as new login"
+   },
+   "searchTrash": {
+      "message": "আবর্জনাতে খুঁজুন"
+   },
+   "searchType": {
+      "message": "অনুসন্ধানের ধরন"
+   },
+   "searchVault": {
+      "message": "ভল্ট খুঁজুন"
+   },
+   "secureDevices": {
+      "message": "Your data, when and where you need it"
+   },
+   "secureDevicesBody": {
+      "message": "Save unlimited passwords across unlimited devices with Bitwarden mobile, browser, and desktop apps."
+   },
+   "secureNotes": {
+      "message": "সুরক্ষিত নোট"
+   },
+   "securePasswordGenerated": {
+      "message": "Secure password generated! Don't forget to also update your password on the website."
+   },
+   "secureUser": {
+      "message": "Level up your logins"
+   },
+   "secureUserBody": {
+      "message": "Use the generator to create and save strong, unique passwords for all your accounts."
+   },
+   "security": {
+      "message": "নিরাপত্তা"
+   },
+   "securityCode": {
+      "message": "নিরাপত্তা কোড"
+   },
+   "securityPrioritized": {
+      "message": "Security, prioritized"
+   },
+   "securityPrioritizedBody": {
+      "message": "Save logins, cards, and identities to your secure vault. Bitwarden uses zero-knowledge, end-to-end encryption to protect what’s important to you."
+   },
+   "seeDetailedInstructions": {
+      "description": "This is followed a by a hyperlink to the help website.",
+      "message": "See detailed instructions on our help site at"
+   },
+   "select": {
+      "message": "নির্বাচন করুন"
+   },
+   "selectAnApprovalOptionBelow": {
+      "message": "Select an approval option below"
+   },
+   "selectAnotherMethod": {
+      "description": "Select another two-step login method",
+      "message": "Select another method"
+   },
+   "selectCollectionsToAssign": {
+      "message": "Select collections to assign"
+   },
+   "selectFile": {
+      "message": "একটি ফাইল নির্বাচন করুন।"
+   },
+   "selectFolder": {
+      "message": "Select folder..."
+   },
+   "selectFormat": {
+      "message": "Select the format of the import file"
+   },
+   "selectImportCollection": {
+      "message": "Select a collection"
+   },
+   "selectImportFile": {
+      "message": "Select the import file"
+   },
+   "selectImportFolder": {
+      "message": "Select a folder"
+   },
+   "selectItemAriaLabel": {
+      "description": "Used by screen readers. $1 is the item type (like vault or folder), $2 is the selected item name.",
+      "message": "Select $ITEMTYPE$, $ITEMNAME$",
+      "placeholders": {
+         "itemName": {
+            "content": "$2"
+         },
+         "itemType": {
+            "content": "$1"
+         }
+      }
+   },
+   "selectOneCollection": {
+      "message": "কমপক্ষে একটি সংগ্রহ নির্বাচন করুন।"
+   },
+   "selectPlaceholder": {
+      "message": "-- Select --"
+   },
+   "selectTwoStepLoginMethod": {
+      "message": "Select two-step login method"
+   },
+   "selfHostBaseUrl": {
+      "description": "Label for field requesting a self-hosted integration service URL",
+      "message": "Self-host server URL"
+   },
+   "selfHostedBaseUrlHint": {
+      "message": "Specify the base URL of your on-premises hosted Bitwarden installation. Example: https://bitwarden.company.com"
+   },
+   "selfHostedCustomEnvHeader": {
+      "message": "For advanced configuration, you can specify the base URL of each service independently."
+   },
+   "selfHostedEnvFormInvalid": {
+      "message": "You must add either the base Server URL or at least one custom environment."
+   },
+   "selfHostedEnvironment": {
+      "message": "স্ব-হোস্টকৃত পরিবেশ"
+   },
+   "selfHostedServer": {
+      "message": "self-hosted"
+   },
+   "selfOwnershipLabel": {
+      "description": "Used as a label to indicate that the user is the owner of an item.",
+      "message": "You"
+   },
+   "semicolonCharacterDescriptor": {
+      "description": "Represents the ; key in screen reader content as a readable word",
+      "message": "Semicolon"
+   },
+   "send": {
+      "description": "'Send' is a noun and the name of a feature called 'Bitwarden Send'. It should not be translated.",
+      "message": "Send"
+   },
+   "sendCode": {
+      "message": "Send code"
+   },
+   "sendDetails": {
+      "description": "'Send' is a noun and the name of a feature called 'Bitwarden Send'. It should not be translated.",
+      "message": "Send details"
+   },
+   "sendDisabled": {
+      "description": "'Send' is a noun and the name of a feature called 'Bitwarden Send'. It should not be translated.",
+      "message": "Send removed"
+   },
+   "sendDisabledWarning": {
+      "description": "'Send' is a noun and the name of a feature called 'Bitwarden Send'. It should not be translated.",
+      "message": "Due to an enterprise policy, you are only able to delete an existing Send."
+   },
+   "sendExpiresInDays": {
+      "description": "'Send' is a noun and the name of a feature called 'Bitwarden Send'. It should not be translated.",
+      "message": "The Send will be available to anyone with the link for the next $DAYS$ days.",
+      "placeholders": {
+         "days": {
+            "content": "$1",
+            "example": "5"
+         }
+      }
+   },
+   "sendExpiresInDaysSingle": {
+      "description": "'Send' is a noun and the name of a feature called 'Bitwarden Send'. It should not be translated.",
+      "message": "The Send will be available to anyone with the link for the next 1 day."
+   },
+   "sendExpiresInHours": {
+      "description": "'Send' is a noun and the name of a feature called 'Bitwarden Send'. It should not be translated.",
+      "message": "The Send will be available to anyone with the link for the next $HOURS$ hours.",
+      "placeholders": {
+         "hours": {
+            "content": "$1",
+            "example": "5"
+         }
+      }
+   },
+   "sendExpiresInHoursSingle": {
+      "description": "'Send' is a noun and the name of a feature called 'Bitwarden Send'. It should not be translated.",
+      "message": "The Send will be available to anyone with the link for the next 1 hour."
+   },
+   "sendFileCalloutHeader": {
+      "message": "Before you start"
+   },
+   "sendFilePopoutDialogDesc": {
+      "description": "'Send' is a noun and the name of a feature called 'Bitwarden Send'. It should not be translated.",
+      "message": "To create a file Send, you need to pop out the extension to a new window."
+   },
+   "sendFilePopoutDialogText": {
+      "description": "'Send' is a noun and the name of a feature called 'Bitwarden Send'. It should not be translated.",
+      "message": "Pop out extension?"
+   },
+   "sendFirefoxFileWarning": {
+      "message": "In order to choose a file using Firefox, open the extension in the sidebar or pop out to a new window by clicking this banner."
+   },
+   "sendLink": {
+      "description": "'Send' is a noun and the name of a feature called 'Bitwarden Send'. It should not be translated.",
+      "message": "Send link"
+   },
+   "sendLinkCopied": {
+      "description": "'Send' is a noun and the name of a feature called 'Bitwarden Send'. It should not be translated.",
+      "message": "Send link copied"
+   },
+   "sendLinuxChromiumFileWarning": {
+      "message": "In order to choose a file, open the extension in the sidebar (if possible) or pop out to a new window by clicking this banner."
+   },
+   "sendPasswordDescV3": {
+      "description": "'Send' is a noun and the name of a feature called 'Bitwarden Send'. It should not be translated.",
+      "message": "Add an optional password for recipients to access this Send."
+   },
+   "sendSafariFileWarning": {
+      "message": "In order to choose a file using Safari, pop out to a new window by clicking this banner."
+   },
+   "sendTypeFile": {
+      "message": "ফাইল"
+   },
+   "sendTypeText": {
+      "message": "Text"
+   },
+   "sendTypeTextToShare": {
+      "message": "Text to share"
+   },
+   "sendVerificationCode": {
+      "message": "Send a verification code to your email"
+   },
+   "sendsBodyNoItems": {
+      "description": "'Send' is a noun and the name of a feature called 'Bitwarden Send'. It should not be translated.",
+      "message": "Share files and data securely with anyone, on any platform. Your information will remain end-to-end encrypted while limiting exposure."
+   },
+   "sendsTitleNoItems": {
+      "description": "'Send' is a noun and the name of a feature called 'Bitwarden Send'. It should not be translated.",
+      "message": "Send sensitive information safely"
+   },
+   "september": {
+      "message": "সেপ্টেম্বর"
+   },
+   "server": {
+      "message": "server"
+   },
+   "serverVersion": {
+      "message": "Server version"
+   },
+   "service": {
+      "message": "Service"
+   },
+   "sessionTimeout": {
+      "message": "Your session has timed out. Please go back and try logging in again."
+   },
+   "sessionTimeoutHeader": {
+      "message": "Session timeout"
+   },
+   "setAStrongPassword": {
+      "message": "Set a strong password"
+   },
+   "setMasterPassword": {
+      "message": "মূল পাসওয়ার্ড ধার্য করুন"
+   },
+   "setPin": {
+      "message": "Set PIN"
+   },
+   "setPinCode": {
+      "message": "You can use this PIN to unlock Bitwarden. Your PIN will be reset if you ever fully log out of the application."
+   },
+   "setYourPinButton": {
+      "message": "Set PIN"
+   },
+   "setYourPinCode": {
+      "message": "Bitwarden আনলক করার জন্য আপনার পিন কোডটি সেট করুন। আপনি যদি অ্যাপ্লিকেশনটি থেকে পুরোপুরি লগ আউট করেন তবে আপনার পিন সেটিংস রিসেট করা হবে।"
+   },
+   "setYourPinTitle": {
+      "message": "Set PIN"
+   },
+   "settings": {
+      "message": "সেটিংস"
+   },
+   "settingsVaultOptions": {
+      "message": "Vault options"
+   },
+   "shared": {
+      "message": "ভাগকৃত"
+   },
+   "showAnimations": {
+      "message": "Show animations"
+   },
+   "showAutoFillMenuOnFormFields": {
+      "description": "Represents the message for allowing the user to enable the autofill overlay",
+      "message": "Show autofill menu on form fields"
+   },
+   "showCardsCurrentTab": {
+      "message": "Show cards on Tab page"
+   },
+   "showCardsCurrentTabDesc": {
+      "message": "List card items on the Tab page for easy autofill."
+   },
+   "showCardsInVaultViewV2": {
+      "message": "Always show cards as Autofill suggestions on Vault view"
+   },
+   "showCharacterCount": {
+      "message": "Show character count"
+   },
+   "showIdentitiesCurrentTab": {
+      "message": "Show identities on Tab page"
+   },
+   "showIdentitiesCurrentTabDesc": {
+      "message": "List identity items on the Tab page for easy autofill."
+   },
+   "showIdentitiesInVaultViewV2": {
+      "message": "Always show identities as Autofill suggestions on Vault view"
+   },
+   "showInlineMenuCardsLabel": {
+      "message": "Display cards as suggestions"
+   },
+   "showInlineMenuIdentitiesLabel": {
+      "message": "Display identities as suggestions"
+   },
+   "showInlineMenuLabel": {
+      "message": "Show autofill suggestions on form fields"
+   },
+   "showInlineMenuOnFormFieldsDescAlt": {
+      "message": "Applies to all logged in accounts."
+   },
+   "showInlineMenuOnIconSelectionLabel": {
+      "message": "Display suggestions when icon is selected"
+   },
+   "showMatchDetection": {
+      "message": "Show match detection $WEBSITE$",
+      "placeholders": {
+         "website": {
+            "content": "$1",
+            "example": "https://example.com"
+         }
+      }
+   },
+   "showNumberOfAutofillSuggestions": {
+      "message": "Show number of login autofill suggestions on extension icon"
+   },
+   "showQuickCopyActions": {
+      "message": "Show quick copy actions on Vault"
+   },
+   "singleFieldNeedsAttention": {
+      "message": "1 field needs your attention."
+   },
+   "singleQuoteCharacterDescriptor": {
+      "description": "Represents the ' key in screen reader content as a readable word",
+      "message": "Single quote"
+   },
+   "skipToContent": {
+      "message": "Skip to content"
+   },
+   "spaceCharacterDescriptor": {
+      "description": "Represents the space key in screen reader content as a readable word",
+      "message": "Space"
+   },
+   "specialCharactersDescription": {
+      "description": "Full description for the password generator special characters checkbox",
+      "message": "Include special characters"
+   },
+   "spinboxBoundariesHint": {
+      "description": "Explains spin box minimum and maximum values to the user",
+      "message": "Value must be between $MIN$ and $MAX$.",
+      "placeholders": {
+         "max": {
+            "content": "$2",
+            "example": "128"
+         },
+         "min": {
+            "content": "$1",
+            "example": "8"
+         }
+      }
+   },
+   "sshFingerprint": {
+      "message": "Fingerprint"
+   },
+   "sshKeyAlgorithm": {
+      "message": "Key type"
+   },
+   "sshKeyAlgorithmED25519": {
+      "message": "ED25519"
+   },
+   "sshKeyAlgorithmRSA2048": {
+      "message": "RSA 2048-Bit"
+   },
+   "sshKeyAlgorithmRSA3072": {
+      "message": "RSA 3072-Bit"
+   },
+   "sshKeyAlgorithmRSA4096": {
+      "message": "RSA 4096-Bit"
+   },
+   "sshKeyImported": {
+      "message": "SSH key imported successfully"
+   },
+   "sshKeyTypeUnsupported": {
+      "message": "The SSH key type is not supported"
+   },
+   "sshKeyWrongPassword": {
+      "message": "The password you entered is incorrect."
+   },
+   "sshKeys": {
+      "message": "SSH Keys"
+   },
+   "sshPrivateKey": {
+      "message": "Private key"
+   },
+   "sshPublicKey": {
+      "message": "Public key"
+   },
+   "ssn": {
+      "message": "সামাজিক সুরক্ষা নম্বর"
+   },
+   "ssoIdentifierRequired": {
+      "message": "Organization SSO identifier is required."
+   },
+   "ssoKeyConnectorError": {
+      "message": "Key connector error: make sure key connector is available and working correctly."
+   },
+   "startDesktopDesc": {
+      "message": "এই ক্রিয়াকলাপ ব্যবহার করার পূর্বে Bitwarden ডেস্কটপ অ্যাপ্লিকেশনটি শুরু করা দরকার।"
+   },
+   "startDesktopTitle": {
+      "message": "Bitwarden ডেস্কটপ অ্যাপ্লিকেশন শুরু করুন"
+   },
+   "startsWith": {
+      "message": "শুরু করুন"
+   },
+   "stateProvince": {
+      "message": "রাজ্য / প্রদেশ"
+   },
+   "strong": {
+      "description": "ex. A strong password. Scale: Weak -> Good -> Strong",
+      "message": "শক্তিশালী"
+   },
+   "submenu": {
+      "message": "Submenu"
+   },
+   "submit": {
+      "message": "জমা দিন"
+   },
+   "success": {
+      "message": "Success"
+   },
+   "successfullyAssignedCollections": {
+      "message": "Successfully assigned collections"
+   },
+   "switchAccount": {
+      "message": "Switch account"
+   },
+   "switchAccounts": {
+      "message": "Switch accounts"
+   },
+   "switchToAccount": {
+      "message": "Switch to account"
+   },
+   "sync": {
+      "message": "সিঙ্ক"
+   },
+   "syncVaultNow": {
+      "message": "এখনই ভল্ট সিঙ্ক করুন"
+   },
+   "syncingComplete": {
+      "message": "সিঙ্কিং সম্পন্ন"
+   },
+   "syncingFailed": {
+      "message": "সিঙ্কিঙ্গে ব্যর্থ"
+   },
+   "systemDefault": {
+      "message": "System default"
+   },
+   "tab": {
+      "message": "ট্যাব"
+   },
+   "tdeDisabledMasterPasswordRequired": {
+      "message": "Your organization has disabled trusted device encryption. Please set a master password to access your vault."
+   },
+   "tenSeconds": {
+      "message": "১০ সেকেন্ড"
+   },
+   "termsOfService": {
+      "message": "সেবা পাবার শর্ত"
+   },
+   "textHelpText": {
+      "message": "Use text fields for data like security questions"
+   },
+   "textSend": {
+      "message": "Text Send"
+   },
+   "textSends": {
+      "message": "Text Sends"
+   },
+   "theme": {
+      "message": "থিম"
+   },
+   "themeDesc": {
+      "message": "অ্যাপ্লিকেশনটির রং থিম পরিবর্তন।"
+   },
+   "themeDescAlt": {
+      "message": "Change the application's color theme. Applies to all logged in accounts."
+   },
+   "thirdParty": {
+      "message": "Third-party"
+   },
+   "thirdPartyServerMessage": {
+      "message": "Connected to third-party server implementation, $SERVERNAME$. Please verify bugs using the official server, or report them to the third-party server.",
+      "placeholders": {
+         "servername": {
+            "content": "$1",
+            "example": "ThirdPartyServerName"
+         }
+      }
+   },
+   "thirtyMinutes": {
+      "message": "৩০ মিনিট"
+   },
+   "thirtySeconds": {
+      "message": "৩০ সেকেন্ড"
+   },
+   "tildeCharacterDescriptor": {
+      "description": "Represents the ~ key in screen reader content as a readable word",
+      "message": "Tilde"
+   },
+   "title": {
+      "message": "শিরোনাম"
+   },
+   "toEditYourEmailAddress": {
+      "message": "to edit your email address."
+   },
+   "toggleBitwardenVaultOverlay": {
+      "description": "Screen reader and tool tip label for the overlay button",
+      "message": "Toggle Bitwarden autofill menu"
+   },
+   "toggleCharacterCount": {
+      "message": "Toggle character count"
+   },
+   "toggleCollapse": {
+      "description": "Toggling an expand/collapse state.",
+      "message": "Toggle collapse"
+   },
+   "toggleCurrentUris": {
+      "description": "Toggle the display of the URIs of the currently open tabs in the browser.",
+      "message": "বর্তমান URIs টগল করুন"
+   },
+   "toggleOptions": {
+      "message": "বিকল্পগুলি টগল করুন"
+   },
+   "toggleSideNavigation": {
+      "message": "Toggle side navigation"
+   },
+   "toggleVisibility": {
+      "message": "দৃশ্যমানতা টগল করুন"
+   },
+   "tooManyInvalidPinEntryAttemptsLoggingOut": {
+      "message": "Too many invalid PIN entry attempts. Logging out."
+   },
+   "tools": {
+      "message": "সরঞ্জামসমূহ"
+   },
+   "total": {
+      "message": "Total"
+   },
+   "totp": {
+      "message": "Authenticator secret"
+   },
+   "totpCapture": {
+      "message": "Scan authenticator QR code from current webpage"
+   },
+   "totpCaptureError": {
+      "message": "Unable to scan QR code from the current webpage"
+   },
+   "totpCaptureSuccess": {
+      "message": "Authenticator key added"
+   },
+   "totpCodeAria": {
+      "description": "Aria label for the totp code displayed in the inline menu for autofill",
+      "message": "Time-based One-Time Password Verification Code"
+   },
+   "totpHelper": {
+      "message": "Bitwarden can store and fill 2-step verification codes. Copy and paste the key into this field."
+   },
+   "totpHelperTitle": {
+      "message": "Make 2-step verification seamless"
+   },
+   "totpHelperWithCapture": {
+      "message": "Bitwarden can store and fill 2-step verification codes. Select the camera icon to take a screenshot of this website's authenticator QR code, or copy and paste the key into this field."
+   },
+   "totpSecondsSpanAria": {
+      "description": "Aria label for the totp seconds displayed in the inline menu for autofill",
+      "message": "Time remaining before current TOTP expires"
+   },
+   "trash": {
+      "description": "Noun: a special folder to hold deleted items",
+      "message": "আবর্জনা"
+   },
+   "trashWarning": {
+      "message": "Items that have been in trash more than 30 days will automatically be deleted"
+   },
+   "troubleLoggingIn": {
+      "message": "Trouble logging in?"
+   },
+   "trust": {
+      "message": "Trust"
+   },
+   "trustOrganization": {
+      "message": "Trust organization"
+   },
+   "trustUser": {
+      "message": "Trust user"
+   },
+   "tryAgain": {
+      "message": "Try again"
+   },
+   "turnOffAutofill": {
+      "message": "Turn off autofill"
+   },
+   "turnOffBrowserAutofill": {
+      "message": "Turn off $BROWSER$ autofill",
+      "placeholders": {
+         "browser": {
+            "content": "$1",
+            "example": "Chrome"
+         }
+      }
+   },
+   "turnOffBrowserBuiltInPasswordManagerSettings": {
+      "message": "Turn off your browser's built in password manager settings to avoid conflicts."
+   },
+   "turnOffBrowserBuiltInPasswordManagerSettingsLink": {
+      "message": "Edit browser settings."
+   },
+   "turnOffMasterPasswordPromptToEditField": {
+      "description": "Message appearing below the autofill on load message when master password reprompt is set for a vault item.",
+      "message": "Turn off master password re-prompt to edit this field"
+   },
+   "turnOn": {
+      "message": "Turn on"
+   },
+   "turnOnAutofill": {
+      "message": "Turn on autofill"
+   },
+   "turnedOnAutofill": {
+      "message": "Turned on autofill"
+   },
+   "twentySeconds": {
+      "message": "২০ সেকেন্ড"
+   },
+   "twoMinutes": {
+      "message": "২ মিনিট"
+   },
+   "twoStepLogin": {
+      "message": "দ্বি-পদক্ষেপের লগইন"
+   },
+   "twoStepLoginConfirmation": {
+      "message": "দ্বি-পদক্ষেপ লগইন অন্য ডিভাইসে আপনার লগইনটি যাচাই করার জন্য সিকিউরিটি কী, প্রমাণীকরণকারী অ্যাপ্লিকেশন, এসএমএস, ফোন কল বা ই-মেইল ব্যাবহারের মাধ্যমে আপনার অ্যাকাউন্টকে আরও সুরক্ষিত করে। bitwarden.com ওয়েব ভল্টে দ্বি-পদক্ষেপের লগইন সক্ষম করা যাবে। আপনি কি এখনই ওয়েবসাইটটি দেখতে চান?"
+   },
+   "twoStepLoginConfirmationContent": {
+      "message": "Make your account more secure by setting up two-step login in the Bitwarden web app."
+   },
+   "twoStepLoginConfirmationTitle": {
+      "message": "Continue to web app?"
+   },
+   "twoStepOptions": {
+      "message": "দ্বি-পদক্ষেপ লগইন বিকল্প"
+   },
+   "type": {
+      "message": "ধরন"
+   },
+   "typeCard": {
+      "message": "কার্ড"
+   },
+   "typeIdentity": {
+      "message": "পরিচয়"
+   },
+   "typeLogin": {
+      "message": "লগইন"
+   },
+   "typeLogins": {
+      "message": "লগিনগুলি"
+   },
+   "typePasskey": {
+      "message": "Passkey"
+   },
+   "typeSecureNote": {
+      "message": "সুরক্ষিত নোট"
+   },
+   "typeSshKey": {
+      "message": "SSH key"
+   },
+   "types": {
+      "message": "প্রকার"
+   },
+   "uncheckIfPublicDevice": {
+      "message": "Uncheck if using a public device"
+   },
+   "underscoreCharacterDescriptor": {
+      "description": "Represents the - key in screen reader content as a readable word",
+      "message": "Hyphen"
+   },
+   "unexpectedError": {
+      "message": "একটি অপ্রত্যাশিত ত্রুটি ঘটেছে।"
+   },
+   "unfavorite": {
+      "message": "Unfavorite"
+   },
+   "unlock": {
+      "message": "আনলক"
+   },
+   "unlockAccount": {
+      "description": "Button text to display in overlay when the account is locked.",
+      "message": "Unlock account"
+   },
+   "unlockAccountAria": {
+      "description": "Screen reader text (aria-label) for unlock account button in overlay",
+      "message": "Unlock your account, opens in a new window"
+   },
+   "unlockMethodNeeded": {
+      "message": "Set up an unlock method in Settings"
+   },
+   "unlockMethodNeededToChangeTimeoutActionDesc": {
+      "message": "Set up an unlock method to change your vault timeout action."
+   },
+   "unlockMethods": {
+      "message": "Unlock options"
+   },
+   "unlockPinSet": {
+      "message": "Unlock PIN set"
+   },
+   "unlockToSave": {
+      "description": "User prompt to take action in order to save the login they just entered.",
+      "message": "Unlock to save this login"
+   },
+   "unlockVault": {
+      "message": "Unlock your vault in seconds"
+   },
+   "unlockVaultDesc": {
+      "message": "You can customize your unlock and timeout settings to more quickly access your vault."
+   },
+   "unlockVaultMenu": {
+      "message": "Unlock your vault"
+   },
+   "unlockWithBiometrics": {
+      "message": "বায়োমেট্রিক্স দিয়ে আনলক করুন"
+   },
+   "unlockWithMasterPassword": {
+      "message": "Unlock with master password"
+   },
+   "unlockWithPin": {
+      "message": "পিন দিয়ে আনলক"
+   },
+   "unlockYourAccountToViewAutofillSuggestions": {
+      "description": "Text to display in overlay when the account is locked.",
+      "message": "Unlock your account to view autofill suggestions"
+   },
+   "unlockYourAccountToViewMatchingLogins": {
+      "description": "Text to display in overlay when the account is locked.",
+      "message": "Unlock your account to view matching logins"
+   },
+   "unlocked": {
+      "message": "unlocked"
+   },
+   "unsubscribe": {
+      "message": "Unsubscribe"
+   },
+   "updateCipherAttemptSuccess": {
+      "description": "Notification message for when updating credentials has succeeded.",
+      "message": "Credentials updated successfully!"
+   },
+   "updateDesktopAppOrDisableFingerprintDialogMessage": {
+      "message": "To use biometric unlock, please update your desktop application, or disable fingerprint unlock in the desktop settings."
+   },
+   "updateDesktopAppOrDisableFingerprintDialogTitle": {
+      "message": "Please update your desktop application"
+   },
+   "updateInBitwarden": {
+      "message": "Update in Bitwarden"
+   },
+   "updateInBitwardenSlideDesc": {
+      "description": "Description of the update in Bitwarden slide on the at-risk password page carousel",
+      "message": "Bitwarden will then prompt you to update the password in the password manager."
+   },
+   "updateInBitwardenSlideImgAltPeriod": {
+      "message": "Illustration of a Bitwarden’s notification prompting the user to update the login."
+   },
+   "updateLogin": {
+      "description": "Prompt asking the user if they want to update an existing login entry.",
+      "message": "Update existing login"
+   },
+   "updateLoginAction": {
+      "description": "Button text for updating an existing login entry.",
+      "message": "Update login"
+   },
+   "updateMasterPassword": {
+      "message": "প্রধান পাসওয়ার্ড আপডেট করুন"
+   },
+   "updateMasterPasswordWarning": {
+      "message": "Your master password was recently changed by an administrator in your organization. In order to access the vault, you must update it now. Proceeding will log you out of your current session, requiring you to log back in. Active sessions on other devices may continue to remain active for up to one hour."
+   },
+   "updateWeakMasterPasswordWarning": {
+      "message": "Your master password does not meet one or more of your organization policies. In order to access the vault, you must update your master password now. Proceeding will log you out of your current session, requiring you to log back in. Active sessions on other devices may continue to remain active for up to one hour."
+   },
+   "updatedMasterPassword": {
+      "message": "প্রধান পাসওয়ার্ড আপডেট করা হয়েছে"
+   },
+   "upload": {
+      "message": "Upload"
+   },
+   "uppercaseAriaLabel": {
+      "message": "Uppercase"
+   },
+   "uppercaseDescription": {
+      "description": "Tooltip for the password generator uppercase character checkbox",
+      "message": "Include uppercase characters"
+   },
+   "uppercaseLabel": {
+      "description": "Label for the password generator uppercase character checkbox",
+      "message": "A-Z"
+   },
+   "uri": {
+      "message": "URI"
+   },
+   "uriPosition": {
+      "description": "A listing of URIs. Ex: URI 1, URI 2, URI 3, etc.",
+      "message": "URI $POSITION$",
+      "placeholders": {
+         "position": {
+            "content": "$1",
+            "example": "2"
+         }
+      }
+   },
+   "useBiometrics": {
+      "message": "Use biometrics"
+   },
+   "useDeviceOrHardwareKey": {
+      "message": "Use your device or hardware key"
+   },
+   "useGeneratorHelpTextPartOne": {
+      "description": "This will be used as part of a larger sentence, broken up to include the generator icon. The full sentence will read 'Use the generator [GENERATOR_ICON] to create a strong unique password'",
+      "message": "Use the generator"
+   },
+   "useGeneratorHelpTextPartTwo": {
+      "description": "This will be used as part of a larger sentence, broken up to include the generator icon. The full sentence will read 'Use the generator [GENERATOR_ICON] to create a strong unique password'",
+      "message": "to create a strong unique password"
+   },
+   "useMasterPassword": {
+      "message": "Use master password"
+   },
+   "usePasskeysDesc": {
+      "message": "Ask to save new passkeys or log in with passkeys stored in your vault. Applies to all logged in accounts."
+   },
+   "usePin": {
+      "message": "Use PIN"
+   },
+   "useSingleSignOn": {
+      "message": "Use single sign-on"
+   },
+   "useThisEmail": {
+      "message": "Use this email"
+   },
+   "useThisPassphrase": {
+      "message": "Use this passphrase"
+   },
+   "useThisPassword": {
+      "message": "Use this password"
+   },
+   "useThisUsername": {
+      "message": "Use this username"
+   },
+   "useYourRecoveryCode": {
+      "message": "Use your recovery code"
+   },
+   "userEmailMissing": {
+      "message": "User email missing"
+   },
+   "username": {
+      "message": "ব্যবহারকারীর নাম"
+   },
+   "usernameGenerated": {
+      "message": "Username generated"
+   },
+   "usernameGenerator": {
+      "message": "Username generator"
+   },
+   "value": {
+      "message": "মান"
+   },
+   "valueCopied": {
+      "description": "Value has been copied to the clipboard.",
+      "message": "$VALUE$ অনুলিপিত",
+      "placeholders": {
+         "value": {
+            "content": "$1",
+            "example": "Password"
+         }
+      }
+   },
+   "vault": {
+      "message": "Vault"
+   },
+   "vaultCustomTimeoutMinimum": {
+      "message": "Minimum custom timeout is 1 minute."
+   },
+   "vaultCustomization": {
+      "message": "Vault customization"
+   },
+   "vaultExportDisabled": {
+      "message": "Vault export unavailable"
+   },
+   "vaultSaveOptionsTitle": {
+      "message": "Save to vault options"
+   },
+   "vaultTimeout": {
+      "message": "ভল্টের সময়সীমা"
+   },
+   "vaultTimeout1": {
+      "message": "Timeout"
+   },
+   "vaultTimeoutAction": {
+      "message": "ভল্টের সময়সীমা কর্ম"
+   },
+   "vaultTimeoutAction1": {
+      "message": "Timeout action"
+   },
+   "vaultTimeoutActionPolicyInEffect": {
+      "message": "Your organization policies have set your vault timeout action to $ACTION$.",
+      "placeholders": {
+         "action": {
+            "content": "$1",
+            "example": "Lock"
+         }
+      }
+   },
+   "vaultTimeoutHeader": {
+      "message": "Vault timeout"
+   },
+   "vaultTimeoutLogOutConfirmation": {
+      "message": "লগ আউট করা আপনার ভল্টের সমস্ত অ্যাক্সেস সরিয়ে ফেলবে এবং সময়সীমার পরে অনলাইন প্রমাণীকরণের প্রয়োজন। আপনি কি নিশ্চিত যে এই সেটিংটি ব্যবহার করবেন?"
+   },
+   "vaultTimeoutLogOutConfirmationTitle": {
+      "message": "সময়সীমা কর্ম নিশ্চিতকরণ"
+   },
+   "vaultTimeoutPolicyAffectingOptions": {
+      "message": "Enterprise policy requirements have been applied to your timeout options"
+   },
+   "vaultTimeoutPolicyInEffect": {
+      "message": "Your organization policies have set your maximum allowed vault timeout to $HOURS$ hour(s) and $MINUTES$ minute(s).",
+      "placeholders": {
+         "hours": {
+            "content": "$1",
+            "example": "5"
+         },
+         "minutes": {
+            "content": "$2",
+            "example": "5"
+         }
+      }
+   },
+   "vaultTimeoutPolicyInEffect1": {
+      "message": "$HOURS$ hour(s) and $MINUTES$ minute(s) maximum.",
+      "placeholders": {
+         "hours": {
+            "content": "$1",
+            "example": "5"
+         },
+         "minutes": {
+            "content": "$2",
+            "example": "5"
+         }
+      }
+   },
+   "vaultTimeoutPolicyMaximumError": {
+      "message": "Timeout exceeds the restriction set by your organization: $HOURS$ hour(s) and $MINUTES$ minute(s) maximum",
+      "placeholders": {
+         "hours": {
+            "content": "$1",
+            "example": "5"
+         },
+         "minutes": {
+            "content": "$2",
+            "example": "5"
+         }
+      }
+   },
+   "vaultTimeoutPolicyWithActionInEffect": {
+      "message": "Your organization policies are affecting your vault timeout. Maximum allowed vault timeout is $HOURS$ hour(s) and $MINUTES$ minute(s). Your vault timeout action is set to $ACTION$.",
+      "placeholders": {
+         "action": {
+            "content": "$3",
+            "example": "Lock"
+         },
+         "hours": {
+            "content": "$1",
+            "example": "5"
+         },
+         "minutes": {
+            "content": "$2",
+            "example": "5"
+         }
+      }
+   },
+   "vaultTimeoutTooLarge": {
+      "message": "Your vault timeout exceeds the restrictions set by your organization."
+   },
+   "verificationCode": {
+      "message": "যাচাইকরণ কোড"
+   },
+   "verificationCodeEmailSent": {
+      "message": "$EMAIL$ এ যাচাইকরণ ইমেইল প্রেরণ করা হয়েছে।",
+      "placeholders": {
+         "email": {
+            "content": "$1",
+            "example": "example@gmail.com"
+         }
+      }
+   },
+   "verificationCodeRequired": {
+      "message": "যাচাইকরণ কোড প্রয়োজন।"
+   },
+   "verificationCodeTotp": {
+      "message": "যাচাইকরণ কোড (TOTP)"
+   },
+   "verificationRequired": {
+      "description": "Default title for the user verification dialog.",
+      "message": "Verification required"
+   },
+   "verificationRequiredForActionSetPinToContinue": {
+      "message": "Verification required for this action. Set a PIN to continue."
+   },
+   "verifyWithBiometrics": {
+      "message": "Verify with biometrics"
+   },
+   "verifyYourIdentity": {
+      "message": "Verify your identity"
+   },
+   "version": {
+      "message": "সংস্করণ"
+   },
+   "view": {
+      "message": "দেখুন"
+   },
+   "viewAllLogInOptions": {
+      "message": "View all log in options"
+   },
+   "viewItem": {
+      "message": "বস্তু দেখুন"
+   },
+   "viewItemHeader": {
+      "message": "View $TYPE$",
+      "placeholders": {
+         "type": {
+            "content": "$1",
+            "example": "Login"
+         }
+      }
+   },
+   "viewItemTitle": {
+      "description": "Title for a link that opens a view for an item.",
+      "message": "View item - $ITEMNAME$",
+      "placeholders": {
+         "itemname": {
+            "content": "$1",
+            "example": "Secret Item"
+         }
+      }
+   },
+   "viewItemTitleWithField": {
+      "description": "Title for a link that opens a view for an item.",
+      "message": "View item - $ITEMNAME$ - $FIELD$",
+      "placeholders": {
+         "field": {
+            "content": "$2",
+            "example": "Username"
+         },
+         "itemname": {
+            "content": "$1",
+            "example": "Secret Item"
+         }
+      }
+   },
+   "viewItemsIn": {
+      "description": "Button to view the contents of a folder or collection",
+      "message": "View items in $NAME$",
+      "placeholders": {
+         "name": {
+            "content": "$1",
+            "example": "Work"
+         }
+      }
+   },
+   "warning": {
+      "description": "WARNING (should stay in capitalized letters if the language permits)",
+      "message": "সতর্কতা"
+   },
+   "warningCapitalized": {
+      "description": "Warning (should maintain locale-relevant capitalization)",
+      "message": "Warning"
+   },
+   "weDontRecognizeThisDevice": {
+      "message": "We don't recognize this device. Enter the code sent to your email to verify your identity."
+   },
+   "weak": {
+      "description": "ex. A weak password. Scale: Weak -> Good -> Strong",
+      "message": "দুর্বল"
+   },
+   "weakAndBreachedMasterPasswordDesc": {
+      "message": "Weak password identified and found in a data breach. Use a strong and unique password to protect your account. Are you sure you want to use this password?"
+   },
+   "weakAndExposedMasterPassword": {
+      "message": "Weak and Exposed Master Password"
+   },
+   "weakMasterPassword": {
+      "message": "দুর্বল মূল পাসওয়ার্ড"
+   },
+   "weakMasterPasswordDesc": {
+      "message": "আপনার চয়নকৃত মূল পাসওয়ার্ডটি দুর্বল। আপনার Bitwarden অ্যাকাউন্টটি সঠিকভাবে সুরক্ষিত করার জন্য আপনার একটি শক্তিশালী মূল পাসওয়ার্ড (বা একটি পাসফ্রেজ) ব্যবহার করা উচিত। আপনি কি নিশ্চিত যে এই মূল পাসওয়ার্ডটি ব্যবহার করতে চান?"
+   },
+   "webAuthnAuthenticate": {
+      "message": "Authenticate WebAuthn"
+   },
+   "webAuthnDesc": {
+      "message": "Use any WebAuthn compatible security key to access your account."
+   },
+   "webAuthnTitle": {
+      "message": "FIDO2 WebAuthn"
+   },
+   "webVaultUrl": {
+      "message": "ওয়েব ভল্ট সার্ভার URL"
+   },
+   "webauthnCancelOrTimeout": {
+      "message": "The authentication was cancelled or took too long. Please try again."
+   },
+   "website": {
+      "message": "ওয়েবসাইট"
+   },
+   "websiteAdded": {
+      "message": "Website added"
+   },
+   "websiteItemLabel": {
+      "message": "Website $number$ (URI)",
+      "placeholders": {
+         "number": {
+            "content": "$1",
+            "example": "3"
+         }
+      }
+   },
+   "websiteName": {
+      "message": "Website name"
+   },
+   "websiteUri": {
+      "message": "Website (URI)"
+   },
+   "websiteUriCount": {
+      "description": "Label for an input field that contains a website URI. The input field is part of a list of fields, and the count indicates the position of the field in the list.",
+      "message": "Website (URI) $COUNT$",
+      "placeholders": {
+         "count": {
+            "content": "$1",
+            "example": "3"
+         }
+      }
+   },
+   "welcomeBack": {
+      "message": "Welcome back"
+   },
+   "whoOwnsThisItem": {
+      "message": "এই বস্তুটির মালিক কে?"
+   },
+   "wide": {
+      "message": "Wide"
+   },
+   "wordSeparator": {
+      "message": "শব্দ বিভাজক"
+   },
+   "yes": {
+      "message": "হ্যাঁ"
+   },
+   "youHaveBeenLoggedIn": {
+      "message": "You have been logged in!"
+   },
+   "youMayAlreadyHaveAnAccount": {
+      "message": "You may already have an account"
+   },
+   "youMayCloseThisWindow": {
+      "message": "You may close this window"
+   },
+   "youSuccessfullyLoggedIn": {
+      "message": "You successfully logged in"
+   },
+   "youWillBeNotifiedOnceTheRequestIsApproved": {
+      "message": "You will be notified once the request is approved"
+   },
+   "yourAccountIsLocked": {
+      "message": "Your account is locked"
+   },
+   "yourAccountsFingerprint": {
+      "description": "A 'fingerprint phrase' is a unique word phrase (similar to a passphrase) that a user can use to authenticate their public key with another user, for the purposes of sharing.",
+      "message": "আপনার অ্যাকাউন্টের ফিঙ্গারপ্রিন্ট ফ্রেজ"
+   },
+   "yourNewPasswordCannotBeTheSameAsYourCurrentPassword": {
+      "message": "Your new password cannot be the same as your current password."
+   },
+   "yourPasskeyIsLocked": {
+      "message": "Authentication required to use passkey. Verify your identity to continue."
+   },
+   "yourVaultIsEmpty": {
+      "message": "Your vault is empty"
+   },
+   "yourVaultIsLocked": {
+      "message": "আপনার ভল্ট লক করা আছে। চালিয়ে যেতে আপনার মূল পাসওয়ার্ডটি যাচাই করান।"
+   },
+   "yourVaultIsLockedV2": {
+      "message": "Your vault is locked"
+   },
+   "yubiKeyDesc": {
+      "message": "আপনার অ্যাকাউন্ট ব্যাবহার করতে একটি YubiKey ব্যবহার করুন। YubiKey 4, 4 Nano, 4C, এবং NEO ডিভাইসগুলির সাথে কাজ করে।"
+   },
+   "yubiKeyTitleV2": {
+      "message": "Yubico OTP Security Key"
+   },
+   "zipPostalCode": {
+      "message": "জিপ / ডাক কোড"
+   }
+}

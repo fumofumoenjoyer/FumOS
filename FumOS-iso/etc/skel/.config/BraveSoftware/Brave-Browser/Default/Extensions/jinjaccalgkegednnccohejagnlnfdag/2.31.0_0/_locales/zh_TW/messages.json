@@ -1,0 +1,764 @@
+{
+   "buttonApply": {
+      "message": "套用"
+   },
+   "buttonCancel": {
+      "message": "取消"
+   },
+   "buttonClose": {
+      "message": "關閉"
+   },
+   "buttonDisable": {
+      "message": "停用"
+   },
+   "buttonEdit": {
+      "message": "編輯"
+   },
+   "buttonEditClickHint": {
+      "message": "您也可以在腳本名稱上按右鍵、Ctrl + 按一下或按滑鼠中鍵"
+   },
+   "buttonEmptyRecycleBin": {
+      "message": "立即清空資源回收桶！"
+   },
+   "buttonEnable": {
+      "message": "啟用"
+   },
+   "buttonExportData": {
+      "message": "匯出為 ZIP 壓縮檔"
+   },
+   "buttonHome": {
+      "message": "首頁"
+   },
+   "buttonImportData": {
+      "message": "從 ZIP 壓縮檔匯入"
+   },
+   "buttonInstallFromURL": {
+      "message": "從網址安裝"
+   },
+   "buttonNew": {
+      "message": "新增腳本"
+   },
+   "buttonOK": {
+      "message": "確定"
+   },
+   "buttonRecycleBin": {
+      "message": "資源回收桶"
+   },
+   "buttonRemove": {
+      "message": "移除"
+   },
+   "buttonReplace": {
+      "message": "取代"
+   },
+   "buttonReplaceAll": {
+      "message": "全部取代"
+   },
+   "buttonReset": {
+      "message": "重設"
+   },
+   "buttonResetSettings": {
+      "message": "重設設定"
+   },
+   "buttonRestore": {
+      "message": "還原"
+   },
+   "buttonSave": {
+      "message": "儲存"
+   },
+   "buttonSaveClose": {
+      "message": "儲存並關閉"
+   },
+   "buttonSaved": {
+      "message": "已儲存"
+   },
+   "buttonShowEditorState": {
+      "message": "顯示編輯器狀態"
+   },
+   "buttonSupport": {
+      "message": "技術支援"
+   },
+   "buttonUndo": {
+      "message": "復原"
+   },
+   "buttonUpdate": {
+      "message": "更新"
+   },
+   "buttonVacuum": {
+      "message": "清理資料庫"
+   },
+   "buttonVacuumed": {
+      "message": "資料已清理完成"
+   },
+   "buttonVacuuming": {
+      "message": "正在清理資料…"
+   },
+   "confirmManualUpdate": {
+      "message": "此腳本已停用自動更新功能！\n若您仍想進行更新，請按下「確定」進行更新。"
+   },
+   "confirmNotSaved": {
+      "message": "您的修改尚未儲存！\n點選「確定」放棄修改，或點選「取消」繼續編輯。"
+   },
+   "confirmUndoImport": {
+      "message": "還原所有資料庫的變更（包含匯入、更新、編輯和自訂設定）。"
+   },
+   "descBlacklist": {
+      "message": "腳本插入黑名單（腳本不會在符合的網站上執行）"
+   },
+   "descBlacklistNet": {
+      "message": "網路黑名單（腳本無法連線至符合的網站及其 Cookie）"
+   },
+   "descCustomCSS": {
+      "message": "設定選項頁面和腳本安裝頁面的自訂 CSS 樣式。 如果您不清楚這部分的用途，建議您不要更改此設定。"
+   },
+   "descEditorOptions": {
+      "message": "CodeMirror 和外掛程式的自訂選項，使用 JSON 物件進行設定，例如 \u003Ccode>{\"indentUnit\":2, \"smartIndent\":true}\u003C/code>。請注意， 某些選項在 Violentmonkey 中可能無法運作。詳細的選項，請參考\u003Ca href=\"https://codemirror.net/doc/manual.html#config\" target=\"_blank\" rel=\"noopener noreferrer\">完整清單\u003C/a>。"
+   },
+   "descEditorOptionsGeneric": {
+      "message": "布林值選項可以透過點選兩下數值來切換： \u003Ccode>true\u003C/code> 表示啟用，\u003Ccode>false\u003C/code> 表示停用。以 \u003Ccode>Delay\u003C/code>、\u003Ccode>Interval\u003C/code>、\u003Ccode>Rate\u003C/code>、\u003Ccode>Time\u003C/code> 結尾的數值選項單位為毫秒。"
+   },
+   "descEditorOptionsVM": {
+      "message": "非標準選項：\u003Ccode>autocompleteOnTyping\u003C/code> 是打字後顯示自動完成提示的延遲時間（毫秒，\u003Ccode>0\u003C/code> 表示停用），\u003Ccode>killTrailingSpaceOnSave\u003C/code> 會 在儲存時自動移除每一行的尾隨空白，\u003Ccode>showTrailingSpace\u003C/code> 則會以點狀的方式顯示行尾空白。"
+   },
+   "descScriptTemplate": {
+      "message": "支援的變數包括：\u003C{{name}}>, \u003C{{url}}>, \u003C{{date}}>, \u003C{{date:format}}>，並且與 MomentJS 相容的格式，例如 \u003C{{date:YYYY-MM-DD}}>。"
+   },
+   "disabledScriptsGroup": {
+      "message": "分組"
+   },
+   "disabledScriptsHide": {
+      "message": "隱藏"
+   },
+   "disabledScriptsSelector": {
+      "message": "已停用的腳本："
+   },
+   "disabledScriptsShow": {
+      "message": "顯示"
+   },
+   "editHelpDocumention": {
+      "message": "使用者腳本中繼資料區塊和 \u003Ccode>GM\u003C/code> API 的文件："
+   },
+   "editHelpKeyboard": {
+      "message": "鍵盤快捷鍵："
+   },
+   "editHowToHint": {
+      "message": "使用其他編輯器？"
+   },
+   "editLabelMeta": {
+      "message": "自訂中繼資料"
+   },
+   "editLabelSettings": {
+      "message": "腳本設定"
+   },
+   "editLongLine": {
+      "message": "此行過長"
+   },
+   "editLongLineTooltip": {
+      "message": "這一行太長了，因此其文字已被摺疊以避免編輯時延遲。\n您可以在進階設定中調整限制，例如：\n\"maxDisplayLength\": 20000"
+   },
+   "editNavCode": {
+      "message": "程式碼"
+   },
+   "editNavSettings": {
+      "message": "設定"
+   },
+   "editNavValues": {
+      "message": "值"
+   },
+   "editValueAllHint": {
+      "message": "顯示／編輯整個腳本的儲存值"
+   },
+   "extDescription": {
+      "message": "開放原始碼且支援多種瀏覽器的使用者腳本管理器"
+   },
+   "extName": {
+      "message": "Violentmonkey"
+   },
+   "failureReasonBlacklisted": {
+      "message": "在 Violentmonkey 的設定中被列入黑名單"
+   },
+   "failureReasonNoninjectable": {
+      "message": "Violentmonkey 無法在此頁面執行使用者腳本\n\n（常見情形可能是由於頁面屬於瀏覽器的使用者介面、擴充功能、被安全政策封鎖，\n或者是 Opera 瀏覽器中的搜尋引擎網站）"
+   },
+   "failureReasonRestarted": {
+      "message": "Violentmonkey 已經重新啟動。請重新載入分頁以執行使用者腳本。"
+   },
+   "fileInstallBlocked": {
+      "message": "您可以使用以下幾種方法來安裝或追蹤本機檔案的編輯：\u003C1> 直接將檔案拖放到已開啟的 Violentmonkey 頁面或彈出視窗中， 包含這個視窗。 \u003C2> 為該檔案架設一個本機 HTTP 伺服器，然後透過 http://localhost 的網址來存取它。 \u003C3> 透過 Chrome 瀏覽器的「擴充功能」頁面 chrome://extensions，啟用 Violentmonkey 的「允許存取檔案網址」。請注意，此操作具有風險， 因為這將允許所有使用者腳本讀取您電腦上的任何檔案。"
+   },
+   "filterAlphabeticalOrder": {
+      "message": "字母順序"
+   },
+   "filterExecutionOrder": {
+      "message": "執行順序"
+   },
+   "filterLastUpdateOrder": {
+      "message": "上次更新時間"
+   },
+   "filterSize": {
+      "message": "大小"
+   },
+   "genericError": {
+      "message": "錯誤"
+   },
+   "genericOff": {
+      "message": "關閉"
+   },
+   "genericOn": {
+      "message": "開啟"
+   },
+   "genericUseGlobal": {
+      "message": "使用全域設定"
+   },
+   "hashPatternWarning": {
+      "message": "「#」模式僅在第一次開啟網站或重新載入分頁時有效： $1"
+   },
+   "headerRecycleBin": {
+      "message": "資源回收桶"
+   },
+   "helpForLocalFile": {
+      "message": "顯示如何透過「拖放」來新增本機腳本的說明"
+   },
+   "hintForBatchAction": {
+      "message": "對 $1 個符合的腳本"
+   },
+   "hintInputURL": {
+      "message": "請輸入網址："
+   },
+   "hintRecycleBin": {
+      "message": "本區域會顯示所有被移除的腳本，這些腳本將會被保留 7 天。"
+   },
+   "hintUseDownloadURL": {
+      "message": "使用 @downloadURL"
+   },
+   "hintVacuum": {
+      "message": "捨棄冗餘資料，並嘗試重新載入快取中遺失的資源。"
+   },
+   "install": {
+      "message": "安裝"
+   },
+   "installFrom": {
+      "message": "從 $1 安裝"
+   },
+   "installOptionTrackTooltip": {
+      "message": "在 Firefox 68 和更新版本中，原始碼檔案的分頁應保持開啟。"
+   },
+   "labelAdvanced": {
+      "message": "進階"
+   },
+   "labelAllowUpdate": {
+      "message": "允許更新"
+   },
+   "labelAuthor": {
+      "message": "作者："
+   },
+   "labelAutoReloadCurrentTab": {
+      "message": "從選單開啟或關閉腳本後自動重新整理目前頁面"
+   },
+   "labelAutoUpdate": {
+      "message": "每 $1 天檢查腳本更新，設定為 0 則停用"
+   },
+   "labelBackupMaintenance": {
+      "message": "備份與維護"
+   },
+   "labelBadge": {
+      "message": "徽章顯示："
+   },
+   "labelBadgeColors": {
+      "message": "徽章顏色："
+   },
+   "labelBadgeNone": {
+      "message": "無"
+   },
+   "labelBadgeTotal": {
+      "message": "正在執行的腳本數量"
+   },
+   "labelBadgeUnique": {
+      "message": "正在執行的不重複腳本數量"
+   },
+   "labelBlacklist": {
+      "message": "黑名單"
+   },
+   "labelContributors": {
+      "message": "貢獻者"
+   },
+   "labelCurrentLang": {
+      "message": "目前語言："
+   },
+   "labelCustomCSS": {
+      "message": "自訂樣式"
+   },
+   "labelDownloadURL": {
+      "message": "下載網址："
+   },
+   "labelEditValue": {
+      "message": "編輯腳本值"
+   },
+   "labelEditValueAll": {
+      "message": "正在編輯腳本資料"
+   },
+   "labelEditor": {
+      "message": "編輯器"
+   },
+   "labelEnabledScriptsOnly": {
+      "message": "僅限已啟用的腳本"
+   },
+   "labelExclude": {
+      "message": "@exclude 規則"
+   },
+   "labelExcludeMatch": {
+      "message": "@exclude-match 規則"
+   },
+   "labelExportScriptData": {
+      "message": "匯出腳本資料"
+   },
+   "labelExposeStatus": {
+      "message": "在使用者腳本目錄網站上顯示已安裝版本：$1"
+   },
+   "labelFastFirefoxInject": {
+      "message": "在 Firefox 瀏覽器中使用的「替代 $1 方案」"
+   },
+   "labelFastFirefoxInjectHint": {
+      "message": "自 Firefox 59 版本以來，這個選項提供一種替代性的腳本插入方法，專門用於 \u003Cdocument-start>，速度上比預設的模式要來得快。然而，和「同步頁面模式」一樣， 開啟此選項會增加系統記憶體的使用量。若您發現不開啟此選項也能讓腳本正常運作， 建議您考慮停用此選項以節省記憶體。"
+   },
+   "labelFeedback": {
+      "message": "回饋"
+   },
+   "labelGeneral": {
+      "message": "一般"
+   },
+   "labelHelpTranslate": {
+      "message": "協助翻譯"
+   },
+   "labelHomepage": {
+      "message": "首頁"
+   },
+   "labelHomepageURL": {
+      "message": "首頁網址："
+   },
+   "labelIconURL": {
+      "message": "圖示網址："
+   },
+   "labelImportScriptData": {
+      "message": "匯入腳本資料"
+   },
+   "labelImportSettings": {
+      "message": "匯入設定"
+   },
+   "labelInclude": {
+      "message": "@include 規則"
+   },
+   "labelInjectionMode": {
+      "message": "插入模式："
+   },
+   "labelInstall": {
+      "message": "安裝腳本"
+   },
+   "labelKeepOriginal": {
+      "message": "保留原有規則"
+   },
+   "labelLastUpdatedAt": {
+      "message": "上次更新時間：$1"
+   },
+   "labelLineNumber": {
+      "message": "行號："
+   },
+   "labelMatch": {
+      "message": "@match 規則"
+   },
+   "labelName": {
+      "message": "名稱："
+   },
+   "labelNoFrames": {
+      "message": "在網頁的各個框架（iframe）中執行："
+   },
+   "labelNoName": {
+      "message": "無名稱"
+   },
+   "labelNoSearchScripts": {
+      "message": "找不到任何腳本。"
+   },
+   "labelNotifyThisUpdated": {
+      "message": "，並發出通知："
+   },
+   "labelNotifyUpdates": {
+      "message": "腳本更新時通知"
+   },
+   "labelNotifyUpdatesGlobal": {
+      "message": "忽略個別腳本的通知設定（編輯器中的「設定」分頁）"
+   },
+   "labelPrivacyPolicy": {
+      "message": "隱私權政策"
+   },
+   "labelReinstall": {
+      "message": "重新安裝腳本"
+   },
+   "labelRelated": {
+      "message": "相關連結："
+   },
+   "labelRemovedAt": {
+      "message": "移除時間：$1"
+   },
+   "labelReplace": {
+      "message": "取代為："
+   },
+   "labelRunAt": {
+      "message": "執行時機："
+   },
+   "labelRunAtDefault": {
+      "message": "（預設）"
+   },
+   "labelScriptTemplate": {
+      "message": "自訂腳本範本"
+   },
+   "labelSearch": {
+      "message": "搜尋："
+   },
+   "labelSearchScript": {
+      "message": "搜尋腳本…"
+   },
+   "labelSettings": {
+      "message": "設定"
+   },
+   "labelShowOrder": {
+      "message": "顯示執行順序"
+   },
+   "labelSync": {
+      "message": "同步"
+   },
+   "labelSyncAnonymous": {
+      "message": "使用匿名帳號"
+   },
+   "labelSyncAuthorize": {
+      "message": "授權"
+   },
+   "labelSyncAuthorizing": {
+      "message": "授權中"
+   },
+   "labelSyncDisabled": {
+      "message": "無"
+   },
+   "labelSyncPassword": {
+      "message": "密碼："
+   },
+   "labelSyncRevoke": {
+      "message": "撤銷授權"
+   },
+   "labelSyncScriptStatus": {
+      "message": "同步腳本狀態"
+   },
+   "labelSyncServerUrl": {
+      "message": "伺服器網址："
+   },
+   "labelSyncService": {
+      "message": "同步到"
+   },
+   "labelSyncUsername": {
+      "message": "使用者名稱："
+   },
+   "labelTags": {
+      "message": "標籤（以空格分隔）："
+   },
+   "labelTheme": {
+      "message": "佈景主題："
+   },
+   "labelUpdateURL": {
+      "message": "更新網址："
+   },
+   "labelViewSingleColumn": {
+      "message": "單欄顯示"
+   },
+   "labelViewTable": {
+      "message": "表格檢視"
+   },
+   "labelWidth": {
+      "message": "寬度："
+   },
+   "labelXhrInject": {
+      "message": "同步 $1 模式"
+   },
+   "labelXhrInjectHint": {
+      "message": "只有在您有需要在網頁開始載入前執行的腳本， 且目前執行時機過晚時才啟用此選項。如同 Tampermonkey 的「立即插入模式」，並會使用目前已不推薦使用的同步 XHR 技術。 在 Chrome / Chromium 瀏覽器的開發者工具中，這會觸發警告訊息； 但您無需擔心，因為這些警告在這特定情境下的影響非常小。 如果您想永久去除這些警告，可以透過右鍵點選警告來隱藏它們。"
+   },
+   "labelXhrInjectNote": {
+      "message": "（無痕模式和已停用 Cookie 的網站除外）"
+   },
+   "lastSync": {
+      "message": "最近同步時間為 $1"
+   },
+   "learnBlacklist": {
+      "message": "了解更多黑名單規則。"
+   },
+   "learnInjectionMode": {
+      "message": "了解更多插入模式。"
+   },
+   "menuDashboard": {
+      "message": "開啟控制面板"
+   },
+   "menuExclude": {
+      "message": "排除…"
+   },
+   "menuExcludeHint": {
+      "message": "如果您在一般設定中啟用了這個選項，目前的分頁將會自動重新載入。\n\n若要將變更套用至所有其他分頁，請手動重新載入它們。\n\n使用編輯器中的「設定」分頁可獲得更多客製化選項。"
+   },
+   "menuFeedback": {
+      "message": "提供回饋"
+   },
+   "menuFindScripts": {
+      "message": "尋找適用於此網站的腳本"
+   },
+   "menuInjectionFailed": {
+      "message": "無法插入部分腳本。"
+   },
+   "menuInjectionFailedFix": {
+      "message": "在「自動」模式中重試"
+   },
+   "menuMatchedDisabledScripts": {
+      "message": "符合條件但已停用的腳本"
+   },
+   "menuMatchedFrameScripts": {
+      "message": "僅限子框架的腳本"
+   },
+   "menuMatchedScripts": {
+      "message": "符合的腳本"
+   },
+   "menuNewScript": {
+      "message": "新增腳本"
+   },
+   "menuScriptDisabled": {
+      "message": "腳本已停用"
+   },
+   "menuScriptEnabled": {
+      "message": "腳本已啟用"
+   },
+   "msgCheckingForUpdate": {
+      "message": "正在檢查更新…"
+   },
+   "msgDateFormatInfo": {
+      "message": "點選此處以瀏覽 MomentJS 相關文件。允許的格式：$1。 若需保留文字的原意，請將其置於 [方括號] 內。"
+   },
+   "msgErrorFetchingResource": {
+      "message": "取得資源時發生錯誤！"
+   },
+   "msgErrorFetchingScript": {
+      "message": "取得腳本時發生錯誤！"
+   },
+   "msgErrorFetchingUpdateInfo": {
+      "message": "取得更新資訊失敗。"
+   },
+   "msgErrorLoadingData": {
+      "message": "載入腳本資料時發生錯誤。"
+   },
+   "msgErrorLoadingDependency": {
+      "message": "載入相依性時發生錯誤。"
+   },
+   "msgImported": {
+      "message": "已匯入 $1 個腳本。"
+   },
+   "msgIncognitoChanges": {
+      "message": "您在無痕模式中所做的變更也會套用至您的主設定檔。"
+   },
+   "msgInstalled": {
+      "message": "腳本已安裝。"
+   },
+   "msgInvalidScript": {
+      "message": "無效的腳本！"
+   },
+   "msgLoadingData": {
+      "message": "正在載入腳本資料…"
+   },
+   "msgLoadingDependency": {
+      "message": "正在載入相依性… ($1/$2)"
+   },
+   "msgMissingResources": {
+      "message": "缺少必要的資源，請確保所有必要檔案都已經下載和安裝。"
+   },
+   "msgNamespaceConflict": {
+      "message": "您已經安裝了一個相似的腳本。\n\n請更改這個腳本的 @name 或 @namespace，或是直接編輯已經安裝的那個腳本。"
+   },
+   "msgNamespaceConflictRestore": {
+      "message": "您已經安裝了一個具有相同的 @name 和 @namespace 的腳本，請確認是否重複。"
+   },
+   "msgNewVersion": {
+      "message": "找到新版本。"
+   },
+   "msgNoUpdate": {
+      "message": "沒有找到更新。"
+   },
+   "msgOpenUpdateErrors": {
+      "message": "腳本更新失敗。請點選以檢視詳細資訊。"
+   },
+   "msgReinstallScripts": {
+      "message": "請重新儲存或重新安裝這些腳本："
+   },
+   "msgSameCode": {
+      "message": "（程式碼未變更）"
+   },
+   "msgScriptUpdated": {
+      "message": "腳本 [$1] 已更新！"
+   },
+   "msgShowHide": {
+      "message": "顯示/隱藏"
+   },
+   "msgSyncError": {
+      "message": "同步失敗！"
+   },
+   "msgSyncInit": {
+      "message": "正在初始化…"
+   },
+   "msgSyncInitError": {
+      "message": "初始化失敗！"
+   },
+   "msgSyncNoAuthYet": {
+      "message": "尚未授權。"
+   },
+   "msgSyncReady": {
+      "message": "即將開始同步…"
+   },
+   "msgSyncing": {
+      "message": "正在同步…"
+   },
+   "msgSyntaxError": {
+      "message": "遇到語法錯誤？可能導致腳本無法執行。"
+   },
+   "msgTardyMatch": {
+      "message": "當頁面載入時，腳本不存在或與網址不符，這種情況通常發生在使用虛擬導覽的單頁應用程式網站中， 像是 Facebook 或 Instagram 這類的網站。您可以重新載入分頁以執行腳本。 要修正腳本，請對整個網站使用 @match，然後使用 MutationObserver 或 window.navigation API 來偵測變化。"
+   },
+   "msgUpdated": {
+      "message": "腳本已更新。"
+   },
+   "msgUpdating": {
+      "message": "正在更新…"
+   },
+   "noValues": {
+      "message": "沒有儲存任何值"
+   },
+   "optionEditorWindow": {
+      "message": "在新視窗中從彈出視窗開啟編輯器"
+   },
+   "optionEditorWindowHint": {
+      "message": "只有在調整大小或儲存時才會記住編輯器視窗的位置"
+   },
+   "optionEditorWindowSimple": {
+      "message": "隱藏網址列"
+   },
+   "optionPopup": {
+      "message": "彈出式選單和圖示"
+   },
+   "optionPopupEnabledFirst": {
+      "message": "優先顯示已啟用的腳本"
+   },
+   "optionPopupGroupRunAt": {
+      "message": "依據腳本的 @run-at 執行時機進行分組"
+   },
+   "optionShowEnabledFirst": {
+      "message": "優先顯示啟用的腳本"
+   },
+   "optionUiTheme": {
+      "message": "UI 佈景主題："
+   },
+   "optionUiThemeAuto": {
+      "message": "自動"
+   },
+   "optionUiThemeDark": {
+      "message": "深色"
+   },
+   "optionUiThemeLight": {
+      "message": "淺色"
+   },
+   "optionUpdate": {
+      "message": "更新"
+   },
+   "popupSettings": {
+      "message": "彈出式選單設定"
+   },
+   "popupSettingsHint": {
+      "message": "右鍵點選：彈出式選單設定"
+   },
+   "readonly": {
+      "message": "唯讀"
+   },
+   "readonlyNote": {
+      "message": "除非您停用更新或允許編輯，否則自動更新的腳本為唯讀。"
+   },
+   "readonlyOpt": {
+      "message": "允許編輯"
+   },
+   "readonlyOptWarn": {
+      "message": "（下次更新將會覆蓋您的修改）"
+   },
+   "reinstall": {
+      "message": "重新安裝"
+   },
+   "reloadTab": {
+      "message": "重新載入分頁"
+   },
+   "reloadTabTrackHint": {
+      "message": "如果您啟用此選項，當系統偵測到與目前分頁網址相符的腳本有所變更時，該分頁將自動重新載入。"
+   },
+   "searchCaseSensitive": {
+      "message": "區分大小寫"
+   },
+   "searchUseRegex": {
+      "message": "使用正規表示式"
+   },
+   "sideMenuAbout": {
+      "message": "關於"
+   },
+   "sideMenuInstalled": {
+      "message": "已安裝的腳本"
+   },
+   "sideMenuSettings": {
+      "message": "設定"
+   },
+   "skipScripts": {
+      "message": "不載入使用者腳本並重新載入頁面"
+   },
+   "skipScriptsMsg": {
+      "message": "您已停用此頁面的使用者腳本。若想重新啟用，請重新整理頁面或者轉到其他分頁再返回。"
+   },
+   "sortOrder": {
+      "message": "排序方式："
+   },
+   "stopTracking": {
+      "message": "停止追蹤"
+   },
+   "titleBadgeColor": {
+      "message": "一般徽章顏色"
+   },
+   "titleBadgeColorBlocked": {
+      "message": "頁面無法插入腳本（已列入黑名單或不支援）時的徽章顏色"
+   },
+   "titleSearchHintV2": {
+      "message": "* 按 \u003Ckbd>Enter\u003C/kbd> 鍵會將文字加入自動完成紀錄\n* 所有條件不區分大小寫\n* 可以使用空格分隔多個條件\n* 透過中繼資料搜尋：\u003Ccode>\"Awesome Script\" \"Description\"\u003C/code>\n* 透過標籤搜尋：\u003Ccode>#tag1 #tag2\u003C/code>\n* 透過腳本名稱搜尋：\u003Ccode>name:\"awesome name\"\u003C/code>\n* 透過腳本程式碼搜尋：\u003Ccode>code:\"awesome code\"\u003C/code>\n* 反向搜尋：\u003Ccode>!#tag2 !name:\"unwanted\"\u003C/code>\n* 正規表示式：\u003Ccode>/\\w+?/\u003C/code>, \u003Ccode>/\\w+?/gi\u003C/code>, \u003Ccode>name:/\\w+?/\u003C/code>, \u003Ccode>name+re:\"\\w+? with space\"\u003C/code>"
+   },
+   "toggleInjection": {
+      "message": "切換使用者腳本插入"
+   },
+   "trackEdits": {
+      "message": "追蹤外部編輯"
+   },
+   "trackEditsNote": {
+      "message": "保持此頁面開啟以追蹤您在本機檔案中的編輯"
+   },
+   "updateListedCmd": {
+      "message": "更新腳本 ($1)"
+   },
+   "updateScript": {
+      "message": "更新"
+   },
+   "updateScriptsAll": {
+      "message": "更新所有腳本"
+   },
+   "updateScriptsInTab": {
+      "message": "更新目前分頁的腳本"
+   },
+   "valueLabelKey": {
+      "message": "鍵值（字串）"
+   },
+   "valueLabelValue": {
+      "message": "值（序列化為 JSON）"
+   },
+   "valueLabelValueAll": {
+      "message": "所有值（序列化為 JSON）"
+   }
+}

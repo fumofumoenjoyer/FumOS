@@ -1,0 +1,530 @@
+{
+   "advancedLabel": {
+      "description": "Advanced label",
+      "message": "Розширені"
+   },
+   "allowlistedDomainsDescription": {
+      "description": "Enter domains to disable LocalCDN there. One entry per line.",
+      "message": "Введіть домени, на яких вимкнути LocalCDN. По одному запису в рядку."
+   },
+   "allowlistedDomainsTitle": {
+      "description": "Deactivate LocalCDN for these domains:",
+      "message": "Вимкнути LocalCDN для цих доменів:"
+   },
+   "amountInjectedDescription": {
+      "description": "Amount injected description.",
+      "message": "Кількість ін'єкцій ресурсів Мереж доставки вмісту з часу встановлення."
+   },
+   "betaLabel": {
+      "description": "beta",
+      "message": "Бета"
+   },
+   "blockGoogleFontsDescription": {
+      "description": "If requests for missing resources are allowed, connections to \"fonts.googleapis.com\" are not blocked. Enable this option to block these requests.",
+      "message": "Якщо дозволено запити на відсутні ресурси, підключення до \"fonts.googleapis.com\" не блокується. Увімкніть цю опцію, щоб заблокувати ці запити."
+   },
+   "blockGoogleFontsTitle": {
+      "description": "Block Google Fonts",
+      "message": "Блокувати Google Шрифти"
+   },
+   "blockMissingDescription": {
+      "description": "Block requests for missing resources description.",
+      "message": "Скасувати перехоплений запит, якщо потрібний ресурс недоступний локально."
+   },
+   "blockMissingTitle": {
+      "description": "Block requests for missing resources title",
+      "message": "Блокувати запити для непідтримуваних ресурсів"
+   },
+   "btnAdvanced": {
+      "description": "Advanced",
+      "message": "Розширені"
+   },
+   "btnGeneral": {
+      "description": "Basic",
+      "message": "Базові"
+   },
+   "btnInfo": {
+      "description": "Info",
+      "message": "Інфо"
+   },
+   "btnOther": {
+      "description": "Other",
+      "message": "Інше"
+   },
+   "changeBadgeColorMissingResourcesDescription": {
+      "description": "Change the badge color if resources are missing.",
+      "message": "Змініть колір значка, якщо ресурсів бракує."
+   },
+   "changeBadgeColorMissingResourcesTitle": {
+      "description": "Indicate missing resources on the icon",
+      "message": "Укажіть відсутні ресурси на іконці"
+   },
+   "chooseIconStyle": {
+      "description": "Choose an icon for this extension",
+      "message": "Вибрати іконку для розширення"
+   },
+   "copyRuleSet": {
+      "description": "Text of button to copy ruleset",
+      "message": "Скопіювати"
+   },
+   "counterBlocked": {
+      "description": "Blocked",
+      "message": "Заблоковано"
+   },
+   "counterMissing": {
+      "description": "Missing",
+      "message": "Відсутній"
+   },
+   "dialogConfirmDeleteStatistics": {
+      "description": "Are you sure you want to delete all the statistics?",
+      "message": "Ви впевнені, що хочете видалити всю статистику?"
+   },
+   "dialogImportFailed": {
+      "description": "Import failed",
+      "message": "Ввантаження не вдалося"
+   },
+   "dialogImportSuccessful": {
+      "description": "Import successful",
+      "message": "Ввантаження успішне"
+   },
+   "disablePrefetchDescription": {
+      "description": "Disable prefetch description.",
+      "message": "Запобігання витоку заборонених запитів до мереж доставки."
+   },
+   "disablePrefetchTitle": {
+      "description": "Disable prefetch title",
+      "message": "Вимкнути передзавантаження посилань"
+   },
+   "extensionDescription": {
+      "description": "Protects you against tracking through CDNs (Content Delivery Networks) by redirecting to local resources.",
+      "message": "Захищає вас від стеження крізь CDN (Мережа доставки вмісту), направляючи на локальні ресурси."
+   },
+   "featureBreaksWebsitesButton": {
+      "description": "Disable",
+      "message": "Вимкнути"
+   },
+   "featureBreaksWebsitesDescription": {
+      "description": "This feature breaks websites. Do not leave it enabled, unless you are prepared to manually add affected domains to the allow list.",
+      "message": "Ця функція порушує роботу веб-сайтів. Не залишайте її увімкненною, якщо ви не готові вручну додавати домени, що зазнали впливу, до списку дозволених."
+   },
+   "generateRuleSetDescription": {
+      "description": "In case you are using an adblocker you can generate the rules here. You have to add these rules manually in your adblocker.",
+      "message": "Якщо ви використовуєте блокувальник реклами, ви можете сформувати правила тут. Вам потрібно додати ці правила вручну в своєму блокувальнику."
+   },
+   "generateRuleSetTitle": {
+      "description": "Generate rule sets for your adblocker",
+      "message": "Згенерувати правила для вашого блокувальника реклами"
+   },
+   "headerImportExport": {
+      "description": "Import/Export",
+      "message": "Ввантажити/Вивантажити"
+   },
+   "headerStatistics": {
+      "description": "Statistics. The header of a statistics page.",
+      "message": "Статистика"
+   },
+   "headerStorageType": {
+      "description": "Storage type",
+      "message": "Тип сховища"
+   },
+   "helpBlockGoogleFontsDescription": {
+      "description": "LocalCDN can replace »Google Material Icons«. To catch the connection your adblocker (e.g. uBlock Origin, uMatrix or AdGuard) must allow the request. LocalCDN listens on these requests and if the query contains »Google Material Icons«, the resource will be replaced. If you uncheck the »Block requests for missing content« option, non-existent resources will be allowed to pass and »Google Fonts« will be loaded, because »Google Material Icons« and »Google Fonts« use the same domain. If you don‘t want this, you can block »Google Fonts« on LocalCDN.",
+      "message": "LocalCDN може замінити \"Google Material Icons\". Щоб перехопити з'єднання, ваш адблокер (наприклад, uBlock Origin, uMatrix або AdGuard) має дозволити запит. LocalCDN прослуховує ці запити, і якщо запит містить \"Google Material Icons\", ресурс буде замінено. Якщо ви знімите прапорець \"Блокувати запити на відсутній вміст\", неіснуючі ресурси будуть дозволені і \"Google Fonts\" буде завантажено, оскільки \"Google Material Icons\" та \"Google Fonts\" використовують один і той же домен. Якщо ви не бажаєте цього, ви можете заблокувати \"Google Fonts\" на LocalCDN."
+   },
+   "helpBlockGoogleFontsTitle": {
+      "description": "Why is there a »Block Google Fonts« option?",
+      "message": "Чому існує опція «Блокувати Google Шрифти»?"
+   },
+   "helpBrowserCompatibility": {
+      "description": "Browser compatibility",
+      "message": "Сумісність з браузерами"
+   },
+   "helpBrowserCompatibilityTitle": {
+      "description": "Browser compatibility",
+      "message": "Сумісність браузера"
+   },
+   "helpData": {
+      "description": "Data",
+      "message": "Інформація"
+   },
+   "helpExplanationChrome": {
+      "description": "All Chromium based Browser",
+      "message": "Всі браузери на базі Chromium"
+   },
+   "helpHtmlFilterAfter": {
+      "description": "The result then looks like this:",
+      "message": "Результат виглядає так:"
+   },
+   "helpHtmlFilterBefore": {
+      "description": "The HTML filter removes the red characters from this example:",
+      "message": "Фільтр HTML видаляє червоні символи з цього прикладу:"
+   },
+   "helpHtmlFilterCrossorigin": {
+      "description": "The crossorigin attribute prevents the replacement because the destination does not match the requested one.",
+      "message": "Атрибут crossorigin запобігає заміні, оскільки адресат не відповідає запитуваному."
+   },
+   "helpHtmlFilterDescription": {
+      "description": "In most cases LocalCDN can easily replace embedded frameworks and improves privacy. In some cases the website may try to prevent this by setting certain options in the HTML source code. LocalCDN reads the HTML source code before it is displayed in the browser and removes these part (red).",
+      "message": "У більшості випадків LocalCDN може легко замінити вбудовані фреймворки та покращити конфіденційність. У деяких випадках веб-сайт може спробувати запобігти цьому, встановивши певні параметри у сирцевому коді HTML. LocalCDN зчитує вихідний код HTML перед його відображенням у браузері і видаляє цю частину (червону)."
+   },
+   "helpHtmlFilterErrors": {
+      "description": "Unfortunately, it sometimes happens that special characters are then displayed incorrectly. In this case you can deactivate the setting again, to display the umlauts correctly.",
+      "message": "На жаль, іноді трапляється так, що спеціальні символи потім відображаються неправильно. У цьому випадку ви можете відключити це налаштування знову, щоб відобразити умлаути правильно."
+   },
+   "helpHtmlFilterIntegrity": {
+      "description": "To save disk space and to deliver more frameworks LocalCDN upgrades a framework. An integrity tag is the hash value of a file. If the check fails, the browser won‘t include a framework. The integrity check will fail because the hash values for e.g. jQuery 1.10.1 and jQuery 1.12.4 are different.",
+      "message": "Щоб заощадити місце та доставити більше фреймворків, LocalCDN оновлює фреймворк. Тег цілісності — це значення hash-файлу. Якщо перевірка не вдається, браузер не буде включати фреймворк. Перевірка цілісності не вдасться, оскільки значення hash для, наприклад, JQuery 1.10.1 та jQuery 1.12.4 відрізняються."
+   },
+   "helpHtmlFilterTitle": {
+      "description": "What is »HTML filter«?",
+      "message": "Що таке \"HTML фільтр\"?"
+   },
+   "helpHtmlFilterWhyTitle": {
+      "description": "Why is it necessary to remove crossorigin and integrity attributes?",
+      "message": "Чому необхідно видаляти crossorigin і атрибути цілісності?"
+   },
+   "helpIcons": {
+      "description": "Default, Light, Blue/Grey",
+      "message": "Типовий, Світлий, Блакитний/Сірий"
+   },
+   "helpIntroductionDescription": {
+      "description": "LocalCDN is a web browser extension that emulates Content Delivery Networks to improve your online privacy. It intercepts traffic, finds supported frameworks/libraries locally, and injects them into the website. Feel free to use the following testing utility to find out if you are properly protected. For more information read the tutorial or our Wiki pages.",
+      "message": "LocalCDN - це розширення веб-браузера, яке емулює Мережі Доставки Вмісту для покращення конфіденційності в Інтернеті. Він перехоплює трафік, знаходить підтримувані фреймворки/бібліотеки локально і замінює їх на веб-сайті. Не соромтеся використовувати наступну утиліту тестування, щоб дізнатися, чи ви захищені належним чином. Для отримання додаткової інформації прочитайте керівництво або наші вікі-сторінки."
+   },
+   "helpIntroductionTitle": {
+      "description": "Introduction",
+      "message": "Вступ"
+   },
+   "helpLimitation": {
+      "description": "This is not a limitation of LocalCDN, but missing API support of Chromium based browsers.",
+      "message": "Це не обмеження LocalCDN, а відсутність підтримки API браузерів на базі Chromium."
+   },
+   "helpLinkTestUtility": {
+      "description": "Testing utility",
+      "message": "Тестувальний інструмент"
+   },
+   "helpLinkTutorial": {
+      "description": "Tutorial",
+      "message": "Керівництво"
+   },
+   "helpLinkWikiPages": {
+      "description": "Wiki pages",
+      "message": "Вікі сторінки"
+   },
+   "helpNo": {
+      "description": "No",
+      "message": "Ні"
+   },
+   "helpNumberOfInjections": {
+      "description": "Numbers of injections",
+      "message": "Кількість ін'єкцій"
+   },
+   "helpPermissionDescription": {
+      "description": "LocalCDN needs to know which requests are created by a website to redirect or block it. With the introduction of MV3, this permission is listed as an optional permission.",
+      "message": "LocalCDN має знати, які запити створює вебсайт, щоб перенаправляти або блокувати їх. З впровадженням MV3 цей дозвіл вказано як необов'язковий."
+   },
+   "helpReplace": {
+      "description": "Replace",
+      "message": "Замінити"
+   },
+   "helpReplaceOther": {
+      "description": "Replace other resources",
+      "message": "Замінити інші ресурси"
+   },
+   "helpRuleGeneratorDescription": {
+      "description": "If you want to automatically redirect all supported CDN connections to LocalCDN, you can add these rules to your adblocker to allow these redirections. If you do not want to add these rules, you must allow each CDN connection individually for each website.",
+      "message": "Якщо ви хочете автоматично переспрямовувати всі підтримувані підключення CDN до LocalCDN, можна додати ці правила до свого блокувальника реклами, щоб дозволити ці переспрямування. Якщо ви не хочете додавати ці правила, слід дозволити кожне підключення CDN окремо для кожного веб-сайту."
+   },
+   "helpRuleGeneratorTitle": {
+      "description": "Rule generator",
+      "message": "Генератор правил"
+   },
+   "helpRuleGeneratorUblockDescription": {
+      "description": "These rules are only relevant in »medium« or »hard« mode, because it blocks all 3rd-party resources. They are not necessary in »default«, »easy« or »very-easy« mode. For more information, please visit the uBlock Origin Wiki.",
+      "message": "Ці правила актуальні лише в «середньому» або «жорсткому» режимі, оскільки вони блокують усі сторонні ресурси. Вони не потрібні в режимі «за замовчуванням», «простий» чи «дуже простий». Для отримання додаткової інформації, будь ласка, відвідайте uBlock Origin Вікі-сторінки."
+   },
+   "helpRuleGeneratorUblockTableDefaultEasy": {
+      "description": "Default/Easy",
+      "message": "Типовий/Простий"
+   },
+   "helpRuleGeneratorUblockTableHard": {
+      "description": "Hard",
+      "message": "Складний"
+   },
+   "helpRuleGeneratorUblockTableIcon": {
+      "description": "Icon",
+      "message": "Іконка"
+   },
+   "helpRuleGeneratorUblockTableMedium": {
+      "description": "Medium",
+      "message": "Середній"
+   },
+   "helpRuleGeneratorUblockTableMode": {
+      "description": "Mode",
+      "message": "Режим"
+   },
+   "helpRuleGeneratorUblockTableUseful": {
+      "description": "Rules useful",
+      "message": "Правила корисні"
+   },
+   "helpRuleGeneratorUblockTitle": {
+      "description": "Only uBlock Origin:",
+      "message": "Тільки uBlock Origin:"
+   },
+   "helpStatisticsContent": {
+      "description": "The statistics contain no information about the browser, operating system, requesting website, IP addresses or any other information. Just date, CDN+counter and framework+counter. It shows you which frameworks are replaced by LocalCDNs how often and which CDNs were requested.",
+      "message": "Статистика не містить жодної інформації щодо браузеру, операційної системи, запитуючому веб-сайті, IP-адресах чи будь-якої іншої інформації. Тільки дата, CDN+лічильник та фреймворк+лічильник. Він показує вам, які фреймворки заміняються LocalCDN, як части і які CDN запитувалися."
+   },
+   "helpStatisticsDescription": {
+      "description": "Don‘t panic, nothing will be transmitted. It would be against all my principles. The statistics (JSON format) contains the following information: Date, CDN+counter and framework+counter. That‘s all. I‘ve an example here:",
+      "message": "Не панікуйте, нічого не передаватиметься. Це було б проти всіх моїх принципів. Статистика (у форматі JSON) містить таку інформацію: дату, CDN+лічильник та фреймворк+лічильник. Це все. Ось приклад:"
+   },
+   "helpStatisticsTitle": {
+      "description": "What about the statistics? Is anything transferred to any servers?",
+      "message": "Що з статистикою? Чи вона надсилається на якісь сервери?"
+   },
+   "helpStatisticsTruthDescription": {
+      "description": "The extension storage can be viewed directly with the Firefox browser. Open the URL »about:debugging«, switch to »Storage« and select »Extension Storage«. Under the key »internalStatisticsData« you will find the collected data. Just copy it and put it into a JSON PrettyPrinter to make it more readable. Please note that you have to remove the first and last quotation mark and the key to it. You should be able to see this clearly in this video.",
+      "message": "Сховище розширень можна продивитися безпосередньо в браузері Firefox. Відкрийте URL-адресу \"about:debugging\", перейдіть на \"Сховище\" і оберіть \"Сховище розширень\". Під ключем \"internalStatisticsData\" ви знайдете всі зібрані дані. Скопіюйте їх та помістить в JSON PrettyPrinter для того, щоб зробити їх більш зрозумілими. Будь ласка, завбачте, що ви повинні спочатку прибрати перші та останні лапки і ключ до неї. Ви побачите все ясно побачите на цьому відео."
+   },
+   "helpStatisticsTruthTitle": {
+      "description": "How do I know that‘s true?",
+      "message": "Як я можу бути певним, що це правда?"
+   },
+   "helpSyncAccount": {
+      "description": "If you don‘t have a sync account, nothing will be synchronized. In that case it makes no difference what type of storage you have selected.",
+      "message": "Якщо у вас відсутній обліковий запис синхронізації, нічого не буде сінхронізовано. У такому випадку, немає значення, який тип сховища ви обрали."
+   },
+   "helpSyncContentEver": {
+      "description": "Settings that will be synchronized:",
+      "message": "Налаштування, що синхронізовуватимуться:"
+   },
+   "helpSyncContentLinks": {
+      "description": "More information about Firefox Sync:",
+      "message": "Більше інформації про Firefox Sync:"
+   },
+   "helpSyncContentNever": {
+      "description": "Things that are never synchronized:",
+      "message": "Речі, які ніколи не синхронізуються:"
+   },
+   "helpSyncDescription": {
+      "description": "Sync will only work if you are logged in with a Firefox account on the device and have allowed add-ons to sync in the settings. A separate sync server under your control will also work. This will synchronize most of the settings of LocalCDN across all devices.",
+      "message": "Синхронізація буде працювати лише тоді, коли ви ввійшли в свій акаунт Firefox на пристрої і дозволили синхронізацію розширень в налаштуваннях. Окремий сервер синхронізації під вашим контролем також буде працювати. Це синхронізує більшість налаштувань LocalCDN серед усіх девайсів."
+   },
+   "helpSyncTitle": {
+      "description": "What will be synchronized when I select »sync« as storage type?",
+      "message": "Що буде синхронізуватись, якщо я оберу \"Синхронізувати\" в якості типу сховища?"
+   },
+   "helpUpgradeAllResources": {
+      "description": "Upgrade all resources",
+      "message": "Оновити інші ресурси"
+   },
+   "helpWebsiteIssuesDescription": {
+      "description": "There are two possible reasons: Either a framework/library is required that LocalCDN doesn‘t (yet) deliver or an SOP. A SOP (Same origin policy) is a security mechanism that determines what data the browser is allowed to load. It helps to isolate malicious documents and thus reduce possible attack vectors. This policy prevents the browser from loading the external frameworks of LocalCDN. Unfortunately there is no solution for this at the moment.",
+      "message": "Є дві можливі причини: Або необхідний фреймворк/бібліотека, яку LocalCDN (поки що) не постачає, або SOP. SOP (англ. \"Same origin policy\" – укр. \"Політика однакового походження\") – це механізм безпеки, який визначає, які дані можна завантажувати браузеру. Вона допомагає ізолювати шкідливі документи і цим зменшити можливі вектори атак. Ця політика не дозволяє браузеру завантажувати зовнішні фреймворки LocalCDN. На жаль, зараз для цього немає рішення."
+   },
+   "helpWebsiteIssuesTitle": {
+      "description": "Some websites look strange or are not easy to use",
+      "message": "Деякі веб-сайти виглядають дивно та складні в використанні"
+   },
+   "helpWhatWillBeSynchronizedTitle": {
+      "description": "What will be synchronized when I select »sync« as storage type?",
+      "message": "Що буде синхронізовано, коли я натисну \"синхронізувати\"?"
+   },
+   "helpWhyThisPermission": {
+      "description": "Why does this extension need this permission?",
+      "message": "Навіщо цьому розширенню потрібен цей дозвіл?"
+   },
+   "helpYes": {
+      "description": "Yes",
+      "message": "Так"
+   },
+   "hideDonationButton": {
+      "description": "Hide donation button",
+      "message": "Сховати кнопку пожертвування"
+   },
+   "htmlFilterDomainsDescription": {
+      "description": "Enter the domains to be handled or ignored by the HTML filter. One entry per line.",
+      "message": "Введіть домени, які потрібно обробити або проігнорувати фільтром HTML. По одному запису в рядку."
+   },
+   "htmlFilterDomainsTitleExclude": {
+      "description": "Do not apply HTML filter to these domains:",
+      "message": "Не застосовувати HTML-фільтр до таких доменів:"
+   },
+   "htmlFilterDomainsTitleInclude": {
+      "description": "Apply HTML filter for these domains:",
+      "message": "Увімкнути HTML фільтр для наступних доменів:"
+   },
+   "internalStatisticsDescription": {
+      "description": "No data transmission. It’s all local on your device.",
+      "message": "Наразі ця функція знаходиться на експериментальній стадії. Передачі даних немає, це все локально на вашому пристрої."
+   },
+   "internalStatisticsTitle": {
+      "description": "Internal statistics",
+      "message": "Внутрішня статистика"
+   },
+   "labelAll": {
+      "description": "Statistics view over the whole time range",
+      "message": ""
+   },
+   "labelAvg": {
+      "description": "Followed by a number of average injections per day within a specific period.",
+      "message": "В середньому (замінено в день)"
+   },
+   "labelDelete": {
+      "description": "Button to delete all statistics data.",
+      "message": "Видалити"
+   },
+   "labelDomainsAllowlistGoogleFonts": {
+      "description": "These domains are allowed to load Google Fonts. One entry per line.",
+      "message": "Ці домени можуть завантажувати Google Шрифти. По одному запису в рядку."
+   },
+   "labelDonate": {
+      "description": "Donate",
+      "message": "Пожертвувати"
+   },
+   "labelExportData": {
+      "description": "Back up to file",
+      "message": "Резервне копіювання до файлу"
+   },
+   "labelImportData": {
+      "description": "Restore from file",
+      "message": "Відновити з файлу"
+   },
+   "labelInjectedFrameworks": {
+      "description": "Followed by a number of injections within a specific period.",
+      "message": "Замінені фреймворки"
+   },
+   "labelManipulateDOM": {
+      "description": "Filter HTML source code",
+      "message": "Фільтрувати сирцевий код HTML"
+   },
+   "labelPastMonth": {
+      "description": "Statistics view for past month.",
+      "message": "Останнього місяця"
+   },
+   "labelPastWeek": {
+      "description": "Statistics view for past week.",
+      "message": "Останнього тижня"
+   },
+   "labelPastYear": {
+      "description": "Statistics view for past year.",
+      "message": "Останнього року"
+   },
+   "labelStorageTypeLocal": {
+      "description": "Local",
+      "message": "Локальне"
+   },
+   "labelStorageTypeSync": {
+      "description": "Sync",
+      "message": "Синхронізувати"
+   },
+   "labelToday": {
+      "description": "Statistics view for today.",
+      "message": "Сьогодні"
+   },
+   "lastUpdate": {
+      "description": "Last update:",
+      "message": "Востаннє оновлено:"
+   },
+   "loggingDescription": {
+      "description": "You can open the log with the icon in the menu. The log will be deleted when you close the browser or disable logging.",
+      "message": "Ви можете відкрити журнал через іконку в меню. Журнал буде видалено після закриття браузера або вимкнення ведення журналу."
+   },
+   "loggingTitle": {
+      "description": "Enable logging",
+      "message": "Увімкнути ведення журналу"
+   },
+   "negateHtmlFilterListDescription": {
+      "description": "Enable this option to always apply the HTML filter. The domains in the list will be ignored then. If this option is disabled, the HTML filter is only applied to domains in the list.",
+      "message": "Увімкніть цю опцію, щоб завжди застосовувати фільтр HTML. Тоді домени у списку будуть проігноровані. Якщо цю опцію вимкнено, фільтр HTML застосовуватиметься лише до доменів у списку."
+   },
+   "negateHtmlFilterListTitle": {
+      "description": "Invert HTML filter",
+      "message": "Інвертувати HTML фільтр"
+   },
+   "negateHtmlFilterListWarning": {
+      "description": "This function can break websites. Please note the information on the Wiki page.",
+      "message": "Ця функція може зламати веб-сайти. Будь ласка, примічайте інформацію у вікі-сторінці."
+   },
+   "optionsTitle": {
+      "description": "Options title",
+      "message": "Налаштування"
+   },
+   "permissionAllow": {
+      "description": "Allow",
+      "message": "Дозволити"
+   },
+   "permissionMissing": {
+      "description": "Missing permission",
+      "message": "Відсутній дозвіл"
+   },
+   "permissionMoreInfo": {
+      "description": "More info",
+      "message": "Докладніше"
+   },
+   "permissionRevokedDescription": {
+      "description": "Please do not disable the permission. LocalCDN needs the permission to detect and redirect requests to CDNs.",
+      "message": "Будь ласка, не вимикайте цей дозвіл. LocalCDN потрібен цей дозвіл, щоб виявляти і перенаправляти запити на CDN."
+   },
+   "permissionRevokedHeader": {
+      "description": "Permission revoked",
+      "message": "Дозвіл відкликано"
+   },
+   "permissionRevokedPermissionName": {
+      "description": "The exact name of the permission. Exactly as it is displayed in Firefox.",
+      "message": "Доступ до ваших даних для всіх вебсайтів"
+   },
+   "showIconBadgeDescription": {
+      "description": "Show icon badge description.",
+      "message": "Показати кількість ін'єкцій ресурсів на іконці розширення."
+   },
+   "showIconBadgeTitle": {
+      "description": "Show icon badge title",
+      "message": "Показувати кількість ін'єкцій на іконці"
+   },
+   "stripMetadataDescription": {
+      "description": "Strip metadata description.",
+      "message": "Видаліть конфіденційні дані з дозволених CDN-запитів для поліпшення конфіденційності."
+   },
+   "stripMetadataTitle": {
+      "description": "Strip metadata title",
+      "message": "Видалення метаданих із дозволених запитів"
+   },
+   "titleBadgeDefault": {
+      "description": "Default badge",
+      "message": "Значок за замовчанням"
+   },
+   "titleBadgeHTMLFilter": {
+      "description": "HTML filter badge",
+      "message": "Значок фільтрації HTML"
+   },
+   "titleBadgeMissingResource": {
+      "description": "Missing or blocked resources badge",
+      "message": "Значок відсутнього або заблокованого ресурсу"
+   },
+   "titleHelp": {
+      "description": "Help",
+      "message": "Допомога"
+   },
+   "updateNotificationAlways": {
+      "description": "Always",
+      "message": "Завжди"
+   },
+   "updateNotificationNever": {
+      "description": "Never (Silent Updates)",
+      "message": "Ніколи (тихі оновлення)"
+   },
+   "updateNotificationOnlyRules": {
+      "description": "Only if new CDNs and rules",
+      "message": "Тільки якщо нові МДВи та правила"
+   },
+   "updateNotificationTitle": {
+      "description": "Notification after an update",
+      "message": "Сповіщення після оновлення"
+   },
+   "websiteBroken": {
+      "description": "Website broken?",
+      "message": "Веб-сайт зламаний?"
+   }
+}

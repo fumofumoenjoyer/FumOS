@@ -1,0 +1,69 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Snowflake</title>
+    <link rel="icon" href="./assets/favicon.ico" />
+    <link rel="stylesheet" href="./bootstrap.css" />
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+  <body class="no-gutters">
+    <header id="header">
+
+      <nav class="navbar no-background navbar-dark bg-dark p-4">
+
+        <a class="navbar-brand" href="https://www.torproject.org/">
+          <img src="./tor-logo@2x.png" alt="Tor" height="50" />
+        </a>
+
+        <div class="btn-group dropdown pull-right">
+
+          <button id="language-switcher" type="button" class="btn btn-dark bg-dark dropdown-toggle btn-block" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          </button>
+          <div id="supported-languages" class="dropdown-menu">
+          </div>
+        </div>
+      </nav>
+    </header>
+    <div>
+      <section id="content">
+        <h1 data-msgid="__MSG_extensionOnboard__"></h1>
+
+        <p data-msgid="__MSG_installExtension__"></p>
+
+        <p data-msgid="__MSG_volunteer__"></p>
+
+        <p data-msgid="__MSG_extensionConsent__"></p>
+
+        <a id="consent" class="btn text-white btn-dark" data-msgid="__MSG_consent__"></a>
+
+        <p data-msgid="__MSG_extensionOptout__"></p>
+
+        <a id="remove" class="btn text-white btn-dark" data-msgid="__MSG_remove__"></a>
+
+        <section id="bugs">
+          <h2 data-msgid="__MSG_reportingBugs__"></h2>
+
+          <p data-msgid="__MSG_fileBug__"></p>
+
+          <ol>
+            <li data-msgid="__MSG_bugTracker__"></li>
+            <li data-msgid="__MSG_sharedAccount__"></li>
+          </ol>
+
+          <p data-msgid="__MSG_descriptive__"></p>
+        </section>
+
+        <section id="faq">
+          <h2 data-msgid="__MSG_faq__"></h2>
+
+          <p data-msgid="__MSG_support__"></p>
+        </section>
+
+      </section>
+    </div>
+    <script src="index.js"></script>
+    <script src="./consent.js"></script>
+  </body>
+</html>

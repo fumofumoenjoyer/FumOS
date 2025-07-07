@@ -1,0 +1,92 @@
+{
+    "bugTracker": {
+        "message": "<a href=\"https://gitlab.onionize.space/\">Solicite uma conta</a> no GitLab do Projeto Tor, e então <a href=\"https://gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/snowflake/-/issues\">abra um novo chamado</a> no projeto Snowflake."
+    },
+    "descriptive": {
+        "message": "Por favor, tente ser o mais descritivo possível em seu chamado e, se possível, inclua mensagens de log que nos ajudarão a reproduzir o bug."
+    },
+    "embed": {
+        "message": "Incorporar"
+    },
+    "installFirefox": {
+        "message": "Instalar no Firefox"
+    },
+    "installChrome": {
+        "message": "Instalar no Chrome"
+    },
+    "reportingBugs": {
+        "message": "Relatando bugs"
+    },
+    "sharedAccount": {
+        "message": "Protocole um <a href=\"https://anonticket.onionize.space/\">ticket anônimo</a> gerando um identificador e logando com ele. Depois ache o projeto Snowflake na <strong>Lista de projetos</strong> e depois crie uma nova questão."
+    },
+    "fileBug": {
+        "message": "Se você encontrar problemas com o Snowflake - esteja usando-o ou executando-o -, considere preencher um relatório de bug. Há duas maneiras de enviar um relatório de erro:"
+    },
+    "contactSnowflakeDevs": {
+        "message": "Caso tenha interesse em utilizar o Snowflake dentro de seu aplicativo, entre em contato com a <a href=\"https://lists.torproject.org/cgi-bin/mailman/listinfo/anti-censorship-team\">equipe anti-censura</a>."
+    },
+    "howSnowflakeWorks": {
+        "message": "Saiba mais sobre como o Snowflake funciona"
+    },
+    "snowflakeTechOverview": {
+        "message": "Snowflake é uma nova tecnologia de contorno, parte da família <a href=\"https://gitweb.torproject.org/torspec.git/tree/pt-spec.txt\">Transportes conectáveis</a>,que está sendo continuamente aprimorado. Curioso para saber mais sobre sua arquitetura? Sinta-se livre para verificar a <a href=\"https://gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/snowflake/-/wikis/Technical%20Overview\">visão geral técnica</a> (Em inglês)."
+    },
+    "faq": {
+        "message": "Buscando suporte para usar o Snowflake"
+    },
+    "censoredUsers": {
+        "message": "Ao contrário das VPNs, você não precisa instalar um aplicativo separado para se conectar a um proxy Snowflake e contornar a censura. Geralmente é um recurso de contorno incorporado em aplicativos existentes. Atualmente Snowflake está disponível dentro <a href=\"https://torproject.org/download\">Navegador Tor</a> no computador e no Android, <a href=\"https://onionbrowser.com\">Onion Browser</a> no iOS, e <a href=\"https://orbot.app\">Orbot</a> no Android e iOS. Se você baixou e instalou algum desses aplicativos e eles são censurados em seu país, você pode contornar a censura ativando o Snowflake na página de configurações do aplicativo."
+    },
+    "websiteIntro3": {
+        "message": "Portanto, torna-se caro para os censores considerar o bloqueio de tais ferramentas de evasão, pois exigiria o bloqueio de grandes partes da Internet para atingir o objetivo inicial."
+    },
+    "installExtension": {
+        "message": "Você sabia que os proxies Snowflake são operados totalmente por voluntários? Em outras palavras, um usuário é combinado com um proxy voluntário aleatório do Snowflake, executado por um voluntário como você! Então, se você quiser ajudar as pessoas a contornar a censura, considere instalar e executar um proxy Snowflake. O único pré-requisito é que a Internet em seu país já <strong>não</strong> seja fortemente censurada."
+    },
+    "extension": {
+        "message": "Ajude as pessoas a contornar a censura: opere um proxy Snowflake"
+    },
+    "installOptions": {
+        "message": "Existem diferentes maneiras de executar um proxy Snowflake (iniciante a avançado):"
+    },
+    "installWebExtensionIntro": {
+        "message": "Instale a extensão da web"
+    },
+    "installWebExtension": {
+        "message": "A extensão da web é a maneira mais fácil de executar um proxy Snowflake. Basta instalá-lo em <a href=\"https://addons.mozilla.org/en-US/firefox/addon/torproject-snowflake/\">Firefox</a> ou <a href=\"https://chrome.google.com/webstore/detail/snowflake/mafpmfcccpbjnhfhjnllmmalhifmlcie\">Chrome</a>, ative a extensão e observe o ícone ficar verde quando um usuário se conectar por meio do seu proxy!"
+    },
+    "webBadgeTitle": {
+        "message": "Deixe esta guia do navegador aberta ou incorpore um emblema da web em seu site"
+    },
+    "webBadgeInstructions": {
+        "message": "Se você ativar o Snowflake abaixo e deixar a guia do navegador aberta, um usuário poderá se conectar por meio de seu novo proxy!"
+    },
+    "possible": {
+        "message": "Alternativamente, você pode fixar a proxy Snowflake dentro de uma página, ou no seu próprio website (ex: <a href=\"https://relay.love\">relay.love</a>). Visitantes no seu site podem entrar na página e ativar o proxy e deixá-lo ligado para que pessoas usem-o (ele age exatamente como a extensão web)."
+    },
+    "volunteer": {
+        "message": "Você pode se juntar a milhares de voluntários de todo o mundo que possuem um proxy Snowflake instalado e em execução. Não há necessidade de se preocupar com quais sites as pessoas estão acessando por meio de seu proxy Snowflake. O endereço IP de navegação visível deles corresponderá ao nó de saída do Tor, não ao seu."
+    },
+    "StandaloneTitle": {
+        "message": "Executar um proxy independente"
+    },
+    "installStandalone": {
+        "message": "Se você gostaria de executar uma versão de linha de comando do proxy Snowflake em seu desktop ou servidor, consulte nosso <a href=\"https://community.torproject.org/relay/setup/snowflake/standalone/\">guia</a> para executar um proxy independente do Snowflake."
+    },
+    "websiteIntro": {
+        "message": "Snowflake é um sistema que <strong>permite que pessoas de todo o mundo acessem sites e aplicativos censurados</strong>. Semelhante à forma como as VPNs ajudam os usuários a contornar a censura na Internet, o Snowflake ajuda você a evitar ser notado pelos censores da Internet, fazendo com que sua atividade na Internet pareça que você está usando a Internet para um vídeo normal ou uma chamada de voz."
+    },
+    "websiteIntro2": {
+        "message": "Existem inúmeras ferramentas disponíveis, como o Snowflake, que \"transformam\" a atividade na Internet, cada uma usando uma técnica diferente. Alguns redirecionam o tráfego da Internet para parecer proveniente de provedores de nuvem populares, como Microsoft Azure e Amazon Web Services. Outros embaralham o tráfego da Internet para fazê-lo parecer completamente aleatório."
+    },
+    "browser": {
+        "message": "Use o Snowflake para contornar a censura"
+    },
+    "support": {
+        "message": "Se você teve problemas quando se conectando ao Tor usando o Snowflake, você pode entrar em contato com o canal de suporte do Tor pelo <a href=\"https://t.me/TorProjectSupportBot\">Telegram</a>. Você também pode navegar no <a href=\"https://support.torproject.org/censorship/\">Portal De Suporte do Tor</a> e no <a href=\"https://forum.torproject.org/tag/snowflake\">Tor Forum</a> para achar respostas."
+    },
+    "installEdge": {
+        "message": "Instalar no Edge"
+    }
+}

@@ -1,0 +1,65 @@
+{
+   "appDesc": {
+      "message": "검열을 시행하는 국가의 사용자가 이 네트워크 연결을 통해 Tor 네트워크에 접속할 수 있도록 허용해줘요."
+   },
+   "badgeLocalStorageOff": {
+      "message": "로컬 스토리지가 비활성화 되어있어요."
+   },
+   "consent": {
+      "message": "동의"
+   },
+   "consented": {
+      "message": "모든 설정이 끝났어요! Snowflake 프록시를 실행해 주셔서 감사해요!"
+   },
+   "extensionConsent": {
+      "message": "기본 기능을 제공하기 위해 Snowflake 프록시(브라우저에 설치한 부가 기능)는 프록시의 네트워크 설정에 관한 일부 메타데이터를 Snowflake 브로커에 전송해요. 전송되는 메타데이터는 각각 프록시의 IP 주소(귀하의 IP 주소), 보고된 NAT 유형, 프록시(귀하가 설치한 부가 기능)가 실행 중인 Snowflake 프로토콜의 버전, 프록시(귀하가 설치한 부가 기능)가 웹 확장 프로그램임을 나타내는 사실, 프록시(귀하가 설치한 부가 기능)에 이미 연결된 클라이언트 수와 같아요. 이러한 데이터는 연결 설정 및 집계 통계에만 사용되며 브로커에 저장되지 않아요. 수집하고 표시하는 정보에 대한 자세한 내용은 \u003Ca href=\"https://addons.mozilla.org/ko/firefox/addon/torproject-snowflake/privacy\">개인정보처리방침\u003C/a>을 참조하세요. 준비되면 아래 버튼을 클릭하여 Snowflake 프록시를 활성화하세요."
+   },
+   "extensionOnboard": {
+      "message": "Snowflake 웹 확장 프로그램을 설치해 주셔서 감사해요!"
+   },
+   "extensionOptout": {
+      "message": "이 부가 기능은 Snowflake 프록시가 동작하기 위한 최소한의 데이터만을 전송해요. 만약 위에 열거된 데이터의 전송이나 당사의 개인정보처리방침에 대해 불편함을 느낀다면 Snowflake 부가 기능을 제거하세요."
+   },
+   "popupBridgeUnreachable": {
+      "message": "브리지에 연결하지 못했어요."
+   },
+   "popupConsent": {
+      "message": "동의 페이지 열기"
+   },
+   "popupDescOn": {
+      "message": "지난 24시간 동안 Snowflake가 검열을 우회하는 데 도움을 준 사용자 수: $1"
+   },
+   "popupEnabled": {
+      "message": "활성화됨"
+   },
+   "popupLearnMore": {
+      "message": "더 알아보기"
+   },
+   "popupNeedConsent": {
+      "message": "Snowflake를 활성화하기 전에 개인정보처리방침에 동의해주세요."
+   },
+   "popupRetry": {
+      "message": "다시 시도하기"
+   },
+   "popupRetrying": {
+      "message": "다시 시도 중..."
+   },
+   "popupRunInBackground": {
+      "message": "브라우저가 닫혀 있을 때에도 계속 실행하기"
+   },
+   "popupStatusOff": {
+      "message": "Snowflake가 꺼져 있어요"
+   },
+   "popupStatusOn": {
+      "message": "현재 연결된 사용자 수: $1"
+   },
+   "popupStatusReady": {
+      "message": "Snowflake가 검열을 우회하는 데 도움을 줄 준비를 마쳤어요"
+   },
+   "popupWebRTCOff": {
+      "message": "WebRTC 기능이 탐지되지 않았어요."
+   },
+   "remove": {
+      "message": "Snowflake 부가 기능 제거하기"
+   }
+}

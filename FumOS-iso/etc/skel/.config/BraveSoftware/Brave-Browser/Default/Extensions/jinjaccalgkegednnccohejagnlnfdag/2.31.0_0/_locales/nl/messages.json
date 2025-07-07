@@ -1,0 +1,764 @@
+{
+   "buttonApply": {
+      "message": "Toepassen"
+   },
+   "buttonCancel": {
+      "message": "Annuleren"
+   },
+   "buttonClose": {
+      "message": "Sluiten"
+   },
+   "buttonDisable": {
+      "message": "Uitschakelen"
+   },
+   "buttonEdit": {
+      "message": "Bewerken"
+   },
+   "buttonEditClickHint": {
+      "message": "Je kunt tevens rechts-, middel- of Ctrl-klikken op de scriptnaam."
+   },
+   "buttonEmptyRecycleBin": {
+      "message": "Leeg de prullenbak!"
+   },
+   "buttonEnable": {
+      "message": "Inschakelen"
+   },
+   "buttonExportData": {
+      "message": "Exporteren naar zip-bestand"
+   },
+   "buttonHome": {
+      "message": "Website"
+   },
+   "buttonImportData": {
+      "message": "Importeren uit zip-bestand"
+   },
+   "buttonInstallFromURL": {
+      "message": "Installeren van url"
+   },
+   "buttonNew": {
+      "message": "Nieuw"
+   },
+   "buttonOK": {
+      "message": "Oké"
+   },
+   "buttonRecycleBin": {
+      "message": "Prullenbak"
+   },
+   "buttonRemove": {
+      "message": "Verwijderen"
+   },
+   "buttonReplace": {
+      "message": "Vervangen"
+   },
+   "buttonReplaceAll": {
+      "message": "Alles"
+   },
+   "buttonReset": {
+      "message": "Standaardwaarden"
+   },
+   "buttonResetSettings": {
+      "message": "Standaardwaarden"
+   },
+   "buttonRestore": {
+      "message": "Herstellen"
+   },
+   "buttonSave": {
+      "message": "Opslaan"
+   },
+   "buttonSaveClose": {
+      "message": "Opslaan en sluiten"
+   },
+   "buttonSaved": {
+      "message": "Opgeslagen"
+   },
+   "buttonShowEditorState": {
+      "message": "Bewerkstatus tonen"
+   },
+   "buttonSupport": {
+      "message": "Ondersteuningspagina"
+   },
+   "buttonUndo": {
+      "message": "Ongedaan maken"
+   },
+   "buttonUpdate": {
+      "message": "Bijwerken"
+   },
+   "buttonVacuum": {
+      "message": "Gegevens opschonen"
+   },
+   "buttonVacuumed": {
+      "message": "Gegevens zijn opgeschoond"
+   },
+   "buttonVacuuming": {
+      "message": "Gegevens aan het opschonen..."
+   },
+   "confirmManualUpdate": {
+      "message": "Automatisch bĳwerken van dit script is uitgeschakeld!\nKlik op oké om tóch bĳ te werken."
+   },
+   "confirmNotSaved": {
+      "message": "De aanpassingen zijn niet opgeslagen!\nKlik op oké om ze te verwerpen of annuleren om door te gaan."
+   },
+   "confirmUndoImport": {
+      "message": "Herstel alle wijzigingen aan de databank (importeren, bijwerken, bewerken en aanpassen)"
+   },
+   "descBlacklist": {
+      "message": "Zwarte injectielijst (scripts worden niet op deze sites uitgevoerd)"
+   },
+   "descBlacklistNet": {
+      "message": "Zwarte netwerklijst (scripts maken geen verbinding met deze sites en hun cookies)"
+   },
+   "descCustomCSS": {
+      "message": "Aangepaste css op de instellingen- en scriptinstallatiepagina's. Bij twijfel leeglaten."
+   },
+   "descEditorOptions": {
+      "message": "Aangepaste instellingen voor CodeMirror en uitbreidingen in json-objecten, zoals \u003Ccode>{\"indentUnit\":2, \"smartIndent\":true}\u003C/code>. Let op: niet alle werken gegarandeerd in Violentmonkey. Bekijk de \u003Ca href=\"https://codemirror.net/doc/manual.html#config\" target=\"_blank\" rel=\"noopener noreferrer\">volledige lijst\u003C/a>."
+   },
+   "descEditorOptionsGeneric": {
+      "message": "Boolean opties kunnen worden omgeschakeld door te dubbelklikken op de waarde: \u003Ccode>true\u003C/code> = ingeschakeld, \u003Ccode>false\u003C/code> = uitgeschakeld. Numerieke opties die eindigen op \u003Ccode>Delay\u003C/code>, \u003Ccode>Interval\u003C/code>, \u003Ccode>Rate\u003C/code>, \u003Ccode>Time\u003C/code> zijn in milliseconden."
+   },
+   "descEditorOptionsVM": {
+      "message": "Niet-standaard opties: \u003Ccode>autocompleteOnTyping\u003C/code> is een vertraging in milliseconden om autocomplete hints weer te geven na het typen van (\u003Ccode>0\u003C/code> = uitschakelen), \u003Ccode>killTrailingSpaceOnSave\u003C/code> verwijdert automatisch spaties in elke regel bij het opslaan, \u003Ccode>showTrailingSpace\u003C/code> toont de achterliggende spaties als punten."
+   },
+   "descScriptTemplate": {
+      "message": "Ondersteunde variabelen: \u003C{{name}}>, \u003C{{url}}>, \u003C{{date}}>, \u003C{{date:format}}> met een met MomentJS compatibel formaat, bijvoorbeeld \u003C{{date:YYYY-MM-DD}}>."
+   },
+   "disabledScriptsGroup": {
+      "message": "groep"
+   },
+   "disabledScriptsHide": {
+      "message": "verbergen"
+   },
+   "disabledScriptsSelector": {
+      "message": "Uitgeschakelde scripts:"
+   },
+   "disabledScriptsShow": {
+      "message": "tonen"
+   },
+   "editHelpDocumention": {
+      "message": "Documentatie over gebruikersscript metagegevensblok en \u003Ccode>GM\u003C/code> API:"
+   },
+   "editHelpKeyboard": {
+      "message": "Sneltoetsen:"
+   },
+   "editHowToHint": {
+      "message": "Andere bewerker?"
+   },
+   "editLabelMeta": {
+      "message": "Aangepaste metagegevens"
+   },
+   "editLabelSettings": {
+      "message": "Scriptinstellingen"
+   },
+   "editLongLine": {
+      "message": "Regel is te lang"
+   },
+   "editLongLineTooltip": {
+      "message": "Deze regel is te lang. De tekst is ingeklapt om vertraging tijdens het typen te voorkomen.\nJe kunt deze beperking aanpassen in de geavanceerde instellingen. Voorbeeld:\n\"maxDisplayLength\": 20000"
+   },
+   "editNavCode": {
+      "message": "Code"
+   },
+   "editNavSettings": {
+      "message": "Instellingen"
+   },
+   "editNavValues": {
+      "message": "Waarden"
+   },
+   "editValueAllHint": {
+      "message": "Alle scriptwaarden tonen/aanpassen"
+   },
+   "extDescription": {
+      "message": "Een open source gebruikersscriptbeheerder voor diverse webbrowsers"
+   },
+   "extName": {
+      "message": "Violentmonkey"
+   },
+   "failureReasonBlacklisted": {
+      "message": "Staat op Violentmonkey's zwarte lijst"
+   },
+   "failureReasonNoninjectable": {
+      "message": "Violentmonkey kan geen gebruikersscripts uitvoeren op deze pagina\n(bijv. interne of extensiepagina's, of vanwege een blokkadebeleid of bepaalde Opera-zoekmachine)"
+   },
+   "failureReasonRestarted": {
+      "message": "Violentmonkey is opnieuw opgestart. Laad het tabblad opnieuw om gebruikersscripts uit te voeren."
+   },
+   "fileInstallBlocked": {
+      "message": "Er zijn verschillende manieren op bewerkingen in een lokaal bestand op te nemen of bij te houden: \u003C1> Sleep het bestand naar een geopende Violentmonkey-pagina of -pop-up, zoals deze. \u003C2> Installeer een lokale http-server voor dit bestand en open via http://localhost. \u003C3> Schakel toegang tot bestands-url's in voor Violentmonkey op chrome://extensions. Let op: dit wordt afgeraden, omdat elk gebruikersscript lokale bestanden kan uitlezen."
+   },
+   "filterAlphabeticalOrder": {
+      "message": "alfabetisch"
+   },
+   "filterExecutionOrder": {
+      "message": "uitvoervolgorde"
+   },
+   "filterLastUpdateOrder": {
+      "message": "onlangs bijgewerkt"
+   },
+   "filterSize": {
+      "message": "omvang"
+   },
+   "genericError": {
+      "message": "Fout"
+   },
+   "genericOff": {
+      "message": "uit"
+   },
+   "genericOn": {
+      "message": "aan"
+   },
+   "genericUseGlobal": {
+      "message": "algemene instelling volgen"
+   },
+   "hashPatternWarning": {
+      "message": "\"#\"-patronen werken alleen bij het openen van de site of bij het opnieuw laden van het tabblad: $1"
+   },
+   "headerRecycleBin": {
+      "message": "Prullenbak"
+   },
+   "helpForLocalFile": {
+      "message": "Instructies tonen voor slepen-en-neerzetten van lokale scripts"
+   },
+   "hintForBatchAction": {
+      "message": "voor $1 overeenkomende scripts"
+   },
+   "hintInputURL": {
+      "message": "Invoer-url:"
+   },
+   "hintRecycleBin": {
+      "message": "Verwijderde scripts worden hier getoond en 7 dagen bewaard."
+   },
+   "hintUseDownloadURL": {
+      "message": "@downloadURL gebruiken"
+   },
+   "hintVacuum": {
+      "message": "Wis de overbodige gegevens en probeer de ontbrekende bronnen te herladen."
+   },
+   "install": {
+      "message": "Installeren"
+   },
+   "installFrom": {
+      "message": "Installeren van $1"
+   },
+   "installOptionTrackTooltip": {
+      "message": "In Firefox 68 en nieuwer moet het brontabblad geopend blijven."
+   },
+   "labelAdvanced": {
+      "message": "Geavanceerd"
+   },
+   "labelAllowUpdate": {
+      "message": "Updates toestaan"
+   },
+   "labelAuthor": {
+      "message": "Auteur: "
+   },
+   "labelAutoReloadCurrentTab": {
+      "message": "Huidig tabblad herladen na in-/uitschakelen van een script"
+   },
+   "labelAutoUpdate": {
+      "message": "Elke $1 dag(en) controleren op updates (0 = uitschakelen)"
+   },
+   "labelBackupMaintenance": {
+      "message": "Reservekopie en onderhoud"
+   },
+   "labelBadge": {
+      "message": "Embleem:"
+   },
+   "labelBadgeColors": {
+      "message": "Embleemkleuren: "
+   },
+   "labelBadgeNone": {
+      "message": "niks"
+   },
+   "labelBadgeTotal": {
+      "message": "aantal actieve scripts"
+   },
+   "labelBadgeUnique": {
+      "message": "aantal unieke actieve scripts"
+   },
+   "labelBlacklist": {
+      "message": "Zwarte lijst"
+   },
+   "labelContributors": {
+      "message": "Bijdragers"
+   },
+   "labelCurrentLang": {
+      "message": "Huidige taal: "
+   },
+   "labelCustomCSS": {
+      "message": "Aangepaste stijl"
+   },
+   "labelDownloadURL": {
+      "message": "Download-url:"
+   },
+   "labelEditValue": {
+      "message": "Scriptwaarde aanpassen"
+   },
+   "labelEditValueAll": {
+      "message": "Scriptopslag aanpassen"
+   },
+   "labelEditor": {
+      "message": "Bewerker"
+   },
+   "labelEnabledScriptsOnly": {
+      "message": "Alleen ingeschakelde scripts"
+   },
+   "labelExclude": {
+      "message": "@exclude-regels"
+   },
+   "labelExcludeMatch": {
+      "message": "@exclude-match-regels"
+   },
+   "labelExportScriptData": {
+      "message": "Scriptgegevens exporteren"
+   },
+   "labelExposeStatus": {
+      "message": "Geïnstalleerde versies tonen aan gebruikersscriptsites: $1"
+   },
+   "labelFastFirefoxInject": {
+      "message": "Alternatieve $1-modus in Firefox"
+   },
+   "labelFastFirefoxInjectHint": {
+      "message": "Een alternatieve injectiemethode voor \u003Cdocument-start>scripts voor Firefox 59 en nieuwer. Deze methode is sneller en vergelijkbaar met ‘Synchrone paginamodus’. Hierdoor is het geheugengebruik hoger, dus schakel deze optie uit als scripts ook zonder deze optie werken."
+   },
+   "labelFeedback": {
+      "message": "Feedback"
+   },
+   "labelGeneral": {
+      "message": "Algemeen"
+   },
+   "labelHelpTranslate": {
+      "message": "Helpen met vertalen"
+   },
+   "labelHomepage": {
+      "message": "Website"
+   },
+   "labelHomepageURL": {
+      "message": "Website-url:"
+   },
+   "labelIconURL": {
+      "message": "Pictogram-url:"
+   },
+   "labelImportScriptData": {
+      "message": "Scriptgegevens importeren"
+   },
+   "labelImportSettings": {
+      "message": "Instellingen importeren"
+   },
+   "labelInclude": {
+      "message": "@include-regels"
+   },
+   "labelInjectionMode": {
+      "message": "Injectiemodus: "
+   },
+   "labelInstall": {
+      "message": "Scriptinstallatie"
+   },
+   "labelKeepOriginal": {
+      "message": "Origineel behouden"
+   },
+   "labelLastUpdatedAt": {
+      "message": "Bijgewerkt op $1"
+   },
+   "labelLineNumber": {
+      "message": "Regelnummer: "
+   },
+   "labelMatch": {
+      "message": "@match-regels"
+   },
+   "labelName": {
+      "message": "Naam:"
+   },
+   "labelNoFrames": {
+      "message": "Uitvoeren in frames: "
+   },
+   "labelNoName": {
+      "message": "Naamloos"
+   },
+   "labelNoSearchScripts": {
+      "message": "Er zijn geen scripts gevonden."
+   },
+   "labelNotifyThisUpdated": {
+      "message": ", en melden:"
+   },
+   "labelNotifyUpdates": {
+      "message": "Melding tonen bij scriptupdates"
+   },
+   "labelNotifyUpdatesGlobal": {
+      "message": "per-scriptmeldingen negeren (tabblad 'instellingen' in de bewerker)"
+   },
+   "labelPrivacyPolicy": {
+      "message": "Privacybeleid"
+   },
+   "labelReinstall": {
+      "message": "Bezig met herinstalleren…"
+   },
+   "labelRelated": {
+      "message": "Gerelateerde links: "
+   },
+   "labelRemovedAt": {
+      "message": "Verwijderd op $1"
+   },
+   "labelReplace": {
+      "message": "Vervangen door: "
+   },
+   "labelRunAt": {
+      "message": "Uitvoeren op: "
+   },
+   "labelRunAtDefault": {
+      "message": "(standaard)"
+   },
+   "labelScriptTemplate": {
+      "message": "Aangepast scriptsjabloon"
+   },
+   "labelSearch": {
+      "message": "Zoeken naar: "
+   },
+   "labelSearchScript": {
+      "message": "Zoeken naar scripts..."
+   },
+   "labelSettings": {
+      "message": "Instellingen"
+   },
+   "labelShowOrder": {
+      "message": "Uitvoervolgorde tonen"
+   },
+   "labelSync": {
+      "message": "Synchroniseren"
+   },
+   "labelSyncAnonymous": {
+      "message": "Anoniem account gebruiken"
+   },
+   "labelSyncAuthorize": {
+      "message": "Goedkeuren"
+   },
+   "labelSyncAuthorizing": {
+      "message": "Bezig met goedkeuren"
+   },
+   "labelSyncDisabled": {
+      "message": "Niets"
+   },
+   "labelSyncPassword": {
+      "message": "Wachtwoord: "
+   },
+   "labelSyncRevoke": {
+      "message": "Intrekken"
+   },
+   "labelSyncScriptStatus": {
+      "message": "Scriptstatus synchroniseren"
+   },
+   "labelSyncServerUrl": {
+      "message": "Server-url: "
+   },
+   "labelSyncService": {
+      "message": "Synchroniseren naar"
+   },
+   "labelSyncUsername": {
+      "message": "Gebruikersnaam: "
+   },
+   "labelTags": {
+      "message": "Labels (spatiegescheiden):"
+   },
+   "labelTheme": {
+      "message": "Thema: "
+   },
+   "labelUpdateURL": {
+      "message": "Bijwerk-url:"
+   },
+   "labelViewSingleColumn": {
+      "message": "Eén kolom"
+   },
+   "labelViewTable": {
+      "message": "Tabelweergave"
+   },
+   "labelWidth": {
+      "message": "Breedte:"
+   },
+   "labelXhrInject": {
+      "message": "Synchrone $1modus"
+   },
+   "labelXhrInjectHint": {
+      "message": "Schakel deze optie alleen in als je een script hebt dat dient te worden uitgevoerd vóórdat de pagina wordt geladen en het momenteel niet wordt uitgevoerd. Dit is vergelijkbaar met de injectiemodus van Tampermonkey en maakt gebruik van de verouderde synchrone XHR. Hierdoor kan het gebeuren dat je Chrome-/Chromium-console waarschuwingen toont - deze kun je echter negeren. Rechtsklik op een waarschuwing om deze nooit meer te tonen."
+   },
+   "labelXhrInjectNote": {
+      "message": "(m.u.v. incognitomodus en websites met uitgeschakelde cookies)"
+   },
+   "lastSync": {
+      "message": "Gesynchroniseerd op $1"
+   },
+   "learnBlacklist": {
+      "message": "Meer informatie over zwartelijstpatronen."
+   },
+   "learnInjectionMode": {
+      "message": "Meer informatie over injectiemodi."
+   },
+   "menuDashboard": {
+      "message": "Controlepaneel openen"
+   },
+   "menuExclude": {
+      "message": "Uitsluiten..."
+   },
+   "menuExcludeHint": {
+      "message": "Als je deze instelling hebt ingeschakeld, dan zal het huidige tabblad automatisch worden herladen.\nHerlaad de andere tabbladen handmatig om de wijzigingen toe te passen.\nOp het tabblad 'Instellingen' van de bewerker heb je meer flexibiliteit."
+   },
+   "menuFeedback": {
+      "message": "Feedback"
+   },
+   "menuFindScripts": {
+      "message": "Scripts voor deze site zoeken"
+   },
+   "menuInjectionFailed": {
+      "message": "Enkele scripts kunnen niet worden geïnjecteerd."
+   },
+   "menuInjectionFailedFix": {
+      "message": "Opnieuw proberen in 'automatische' modus"
+   },
+   "menuMatchedDisabledScripts": {
+      "message": "Uitgeschakelde compatibele scripts"
+   },
+   "menuMatchedFrameScripts": {
+      "message": "Alleen scripts met onderliggende frames"
+   },
+   "menuMatchedScripts": {
+      "message": "Compatibele scripts"
+   },
+   "menuNewScript": {
+      "message": "Script schrijven"
+   },
+   "menuScriptDisabled": {
+      "message": "Scripts zijn uitgeschakeld"
+   },
+   "menuScriptEnabled": {
+      "message": "Scripts zijn ingeschakeld"
+   },
+   "msgCheckingForUpdate": {
+      "message": "Bezig met controleren op updates..."
+   },
+   "msgDateFormatInfo": {
+      "message": "Klik om de MomentJS-documentatie te lezen. Toegestane sleutels: $1. Gebruik [vierkante haakjes] om letterlijke tekst te beschermen."
+   },
+   "msgErrorFetchingResource": {
+      "message": "De bron kan niet worden opgehaald!"
+   },
+   "msgErrorFetchingScript": {
+      "message": "Het script kan niet worden opgehaald!"
+   },
+   "msgErrorFetchingUpdateInfo": {
+      "message": "De update-informatie kan niet worden opgehaald."
+   },
+   "msgErrorLoadingData": {
+      "message": "De scriptgegevens kunnen niet worden geladen."
+   },
+   "msgErrorLoadingDependency": {
+      "message": "De afhankelijkheden kunnen niet worden geladen."
+   },
+   "msgImported": {
+      "message": "$1 item(s) zijn geïmporteerd."
+   },
+   "msgIncognitoChanges": {
+      "message": "Aanpassingen in incognitomodus worden tevens toegepast op het hoofdprofiel."
+   },
+   "msgInstalled": {
+      "message": "Script geïnstalleerd."
+   },
+   "msgInvalidScript": {
+      "message": "Ongeldig script!"
+   },
+   "msgLoadingData": {
+      "message": "Bezig met laden van scriptgegevens..."
+   },
+   "msgLoadingDependency": {
+      "message": "Bezig met laden van afhankelijkheden... ($1/$2)"
+   },
+   "msgMissingResources": {
+      "message": "Er ontbreken vereiste bronnen."
+   },
+   "msgNamespaceConflict": {
+      "message": "Er is al een vergelijkbaar script geïnstalleerd.\nKies een andere @name en @namespace of bewerk het andere script."
+   },
+   "msgNamespaceConflictRestore": {
+      "message": "Er is al een script met dezelfde @name en @namespace geïnstalleerd."
+   },
+   "msgNewVersion": {
+      "message": "Nieuwe versie gevonden."
+   },
+   "msgNoUpdate": {
+      "message": "Geen update gevonden."
+   },
+   "msgOpenUpdateErrors": {
+      "message": "De scripts kunnen niet worden bijgewerkt. Klik om te openen."
+   },
+   "msgReinstallScripts": {
+      "message": "Sla de volgende scripts opnieuw op of herinstalleer ze:"
+   },
+   "msgSameCode": {
+      "message": "(code is hetzelfde)"
+   },
+   "msgScriptUpdated": {
+      "message": "Script [$1] is bijgewerkt!"
+   },
+   "msgShowHide": {
+      "message": "Tonen/Verbergen"
+   },
+   "msgSyncError": {
+      "message": "Synchronisatiefout!"
+   },
+   "msgSyncInit": {
+      "message": "Bezig met initialiseren..."
+   },
+   "msgSyncInitError": {
+      "message": "Initialisatiefout!"
+   },
+   "msgSyncNoAuthYet": {
+      "message": "Nog niet geautoriseerd."
+   },
+   "msgSyncReady": {
+      "message": "De synchronisatie begint spoedig..."
+   },
+   "msgSyncing": {
+      "message": "Bezig met synchroniseren..."
+   },
+   "msgSyntaxError": {
+      "message": "Syntaxisfout?"
+   },
+   "msgTardyMatch": {
+      "message": "Het script bestond niet of kwam niet overeen met de URL toen de pagina werd geladen, wat gebeurt bij Single-Page Application-sites zoals FB of Instagram die gebruikmaken van nepnavigatie. Je kan het tabblad opnieuw laden om het script uit te voeren. Gebruik @match voor de hele site om het script te repareren en detecteer vervolgens wijzigingen met MutationObserver of window.navigation API."
+   },
+   "msgUpdated": {
+      "message": "Het script is bijgewerkt."
+   },
+   "msgUpdating": {
+      "message": "Bezig met bijwerken..."
+   },
+   "noValues": {
+      "message": "Er is geen waarde opgeslagen"
+   },
+   "optionEditorWindow": {
+      "message": "Bewerker in nieuw venster openen"
+   },
+   "optionEditorWindowHint": {
+      "message": "De vensterpositie van de bewerker wordt alleen onthouden na het aanpassen van de afmetingen en bij het opslaan"
+   },
+   "optionEditorWindowSimple": {
+      "message": "Omnibalk verbergen"
+   },
+   "optionPopup": {
+      "message": "Pop-upmenu en pictogram"
+   },
+   "optionPopupEnabledFirst": {
+      "message": "Ingeschakelde bovenaan"
+   },
+   "optionPopupGroupRunAt": {
+      "message": "Groeperen op @run-at-niveau"
+   },
+   "optionShowEnabledFirst": {
+      "message": "Ingeschakelde scripts bovenaan"
+   },
+   "optionUiTheme": {
+      "message": "UI Thema: "
+   },
+   "optionUiThemeAuto": {
+      "message": "automatisch"
+   },
+   "optionUiThemeDark": {
+      "message": "donker"
+   },
+   "optionUiThemeLight": {
+      "message": "licht"
+   },
+   "optionUpdate": {
+      "message": "Bijwerken"
+   },
+   "popupSettings": {
+      "message": "Pop-upinstellingen"
+   },
+   "popupSettingsHint": {
+      "message": "Rechtsklikken: pop-upinstellingen"
+   },
+   "readonly": {
+      "message": "Alleen-lezen"
+   },
+   "readonlyNote": {
+      "message": "Het automatisch bijgewerkte script is alleen-lezen, tenzij je updates uitschakelt of bewerken toestaat."
+   },
+   "readonlyOpt": {
+      "message": "Bewerken toestaan"
+   },
+   "readonlyOptWarn": {
+      "message": "(de volgende update overschrijft ze)"
+   },
+   "reinstall": {
+      "message": "Opnieuw installeren"
+   },
+   "reloadTab": {
+      "message": "Tabblad herladen"
+   },
+   "reloadTabTrackHint": {
+      "message": "Schakel in om het actieve tabblad te herladen als er wijzigingen zijn aangetroffen en het script overeenkomt met de url."
+   },
+   "searchCaseSensitive": {
+      "message": "Hoofdlettergevoelig"
+   },
+   "searchUseRegex": {
+      "message": "Reguliere uitdrukkingen gebruiken"
+   },
+   "sideMenuAbout": {
+      "message": "Over"
+   },
+   "sideMenuInstalled": {
+      "message": "Geïnstalleerde scripts"
+   },
+   "sideMenuSettings": {
+      "message": "Instellingen"
+   },
+   "skipScripts": {
+      "message": "Tabblad herladen zonder gebruikersscripts"
+   },
+   "skipScriptsMsg": {
+      "message": "Je hebt gebruikersscripts uitgeschakeld op deze pagina. Schakel ze in door te herladen of een link aan te klikken."
+   },
+   "sortOrder": {
+      "message": "Sorteervolgorde"
+   },
+   "stopTracking": {
+      "message": "Bijhouden stoppen"
+   },
+   "titleBadgeColor": {
+      "message": "Normale embleemkleur"
+   },
+   "titleBadgeColorBlocked": {
+      "message": "De kleur die wordt gebruikt als de code niet kan worden toegevoegd aan de site (zwarte lijst of niet-ondersteund)"
+   },
+   "titleSearchHintV2": {
+      "message": "* \u003Ckbd>Enter\u003C/kbd>toets om tekst toe te voegen aan automatisch aanvullen \n* Alle omstandigheden zijn hoofdletterongevoelig\n* Spatiegescheiden omstandigheden kunnen worden gecombineerd\n* Zoeken op metagegevens: \u003Ccode>\"Geweldig script\" \"Beschrijving\"\u003C/code>\n* Zoeken op labels: \u003Ccode>#label1 #label2\u003C/code>\n* Zoeken op scriptnaam: \u003Ccode>name:\"geweldige naam\"\u003C/code>\n* Zoeken op scriptcode: \u003Ccode>code:\"geweldige code\"\u003C/code>\n* Negatief zoeken: \u003Ccode>!#label2 !name:\"ongewenst\"\u003C/code>\n* Reguliere uitdrukkingen: \u003Ccode>/\\w+?/\u003C/code>, \u003Ccode>/\\w+?/gi\u003C/code>, \u003Ccode>name:/\\w+?/\u003C/code>, \u003Ccode>name+re:\"\\w+? met spatie\"\u003C/code>"
+   },
+   "toggleInjection": {
+      "message": "Gebruikersscriptinjectie aan/uit"
+   },
+   "trackEdits": {
+      "message": "Externe bewerkingen bijhouden"
+   },
+   "trackEditsNote": {
+      "message": "Houd deze pagina geopend om bewerkingen in het lokale bestand bij te houden"
+   },
+   "updateListedCmd": {
+      "message": "Scrips bĳwerken ($1)"
+   },
+   "updateScript": {
+      "message": "Bijwerken"
+   },
+   "updateScriptsAll": {
+      "message": "Alle scripts bijwerken"
+   },
+   "updateScriptsInTab": {
+      "message": "Scripts van huidig tabblad bijwerken"
+   },
+   "valueLabelKey": {
+      "message": "Sleutel (tekenreeks)"
+   },
+   "valueLabelValue": {
+      "message": "Waarde (in json-opmaak)"
+   },
+   "valueLabelValueAll": {
+      "message": "Alle waarden (in json-opmaak)"
+   }
+}

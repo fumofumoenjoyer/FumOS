@@ -1,0 +1,70 @@
+{
+   "advancedLabel": {
+      "description": "Advanced label.",
+      "message": "Edasijõudnuile"
+   },
+   "amountInjectedDescription": {
+      "description": "Amount injected description.",
+      "message": "Kohalike sisuedastusvõrkude ressursisisestuste arv alates installimisest."
+   },
+   "amountInjectedTitle": {
+      "description": "Amount injected title.",
+      "message": "Kohalikult sisestatud ressursside loendur"
+   },
+   "blockMissingDescription": {
+      "description": "Block requests for missing resources description.",
+      "message": "Tühista kinnipüütud taotlus, kui vajaminev ressurss ei ole kohalikult saadaval."
+   },
+   "blockMissingTitle": {
+      "description": "Block requests for missing resources title.",
+      "message": "Blokeeri puuduvate ressursside taotlused"
+   },
+   "disablePrefetchDescription": {
+      "description": "Disable prefetch description.",
+      "message": "Väldi keelatud taotluste väljalekkimist edastusvõrkudele."
+   },
+   "disablePrefetchTitle": {
+      "description": "Disable prefetch title.",
+      "message": "Keela lingi eellaadimine"
+   },
+   "disableProtectionTitle": {
+      "description": "Disable protection title.",
+      "message": "Keela kaitse sellel saidil"
+   },
+   "enableProtectionTitle": {
+      "description": "Enable protection title.",
+      "message": "Luba kaitse"
+   },
+   "extensionDescription": {
+      "description": "Extension description.",
+      "message": "Kaitseb sind \"tasuta\", tsentraliseeritud sisu edastamisest tuleneva jälitamise vastu."
+   },
+   "optionsTitle": {
+      "description": "Options title.",
+      "message": "Valikud"
+   },
+   "showIconBadgeDescription": {
+      "description": "Show icon badge description.",
+      "message": "Kuva sisestatud ressursside arvu laienduse ikoonil."
+   },
+   "showIconBadgeTitle": {
+      "description": "Show icon badge title.",
+      "message": "Kuva sisestuste arvu ikoonil"
+   },
+   "stripMetadataDescription": {
+      "description": "Strip metadata description.",
+      "message": "Kustuta tundlikud andmed lubatud sisuedastusvõrkude taotlustest parema privaatsuse saamiseks."
+   },
+   "stripMetadataTitle": {
+      "description": "Strip metadata title.",
+      "message": "Eemalda lubatud taotlustelt metaandmed"
+   },
+   "whitelistedDomainsDescription": {
+      "description": "Whitelisted domains description.",
+      "message": "Sisesta domeenid, et lisada need valgesse nimekirja. Eralda mitu üksust semikoolonitega (;)."
+   },
+   "whitelistedDomainsTitle": {
+      "description": "Whitelisted domains title.",
+      "message": "Välista uuritavaid domeene"
+   }
+}

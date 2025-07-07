@@ -1,0 +1,5407 @@
+{
+   "aNotificationWasSentToYourDevice": {
+      "message": "Una notifica è stata inviata al tuo dispositivo"
+   },
+   "about": {
+      "message": "Informazioni"
+   },
+   "aboutBitwarden": {
+      "message": "Informazioni su Bitwarden"
+   },
+   "acceptPolicies": {
+      "message": "Selezionando questa casella accetti quanto segue:"
+   },
+   "acceptPoliciesRequired": {
+      "message": "I Termini di Servizio e l'Informativa sulla Privacy non sono stati accettati."
+   },
+   "accessDenied": {
+      "message": "Accesso negato. Non hai i permessi necessari per visualizzare questa pagina."
+   },
+   "accessing": {
+      "message": "Accedendo a"
+   },
+   "accountActions": {
+      "message": "Azioni dell'account"
+   },
+   "accountEmail": {
+      "message": "Account email"
+   },
+   "accountLimitReached": {
+      "message": "Limite di account raggiunto. Esci da un account per aggiungerne un altro."
+   },
+   "accountRestricted": {
+      "message": "Account limitato"
+   },
+   "accountRestrictedOptionDescription": {
+      "message": "Usa la chiave di crittografia dell'account, derivata dal nome utente e dalla password principale del tuo account, per crittografare il file di esportazione e limitare l'importazione solo all'account Bitwarden corrente."
+   },
+   "accountSecurity": {
+      "message": "Sicurezza dell'account"
+   },
+   "accountSuccessfullyCreated": {
+      "message": "Account creato!"
+   },
+   "active": {
+      "message": "attivo"
+   },
+   "activeAccount": {
+      "message": "Account attivo"
+   },
+   "activeUserEmailNotFoundLoggingYouOut": {
+      "message": "Email utente attiva non trovata. Logout in corso."
+   },
+   "add": {
+      "message": "Aggiungi"
+   },
+   "addAccount": {
+      "message": "Aggiungi account"
+   },
+   "addAttachment": {
+      "message": "Aggiungi allegato"
+   },
+   "addCardMenu": {
+      "message": "Aggiungi carta"
+   },
+   "addDomain": {
+      "description": "'Domain' here refers to an internet domain name (e.g. 'bitwarden.com') and the message in whole described the act of putting a domain value into the context.",
+      "message": "Aggiungi dominio"
+   },
+   "addField": {
+      "message": "Aggiungi campo"
+   },
+   "addFolder": {
+      "message": "Aggiungi cartella"
+   },
+   "addIdentityMenu": {
+      "message": "Aggiungi identità"
+   },
+   "addItem": {
+      "message": "Aggiungi elemento"
+   },
+   "addLogin": {
+      "message": "Aggiungi un login"
+   },
+   "addLoginMenu": {
+      "message": "Aggiungi login"
+   },
+   "addLoginNotificationDesc": {
+      "message": "Chiedi di aggiungere un nuovo elemento se non ce n'è uno nella tua cassaforte."
+   },
+   "addLoginNotificationDescAlt": {
+      "message": "Chiedi di creare un nuovo elemento se non ce n'è uno nella tua cassaforte. Si applica a tutti gli account sul dispositivo."
+   },
+   "addNewCardItemAria": {
+      "description": "Screen reader text (aria-label) for new card button within inline menu",
+      "message": "Aggiungi un nuovo elemento \"carta\" alla cassaforte, apri in una nuova finestra"
+   },
+   "addNewIdentityItemAria": {
+      "description": "Screen reader text (aria-label) for new identity button within inline menu",
+      "message": "Aggiungi un nuovo elemento \"identità\" alla cassaforte, apri in una nuova finestra"
+   },
+   "addNewLoginItemAria": {
+      "description": "Screen reader text (aria-label) for new login button within inline menu",
+      "message": "Aggiungi un nuovo elemento 'login' alla cassaforte (si apre in una nuova finestra)"
+   },
+   "addNewVaultItem": {
+      "description": "Screen reader text (aria-label) for new item button in overlay",
+      "message": "Aggiungi un nuovo elemento alla cassaforte"
+   },
+   "addWebsite": {
+      "message": "Aggiungi sito web"
+   },
+   "addedFolder": {
+      "message": "Cartella aggiunta"
+   },
+   "addedItem": {
+      "message": "Elemento aggiunto"
+   },
+   "additionalContentAvailable": {
+      "message": "Sono disponibili ulteriori contenuti"
+   },
+   "additionalInformation": {
+      "message": "Informazioni aggiuntive"
+   },
+   "additionalOptions": {
+      "message": "Opzioni aggiuntive"
+   },
+   "address": {
+      "message": "Indirizzo"
+   },
+   "address1": {
+      "message": "Indirizzo 1"
+   },
+   "address2": {
+      "message": "Indirizzo 2"
+   },
+   "address3": {
+      "message": "Indirizzo 3"
+   },
+   "adminApprovalRequestSentToAdmins": {
+      "message": "La tua richiesta è stata inviata al tuo amministratore."
+   },
+   "adminApprovalRequested": {
+      "message": "Approvazione dell'amministratore richiesta"
+   },
+   "adminConsole": {
+      "message": "Console di amministrazione"
+   },
+   "aliasDomain": {
+      "message": "Dominio alias"
+   },
+   "allItems": {
+      "message": "Tutti gli elementi"
+   },
+   "allSends": {
+      "description": "'Send' is a noun and the name of a feature called 'Bitwarden Send'. It should not be translated.",
+      "message": "Tutti i Send"
+   },
+   "allVaults": {
+      "message": "Tutte le casseforti"
+   },
+   "alreadyHaveAccount": {
+      "message": "Hai già un account?"
+   },
+   "alwaysForThisSite": {
+      "message": "Sempre per questo sito"
+   },
+   "ampersandCharacterDescriptor": {
+      "description": "Represents the & key in screen reader content as a readable word",
+      "message": "E commerciale"
+   },
+   "and": {
+      "message": "e"
+   },
+   "andContinueCreatingYourAccount": {
+      "message": "e continua a creare il tuo account."
+   },
+   "apiAccessToken": {
+      "message": "Token di accesso API"
+   },
+   "apiKey": {
+      "message": "Chiave API"
+   },
+   "apiUrl": {
+      "message": "URL del server API"
+   },
+   "appLogoLabel": {
+      "message": "Logo di Bitwarden"
+   },
+   "appName": {
+      "message": "Bitwarden"
+   },
+   "appearance": {
+      "message": "Aspetto"
+   },
+   "approveFromYourOtherDevice": {
+      "message": "Approva dall'altro tuo dispositivo"
+   },
+   "april": {
+      "message": "Aprile"
+   },
+   "assign": {
+      "message": "Assegna"
+   },
+   "assignToCollections": {
+      "message": "Assegna alle raccolte"
+   },
+   "asteriskCharacterDescriptor": {
+      "description": "Represents the * key in screen reader content as a readable word",
+      "message": "Asterisco"
+   },
+   "atAnyTime": {
+      "message": "in qualsiasi momento."
+   },
+   "atRiskChangePrompt": {
+      "description": "Notification body when a login triggers an at-risk password change request and the change password domain is known.",
+      "message": "Your password for this site is at-risk. $ORGANIZATION$ has requested that you change it.",
+      "placeholders": {
+         "organization": {
+            "content": "$1",
+            "example": "Acme Corp"
+         }
+      }
+   },
+   "atRiskNavigatePrompt": {
+      "description": "Notification body when a login triggers an at-risk password change request and no change password domain is provided.",
+      "message": "$ORGANIZATION$ wants you to change this password because it is at-risk. Navigate to your account settings to change the password.",
+      "placeholders": {
+         "organization": {
+            "content": "$1",
+            "example": "Acme Corp"
+         }
+      }
+   },
+   "atRiskPassword": {
+      "message": "At-risk password"
+   },
+   "atRiskPasswordDescSingleOrg": {
+      "message": "$ORGANIZATION$ ti chiede di cambiare una parola d'accesso perché è a rischio.",
+      "placeholders": {
+         "organization": {
+            "content": "$1",
+            "example": "Acme Corp"
+         }
+      }
+   },
+   "atRiskPasswords": {
+      "message": "Parola d'accesso a rischio"
+   },
+   "atRiskPasswordsDescMultiOrgPlural": {
+      "message": "Le tue organizzazioni ti chiedono di modificare le $COUNT$ parole d'accesso perché sono a rischio.",
+      "placeholders": {
+         "count": {
+            "content": "$1",
+            "example": "2"
+         }
+      }
+   },
+   "atRiskPasswordsDescSingleOrgPlural": {
+      "message": "$ORGANIZATION$ ti sta richiedendo di modificare $COUNT$ parole d'accesso perché sono a rischio.",
+      "placeholders": {
+         "count": {
+            "content": "$2",
+            "example": "2"
+         },
+         "organization": {
+            "content": "$1",
+            "example": "Acme Corp"
+         }
+      }
+   },
+   "atSignCharacterDescriptor": {
+      "description": "Represents the @ key in screen reader content as a readable word",
+      "message": "Chiocciola"
+   },
+   "attachmentSaved": {
+      "message": "Allegato salvato"
+   },
+   "attachments": {
+      "message": "Allegati"
+   },
+   "august": {
+      "message": "Agosto"
+   },
+   "authenticating": {
+      "message": "Autenticazione"
+   },
+   "authenticationSessionTimedOut": {
+      "message": "La sessione di autenticazione è scaduta. Accedi di nuovo."
+   },
+   "authenticationTimeout": {
+      "message": "Timeout autenticazione"
+   },
+   "authenticatorAppDescV2": {
+      "description": "'Bitwarden Authenticator' is a product name and should not be translated.",
+      "message": "Inserisci un codice generato da un'app di autenticazione come Bitwarden Authenticator."
+   },
+   "authenticatorAppTitle": {
+      "message": "App di autenticazione"
+   },
+   "authenticatorKey": {
+      "message": "Chiave di autenticazione"
+   },
+   "authenticatorKeyTotp": {
+      "message": "Chiave di autenticazione (TOTP)"
+   },
+   "autoFill": {
+      "message": "Riempimento automatico"
+   },
+   "autoFillAndSave": {
+      "message": "Riempi automaticamente e salva"
+   },
+   "autoFillCard": {
+      "message": "Riempi automaticamente carta"
+   },
+   "autoFillIdentity": {
+      "message": "Riempi automaticamente identità"
+   },
+   "autoFillInfo": {
+      "message": "Non ci sono login disponibili per riempire automaticamente questa scheda del browser."
+   },
+   "autoFillLogin": {
+      "message": "Riempi automaticamente login"
+   },
+   "autoFillOnPageLoad": {
+      "message": "Riempi automaticamente al caricamento della pagina?"
+   },
+   "autoFillOnPageLoadNo": {
+      "message": "Non riempire automaticamente al caricamento della pagina"
+   },
+   "autoFillOnPageLoadUseDefault": {
+      "message": "Usa impostazione predefinita"
+   },
+   "autoFillOnPageLoadYes": {
+      "message": "Riempi automaticamente al caricamento della pagina"
+   },
+   "autoFillSuccess": {
+      "message": "Elemento riempito automaticamente "
+   },
+   "autoFillSuccessAndSavedUri": {
+      "message": "Elemento riempito automaticamente e URI salvato"
+   },
+   "autofillBlockedNoticeGuidance": {
+      "message": "Modifica questo nelle impostazioni"
+   },
+   "autofillBlockedNoticeV2": {
+      "message": "La compilazione automatica è bloccata per questo sito."
+   },
+   "autofillError": {
+      "message": "Impossibile riempire automaticamente questo elemento nella pagina. Copia e incolla le credenziali."
+   },
+   "autofillIframeWarning": {
+      "message": "Il modulo è ospitato da un dominio diverso dall'URI del tuo login salvato. Clicca Ok per riempire automaticamente comunque, o Annulla per interrompere."
+   },
+   "autofillIframeWarningTip": {
+      "message": "Per evitare questo avviso in futuro, salva questo URI, $HOSTNAME$, nel tuo elemento di login Bitwarden per questo sito.",
+      "placeholders": {
+         "hostname": {
+            "content": "$1",
+            "example": "www.example.com"
+         }
+      }
+   },
+   "autofillKeyboardManagerShortcutsLabel": {
+      "message": "Gestisci scorciatoie"
+   },
+   "autofillKeyboardShortcutSectionTitle": {
+      "message": "Scorciatoia del riempimento automatico"
+   },
+   "autofillKeyboardShortcutUpdateLabel": {
+      "message": "Cambia scorciatoia"
+   },
+   "autofillLoginShortcutNotSet": {
+      "message": "Non è stata impostata nessuna scorciatoia per il riempimento automatico. Aggiungila dalle impostazioni del browser."
+   },
+   "autofillLoginShortcutText": {
+      "message": "La scorciatoia per il riempimento automatico è $COMMAND$. Gestisci tutte le scorciatoie dalle impostazioni del browser.",
+      "placeholders": {
+         "command": {
+            "content": "$1",
+            "example": "CTRL+Shift+L"
+         }
+      }
+   },
+   "autofillOnPageLoadSetToDefault": {
+      "description": "Toast message for informing the user that autofill on page load has been set to the default setting.",
+      "message": "Riempimento automatico al caricamento della pagina impostato con l'impostazione predefinita."
+   },
+   "autofillOptions": {
+      "message": "Opzioni di riempimento automatico"
+   },
+   "autofillOverlayVisibilityOff": {
+      "description": "Overlay setting select option for disabling autofill overlay",
+      "message": "No"
+   },
+   "autofillOverlayVisibilityOnButtonClick": {
+      "description": "Overlay appearance select option for showing the field on click of the overlay icon",
+      "message": "Quando l'icona di riempimento automatico è selezionata"
+   },
+   "autofillOverlayVisibilityOnFieldFocus": {
+      "description": "Overlay appearance select option for showing the field on focus of the input element",
+      "message": "Quando il campo è selezionato"
+   },
+   "autofillPageLoadPolicyActivated": {
+      "message": "Le politiche della tua organizzazione hanno abilitato il riempimento automatico al caricamento della pagina."
+   },
+   "autofillSelectInfoWithCommand": {
+      "message": "Seleziona un elemento da questa schermata, usa la scorciatoia $COMMAND$, o esplora altre opzioni nelle impostazioni.",
+      "placeholders": {
+         "command": {
+            "content": "$1",
+            "example": "CTRL+Shift+L"
+         }
+      }
+   },
+   "autofillSelectInfoWithoutCommand": {
+      "message": "Seleziona un elemento da questa schermata o esplora altre opzioni nelle impostazioni."
+   },
+   "autofillSettings": {
+      "message": "Impostazioni di riempimento automatico"
+   },
+   "autofillShortcut": {
+      "message": "Scorciatoia da tastiera per riempire automaticamente"
+   },
+   "autofillShortcutTextSafari": {
+      "message": "Scorciatoia da tastiera predefinita per riempire automaticamente: $COMMAND$.",
+      "placeholders": {
+         "command": {
+            "content": "$1",
+            "example": "CTRL+Shift+L"
+         }
+      }
+   },
+   "autofillSpotlightDesc": {
+      "message": "Disattiva le impostazioni di riempimento automatico del tuo browser, in modo da non entrare in conflitto con Bitwarden."
+   },
+   "autofillSpotlightTitle": {
+      "message": "Trova facilmente suggerimenti di riempimento automatico"
+   },
+   "autofillSuggestions": {
+      "message": "Suggerimenti riempimento automatico"
+   },
+   "autofillSuggestionsSectionTitle": {
+      "message": "Suggerimenti per il riempimento automatico"
+   },
+   "autofillSuggestionsTip": {
+      "message": "Salva un elemento di accesso per questo sito da riempire automaticamente"
+   },
+   "autofillTitle": {
+      "description": "Title for a button that autofills a login item.",
+      "message": "Riempi automaticamente - $ITEMNAME$",
+      "placeholders": {
+         "itemname": {
+            "content": "$1",
+            "example": "Secret Item"
+         }
+      }
+   },
+   "autofillTitleWithField": {
+      "description": "Title for a button that autofills a login item.",
+      "message": "Riempimento automatico - $ITEMNAME$ - $FIELD$",
+      "placeholders": {
+         "field": {
+            "content": "$2",
+            "example": "Username"
+         },
+         "itemname": {
+            "content": "$1",
+            "example": "Secret Item"
+         }
+      }
+   },
+   "availableAccounts": {
+      "message": "Account disponibili"
+   },
+   "avoidAmbiguous": {
+      "description": "Label for the avoid ambiguous characters checkbox.",
+      "message": "Evita caratteri ambigui"
+   },
+   "awaitDesktop": {
+      "message": "In attesa di conferma dal desktop"
+   },
+   "awaitDesktopDesc": {
+      "message": "Conferma utilizzando l'autenticazione biometrica nell'app Bitwarden Desktop per abilitare l'autenticazione biometrica per il browser."
+   },
+   "awaitingConfirmation": {
+      "message": "In attesa di conferma"
+   },
+   "awaitingSSO": {
+      "message": "In attesa di autenticazione SSO"
+   },
+   "awaitingSSODesc": {
+      "message": "Continua ad accedere utilizzando le tue credenziali aziendali."
+   },
+   "awaitingSecurityKeyInteraction": {
+      "message": "In attesa di interazione con la chiave di sicurezza..."
+   },
+   "back": {
+      "message": "Indietro"
+   },
+   "backSlashCharacterDescriptor": {
+      "description": "Represents the back slash key in screen reader content as a readable word",
+      "message": "Barra rovesciata"
+   },
+   "backTo": {
+      "description": "Navigate back to a previous folder or collection",
+      "message": "Torna a $NAME$",
+      "placeholders": {
+         "name": {
+            "content": "$1",
+            "example": "Work"
+         }
+      }
+   },
+   "backtickCharacterDescriptor": {
+      "description": "Represents the ` key in screen reader content as a readable word",
+      "message": "Backtick"
+   },
+   "badgeCounterDesc": {
+      "message": "Mostra il numero di login salvati per il sito web corrente nell'icona dell'estensione."
+   },
+   "baseDomain": {
+      "description": "Domain name. Ex. website.com",
+      "message": "Dominio di base"
+   },
+   "baseDomainOptionRecommended": {
+      "description": "Domain name. Ex. website.com",
+      "message": "Dominio di base (raccomandato)"
+   },
+   "baseUrl": {
+      "message": "URL del server"
+   },
+   "beta": {
+      "message": "Beta"
+   },
+   "biometricsFailedDesc": {
+      "message": "L'autenticazione biometrica non può essere completata, prova a usare una password principale o a uscire. Se il problema persiste, contatta l'assistenza di Bitwarden."
+   },
+   "biometricsFailedTitle": {
+      "message": "Autenticazione biometrica fallita"
+   },
+   "biometricsNotAvailableDesc": {
+      "message": "Lo sblocco biometrico non è attualmente disponibile. Riprova più tardi."
+   },
+   "biometricsNotAvailableTitle": {
+      "message": "Sblocco biometrico non disponibile"
+   },
+   "biometricsNotEnabledDesc": {
+      "message": "L'autenticazione biometrica del browser richiede che l'autenticazione biometrica sia già abilitata anche nelle impostazioni del desktop."
+   },
+   "biometricsNotEnabledTitle": {
+      "message": "Autenticazione biometrica non abilitata"
+   },
+   "biometricsNotSupportedDesc": {
+      "message": "L'autenticazione biometrica del browser non è supportata su questo dispositivo."
+   },
+   "biometricsNotSupportedTitle": {
+      "message": "Autenticazione biometrica non supportata"
+   },
+   "biometricsNotUnlockedDesc": {
+      "message": "Sblocca questo utente nell'applicazione desktop e riprova."
+   },
+   "biometricsNotUnlockedTitle": {
+      "message": "Utente bloccato o uscito"
+   },
+   "biometricsStatusHelptextAutoSetupNeeded": {
+      "message": "Lo sblocco biometrico non è disponibile a causa di file di sistema mal configurati."
+   },
+   "biometricsStatusHelptextDesktopDisconnected": {
+      "message": "Lo sblocco biometrico non è disponibile perché l'app desktop Bitwarden è chiusa."
+   },
+   "biometricsStatusHelptextHardwareUnavailable": {
+      "message": "Lo sblocco biometrico non è attualmente disponibile."
+   },
+   "biometricsStatusHelptextManualSetupNeeded": {
+      "message": "Lo sblocco biometrico non è disponibile a causa di file di sistema mal configurati."
+   },
+   "biometricsStatusHelptextNotEnabledInDesktop": {
+      "message": "Lo sblocco biometrico non è disponibile perché non è abilitato per $EMAIL$ nell'app desktop Bitwarden.",
+      "placeholders": {
+         "email": {
+            "content": "$1",
+            "example": "mail@example.com"
+         }
+      }
+   },
+   "biometricsStatusHelptextUnavailableReasonUnknown": {
+      "message": "Lo sblocco biometrico non è attualmente disponibile per un motivo sconosciuto."
+   },
+   "biometricsStatusHelptextUnlockNeeded": {
+      "message": "Lo sblocco biometrico non è disponibile perché è necessario prima sbloccare con PIN o parola d'accesso."
+   },
+   "bitWebVaultApp": {
+      "message": "Bitwarden web app"
+   },
+   "bitwardenAccount": {
+      "message": "Account Bitwarden"
+   },
+   "bitwardenAuthenticator": {
+      "message": "Bitwarden Authenticator"
+   },
+   "bitwardenForBusiness": {
+      "message": "Bitwarden for Business"
+   },
+   "bitwardenForBusinessPageDesc": {
+      "message": "Bitwarden for Business ti consente di condividere gli elementi della tua cassaforte con altri usando un'organizzazione. Scopri di più su bitwarden.com."
+   },
+   "bitwardenOverlayButton": {
+      "description": "Page title for the iframe containing the overlay button",
+      "message": "Pulsante del menu di riempimento automatico di Bitwarden"
+   },
+   "bitwardenOverlayMenuAvailable": {
+      "description": "Screen reader text for announcing when the overlay opens on the page",
+      "message": "Il menu di riempimento automatico di Bitwarden è disponibile. Premi il tasto freccia giù per selezionare."
+   },
+   "bitwardenSecretsManager": {
+      "message": "Bitwarden Secrets Manager"
+   },
+   "bitwardenVault": {
+      "description": "Page title in overlay",
+      "message": "Menu di riempimento automatico di Bitwarden"
+   },
+   "blockedDomains": {
+      "message": "Domini bloccati"
+   },
+   "blockedDomainsDesc": {
+      "message": "Per questi siti, riempimento automatico e funzionalità simili non saranno disponibili. Ricarica la pagina per applicare le modifiche."
+   },
+   "blockedDomainsSavedSuccess": {
+      "message": "Modifiche ai domini bloccati salvate"
+   },
+   "braceLeftCharacterDescriptor": {
+      "description": "Represents the { key in screen reader content as a readable word",
+      "message": "Parentesi graffa aperta"
+   },
+   "braceRightCharacterDescriptor": {
+      "description": "Represents the } key in screen reader content as a readable word",
+      "message": "Parentesi graffa chiusa"
+   },
+   "bracketLeftCharacterDescriptor": {
+      "description": "Represents the [ key in screen reader content as a readable word",
+      "message": "Parentesi quadra aperta"
+   },
+   "bracketRightCharacterDescriptor": {
+      "description": "Represents the ] key in screen reader content as a readable word",
+      "message": "Parentesi quadra chiusa"
+   },
+   "brand": {
+      "message": "Marca"
+   },
+   "browserNotSupportClipboard": {
+      "message": "Il tuo browser non supporta copiare dagli appunti. Copialo manualmente."
+   },
+   "bulkCollectionAssignmentDialogDescriptionPlural": {
+      "message": "Solo i membri dell'organizzazione con accesso a queste raccolte saranno in grado di vedere gli elementi."
+   },
+   "bulkCollectionAssignmentDialogDescriptionSingular": {
+      "message": "Solo i membri dell'organizzazione con accesso a queste raccolte saranno in grado di vedere l'elemento."
+   },
+   "bulkCollectionAssignmentWarning": {
+      "message": "Hai selezionato $TOTAL_COUNT$ elementi. Non puoi aggiornare $READONLY_COUNT$ elementi perché non hai l'autorizzazione per modificarli.",
+      "placeholders": {
+         "readonly_count": {
+            "content": "$2"
+         },
+         "total_count": {
+            "content": "$1",
+            "example": "10"
+         }
+      }
+   },
+   "byContinuingYouAgreeToThe": {
+      "message": "Continuando accetti le"
+   },
+   "cancel": {
+      "message": "Annulla"
+   },
+   "cannotRemoveViewOnlyCollections": {
+      "message": "Non puoi rimuovere raccolte con i soli permessi di visualizzazione: $COLLECTIONS$",
+      "placeholders": {
+         "collections": {
+            "content": "$1",
+            "example": "Work, Personal"
+         }
+      }
+   },
+   "capitalize": {
+      "description": "Make the first letter of a work uppercase.",
+      "message": "Rendi maiuscolo"
+   },
+   "cardBrandDetails": {
+      "message": "Dati del $BRAND$",
+      "placeholders": {
+         "brand": {
+            "content": "$1",
+            "example": "Visa"
+         }
+      }
+   },
+   "cardDetails": {
+      "message": "Dati della carta"
+   },
+   "cardExpiredMessage": {
+      "message": "Se hai rinnovato la carta, aggiorna le informazioni"
+   },
+   "cardExpiredTitle": {
+      "message": "Carta scaduta"
+   },
+   "cardMetrics": {
+      "message": "di $TOTAL$",
+      "placeholders": {
+         "total": {
+            "content": "$1",
+            "example": "5"
+         }
+      }
+   },
+   "cardNumberEndsWith": {
+      "description": "Used within the inline menu to provide an aria description when users are attempting to fill a card cipher.",
+      "message": "il numero di carta termina con"
+   },
+   "cardholderName": {
+      "message": "Titolare della carta"
+   },
+   "cards": {
+      "message": "Carte"
+   },
+   "caretCharacterDescriptor": {
+      "description": "Represents the ^ key in screen reader content as a readable word",
+      "message": "Accento circonflesso"
+   },
+   "catchallEmail": {
+      "message": "Email catch-all"
+   },
+   "catchallEmailDesc": {
+      "message": "Usa la casella di posta catch-all di dominio."
+   },
+   "cfTypeBoolean": {
+      "message": "Booleano"
+   },
+   "cfTypeCheckbox": {
+      "message": "Casella di controllo"
+   },
+   "cfTypeHidden": {
+      "message": "Nascosto"
+   },
+   "cfTypeLinked": {
+      "description": "This describes a field that is 'linked' (tied) to another field.",
+      "message": "Collegato"
+   },
+   "cfTypeText": {
+      "message": "Testo"
+   },
+   "change": {
+      "message": "Cambia"
+   },
+   "changeAtRiskPassword": {
+      "message": "Cambia parola d'accesso a rischio"
+   },
+   "changeAtRiskPasswordsFaster": {
+      "message": "Cambia le parole d'accesso a rischio più velocemente"
+   },
+   "changeAtRiskPasswordsFasterDesc": {
+      "message": "Aggiorna le impostazioni in modo da poter rapidamente riempire automaticamente le parole d'accesso e generarne di nuove"
+   },
+   "changeButtonTitle": {
+      "message": "Cambia parola d'accesso - $ITEMNAME$",
+      "placeholders": {
+         "itemname": {
+            "content": "$1",
+            "example": "Secret Item"
+         }
+      }
+   },
+   "changeMasterPassword": {
+      "message": "Cambia password principale"
+   },
+   "changeMasterPasswordOnWebConfirmation": {
+      "message": "Puoi modificare la tua password principale sul sito web di Bitwarden."
+   },
+   "changePassword": {
+      "description": "Change password button for browser at risk notification on login.",
+      "message": "Change password"
+   },
+   "changedPasswordNotificationDesc": {
+      "message": "Chiedi di aggiornare la password di un login quando rileviamo che è cambiata su un sito web."
+   },
+   "changedPasswordNotificationDescAlt": {
+      "message": "Chiedi di aggiornare la password salvata quando viene modificata su un sito web. Si applica a tutti gli account sul dispositivo."
+   },
+   "characterMinimum": {
+      "message": "Minimo $LENGTH$ caratteri",
+      "placeholders": {
+         "length": {
+            "content": "$1",
+            "example": "14"
+         }
+      }
+   },
+   "checkBoxHelpText": {
+      "message": "Usa le caselle di controllo se vuoi riempire automaticamente la casella di controllo di un modulo, come una email da ricordare"
+   },
+   "checkForBreaches": {
+      "message": "Controlla se la tua password è presente in una violazione dei dati"
+   },
+   "checkPassword": {
+      "message": "Verifica se la password è stata esposta."
+   },
+   "checkYourEmail": {
+      "message": "Controlli la tua email"
+   },
+   "chooseCipherForPasskeyAuth": {
+      "message": "Scegli una password con cui accedere"
+   },
+   "chooseCipherForPasskeySave": {
+      "message": "Scegli un elemento in cui salvare questa passkey"
+   },
+   "chooseFile": {
+      "message": "Seleziona file"
+   },
+   "cityTown": {
+      "message": "Città / Comune"
+   },
+   "clear": {
+      "description": "To clear something out. example: To clear browser history.",
+      "message": "Cancella"
+   },
+   "clearClipboard": {
+      "description": "Clipboard is the operating system thing where you copy/paste data to on your device.",
+      "message": "Cancella appunti"
+   },
+   "clearClipboardDesc": {
+      "description": "Clipboard is the operating system thing where you copy/paste data to on your device.",
+      "message": "Cancella automaticamente i valori copiati dagli appunti."
+   },
+   "clearFiltersOrTryAnother": {
+      "message": "Cancella i filtri o prova un altro termine di ricerca"
+   },
+   "clearGeneratorHistoryTitle": {
+      "message": "Cancella cronologia generatore"
+   },
+   "clearHistory": {
+      "message": "Cancella cronologia"
+   },
+   "cleargGeneratorHistoryDescription": {
+      "message": "Se continui, tutte le voci verranno eliminate definitivamente dalla cronologia del generatore. Vuoi continuare?"
+   },
+   "clickToAutofill": {
+      "message": "Clicca elementi nel suggerimento di riempimento automatico per riempire"
+   },
+   "clickToAutofillOnVault": {
+      "message": "Clicca gli oggetti da riempire dalla sezione Cassaforte"
+   },
+   "clone": {
+      "message": "Clona"
+   },
+   "cloneItem": {
+      "message": "Clona elemento"
+   },
+   "close": {
+      "message": "Chiudi"
+   },
+   "codeSent": {
+      "message": "Codice inviato"
+   },
+   "collection": {
+      "message": "Raccolta"
+   },
+   "collections": {
+      "message": "Raccolte"
+   },
+   "colonCharacterDescriptor": {
+      "description": "Represents the : key in screen reader content as a readable word",
+      "message": "Due punti"
+   },
+   "commaCharacterDescriptor": {
+      "description": "Represents the , key in screen reader content as a readable word",
+      "message": "Virgola"
+   },
+   "commandAutofillCardDesc": {
+      "message": "Riempi automaticamente con l'ultima carta utilizzata sul sito corrente"
+   },
+   "commandAutofillIdentityDesc": {
+      "message": "Riempi automaticamente con l'ultima identità utilizzata sul sito corrente"
+   },
+   "commandAutofillLoginDesc": {
+      "message": "Riempi automaticamente con l'ultimo login utilizzato sul sito corrente"
+   },
+   "commandGeneratePasswordDesc": {
+      "message": "Genera e copia una nuova password casuale negli appunti"
+   },
+   "commandLockVaultDesc": {
+      "message": "Blocca la cassaforte"
+   },
+   "commandOpenPopup": {
+      "message": "Apri cassaforte in un pop-up"
+   },
+   "commandOpenSidebar": {
+      "message": "Apri cassaforte nella barra laterale"
+   },
+   "commonImportFormats": {
+      "description": "Label indicating the most common import formats",
+      "message": "Formati comuni"
+   },
+   "communityForums": {
+      "message": "Esplora i forum della comunità Bitwarden"
+   },
+   "compactMode": {
+      "message": "Modalità compatta"
+   },
+   "company": {
+      "message": "Azienda"
+   },
+   "confirm": {
+      "message": "Conferma"
+   },
+   "confirmContinueToBrowserKeyboardShortcutSettingsContent": {
+      "description": "Body content for dialog which asks if the user wants to proceed to the browser's keyboard shortcut settings page",
+      "message": "È possibile visualizzare e impostare le scorciatoie per l'estensione nelle impostazioni del browser."
+   },
+   "confirmContinueToBrowserPasswordManagementSettingsContent": {
+      "description": "Body content for dialog which asks if the user wants to proceed to the browser's password management settings page",
+      "message": "Modifica le impostazioni di riempimento automatico e di gestione delle password del browser."
+   },
+   "confirmContinueToBrowserSettingsTitle": {
+      "description": "Title for dialog which asks if the user wants to proceed to a relevant browser settings page",
+      "message": "Continua sulle impostazioni del browser?"
+   },
+   "confirmContinueToHelpCenter": {
+      "description": "Title for dialog which asks if the user wants to proceed to a relevant Help Center page",
+      "message": "Continua sul centro assistenza?"
+   },
+   "confirmContinueToHelpCenterKeyboardShortcutsContent": {
+      "description": "Body content for dialog which asks if the user wants to proceed to the Help Center's page about browser keyboard shortcut settings",
+      "message": "È possibile visualizzare e impostare le scorciatoie per l'estensione nelle impostazioni del browser."
+   },
+   "confirmContinueToHelpCenterPasswordManagementContent": {
+      "description": "Body content for dialog which asks if the user wants to proceed to the Help Center's page about browser password management settings",
+      "message": "Modifica le impostazioni di riempimento automatico e di gestione delle password del browser."
+   },
+   "confirmFilePassword": {
+      "message": "Conferma password del file"
+   },
+   "confirmIdentity": {
+      "message": "Conferma la tua identità per continuare."
+   },
+   "confirmMasterPassword": {
+      "message": "Conferma password principale"
+   },
+   "confirmMasterPasswordRequired": {
+      "message": "Reinserire la password principale è obbligatorio."
+   },
+   "confirmNewMasterPass": {
+      "message": "Conferma nuova password principale"
+   },
+   "confirmSshKeyPassword": {
+      "message": "Conferma parola d'accesso"
+   },
+   "confirmVaultExport": {
+      "message": "Conferma esportazione della cassaforte"
+   },
+   "confirmVaultImport": {
+      "message": "Conferma importazione della cassaforte"
+   },
+   "confirmVaultImportDesc": {
+      "message": "Questo file è protetto da password. Inserisci la password del file per importare i dati."
+   },
+   "contactCSToAvoidDataLossPart1": {
+      "description": "This is part of a larger sentence. The full sentence will read 'Contact customer success to avoid additional data loss.'",
+      "message": "Contatta il cliente correttamente"
+   },
+   "contactCSToAvoidDataLossPart2": {
+      "description": "This is part of a larger sentence. The full sentence will read 'Contact customer success to avoid additional data loss.'",
+      "message": "per evitare ulteriori perdite di dati."
+   },
+   "contactInfo": {
+      "message": "Info di contatto"
+   },
+   "contactSupport": {
+      "message": "Contatta assistenza Bitwarden"
+   },
+   "contactYourOrgAdmin": {
+      "message": "Non puoi accedere agli elementi nelle organizzazioni disattivate. Contatta il proprietario della tua organizzazione per ricevere assistenza."
+   },
+   "contextMenuItemDesc": {
+      "message": "Usa un clic secondario per generare nuove password e riempire automaticamente i login nei siti web."
+   },
+   "contextMenuItemDescAlt": {
+      "message": "Chiedi di aggiornare la password salvata quando viene modificata su un sito web. Si applica a tutti gli account sul dispositivo. Si applica a tutti gli account sul dispositivo."
+   },
+   "continue": {
+      "message": "Continua"
+   },
+   "continueLoggingIn": {
+      "message": "Continua l'accesso"
+   },
+   "continueToAuthenticatorPageDesc": {
+      "message": "Bitwarden Authenticator ti consente di memorizzare le chiavi di autenticazione e generare codici TOTP per la verifica in due passaggi. Scopri di più su bitwarden.com"
+   },
+   "continueToBitwardenDotCom": {
+      "message": "Continua su bitwarden.com?"
+   },
+   "continueToBrowserExtensionStore": {
+      "message": "Continua sullo store delle estensioni per il browser?"
+   },
+   "continueToBrowserExtensionStoreDesc": {
+      "message": "Aiuta gli altri a scoprire se Bitwarden è adatto a loro. Visita lo store delle estensioni del tuo browser e lascia una recensione."
+   },
+   "continueToHelpCenter": {
+      "message": "Continua sul centro assistenza?"
+   },
+   "continueToHelpCenterDesc": {
+      "message": "Scopri di più su come usare Bitwarden nel centro assistenza."
+   },
+   "continueToPasswordlessDotDevPageDesc": {
+      "message": "Crea esperienze di accesso fluide e sicure, libere dalle password tradizionali con Passwordless.dev. Scopri di più su bitwarden.com."
+   },
+   "continueToSecretsManagerPageDesc": {
+      "message": "Archivia, gestisci e condividi in modo sicuro i segreti degli sviluppatori con Bitwarden Secrets Manager. Scopri di più su bitwarden.com."
+   },
+   "continueToWebApp": {
+      "message": "Passa al sito web?"
+   },
+   "continueToWebAppDesc": {
+      "message": "Esplora altre funzionalità del tuo account Bitwarden sul sito web."
+   },
+   "copy": {
+      "description": "Copy to clipboard",
+      "message": "Copia"
+   },
+   "copyAddress": {
+      "message": "Copia indirizzo"
+   },
+   "copyCompany": {
+      "message": "Copia azienda"
+   },
+   "copyCustomField": {
+      "message": "Copia $FIELD$",
+      "placeholders": {
+         "field": {
+            "content": "$1",
+            "example": "Custom field label"
+         }
+      }
+   },
+   "copyCustomFieldNameInvalidElement": {
+      "message": "Impossibile identificare un elemento del modulo valido. Prova a ispezionare l'HTML."
+   },
+   "copyCustomFieldNameNotUnique": {
+      "message": "Nessun identificatore univoco trovato."
+   },
+   "copyElementIdentifier": {
+      "message": "Copia nome campo personalizzato"
+   },
+   "copyEmail": {
+      "message": "Copia email"
+   },
+   "copyFieldValue": {
+      "description": "Title for a button that copies a field value to the clipboard.",
+      "message": "Copia $FIELD$, $VALUE$",
+      "placeholders": {
+         "field": {
+            "content": "$1",
+            "example": "Username"
+         },
+         "value": {
+            "content": "$2",
+            "example": "Foo"
+         }
+      }
+   },
+   "copyFingerprint": {
+      "message": "Copia impronta"
+   },
+   "copyInfoTitle": {
+      "description": "Title for a button that opens a menu with options to copy information from an item.",
+      "message": "Copia informazioni - $ITEMNAME$",
+      "placeholders": {
+         "itemname": {
+            "content": "$1",
+            "example": "Secret Item"
+         }
+      }
+   },
+   "copyLicenseNumber": {
+      "message": "Copia numero patente"
+   },
+   "copyLink": {
+      "message": "Copia link"
+   },
+   "copyName": {
+      "message": "Copia nome"
+   },
+   "copyNote": {
+      "message": "Copia nota"
+   },
+   "copyNoteTitle": {
+      "description": "Title for a button copies a note to the clipboard.",
+      "message": "Copia nota - $ITEMNAME$",
+      "placeholders": {
+         "itemname": {
+            "content": "$1",
+            "example": "Secret Note Item"
+         }
+      }
+   },
+   "copyNotes": {
+      "message": "Copia note"
+   },
+   "copyNumber": {
+      "message": "Copia numero"
+   },
+   "copyPassphrase": {
+      "message": "Copia frase segreta"
+   },
+   "copyPassportNumber": {
+      "message": "Copia numero passaporto"
+   },
+   "copyPassword": {
+      "message": "Copia password"
+   },
+   "copyPhone": {
+      "message": "Copia telefono"
+   },
+   "copyPrivateKey": {
+      "message": "Copia chiave privata"
+   },
+   "copyPublicKey": {
+      "message": "Copia chiave pubblica"
+   },
+   "copySSN": {
+      "message": "Copia Codice fiscale/Previdenza sociale"
+   },
+   "copySecurityCode": {
+      "message": "Copia codice di sicurezza"
+   },
+   "copySendLink": {
+      "description": "'Send' is a noun and the name of a feature called 'Bitwarden Send'. It should not be translated.",
+      "message": "Copia link del Send"
+   },
+   "copySuccessful": {
+      "message": "Copia riuscita"
+   },
+   "copyTOTP": {
+      "message": "Copia la chiave di autenticazione (TOTP)"
+   },
+   "copyUri": {
+      "message": "Copia URI"
+   },
+   "copyUsername": {
+      "message": "Copia nome utente"
+   },
+   "copyValue": {
+      "message": "Copia valore"
+   },
+   "copyVerificationCode": {
+      "message": "Copia codice di verifica"
+   },
+   "copyWebsite": {
+      "message": "Copia sito web"
+   },
+   "couldNotCompleteBiometrics": {
+      "message": "Impossibile completare i dati biometrici."
+   },
+   "couldNotDecryptVaultItemsBelow": {
+      "message": "Bitwarden non può decifrare gli elementi elencati di seguito."
+   },
+   "country": {
+      "message": "Nazione"
+   },
+   "createAccount": {
+      "message": "Crea account"
+   },
+   "createFoldersToOrganize": {
+      "message": "Crea cartelle per organizzare gli elementi della cassaforte"
+   },
+   "createSend": {
+      "description": "'Send' is a noun and the name of a feature called 'Bitwarden Send'. It should not be translated.",
+      "message": "Nuovo Send"
+   },
+   "createdSend": {
+      "description": "'Send' is a noun and the name of a feature called 'Bitwarden Send'. It should not be translated.",
+      "message": "Send creato"
+   },
+   "createdSendSuccessfully": {
+      "description": "'Send' is a noun and the name of a feature called 'Bitwarden Send'. It should not be translated.",
+      "message": "Send creato con successo!"
+   },
+   "creatingAccountOn": {
+      "message": "Creazione account su"
+   },
+   "currentMasterPass": {
+      "message": "Password principale attuale"
+   },
+   "currentTab": {
+      "message": "Scheda corrente"
+   },
+   "currentUri": {
+      "description": "The URI of one of the current open tabs in the browser.",
+      "message": "URI corrente"
+   },
+   "custom": {
+      "message": "Personalizzato"
+   },
+   "customEnvironment": {
+      "message": "Ambiente personalizzato"
+   },
+   "customFields": {
+      "message": "Campi personalizzati"
+   },
+   "dark": {
+      "description": "Dark color",
+      "message": "Scuro"
+   },
+   "data": {
+      "message": "Dati"
+   },
+   "dateCreated": {
+      "description": "ex. Date this item was created",
+      "message": "Creato"
+   },
+   "dateParsingError": {
+      "message": "Si è verificato un errore durante il salvataggio delle date di eliminazione e scadenza."
+   },
+   "datePasswordUpdated": {
+      "description": "ex. Date this password was updated",
+      "message": "Password aggiornata"
+   },
+   "dateUpdated": {
+      "description": "ex. Date this item was updated",
+      "message": "Aggiornato"
+   },
+   "days": {
+      "message": "$DAYS$ giorni",
+      "placeholders": {
+         "days": {
+            "content": "$1",
+            "example": "2"
+         }
+      }
+   },
+   "december": {
+      "message": "Dicembre"
+   },
+   "decryptionError": {
+      "message": "Errore di decifrazione"
+   },
+   "default": {
+      "message": "Predefinito"
+   },
+   "defaultAutoFillOnPageLoad": {
+      "message": "Impostazioni di riempimento automatico predefinito per i login"
+   },
+   "defaultAutoFillOnPageLoadDesc": {
+      "message": "Puoi disattivare il riempimento automatico al caricamento della pagina per singoli login dalla sezione Modifica elemento."
+   },
+   "defaultLabel": {
+      "description": "A label that indicates the default value for a field with the current default value in parentheses.",
+      "message": "Predefinito ($VALUE$)",
+      "placeholders": {
+         "value": {
+            "content": "$1",
+            "example": "Base domain"
+         }
+      }
+   },
+   "defaultMatchDetection": {
+      "description": "Default URI match detection for autofill.",
+      "message": "Rilevamento di corrispondenza predefinito"
+   },
+   "defaultUriMatchDetection": {
+      "description": "Default URI match detection for autofill.",
+      "message": "Rilevamento corrispondenza URI predefinito"
+   },
+   "defaultUriMatchDetectionDesc": {
+      "message": "Scegli il modo predefinito in cui il rilevamento della corrispondenza URI è gestito per i login quando si eseguono azioni come il riempimento automatico."
+   },
+   "delete": {
+      "message": "Elimina"
+   },
+   "deleteAttachment": {
+      "message": "Elimina allegato"
+   },
+   "deleteAttachmentConfirmation": {
+      "message": "Sei sicuro di voler eliminare questo allegato?"
+   },
+   "deleteAttachmentName": {
+      "message": "Elimina allegato $NAME$",
+      "placeholders": {
+         "name": {
+            "content": "$1",
+            "example": "Attachment Name"
+         }
+      }
+   },
+   "deleteCustomField": {
+      "message": "Elimina $LABEL$",
+      "placeholders": {
+         "label": {
+            "content": "$1",
+            "example": "Custom field"
+         }
+      }
+   },
+   "deleteFolder": {
+      "message": "Elimina cartella"
+   },
+   "deleteFolderConfirmation": {
+      "message": "Sei sicuro di voler eliminare questa cartella?"
+   },
+   "deleteFolderPermanently": {
+      "message": "Sei sicuro di voler eliminare definitivamente questo cartella?"
+   },
+   "deleteForever": {
+      "message": "Elimina definitivamente"
+   },
+   "deleteItem": {
+      "message": "Elimina elemento"
+   },
+   "deleteItemConfirmation": {
+      "message": "Sei sicuro di voler eliminare questo elemento?"
+   },
+   "deleteSend": {
+      "description": "'Send' is a noun and the name of a feature called 'Bitwarden Send'. It should not be translated.",
+      "message": "Elimina Send"
+   },
+   "deleteSendConfirmation": {
+      "description": "'Send' is a noun and the name of a feature called 'Bitwarden Send'. It should not be translated.",
+      "message": "Sei sicuro di voler eliminare questo Send?"
+   },
+   "deleteSendPermanentConfirmation": {
+      "description": "'Send' is a noun and the name of a feature called 'Bitwarden Send'. It should not be translated.",
+      "message": "Sicuro di voler eliminare definitivamente questo Send?"
+   },
+   "deleteWebsite": {
+      "message": "Elimina sito web"
+   },
+   "deletedAttachment": {
+      "message": "Allegato eliminato"
+   },
+   "deletedFolder": {
+      "message": "Cartella eliminata"
+   },
+   "deletedItem": {
+      "message": "Elemento eliminato"
+   },
+   "deletedSend": {
+      "description": "'Send' is a noun and the name of a feature called 'Bitwarden Send'. It should not be translated.",
+      "message": "Send eliminato"
+   },
+   "deletionDate": {
+      "message": "Data di eliminazione"
+   },
+   "deletionDateAndTimeRequired": {
+      "message": "La data e ora di eliminazione sono obbligatorie."
+   },
+   "deletionDateDescV2": {
+      "description": "'Send' is a noun and the name of a feature called 'Bitwarden Send'. It should not be translated.",
+      "message": "Il Send sarà cancellato definitivamente in questa data."
+   },
+   "deletionDateIsInvalid": {
+      "message": "La data di eliminazione fornita non è valida."
+   },
+   "description": {
+      "message": "Descrizione"
+   },
+   "desktopIntegrationDisabledDesc": {
+      "message": "L'integrazione del browser non è abilitata nell'app Bitwarden Desktop. Attivala nelle impostazioni all'interno dell'app desktop."
+   },
+   "desktopIntegrationDisabledTitle": {
+      "message": "L'integrazione del browser non è abilitata"
+   },
+   "desktopIntegrationVerificationText": {
+      "message": "Verifica che l'app desktop mostri questa impronta: "
+   },
+   "desktopSyncVerificationTitle": {
+      "message": "Verifica sincronizzazione desktop"
+   },
+   "destination": {
+      "message": "Destinazione"
+   },
+   "deviceApprovalRequired": {
+      "message": "Approvazione del dispositivo obbligatoria. Seleziona un'opzione di approvazione:"
+   },
+   "deviceApprovalRequiredV2": {
+      "message": "Approvazione dispositivo richiesta"
+   },
+   "deviceTrusted": {
+      "message": "Dispositivo fidato"
+   },
+   "disableAutoTotpCopyDesc": {
+      "message": "Se un login ha una chiave di autenticazione, copia automaticamente il codice di verifica TOTP negli appunti quando riempi automaticamente il login."
+   },
+   "disabled": {
+      "message": "Disabilitato"
+   },
+   "disabledOrganizationFilterError": {
+      "message": "Non è possibile accedere a elementi da organizzazioni disabilitate. Contatta il proprietario della tua organizzazione."
+   },
+   "dismiss": {
+      "message": "Ignora"
+   },
+   "display": {
+      "message": "Schermo"
+   },
+   "doNotTrust": {
+      "message": "Non considerare affidabile"
+   },
+   "dollarSignCharacterDescriptor": {
+      "description": "Represents the $ key in screen reader content as a readable word",
+      "message": "Simbolo del dollaro"
+   },
+   "domainAddedToExcludedDomains": {
+      "message": "$DOMAIN$ aggiunto ai domini esclusi.",
+      "placeholders": {
+         "domain": {
+            "content": "$1",
+            "example": "duckduckgo.com"
+         }
+      }
+   },
+   "domainName": {
+      "description": "Domain name. Ex. website.com",
+      "message": "Nome dominio"
+   },
+   "domainsTitle": {
+      "description": "A category title describing the concept of web domains",
+      "message": "Domini"
+   },
+   "dontAskAgainOnThisDeviceFor30Days": {
+      "message": "Non chiedere più su questo dispositivo per 30 giorni"
+   },
+   "doubleQuoteCharacterDescriptor": {
+      "description": "Represents the double quote key in screen reader content as a readable word",
+      "message": "Doppi apici"
+   },
+   "downloadAttachment": {
+      "message": "Scarica - $ITEMNAME$",
+      "placeholders": {
+         "itemname": {
+            "content": "$1",
+            "example": "Your File"
+         }
+      }
+   },
+   "downloadAttachmentName": {
+      "message": "Scarica $NAME$",
+      "placeholders": {
+         "name": {
+            "content": "$1",
+            "example": "Attachment Name"
+         }
+      }
+   },
+   "downloadBitwarden": {
+      "message": "Scarica Bitwarden"
+   },
+   "downloadBitwardenOnAllDevices": {
+      "message": "Scarica Bitwarden su tutti i dispositivi"
+   },
+   "downloadFromBitwardenNow": {
+      "message": "Scarica ora da bitwarden.com"
+   },
+   "downloadOnTheAppStore": {
+      "message": "Scarica dall'App Store"
+   },
+   "dr": {
+      "message": "Dr"
+   },
+   "dragToReorder": {
+      "message": "Trascina per riordinare"
+   },
+   "dragToSort": {
+      "message": "Trascina per ordinare"
+   },
+   "duoDescV2": {
+      "description": "'Duo Security' and 'Duo Mobile' are product names and should not be translated.",
+      "message": "Inserisci un codice generato da Duo Security."
+   },
+   "duoHealthCheckResultsInNullAuthUrlError": {
+      "message": "Errore di connessione con il servizio Duo. Utilizza un metodo di login in due passaggi diverso o contatta Duo per assistenza."
+   },
+   "duoOrganizationDesc": {
+      "description": "'Duo Security' and 'Duo Mobile' are product names and should not be translated.",
+      "message": "Verifica con Duo Security per la tua azienda usando l'app Duo Mobile, SMS, chiamata telefonica, o chiave di sicurezza U2F."
+   },
+   "duoRequiredForAccount": {
+      "message": "Per il tuo account è richiesta la verifica in due passaggi DUO."
+   },
+   "duoTwoFactorRequiredPageSubtitle": {
+      "message": "Il login Duo in due passaggi è richiesto per il tuo account. Segui i passaggi qui sotto per completare l'accesso."
+   },
+   "edit": {
+      "message": "Modifica"
+   },
+   "editField": {
+      "message": "Modifica campo"
+   },
+   "editFieldLabel": {
+      "message": "Modifica $LABEL$",
+      "placeholders": {
+         "label": {
+            "content": "$1",
+            "example": "Custom field"
+         }
+      }
+   },
+   "editFolder": {
+      "message": "Modifica cartella"
+   },
+   "editFolderWithName": {
+      "message": "Modifica cartella: $FOLDERNAME$",
+      "placeholders": {
+         "foldername": {
+            "content": "$1",
+            "example": "Social"
+         }
+      }
+   },
+   "editItem": {
+      "message": "Modifica elemento"
+   },
+   "editItemHeader": {
+      "message": "Modifica $TYPE$",
+      "placeholders": {
+         "type": {
+            "content": "$1",
+            "example": "Login"
+         }
+      }
+   },
+   "editSend": {
+      "description": "'Send' is a noun and the name of a feature called 'Bitwarden Send'. It should not be translated.",
+      "message": "Modifica Send"
+   },
+   "editedFolder": {
+      "message": "Cartella salvata"
+   },
+   "editedItem": {
+      "message": "Elemento salvato"
+   },
+   "editedSend": {
+      "description": "'Send' is a noun and the name of a feature called 'Bitwarden Send'. It should not be translated.",
+      "message": "Send salvato"
+   },
+   "email": {
+      "message": "Email"
+   },
+   "emailAddress": {
+      "message": "Indirizzo email"
+   },
+   "emailDescV2": {
+      "message": "Inserisci il codice inviato alla tua email."
+   },
+   "emailGenerated": {
+      "message": "E-mail generata"
+   },
+   "emailRequired": {
+      "message": "Indirizzo email obbligatorio."
+   },
+   "emailTitle": {
+      "message": "Email"
+   },
+   "emailVerificationRequired": {
+      "message": "Verifica email obbligatoria"
+   },
+   "emailVerificationRequiredDesc": {
+      "message": "Devi verificare la tua email per usare questa funzionalità. Puoi verificare la tua email nella cassaforte web."
+   },
+   "emailVerifiedV2": {
+      "message": "Email verificata"
+   },
+   "emergencyAccessTrustWarning": {
+      "message": "Per la sicurezza del tuo account, conferma solo se hai concesso l'accesso di emergenza a questo utente e le loro impronte digitali corrispondono a quelle contenute nel loro account"
+   },
+   "emptyVaultDescription": {
+      "message": "La cassaforte protegge e tiene al sicuro non solo le password, ma anche le passkey, i nomi utente, le identità, le carte e le note."
+   },
+   "emptyVaultNudgeBody": {
+      "message": "Usa l'importatore per trasferire rapidamente i login su Bitwarden senza aggiungerli manualmente."
+   },
+   "emptyVaultNudgeButton": {
+      "message": "Importa ora"
+   },
+   "emptyVaultNudgeTitle": {
+      "message": "Importa password esistenti"
+   },
+   "enableAddLoginNotification": {
+      "message": "Chiedi di aggiungere nuovi login"
+   },
+   "enableAnimations": {
+      "message": "Abilita animazioni"
+   },
+   "enableAutoBiometricsPrompt": {
+      "message": "Richiedi dati biometrici all'avvio"
+   },
+   "enableAutoFillOnPageLoad": {
+      "message": "Riempi automaticamente al caricamento della pagina"
+   },
+   "enableAutoFillOnPageLoadDesc": {
+      "message": "Se sono rilevati campi di login, riempili automaticamente quando la pagina si carica."
+   },
+   "enableAutoFillOnPageLoadSectionTitle": {
+      "message": "Riempi automaticamente al caricamento della pagina"
+   },
+   "enableAutoTotpCopy": {
+      "message": "Copia TOTP automaticamente"
+   },
+   "enableBadgeCounter": {
+      "message": "Mostra badge contatore"
+   },
+   "enableChangedPasswordNotification": {
+      "message": "Chiedi di aggiornare il login esistente"
+   },
+   "enableContextMenuItem": {
+      "message": "Mostra opzioni nel menu contestuale"
+   },
+   "enableFavicon": {
+      "message": "Mostra icone dei siti"
+   },
+   "enableUsePasskeys": {
+      "message": "Chiedi di salvare e usare le passkey"
+   },
+   "encExportAccountWarningDesc": {
+      "message": "Le chiavi di crittografia dell'account sono uniche per ogni account Bitwarden, quindi non puoi importare un file di esportazione crittato in un account diverso."
+   },
+   "encExportKeyWarningDesc": {
+      "message": "Questa esportazione crittografa i tuoi dati usando la chiave di crittografia del tuo account. Se cambi la chiave di crittografia del tuo account, non potrai più decifrare il file esportato e dovrai eseguire una nuova esportazione."
+   },
+   "enterSshKeyPassword": {
+      "message": "Inserisci parola d'accesso"
+   },
+   "enterSshKeyPasswordDesc": {
+      "message": "Inserisci la parola d'accesso per la chiave SSH."
+   },
+   "enterTheCodeFromYourAuthenticatorApp": {
+      "message": "Inserisci il codice dalla tua app di autenticazione"
+   },
+   "enterTheCodeSentToYourEmail": {
+      "message": "Inserisci il codice inviato alla tua e-mail"
+   },
+   "enterVerificationCodeSentToEmail": {
+      "message": "Inserisci il codice di verifica che è stato inviato alla tua email."
+   },
+   "enterYourAccountEmailAddressAndYourPasswordHintWillBeSentToYou": {
+      "message": "Inserisci l'indirizzo email dell'account e ti invieremo il tuo suggerimento per la password"
+   },
+   "enterprisePolicyRequirementsApplied": {
+      "message": "I requisiti della policy aziendale sono stati applicati a questa impostazione"
+   },
+   "enterpriseSingleSignOn": {
+      "message": "Single Sign-On aziendale"
+   },
+   "environmentSaved": {
+      "message": "URL dell'ambiente salvati"
+   },
+   "equalsCharacterDescriptor": {
+      "description": "Represents the = key in screen reader content as a readable word",
+      "message": "Uguale"
+   },
+   "error": {
+      "message": "Errore"
+   },
+   "errorAssigningTargetCollection": {
+      "message": "Errore nell'assegnazione della raccolta di destinazione."
+   },
+   "errorAssigningTargetFolder": {
+      "message": "Errore nell'assegnazione della cartella di destinazione."
+   },
+   "errorEnableBiometricDesc": {
+      "message": "L'azione è stata annullata dall'app desktop"
+   },
+   "errorEnableBiometricTitle": {
+      "message": "Impossibile abilitare autenticazione biometrica"
+   },
+   "errorOccurred": {
+      "message": "Si è verificato un errore"
+   },
+   "errorRefreshingAccessToken": {
+      "message": "Errore di aggiornamento del token di accesso"
+   },
+   "errorRefreshingAccessTokenDesc": {
+      "message": "Nessun token di aggiornamento o chiave API trovati. Prova ad uscire ed entrare di nuovo."
+   },
+   "eu": {
+      "description": "European Union",
+      "message": "EU"
+   },
+   "ex": {
+      "message": "es."
+   },
+   "exact": {
+      "message": "Esatto"
+   },
+   "exclamationCharacterDescriptor": {
+      "description": "Represents the ! key in screen reader content as a readable word",
+      "message": "Punto esclamativo"
+   },
+   "excludedDomains": {
+      "message": "Domini esclusi"
+   },
+   "excludedDomainsDesc": {
+      "message": "Bitwarden non ti chiederà di aggiungere nuovi login per questi domini. Ricorda di ricaricare la pagina perché le modifiche abbiano effetto."
+   },
+   "excludedDomainsDescAlt": {
+      "message": "Bitwarden non chiederà di salvare le credenziali di accesso per questi domini per tutti gli account sul dispositivo. Ricarica la pagina affinché le modifiche abbiano effetto."
+   },
+   "excludedDomainsInvalidDomain": {
+      "message": "$DOMAIN$ non è un dominio valido",
+      "placeholders": {
+         "domain": {
+            "content": "$1",
+            "example": "duckduckgo.com"
+         }
+      }
+   },
+   "excludedDomainsSavedSuccess": {
+      "message": "Modifiche del dominio escluso salvate"
+   },
+   "experimentalFeature": {
+      "message": "Siti compromessi potrebbero sfruttare il riempimento automatico al caricamento della pagina."
+   },
+   "expiration": {
+      "message": "Scadenza"
+   },
+   "expirationDate": {
+      "message": "Data di scadenza"
+   },
+   "expirationDateAndTimeRequired": {
+      "message": "La data e ora di scadenza sono obbligatorie."
+   },
+   "expirationDateIsInvalid": {
+      "message": "La data di scadenza fornita non è valida."
+   },
+   "expirationMonth": {
+      "message": "Mese di scadenza"
+   },
+   "expirationYear": {
+      "message": "Anno di scadenza"
+   },
+   "expired": {
+      "message": "Scaduto"
+   },
+   "expiredLink": {
+      "message": "Link scaduto"
+   },
+   "exportFrom": {
+      "message": "Esporta da"
+   },
+   "exportMasterPassword": {
+      "message": "Inserisci la tua password principale per esportare i dati della tua cassaforte."
+   },
+   "exportPasswordDescription": {
+      "message": "La password sarà utilizzata per importare ed esportare questo file"
+   },
+   "exportSuccess": {
+      "message": "Dati della cassaforte esportati"
+   },
+   "exportTypeHeading": {
+      "message": "Tipo di esportazione"
+   },
+   "exportVault": {
+      "message": "Esporta cassaforte"
+   },
+   "exportWarningDesc": {
+      "message": "Questa esportazione contiene i dati della tua cassaforte in un formato non crittografato. Non salvare o inviare il file esportato attraverso canali non protetti (come le email). Eliminalo immediatamente dopo l'utilizzo."
+   },
+   "exportingIndividualVaultDescription": {
+      "message": "Solo gli elementi della cassaforte personale associati a $EMAIL$ saranno esportati. Gli elementi della cassaforte dell'organizzazione non saranno inclusi. Solo le informazioni sugli elementi della cassaforte saranno esportate e non includeranno gli allegati.",
+      "placeholders": {
+         "email": {
+            "content": "$1",
+            "example": "name@example.com"
+         }
+      }
+   },
+   "exportingIndividualVaultWithAttachmentsDescription": {
+      "message": "Solo gli elementi della cassaforte personale associati a $EMAIL$, includendo gli allegati, saranno esportati. Gli elementi della cassaforte dell'organizzazione non saranno inclusi",
+      "placeholders": {
+         "email": {
+            "content": "$1",
+            "example": "name@example.com"
+         }
+      }
+   },
+   "exportingOrganizationVaultDesc": {
+      "message": "Solo la cassaforte dell'organizzazione associata a $ORGANIZATION$ sarà esportata. Elementi nelle casseforti individuali o in altre organizzazioni non saranno inclusi.",
+      "placeholders": {
+         "organization": {
+            "content": "$1",
+            "example": "ACME Moving Co."
+         }
+      }
+   },
+   "exportingOrganizationVaultTitle": {
+      "message": "Esportando cassaforte dell'organizzazione"
+   },
+   "exportingPersonalVaultTitle": {
+      "message": "Esportando cassaforte individuale"
+   },
+   "exposedMasterPassword": {
+      "message": "Password principale violata"
+   },
+   "exposedMasterPasswordDesc": {
+      "message": "Password trovata una violazione dei dati. Usa una password unica per proteggere il tuo account. Sei sicuro di voler usare una password violata?"
+   },
+   "extDesc": {
+      "description": "Extension description, MUST be less than 112 characters (Safari restriction)",
+      "message": "A casa, al lavoro, o in viaggio, Bitwarden protegge tutte le tue password, passkey, e informazioni sensibili"
+   },
+   "extName": {
+      "description": "Extension name, MUST be less than 40 characters (Safari restriction)",
+      "message": "Bitwarden Password Manager"
+   },
+   "extensionWidth": {
+      "message": "Larghezza estensione"
+   },
+   "extraWide": {
+      "message": "Molto larga"
+   },
+   "faviconDesc": {
+      "message": "Mostra un piccolo logo riconoscibile accanto a ogni login."
+   },
+   "faviconDescAlt": {
+      "message": "Mostra un piccolo logo riconoscibile accanto a ogni login. Si applica a tutti gli account connessi."
+   },
+   "favorite": {
+      "message": "Preferito"
+   },
+   "favorites": {
+      "message": "Preferiti"
+   },
+   "featureNotSupported": {
+      "message": "Funzionalità non ancora supportata"
+   },
+   "featureUnavailable": {
+      "message": "Funzionalità non disponibile"
+   },
+   "february": {
+      "message": "Febbraio"
+   },
+   "fieldAdded": {
+      "message": "$LABEL$ aggiunto",
+      "placeholders": {
+         "label": {
+            "content": "$1",
+            "example": "Custom field"
+         }
+      }
+   },
+   "fieldLabel": {
+      "message": "Etichetta campo"
+   },
+   "fieldType": {
+      "message": "Tipo campo"
+   },
+   "fieldsNeedAttention": {
+      "message": "$COUNT$ campi qui sopra richiedono la tua attenzione.",
+      "placeholders": {
+         "count": {
+            "content": "$1",
+            "example": "4"
+         }
+      }
+   },
+   "fifteenMinutes": {
+      "message": "15 minuti"
+   },
+   "file": {
+      "message": "File"
+   },
+   "fileEncryptedExportWarningDesc": {
+      "message": "Questo file esportato sarà protetto e richiederà la password del file per decifrarlo."
+   },
+   "fileFormat": {
+      "message": "Formato file"
+   },
+   "filePassword": {
+      "message": "Password del file"
+   },
+   "filePasswordAndConfirmFilePasswordDoNotMatch": {
+      "message": "Le due password del file non corrispondono."
+   },
+   "fileSavedToDevice": {
+      "message": "File salvato sul dispositivo. Gestisci dai download del dispositivo."
+   },
+   "fileSend": {
+      "message": "Send di File"
+   },
+   "fileSends": {
+      "message": "Send File"
+   },
+   "fileToShare": {
+      "message": "File da condividere"
+   },
+   "fill": {
+      "description": "This string is used on the vault page to indicate autofilling. Horizontal space is limited in the interface here so try and keep translations as concise as possible.",
+      "message": "Riempi"
+   },
+   "fillAndSave": {
+      "message": "Riempi e salva"
+   },
+   "fillCredentialsFor": {
+      "description": "Screen reader text for when overlay item is in focused",
+      "message": "Riempi le credenziali per"
+   },
+   "fillGeneratedPassword": {
+      "description": "Heading for the password generator within the inline menu",
+      "message": "Riempi password generata"
+   },
+   "fillVerificationCode": {
+      "message": "Inserisci codice di verifica"
+   },
+   "fillVerificationCodeAria": {
+      "description": "Aria label for the heading displayed the inline menu for totp code autofill",
+      "message": "Inserisci codice di verifica"
+   },
+   "filterApplied": {
+      "message": "Un filtro applicato"
+   },
+   "filterAppliedPlural": {
+      "message": "$COUNT$ filtri applicati",
+      "placeholders": {
+         "count": {
+            "content": "$1",
+            "example": "3"
+         }
+      }
+   },
+   "filterVault": {
+      "message": "Filtra cassaforte"
+   },
+   "filters": {
+      "message": "Filtri"
+   },
+   "fingerprintMatchInfo": {
+      "message": "Assicurati che la tua cassaforte sia sbloccata e che la frase impronta corrisponda sull'altro dispositivo."
+   },
+   "fingerprintPhrase": {
+      "description": "A 'fingerprint phrase' is a unique word phrase (similar to a passphrase) that a user can use to authenticate their public key with another user, for the purposes of sharing.",
+      "message": "Frase impronta"
+   },
+   "fingerprintPhraseHeader": {
+      "message": "Frase impronta"
+   },
+   "finishCreatingYourAccountBySettingAPassword": {
+      "message": "Termina la creazione del tuo account impostando una password"
+   },
+   "finishJoiningThisOrganizationBySettingAMasterPassword": {
+      "message": "Termina l'adesione a questa organizzazione impostando una password principale."
+   },
+   "firstName": {
+      "message": "Nome"
+   },
+   "fiveMinutes": {
+      "message": "5 minuti"
+   },
+   "folder": {
+      "message": "Cartella"
+   },
+   "folderHintText": {
+      "message": "Annida una cartella aggiungendo il nome della cartella superiore seguito da un “/”. Esempio: Social/Forums"
+   },
+   "folderName": {
+      "message": "Nome cartella"
+   },
+   "folders": {
+      "message": "Cartelle"
+   },
+   "followTheLinkInTheEmailSentTo": {
+      "message": "Segui il link nell'email inviata a"
+   },
+   "followTheStepsBelowToFinishLoggingIn": {
+      "message": "Segui i passaggi qui sotto per completare l'accesso."
+   },
+   "followTheStepsBelowToFinishLoggingInWithSecurityKey": {
+      "message": "Segui i passaggi seguenti per finire di accedere con la tua chiave di sicurezza."
+   },
+   "forwaderInvalidOperation": {
+      "description": "Displayed when the user is forbidden from using the API by the forwarding service.",
+      "message": "$SERVICENAME$ ha rifiutato la tua richiesta. Contatta il tuo fornitore di servizi per assistenza.",
+      "placeholders": {
+         "servicename": {
+            "content": "$1",
+            "example": "SimpleLogin"
+         }
+      }
+   },
+   "forwaderInvalidOperationWithMessage": {
+      "description": "Displayed when the user is forbidden from using the API by the forwarding service with an error message.",
+      "message": "$SERVICENAME$ ha respinto la tua richiesta: $ERRORMESSAGE$",
+      "placeholders": {
+         "errormessage": {
+            "content": "$2",
+            "example": "Please verify your email address to continue."
+         },
+         "servicename": {
+            "content": "$1",
+            "example": "SimpleLogin"
+         }
+      }
+   },
+   "forwaderInvalidToken": {
+      "description": "Displayed when the user's API token is empty or rejected by the forwarding service.",
+      "message": "Token API $SERVICENAME$ non valido",
+      "placeholders": {
+         "servicename": {
+            "content": "$1",
+            "example": "SimpleLogin"
+         }
+      }
+   },
+   "forwaderInvalidTokenWithMessage": {
+      "description": "Displayed when the user's API token is rejected by the forwarding service with an error message.",
+      "message": "Token API $SERVICENAME$ non valido: $ERRORMESSAGE$",
+      "placeholders": {
+         "errormessage": {
+            "content": "$2",
+            "example": "Please verify your email address to continue."
+         },
+         "servicename": {
+            "content": "$1",
+            "example": "SimpleLogin"
+         }
+      }
+   },
+   "forwardSlashCharacterDescriptor": {
+      "description": "Represents the / key in screen reader content as a readable word",
+      "message": "Slash"
+   },
+   "forwardedEmail": {
+      "message": "Alias email inoltrate"
+   },
+   "forwardedEmailDesc": {
+      "message": "Genera un alias email con un servizio di inoltro esterno."
+   },
+   "forwarderDomainName": {
+      "description": "Labels the domain name email forwarder service option",
+      "message": "Dominio email"
+   },
+   "forwarderDomainNameHint": {
+      "description": "Guidance provided for email forwarding services that support multiple email domains.",
+      "message": "Scegli un dominio supportato dal servizio selezionato"
+   },
+   "forwarderError": {
+      "description": "Reports an error returned by a forwarding service to the user.",
+      "message": "Errore $SERVICENAME$: $ERRORMESSAGE$",
+      "placeholders": {
+         "errormessage": {
+            "content": "$2",
+            "example": "Invalid characters in domain name."
+         },
+         "servicename": {
+            "content": "$1",
+            "example": "SimpleLogin"
+         }
+      }
+   },
+   "forwarderGeneratedBy": {
+      "description": "Displayed with the address on the forwarding service's configuration screen.",
+      "message": "Generato da Bitwarden."
+   },
+   "forwarderGeneratedByWithWebsite": {
+      "description": "Displayed with the address on the forwarding service's configuration screen.",
+      "message": "Sito web: $WEBSITE$. Generato da Bitwarden.",
+      "placeholders": {
+         "WEBSITE": {
+            "content": "$1",
+            "example": "www.example.com"
+         }
+      }
+   },
+   "forwarderNoAccountId": {
+      "description": "Displayed when the forwarding service fails to return an account ID.",
+      "message": "Impossibile ottenere l'ID dell'account email mascherato di $SERVICENAME$.",
+      "placeholders": {
+         "servicename": {
+            "content": "$1",
+            "example": "SimpleLogin"
+         }
+      }
+   },
+   "forwarderNoDomain": {
+      "description": "Displayed when the domain is empty or domain authorization failed at the forwarding service.",
+      "message": "Dominio $SERVICENAME$ non valido.",
+      "placeholders": {
+         "servicename": {
+            "content": "$1",
+            "example": "SimpleLogin"
+         }
+      }
+   },
+   "forwarderNoUrl": {
+      "description": "Displayed when the url of the forwarding service wasn't supplied.",
+      "message": "URL $SERVICENAME$ non valido.",
+      "placeholders": {
+         "servicename": {
+            "content": "$1",
+            "example": "SimpleLogin"
+         }
+      }
+   },
+   "forwarderUnknownError": {
+      "description": "Displayed when the forwarding service failed due to an unknown error.",
+      "message": "Errore di $SERVICENAME$ sconosciuto.",
+      "placeholders": {
+         "servicename": {
+            "content": "$1",
+            "example": "SimpleLogin"
+         }
+      }
+   },
+   "forwarderUnknownForwarder": {
+      "description": "Displayed when the forwarding service is not supported.",
+      "message": "Mittente sconosciuto: \"$SERVICENAME$\".",
+      "placeholders": {
+         "servicename": {
+            "content": "$1",
+            "example": "JustTrust.us"
+         }
+      }
+   },
+   "fourHours": {
+      "message": "4 ore"
+   },
+   "freeBitwardenFamilies": {
+      "message": "Bitwarden Families gratis"
+   },
+   "freeBitwardenFamiliesPageDesc": {
+      "message": "Sei idoneo a ricevere Bitwarden Families gratis. Riscatta questa offerta nella web app."
+   },
+   "freeOrgsCannotUseAttachments": {
+      "message": "Le organizzazioni gratis non possono utilizzare gli allegati"
+   },
+   "fullName": {
+      "message": "Nome e cognome"
+   },
+   "general": {
+      "message": "Generale"
+   },
+   "generateEmail": {
+      "message": "Genera email"
+   },
+   "generatePassphrase": {
+      "message": "Genera frase segreta"
+   },
+   "generatePassword": {
+      "message": "Genera password"
+   },
+   "generatePasswordCopied": {
+      "message": "Genera password e copiala"
+   },
+   "generatePasswordSlideDesc": {
+      "description": "Description of the generate password slide on the at-risk password page carousel",
+      "message": "Genera rapidamente una parola d'accesso forte e unica con il menu' di riempimento automatico Bitwarden nel sito a rischio."
+   },
+   "generatePasswordSlideImgAltPeriod": {
+      "message": "Illustrazione del menu di riempimento automatico Bitwarden che mostra una password generata."
+   },
+   "generateUsername": {
+      "message": "Genera nome utente"
+   },
+   "generatedPassword": {
+      "message": "Password generata"
+   },
+   "generator": {
+      "description": "Short for 'credential generator'.",
+      "message": "Generatore"
+   },
+   "generatorHistory": {
+      "message": "Cronologia generatore"
+   },
+   "generatorNudgeBodyAria": {
+      "description": "Aria label for the body content of the generator nudge",
+      "message": "Crea facilmente password forti e uniche cliccando sul pulsante 'Genera password' per aiutarti a mantenere al sicuro i tuoi login."
+   },
+   "generatorNudgeBodyOne": {
+      "description": "Two part message",
+      "example": "Easily create strong and unique passwords by clicking on {icon} to help you keep your logins secure.",
+      "message": "Crea facilmente password forti e uniche cliccando su"
+   },
+   "generatorNudgeBodyTwo": {
+      "description": "Two part message",
+      "example": "Easily create strong and unique passwords by clicking on {icon} to help you keep your logins secure.",
+      "message": "per aiutarti a mantenere i tuoi login al sicuro."
+   },
+   "generatorNudgeTitle": {
+      "message": "Crea rapidamente password sicure"
+   },
+   "generatorPolicyInEffect": {
+      "description": "Indicates that a policy limits the credential generator screen.",
+      "message": "I requisiti di politica aziendale sono stati applicati alle opzioni del generatore."
+   },
+   "getItOnGooglePlay": {
+      "message": "Disponible su Google Play"
+   },
+   "getMasterPasswordHint": {
+      "message": "Ottieni suggerimento della password principale"
+   },
+   "getTheDesktopApp": {
+      "message": "Scarica l'app desktop"
+   },
+   "getTheDesktopAppDesc": {
+      "message": "Accedi alla tua cassaforte senza browser, quindi imposta lo sblocco biometrico per accelerare l'accesso sia all'app desktop che all'estensione."
+   },
+   "getTheMobileApp": {
+      "message": "Scarica l'app mobile"
+   },
+   "getTheMobileAppDesc": {
+      "message": "Accedi alle tue password ovunque con l'app Bitwarden per dispositivi mobili."
+   },
+   "gettingStartedTutorial": {
+      "message": "Guida per iniziare"
+   },
+   "gettingStartedTutorialVideo": {
+      "message": "Guarda il nostro tutorial iniziale per capire come ottenere il massimo dall'estensione del browser."
+   },
+   "goBack": {
+      "message": "Torna indietro"
+   },
+   "good": {
+      "description": "ex. A good password. Scale: Weak -> Good -> Strong",
+      "message": "Buona"
+   },
+   "gotIt": {
+      "message": "Ok"
+   },
+   "greaterThanCharacterDescriptor": {
+      "description": "Represents the > key in screen reader content as a readable word",
+      "message": "Maggiore"
+   },
+   "hasItemsVaultNudgeBodyOne": {
+      "message": "Riempimento automatico per questa pagina"
+   },
+   "hasItemsVaultNudgeBodyThree": {
+      "message": "Cerca altro nella tua cassaforte"
+   },
+   "hasItemsVaultNudgeBodyTwo": {
+      "message": "Trova facilmente gli elementi più usati grazie ai Preferiti"
+   },
+   "hasItemsVaultNudgeTitle": {
+      "message": "Benvenuto nella tua cassaforte!"
+   },
+   "hashSignCharacterDescriptor": {
+      "description": "Represents the # key in screen reader content as a readable word",
+      "message": "Cancelletto"
+   },
+   "helpCenter": {
+      "message": "Centro assistenza Bitwarden"
+   },
+   "helpFeedback": {
+      "message": "Aiuto e feedback"
+   },
+   "hiddenHelpText": {
+      "message": "Usa i campi nascosti per dati sensibili come una password"
+   },
+   "hideCharacterCount": {
+      "message": "Nascondi conteggio caratteri"
+   },
+   "hideMatchDetection": {
+      "message": "Nascondi corrispondenza $WEBSITE$",
+      "placeholders": {
+         "website": {
+            "content": "$1",
+            "example": "https://example.com"
+         }
+      }
+   },
+   "hideTextByDefault": {
+      "message": "Nascondi testo come default"
+   },
+   "hideYourEmail": {
+      "message": "Nascondi il tuo indirizzo email ai visualizzatori."
+   },
+   "hintEqualsPassword": {
+      "message": "Il suggerimento della password non può essere uguale alla password."
+   },
+   "host": {
+      "description": "A URL's host value. For example, the host of https://sub.domain.com:443 is 'sub.domain.com:443'.",
+      "message": "Host"
+   },
+   "hostedAt": {
+      "message": "hosted in"
+   },
+   "hostname": {
+      "description": "Part of a URL.",
+      "message": "Nome host"
+   },
+   "hours": {
+      "message": "Ore"
+   },
+   "howToAutofill": {
+      "message": "Come riempire automaticamente"
+   },
+   "hyphenCharacterDescriptor": {
+      "description": "Represents the _ key in screen reader content as a readable word",
+      "message": "Trattino basso"
+   },
+   "iconsUrl": {
+      "message": "URL del server di icone"
+   },
+   "identification": {
+      "message": "Identificativo"
+   },
+   "identities": {
+      "message": "Identità"
+   },
+   "identityName": {
+      "message": "Nome dell'identità"
+   },
+   "identityUrl": {
+      "message": "URL del server di identità"
+   },
+   "ignore": {
+      "message": "Ignora"
+   },
+   "immediately": {
+      "message": "Immediatamente"
+   },
+   "importData": {
+      "description": "Used for the header of the import dialog, the import button and within the file-password-prompt",
+      "message": "Importa dati"
+   },
+   "importDirectlyFromLastPass": {
+      "message": "Importa direttamente da LastPass"
+   },
+   "importEncKeyError": {
+      "message": "Errore durante la decrittografia del file esportato. La chiave di crittografia non corrisponde alla chiave di crittografia usata per esportare i dati."
+   },
+   "importError": {
+      "message": "Errore di importazione"
+   },
+   "importErrorDesc": {
+      "message": "Si è verificato un problema con i dati che hai provato a importare. Risolvi questi errori nel file e riprova."
+   },
+   "importFormatError": {
+      "message": "I dati non sono formattati correttamente. Controlla il file di importazione e riprova."
+   },
+   "importFromCSV": {
+      "message": "Importa da CSV"
+   },
+   "importItems": {
+      "message": "Importa elementi"
+   },
+   "importNothingError": {
+      "message": "Non è stato importato niente."
+   },
+   "importSshKey": {
+      "message": "Importa"
+   },
+   "importSshKeyFromClipboard": {
+      "message": "Importa chiave dagli Appunti"
+   },
+   "importSuccess": {
+      "message": "Dati importati"
+   },
+   "importSuccessNumberOfItems": {
+      "message": "$AMOUNT$ elementi sono stati importati.",
+      "placeholders": {
+         "amount": {
+            "content": "$1",
+            "example": "2"
+         }
+      }
+   },
+   "importTargetHint": {
+      "description": "Located as a hint under the import target. Will be appended by either folder or collection, depending if the user is importing into an individual or an organizational vault.",
+      "message": "Seleziona questa opzione se vuoi che i contenuti del file di importazione siano spostati in una $DESTINATION$",
+      "placeholders": {
+         "destination": {
+            "content": "$1",
+            "example": "folder or collection"
+         }
+      }
+   },
+   "importUnassignedItemsError": {
+      "message": "Il file contiene elementi non assegnati."
+   },
+   "importWarning": {
+      "message": "Stai importando dati in $ORGANIZATION$. I tuoi dati potrebbero essere condivisi con i membri di questa organizzazione. Vuoi procedere?",
+      "placeholders": {
+         "organization": {
+            "content": "$1",
+            "example": "My Org Name"
+         }
+      }
+   },
+   "important": {
+      "message": "Importante:"
+   },
+   "importingYourAccount": {
+      "message": "Importazione del tuo account..."
+   },
+   "include": {
+      "description": "Card header for password generator include block",
+      "message": "Includi"
+   },
+   "includeNumber": {
+      "message": "Includi numero"
+   },
+   "includeSharedFolders": {
+      "message": "Includi cartelle condivise"
+   },
+   "incorrectCode": {
+      "message": "Codice errato"
+   },
+   "incorrectPassword": {
+      "message": "Password errata"
+   },
+   "incorrectPin": {
+      "message": "PIN errato"
+   },
+   "incorrectUsernameOrPassword": {
+      "message": "Nome utente o password errati"
+   },
+   "inputEmail": {
+      "message": "L'input non è un indirizzo email."
+   },
+   "inputForbiddenCharacters": {
+      "message": "Questi caratteri non sono permessi: $CHARACTERS$",
+      "placeholders": {
+         "characters": {
+            "content": "$1",
+            "example": "@, #, $, %"
+         }
+      }
+   },
+   "inputMaxLength": {
+      "message": "L'input non deve essere più lungo di $COUNT$ caratteri.",
+      "placeholders": {
+         "count": {
+            "content": "$1",
+            "example": "20"
+         }
+      }
+   },
+   "inputMaxValue": {
+      "message": "Il valore immesso non deve superare $MAX$.",
+      "placeholders": {
+         "max": {
+            "content": "$1",
+            "example": "100"
+         }
+      }
+   },
+   "inputMinLength": {
+      "message": "L'input deve essere lungo almeno $COUNT$ caratteri.",
+      "placeholders": {
+         "count": {
+            "content": "$1",
+            "example": "8"
+         }
+      }
+   },
+   "inputMinValue": {
+      "message": "Il valore immesso deve essere almeno $MIN$.",
+      "placeholders": {
+         "min": {
+            "content": "$1",
+            "example": "8"
+         }
+      }
+   },
+   "inputRequired": {
+      "message": "Input obbligatorio."
+   },
+   "inputTrimValidator": {
+      "description": "Notification to inform the user that a form's input can't contain only whitespace.",
+      "message": "L'input non può contenere solo spazi."
+   },
+   "insecurePageWarning": {
+      "message": "Attenzione: questa è una pagina HTTP non protetta, e tutte le informazioni che invii potrebbero essere viste e modificate da altri. Questo login è stato originariamente salvato su una pagina sicura (HTTPS)."
+   },
+   "insecurePageWarningFillPrompt": {
+      "message": "Vuoi comunque riempire automaticamente questo login?"
+   },
+   "insertU2f": {
+      "message": "Inserisci la tua chiave di sicurezza nella porta USB del tuo computer. Se dispone di un pulsante, premilo."
+   },
+   "instructionsFor": {
+      "description": "The title for the import tool instructions.",
+      "message": "Istruzioni per $NAME$",
+      "placeholders": {
+         "name": {
+            "content": "$1",
+            "example": "LastPass (csv)"
+         }
+      }
+   },
+   "introCarouselLabel": {
+      "message": "Benvenuto su Bitwarden"
+   },
+   "invalidEmail": {
+      "message": "Indirizzo email non valido."
+   },
+   "invalidFilePassword": {
+      "message": "Password errata, usa la password che hai inserito alla creazione del file di esportazione."
+   },
+   "invalidMasterPassword": {
+      "message": "Password principale errata"
+   },
+   "invalidPin": {
+      "message": "Codice PIN non valido."
+   },
+   "invalidSshKey": {
+      "message": "La chiave SSH non è valida"
+   },
+   "invalidVerificationCode": {
+      "message": "Codice di verifica non valido"
+   },
+   "inviteAccepted": {
+      "message": "Invito accettato"
+   },
+   "itemAddedToFavorites": {
+      "message": "Elementi aggiunti ai preferiti"
+   },
+   "itemAutoFillOnPageLoad": {
+      "message": "Riempi automaticamente al caricamento della pagina (se abilitato in Impostazioni)"
+   },
+   "itemDetails": {
+      "message": "Dettagli elemento"
+   },
+   "itemHistory": {
+      "message": "Cronologia elemento"
+   },
+   "itemInformation": {
+      "message": "Informazioni elemento"
+   },
+   "itemLocation": {
+      "message": "Posizione elemento"
+   },
+   "itemMovedToOrg": {
+      "message": "Elemento spostato su $ORGNAME$",
+      "placeholders": {
+         "orgname": {
+            "content": "$1",
+            "example": "Company Name"
+         }
+      }
+   },
+   "itemName": {
+      "message": "Nome elemento"
+   },
+   "itemRemovedFromFavorites": {
+      "message": "Elementi rimossi dai preferiti"
+   },
+   "itemSuggestions": {
+      "message": "Elementi suggeriti"
+   },
+   "itemsInTrash": {
+      "message": "Elementi nel cestino"
+   },
+   "itemsMovedToOrg": {
+      "message": "Elementi spostati su $ORGNAME$",
+      "placeholders": {
+         "orgname": {
+            "content": "$1",
+            "example": "Company Name"
+         }
+      }
+   },
+   "itemsWithNoFolder": {
+      "message": "Elementi senza cartella"
+   },
+   "january": {
+      "message": "Gennaio"
+   },
+   "joinOrganization": {
+      "message": "Unisciti all'organizzazione"
+   },
+   "joinOrganizationName": {
+      "message": "Unisciti a $ORGANIZATIONNAME$",
+      "placeholders": {
+         "organizationName": {
+            "content": "$1",
+            "example": "My Org Name"
+         }
+      }
+   },
+   "july": {
+      "message": "Luglio"
+   },
+   "june": {
+      "message": "Giugno"
+   },
+   "justOnce": {
+      "message": "Solo una volta"
+   },
+   "keyConnectorDomain": {
+      "message": "Dominio Key Connector"
+   },
+   "labelWithNotification": {
+      "description": "Label for the notification with a new login suggestion.",
+      "message": "$LABEL$: Nuova notifica",
+      "placeholders": {
+         "label": {
+            "content": "$1",
+            "example": "Login"
+         }
+      }
+   },
+   "lastEdited": {
+      "message": "Ultima modifica"
+   },
+   "lastName": {
+      "message": "Cognome"
+   },
+   "lastPassAuthRequired": {
+      "message": "Autenticazione di LastPass obbligatoria"
+   },
+   "lastPassEmail": {
+      "message": "Email di LastPass"
+   },
+   "lastPassMFADesc": {
+      "message": "Inserisci il codice di verifica dalla tua app di autenticazione"
+   },
+   "lastPassMFARequired": {
+      "message": "Verifica in due passaggi di LastPass obbligatoria"
+   },
+   "lastPassMasterPassword": {
+      "message": "Password principale di LastPass"
+   },
+   "lastPassOOBDesc": {
+      "message": "Approva la richiesta di accesso nella tua app di autenticazione o inserisci un codice di accesso una tantum."
+   },
+   "lastPassTryAgainCheckEmail": {
+      "message": "Riprova o cerca un'email di LastPass per verificare la tua identità."
+   },
+   "lastPassYubikeyDesc": {
+      "message": "Inserisci la tua YubiKey associata al tuo account LastPass nella porta USB del computer, poi premi il suo bottone."
+   },
+   "lastSeenOn": {
+      "message": "visto l'ultima volta il $DATE$",
+      "placeholders": {
+         "date": {
+            "content": "$1",
+            "example": "Jun 15, 2015"
+         }
+      }
+   },
+   "lastSync": {
+      "message": "Ultima sincronizzazione:"
+   },
+   "launch": {
+      "message": "Avvia"
+   },
+   "launchDuo": {
+      "message": "Avvia DUO"
+   },
+   "launchWebsite": {
+      "message": "Avvia il sito web"
+   },
+   "launchWebsiteName": {
+      "message": "Apri sito web $ITEMNAME$",
+      "placeholders": {
+         "itemname": {
+            "content": "$1",
+            "example": "Secret item"
+         }
+      }
+   },
+   "learnAboutImportOptions": {
+      "message": "Ulteriori informazioni sulle tue opzioni di importazione"
+   },
+   "learnMore": {
+      "message": "Ulteriori informazioni"
+   },
+   "learnMoreAboutAuthenticators": {
+      "message": "Ulteriori informazioni sugli autenticatori"
+   },
+   "learnMoreAboutAutofill": {
+      "message": "Ulteriori informazioni"
+   },
+   "learnMoreAboutAutofillOnPageLoadLinkText": {
+      "message": "Scopri di più sui rischi"
+   },
+   "learnMoreAboutBlockedDomains": {
+      "message": "Info sui domini bloccati"
+   },
+   "leaveOrganization": {
+      "message": "Lascia organizzazione"
+   },
+   "leaveOrganizationConfirmation": {
+      "message": "Sei sicuro di voler lasciare questa organizzazione?"
+   },
+   "leftOrganization": {
+      "message": "Hai lasciato l'organizzazione."
+   },
+   "legacyEncryptionUnsupported": {
+      "message": "La crittografia legacy non è più supportata. Contatta l'assistenza per recuperare il tuo account."
+   },
+   "length": {
+      "message": "Lunghezza"
+   },
+   "lessThanCharacterDescriptor": {
+      "description": "Represents the \u003C key in screen reader content as a readable word",
+      "message": "Minore"
+   },
+   "licenseNumber": {
+      "message": "Numero patente"
+   },
+   "light": {
+      "description": "Light color",
+      "message": "Chiaro"
+   },
+   "limitSendViews": {
+      "message": "Limita visualizzazioni"
+   },
+   "limitSendViewsCount": {
+      "description": "Displayed under the limit views field on Send",
+      "message": "$ACCESSCOUNT$ visualizzazioni rimaste",
+      "placeholders": {
+         "accessCount": {
+            "content": "$1",
+            "example": "2"
+         }
+      }
+   },
+   "limitSendViewsHint": {
+      "description": "Displayed under the limit views field on Send",
+      "message": "Nessuno potrà vedere questo Send al raggiungimento del limite."
+   },
+   "linked": {
+      "message": "Collegato"
+   },
+   "linkedHelpText": {
+      "message": "Usa un campo collegato quando si verificano problemi di riempimento automatico per un sito web specifico."
+   },
+   "linkedLabelHelpText": {
+      "message": "Inserisci l'id html del campo, il nome, l'aria-label o il segnaposto."
+   },
+   "linkedValue": {
+      "description": "This describes a value that is 'linked' (tied) to another value.",
+      "message": "Valore collegato"
+   },
+   "loading": {
+      "message": "Caricamento in corso..."
+   },
+   "location": {
+      "message": "Luogo"
+   },
+   "lock": {
+      "description": "Verb form: to make secure or inaccessible by",
+      "message": "Blocca"
+   },
+   "lockAll": {
+      "message": "Blocca tutto"
+   },
+   "lockNow": {
+      "message": "Blocca ora"
+   },
+   "lockWithMasterPassOnRestart": {
+      "message": "Blocca con la password principale al riavvio del browser"
+   },
+   "lockWithMasterPassOnRestart1": {
+      "message": "Richiedi password principale al riavvio del browser"
+   },
+   "locked": {
+      "message": "bloccato"
+   },
+   "logIn": {
+      "message": "Accedi"
+   },
+   "logInRequestSent": {
+      "message": "Richiesta inviata"
+   },
+   "logInToBitwarden": {
+      "message": "Accedi a Bitwarden"
+   },
+   "logInWithPasskey": {
+      "message": "Accedi con passkey"
+   },
+   "logInWithPasskeyAriaLabel": {
+      "description": "ARIA label for the inline menu button that logs in with a passkey.",
+      "message": "Accedi con passkey"
+   },
+   "logInWithPasskeyQuestion": {
+      "message": "Accedi con passkey?"
+   },
+   "logOut": {
+      "message": "Esci"
+   },
+   "logOutConfirmation": {
+      "message": "Sei sicuro di volerti disconnettere?"
+   },
+   "loggedInAsOn": {
+      "message": "Accesso effettuato come $EMAIL$ su $HOSTNAME$.",
+      "placeholders": {
+         "email": {
+            "content": "$1",
+            "example": "name@example.com"
+         },
+         "hostname": {
+            "content": "$2",
+            "example": "bitwarden.com"
+         }
+      }
+   },
+   "loggedInExclamation": {
+      "message": "Accesso effettuato!"
+   },
+   "loggedOut": {
+      "message": "Disconnesso"
+   },
+   "loggedOutDesc": {
+      "message": "Sei stato fatto uscire dal tuo account."
+   },
+   "loggingInTo": {
+      "message": "Accedendo a $DOMAIN$",
+      "placeholders": {
+         "domain": {
+            "content": "$1",
+            "example": "example.com"
+         }
+      }
+   },
+   "loginApproved": {
+      "message": "Accesso approvato"
+   },
+   "loginCredentials": {
+      "message": "Credenziali di accesso"
+   },
+   "loginExpired": {
+      "message": "La tua sessione è scaduta."
+   },
+   "loginInitiated": {
+      "message": "Accesso avviato"
+   },
+   "loginOrCreateNewAccount": {
+      "message": "Entra o crea un nuovo account per accedere alla tua cassaforte."
+   },
+   "loginSaveSuccess": {
+      "description": "Message displayed when login details are successfully saved.",
+      "message": "Login salvato"
+   },
+   "loginToVaultMenu": {
+      "message": "Accedi alla tua cassaforte"
+   },
+   "loginUnavailable": {
+      "message": "Login non disponibile"
+   },
+   "loginUpdateSuccess": {
+      "description": "Message displayed when login details are successfully updated.",
+      "message": "Login aggiornato"
+   },
+   "loginUpdateTaskSuccess": {
+      "description": "Shown to user after login is updated.",
+      "message": "Congratulazioni! Hai reso $ORGANIZATION$ e te stesso più sicuri.",
+      "placeholders": {
+         "organization": {
+            "content": "$1"
+         }
+      }
+   },
+   "loginUpdateTaskSuccessAdditional": {
+      "description": "Shown to user after login is updated.",
+      "message": "Grazie per aver reso $ORGANIZATION$ più sicuro. Hai altre $TASK_COUNT$ password da aggiornare.",
+      "placeholders": {
+         "organization": {
+            "content": "$1"
+         },
+         "task_count": {
+            "content": "$2"
+         }
+      }
+   },
+   "loginWithDevice": {
+      "message": "Accedi con dispositivo"
+   },
+   "loginWithMasterPassword": {
+      "message": "Accedi con password principale"
+   },
+   "logins": {
+      "message": "Login"
+   },
+   "lowercaseAriaLabel": {
+      "message": "Minuscolo"
+   },
+   "lowercaseDescription": {
+      "description": "Full description for the password generator lowercase character checkbox",
+      "message": "Includi caratteri minuscoli"
+   },
+   "lowercaseLabel": {
+      "description": "Label for the password generator lowercase character checkbox",
+      "message": "a-z"
+   },
+   "makeDefault": {
+      "description": "Button text for the setting that allows overriding the default browser autofill settings",
+      "message": "Rendi predefinito"
+   },
+   "manage": {
+      "message": "Gestisci"
+   },
+   "march": {
+      "message": "Marzo"
+   },
+   "masterPass": {
+      "message": "Password principale"
+   },
+   "masterPassDesc": {
+      "message": "La password principale ti serve per accedere alla tua cassaforte. È molto importante non dimenticarla. Non possiamo aiutarti a recuperare questa password se la dimentichi."
+   },
+   "masterPassDoesntMatch": {
+      "message": "Le password principali non corrispondono."
+   },
+   "masterPassHint": {
+      "message": "Suggerimento per la password principale (facoltativo)"
+   },
+   "masterPassHintDesc": {
+      "message": "Un suggerimento per la password principale può aiutarti a ricordarla se la dimentichi."
+   },
+   "masterPassHintLabel": {
+      "message": "Suggerimento per la password principale"
+   },
+   "masterPassHintText": {
+      "message": "Se dimentichi la password, il suggerimento password può essere inviato alla tua email. Attualmente $CURRENT$ caratteri, massimo $MAXIMUM$.",
+      "placeholders": {
+         "current": {
+            "content": "$1",
+            "example": "0"
+         },
+         "maximum": {
+            "content": "$2",
+            "example": "50"
+         }
+      }
+   },
+   "masterPassImportant": {
+      "message": "La tua password principale non può essere recuperata se la dimentichi!"
+   },
+   "masterPassSent": {
+      "message": "Ti abbiamo inviato una email con il tuo suggerimento per la password principale."
+   },
+   "masterPassword": {
+      "message": "Password principale"
+   },
+   "masterPasswordHint": {
+      "message": "La tua password principale non può essere recuperata se la dimentichi!"
+   },
+   "masterPasswordMinlength": {
+      "description": "The Master Password must be at least a specific number of characters long.",
+      "message": "La password principale deve essere lunga almeno $VALUE$ caratteri.",
+      "placeholders": {
+         "value": {
+            "content": "$1",
+            "example": "8"
+         }
+      }
+   },
+   "masterPasswordPolicyInEffect": {
+      "message": "Una o più politiche dell'organizzazione richiedono che la tua password principale soddisfi questi requisiti:"
+   },
+   "masterPasswordPolicyRequirementsNotMet": {
+      "message": "La tua nuova password principale non soddisfa i requisiti di sicurezza."
+   },
+   "masterPasswordRequired": {
+      "message": "Password principale obbligatoria."
+   },
+   "matchDetection": {
+      "description": "URI match detection for autofill.",
+      "message": "Rilevamento di corrispondenza"
+   },
+   "maxAccessCountReached": {
+      "description": "This text will be displayed after a Send has been accessed the maximum amount of times.",
+      "message": "Raggiunto il limite massimo degli accessi"
+   },
+   "maxFileSize": {
+      "message": "La dimensione massima del file è 500 MB."
+   },
+   "maxFileSizeSansPunctuation": {
+      "message": "La dimensione massima del file è 500 MB"
+   },
+   "may": {
+      "message": "Maggio"
+   },
+   "middleName": {
+      "message": "Secondo nome"
+   },
+   "minNumbers": {
+      "message": "Minimo numeri"
+   },
+   "minSpecial": {
+      "message": "Minimo caratteri speciali"
+   },
+   "minutes": {
+      "message": "Minuti"
+   },
+   "moreFromBitwarden": {
+      "message": "Altro da Bitwarden"
+   },
+   "moreOptionsLabel": {
+      "description": "Aria label for a button that opens a menu with more options for an item.",
+      "message": "Più opzioni, $ITEMNAME$",
+      "placeholders": {
+         "itemname": {
+            "content": "$1",
+            "example": "Secret Item"
+         }
+      }
+   },
+   "moreOptionsTitle": {
+      "description": "Title for a button that opens a menu with more options for an item.",
+      "message": "Più opzioni - $ITEMNAME$",
+      "placeholders": {
+         "itemname": {
+            "content": "$1",
+            "example": "Secret Item"
+         }
+      }
+   },
+   "move": {
+      "message": "Sposta"
+   },
+   "moveToOrgDesc": {
+      "message": "Scegli un'organizzazione in cui vuoi spostare questo elemento. Spostarlo in un'organizzazione trasferisce la proprietà dell'elemento all'organizzazione. Una volta spostato, non sarai più il proprietario diretto di questo elemento."
+   },
+   "moveToOrganization": {
+      "message": "Sposta in organizzazione"
+   },
+   "movedItemToOrg": {
+      "message": "$ITEMNAME$ spostato in $ORGNAME$",
+      "placeholders": {
+         "itemname": {
+            "content": "$1",
+            "example": "Secret Item"
+         },
+         "orgname": {
+            "content": "$2",
+            "example": "Company Name"
+         }
+      }
+   },
+   "mr": {
+      "message": "Sig"
+   },
+   "mrs": {
+      "message": "Sig.ra"
+   },
+   "ms": {
+      "message": "Sig.ra"
+   },
+   "multiSelectClearAll": {
+      "message": "Cancella tutto"
+   },
+   "multiSelectLoading": {
+      "message": "Ottenendo opzioni..."
+   },
+   "multiSelectNotFound": {
+      "message": "Nessun elemento trovato"
+   },
+   "multiSelectPlaceholder": {
+      "message": "-- Digita per filtrare --"
+   },
+   "multifactorAuthenticationCancelled": {
+      "message": "Verifica in due passaggi annullata"
+   },
+   "multifactorAuthenticationFailed": {
+      "message": "Verifica in due passaggi non riuscita"
+   },
+   "multipleFieldsNeedAttention": {
+      "message": "$COUNT$ campi richiedono la tua attenzione.",
+      "placeholders": {
+         "count": {
+            "content": "$1",
+            "example": "2"
+         }
+      }
+   },
+   "multipleInputEmails": {
+      "message": "Una o più email non sono valide"
+   },
+   "mx": {
+      "message": "Mx"
+   },
+   "myVault": {
+      "message": "La mia cassaforte"
+   },
+   "nCollections": {
+      "message": "$COUNT$ raccolte",
+      "placeholders": {
+         "count": {
+            "content": "$1",
+            "example": "2"
+         }
+      }
+   },
+   "name": {
+      "message": "Nome"
+   },
+   "nameRequired": {
+      "message": "Il nome è obbligatorio."
+   },
+   "nativeMessaginPermissionErrorDesc": {
+      "message": "Senza l'autorizzazione per comunicare con l'app desktop di Bitwarden non è possibile fornire l'autenticazione biometrica nell'estensione del browser. Riprova di nuovo."
+   },
+   "nativeMessaginPermissionErrorTitle": {
+      "message": "Permesso non fornito"
+   },
+   "nativeMessaginPermissionSidebarDesc": {
+      "message": "Questa azione non può essere eseguita nella barra laterale, riprova l'azione nel pop-up o nella finestra."
+   },
+   "nativeMessaginPermissionSidebarTitle": {
+      "message": "Errore richiesta di autorizzazione"
+   },
+   "nativeMessagingInvalidEncryptionDesc": {
+      "message": "L'app desktop ha invalidato il canale di comunicazione sicuro. Riprova di nuovo"
+   },
+   "nativeMessagingInvalidEncryptionTitle": {
+      "message": "Comunicazione desktop interrotta"
+   },
+   "nativeMessagingWrongUserDesc": {
+      "message": "L'app desktop è collegata a un account diverso. Assicurati che entrambe le app siano collegate allo stesso account."
+   },
+   "nativeMessagingWrongUserKeyDesc": {
+      "message": "Sblocco biometrico non riuscito. La chiave segreta biometrica non è riuscita a sbloccare la cassaforte. Riprova a configurare nuovamente la biometria."
+   },
+   "nativeMessagingWrongUserKeyTitle": {
+      "message": "Chiave biometrica non corrispondente"
+   },
+   "nativeMessagingWrongUserTitle": {
+      "message": "Account non corrispondono"
+   },
+   "needADifferentMethod": {
+      "message": "Usa un altro metodo?"
+   },
+   "needAnotherOptionV1": {
+      "message": "Bisogno di un'altra opzione?"
+   },
+   "never": {
+      "message": "Mai"
+   },
+   "neverLockWarning": {
+      "message": "Sei sicuro di voler usare l'opzione \"Mai\"? Impostare le opzioni di blocco su \"Mai\" salverà la chiave di crittografia della cassaforte sul tuo dispositivo. Se usi questa opzione, assicurati di mantenere il tuo dispositivo adeguatamente protetto."
+   },
+   "new": {
+      "message": "Nuovo"
+   },
+   "newAccountCreated": {
+      "message": "Il tuo nuovo account è stato creato! Ora puoi eseguire l'accesso."
+   },
+   "newAccountCreated2": {
+      "message": "Il tuo nuovo account è stato creato!"
+   },
+   "newAroundHere": {
+      "message": "Nuovo da queste parti?"
+   },
+   "newAttachment": {
+      "message": "Aggiungi nuovo allegato"
+   },
+   "newCard": {
+      "description": "Button text to display within inline menu when there are no matching items on a credit card field",
+      "message": "Nuova carta"
+   },
+   "newCardNudgeBody": {
+      "message": "Con le carte memorizzate, riempi i campi di pagamento in modo facile e veloce."
+   },
+   "newCardNudgeTitle": {
+      "message": "Accesso e pagamento online semplificati"
+   },
+   "newCustomField": {
+      "message": "Nuovo campo personalizzato"
+   },
+   "newFolder": {
+      "message": "Nuova cartella"
+   },
+   "newIdentity": {
+      "description": "Button text to display within inline menu when there are no matching items on an identity field",
+      "message": "Nuova identità"
+   },
+   "newIdentityNudgeBody": {
+      "message": "Con le identità, riempi in un attimo i moduli di registrazione per la creazione di account."
+   },
+   "newIdentityNudgeTitle": {
+      "message": "Semplifica la creazione di account"
+   },
+   "newItem": {
+      "description": "Button text to display in overlay when there are no matching items",
+      "message": "Nuovo elemento"
+   },
+   "newItemHeader": {
+      "message": "Nuovo $TYPE$",
+      "placeholders": {
+         "type": {
+            "content": "$1",
+            "example": "Login"
+         }
+      }
+   },
+   "newLogin": {
+      "description": "Button text to display within inline menu when there are no matching items on a login field",
+      "message": "Nuovo login"
+   },
+   "newLoginNudgeBodyBold": {
+      "description": "This is in multiple parts to allow for bold text in the middle of the sentence.",
+      "example": "Include a Website so this login appears as an autofill suggestion.",
+      "message": "Sito"
+   },
+   "newLoginNudgeBodyOne": {
+      "description": "This is in multiple parts to allow for bold text in the middle of the sentence.",
+      "example": "Include a Website so this login appears as an autofill suggestion.",
+      "message": "Includi"
+   },
+   "newLoginNudgeBodyTwo": {
+      "description": "This is in multiple parts to allow for bold text in the middle of the sentence.",
+      "example": "Include a Website so this login appears as an autofill suggestion.",
+      "message": "questo login appare come suggerimento per il riempimento automatico."
+   },
+   "newLoginNudgeTitle": {
+      "message": "Accedi in un attimo grazie al riempimento automatico"
+   },
+   "newMasterPass": {
+      "message": "Nuova password principale"
+   },
+   "newNoteNudgeBody": {
+      "message": "Usa le note per memorizzare in modo sicuro i dati sensibili come i dettagli bancari o assicurativi."
+   },
+   "newNoteNudgeTitle": {
+      "message": "Mantieni al sicuro i tuoi dati sensibili"
+   },
+   "newNotification": {
+      "message": "Nuova notifica"
+   },
+   "newPassword": {
+      "message": "Nuova password"
+   },
+   "newSshNudgeBodyOne": {
+      "description": "Two part message",
+      "example": "Store your keys and connect with the SSH agent for fast, encrypted authentication. Learn more about SSH agent",
+      "message": "Memorizza le chiavi e connettiti con l'agente SSH per un'autenticazione crittografata veloce."
+   },
+   "newSshNudgeBodyTwo": {
+      "description": "Two part message",
+      "example": "Store your keys and connect with the SSH agent for fast, encrypted authentication. Learn more about SSH agent",
+      "message": "Scopri di più sull'agente SSH"
+   },
+   "newSshNudgeTitle": {
+      "message": "Accesso SSH ideale per gli sviluppatori"
+   },
+   "newToBitwarden": {
+      "message": "Sei nuovo su Bitwarden?"
+   },
+   "newUri": {
+      "message": "Nuovo URI"
+   },
+   "nextSecurityTaskAction": {
+      "description": "Message prompting user to undertake completion of another security task.",
+      "message": "Cambia la prossima password"
+   },
+   "no": {
+      "message": "No"
+   },
+   "noAttachments": {
+      "message": "Nessun allegato."
+   },
+   "noCards": {
+      "message": "Nessuna carta"
+   },
+   "noCollectionsInList": {
+      "message": "Nessuna raccolta da mostrare."
+   },
+   "noEditPermissions": {
+      "message": "Non hai i permessi per modificare questo elemento"
+   },
+   "noEmail": {
+      "message": "Nessuna email?"
+   },
+   "noFileChosen": {
+      "message": "Nessun file selezionato"
+   },
+   "noFolders": {
+      "message": "Non ci sono cartelle da mostrare."
+   },
+   "noFoldersAdded": {
+      "message": "Nessuna cartella aggiunta"
+   },
+   "noFoldersFound": {
+      "description": "Used as a message within the notification bar when no folders are found",
+      "message": "Nessuna cartella trovata"
+   },
+   "noIdentities": {
+      "message": "Nessuna identità"
+   },
+   "noItemsInList": {
+      "message": "Non ci sono elementi da mostrare."
+   },
+   "noItemsInTrash": {
+      "message": "Nessun elemento nel cestino"
+   },
+   "noItemsInTrashDesc": {
+      "message": "Gli elementi cancellati appariranno qui e saranno eliminati definitivamente dopo 30 giorni"
+   },
+   "noItemsMatchSearch": {
+      "message": "Nessun risultato corrisponde alla tua ricerca"
+   },
+   "noItemsToShow": {
+      "description": "Text to show in overlay if there are no matching items",
+      "message": "Nessun elemento trovato"
+   },
+   "noLastPassDataFound": {
+      "message": "Nessun dato di LastPass trovato"
+   },
+   "noMatchingLogins": {
+      "message": "Nessun login corrispondente"
+   },
+   "noMatchingLoginsForSite": {
+      "message": "Nessun login corrispondente per questo sito"
+   },
+   "noMatchingPasskeyLogin": {
+      "message": "Non hai un elemento corrispondente per questo sito."
+   },
+   "noOrganizationsList": {
+      "message": "Non appartieni a nessuna organizzazione. Le organizzazioni ti consentono di condividere elementi con altri in modo sicuro."
+   },
+   "noPasskeysFoundForThisApplication": {
+      "message": "Nessuna passkey trovata per questa applicazione."
+   },
+   "noPasswordsInList": {
+      "message": "Non ci sono password da mostrare."
+   },
+   "noPermissionsViewPage": {
+      "message": "Non hai i permessi per visualizzare questa pagina. Prova ad accedere con un altro account."
+   },
+   "noTwoStepProviders": {
+      "message": "La verifica in due passaggi è abilitata per il tuo account, ma nessuno dei metodi configurati è supportato da questo browser."
+   },
+   "noTwoStepProviders2": {
+      "message": "Usa un browser web supportato (come Chrome) e/o aggiungi altri metodi che sono supportati meglio da tutti i browser web (come un'app di autenticazione)."
+   },
+   "noValuesToCopy": {
+      "message": "Nessun valore da copiare"
+   },
+   "noneFolder": {
+      "description": "This is the folder for uncategorized items",
+      "message": "Nessuna cartella"
+   },
+   "note": {
+      "message": "Nota"
+   },
+   "notes": {
+      "message": "Note"
+   },
+   "nothingGeneratedRecently": {
+      "message": "Non hai generato niente di recente"
+   },
+   "nothingSelected": {
+      "message": "Non hai selezionato nulla."
+   },
+   "nothingToShow": {
+      "message": "Niente da mostrare"
+   },
+   "notificationAddDesc": {
+      "message": "Vuoi che Bitwarden ricordi questa password per te?"
+   },
+   "notificationAddSave": {
+      "message": "Salva"
+   },
+   "notificationChangeDesc": {
+      "message": "Vuoi aggiornare questa password in Bitwarden?"
+   },
+   "notificationChangeSave": {
+      "message": "Aggiorna"
+   },
+   "notificationEditTooltip": {
+      "description": "Tooltip and Aria label for edit button on cipher item",
+      "message": "Modifica prima di salvare"
+   },
+   "notificationLoginSaveConfirmation": {
+      "description": "Shown to user after item is saved.",
+      "message": "salvato in Bitwarden."
+   },
+   "notificationLoginUpdatedConfirmation": {
+      "description": "Shown to user after item is updated.",
+      "message": "aggiornato in Bitwarden."
+   },
+   "notificationNewItemAria": {
+      "description": "Aria label for the new item button in notification bar confirmation message when error is prompted",
+      "message": "Nuovo elemento, si apre in una nuova finestra"
+   },
+   "notificationSentDevice": {
+      "message": "Una notifica è stata inviata al tuo dispositivo."
+   },
+   "notificationSentDeviceAnchor": {
+      "message": "app web"
+   },
+   "notificationSentDevicePart1": {
+      "message": "Sblocca Bitwarden sul tuo dispositivo o su"
+   },
+   "notificationSentDevicePart2": {
+      "message": "Assicurarsi che la frase di impronta digitale corrisponda a quella sottostante prima dell'approvazione."
+   },
+   "notificationUnlock": {
+      "message": "Sblocca"
+   },
+   "notificationUnlockDesc": {
+      "message": "Sblocca la tua cassaforte di Bitwarden per completare la richiesta di riempimento automatico."
+   },
+   "notificationViewAria": {
+      "description": "Aria label for the view button in notification bar confirmation message",
+      "message": "Visualizza $ITEMNAME$, si apre in una nuova finestra",
+      "placeholders": {
+         "itemName": {
+            "content": "$1"
+         }
+      }
+   },
+   "notifications": {
+      "message": "Notifiche"
+   },
+   "notificationsUrl": {
+      "message": "URL del server delle notifiche"
+   },
+   "november": {
+      "message": "Novembre"
+   },
+   "nudgeBadgeAria": {
+      "message": "1 notifica"
+   },
+   "numWords": {
+      "message": "Numero di parole"
+   },
+   "number": {
+      "message": "Numero"
+   },
+   "numbersDescription": {
+      "description": "Full description for the password generator numbers checkbox",
+      "message": "Includi numeri"
+   },
+   "numbersLabel": {
+      "description": "Label for the password generator numbers checkbox",
+      "message": "0-9"
+   },
+   "october": {
+      "message": "Ottobre"
+   },
+   "ok": {
+      "message": "Ok"
+   },
+   "onLocked": {
+      "message": "Al blocco del computer"
+   },
+   "onRestart": {
+      "message": "Al riavvio del browser"
+   },
+   "oneDay": {
+      "message": "1 giorno"
+   },
+   "oneHour": {
+      "message": "1 ora"
+   },
+   "oneMinute": {
+      "message": "1 minuto"
+   },
+   "openInNewTab": {
+      "message": "Apri in una nuova scheda"
+   },
+   "opensInANewWindow": {
+      "message": "Si apre in una nuova finestra"
+   },
+   "options": {
+      "message": "Opzioni"
+   },
+   "or": {
+      "message": "o"
+   },
+   "orCopyPasteFileContents": {
+      "message": "oppure copia e incolla il contenuto del file da importare"
+   },
+   "orgPermissionsUpdatedMustSetPassword": {
+      "description": "Used as a card title description on the set password page to explain why the user is there",
+      "message": "Le autorizzazioni della tua organizzazione sono state aggiornate, obbligandoti a impostare una password principale."
+   },
+   "orgRequiresYouToSetPassword": {
+      "description": "Used as a card title description on the set password page to explain why the user is there",
+      "message": "La tua organizzazione ti obbliga di impostare di una password principale."
+   },
+   "orgTrustWarning": {
+      "message": "Per la sicurezza del tuo account, procedi solo se sei un membro di questa organizzazione, il recupero dell'account è abilitato e l'impronta digitale visualizzata di seguito corrisponde all'impronta digitale dell'organizzazione."
+   },
+   "orgTrustWarning1": {
+      "message": "Questa organizzazione ha una politica Enterprise che ti iscriverà al recupero dell'account. La registrazione consentirà agli amministratori dell'organizzazione di modificare la password. Procedi solo se riconosci questa organizzazione e la frase di impronta digitale mostrata di seguito corrisponde all'impronta digitale dell'organizzazione."
+   },
+   "organization": {
+      "description": "An entity of multiple related people (ex. a team or business organization).",
+      "message": "Organizzazione"
+   },
+   "organizationIsDeactivated": {
+      "message": "L'organizzazione è disattivata"
+   },
+   "organizationIsDisabled": {
+      "message": "Organizzazione disabilitata."
+   },
+   "organizationName": {
+      "message": "Nome organizzazione"
+   },
+   "organizationNotTrusted": {
+      "message": "L'organizzazione non è fidata"
+   },
+   "other": {
+      "message": "Altro"
+   },
+   "otherOptions": {
+      "message": "Altre opzioni"
+   },
+   "overrideDefaultBrowserAutoFillSettings": {
+      "description": "Label for the setting that allows overriding the default browser autofill settings",
+      "message": "Rendi Bitwarden il tuo password manager predefinito"
+   },
+   "overrideDefaultBrowserAutofillDescription": {
+      "description": "Dialog message facilitating the ability to override a chrome browser's default autofill behavior",
+      "message": "Se questa opzione è disattivata potrebbe causare conflitti tra il menu di riempimento automatico di Bitwarden e quello del tuo browser."
+   },
+   "overrideDefaultBrowserAutofillTitle": {
+      "description": "Dialog title facilitating the ability to override a chrome browser's default autofill behavior",
+      "message": "Rendere Bitwarden il tuo password manager predefinito?"
+   },
+   "overwritePasskey": {
+      "message": "Sovrascrivi passkey?"
+   },
+   "overwritePasskeyAlert": {
+      "message": "Questo elemento contiene già una passkey. Sei sicuro di voler sovrascrivere la passkey corrente?"
+   },
+   "overwritePassword": {
+      "message": "Sovrascrivi password"
+   },
+   "overwritePasswordConfirmation": {
+      "message": "Sei sicuro di voler sovrascrivere la password corrente?"
+   },
+   "overwriteUsername": {
+      "message": "Sovrascrivi nome utente"
+   },
+   "overwriteUsernameConfirmation": {
+      "message": "Sei sicuro di voler sovrascrivere il nome utente corrente?"
+   },
+   "owner": {
+      "message": "Proprietario"
+   },
+   "ownerYou": {
+      "message": "Proprietario: Tu"
+   },
+   "ownership": {
+      "message": "Proprietà"
+   },
+   "parenLeftCharacterDescriptor": {
+      "description": "Represents the ( key in screen reader content as a readable word",
+      "message": "Parentesi sinistra"
+   },
+   "parenRightCharacterDescriptor": {
+      "description": "Represents the ) key in screen reader content as a readable word",
+      "message": "Parentesi destra"
+   },
+   "partialUsername": {
+      "description": "Screen reader text for when a login item is focused where a partial username is displayed. SR will announce this phrase before reading the text of the partial username",
+      "message": "Nome utente parziale"
+   },
+   "passGen": {
+      "message": "Generatore di password"
+   },
+   "passGenInfo": {
+      "message": "Genera automaticamente password complesse e uniche per i tuoi login."
+   },
+   "passcode": {
+      "message": "Codice di verifica"
+   },
+   "passkeyAlreadyExists": {
+      "message": "Esiste già una passkey per questa applicazione."
+   },
+   "passkeyFeatureIsNotImplementedForAccountsWithoutMasterPassword": {
+      "message": "Verifica richiesta dal sito web. Questa funzionalità non è ancora implementata per gli account senza password principale."
+   },
+   "passkeyItem": {
+      "message": "Passkey"
+   },
+   "passkeyNotCopied": {
+      "message": "La passkey non sarà copiata"
+   },
+   "passkeyNotCopiedAlert": {
+      "message": "La passkey non sarà copiata nell'elemento clonato. Vuoi continuare a clonare questo elemento?"
+   },
+   "passkeyRemoved": {
+      "message": "Passkey rimossa"
+   },
+   "passkeys": {
+      "description": "A section header for a list of passkeys.",
+      "message": "Passkey"
+   },
+   "passphrase": {
+      "message": "Frase segreta"
+   },
+   "passphraseGenerated": {
+      "message": "Frase segreta generata"
+   },
+   "passphraseNumWordsRecommendationHint": {
+      "description": "Appended to `spinboxBoundariesHint` to recommend a number of words to the user. This must include any language-specific 'sentence' separator characters (e.g. a space in english).",
+      "message": " Usa $RECOMMENDED$ parole o più per generare una frase segreta forte.",
+      "placeholders": {
+         "recommended": {
+            "content": "$1",
+            "example": "6"
+         }
+      }
+   },
+   "passportNumber": {
+      "message": "Numero passaporto"
+   },
+   "password": {
+      "message": "Password"
+   },
+   "passwordConfirmation": {
+      "message": "Conferma della password principale"
+   },
+   "passwordConfirmationDesc": {
+      "message": "Questa azione è protetta. Inserisci la tua password principale di nuovo per verificare la tua identità."
+   },
+   "passwordCopied": {
+      "message": "Password copiata"
+   },
+   "passwordExposed": {
+      "message": "Questa password è stata esposta $VALUE$ volte nei database di violazioni dei dati. Dovresti cambiarla.",
+      "placeholders": {
+         "value": {
+            "content": "$1",
+            "example": "2"
+         }
+      }
+   },
+   "passwordGenerated": {
+      "message": "Parola d'accesso generata"
+   },
+   "passwordGenerator": {
+      "message": "Generatore di password"
+   },
+   "passwordHistory": {
+      "message": "Cronologia delle password"
+   },
+   "passwordLengthRecommendationHint": {
+      "description": "Appended to `spinboxBoundariesHint` to recommend a length to the user. This must include any language-specific 'sentence' separator characters (e.g. a space in english).",
+      "message": " Usa $RECOMMENDED$ caratteri o più per generare una password forte.",
+      "placeholders": {
+         "recommended": {
+            "content": "$1",
+            "example": "14"
+         }
+      }
+   },
+   "passwordPrompt": {
+      "message": "Richiedi di inserire la password principale di nuovo per visualizzare questo elemento"
+   },
+   "passwordProtected": {
+      "message": "Protetto da password"
+   },
+   "passwordProtectedOptionDescription": {
+      "message": "Imposta una password del file per crittografare il file esportato e importarlo in qualsiasi account Bitwarden usando la password per decrittografarlo."
+   },
+   "passwordRegenerated": {
+      "description": "Notification message for when a password has been regenerated",
+      "message": "Password rigenerata"
+   },
+   "passwordRepromptDisabledAutofillOnPageLoad": {
+      "description": "Toast message for describing that master password re-prompt cannot be autofilled on page load.",
+      "message": "Gli elementi che richiedono di inserire di nuovo la password principale non possono essere riempiti automaticamente al caricamento della pagina."
+   },
+   "passwordSafe": {
+      "message": "Questa password non è stata trovata in violazioni di dati note. Dovrebbe essere sicura da usare."
+   },
+   "passwordSaved": {
+      "description": "Notification message for when saving credentials has succeeded.",
+      "message": "Password salvata!"
+   },
+   "passwordStrengthScore": {
+      "message": "Complessità password: $SCORE$",
+      "placeholders": {
+         "score": {
+            "content": "$1",
+            "example": "4"
+         }
+      }
+   },
+   "passwordUpdated": {
+      "description": "Notification message for when updating credentials has succeeded.",
+      "message": "Password aggiornata!"
+   },
+   "passwordlessDotDev": {
+      "message": "Passwordless.dev"
+   },
+   "passwords": {
+      "description": "A section header for a list of passwords.",
+      "message": "Password"
+   },
+   "percentSignCharacterDescriptor": {
+      "description": "Represents the % key in screen reader content as a readable word",
+      "message": "Segno di percentuale"
+   },
+   "periodCharacterDescriptor": {
+      "description": "Represents the . key in screen reader content as a readable word",
+      "message": "Punto"
+   },
+   "permanentlyDeleteAttachmentConfirmation": {
+      "message": "Sei sicuro di voler eliminare definitivamente questo allegato?"
+   },
+   "permanentlyDeleteItem": {
+      "message": "Elimina elemento definitivamente"
+   },
+   "permanentlyDeleteItemConfirmation": {
+      "message": "Sei sicuro di voler eliminare definitivamente questo elemento?"
+   },
+   "permanentlyDeletedItem": {
+      "message": "Elemento eliminato definitivamente"
+   },
+   "personalDetails": {
+      "message": "Dati personali"
+   },
+   "personalItemTransferWarningSingular": {
+      "message": "1 elemento verrà trasferito definitivamente all'organizzazione selezionata. Non possiederai più questo elemento."
+   },
+   "personalItemWithOrgTransferWarningSingular": {
+      "message": "1 elemento verrà trasferito definitivamente a $ORG$. Non possiederai più questo elemento.",
+      "placeholders": {
+         "org": {
+            "content": "$1",
+            "example": "Organization name"
+         }
+      }
+   },
+   "personalItemsTransferWarningPlural": {
+      "message": "$PERSONAL_ITEMS_COUNT$ verranno trasferiti definitivamente all'organizzazione selezionata. Non possiederai più questi elementi.",
+      "placeholders": {
+         "personal_items_count": {
+            "content": "$1",
+            "example": "2"
+         }
+      }
+   },
+   "personalItemsWithOrgTransferWarningPlural": {
+      "message": "$PERSONAL_ITEMS_COUNT$ verranno trasferiti definitivamente a $ORG$. Non possiederai più questi elementi.",
+      "placeholders": {
+         "org": {
+            "content": "$2",
+            "example": "Organization name"
+         },
+         "personal_items_count": {
+            "content": "$1",
+            "example": "2"
+         }
+      }
+   },
+   "personalOwnershipPolicyInEffect": {
+      "message": "Una politica dell'organizzazione sta influenzando le tue opzioni di proprietà."
+   },
+   "personalOwnershipPolicyInEffectImports": {
+      "message": "Una politica dell'organizzazione ti impedisce di importare elementi nella tua cassaforte individuale."
+   },
+   "personalOwnershipSubmitError": {
+      "message": "A causa di una politica aziendale, non puoi salvare elementi nella tua cassaforte personale. Cambia l'opzione di proprietà in un'organizzazione e scegli tra le raccolte disponibili."
+   },
+   "personalVaultExportPolicyInEffect": {
+      "message": "Una o più politiche dell'organizzazione ti impediscono di esportare la tua cassaforte personale."
+   },
+   "phone": {
+      "message": "Telefono"
+   },
+   "pin": {
+      "description": "PIN code. Ex. The short code (often numeric) that you use to unlock a device.",
+      "message": "PIN"
+   },
+   "pinRequired": {
+      "message": "Codice PIN obbligatorio."
+   },
+   "pipeCharacterDescriptor": {
+      "description": "Represents the | key in screen reader content as a readable word",
+      "message": "Barra verticale"
+   },
+   "pleaseRestartRegistrationOrTryLoggingIn": {
+      "message": "Riavvia la registrazione o prova ad accedere."
+   },
+   "plusAddressedEmail": {
+      "description": "Username generator option that appends a random sub-address to the username. For example: address+subaddress@email.com",
+      "message": "Indirizzo email alternativo"
+   },
+   "plusAddressedEmailDesc": {
+      "message": "Usa le funzionalità di sub-indirizzamento del tuo fornitore di email."
+   },
+   "plusCharacterDescriptor": {
+      "description": "Represents the + key in screen reader content as a readable word",
+      "message": "Più"
+   },
+   "plusNMore": {
+      "message": "+$QUANTITY$ in più",
+      "placeholders": {
+         "quantity": {
+            "content": "$1",
+            "example": "5"
+         }
+      }
+   },
+   "policyInEffectLowercase": {
+      "message": "Contiene almeno un carattere minuscolo"
+   },
+   "policyInEffectMinComplexity": {
+      "message": "Punteggio di complessità minimo di $SCORE$",
+      "placeholders": {
+         "score": {
+            "content": "$1",
+            "example": "4"
+         }
+      }
+   },
+   "policyInEffectMinLength": {
+      "message": "Lunghezza minima di $LENGTH$",
+      "placeholders": {
+         "length": {
+            "content": "$1",
+            "example": "14"
+         }
+      }
+   },
+   "policyInEffectNumbers": {
+      "message": "Contiene uno o più numeri"
+   },
+   "policyInEffectSpecial": {
+      "message": "Contiene almeno uno dei seguenti caratteri speciali $CHARS$",
+      "placeholders": {
+         "chars": {
+            "content": "$1",
+            "example": "!@#$%^&*"
+         }
+      }
+   },
+   "policyInEffectUppercase": {
+      "message": "Contiene almeno un carattere maiuscolo"
+   },
+   "popOut": {
+      "message": "Scollega"
+   },
+   "popOutNewWindow": {
+      "message": "Apri in una nuova finestra"
+   },
+   "popoutExtension": {
+      "message": "Estrai estensione"
+   },
+   "popup2faCloseMessage": {
+      "message": "Cliccare fuori del pop-up per controllare il codice di verifica nella tua email chiuderà questo pop-up. Vuoi aprire questo pop-up in una nuova finestra in modo che non si chiuda?"
+   },
+   "popupU2fCloseMessage": {
+      "message": "Questo browser non può elaborare richieste U2F in questo pop-up. Aprire questo pop-up in una nuova finestra per accedere usando U2F?"
+   },
+   "ppremiumSignUpFuture": {
+      "message": "Tutte le prossime funzioni Premium. Nuove in arrivo!"
+   },
+   "ppremiumSignUpReports": {
+      "message": "Sicurezza delle password, integrità dell'account, e rapporti su violazioni di dati per mantenere sicura la tua cassaforte."
+   },
+   "ppremiumSignUpStorage": {
+      "message": "1 GB di spazio di archiviazione crittografato per gli allegati."
+   },
+   "ppremiumSignUpSupport": {
+      "message": "Supporto clienti prioritario."
+   },
+   "ppremiumSignUpTotp": {
+      "message": "Generatore di codici di verifica TOTP (2FA) per i login nella tua cassaforte."
+   },
+   "premium": {
+      "message": "Premium"
+   },
+   "premiumCurrentMember": {
+      "message": "Sei un membro Premium!"
+   },
+   "premiumCurrentMemberThanks": {
+      "message": "Grazie per il tuo supporto a Bitwarden."
+   },
+   "premiumFeatures": {
+      "message": "Passa a Premium e ricevi:"
+   },
+   "premiumManage": {
+      "message": "Gestisci abbonamento"
+   },
+   "premiumManageAlert": {
+      "message": "Puoi gestire il tuo abbonamento Premium usando la cassaforte web su bitwarden.com. Vuoi visitare il sito?"
+   },
+   "premiumMembership": {
+      "message": "Abbonamento Premium"
+   },
+   "premiumNotCurrentMember": {
+      "message": "Al momento non sei un membro Premium."
+   },
+   "premiumPrice": {
+      "message": "Il tutto per soli $PRICE$ all'anno!",
+      "placeholders": {
+         "price": {
+            "content": "$1",
+            "example": "$10"
+         }
+      }
+   },
+   "premiumPriceV2": {
+      "message": "Il tutto per solo $PRICE$ all'anno!",
+      "placeholders": {
+         "price": {
+            "content": "$1",
+            "example": "$10"
+         }
+      }
+   },
+   "premiumPurchase": {
+      "message": "Passa a Premium"
+   },
+   "premiumPurchaseAlertV2": {
+      "message": "Puoi acquistare Premium dalle impostazioni del tuo account sull'app web Bitwarden."
+   },
+   "premiumRefresh": {
+      "message": "Aggiorna abbonamento"
+   },
+   "premiumRequired": {
+      "message": "Premium necessario"
+   },
+   "premiumRequiredDesc": {
+      "message": "Passa a Premium per utilizzare questa funzionalità."
+   },
+   "premiumSignUpAndGet": {
+      "message": "Passa a Premium e ottieni:"
+   },
+   "premiumSignUpEmergency": {
+      "message": "Accesso di emergenza."
+   },
+   "premiumSignUpTwoStepOptions": {
+      "message": "Opzioni di verifica in due passaggi proprietarie come YubiKey e Duo."
+   },
+   "premiumSubcriptionRequired": {
+      "message": "È richiesto un abbonamento Premium"
+   },
+   "pressYourYubiKeyToAuthenticate": {
+      "message": "Premi la tua YubiKey per accedere"
+   },
+   "privacyPermissionAdditionNotGrantedDescription": {
+      "description": "Description for the dialog that appears when the user has not granted the extension permission to set privacy settings",
+      "message": "Concedi le autorizzazioni sulla privacy del browser a Bitwarden per impostarlo come password manager predefinito."
+   },
+   "privacyPermissionAdditionNotGrantedTitle": {
+      "description": "Title for the dialog that appears when the user has not granted the extension permission to set privacy settings",
+      "message": "Impossibile impostare Bitwarden come password manager predefinito"
+   },
+   "privacyPolicy": {
+      "message": "Informativa sulla Privacy"
+   },
+   "privateNote": {
+      "message": "Nota privata"
+   },
+   "questionCharacterDescriptor": {
+      "description": "Represents the ? key in screen reader content as a readable word",
+      "message": "Punto interrogativo"
+   },
+   "quickLogin": {
+      "message": "Autenticazione facile e veloce"
+   },
+   "quickLoginBody": {
+      "message": "Imposta lo sblocco biometrico e il riempimento automatico per accedere ai tuoi account senza digitare una sola lettera."
+   },
+   "random": {
+      "message": "Casuale"
+   },
+   "randomWord": {
+      "message": "Parola casuale"
+   },
+   "rateExtension": {
+      "message": "Valuta l'estensione"
+   },
+   "reTypeMasterPass": {
+      "message": "Inserisci password principale di nuovo"
+   },
+   "readSecurityKey": {
+      "message": "Leggi chiave di sicurezza"
+   },
+   "receiveMarketingEmailsV2": {
+      "message": "Ottieni consigli, annunci e opportunità di ricerca da Bitwarden nella tua casella di posta."
+   },
+   "recoveryCodeDesc": {
+      "message": "Hai perso l'accesso a tutti i tuoi metodi di verifica in due passaggi? Usa il tuo codice di recupero per disattivarli tutti dal tuo account."
+   },
+   "recoveryCodeTitle": {
+      "message": "Codice di recupero"
+   },
+   "refresh": {
+      "message": "Aggiorna"
+   },
+   "refreshComplete": {
+      "message": "Aggiornamento completato"
+   },
+   "regEx": {
+      "description": "A programming term, also known as 'RegEx'.",
+      "message": "Espressione regolare"
+   },
+   "regeneratePassword": {
+      "message": "Rigenera password"
+   },
+   "rememberEmail": {
+      "message": "Ricorda email"
+   },
+   "rememberThisDevice": {
+      "message": "Ricorda questo dispositivo"
+   },
+   "rememberThisDeviceToMakeFutureLoginsSeamless": {
+      "message": "Ricorda questo dispositivo per rendere immediati i futuri accessi"
+   },
+   "remove": {
+      "message": "Rimuovi"
+   },
+   "removeItem": {
+      "description": "Remove a selected option, such as a folder or collection",
+      "message": "Rimuovi $NAME$",
+      "placeholders": {
+         "name": {
+            "content": "$1",
+            "example": "Work"
+         }
+      }
+   },
+   "removeMasterPassword": {
+      "message": "Rimuovi password principale"
+   },
+   "removeMasterPasswordForOrganizationUserKeyConnector": {
+      "message": "La password principale non è più richiesta per i membri dell'organizzazione. Per favore, conferma il dominio qui sotto con l'amministratore."
+   },
+   "removePasskey": {
+      "message": "Rimuovi passkey"
+   },
+   "removePassword": {
+      "message": "Rimuovi password"
+   },
+   "removePasswordConfirmation": {
+      "message": "Sei sicuro di voler rimuovere la password?"
+   },
+   "removedMasterPassword": {
+      "message": "Password principale rimossa"
+   },
+   "removedPassword": {
+      "message": "Password rimossa"
+   },
+   "reorderFieldDown": {
+      "message": "$LABEL$ spostato giù, in posizione $INDEX$ di $LENGTH$",
+      "placeholders": {
+         "index": {
+            "content": "$2",
+            "example": "1"
+         },
+         "label": {
+            "content": "$1",
+            "example": "Custom field"
+         },
+         "length": {
+            "content": "$3",
+            "example": "3"
+         }
+      }
+   },
+   "reorderFieldUp": {
+      "message": "$LABEL$ spostato su, in posizione $INDEX$ di $LENGTH$",
+      "placeholders": {
+         "index": {
+            "content": "$2",
+            "example": "1"
+         },
+         "label": {
+            "content": "$1",
+            "example": "Custom field"
+         },
+         "length": {
+            "content": "$3",
+            "example": "3"
+         }
+      }
+   },
+   "reorderToggleButton": {
+      "message": "Riordina $LABEL$. Utilizza i tasti freccia per spostare l'elemento sopra o sotto.",
+      "placeholders": {
+         "label": {
+            "content": "$1",
+            "example": "Custom field"
+         }
+      }
+   },
+   "reorderWebsiteUriButton": {
+      "message": "Riordina l'URI del sito web. Usa il tasto freccia per spostare l'elemento su o giù."
+   },
+   "requestAdminApproval": {
+      "message": "Richiedi approvazione dell'amministratore"
+   },
+   "requestHint": {
+      "message": "Richiedi suggerimento"
+   },
+   "requestPasswordHint": {
+      "message": "Richiedi il suggerimento per la password"
+   },
+   "required": {
+      "message": "obbligatorio"
+   },
+   "resendCode": {
+      "message": "Invia codice di nuovo"
+   },
+   "resendNotification": {
+      "message": "Invia notifica di nuovo"
+   },
+   "resetPasswordAutoEnrollInviteWarning": {
+      "message": "Questa organizzazione ha una politica aziendale che ti iscriverà automaticamente al ripristino della password. Questo permetterà agli amministratori dell'organizzazione di cambiare la tua password principale."
+   },
+   "resetPasswordPolicyAutoEnroll": {
+      "message": "Iscrizione automatica"
+   },
+   "resolveTheErrorsBelowAndTryAgain": {
+      "message": "Correggi gli errori qui sotto e riprova."
+   },
+   "restartRegistration": {
+      "message": "Ricomincia la registrazione"
+   },
+   "restore": {
+      "message": "Ripristina"
+   },
+   "restoreItem": {
+      "message": "Ripristina elemento"
+   },
+   "restoredItem": {
+      "message": "Elemento ripristinato"
+   },
+   "retry": {
+      "message": "Riprova"
+   },
+   "reviewAndChangeAtRiskPassword": {
+      "message": "Rivedi e modifica una parola d'accesso a rischio"
+   },
+   "reviewAndChangeAtRiskPasswordsPlural": {
+      "message": "Rivedi e modifica $COUNT$ parole d'accesso a rischio",
+      "placeholders": {
+         "count": {
+            "content": "$1",
+            "example": "2"
+         }
+      }
+   },
+   "reviewAtRiskLoginSlideImgAltPeriod": {
+      "message": "Illustrazione di una lista di login a rischio."
+   },
+   "reviewAtRiskLogins": {
+      "message": "Redi accessi a rischio"
+   },
+   "reviewAtRiskLoginsSlideDesc": {
+      "description": "Description of the review at-risk login slide on the at-risk password page carousel",
+      "message": "Le password dell'organizzazione sono a rischio perché sono deboli, riutilizzate, e/o esposte."
+   },
+   "reviewAtRiskPasswords": {
+      "message": "Rivedi parole d'accesso a rischio"
+   },
+   "save": {
+      "message": "Salva"
+   },
+   "saveAsNewLoginAction": {
+      "description": "Button text for saving login details as a new entry.",
+      "message": "Salva come nuovo login"
+   },
+   "saveCipherAttemptFailed": {
+      "description": "Notification message for when saving credentials has failed.",
+      "message": "Errore durante il salvataggio delle credenziali. Controlla la console per più dettagli."
+   },
+   "saveCipherAttemptSuccess": {
+      "description": "Notification message for when saving credentials has succeeded.",
+      "message": "Credenziali salvate!"
+   },
+   "saveFailure": {
+      "description": "Error message shown when the system fails to save login details.",
+      "message": "Errore nel salvataggio"
+   },
+   "saveFailureDetails": {
+      "description": "Detailed error message shown when saving login details fails.",
+      "message": "Oh no! Il salvataggio non è riuscito. Prova a inserire i dati manualmente."
+   },
+   "saveLogin": {
+      "description": "Prompt asking the user if they want to save their login details.",
+      "message": "Salva il login"
+   },
+   "savePasskey": {
+      "message": "Salva passkey"
+   },
+   "savePasskeyNewLogin": {
+      "message": "Salva la passkey come nuovo elemento"
+   },
+   "saveToBitwarden": {
+      "description": "Confirmation message for saving a login to Bitwarden",
+      "message": "Salva su Bitwarden"
+   },
+   "search": {
+      "message": "Cerca"
+   },
+   "searchCollection": {
+      "message": "Cerca nella raccolta"
+   },
+   "searchFolder": {
+      "message": "Cerca nella cartella"
+   },
+   "searchSavePasskeyNewLogin": {
+      "message": "Cerca o salva la passkey come nuovo login"
+   },
+   "searchTrash": {
+      "message": "Cerca nel cestino"
+   },
+   "searchType": {
+      "message": "Cerca in questo tipo"
+   },
+   "searchVault": {
+      "message": "Cerca nella cassaforte"
+   },
+   "secureDevices": {
+      "message": "I tuoi dati, dove e quando ti servono"
+   },
+   "secureDevicesBody": {
+      "message": "Salva tutte le password che vuoi su un numero illimitato di dispositivi con le app Bitwarden per browser, mobile e desktop."
+   },
+   "secureNotes": {
+      "message": "Note sicure"
+   },
+   "securePasswordGenerated": {
+      "message": "Password sicura generata! Non dimenticare di aggiornare la tua password anche sul sito web."
+   },
+   "secureUser": {
+      "message": "Porta i tuoi login al livello successivo"
+   },
+   "secureUserBody": {
+      "message": "Usa il generatore per creare e salvare password forti e uniche per tutti i tuoi account."
+   },
+   "security": {
+      "message": "Sicurezza"
+   },
+   "securityCode": {
+      "message": "Codice di sicurezza"
+   },
+   "securityPrioritized": {
+      "message": "Sicurezza alla massima priorità"
+   },
+   "securityPrioritizedBody": {
+      "message": "Salva login, carte e identità nella tua cassaforte sicura. Bitwarden usa la crittografia end-to-end e zero-knowledge per proteggere i tuoi dati."
+   },
+   "seeDetailedInstructions": {
+      "description": "This is followed a by a hyperlink to the help website.",
+      "message": "Consulta le istruzioni dettagliate sul nostro sito di assistenza su"
+   },
+   "select": {
+      "message": "Seleziona"
+   },
+   "selectAnApprovalOptionBelow": {
+      "message": "Seleziona un'opzione di approvazione sotto"
+   },
+   "selectAnotherMethod": {
+      "description": "Select another two-step login method",
+      "message": "Seleziona un altro metodo"
+   },
+   "selectCollectionsToAssign": {
+      "message": "Seleziona le raccolte da assegnare"
+   },
+   "selectFile": {
+      "message": "Seleziona un file"
+   },
+   "selectFolder": {
+      "message": "Seleziona cartella..."
+   },
+   "selectFormat": {
+      "message": "Seleziona il formato del file da importare"
+   },
+   "selectImportCollection": {
+      "message": "Seleziona una raccolta"
+   },
+   "selectImportFile": {
+      "message": "Seleziona il file da importare"
+   },
+   "selectImportFolder": {
+      "message": "Seleziona una cartella"
+   },
+   "selectItemAriaLabel": {
+      "description": "Used by screen readers. $1 is the item type (like vault or folder), $2 is the selected item name.",
+      "message": "Seleziona $ITEMTYPE$, $ITEMNAME$",
+      "placeholders": {
+         "itemName": {
+            "content": "$2"
+         },
+         "itemType": {
+            "content": "$1"
+         }
+      }
+   },
+   "selectOneCollection": {
+      "message": "Devi selezionare almeno una raccolta."
+   },
+   "selectPlaceholder": {
+      "message": "-- Seleziona --"
+   },
+   "selectTwoStepLoginMethod": {
+      "message": "Seleziona metodo di accesso in due passaggi"
+   },
+   "selfHostBaseUrl": {
+      "description": "Label for field requesting a self-hosted integration service URL",
+      "message": "URL server autogestito"
+   },
+   "selfHostedBaseUrlHint": {
+      "message": "Specifica lo URL principale della tua installazione self-hosted di Bitwarden. Esempio: https://bitwarden.company.com"
+   },
+   "selfHostedCustomEnvHeader": {
+      "message": "Per la configurazione avanzata, puoi specificare lo URL di base di ciascun servizio in modo indipendente."
+   },
+   "selfHostedEnvFormInvalid": {
+      "message": "Devi aggiungere lo URL del server di base o almeno un ambiente personalizzato."
+   },
+   "selfHostedEnvironment": {
+      "message": "Ambiente self-hosted"
+   },
+   "selfHostedServer": {
+      "message": "self-hosted"
+   },
+   "selfOwnershipLabel": {
+      "description": "Used as a label to indicate that the user is the owner of an item.",
+      "message": "Tu"
+   },
+   "semicolonCharacterDescriptor": {
+      "description": "Represents the ; key in screen reader content as a readable word",
+      "message": "Punto e virgola"
+   },
+   "send": {
+      "description": "'Send' is a noun and the name of a feature called 'Bitwarden Send'. It should not be translated.",
+      "message": "Send"
+   },
+   "sendCode": {
+      "message": "Invia codice"
+   },
+   "sendDetails": {
+      "description": "'Send' is a noun and the name of a feature called 'Bitwarden Send'. It should not be translated.",
+      "message": "Dettagli Send"
+   },
+   "sendDisabled": {
+      "description": "'Send' is a noun and the name of a feature called 'Bitwarden Send'. It should not be translated.",
+      "message": "Send rimosso"
+   },
+   "sendDisabledWarning": {
+      "description": "'Send' is a noun and the name of a feature called 'Bitwarden Send'. It should not be translated.",
+      "message": "A causa di una politica aziendale, puoi eliminare solo Send esistenti."
+   },
+   "sendExpiresInDays": {
+      "description": "'Send' is a noun and the name of a feature called 'Bitwarden Send'. It should not be translated.",
+      "message": "Il Send sarà disponibile a chiunque con il link per i prossimi $DAYS$ giorni.",
+      "placeholders": {
+         "days": {
+            "content": "$1",
+            "example": "5"
+         }
+      }
+   },
+   "sendExpiresInDaysSingle": {
+      "description": "'Send' is a noun and the name of a feature called 'Bitwarden Send'. It should not be translated.",
+      "message": "Il Send sarà disponibile a chiunque con il link per il prossimo giorno."
+   },
+   "sendExpiresInHours": {
+      "description": "'Send' is a noun and the name of a feature called 'Bitwarden Send'. It should not be translated.",
+      "message": "Il Send sarà disponibile a chiunque con il link per le prossime $HOURS$ ore.",
+      "placeholders": {
+         "hours": {
+            "content": "$1",
+            "example": "5"
+         }
+      }
+   },
+   "sendExpiresInHoursSingle": {
+      "description": "'Send' is a noun and the name of a feature called 'Bitwarden Send'. It should not be translated.",
+      "message": "Il Send sarà disponibile a chiunque con il link per la prossima ora."
+   },
+   "sendFileCalloutHeader": {
+      "message": "Prima di iniziare"
+   },
+   "sendFilePopoutDialogDesc": {
+      "description": "'Send' is a noun and the name of a feature called 'Bitwarden Send'. It should not be translated.",
+      "message": "Per creare un file Send, devi scollegare l'estensione in una nuova finestra."
+   },
+   "sendFilePopoutDialogText": {
+      "description": "'Send' is a noun and the name of a feature called 'Bitwarden Send'. It should not be translated.",
+      "message": "Scollegare estensione?"
+   },
+   "sendFirefoxFileWarning": {
+      "message": "Per scegliere un file usando Firefox, apri l'estensione nella barra laterale o apri una nuova finestra cliccando questo banner."
+   },
+   "sendLink": {
+      "description": "'Send' is a noun and the name of a feature called 'Bitwarden Send'. It should not be translated.",
+      "message": "Link del Send"
+   },
+   "sendLinkCopied": {
+      "description": "'Send' is a noun and the name of a feature called 'Bitwarden Send'. It should not be translated.",
+      "message": "Link del Send copiato"
+   },
+   "sendLinuxChromiumFileWarning": {
+      "message": "Per scegliere un file, apri l'estensione nella barra laterale (se possibile) o apri una nuova finestra cliccando questo banner."
+   },
+   "sendPasswordDescV3": {
+      "description": "'Send' is a noun and the name of a feature called 'Bitwarden Send'. It should not be translated.",
+      "message": "Richiedi ai destinatari una password opzionale per aprire questo Send."
+   },
+   "sendSafariFileWarning": {
+      "message": "Per scegliere un file usando Safari, apri una nuova finestra cliccando questo banner."
+   },
+   "sendTypeFile": {
+      "message": "File"
+   },
+   "sendTypeText": {
+      "message": "Testo"
+   },
+   "sendTypeTextToShare": {
+      "message": "Testo da condividere"
+   },
+   "sendVerificationCode": {
+      "message": "Invia un codice di verifica alla tua email"
+   },
+   "sendsBodyNoItems": {
+      "description": "'Send' is a noun and the name of a feature called 'Bitwarden Send'. It should not be translated.",
+      "message": "Condividi file e dati in modo sicuro con chiunque, su qualsiasi piattaforma. Le tue informazioni saranno crittografate end-to-end."
+   },
+   "sendsTitleNoItems": {
+      "description": "'Send' is a noun and the name of a feature called 'Bitwarden Send'. It should not be translated.",
+      "message": "Invia informazioni sensibili in modo sicuro"
+   },
+   "september": {
+      "message": "Settembre"
+   },
+   "server": {
+      "message": "server"
+   },
+   "serverVersion": {
+      "message": "Versione server"
+   },
+   "service": {
+      "message": "Servizio"
+   },
+   "sessionTimeout": {
+      "message": "La tua sessione è scaduta. Torna indietro e prova ad accedere di nuovo."
+   },
+   "sessionTimeoutHeader": {
+      "message": "Timeout della sessione"
+   },
+   "setAStrongPassword": {
+      "message": "Imposta una password robusta"
+   },
+   "setMasterPassword": {
+      "message": "Imposta password principale"
+   },
+   "setPin": {
+      "message": "Imposta PIN"
+   },
+   "setPinCode": {
+      "message": "You can use this PIN to unlock Bitwarden. Your PIN will be reset if you ever fully log out of the application."
+   },
+   "setYourPinButton": {
+      "message": "Imposta PIN"
+   },
+   "setYourPinCode": {
+      "message": "Imposta il tuo codice PIN per sbloccare Bitwarden. Le tue impostazioni PIN saranno resettate se esci completamente dall'app."
+   },
+   "setYourPinTitle": {
+      "message": "Imposta PIN"
+   },
+   "settings": {
+      "message": "Impostazioni"
+   },
+   "settingsVaultOptions": {
+      "message": "Opzioni cassaforte"
+   },
+   "shared": {
+      "message": "Condiviso"
+   },
+   "showAnimations": {
+      "message": "Mostra animazioni"
+   },
+   "showAutoFillMenuOnFormFields": {
+      "description": "Represents the message for allowing the user to enable the autofill overlay",
+      "message": "Mostra il menu di riempimento automatico nei campi di modulo"
+   },
+   "showCardsCurrentTab": {
+      "message": "Mostra le carte nella sezione Scheda"
+   },
+   "showCardsCurrentTabDesc": {
+      "message": "Mostra le carte nella sezione Scheda per riempirle automaticamente."
+   },
+   "showCardsInVaultViewV2": {
+      "message": "Mostra sempre le carte come suggerimenti di riempimento automatico nella vista cassaforte"
+   },
+   "showCharacterCount": {
+      "message": "Mostra conteggio caratteri"
+   },
+   "showIdentitiesCurrentTab": {
+      "message": "Mostra le identità nella sezione Scheda"
+   },
+   "showIdentitiesCurrentTabDesc": {
+      "message": "Mostra le identità nella sezione Scheda per riempirle automaticamente."
+   },
+   "showIdentitiesInVaultViewV2": {
+      "message": "Mostra sempre le identità come suggerimenti di riempimento automatico nella vista cassaforte"
+   },
+   "showInlineMenuCardsLabel": {
+      "message": "Mostra carte come consigli"
+   },
+   "showInlineMenuIdentitiesLabel": {
+      "message": "Mostra identità come consigli"
+   },
+   "showInlineMenuLabel": {
+      "message": "Mostra suggerimenti di riempimento automatico nei campi del modulo"
+   },
+   "showInlineMenuOnFormFieldsDescAlt": {
+      "message": "Si applica a tutti gli account sul dispositivo."
+   },
+   "showInlineMenuOnIconSelectionLabel": {
+      "message": "Mostra suggerimenti quando l'icona è selezionata"
+   },
+   "showMatchDetection": {
+      "message": "Mostra corrispondenza $WEBSITE$",
+      "placeholders": {
+         "website": {
+            "content": "$1",
+            "example": "https://example.com"
+         }
+      }
+   },
+   "showNumberOfAutofillSuggestions": {
+      "message": "Mostra il numero di suggerimenti di riempimento automatico sull'icona dell'estensione"
+   },
+   "showQuickCopyActions": {
+      "message": "Mostra azioni di copia rapida nella Cassaforte"
+   },
+   "singleFieldNeedsAttention": {
+      "message": "1 campo richiede tua attenzione."
+   },
+   "singleQuoteCharacterDescriptor": {
+      "description": "Represents the ' key in screen reader content as a readable word",
+      "message": "Apostrofo"
+   },
+   "skipToContent": {
+      "message": "Vai al contenuto"
+   },
+   "spaceCharacterDescriptor": {
+      "description": "Represents the space key in screen reader content as a readable word",
+      "message": "Spazio"
+   },
+   "specialCharactersDescription": {
+      "description": "Full description for the password generator special characters checkbox",
+      "message": "Includi caratteri speciali"
+   },
+   "spinboxBoundariesHint": {
+      "description": "Explains spin box minimum and maximum values to the user",
+      "message": "Il valore deve essere compreso tra $MIN$ e $MAX$.",
+      "placeholders": {
+         "max": {
+            "content": "$2",
+            "example": "128"
+         },
+         "min": {
+            "content": "$1",
+            "example": "8"
+         }
+      }
+   },
+   "sshFingerprint": {
+      "message": "Impronta digitale"
+   },
+   "sshKeyAlgorithm": {
+      "message": "Tipo di chiave"
+   },
+   "sshKeyAlgorithmED25519": {
+      "message": "ED25519"
+   },
+   "sshKeyAlgorithmRSA2048": {
+      "message": "RSA a 2048 bit"
+   },
+   "sshKeyAlgorithmRSA3072": {
+      "message": "RSA a 3072 bit"
+   },
+   "sshKeyAlgorithmRSA4096": {
+      "message": "RSA a 4096 bit"
+   },
+   "sshKeyImported": {
+      "message": "Chiave SSH importata correttamente"
+   },
+   "sshKeyTypeUnsupported": {
+      "message": "Il tipo di chiave SSH non è supportato"
+   },
+   "sshKeyWrongPassword": {
+      "message": "La parola d'accesso inserita non è corretta."
+   },
+   "sshKeys": {
+      "message": "Chiavi SSH"
+   },
+   "sshPrivateKey": {
+      "message": "Chiave privata"
+   },
+   "sshPublicKey": {
+      "message": "Chiave pubblica"
+   },
+   "ssn": {
+      "message": "Codice fiscale/Previdenza sociale"
+   },
+   "ssoIdentifierRequired": {
+      "message": "Identificatore SSO dell'organizzazione obbligatorio."
+   },
+   "ssoKeyConnectorError": {
+      "message": "Errore Key Connector: assicurarsi che il Key Connector sia disponibile e correttamente funzionante."
+   },
+   "startDesktopDesc": {
+      "message": "L'app Bitwarden Desktop deve essere avviata prima che l'autenticazione biometrica possa essere usata."
+   },
+   "startDesktopTitle": {
+      "message": "Avvia l'app desktop Bitwarden"
+   },
+   "startsWith": {
+      "message": "Inizia con"
+   },
+   "stateProvince": {
+      "message": "Stato / Provincia"
+   },
+   "strong": {
+      "description": "ex. A strong password. Scale: Weak -> Good -> Strong",
+      "message": "Forte"
+   },
+   "submenu": {
+      "message": "Sottomenu"
+   },
+   "submit": {
+      "message": "Invia"
+   },
+   "success": {
+      "message": "Successo"
+   },
+   "successfullyAssignedCollections": {
+      "message": "Raccolte assegnate con successo"
+   },
+   "switchAccount": {
+      "message": "Cambia account"
+   },
+   "switchAccounts": {
+      "message": "Cambia account"
+   },
+   "switchToAccount": {
+      "message": "Passa all'account"
+   },
+   "sync": {
+      "message": "Sincronizza"
+   },
+   "syncVaultNow": {
+      "message": "Sincronizza cassaforte ora"
+   },
+   "syncingComplete": {
+      "message": "Sincronizzazione completata"
+   },
+   "syncingFailed": {
+      "message": "Sincronizzazione non riuscita"
+   },
+   "systemDefault": {
+      "message": "Predefinito del sistema"
+   },
+   "tab": {
+      "message": "Scheda"
+   },
+   "tdeDisabledMasterPasswordRequired": {
+      "message": "La tua organizzazione ha disabilitato la crittografia affidabile del dispositivo. Per favore imposta una password principale per accedere alla tua cassaforte."
+   },
+   "tenSeconds": {
+      "message": "10 secondi"
+   },
+   "termsOfService": {
+      "message": "Termini di Servizio"
+   },
+   "textHelpText": {
+      "message": "Usa campi di testo per dati come domande di sicurezza"
+   },
+   "textSend": {
+      "message": "Send di Testo"
+   },
+   "textSends": {
+      "message": "Send Testo"
+   },
+   "theme": {
+      "message": "Tema"
+   },
+   "themeDesc": {
+      "message": "Cambia lo schema di colori dell'app."
+   },
+   "themeDescAlt": {
+      "message": "Cambia il colore del tema dell'estensione. Si applica a tutti gli account sul dispositivo."
+   },
+   "thirdParty": {
+      "message": "Terze parti"
+   },
+   "thirdPartyServerMessage": {
+      "message": "Connesso a una implementazione server di terze parti, $SERVERNAME$. Controlla i bug utilizzando il server ufficiale o segnalali al server di terze parti.",
+      "placeholders": {
+         "servername": {
+            "content": "$1",
+            "example": "ThirdPartyServerName"
+         }
+      }
+   },
+   "thirtyMinutes": {
+      "message": "30 minuti"
+   },
+   "thirtySeconds": {
+      "message": "30 secondi"
+   },
+   "tildeCharacterDescriptor": {
+      "description": "Represents the ~ key in screen reader content as a readable word",
+      "message": "Tilde"
+   },
+   "title": {
+      "message": "Titolo"
+   },
+   "toEditYourEmailAddress": {
+      "message": "per modificare il tuo indirizzo email."
+   },
+   "toggleBitwardenVaultOverlay": {
+      "description": "Screen reader and tool tip label for the overlay button",
+      "message": "Attiva/disattiva il menu di riempimento automatico di Bitwarden"
+   },
+   "toggleCharacterCount": {
+      "message": "Attiva/Disattiva conteggio dei caratteri"
+   },
+   "toggleCollapse": {
+      "description": "Toggling an expand/collapse state.",
+      "message": "Comprimi/espandi"
+   },
+   "toggleCurrentUris": {
+      "description": "Toggle the display of the URIs of the currently open tabs in the browser.",
+      "message": "Mostra/nascondi URI corrente"
+   },
+   "toggleOptions": {
+      "message": "Mostra/nascondi"
+   },
+   "toggleSideNavigation": {
+      "message": "Attiva/Disattiva navigazione laterale"
+   },
+   "toggleVisibility": {
+      "message": "Mostra/nascondi"
+   },
+   "tooManyInvalidPinEntryAttemptsLoggingOut": {
+      "message": "Troppi tentativi di inserimento del PIN falliti. Uscendo dall'account..."
+   },
+   "tools": {
+      "message": "Strumenti"
+   },
+   "total": {
+      "message": "Totale"
+   },
+   "totp": {
+      "message": "Segreto di autenticazione"
+   },
+   "totpCapture": {
+      "message": "Scansiona il codice QR dell'autenticatore da questa pagina web"
+   },
+   "totpCaptureError": {
+      "message": "Impossibile scansionare il codice QR da questa pagina web"
+   },
+   "totpCaptureSuccess": {
+      "message": "Chiave di autenticazione aggiunta"
+   },
+   "totpCodeAria": {
+      "description": "Aria label for the totp code displayed in the inline menu for autofill",
+      "message": "Codice di Verifica One-Time a tempo"
+   },
+   "totpHelper": {
+      "message": "Bitwarden può memorizzare e riempire automaticamente i codici di verifica 2FA. Copia e incolla la chiave in questo campo."
+   },
+   "totpHelperTitle": {
+      "message": "Rendi la 2FA facile"
+   },
+   "totpHelperWithCapture": {
+      "message": "Bitwarden può memorizzare e riempire automaticamente i codici di verifica 2FA. Selezionare l'icona della fotocamera per creare uno screenshot del codice QR dell'autenticatore di questo sito web, oppure copia e incolla la chiave in questo campo."
+   },
+   "totpSecondsSpanAria": {
+      "description": "Aria label for the totp seconds displayed in the inline menu for autofill",
+      "message": "Tempo rimasto prima che l'attuale TOTP scada"
+   },
+   "trash": {
+      "description": "Noun: a special folder to hold deleted items",
+      "message": "Cestino"
+   },
+   "trashWarning": {
+      "message": "Gli elementi nel cestino saranno eliminati automaticamente dopo 30 giorni"
+   },
+   "troubleLoggingIn": {
+      "message": "Problemi ad accedere?"
+   },
+   "trust": {
+      "message": "Fidati"
+   },
+   "trustOrganization": {
+      "message": "Fidati dell'organizzazione"
+   },
+   "trustUser": {
+      "message": "Fidati dell'utente"
+   },
+   "tryAgain": {
+      "message": "Riprova"
+   },
+   "turnOffAutofill": {
+      "message": "Disattiva il riempimento automatico"
+   },
+   "turnOffBrowserAutofill": {
+      "message": "Disattiva il riempimento automatico di $BROWSER$",
+      "placeholders": {
+         "browser": {
+            "content": "$1",
+            "example": "Chrome"
+         }
+      }
+   },
+   "turnOffBrowserBuiltInPasswordManagerSettings": {
+      "message": "Disattiva il password manager del tuo browser per evitare conflitti con Bitwarden."
+   },
+   "turnOffBrowserBuiltInPasswordManagerSettingsLink": {
+      "message": "Modifica le impostazioni del browser."
+   },
+   "turnOffMasterPasswordPromptToEditField": {
+      "description": "Message appearing below the autofill on load message when master password reprompt is set for a vault item.",
+      "message": "Disattiva l'inserimento della password principale di nuovo per modificare questo campo"
+   },
+   "turnOn": {
+      "message": "Attiva"
+   },
+   "turnOnAutofill": {
+      "message": "Attiva riempimento automatico"
+   },
+   "turnedOnAutofill": {
+      "message": "Riempimento automatico attivato"
+   },
+   "twentySeconds": {
+      "message": "20 secondi"
+   },
+   "twoMinutes": {
+      "message": "2 minuti"
+   },
+   "twoStepLogin": {
+      "message": "Verifica in due passaggi"
+   },
+   "twoStepLoginConfirmation": {
+      "message": "La verifica in due passaggi rende il tuo account più sicuro richiedendoti di verificare il tuo login usando un altro dispositivo come una chiave di sicurezza, app di autenticazione, SMS, telefonata, o email. Può essere abilitata nella cassaforte web su bitwarden.com. Vuoi visitare il sito?"
+   },
+   "twoStepLoginConfirmationContent": {
+      "message": "Rendi il tuo account più sicuro impostando l'autenticazione a due fattori nell'app web di Bitwarden."
+   },
+   "twoStepLoginConfirmationTitle": {
+      "message": "Vuoi continuare sulla web app?"
+   },
+   "twoStepOptions": {
+      "message": "Opzioni di verifica in due passaggi"
+   },
+   "type": {
+      "message": "Tipo"
+   },
+   "typeCard": {
+      "message": "Carta"
+   },
+   "typeIdentity": {
+      "message": "Identità"
+   },
+   "typeLogin": {
+      "message": "Login"
+   },
+   "typeLogins": {
+      "message": "Login"
+   },
+   "typePasskey": {
+      "message": "Passkey"
+   },
+   "typeSecureNote": {
+      "message": "Nota sicura"
+   },
+   "typeSshKey": {
+      "message": "Chiave SSH"
+   },
+   "types": {
+      "message": "Tipi"
+   },
+   "uncheckIfPublicDevice": {
+      "message": "Deseleziona se stai usando un dispositivo pubblico"
+   },
+   "underscoreCharacterDescriptor": {
+      "description": "Represents the - key in screen reader content as a readable word",
+      "message": "Trattino"
+   },
+   "unexpectedError": {
+      "message": "Si è verificato un errore imprevisto."
+   },
+   "unfavorite": {
+      "message": "Rimuovi dai preferiti"
+   },
+   "unlock": {
+      "message": "Sblocca"
+   },
+   "unlockAccount": {
+      "description": "Button text to display in overlay when the account is locked.",
+      "message": "Sblocca account"
+   },
+   "unlockAccountAria": {
+      "description": "Screen reader text (aria-label) for unlock account button in overlay",
+      "message": "Sblocca il tuo account, apri in una nuova finestra"
+   },
+   "unlockMethodNeeded": {
+      "message": "Imposta un metodo di sblocco in Impostazioni"
+   },
+   "unlockMethodNeededToChangeTimeoutActionDesc": {
+      "message": "Imposta un metodo di sblocco per modificare l'azione timeout cassaforte."
+   },
+   "unlockMethods": {
+      "message": "Opzioni di sblocco"
+   },
+   "unlockPinSet": {
+      "message": "Sblocca PIN impostato"
+   },
+   "unlockToSave": {
+      "description": "User prompt to take action in order to save the login they just entered.",
+      "message": "Sblocca per salvare questo login"
+   },
+   "unlockVault": {
+      "message": "Sblocca la cassaforte in secondi"
+   },
+   "unlockVaultDesc": {
+      "message": "Puoi personalizzare le impostazioni di sblocco e timeout per accedere più rapidamente alla tua cassaforte."
+   },
+   "unlockVaultMenu": {
+      "message": "Sblocca la tua cassaforte"
+   },
+   "unlockWithBiometrics": {
+      "message": "Sblocca con i dati biometrici"
+   },
+   "unlockWithMasterPassword": {
+      "message": "Sblocca con password principale"
+   },
+   "unlockWithPin": {
+      "message": "Sblocca con PIN"
+   },
+   "unlockYourAccountToViewAutofillSuggestions": {
+      "description": "Text to display in overlay when the account is locked.",
+      "message": "Sblocca il tuo account per visualizzare i suggerimenti di riempimento automatico"
+   },
+   "unlockYourAccountToViewMatchingLogins": {
+      "description": "Text to display in overlay when the account is locked.",
+      "message": "Sblocca il tuo account per visualizzare i login corrispondenti"
+   },
+   "unlocked": {
+      "message": "sbloccato"
+   },
+   "unsubscribe": {
+      "message": "Annulla iscrizione"
+   },
+   "updateCipherAttemptSuccess": {
+      "description": "Notification message for when updating credentials has succeeded.",
+      "message": "Credenziali aggiornate!"
+   },
+   "updateDesktopAppOrDisableFingerprintDialogMessage": {
+      "message": "Per usare lo sblocco biometrico, aggiornare l'applicazione desktop o disabilitare lo sblocco dell'impronta digitale nelle impostazioni del desktop."
+   },
+   "updateDesktopAppOrDisableFingerprintDialogTitle": {
+      "message": "Aggiornare l'applicazione desktop"
+   },
+   "updateInBitwarden": {
+      "message": "Aggiorna in Bitwarden"
+   },
+   "updateInBitwardenSlideDesc": {
+      "description": "Description of the update in Bitwarden slide on the at-risk password page carousel",
+      "message": "Bitwarden ti chiederà quindi di aggiornare la parola d'accesso nel gestore di parole d'accesso."
+   },
+   "updateInBitwardenSlideImgAltPeriod": {
+      "message": "Illustrazione di una notifica Bitwarden che richiede all'utente di aggiornare il login."
+   },
+   "updateLogin": {
+      "description": "Prompt asking the user if they want to update an existing login entry.",
+      "message": "Aggiorna login esistente"
+   },
+   "updateLoginAction": {
+      "description": "Button text for updating an existing login entry.",
+      "message": "Aggiorna login"
+   },
+   "updateMasterPassword": {
+      "message": "Aggiorna password principale"
+   },
+   "updateMasterPasswordWarning": {
+      "message": "La tua password principale è stata recentemente modificata da un amministratore nella tua organizzazione. Per accedere alla cassaforte, aggiornala ora. Procedere ti farà uscire dalla sessione corrente, richiedendoti di accedere di nuovo. Le sessioni attive su altri dispositivi potrebbero continuare a rimanere attive per un massimo di un'ora."
+   },
+   "updateWeakMasterPasswordWarning": {
+      "message": "La tua password principale non soddisfa uno o più politiche della tua organizzazione. Per accedere alla cassaforte, aggiornala ora. Procedere ti farà uscire dalla sessione corrente, richiedendoti di accedere di nuovo. Le sessioni attive su altri dispositivi potrebbero continuare a rimanere attive per un massimo di un'ora."
+   },
+   "updatedMasterPassword": {
+      "message": "Password principale aggiornata"
+   },
+   "upload": {
+      "message": "Carica"
+   },
+   "uppercaseAriaLabel": {
+      "message": "Maiuscolo"
+   },
+   "uppercaseDescription": {
+      "description": "Tooltip for the password generator uppercase character checkbox",
+      "message": "Includi caratteri maiuscoli"
+   },
+   "uppercaseLabel": {
+      "description": "Label for the password generator uppercase character checkbox",
+      "message": "A-Z"
+   },
+   "uri": {
+      "message": "URI"
+   },
+   "uriPosition": {
+      "description": "A listing of URIs. Ex: URI 1, URI 2, URI 3, etc.",
+      "message": "URI $POSITION$",
+      "placeholders": {
+         "position": {
+            "content": "$1",
+            "example": "2"
+         }
+      }
+   },
+   "useBiometrics": {
+      "message": "Usa dati biometrici"
+   },
+   "useDeviceOrHardwareKey": {
+      "message": "Usa il tuo dispositivo o la chiave hardware"
+   },
+   "useGeneratorHelpTextPartOne": {
+      "description": "This will be used as part of a larger sentence, broken up to include the generator icon. The full sentence will read 'Use the generator [GENERATOR_ICON] to create a strong unique password'",
+      "message": "Usa il generatore"
+   },
+   "useGeneratorHelpTextPartTwo": {
+      "description": "This will be used as part of a larger sentence, broken up to include the generator icon. The full sentence will read 'Use the generator [GENERATOR_ICON] to create a strong unique password'",
+      "message": "per creare una password univoca robusta"
+   },
+   "useMasterPassword": {
+      "message": "Usa password principale"
+   },
+   "usePasskeysDesc": {
+      "message": "Chiedi di salvare nuove passkey o accedere con passkey salvate nella tua cassaforte. Si applica a tutti gli account connessi."
+   },
+   "usePin": {
+      "message": "Usa PIN"
+   },
+   "useSingleSignOn": {
+      "message": "Usa il Single Sign-On"
+   },
+   "useThisEmail": {
+      "message": "Usa questa e-mail"
+   },
+   "useThisPassphrase": {
+      "message": "Usa questa frase segreta"
+   },
+   "useThisPassword": {
+      "message": "Usa questa password"
+   },
+   "useThisUsername": {
+      "message": "Usa questo nome utente"
+   },
+   "useYourRecoveryCode": {
+      "message": "Usa il tuo codice di recupero"
+   },
+   "userEmailMissing": {
+      "message": "Email utente mancante"
+   },
+   "username": {
+      "message": "Nome utente"
+   },
+   "usernameGenerated": {
+      "message": "Nome utente generato"
+   },
+   "usernameGenerator": {
+      "message": "Generatore di nomi utente"
+   },
+   "value": {
+      "message": "Valore"
+   },
+   "valueCopied": {
+      "description": "Value has been copied to the clipboard.",
+      "message": "$VALUE$ copiata",
+      "placeholders": {
+         "value": {
+            "content": "$1",
+            "example": "Password"
+         }
+      }
+   },
+   "vault": {
+      "message": "Cassaforte"
+   },
+   "vaultCustomTimeoutMinimum": {
+      "message": "Il timeout personalizzato minimo è 1 minuto."
+   },
+   "vaultCustomization": {
+      "message": "Personalizzazione cassaforte"
+   },
+   "vaultExportDisabled": {
+      "message": "Esportazione della cassaforte non disponibile"
+   },
+   "vaultSaveOptionsTitle": {
+      "message": "Salva nelle opzioni della cassaforte"
+   },
+   "vaultTimeout": {
+      "message": "Timeout cassaforte"
+   },
+   "vaultTimeout1": {
+      "message": "Timeout"
+   },
+   "vaultTimeoutAction": {
+      "message": "Azione timeout cassaforte"
+   },
+   "vaultTimeoutAction1": {
+      "message": "Azione al timeout"
+   },
+   "vaultTimeoutActionPolicyInEffect": {
+      "message": "Le politiche della tua organizzazione hanno impostato l'azione di timeout cassaforte su $ACTION$.",
+      "placeholders": {
+         "action": {
+            "content": "$1",
+            "example": "Lock"
+         }
+      }
+   },
+   "vaultTimeoutHeader": {
+      "message": "Timeout cassaforte"
+   },
+   "vaultTimeoutLogOutConfirmation": {
+      "message": "Uscire rimuoverà tutti gli accessi alla tua cassaforte e richiede l'autenticazione online dopo il periodo di timeout. Sei sicuro di voler usare questa opzione?"
+   },
+   "vaultTimeoutLogOutConfirmationTitle": {
+      "message": "Conferma azione di timeout"
+   },
+   "vaultTimeoutPolicyAffectingOptions": {
+      "message": "I requisiti di politica aziendale sono stati applicati alle opzioni di timeout"
+   },
+   "vaultTimeoutPolicyInEffect": {
+      "message": "Le politiche della tua organizzazione hanno impostato il timeout massimo consentito della tua cassaforte su $HOURS$ ore e $MINUTES$ minuti.",
+      "placeholders": {
+         "hours": {
+            "content": "$1",
+            "example": "5"
+         },
+         "minutes": {
+            "content": "$2",
+            "example": "5"
+         }
+      }
+   },
+   "vaultTimeoutPolicyInEffect1": {
+      "message": "Al massimo $HOURS$ ora/e e $MINUTES$ minuto/i.",
+      "placeholders": {
+         "hours": {
+            "content": "$1",
+            "example": "5"
+         },
+         "minutes": {
+            "content": "$2",
+            "example": "5"
+         }
+      }
+   },
+   "vaultTimeoutPolicyMaximumError": {
+      "message": "Il timeout supera la restrizione impostata dalla tua organizzazione: massimo $HOURS$ ora/e e $MINUTES$ minuto/i",
+      "placeholders": {
+         "hours": {
+            "content": "$1",
+            "example": "5"
+         },
+         "minutes": {
+            "content": "$2",
+            "example": "5"
+         }
+      }
+   },
+   "vaultTimeoutPolicyWithActionInEffect": {
+      "message": "Le politiche della tua organizzazione stanno influenzando il timeout della tua cassaforte. Il tempo massimo consentito è di $HOURS$ ore e $MINUTES$ minuti. La tua azione di timeout della cassaforte è impostata su $ACTION$.",
+      "placeholders": {
+         "action": {
+            "content": "$3",
+            "example": "Lock"
+         },
+         "hours": {
+            "content": "$1",
+            "example": "5"
+         },
+         "minutes": {
+            "content": "$2",
+            "example": "5"
+         }
+      }
+   },
+   "vaultTimeoutTooLarge": {
+      "message": "Il timeout della tua cassaforte supera i limiti impostati dalla tua organizzazione."
+   },
+   "verificationCode": {
+      "message": "Codice di verifica"
+   },
+   "verificationCodeEmailSent": {
+      "message": "L'email di verifica è stata inviata all'indirizzo $EMAIL$.",
+      "placeholders": {
+         "email": {
+            "content": "$1",
+            "example": "example@gmail.com"
+         }
+      }
+   },
+   "verificationCodeRequired": {
+      "message": "Il codice di verifica è obbligatorio."
+   },
+   "verificationCodeTotp": {
+      "message": "Codice di verifica (TOTP)"
+   },
+   "verificationRequired": {
+      "description": "Default title for the user verification dialog.",
+      "message": "Verifica necessaria"
+   },
+   "verificationRequiredForActionSetPinToContinue": {
+      "message": "Verifica necessaria per questa azione. Imposta un PIN per continuare."
+   },
+   "verifyWithBiometrics": {
+      "message": "Verifica con i dati biometrici"
+   },
+   "verifyYourIdentity": {
+      "message": "Verifica la tua identità"
+   },
+   "version": {
+      "message": "Versione"
+   },
+   "view": {
+      "message": "Visualizza"
+   },
+   "viewAllLogInOptions": {
+      "message": "Visualizza tutte le opzioni di accesso"
+   },
+   "viewItem": {
+      "message": "Visualizza elemento"
+   },
+   "viewItemHeader": {
+      "message": "Visualizza $TYPE$",
+      "placeholders": {
+         "type": {
+            "content": "$1",
+            "example": "Login"
+         }
+      }
+   },
+   "viewItemTitle": {
+      "description": "Title for a link that opens a view for an item.",
+      "message": "Visualizza elemento - $ITEMNAME$",
+      "placeholders": {
+         "itemname": {
+            "content": "$1",
+            "example": "Secret Item"
+         }
+      }
+   },
+   "viewItemTitleWithField": {
+      "description": "Title for a link that opens a view for an item.",
+      "message": "Visualizza elemento - $ITEMNAME$ - $FIELD$",
+      "placeholders": {
+         "field": {
+            "content": "$2",
+            "example": "Username"
+         },
+         "itemname": {
+            "content": "$1",
+            "example": "Secret Item"
+         }
+      }
+   },
+   "viewItemsIn": {
+      "description": "Button to view the contents of a folder or collection",
+      "message": "Visualizza gli elementi in $NAME$",
+      "placeholders": {
+         "name": {
+            "content": "$1",
+            "example": "Work"
+         }
+      }
+   },
+   "warning": {
+      "description": "WARNING (should stay in capitalized letters if the language permits)",
+      "message": "ATTENZIONE"
+   },
+   "warningCapitalized": {
+      "description": "Warning (should maintain locale-relevant capitalization)",
+      "message": "Attenzione"
+   },
+   "weDontRecognizeThisDevice": {
+      "message": "Inserisci il codice inviato alla tua e-mail per verificare la tua identità."
+   },
+   "weak": {
+      "description": "ex. A weak password. Scale: Weak -> Good -> Strong",
+      "message": "Debole"
+   },
+   "weakAndBreachedMasterPasswordDesc": {
+      "message": "Password debole e trovata in una violazione dei dati. Usa una password forte e unica per proteggere il tuo account. Sei sicuro di voler usare questa password?"
+   },
+   "weakAndExposedMasterPassword": {
+      "message": "Password principale debole e violata"
+   },
+   "weakMasterPassword": {
+      "message": "Password principale debole"
+   },
+   "weakMasterPasswordDesc": {
+      "message": "La password principale che hai scelto è debole. Usa una password principale (o una frase segreta) forte per proteggere adeguatamente il tuo account Bitwarden. Sei sicuro di voler utilizzare questa password principale?"
+   },
+   "webAuthnAuthenticate": {
+      "message": "Autenticazione WebAuthn"
+   },
+   "webAuthnDesc": {
+      "message": "Usa qualsiasi chiave di sicurezza abilitata WebAuthn per accedere al tuo account."
+   },
+   "webAuthnTitle": {
+      "message": "FIDO2 WebAuthn"
+   },
+   "webVaultUrl": {
+      "message": "URL della cassaforte web"
+   },
+   "webauthnCancelOrTimeout": {
+      "message": "L'autenticazione è stata annullata o ha richiesto troppo tempo. Per favore riprova."
+   },
+   "website": {
+      "message": "Sito web"
+   },
+   "websiteAdded": {
+      "message": "Sito web aggiunto"
+   },
+   "websiteItemLabel": {
+      "message": "Sito $number$ (URI)",
+      "placeholders": {
+         "number": {
+            "content": "$1",
+            "example": "3"
+         }
+      }
+   },
+   "websiteName": {
+      "message": "Nome sito web"
+   },
+   "websiteUri": {
+      "message": "Sito Web (URI)"
+   },
+   "websiteUriCount": {
+      "description": "Label for an input field that contains a website URI. The input field is part of a list of fields, and the count indicates the position of the field in the list.",
+      "message": "Sito Web (URI) $COUNT$",
+      "placeholders": {
+         "count": {
+            "content": "$1",
+            "example": "3"
+         }
+      }
+   },
+   "welcomeBack": {
+      "message": "Bentornato/a"
+   },
+   "whoOwnsThisItem": {
+      "message": "A chi appartiene questo elemento?"
+   },
+   "wide": {
+      "message": "Larga"
+   },
+   "wordSeparator": {
+      "message": "Separatore parole"
+   },
+   "yes": {
+      "message": "Sì"
+   },
+   "youHaveBeenLoggedIn": {
+      "message": "Hai effettuato l'accesso!"
+   },
+   "youMayAlreadyHaveAnAccount": {
+      "message": "Potresti già avere un account"
+   },
+   "youMayCloseThisWindow": {
+      "message": "Puoi chiudere questa finestra"
+   },
+   "youSuccessfullyLoggedIn": {
+      "message": "Hai effettuato l'accesso"
+   },
+   "youWillBeNotifiedOnceTheRequestIsApproved": {
+      "message": "Sarai notificato una volta che la richiesta sarà approvata"
+   },
+   "yourAccountIsLocked": {
+      "message": "Il tuo account è bloccato"
+   },
+   "yourAccountsFingerprint": {
+      "description": "A 'fingerprint phrase' is a unique word phrase (similar to a passphrase) that a user can use to authenticate their public key with another user, for the purposes of sharing.",
+      "message": "Frase impronta del tuo account"
+   },
+   "yourNewPasswordCannotBeTheSameAsYourCurrentPassword": {
+      "message": "La tua nuova password non può essere la stessa della tua password attuale."
+   },
+   "yourPasskeyIsLocked": {
+      "message": "Autenticazione obbligatoria per usare una passkey. Verifica la tua identità per continuare."
+   },
+   "yourVaultIsEmpty": {
+      "message": "La tua cassaforte è vuota"
+   },
+   "yourVaultIsLocked": {
+      "message": "La tua cassaforte è bloccata. Verifica la tua identità per continuare."
+   },
+   "yourVaultIsLockedV2": {
+      "message": "Cassaforte bloccata"
+   },
+   "yubiKeyDesc": {
+      "message": "Usa YubiKey per accedere al tuo account. Funziona con YubiKey 4, 4 Nano, 4C, e dispositivi NEO."
+   },
+   "yubiKeyTitleV2": {
+      "message": "Chiave di sicurezza YubiKey OTP"
+   },
+   "zipPostalCode": {
+      "message": "CAP"
+   }
+}

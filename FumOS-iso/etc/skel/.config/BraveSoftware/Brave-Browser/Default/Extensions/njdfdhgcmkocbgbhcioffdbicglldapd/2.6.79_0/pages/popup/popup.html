@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Popup | LocalCDN</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="popup.css">
+        <link rel="stylesheet" type="text/css" href="toggle.css">
+        <link rel="stylesheet" type="text/css" href="../base.css">
+    </head>
+    <body>
+        <script src="../../core/constants.js"></script>
+        <script src="../../core/storage-manager.js"></script>
+        <script src="../../modules/internal/targets.js"></script>
+        <script src="../../modules/internal/helpers.js"></script>
+        <script src="popup.js"></script>
+        <header>
+            <div class="heading">
+                <img class="icon-logo" src="../../icons/icon.svg" alt="">
+                <span id="name-label"></span> <sup id="version-label" class="label-version"></sup>
+            </div>
+            <div id="donate-button">
+                <p id="label-donate" data-i18n-content="labelDonate">Donate</p>
+                <div id="donate-button-svg" class="button-svg" data-link="donate"></div>
+            </div>
+        </header>
+        <div class="content">
+            <div id="website-context" class="panel hidden">
+                <div class="subpanel">
+                    <div id="protection-toggle">
+                    <label class='toggle' for='protection-toggle-switch'>
+                        <input type='checkbox' name='protection-toggle-switch' id='protection-toggle-switch' class="toggle__input">
+                        <span class="toggle__display" hidden>
+                            <img class="toggle__img" src="../../icons/popup_check.svg" alt="">
+                            <img class="toggle__img" src="../../icons/popup_uncheck.svg" alt="">
+                        </span>
+                    </label>
+                    </div>
+                    <div class="label-domain">
+                        <span id="domain-indicator"></span>
+                    </div>
+                </div>
+                <div class="subpanel" id="div-manipulateDOM">
+                    <div id="manipulateDOM-toggle">
+                        <label class='toggle' for='manipulateDOM-toggle-switch'>
+                            <input type='checkbox' name='manipulateDOM-toggle-switch' id='manipulateDOM-toggle-switch' class="toggle__input">
+                            <span class="toggle__display" hidden>
+                                <img class="toggle__img" src="../../icons/popup_check.svg" alt="">
+                                <img class="toggle__img" src="../../icons/popup_uncheck.svg" alt="">
+                            </span>
+                        </label>
+                    </div>
+                    <div id="label-manipulateDOM" class="label-domain">
+                        <a id="manipulateDOM-indicator" data-i18n-content="labelManipulateDOM" data-link="faq-html-filter">Filter HTML source code</a>
+                    </div>
+                </div>
+                <div class="subpanel" id="div-google-fonts">
+                    <div id="google-fonts-toggle">
+                        <label class='toggle' for='google-fonts-toggle-switch'>
+                            <input type='checkbox' name='google-fonts-toggle-switch' id='google-fonts-toggle-switch' class="toggle__input">
+                            <span class="toggle__display" hidden>
+                                <img class="toggle__img" src="../../icons/popup_check.svg" alt="">
+                                <img class="toggle__img" src="../../icons/popup_uncheck.svg" alt="">
+                            </span>
+                        </label>
+                    </div>
+                    <div class="label-domain">
+                        <span data-i18n-content="blockGoogleFontsTitle">Block Google Fonts</span>
+                    </div>
+                </div>
+                <div id="website-context-replaced"></div>
+                <div id="counter-blocked-missing" class="counter-blocked-missing" hidden>
+                    <table>
+                        <tbody>
+                            <tr>
+                                <td data-i18n-context="counterBlocked">Blocked:</td>
+                                <td id="counter-blocked-number"></td>
+                            </tr>
+                            <tr>
+                                <td data-i18n-context="counterMissing">Missing:</td>
+                                <td id="counter-missing-number"</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <div id="extension-context" class="panel">
+                <div id="injection-counter" class="counter">0</div>
+                <div class="description" data-i18n-content="amountInjectedDescription">Amount of local Content Delivery Network resource injections since installation.</div>
+            </div>
+        </div>
+        <footer>
+            <div id="testing-utility">
+                <a id="testing-utility-link" class="link-text" data-i18n-content="websiteBroken" data-link="testing-utility">Website broken?</a>
+            </div>
+            <div id="logging-button" class="button">
+                <div id="logging-button-svg" class="button-svg" data-link="logging"></div>
+            </div>
+            <div id="statistics-button" class="button" data-i18n-title="headerStatistics">
+                <div id="statistics-button-svg" class="button-svg" data-link="statistics"></div>
+            </div>
+            <div id="options-button" class="button" data-i18n-title="optionsTitle">
+                <div id="options-button-svg" class="button-svg"></div>
+            </div>
+        </footer>
+        <div id="popup-incomplete-translation" data-link="translation"></div>
+    </body>
+</html>

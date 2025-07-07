@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Statistics | LocalCDN</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="utf-8" />
+        <link rel="shortcut icon" href="../images/favicon.ico" type="image/x-icon">
+        <link rel="icon" href="../images/favicon.ico" type="image/x-icon">
+        <link rel="stylesheet" type="text/css" href="statistics.css">
+        <link rel="stylesheet" type="text/css" href="../base.css">
+        <link rel="stylesheet" type="text/css" href="../style.css">
+    </head>
+    <body>
+        <script src="../../modules/internal/targets.js"></script>
+        <script src="../../modules/internal/helpers.js"></script>
+        <script src="../../core/constants.js"></script>
+        <script src="statistics.js"></script>
+        <h1 data-i18n-content="headerStatistics">Statistics</h1>
+        <div class="container">
+            <div id="btn-statistics" class="content">
+                <select id="date-range" data-option="dateRange">
+                    <option value="day" data-i18n-content="labelToday" selected="selected">Today</option>
+                    <option value="week" data-i18n-content="labelPastWeek">Past week</option>
+                    <option value="month" data-i18n-content="labelPastMonth">Past month</option>
+                    <option value="year" data-i18n-content="labelPastYear">Past year</option>
+                    <option value="all" data-i18n-content="labelAll">All</option>
+                </select>
+                <div id="btn-delete" class="button" data-i18n-content="labelDelete">Delete</div>
+            </div>
+            <div id="statistics-overview" class="content">
+                <div class="overview"><span data-i18n-content="labelAvg">Average (injections/day)</span><span id="avg-quantity">-</span></div>
+                <div class="overview"><span data-i18n-content="labelInjectedFrameworks">Injected frameworks</span><span id="quantity-injected-frameworks">-</span></div>
+            </div>
+            <div id="tbl-statistics-cdns" class="content">
+                <table>
+                    <thead>
+                        <tr><th scope="col">CDNs</th><th scope="col"></th></tr>
+                    </thead>
+                    <tbody id="tbody-cdns">
+                        <tr><td>-</td><td>-</td></tr>
+                    </tbody>
+                </table>
+            </div>
+            <div id="tbl-statistics-frameworks" class="content">
+                <table>
+                    <thead>
+                        <tr><th scope="col">Frameworks</th><th scope="col"></th></tr>
+                    </thead>
+                    <tbody id="tbody-frameworks">
+                        <tr><td>-</td><td>-</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </body>
+</html>

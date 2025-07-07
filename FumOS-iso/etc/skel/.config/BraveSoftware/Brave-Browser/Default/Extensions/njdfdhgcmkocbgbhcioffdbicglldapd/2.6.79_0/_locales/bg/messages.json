@@ -1,0 +1,530 @@
+{
+   "advancedLabel": {
+      "description": "Advanced label",
+      "message": "За напреднали"
+   },
+   "allowlistedDomainsDescription": {
+      "description": "Enter domains to disable LocalCDN there. One entry per line.",
+      "message": "Въведете домейните, на които добавката LocalCDN да бъде изключена. По един на ред."
+   },
+   "allowlistedDomainsTitle": {
+      "description": "Deactivate LocalCDN for these domains:",
+      "message": "Изключване на LocalCDN за следните домейни:"
+   },
+   "amountInjectedDescription": {
+      "description": "Amount injected description.",
+      "message": "Брой използвани местни ресурси от инсталирането до момента."
+   },
+   "betaLabel": {
+      "description": "beta",
+      "message": "Бета"
+   },
+   "blockGoogleFontsDescription": {
+      "description": "If requests for missing resources are allowed, connections to \"fonts.googleapis.com\" are not blocked. Enable this option to block these requests.",
+      "message": "Ако заявките за липсващи ресурси са разрешени, връзките към „fonts.googleapis.com“ не се спират. Ако е отметнато тези заявки ще бъдат спирани."
+   },
+   "blockGoogleFontsTitle": {
+      "description": "Block Google Fonts",
+      "message": "Спиране на шрифтове от Гугъл"
+   },
+   "blockMissingDescription": {
+      "description": "Block requests for missing resources description.",
+      "message": "Спира прехванатите заявки за ресурси, които не са налични на местно ниво."
+   },
+   "blockMissingTitle": {
+      "description": "Block requests for missing resources title",
+      "message": "Спиране на заявки към липсващи ресурси"
+   },
+   "btnAdvanced": {
+      "description": "Advanced",
+      "message": "Разширени"
+   },
+   "btnGeneral": {
+      "description": "Basic",
+      "message": "Основни"
+   },
+   "btnInfo": {
+      "description": "Info",
+      "message": "Информация"
+   },
+   "btnOther": {
+      "description": "Other",
+      "message": "Други"
+   },
+   "changeBadgeColorMissingResourcesDescription": {
+      "description": "Change the badge color if resources are missing.",
+      "message": "При липсващи ресурси цвета на иконата се променя."
+   },
+   "changeBadgeColorMissingResourcesTitle": {
+      "description": "Indicate missing resources on the icon",
+      "message": "Отбелязване на липсващите ресурси в иконата"
+   },
+   "chooseIconStyle": {
+      "description": "Choose an icon for this extension",
+      "message": "Изберете пиктограма за разширението"
+   },
+   "copyRuleSet": {
+      "description": "Text of button to copy ruleset",
+      "message": "Копиране"
+   },
+   "counterBlocked": {
+      "description": "Blocked",
+      "message": "Спрян"
+   },
+   "counterMissing": {
+      "description": "Missing",
+      "message": "Липсващ"
+   },
+   "dialogConfirmDeleteStatistics": {
+      "description": "Are you sure you want to delete all the statistics?",
+      "message": "Сигурни ли сте, че желаете цялата статистика да бъде премахната?"
+   },
+   "dialogImportFailed": {
+      "description": "Import failed",
+      "message": "Грешка при изнасяне"
+   },
+   "dialogImportSuccessful": {
+      "description": "Import successful",
+      "message": "Внасянето е успешно"
+   },
+   "disablePrefetchDescription": {
+      "description": "Disable prefetch description.",
+      "message": "Предотвратява изтичането на забранени заявки към мрежи за доставка."
+   },
+   "disablePrefetchTitle": {
+      "description": "Disable prefetch title",
+      "message": "Изключване на предварителното зареждане на препратки"
+   },
+   "extensionDescription": {
+      "description": "Protects you against tracking through CDNs (Content Delivery Networks) by redirecting to local resources.",
+      "message": "Предпазва от проследяване от мрежите за доставка на съдържание като пренасочва заявките им към местни ресурси."
+   },
+   "featureBreaksWebsitesButton": {
+      "description": "Disable",
+      "message": "Изключване"
+   },
+   "featureBreaksWebsitesDescription": {
+      "description": "This feature breaks websites. Do not leave it enabled, unless you are prepared to manually add affected domains to the allow list.",
+      "message": "Това ще бъде причината някои страници да изглеждат странно или да не работят нормално. Не оставяйте отметнато, освен ако не сте готови ръчно да добавяте засегнатите домейни в белия списък."
+   },
+   "generateRuleSetDescription": {
+      "description": "In case you are using an adblocker you can generate the rules here. You have to add these rules manually in your adblocker.",
+      "message": "Ако ползвате система за спиране на реклами тук може да изведете правила за тях. Тях трябва да добавите ръчно в съответната система."
+   },
+   "generateRuleSetTitle": {
+      "description": "Generate rule sets for your adblocker",
+      "message": "Извеждане на набори от правила за системи за спиране на реклами"
+   },
+   "headerImportExport": {
+      "description": "Import/Export",
+      "message": "Внасяне/изнасяне"
+   },
+   "headerStatistics": {
+      "description": "Statistics. The header of a statistics page.",
+      "message": "Статистика"
+   },
+   "headerStorageType": {
+      "description": "Storage type",
+      "message": "Вид на хранилището"
+   },
+   "helpBlockGoogleFontsDescription": {
+      "description": "LocalCDN can replace »Google Material Icons«. To catch the connection your adblocker (e.g. uBlock Origin, uMatrix or AdGuard) must allow the request. LocalCDN listens on these requests and if the query contains »Google Material Icons«, the resource will be replaced. If you uncheck the »Block requests for missing content« option, non-existent resources will be allowed to pass and »Google Fonts« will be loaded, because »Google Material Icons« and »Google Fonts« use the same domain. If you don‘t want this, you can block »Google Fonts« on LocalCDN.",
+      "message": "LocalCDN може да замести материалните икони от Гугъл. За да бъде прехваната заявката, добавката за спиране на реклами (напр. uBlock Origin, uMatrix или AdGuard) трябва да я разреши. LocalCDN слуша за тезт заявки и ако тя е за материални икони от Гугъл, ресурсът ще бъде заменен. Ако махнете отметката „Спиране на заявки към липсващи ресурси“, несъществуващите ресурси ще бъдат допуснати и шрифтове от Гугъл ще бъдат достъпни, защото материалните икони и шрифтовете от Гугъл използват един и същ домейн. Ако не искате това да е така, можете да спрете шрифтовете от Гугъл в LocalCDN."
+   },
+   "helpBlockGoogleFontsTitle": {
+      "description": "Why is there a »Block Google Fonts« option?",
+      "message": "Защо има „Спиране на шрифтове от Гугъл“?"
+   },
+   "helpBrowserCompatibility": {
+      "description": "Browser compatibility",
+      "message": "Съвместимост с мрежови четци"
+   },
+   "helpBrowserCompatibilityTitle": {
+      "description": "Browser compatibility",
+      "message": "Съвместимост с мрежови четци"
+   },
+   "helpData": {
+      "description": "Data",
+      "message": "Данни"
+   },
+   "helpExplanationChrome": {
+      "description": "All Chromium based Browser",
+      "message": "Всички четци на основата на Хромиум"
+   },
+   "helpHtmlFilterAfter": {
+      "description": "The result then looks like this:",
+      "message": "Резултатът ще изглежда така:"
+   },
+   "helpHtmlFilterBefore": {
+      "description": "The HTML filter removes the red characters from this example:",
+      "message": "Филтрите за HTML премахват червените знаци от примера:"
+   },
+   "helpHtmlFilterCrossorigin": {
+      "description": "The crossorigin attribute prevents the replacement because the destination does not match the requested one.",
+      "message": "Атрибутът crossorigin предотвратява замяната, тъй като целта не съвпада с търсената."
+   },
+   "helpHtmlFilterDescription": {
+      "description": "In most cases LocalCDN can easily replace embedded frameworks and improves privacy. In some cases the website may try to prevent this by setting certain options in the HTML source code. LocalCDN reads the HTML source code before it is displayed in the browser and removes these part (red).",
+      "message": "В повечето случаи LocalCDN може лесно да замени използваните софтуерни рамки и да подобри поверителността. В някои случаи страницатс може да се опита да предотврати това чрез задаване на определени атрибути в изходния код на HTML. LocalCDN чете изходния код на HTML преди да бъде показан и премахва тази атрибути (в червено)."
+   },
+   "helpHtmlFilterErrors": {
+      "description": "Unfortunately, it sometimes happens that special characters are then displayed incorrectly. In this case you can deactivate the setting again, to display the umlauts correctly.",
+      "message": "За съжаление, понякога се случва специалните символи да се показват неправилно. В този случай можете отново да изключите настройката и умлаутите ще се показват правилно."
+   },
+   "helpHtmlFilterIntegrity": {
+      "description": "To save disk space and to deliver more frameworks LocalCDN upgrades a framework. An integrity tag is the hash value of a file. If the check fails, the browser won‘t include a framework. The integrity check will fail because the hash values for e.g. jQuery 1.10.1 and jQuery 1.12.4 are different.",
+      "message": "За да се спести дисково пространство, и за да се доставят повече софтуерни рамки, LocalCDN винаги използва последното им издание. Етикетът за цялост е отпечатък от съдържанието на даден файл. Ако проверката е неуспешна, четецът няма да използва дадения файл. Проверката за цялост, например на jQuery 1.10.1 и jQuery 1.12.4. ще бъде неуспешна, защото отпечатъците са различни."
+   },
+   "helpHtmlFilterTitle": {
+      "description": "What is »HTML filter«?",
+      "message": "Какво е „филтър за HTML“?"
+   },
+   "helpHtmlFilterWhyTitle": {
+      "description": "Why is it necessary to remove crossorigin and integrity attributes?",
+      "message": "Защо е необходимо да се премахнат атрибутите crossorigin и integrity?"
+   },
+   "helpIcons": {
+      "description": "Default, Light, Blue/Grey",
+      "message": "Стандартно, светла, синьо/сиво"
+   },
+   "helpIntroductionDescription": {
+      "description": "LocalCDN is a web browser extension that emulates Content Delivery Networks to improve your online privacy. It intercepts traffic, finds supported frameworks/libraries locally, and injects them into the website. Feel free to use the following testing utility to find out if you are properly protected. For more information read the tutorial or our Wiki pages.",
+      "message": "LocalCDN е разширение, което емулира мрежи за доставка на съдържание, за да подобри поверителността ви в мрежата. То прихваща трафика, намира местно наличните софтуерни рамки/библиотеки и ги предоставя за използване от страницата. Чувствайте се свободни да използвате следния инструмент за изпробване, за да разберете дали сте защитени. За повече информация прочетете ръководството или документацията."
+   },
+   "helpIntroductionTitle": {
+      "description": "Introduction",
+      "message": "Въведение"
+   },
+   "helpLimitation": {
+      "description": "This is not a limitation of LocalCDN, but missing API support of Chromium based browsers.",
+      "message": "Това не е ограничение на добавката LocalCDN, а липсваща поддръжка на ППИ от мрежовите четци на основата на Хромиум."
+   },
+   "helpLinkTestUtility": {
+      "description": "Testing utility",
+      "message": "Проверка за работоспособност"
+   },
+   "helpLinkTutorial": {
+      "description": "Tutorial",
+      "message": "Самоучител"
+   },
+   "helpLinkWikiPages": {
+      "description": "Wiki pages",
+      "message": "Документация"
+   },
+   "helpNo": {
+      "description": "No",
+      "message": "Не"
+   },
+   "helpNumberOfInjections": {
+      "description": "Numbers of injections",
+      "message": "Брой използвани местни ресурси"
+   },
+   "helpPermissionDescription": {
+      "description": "LocalCDN needs to know which requests are created by a website to redirect or block it. With the introduction of MV3, this permission is listed as an optional permission.",
+      "message": "LocalCDN трябва да знае кои заявки идват от страниците, за да ги пренасочва или спира. С въвеждането на издание 3 на Манифеста (MV3) това право е незадължително."
+   },
+   "helpReplace": {
+      "description": "Replace",
+      "message": "Заменя"
+   },
+   "helpReplaceOther": {
+      "description": "Replace other resources",
+      "message": "Заменя други ресурси"
+   },
+   "helpRuleGeneratorDescription": {
+      "description": "If you want to automatically redirect all supported CDN connections to LocalCDN, you can add these rules to your adblocker to allow these redirections. If you do not want to add these rules, you must allow each CDN connection individually for each website.",
+      "message": "Ако искате заявките към поддържаните мрежи за доставка на съдържание (МДС) автоматично да бъдат пренасочвани към LocalCDN, можете да добавите тези правила към приложението за спиране на реклами, за да разрешите тези пренасочвания. Ако не искате да добавяте тези правила, трябва да разрешавате всяка заява МДС поотделно за всяка страница."
+   },
+   "helpRuleGeneratorTitle": {
+      "description": "Rule generator",
+      "message": "Генератор за правила"
+   },
+   "helpRuleGeneratorUblockDescription": {
+      "description": "These rules are only relevant in »medium« or »hard« mode, because it blocks all 3rd-party resources. They are not necessary in »default«, »easy« or »very-easy« mode. For more information, please visit the uBlock Origin Wiki.",
+      "message": "Тези правила са приложими само в режимите „Междинен“ и „Тежък“, тъй като спират всички ресурси на трети страни. Не са необходими в режимите „Стандартен“ и „Лек“. За повече информация посетете документацията на uBlock Origin."
+   },
+   "helpRuleGeneratorUblockTableDefaultEasy": {
+      "description": "Default/Easy",
+      "message": "Стандартен/лек"
+   },
+   "helpRuleGeneratorUblockTableHard": {
+      "description": "Hard",
+      "message": "Тежък"
+   },
+   "helpRuleGeneratorUblockTableIcon": {
+      "description": "Icon",
+      "message": "Пиктограма"
+   },
+   "helpRuleGeneratorUblockTableMedium": {
+      "description": "Medium",
+      "message": "Междинен"
+   },
+   "helpRuleGeneratorUblockTableMode": {
+      "description": "Mode",
+      "message": "Режим"
+   },
+   "helpRuleGeneratorUblockTableUseful": {
+      "description": "Rules useful",
+      "message": "Полезни ли са правилата"
+   },
+   "helpRuleGeneratorUblockTitle": {
+      "description": "Only uBlock Origin:",
+      "message": "Само uBlock Origin:"
+   },
+   "helpStatisticsContent": {
+      "description": "The statistics contain no information about the browser, operating system, requesting website, IP addresses or any other information. Just date, CDN+counter and framework+counter. It shows you which frameworks are replaced by LocalCDNs how often and which CDNs were requested.",
+      "message": "Статистиката не съдържа информация за мрежовия четец, операционната система, страницата, от която идва заявката, IP адреси или друга информация. Само дата, брояч на мрежа за доставка на съдържание (МДС) и брояч на софтуерни рамки. Статистиката показва кои софтуерни рамки са заменени от LocalCDN колко често и кои МДС са били поискани."
+   },
+   "helpStatisticsDescription": {
+      "description": "Don‘t panic, nothing will be transmitted. It would be against all my principles. The statistics (JSON format) contains the following information: Date, CDN+counter and framework+counter. That‘s all. I‘ve an example here:",
+      "message": "Не се паникьосвайте, нищо не се изпраща никъде. Това би било против всички мои принципи. Статистиката (под формата на JSON) съдържа следната информация: дата, брояч на мрежа за доставка на съдържание и брояч на софтуерна рамка. Това е всичко. Ето пример:"
+   },
+   "helpStatisticsTitle": {
+      "description": "What about the statistics? Is anything transferred to any servers?",
+      "message": "Ами статистиките? Какво и къде се изпраща?"
+   },
+   "helpStatisticsTruthDescription": {
+      "description": "The extension storage can be viewed directly with the Firefox browser. Open the URL »about:debugging«, switch to »Storage« and select »Extension Storage«. Under the key »internalStatisticsData« you will find the collected data. Just copy it and put it into a JSON PrettyPrinter to make it more readable. Please note that you have to remove the first and last quotation mark and the key to it. You should be able to see this clearly in this video.",
+      "message": "Хранилището на разширението може да бъде разгледано директно във Firefox. Отворете адреса „about:debugging“, намерете добавката, натиснете бутона „Инспектиране“, от горната лента изберете „Хранилище“ и от там изберете „Хранилище на разширението“. Под ключа \"internalStatisticsData\" ще намерите събраните данни."
+   },
+   "helpStatisticsTruthTitle": {
+      "description": "How do I know that‘s true?",
+      "message": "Как да разбера, че това наистина е така?"
+   },
+   "helpSyncAccount": {
+      "description": "If you don‘t have a sync account, nothing will be synchronized. In that case it makes no difference what type of storage you have selected.",
+      "message": "Ако нямате профил в Sync, нищо няма да бъде синхронизирано. В този случай няма значение какъв вид хранилище ще изберете."
+   },
+   "helpSyncContentEver": {
+      "description": "Settings that will be synchronized:",
+      "message": "Настройки, които ще бъдат синхронизирани:"
+   },
+   "helpSyncContentLinks": {
+      "description": "More information about Firefox Sync:",
+      "message": "Повече информация за Firefox Sync:"
+   },
+   "helpSyncContentNever": {
+      "description": "Things that are never synchronized:",
+      "message": "Неща, които няма да бъдат синхронизирани:"
+   },
+   "helpSyncDescription": {
+      "description": "Sync will only work if you are logged in with a Firefox account on the device and have allowed add-ons to sync in the settings. A separate sync server under your control will also work. This will synchronize most of the settings of LocalCDN across all devices.",
+      "message": "Синхронизацията ще работи само ако сте влезли във Firefox Account на устройството и сте разрешили синхронизирането на добавките в настройките. Отделен сървър за синхронизиране под ваш контрол също ще работи. По такъв начин ще бъдат синхронизирани повечето от настройките на LocalCDN на всички устройства."
+   },
+   "helpSyncTitle": {
+      "description": "What will be synchronized when I select »sync« as storage type?",
+      "message": "Какво ще бъде синхронизирано ако избера „Синхронизирано“ за хранилище?"
+   },
+   "helpUpgradeAllResources": {
+      "description": "Upgrade all resources",
+      "message": "Обновява всички ресурси"
+   },
+   "helpWebsiteIssuesDescription": {
+      "description": "There are two possible reasons: Either a framework/library is required that LocalCDN doesn‘t (yet) deliver or an SOP. A SOP (Same origin policy) is a security mechanism that determines what data the browser is allowed to load. It helps to isolate malicious documents and thus reduce possible attack vectors. This policy prevents the browser from loading the external frameworks of LocalCDN. Unfortunately there is no solution for this at the moment.",
+      "message": "Има две възможни причини: Или има заявка за софтуерна рамка / библиотека, която LocalCDN (все още) не предоставя, или SOP (Same origin policy - политика за същия произход). Това е механизъм за сигурност, който определя какви данни е позволено да се зареждат от мрежовия четец. Този механизъм помага да се изолират злонамерени документи и по този начин да се намалят възможните вектори за атака. Тази политика не позволява да бъдат зареждани софтуерните рамки / библиотеките от LocalCDN. За съжаление за момента няма решение за този проблем."
+   },
+   "helpWebsiteIssuesTitle": {
+      "description": "Some websites look strange or are not easy to use",
+      "message": "Някои страници изглеждат странно или са трудни за използване"
+   },
+   "helpWhatWillBeSynchronizedTitle": {
+      "description": "What will be synchronized when I select »sync« as storage type?",
+      "message": "Какво ще бъде синхронизирано ако избера „Синхронизирано“ за хранилище?"
+   },
+   "helpWhyThisPermission": {
+      "description": "Why does this extension need this permission?",
+      "message": "Защо разширението се нуждае от тези права?"
+   },
+   "helpYes": {
+      "description": "Yes",
+      "message": "Да"
+   },
+   "hideDonationButton": {
+      "description": "Hide donation button",
+      "message": "Скриване на бутона за дарение"
+   },
+   "htmlFilterDomainsDescription": {
+      "description": "Enter the domains to be handled or ignored by the HTML filter. One entry per line.",
+      "message": "Въведете домейните, на които да бъдат прилагани или не филтри за HTML. По един на ред."
+   },
+   "htmlFilterDomainsTitleExclude": {
+      "description": "Do not apply HTML filter to these domains:",
+      "message": "Филтрите за HTML да не бъдат прилагани към следните домейни:"
+   },
+   "htmlFilterDomainsTitleInclude": {
+      "description": "Apply HTML filter for these domains:",
+      "message": "Филтрите за HTML да бъдат прилагани към следните домейни:"
+   },
+   "internalStatisticsDescription": {
+      "description": "No data transmission. It’s all local on your device.",
+      "message": "Тази възможност е в експериментална фаза. Няма предаване на данни. Всичко е на устройството."
+   },
+   "internalStatisticsTitle": {
+      "description": "Internal statistics",
+      "message": "Вътрешна статистика"
+   },
+   "labelAll": {
+      "description": "Statistics view over the whole time range",
+      "message": "Всички"
+   },
+   "labelAvg": {
+      "description": "Followed by a number of average injections per day within a specific period.",
+      "message": "Средно (замествания на ден)"
+   },
+   "labelDelete": {
+      "description": "Button to delete all statistics data.",
+      "message": "Премахване"
+   },
+   "labelDomainsAllowlistGoogleFonts": {
+      "description": "These domains are allowed to load Google Fonts. One entry per line.",
+      "message": "Въведете домейните, на които да се зареждат шрифтове от Гугъл. По един на ред."
+   },
+   "labelDonate": {
+      "description": "Donate",
+      "message": "Даряване"
+   },
+   "labelExportData": {
+      "description": "Back up to file",
+      "message": "Резервно копие във файл"
+   },
+   "labelImportData": {
+      "description": "Restore from file",
+      "message": "Възстановяване от файл"
+   },
+   "labelInjectedFrameworks": {
+      "description": "Followed by a number of injections within a specific period.",
+      "message": "Използвани местни софтуерни рамки"
+   },
+   "labelManipulateDOM": {
+      "description": "Filter HTML source code",
+      "message": "Филтриране изходния код на HTML"
+   },
+   "labelPastMonth": {
+      "description": "Statistics view for past month.",
+      "message": "Миналия месец"
+   },
+   "labelPastWeek": {
+      "description": "Statistics view for past week.",
+      "message": "Миналата седмица"
+   },
+   "labelPastYear": {
+      "description": "Statistics view for past year.",
+      "message": "Миналата година"
+   },
+   "labelStorageTypeLocal": {
+      "description": "Local",
+      "message": "Местно"
+   },
+   "labelStorageTypeSync": {
+      "description": "Sync",
+      "message": "Синхронизирано"
+   },
+   "labelToday": {
+      "description": "Statistics view for today.",
+      "message": "Днес"
+   },
+   "lastUpdate": {
+      "description": "Last update:",
+      "message": "Последено обновяване:"
+   },
+   "loggingDescription": {
+      "description": "You can open the log with the icon in the menu. The log will be deleted when you close the browser or disable logging.",
+      "message": "Можете да отворите дневника от иконата в менюто. Съдържанието на дневника ще бъде премахнато, когато затворите четеца или забраните воденето на дневник."
+   },
+   "loggingTitle": {
+      "description": "Enable logging",
+      "message": "Поддържане на дневник"
+   },
+   "negateHtmlFilterListDescription": {
+      "description": "Enable this option to always apply the HTML filter. The domains in the list will be ignored then. If this option is disabled, the HTML filter is only applied to domains in the list.",
+      "message": "Когато е отметнато филтрите за HTML винаги се прилагат. Домейните в този списък ще бъдат пропускани. Ако не е отметнато филтрите ще бъдат прилагани само към домейните от списъка."
+   },
+   "negateHtmlFilterListTitle": {
+      "description": "Invert HTML filter",
+      "message": "Обръщане на филтрите на HTML"
+   },
+   "negateHtmlFilterListWarning": {
+      "description": "This function can break websites. Please note the information on the Wiki page.",
+      "message": "Тази функция ще бъде причината някои страници да изглеждат странно или да не работят нормално. Повече информация ще намерите в документацията."
+   },
+   "optionsTitle": {
+      "description": "Options title",
+      "message": "Настройки"
+   },
+   "permissionAllow": {
+      "description": "Allow",
+      "message": "Разрешаване"
+   },
+   "permissionMissing": {
+      "description": "Missing permission",
+      "message": "Липсващи права"
+   },
+   "permissionMoreInfo": {
+      "description": "More info",
+      "message": "Подробности"
+   },
+   "permissionRevokedDescription": {
+      "description": "Please do not disable the permission. LocalCDN needs the permission to detect and redirect requests to CDNs.",
+      "message": "Не забранявайте това право. LocalCDN се нуждае от него, за да определя и пренасочва заявките към МДС."
+   },
+   "permissionRevokedHeader": {
+      "description": "Permission revoked",
+      "message": "Няма права"
+   },
+   "permissionRevokedPermissionName": {
+      "description": "The exact name of the permission. Exactly as it is displayed in Firefox.",
+      "message": "Достъпва данните ви за всички страници"
+   },
+   "showIconBadgeDescription": {
+      "description": "Show icon badge description.",
+      "message": "Показва броя на използваните местни ресурси в иконката на разширението."
+   },
+   "showIconBadgeTitle": {
+      "description": "Show icon badge title",
+      "message": "Показване на броя използвани местни ресурси в иконката"
+   },
+   "stripMetadataDescription": {
+      "description": "Strip metadata description.",
+      "message": "Премахва чувствителната информация от разрешените заявки към мрежи за доставка на съдържание с цел подобряване на поверителността."
+   },
+   "stripMetadataTitle": {
+      "description": "Strip metadata title",
+      "message": "Премахване на описателните данни от разрешените заявки"
+   },
+   "titleBadgeDefault": {
+      "description": "Default badge",
+      "message": "Стандартна пиктограма"
+   },
+   "titleBadgeHTMLFilter": {
+      "description": "HTML filter badge",
+      "message": "Пиктограма за филтър на HTML"
+   },
+   "titleBadgeMissingResource": {
+      "description": "Missing or blocked resources badge",
+      "message": "Пиктограма за липсващ или спрян ресурс"
+   },
+   "titleHelp": {
+      "description": "Help",
+      "message": "Помощ"
+   },
+   "updateNotificationAlways": {
+      "description": "Always",
+      "message": "Винаги"
+   },
+   "updateNotificationNever": {
+      "description": "Never (Silent Updates)",
+      "message": "Никога (безшумно обновяване)"
+   },
+   "updateNotificationOnlyRules": {
+      "description": "Only if new CDNs and rules",
+      "message": "Само при добавени мрежи и нови правила"
+   },
+   "updateNotificationTitle": {
+      "description": "Notification after an update",
+      "message": "Известие след обновяване"
+   },
+   "websiteBroken": {
+      "description": "Website broken?",
+      "message": "„Счупена“ страница?"
+   }
+}

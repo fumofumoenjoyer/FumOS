@@ -1,0 +1,42 @@
+<link rel="import" href="./modalDialogStyles.html">
+
+<!--
+  Template for a update dialog. This is a simple dialog with text,
+  an OK button, and a link.
+
+  Example:
+    var dialog = new QowtUpdateDialog();
+    dialog.titleText = 'tite_text';
+    dialog.messageText = 'description_text';
+    dialog.linkUrl = 'url';
+    dialog.linkText = 'text_for_url';
+    dialog.callback = callback;
+    dialog.show();
+-->
+<dom-module id="qowt-update-dialog">
+  <template>
+    <style include="modal-dialog-styles"></style>
+    <style>
+        :host {
+          min-height: 176px;
+        }
+    </style>
+
+    <qowt-localized>
+        <header id="dialogLabel" role="heading">{{getMessage_(titleText)}}</header>
+        <p class="qowt-dialog-msg" id="dialogDesc1">
+          <span>{{getMessage_(messageText)}}</span>
+          <a href="{{linkUrl}}" target="_blank">
+            {{getMessage_(linkText)}}
+          </a>
+        </p>
+
+      <footer>
+        <button id="convert" class="affirmative" on-click="handleAction_" autofocus>
+          __qowt_modal_dialog_ok_button__
+        </button>
+      </footer>
+    </qowt-localized>
+    <button id="closeButton" on-click="close" aria-label="{{getMessage_('close_dialog_aria_spoken_word')}}" focus-end></button>
+  </template>
+</dom-module>

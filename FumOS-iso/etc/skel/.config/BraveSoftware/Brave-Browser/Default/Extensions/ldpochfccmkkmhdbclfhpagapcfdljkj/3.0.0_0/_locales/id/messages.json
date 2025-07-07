@@ -1,0 +1,70 @@
+{
+   "advancedLabel": {
+      "description": "Advanced label.",
+      "message": "Canggih"
+   },
+   "amountInjectedDescription": {
+      "description": "Amount injected description.",
+      "message": "Jumlah penyematan sumber daya Jaringan Distribusi Konten lokal sejak pemasangan."
+   },
+   "amountInjectedTitle": {
+      "description": "Amount injected title.",
+      "message": "Jumlah sumber daya lokal yang disematkan"
+   },
+   "blockMissingDescription": {
+      "description": "Block requests for missing resources description.",
+      "message": "Batalkan pencegatan permintaan jika sumber daya yang dibutuhkan tidak tersedia secara lokal."
+   },
+   "blockMissingTitle": {
+      "description": "Block requests for missing resources title.",
+      "message": "Blokir permintaan untuk sumber daya yang hilang"
+   },
+   "disablePrefetchDescription": {
+      "description": "Disable prefetch description.",
+      "message": "Mencegah permintaan yang tidak diizinkan bocor ke jaringan pengiriman."
+   },
+   "disablePrefetchTitle": {
+      "description": "Disable prefetch title.",
+      "message": "Nonaktifkan tautan pra pengambilan"
+   },
+   "disableProtectionTitle": {
+      "description": "Disable protection title.",
+      "message": "Nonaktifkan perlindungan untuk situs web ini"
+   },
+   "enableProtectionTitle": {
+      "description": "Enable protection title.",
+      "message": "Aktifkan perlindungan"
+   },
+   "extensionDescription": {
+      "description": "Extension description.",
+      "message": "Melindungi Anda dari pelacakan distribusi konten \"gratis\" dan terpusat."
+   },
+   "optionsTitle": {
+      "description": "Options title.",
+      "message": "Opsi"
+   },
+   "showIconBadgeDescription": {
+      "description": "Show icon badge description.",
+      "message": "Tampilkan jumlah sumber yang disematkan pada ekstensi ikon."
+   },
+   "showIconBadgeTitle": {
+      "description": "Show icon badge title.",
+      "message": "Tampilkan jumlah penyematan pada ikon"
+   },
+   "stripMetadataDescription": {
+      "description": "Strip metadata description.",
+      "message": "Hapus data sensitif dari permintaan CDN yang diizinkan untuk meningkatkan privasi."
+   },
+   "stripMetadataTitle": {
+      "description": "Strip metadata title.",
+      "message": "Kupas metadata dari permintaan yang diizinkan"
+   },
+   "whitelistedDomainsDescription": {
+      "description": "Whitelisted domains description.",
+      "message": "Masukkan domain ke daftar putih. Pisahkan entri dengan titik koma (;)."
+   },
+   "whitelistedDomainsTitle": {
+      "description": "Whitelisted domains title.",
+      "message": "Cegah pemeriksaan domain"
+   }
+}

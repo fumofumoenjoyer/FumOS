@@ -1,0 +1,70 @@
+{
+   "advancedLabel": {
+      "description": "Advanced label.",
+      "message": "進階"
+   },
+   "amountInjectedDescription": {
+      "description": "Amount injected description.",
+      "message": "安裝以來，由本機檔案所取代的 CDN 資源數量。"
+   },
+   "amountInjectedTitle": {
+      "description": "Amount injected title.",
+      "message": "由本機提供的資源計數器"
+   },
+   "blockMissingDescription": {
+      "description": "Block requests for missing resources description.",
+      "message": "若本機沒有所請求的資源，就取消該請求。"
+   },
+   "blockMissingTitle": {
+      "description": "Block requests for missing resources title.",
+      "message": "封鎖缺少資源時的連線請求"
+   },
+   "disablePrefetchDescription": {
+      "description": "Disable prefetch description.",
+      "message": "防止發出不被允許的請求到 CDN 網路。"
+   },
+   "disablePrefetchTitle": {
+      "description": "Disable prefetch title.",
+      "message": "停用連結預讀功能"
+   },
+   "disableProtectionTitle": {
+      "description": "Disable protection title.",
+      "message": "為此網站停用保護"
+   },
+   "enableProtectionTitle": {
+      "description": "Enable protection title.",
+      "message": "啟用保護"
+   },
+   "extensionDescription": {
+      "description": "Extension description.",
+      "message": "保護您不受「免費」、中心化的內容傳遞網路（CDN）的追蹤。"
+   },
+   "optionsTitle": {
+      "description": "Options title.",
+      "message": "選項"
+   },
+   "showIconBadgeDescription": {
+      "description": "Show icon badge description.",
+      "message": "在擴充套件圖示上，顯示被取代的資源數量。"
+   },
+   "showIconBadgeTitle": {
+      "description": "Show icon badge title.",
+      "message": "在圖示上顯示被取代的資源數量"
+   },
+   "stripMetadataDescription": {
+      "description": "Strip metadata description.",
+      "message": "清除放行的 CDN 請求當中的敏感資料，以保護隱私權。"
+   },
+   "stripMetadataTitle": {
+      "description": "Strip metadata title.",
+      "message": "移除放行請求當中的後設資料"
+   },
+   "whitelistedDomainsDescription": {
+      "description": "Whitelisted domains description.",
+      "message": "輸入網域即可將其加入白名單。使用分號（;）分隔多個網域。"
+   },
+   "whitelistedDomainsTitle": {
+      "description": "Whitelisted domains title.",
+      "message": "要排除檢查的網域"
+   }
+}

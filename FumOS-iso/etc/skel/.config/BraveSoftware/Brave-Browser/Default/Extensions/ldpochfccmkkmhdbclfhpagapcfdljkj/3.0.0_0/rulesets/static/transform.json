@@ -1,0 +1,137 @@
+[
+    {
+        "id": 1,
+        "priority": 2,
+        "action": {"type": "upgradeScheme"},
+        "condition": {
+            "urlFilter": "|http://ajax.googleapis.com/ajax/libs/",
+            "resourceTypes": ["font", "image", "main_frame", "media", "object", "other", "script", "stylesheet", "sub_frame", "xmlhttprequest"]
+        }
+    },
+    {
+        "id": 2,
+        "priority": 2,
+        "action": {"type": "upgradeScheme"},
+        "condition": {
+            "urlFilter": "|http://ajax.aspnetcdn.com/ajax/",
+            "resourceTypes": ["font", "image", "main_frame", "media", "object", "other", "script", "stylesheet", "sub_frame", "xmlhttprequest"]
+        }
+    },
+    {
+        "id": 3,
+        "priority": 2,
+        "action": {"type": "upgradeScheme"},
+        "condition": {
+            "urlFilter": "|http://ajax.microsoft.com/ajax/",
+            "resourceTypes": ["font", "image", "main_frame", "media", "object", "other", "script", "stylesheet", "sub_frame", "xmlhttprequest"]
+        }
+    },
+    {
+        "id": 4,
+        "priority": 2,
+        "action": {"type": "upgradeScheme"},
+        "condition": {
+            "urlFilter": "|http://cdnjs.cloudflare.com/ajax/libs/",
+            "resourceTypes": ["font", "image", "main_frame", "media", "object", "other", "script", "stylesheet", "sub_frame", "xmlhttprequest"]
+        }
+    },
+    {
+        "id": 5,
+        "priority": 2,
+        "action": {"type": "upgradeScheme"},
+        "condition": {
+            "urlFilter": "|http://code.jquery.com/",
+            "resourceTypes": ["font", "image", "main_frame", "media", "object", "other", "script", "stylesheet", "sub_frame", "xmlhttprequest"]
+        }
+    },
+    {
+        "id": 6,
+        "priority": 2,
+        "action": {"type": "upgradeScheme"},
+        "condition": {
+            "urlFilter": "|http://cdn.jsdelivr.net/",
+            "resourceTypes": ["font", "image", "main_frame", "media", "object", "other", "script", "stylesheet", "sub_frame", "xmlhttprequest"]
+        }
+    },
+    {
+        "id": 7,
+        "priority": 2,
+        "action": {"type": "upgradeScheme"},
+        "condition": {
+            "urlFilter": "|http://yastatic.net/",
+            "resourceTypes": ["font", "image", "main_frame", "media", "object", "other", "script", "stylesheet", "sub_frame", "xmlhttprequest"]
+        }
+    },
+    {
+        "id": 8,
+        "priority": 2,
+        "action": {"type": "upgradeScheme"},
+        "condition": {
+            "urlFilter": "|http://yandex.st/",
+            "resourceTypes": ["font", "image", "main_frame", "media", "object", "other", "script", "stylesheet", "sub_frame", "xmlhttprequest"]
+        }
+    },
+    {
+        "id": 9,
+        "priority": 2,
+        "action": {"type": "upgradeScheme"},
+        "condition": {
+            "urlFilter": "|http://apps.bdimg.com/libs/",
+            "resourceTypes": ["font", "image", "main_frame", "media", "object", "other", "script", "stylesheet", "sub_frame", "xmlhttprequest"]
+        }
+    },
+    {
+        "id": 10,
+        "priority": 2,
+        "action": {"type": "upgradeScheme"},
+        "condition": {
+            "urlFilter": "|http://libs.baidu.com/",
+            "resourceTypes": ["font", "image", "main_frame", "media", "object", "other", "script", "stylesheet", "sub_frame", "xmlhttprequest"]
+        }
+    },
+    {
+        "id": 11,
+        "priority": 2,
+        "action": {"type": "upgradeScheme"},
+        "condition": {
+            "urlFilter": "|http://lib.sinaapp.com/js/",
+            "resourceTypes": ["font", "image", "main_frame", "media", "object", "other", "script", "stylesheet", "sub_frame", "xmlhttprequest"]
+        }
+    },
+    {
+        "id": 12,
+        "priority": 2,
+        "action": {"type": "upgradeScheme"},
+        "condition": {
+            "urlFilter": "|http://upcdn.b0.upaiyun.com/libs/",
+            "resourceTypes": ["font", "image", "main_frame", "media", "object", "other", "script", "stylesheet", "sub_frame", "xmlhttprequest"]
+        }
+    },
+    {
+        "id": 13,
+        "priority": 2,
+        "action": {"type": "upgradeScheme"},
+        "condition": {
+            "urlFilter": "|http://cdn.bootcss.com/",
+            "resourceTypes": ["font", "image", "main_frame", "media", "object", "other", "script", "stylesheet", "sub_frame", "xmlhttprequest"]
+        }
+    },
+    {
+        "id": 14,
+        "priority": 2,
+        "action": {"type": "upgradeScheme"},
+        "condition": {
+            "urlFilter": "|http://sdn.geekzu.org/ajax/ajax/libs/",
+            "resourceTypes": ["font", "image", "main_frame", "media", "object", "other", "script", "stylesheet", "sub_frame", "xmlhttprequest"]
+        }
+    },
+    {
+        "id": 15,
+        "priority": 2,
+        "action": {"type": "upgradeScheme"},
+        "condition": {
+            "urlFilter": "|http://ajax.proxy.ustclug.org/ajax/libs/",
+            "resourceTypes": ["font", "image", "main_frame", "media", "object", "other", "script", "stylesheet", "sub_frame", "xmlhttprequest"]
+        }
+    }
+]

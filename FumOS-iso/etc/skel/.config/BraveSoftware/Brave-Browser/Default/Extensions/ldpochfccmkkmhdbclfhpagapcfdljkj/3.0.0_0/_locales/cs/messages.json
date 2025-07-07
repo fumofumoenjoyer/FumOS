@@ -1,0 +1,70 @@
+{
+   "advancedLabel": {
+      "description": "Advanced label.",
+      "message": "Rozšířené"
+   },
+   "amountInjectedDescription": {
+      "description": "Amount injected description.",
+      "message": "Počet lokální uložených zdrojů vložených od instalace."
+   },
+   "amountInjectedTitle": {
+      "description": "Amount injected title.",
+      "message": "Počítadlo vložených lokálních zdrojů"
+   },
+   "blockMissingDescription": {
+      "description": "Block requests for missing resources description.",
+      "message": "Zrušit požadavky na sledované zdroje, pokud nejsou lokálně dostupné."
+   },
+   "blockMissingTitle": {
+      "description": "Block requests for missing resources title.",
+      "message": "Blokovat požadavky na chybějící zdroje"
+   },
+   "disablePrefetchDescription": {
+      "description": "Disable prefetch description.",
+      "message": "Předejte nepovoleným požadavkům do sítí pro doručování obsahu."
+   },
+   "disablePrefetchTitle": {
+      "description": "Disable prefetch title.",
+      "message": "Zakázat přednačítání odkazů"
+   },
+   "disableProtectionTitle": {
+      "description": "Disable protection title.",
+      "message": "Zakázat ochranu na této stránce"
+   },
+   "enableProtectionTitle": {
+      "description": "Enable protection title.",
+      "message": "Zapnout ochranu"
+   },
+   "extensionDescription": {
+      "description": "Extension description.",
+      "message": "Chrání před sledováním skrze centrálně doručovaný obsah."
+   },
+   "optionsTitle": {
+      "description": "Options title.",
+      "message": "Možnosti"
+   },
+   "showIconBadgeDescription": {
+      "description": "Show icon badge description.",
+      "message": "Zobrazit počet vložených zdrojů u ikony rozšíření."
+   },
+   "showIconBadgeTitle": {
+      "description": "Show icon badge title.",
+      "message": "Zobrazovat počet vložení u ikony"
+   },
+   "stripMetadataDescription": {
+      "description": "Strip metadata description.",
+      "message": "Pro zlepšení soukromí odstraní citlivá data z povolených požadavků na CDN."
+   },
+   "stripMetadataTitle": {
+      "description": "Strip metadata title.",
+      "message": "Odstranit metadata z povolených požadavků"
+   },
+   "whitelistedDomainsDescription": {
+      "description": "Whitelisted domains description.",
+      "message": "Zadejte domény pro jejich vynechání z kontroly. Jednotlivé domény oddělujte pomocí středníků (;)."
+   },
+   "whitelistedDomainsTitle": {
+      "description": "Whitelisted domains title.",
+      "message": "Nekontrolovat pro domény"
+   }
+}

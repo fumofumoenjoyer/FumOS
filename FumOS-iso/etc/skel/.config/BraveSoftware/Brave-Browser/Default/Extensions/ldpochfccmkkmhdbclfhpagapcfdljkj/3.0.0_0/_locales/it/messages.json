@@ -1,0 +1,70 @@
+{
+   "advancedLabel": {
+      "description": "Advanced label.",
+      "message": "Avanzate"
+   },
+   "amountInjectedDescription": {
+      "description": "Amount injected description.",
+      "message": "Quantità di iniezioni di risorse dalla Rete di Distribuzione di Contenuti locale sin dall'installazione."
+   },
+   "amountInjectedTitle": {
+      "description": "Amount injected title.",
+      "message": "Contatore per risorse iniettate localmente"
+   },
+   "blockMissingDescription": {
+      "description": "Block requests for missing resources description.",
+      "message": "Annulla la richiesta intercettata se la risorsa necessaria non è disponibile localmente."
+   },
+   "blockMissingTitle": {
+      "description": "Block requests for missing resources title.",
+      "message": "Bloccare richieste di risorse mancanti"
+   },
+   "disablePrefetchDescription": {
+      "description": "Disable prefetch description.",
+      "message": "Impedisci alle richieste vietate di informare le reti di consegna."
+   },
+   "disablePrefetchTitle": {
+      "description": "Disable prefetch title.",
+      "message": "Disabilita il prefetching dei link"
+   },
+   "disableProtectionTitle": {
+      "description": "Disable protection title.",
+      "message": "Disattiva protezione per questo sito"
+   },
+   "enableProtectionTitle": {
+      "description": "Enable protection title.",
+      "message": "Attiva protezione"
+   },
+   "extensionDescription": {
+      "description": "Extension description.",
+      "message": "Protegge dal tracciamento tramite CDN centralizzato \"gratis\"."
+   },
+   "optionsTitle": {
+      "description": "Options title.",
+      "message": "Opzioni"
+   },
+   "showIconBadgeDescription": {
+      "description": "Show icon badge description.",
+      "message": "Mostra il numero di risorse iniettate sull'icona dell'estensione."
+   },
+   "showIconBadgeTitle": {
+      "description": "Show icon badge title.",
+      "message": "Mostra il numero di iniezioni sull'icona"
+   },
+   "stripMetadataDescription": {
+      "description": "Strip metadata description.",
+      "message": "Cancella i dati sensibili dalle richieste CDN consentite per una migliore privacy."
+   },
+   "stripMetadataTitle": {
+      "description": "Strip metadata title.",
+      "message": "Elimina i metadata dalle richieste consentite"
+   },
+   "whitelistedDomainsDescription": {
+      "description": "Whitelisted domains description.",
+      "message": "Inserire domini nella whitelist per escluderli. Separare voci multiple con punti e virgola (;)."
+   },
+   "whitelistedDomainsTitle": {
+      "description": "Whitelisted domains title.",
+      "message": "Escludere domini dalle ispezioni"
+   }
+}

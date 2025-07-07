@@ -1,0 +1,530 @@
+{
+   "advancedLabel": {
+      "description": "Advanced label",
+      "message": "고급"
+   },
+   "allowlistedDomainsDescription": {
+      "description": "Enter domains to disable LocalCDN there. One entry per line.",
+      "message": "LocalCDN을 비활성화할 도메인을 입력하세요. 한 줄에 하나씩입니다."
+   },
+   "allowlistedDomainsTitle": {
+      "description": "Deactivate LocalCDN for these domains:",
+      "message": "다음 도메인에서 LocalCDN 비활성화:"
+   },
+   "amountInjectedDescription": {
+      "description": "Amount injected description.",
+      "message": "설치한 이래 삽입된 로컬 컨텐츠 딜리버리 네트워크 리소스의 개수."
+   },
+   "betaLabel": {
+      "description": "beta",
+      "message": "베타"
+   },
+   "blockGoogleFontsDescription": {
+      "description": "If requests for missing resources are allowed, connections to \"fonts.googleapis.com\" are not blocked. Enable this option to block these requests.",
+      "message": "누락된 리소스에 대한 요청이 허용된 경우, \"fonts.googleapis.com\"에 대한 연결은 차단되지 않습니다. 이러한 요청을 차단하려면 이 옵션을 활성화하세요."
+   },
+   "blockGoogleFontsTitle": {
+      "description": "Block Google Fonts",
+      "message": "Google 글꼴 차단"
+   },
+   "blockMissingDescription": {
+      "description": "Block requests for missing resources description.",
+      "message": "차단된 요청이 로컬에 존재하지 않는 리소스를 필요로 하는 경우 이를 취소합니다."
+   },
+   "blockMissingTitle": {
+      "description": "Block requests for missing resources title",
+      "message": "누락된 리소스에 대한 요청 차단"
+   },
+   "btnAdvanced": {
+      "description": "Advanced",
+      "message": "고급"
+   },
+   "btnGeneral": {
+      "description": "Basic",
+      "message": "기본"
+   },
+   "btnInfo": {
+      "description": "Info",
+      "message": "정보"
+   },
+   "btnOther": {
+      "description": "Other",
+      "message": "기타"
+   },
+   "changeBadgeColorMissingResourcesDescription": {
+      "description": "Change the badge color if resources are missing.",
+      "message": "리소스가 누락되었을 경우 뱃지 색상을 바꿉니다."
+   },
+   "changeBadgeColorMissingResourcesTitle": {
+      "description": "Indicate missing resources on the icon",
+      "message": "리소스가 누락되었음을 아이콘에 표시"
+   },
+   "chooseIconStyle": {
+      "description": "Choose an icon for this extension",
+      "message": "이 확장 기능의 아이콘 선택하기"
+   },
+   "copyRuleSet": {
+      "description": "Text of button to copy ruleset",
+      "message": "복사"
+   },
+   "counterBlocked": {
+      "description": "Blocked",
+      "message": ""
+   },
+   "counterMissing": {
+      "description": "Missing",
+      "message": ""
+   },
+   "dialogConfirmDeleteStatistics": {
+      "description": "Are you sure you want to delete all the statistics?",
+      "message": "정말 모든 통계를 삭제하시겠습니까?"
+   },
+   "dialogImportFailed": {
+      "description": "Import failed",
+      "message": "불러오기 실패"
+   },
+   "dialogImportSuccessful": {
+      "description": "Import successful",
+      "message": "불러오기 성공"
+   },
+   "disablePrefetchDescription": {
+      "description": "Disable prefetch description.",
+      "message": "허가되지 않은 요청이 딜리버리 네트워크로 유출되는 것을 방지합니다."
+   },
+   "disablePrefetchTitle": {
+      "description": "Disable prefetch title",
+      "message": "링크 프리페칭 비활성화"
+   },
+   "extensionDescription": {
+      "description": "Protects you against tracking through CDNs (Content Delivery Networks) by redirecting to local resources.",
+      "message": "로컬 리소스로 리디렉션하여 CDN을 통한 추적으로부터 당신을 보호합니다."
+   },
+   "featureBreaksWebsitesButton": {
+      "description": "Disable",
+      "message": "비활성화"
+   },
+   "featureBreaksWebsitesDescription": {
+      "description": "This feature breaks websites. Do not leave it enabled, unless you are prepared to manually add affected domains to the allow list.",
+      "message": "이 기능은 웹사이트를 망가뜨립니다. 영향을 받는 도메인을 직접 얼로우 리스트에 추가할 준비가 되지 않았다면, 이 기능을 활성화하지 마십시오."
+   },
+   "generateRuleSetDescription": {
+      "description": "In case you are using an adblocker you can generate the rules here. You have to add these rules manually in your adblocker.",
+      "message": "광고 차단기를 사용하는 경우 여기서 규칙을 생성할 수 있습니다. 생성된 규칙은 광고 차단기에 직접 추가해야 합니다."
+   },
+   "generateRuleSetTitle": {
+      "description": "Generate rule sets for your adblocker",
+      "message": "광고 차단기용 규칙 생성하기"
+   },
+   "headerImportExport": {
+      "description": "Import/Export",
+      "message": "불러오기/내보내기"
+   },
+   "headerStatistics": {
+      "description": "Statistics. The header of a statistics page.",
+      "message": "통계"
+   },
+   "headerStorageType": {
+      "description": "Storage type",
+      "message": "저장소 종류"
+   },
+   "helpBlockGoogleFontsDescription": {
+      "description": "LocalCDN can replace »Google Material Icons«. To catch the connection your adblocker (e.g. uBlock Origin, uMatrix or AdGuard) must allow the request. LocalCDN listens on these requests and if the query contains »Google Material Icons«, the resource will be replaced. If you uncheck the »Block requests for missing content« option, non-existent resources will be allowed to pass and »Google Fonts« will be loaded, because »Google Material Icons« and »Google Fonts« use the same domain. If you don‘t want this, you can block »Google Fonts« on LocalCDN.",
+      "message": "LocalCDN은 »Google Material Icons«을 대체 할 수 있습니다. 연결을 가로채기 위해서는 당신의 광고 차단기가 (예시:uBlock Origin, uMatrix , AdGuard) 요청을 허용해야 합니다. LocalCDN은 그러한 요청을 듣고 만약 요청이 »Google Material Icons«을 포함한다면, 리소스를 대체할 것입니다. 만약 당신이 »누락된 리소스에 대한 요청 차단« 옵션을 해제했다면,»Google Material Icons« 와 »Google 글꼴«는 같은 도메인을 사용하기 때문에 존재하지 않는 리소스는 통과되고 »Google 글꼴«은 로드될 것입니다. 만약 당신이 이것을 원하지 않는다면, 당신은 »Google 글꼴«을 LocalCDN에서 차단할 수 있습니다."
+   },
+   "helpBlockGoogleFontsTitle": {
+      "description": "Why is there a »Block Google Fonts« option?",
+      "message": "왜 »Google 글꼴 차단« 옵션이 있는거죠?"
+   },
+   "helpBrowserCompatibility": {
+      "description": "Browser compatibility",
+      "message": "브라우저 호환성"
+   },
+   "helpBrowserCompatibilityTitle": {
+      "description": "Browser compatibility",
+      "message": "브라우저 호환성"
+   },
+   "helpData": {
+      "description": "Data",
+      "message": "데이터"
+   },
+   "helpExplanationChrome": {
+      "description": "All Chromium based Browser",
+      "message": "모든 Chromium 기반 브라우저"
+   },
+   "helpHtmlFilterAfter": {
+      "description": "The result then looks like this:",
+      "message": "결과는 다음과 같습니다:"
+   },
+   "helpHtmlFilterBefore": {
+      "description": "The HTML filter removes the red characters from this example:",
+      "message": "이 예제에서 HTML 필터는 빨간색 문자열을 삭제합니다:"
+   },
+   "helpHtmlFilterCrossorigin": {
+      "description": "The crossorigin attribute prevents the replacement because the destination does not match the requested one.",
+      "message": "교차 출처 속성은 그 목적지가 요청된 것과 달라 대체를 막습니다."
+   },
+   "helpHtmlFilterDescription": {
+      "description": "In most cases LocalCDN can easily replace embedded frameworks and improves privacy. In some cases the website may try to prevent this by setting certain options in the HTML source code. LocalCDN reads the HTML source code before it is displayed in the browser and removes these part (red).",
+      "message": "대부분의 경우 LocalCDN은 내장된 프레임워크를 쉬이 대체할 수 있으며 프라이버시를 향상시킵니다. 간혹 웹사이트가 HTML 소스 코드에 특정한 옵션을 설정하여 이를 막으려 들 수 있습니다. LocalCDN은 HTML 소스 코드가 브라우저에 표시되기 전에 이를 읽어 들이고 해당 부분 (빨간색) 을 삭제합니다."
+   },
+   "helpHtmlFilterErrors": {
+      "description": "Unfortunately, it sometimes happens that special characters are then displayed incorrectly. In this case you can deactivate the setting again, to display the umlauts correctly.",
+      "message": "불행하게도, 가끔 씩 특수 문자가 잘못 표시될 수 있습니다. 이 경우 움라우트를 적절히 표시하기 위해 이 설정을 끄세요."
+   },
+   "helpHtmlFilterIntegrity": {
+      "description": "To save disk space and to deliver more frameworks LocalCDN upgrades a framework. An integrity tag is the hash value of a file. If the check fails, the browser won‘t include a framework. The integrity check will fail because the hash values for e.g. jQuery 1.10.1 and jQuery 1.12.4 are different.",
+      "message": "디스크 공간을 절약하고 더 많은 프레임워크를 전달하기 위해 LocalCDN은 프레임워크를 업그레이드합니다. 무결성 태그는 파일의 해쉬 값입니다. 만약 검사에 실패하면, 브라우저에 프레임워크가 포함되지 않습니다. 가령 jQuery 1.10.1과 jQuery 1.12.4는 해쉬 값이 다르기 때문에 무결성 검사에 실패하게 됩니다."
+   },
+   "helpHtmlFilterTitle": {
+      "description": "What is »HTML filter«?",
+      "message": "»HTML 필터«가 뭐죠?"
+   },
+   "helpHtmlFilterWhyTitle": {
+      "description": "Why is it necessary to remove crossorigin and integrity attributes?",
+      "message": "왜 교차 출처 및 무결성 속성을 삭제해야만 하나요?"
+   },
+   "helpIcons": {
+      "description": "Default, Light, Blue/Grey",
+      "message": "기본, 밝음, 청색/회색"
+   },
+   "helpIntroductionDescription": {
+      "description": "LocalCDN is a web browser extension that emulates Content Delivery Networks to improve your online privacy. It intercepts traffic, finds supported frameworks/libraries locally, and injects them into the website. Feel free to use the following testing utility to find out if you are properly protected. For more information read the tutorial or our Wiki pages.",
+      "message": "LocalCDN은 콘텐츠 딜리버리 네트워크를 에뮬레이팅하여 당신의 온라인 프라이버시를 향상시키는 웹 브라우저 확장 기능입니다. 트래픽을 가로챈 뒤, 지원되는 프레임워크/라이브러리를 로컬에서 찾아, 이를 웹사이트에 삽입합니다. 다음 테스트 도구를 사용하여 당신이 올바르게 보호받고 있는 지 확인해보세요. 자세한 내용은 튜토리얼 또는 위키 페이지를 참고하세요."
+   },
+   "helpIntroductionTitle": {
+      "description": "Introduction",
+      "message": "소개"
+   },
+   "helpLimitation": {
+      "description": "This is not a limitation of LocalCDN, but missing API support of Chromium based browsers.",
+      "message": "이것은 LocalCDN의 한계가 아니고, Chromium 기반 브라우저들이 필요한 API를 지원하지 않기 때문입니다."
+   },
+   "helpLinkTestUtility": {
+      "description": "Testing utility",
+      "message": "테스트 도구"
+   },
+   "helpLinkTutorial": {
+      "description": "Tutorial",
+      "message": "튜토리얼"
+   },
+   "helpLinkWikiPages": {
+      "description": "Wiki pages",
+      "message": "위키 페이지"
+   },
+   "helpNo": {
+      "description": "No",
+      "message": "아니오"
+   },
+   "helpNumberOfInjections": {
+      "description": "Numbers of injections",
+      "message": "대체 횟수"
+   },
+   "helpPermissionDescription": {
+      "description": "LocalCDN needs to know which requests are created by a website to redirect or block it. With the introduction of MV3, this permission is listed as an optional permission.",
+      "message": ""
+   },
+   "helpReplace": {
+      "description": "Replace",
+      "message": "대체"
+   },
+   "helpReplaceOther": {
+      "description": "Replace other resources",
+      "message": "다른 리소스를 대체"
+   },
+   "helpRuleGeneratorDescription": {
+      "description": "If you want to automatically redirect all supported CDN connections to LocalCDN, you can add these rules to your adblocker to allow these redirections. If you do not want to add these rules, you must allow each CDN connection individually for each website.",
+      "message": "만약 지원되는 모든 CDN 연결을 LocalCDN으로 리다이렉트 하고싶다면, 이 규칙을 광고 차단기에 추가하여 리다이렉트를 허용할 수 있습니다. 만약 규칙을 추가하고 싶지 않다면, 웹사이트마다 CDN 연결을 각각 허용해야 합니다."
+   },
+   "helpRuleGeneratorTitle": {
+      "description": "Rule generator",
+      "message": "규칙 생성기"
+   },
+   "helpRuleGeneratorUblockDescription": {
+      "description": "These rules are only relevant in »medium« or »hard« mode, because it blocks all 3rd-party resources. They are not necessary in »default«, »easy« or »very-easy« mode. For more information, please visit the uBlock Origin Wiki.",
+      "message": "이러한 규칙들은 3자 리소스를 모두 차단하는 »medium« 또는 »hard« 모드에서만 의미가 있습니다. 이 옵션은 »default«, »easy« 또는 »very-easy« 모드에서는 필요하지 않습니다. 더 많은 정보를 보려면 uBlock Origin 위키를 참조하세요."
+   },
+   "helpRuleGeneratorUblockTableDefaultEasy": {
+      "description": "Default/Easy",
+      "message": "기본/쉬움"
+   },
+   "helpRuleGeneratorUblockTableHard": {
+      "description": "Hard",
+      "message": "강력"
+   },
+   "helpRuleGeneratorUblockTableIcon": {
+      "description": "Icon",
+      "message": "아이콘"
+   },
+   "helpRuleGeneratorUblockTableMedium": {
+      "description": "Medium",
+      "message": "보통"
+   },
+   "helpRuleGeneratorUblockTableMode": {
+      "description": "Mode",
+      "message": "모드"
+   },
+   "helpRuleGeneratorUblockTableUseful": {
+      "description": "Rules useful",
+      "message": "유용한 규칙"
+   },
+   "helpRuleGeneratorUblockTitle": {
+      "description": "Only uBlock Origin:",
+      "message": "uBlock Origin만:"
+   },
+   "helpStatisticsContent": {
+      "description": "The statistics contain no information about the browser, operating system, requesting website, IP addresses or any other information. Just date, CDN+counter and framework+counter. It shows you which frameworks are replaced by LocalCDNs how often and which CDNs were requested.",
+      "message": "통계는 브라우저나 운영체제, 요청한 웹사이트, IP 주소와 같은 다른 어떤 정보도 포함하고 있지 않습니다. 날자, CDN+카운터, 프레임워크+카운터만을 포함합니다. 이것은 당신이 어떤 프레임워크를 LocalCDN으로 대체했으며 어떤 CDN이 얼마나 자주 요청되었는지를 보여줍니다."
+   },
+   "helpStatisticsDescription": {
+      "description": "Don‘t panic, nothing will be transmitted. It would be against all my principles. The statistics (JSON format) contains the following information: Date, CDN+counter and framework+counter. That‘s all. I‘ve an example here:",
+      "message": "당황하지 마세요. 제 원칙에 반대됨으로 아무것도 전송되지 않을 겁니다. 통계(JSON 형식)은 다음 정보만을 포함합니다. 날자, CDN+카운터와 프레임워크+카운터. 예시가 여기 있습니다:"
+   },
+   "helpStatisticsTitle": {
+      "description": "What about the statistics? Is anything transferred to any servers?",
+      "message": "그럼 통계는요? 무언가 서버로 전송되나요?"
+   },
+   "helpStatisticsTruthDescription": {
+      "description": "The extension storage can be viewed directly with the Firefox browser. Open the URL »about:debugging«, switch to »Storage« and select »Extension Storage«. Under the key »internalStatisticsData« you will find the collected data. Just copy it and put it into a JSON PrettyPrinter to make it more readable. Please note that you have to remove the first and last quotation mark and the key to it. You should be able to see this clearly in this video.",
+      "message": "확장 저장소는 Firefox 브라우저에서 직접 볼 수 있습니다. »about:debugging« URL을 열어, »저장소«로 이동하여 »확장 저장소«를 선택하세요. »internalStatisticsData« 키 에서 수집된 데이터를 살펴볼 수 있습니다. 이를 복사하여 JSON PrettyPrinter에 붙여 넣으면 더 읽기 쉽습니다. 처음과 마지막 따옴표와 키 자체를 제거 해야 하는 점에 유의하시기 바랍니다. 이 비디오에서 해당 절차를 명확하게 확인 할 수 있습니다."
+   },
+   "helpStatisticsTruthTitle": {
+      "description": "How do I know that‘s true?",
+      "message": "내가 그것이 정말인지 어떻게 아나요?"
+   },
+   "helpSyncAccount": {
+      "description": "If you don‘t have a sync account, nothing will be synchronized. In that case it makes no difference what type of storage you have selected.",
+      "message": "만약 당신이 sync 계정을 가지고 있지 않다면, 아무것도 동기화 되지 않을 것입니다. 그 경우 어떤 종류의 저장소를 설정하든 차이가 없습니다."
+   },
+   "helpSyncContentEver": {
+      "description": "Settings that will be synchronized:",
+      "message": "동기화될 설정들:"
+   },
+   "helpSyncContentLinks": {
+      "description": "More information about Firefox Sync:",
+      "message": "Firefox Sync에 대한 더 많은 정보:"
+   },
+   "helpSyncContentNever": {
+      "description": "Things that are never synchronized:",
+      "message": "절대 동기화 되지 않을 것들:"
+   },
+   "helpSyncDescription": {
+      "description": "Sync will only work if you are logged in with a Firefox account on the device and have allowed add-ons to sync in the settings. A separate sync server under your control will also work. This will synchronize most of the settings of LocalCDN across all devices.",
+      "message": "Sync는 당신이 파이어폭스 계정에 로그인하고 확장 기능들을 동기화 하도록 허용 했을 때만 작동합니다. 당신이 통제하는 다른 동기화 서버도 가능합니다. 이 옵션은 당신의 기기들 사이에서 대부분의 LocalCDN 설정을 동기화 할 것입니다."
+   },
+   "helpSyncTitle": {
+      "description": "What will be synchronized when I select »sync« as storage type?",
+      "message": "저장소 종류로 »동기화«를 선택하면 무엇이 동기화되나요?"
+   },
+   "helpUpgradeAllResources": {
+      "description": "Upgrade all resources",
+      "message": "모든 리소스를 업그레이드"
+   },
+   "helpWebsiteIssuesDescription": {
+      "description": "There are two possible reasons: Either a framework/library is required that LocalCDN doesn‘t (yet) deliver or an SOP. A SOP (Same origin policy) is a security mechanism that determines what data the browser is allowed to load. It helps to isolate malicious documents and thus reduce possible attack vectors. This policy prevents the browser from loading the external frameworks of LocalCDN. Unfortunately there is no solution for this at the moment.",
+      "message": "두 가지 가능한 원인이 있습니다. LocalCDN이 제공하지 않는 프레임워크나 라이브러리를 필요로 하거나 동일 출처 정책 때문입니다. 동일 출처 정책(Same origin policy)는 어떤 데이터를 브라우저가 로드하는지 허용하는 보안 기작입니다. 이것은 악의적 문서를 격리하도록 돕고 그로써 가능한 공격 기회를 감소시킵니다. 이 정책은 브라우저가 LocalCDN의 외부 라이브러리를 로드하는 것을 방지합니다. 불행히도 현재로써는 이에 대한 해결 방법이 없습니다."
+   },
+   "helpWebsiteIssuesTitle": {
+      "description": "Some websites look strange or are not easy to use",
+      "message": "일부 웹사이트의 모습이 이상해지거나 사용에 지장이 있습니다"
+   },
+   "helpWhatWillBeSynchronizedTitle": {
+      "description": "What will be synchronized when I select »sync« as storage type?",
+      "message": "저장소 종류로 »동기화«를 선택하면 무엇이 동기화되나요?"
+   },
+   "helpWhyThisPermission": {
+      "description": "Why does this extension need this permission?",
+      "message": ""
+   },
+   "helpYes": {
+      "description": "Yes",
+      "message": "예"
+   },
+   "hideDonationButton": {
+      "description": "Hide donation button",
+      "message": "기부 버튼 숨기기"
+   },
+   "htmlFilterDomainsDescription": {
+      "description": "Enter the domains to be handled or ignored by the HTML filter. One entry per line.",
+      "message": "HTML 필터가 처리하거나 무시할 도메인을 입력하세요. 한 줄에 하나씩입니다."
+   },
+   "htmlFilterDomainsTitleExclude": {
+      "description": "Do not apply HTML filter to these domains:",
+      "message": "다음 도메인에 HTML 필터 적용 안함:"
+   },
+   "htmlFilterDomainsTitleInclude": {
+      "description": "Apply HTML filter for these domains:",
+      "message": "다음 도메인에 HTML 필터 적용:"
+   },
+   "internalStatisticsDescription": {
+      "description": "No data transmission. It’s all local on your device.",
+      "message": "이 기능은 현재 실험 단계에 있습니다. 데이터는 전송되지 않습니다. 이 기기 안에서만 처리됩니다."
+   },
+   "internalStatisticsTitle": {
+      "description": "Internal statistics",
+      "message": "내부 통계"
+   },
+   "labelAll": {
+      "description": "Statistics view over the whole time range",
+      "message": ""
+   },
+   "labelAvg": {
+      "description": "Followed by a number of average injections per day within a specific period.",
+      "message": "평균 (일일 대체량)"
+   },
+   "labelDelete": {
+      "description": "Button to delete all statistics data.",
+      "message": "삭제"
+   },
+   "labelDomainsAllowlistGoogleFonts": {
+      "description": "These domains are allowed to load Google Fonts. One entry per line.",
+      "message": "위 도메인은 Google 폰트를 불러올 수 있습니다. 한 줄에 하나씩입니다."
+   },
+   "labelDonate": {
+      "description": "Donate",
+      "message": "기부"
+   },
+   "labelExportData": {
+      "description": "Back up to file",
+      "message": "파일로 백업하기"
+   },
+   "labelImportData": {
+      "description": "Restore from file",
+      "message": "파일로 복원하기"
+   },
+   "labelInjectedFrameworks": {
+      "description": "Followed by a number of injections within a specific period.",
+      "message": "대체된 프레임워크"
+   },
+   "labelManipulateDOM": {
+      "description": "Filter HTML source code",
+      "message": "HTML 소스 코드 필터링"
+   },
+   "labelPastMonth": {
+      "description": "Statistics view for past month.",
+      "message": "지난 달"
+   },
+   "labelPastWeek": {
+      "description": "Statistics view for past week.",
+      "message": "지난 주"
+   },
+   "labelPastYear": {
+      "description": "Statistics view for past year.",
+      "message": "작년"
+   },
+   "labelStorageTypeLocal": {
+      "description": "Local",
+      "message": "로컬"
+   },
+   "labelStorageTypeSync": {
+      "description": "Sync",
+      "message": "동기화"
+   },
+   "labelToday": {
+      "description": "Statistics view for today.",
+      "message": "오늘"
+   },
+   "lastUpdate": {
+      "description": "Last update:",
+      "message": "마지막 업데이트:"
+   },
+   "loggingDescription": {
+      "description": "You can open the log with the icon in the menu. The log will be deleted when you close the browser or disable logging.",
+      "message": "메뉴 아이콘에서 로그를 열 수 있습니다. 로그는 브라우저를 닫거나 로깅을 비활성화하면 삭제됩니다."
+   },
+   "loggingTitle": {
+      "description": "Enable logging",
+      "message": "로깅 활성화"
+   },
+   "negateHtmlFilterListDescription": {
+      "description": "Enable this option to always apply the HTML filter. The domains in the list will be ignored then. If this option is disabled, the HTML filter is only applied to domains in the list.",
+      "message": "이 옵션을 활성화하면 HTML 필터가 항시 적용됩니다. 이때 위 목록의 도메인은 무시됩니다. 이 옵션을 비활성화하면, 위 목록의 도메인에만 HTML 필터가 적용됩니다."
+   },
+   "negateHtmlFilterListTitle": {
+      "description": "Invert HTML filter",
+      "message": "HTML 필터 반전"
+   },
+   "negateHtmlFilterListWarning": {
+      "description": "This function can break websites. Please note the information on the Wiki page.",
+      "message": "이 기능은 웹사이트를 망가뜨릴 수 있습니다. 위키 페이지의 정보를 참고하세요."
+   },
+   "optionsTitle": {
+      "description": "Options title",
+      "message": "옵션"
+   },
+   "permissionAllow": {
+      "description": "Allow",
+      "message": ""
+   },
+   "permissionMissing": {
+      "description": "Missing permission",
+      "message": ""
+   },
+   "permissionMoreInfo": {
+      "description": "More info",
+      "message": ""
+   },
+   "permissionRevokedDescription": {
+      "description": "Please do not disable the permission. LocalCDN needs the permission to detect and redirect requests to CDNs.",
+      "message": ""
+   },
+   "permissionRevokedHeader": {
+      "description": "Permission revoked",
+      "message": ""
+   },
+   "permissionRevokedPermissionName": {
+      "description": "The exact name of the permission. Exactly as it is displayed in Firefox.",
+      "message": ""
+   },
+   "showIconBadgeDescription": {
+      "description": "Show icon badge description.",
+      "message": "삽입한 리소스의 개수를 확장 기능 아이콘에 표시합니다."
+   },
+   "showIconBadgeTitle": {
+      "description": "Show icon badge title",
+      "message": "삽입한 개수를 아이콘에 표시"
+   },
+   "stripMetadataDescription": {
+      "description": "Strip metadata description.",
+      "message": "향상된 프라이버시를 위해 허가된 CDN 요청에서 민감한 데이터를 지웁니다."
+   },
+   "stripMetadataTitle": {
+      "description": "Strip metadata title",
+      "message": "허가된 요청에서 메타데이터 제거"
+   },
+   "titleBadgeDefault": {
+      "description": "Default badge",
+      "message": "기본 배지"
+   },
+   "titleBadgeHTMLFilter": {
+      "description": "HTML filter badge",
+      "message": "HTML 필터 배지"
+   },
+   "titleBadgeMissingResource": {
+      "description": "Missing or blocked resources badge",
+      "message": "누락된 리소스 배지"
+   },
+   "titleHelp": {
+      "description": "Help",
+      "message": "도움말"
+   },
+   "updateNotificationAlways": {
+      "description": "Always",
+      "message": "항상"
+   },
+   "updateNotificationNever": {
+      "description": "Never (Silent Updates)",
+      "message": "안 함 (조용히 업데이트)"
+   },
+   "updateNotificationOnlyRules": {
+      "description": "Only if new CDNs and rules",
+      "message": "새로운 CDN과 규칙이 있을 때만"
+   },
+   "updateNotificationTitle": {
+      "description": "Notification after an update",
+      "message": "업데이트 이후 알림"
+   },
+   "websiteBroken": {
+      "description": "Website broken?",
+      "message": "웹사이트가 망가졌나요?"
+   }
+}

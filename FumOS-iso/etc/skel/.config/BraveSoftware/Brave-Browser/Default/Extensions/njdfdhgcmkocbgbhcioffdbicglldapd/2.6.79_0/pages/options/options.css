@@ -1,0 +1,471 @@
+body {
+    color: #555;
+    cursor: default;
+    font-family: 'Noto Sans', Arial, sans-serif !important;
+    font-size: 14px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -15px;
+    max-width: 800px;
+    padding: 10px !important;
+}
+
+.option-buttons {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-weight: normal;
+    margin: 5px 10px;
+    padding: 5px 10px;
+}
+
+.option-buttons-active {
+    border-bottom: 1px solid #555;
+    font-weight: bold;
+}
+
+.option-buttons:hover {
+    background-color: #ccc;
+}
+
+.option {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20px;
+}
+
+.notice {
+    border-radius: 3px;
+    box-sizing: border-box;
+    margin-top: 25px;
+    padding: 14px 16px;
+}
+
+.notice-default {
+    background-color: #f1f1f1;
+}
+
+.notice-warning {
+    background-color: #ffa500;
+    color: #fff;
+}
+
+.without-checkbox {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+#advanced-tab, #export-import-tab, #info-tab {
+    display: none;
+}
+
+.btn-group {
+    margin-top: 2rem;
+}
+
+.footer {
+    text-align: center;
+}
+
+.div-selected-icon {
+    margin-top: 10px;
+    padding-right: 25px;
+    width: 100%;
+}
+
+.div-selected-icon > label {
+    margin-bottom: 1em;
+}
+
+.div-selected-icon > label > .b-input {
+    margin-top: 8px;
+}
+
+.div-selected-icon > label > img {
+    margin-right: 10px;
+}
+
+.monoblock {
+    font-family: monospace;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../../modules/noto-sans/noto-sans.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 600;
+    src: url('../../modules/noto-sans/noto-sans-bold.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'Noto Sans';
+    font-style: italic;
+    font-weight: 400;
+    src: url('../../modules/noto-sans/noto-sans-italic.woff2') format('woff2');
+}
+
+.title-option {
+    align-items: center;
+    display: flex;
+    font-weight: 600;
+}
+
+.input-text {
+    border: 1px solid darkgrey;
+    border-radius: 3px;
+    color: #555;
+    margin-top: 10px !important;
+    padding: 5px !important;
+}
+
+.options-help-icon {
+    background-image: url("../../icons/help-dark.svg");
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: contain;
+    cursor: pointer;
+    display: inline-block;
+    height: 15px;
+    margin-left: 5px;
+    width: 15px;
+}
+
+.button {
+    background-color: #f5f5f5;
+    border: 1px solid #cfcfcf;
+    border-radius: 2px;
+    color: #5f5f5f;
+    cursor: pointer;
+    float: right;
+    font-size: 12px;
+    padding: 5px 22px;
+    text-align: center;
+    text-decoration: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+.button-warning {
+    background-color: #ea9700;
+    border: 1px solid #d88c00;
+    color: #fff;
+    font-weight: 600;
+}
+
+.button-warning:hover {
+    background-color: #d88c00;
+    border-color: #c98200;
+    color: #fff !important;
+}
+
+.button-warning:active {
+    background-color: #c07c00;
+    border-color: #b47400;
+}
+
+.button-notice {
+    margin-left: auto;
+    padding: 5px 9px;
+}
+
+#html-filter-domains-title-include {
+    display: none;
+}
+
+.div-icons-badge-colors {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.div-badge {
+    margin-top: 10px;
+    padding: 0 30px 0 0;
+}
+
+#badge-preview-top,
+#html-badge-preview-top,
+#missing-badge-preview-top {
+    position: relative;
+    width: 38px;
+}
+
+#counter-preview-badge,
+#html-counter-preview-badge,
+#missing-counter-preview-badge {
+    background: black;
+    border-radius: 5px;
+    color: white;
+    font-size: 10px;
+    padding: 1px 6px;
+    position: absolute;
+    right: -5px;
+    top: 0;
+}
+
+#pre-badged-background-color, #pre-badged-text-color,
+#html-pre-badged-background-color, #html-pre-badged-text-color,
+#missing-pre-badged-background-color, #missing-pre-badged-text-color  {
+    height: 30px;
+    margin-right: 5px;
+    width: 30px;
+}
+
+#icon-badge-preview,
+#html-icon-badge-preview,
+#missing-icon-badge-preview {
+    margin-top: 5px;
+}
+
+.colorpicker {
+    align-items: center;
+    display: flex;
+    margin-top: 10px;
+    padding-bottom: 5px;
+}
+
+.colorpicker > input {
+    margin-top: 0 !important;
+}
+
+div[class="color-picker:a"] {
+    display: none;
+}
+
+.color-error {
+    color: red;
+}
+
+#badged-background-color, #badged-text-color,
+#html-badged-background-color, #html-badged-text-color,
+#missing-badged-background-color, #missing-badged-text-color {
+    max-width: 150px;
+}
+
+.img-restore-color {
+    cursor: pointer;
+    height: 15px;
+    margin-left: 5px;
+}
+
+.import-export > input[type="button"] {
+    margin-bottom: 5px;
+}
+
+.description-option {
+    color: #777;
+    font-size: 12px;
+    font-style: italic;
+    padding-left: 25px;
+}
+
+.badge {
+    border-radius: 3px;
+    color: #fff;
+    font-size: 8px;
+    margin-left: 6px;
+    padding: 3px 5px;
+    text-transform: uppercase;
+}
+
+.badge-warning {
+    background-color: #ffa500;
+}
+
+#negate-html-filter-list-warning {
+    margin: 10px 0 30px 0;
+}
+
+.hidden {
+    display: none !important;
+}
+
+.notice-head {
+    font-weight: 600;
+    margin-bottom: 6px;
+}
+
+.notice-body {
+    align-items: center;
+    display: flex;
+}
+
+.notice-message {
+    line-height: 1.3;
+    margin-right: 14px;
+}
+
+#generated-rules, #unsupported-frameworks {
+    display: none;
+}
+
+#generated-list {
+    margin-top: 15px;
+}
+
+.info > p {
+    cursor: pointer;
+    padding-left: 25px;
+}
+
+.ruleset-generator {
+    align-items: center;
+    display: flex;
+    padding: 5px 0;
+}
+
+.last-update {
+    background-color: #ffa500;
+    border-radius: 3px;
+    color: #fff;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    padding: 3px 5px !important;
+    text-transform: uppercase;
+}
+
+.storage-type {
+    margin: 5px 0;
+}
+
+.option-disabled > .title-option > .b-contain,
+.b-contain input[type="checkbox"]:disabled ~ .b-input {
+    cursor: default !important;
+}
+
+.option-disabled {
+    color: gray !important;
+}
+
+.option-disabled > .title-option > .b-contain > .b-input {
+    background: gray !important;
+    cursor: default;
+}
+
+.option-disabled > .title-option > .b-contain input:checked ~ .b-input {
+    background: gray !important;
+    border-color: gray !important;
+}
+
+#div-domains-allowlist-google-fonts {
+    margin-top: 1em;
+}
+
+#allowedDomainsGoogleFonts {
+    box-sizing: border-box;
+    margin-top: 0 !important;
+    width: 100%;
+}
+
+body[dir="rtl"] .badge {
+    margin-left: 0;
+    margin-right: 6px;
+}
+
+body[dir="rtl"] .description-option {
+    margin-left: 0;
+    margin-right: 29px;
+}
+
+body[dir="rtl"] .input-checkbox {
+    margin: 0 0 0 4px;
+}
+
+body[dir="rtl"] .input-text {
+    margin-left: 0;
+    margin-right: 29px;
+}
+
+.option-group {
+    background-color: #e1e1e1;
+    border-radius: 5px;
+    margin: 20px 0;
+    padding: 1.5rem;
+}
+
+.option-links {
+    list-style-type: none;
+    margin-top: 0;
+    padding-top: 2rem;
+}
+
+.option-links > li {
+    padding-bottom: 0.5rem;
+}
+
+.checked-unchecked {
+    width: 10px;
+}
+
+.chromium-banner {
+    background-color: #ffcccc;
+    border: 1px solid red;
+    border-radius: 3px;
+    display: none;
+    font-weight: bold;
+    margin-top: 20px;
+    padding: 0.8em;
+    text-align: center;
+}
+
+@media only screen and (max-width: 760px) {
+    .div-badge {
+        border: none;
+        padding-left: 0;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .option-group {
+        padding: 0.7rem;
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: #202023;
+    }
+
+    body, .title-option {
+        color: #aeaeae;
+    }
+
+    .description-option {
+        color: #b1b1b3;
+    }
+
+    .notice-head > span, #last-mapping-update, .badge-warning, .notice-message, .button-warning {
+        color: #4b3000 !important;
+    }
+
+    .option-group {
+        background-color: #1d1d1d;
+    }
+
+    .input-text {
+        background-color: #434343;
+        color: #aeaeae !important;
+    }
+
+    .img-restore-color {
+        filter: invert(1);
+    }
+
+    .options-help-icon {
+        background-image: url("../../icons/help-light.svg");
+    }
+
+    .chromium-banner {
+        background-color: #A20B0B;
+        color: white;
+    }
+}

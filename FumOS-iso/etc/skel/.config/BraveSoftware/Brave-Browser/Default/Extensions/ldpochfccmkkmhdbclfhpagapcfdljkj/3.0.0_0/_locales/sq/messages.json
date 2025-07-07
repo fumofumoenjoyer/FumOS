@@ -1,0 +1,70 @@
+{
+  "extensionDescription": {
+    "message": "Ju mbron ju ndaj gjurmimet nëpërmjet dërguesve të përmbajtjeve \"Falas\" të çentralizuara.",
+    "description": "Extension description."
+  },
+  "disableProtectionTitle": {
+    "message": "Ndalo mbrojtjen për këtë faqe",
+    "description": "Disable protection title."
+  },
+  "enableProtectionTitle": {
+    "message": "Mundëso mbrojtjen",
+    "description": "Enable protection title."
+  },
+  "amountInjectedTitle": {
+    "message": "Numëruesi për burimet e injektuara lokalisht",
+    "description": "Amount injected title."
+  },
+  "amountInjectedDescription": {
+    "message": "Sasia e burimeve te injektuara lokalisht që prej instalimit.",
+    "description": "Amount injected description."
+  },
+  "optionsTitle": {
+    "message": "Mundësitë",
+    "description": "Options title."
+  },
+  "showIconBadgeTitle": {
+    "message": "Shfaq numrin e injektimeve tek ikona",
+    "description": "Show icon badge title."
+  },
+  "showIconBadgeDescription": {
+    "message": "Shfaq numrin e burimeve te injektuara tek ikona shtojcë.",
+    "description": "Show icon badge description."
+  },
+  "blockMissingTitle": {
+    "message": "Blloko kërkesat për burimet e munguara",
+    "description": "Block requests for missing resources title."
+  },
+  "blockMissingDescription": {
+    "message": "Anullo kërkesat e kapura nësë burimi i kërkuar nuk gjendet lokalisht.",
+    "description": "Block requests for missing resources description."
+  },
+  "disablePrefetchTitle": {
+    "message": "Ndalo parapërgatitjen e faqes",
+    "description": "Disable prefetch title."
+  },
+  "disablePrefetchDescription": {
+    "message": "Parandalo kërkesat e pa lejuara të rrjedhin të dhëna tek rrjetet dërguese.",
+    "description": "Disable prefetch description."
+  },
+  "stripMetadataTitle": {
+    "message": "Hiq etiketat nga kërkesat e lejuara",
+    "description": "Strip metadata title."
+  },
+  "stripMetadataDescription": {
+    "message": "Për një privatësi më të mirë, fshi të dhënat sensitive nga kërkesat e CDN të lejuara.",
+    "description": "Strip metadata description."
+  },
+  "whitelistedDomainsTitle": {
+    "message": "Përjashto domain -et nga kontrollet",
+    "description": "Whitelisted domains title."
+  },
+  "whitelistedDomainsDescription": {
+    "message": "Vendos domain -et që do të lejosh. Ndaji ato me pikëpresje (;).",
+    "description": "Whitelisted domains description."
+  },
+  "advancedLabel": {
+    "message": "I përparuar",
+    "description": "Advanced label."
+  }
+}

@@ -1,0 +1,764 @@
+{
+   "buttonApply": {
+      "message": "Verkställ"
+   },
+   "buttonCancel": {
+      "message": "Avbryt"
+   },
+   "buttonClose": {
+      "message": "Stäng"
+   },
+   "buttonDisable": {
+      "message": "Inaktivera"
+   },
+   "buttonEdit": {
+      "message": "Redigera"
+   },
+   "buttonEditClickHint": {
+      "message": "Du kan också högerklicka, CTRL-klicka eller hjulklicka på skriptnamnet."
+   },
+   "buttonEmptyRecycleBin": {
+      "message": "Töm papperskorgen nu!"
+   },
+   "buttonEnable": {
+      "message": "Aktivera"
+   },
+   "buttonExportData": {
+      "message": "Exportera till ZIP"
+   },
+   "buttonHome": {
+      "message": "Hemsida"
+   },
+   "buttonImportData": {
+      "message": "Importera från ZIP"
+   },
+   "buttonInstallFromURL": {
+      "message": "Installera från webbadress"
+   },
+   "buttonNew": {
+      "message": "Ny"
+   },
+   "buttonOK": {
+      "message": "OK"
+   },
+   "buttonRecycleBin": {
+      "message": "Papperskorg"
+   },
+   "buttonRemove": {
+      "message": "Ta bort"
+   },
+   "buttonReplace": {
+      "message": "Ersätt"
+   },
+   "buttonReplaceAll": {
+      "message": "Alla"
+   },
+   "buttonReset": {
+      "message": "Återställ"
+   },
+   "buttonResetSettings": {
+      "message": "Återställ inställningar"
+   },
+   "buttonRestore": {
+      "message": "Återställ"
+   },
+   "buttonSave": {
+      "message": "Spara"
+   },
+   "buttonSaveClose": {
+      "message": "Spara & stäng"
+   },
+   "buttonSaved": {
+      "message": "Sparad"
+   },
+   "buttonShowEditorState": {
+      "message": "Visa redigerarens tillstånd"
+   },
+   "buttonSupport": {
+      "message": "Supportsida"
+   },
+   "buttonUndo": {
+      "message": "Ångra"
+   },
+   "buttonUpdate": {
+      "message": "Uppdatera"
+   },
+   "buttonVacuum": {
+      "message": "Dammsug databasen"
+   },
+   "buttonVacuumed": {
+      "message": "Data har dammsugits"
+   },
+   "buttonVacuuming": {
+      "message": "Dammsuger data..."
+   },
+   "confirmManualUpdate": {
+      "message": "Automatisk uppdatering är inaktiverad för detta skript\nKlicka på OK för att uppdatera det ändå."
+   },
+   "confirmNotSaved": {
+      "message": "Ändringar har inte sparats!\nKlicka på OK för att förkasta dem eller avbryt för att stanna."
+   },
+   "confirmUndoImport": {
+      "message": "Återställ alla ändringar som gjorts i databasen (importering, uppdatering, redigering, anpassning)"
+   },
+   "descBlacklist": {
+      "message": "Injektionssvartlista (skript körs inte på matchande webbplatser)"
+   },
+   "descBlacklistNet": {
+      "message": "Nätverkssvartlista (skript ansluter inte till matchande webbplatser och deras cookies)"
+   },
+   "descCustomCSS": {
+      "message": "Anpassad CSS för alternativsidan och skriptinstallationssidan. Om du inte är säker på vad detta är till för, ändra inget."
+   },
+   "descEditorOptions": {
+      "message": "Anpassade alternativ för CodeMirror och tillägg i JSON-objekt som \u003Ccode>{\"indentUnit\":2, \"smartIndent\":true}\u003C/code> Observera att vissa av dem kanske inte fungerar i Violentmonkey. Se \u003Ca href=\"https://codemirror.net/doc/manual.html#config\" target=\"_blank\" rel=\"noopener noreferrer\">full lista\u003C/a>."
+   },
+   "descEditorOptionsGeneric": {
+      "message": "Booleska alternativ kan växlas genom att dubbelklicka på värdet: \u003Ccode>true\u003C/code> = aktiverad, \u003Ccode>false\u003C/code> = inaktiverad. Numeriska alternativ som slutar med \u003Ccode>fördröjning\u003C/code>, \u003Ccode>intervall\u003C/code>, \u003Ccode>värde\u003C/code> eller \u003Ccode>tid\u003C/code> är i millisekunder."
+   },
+   "descEditorOptionsVM": {
+      "message": "Icke-standardiserade alternativ: \u003Ccode>autocompleteOnTyping\u003C/code> är en fördröjning i millisekunder för att visa autoslutförande tips efter att ha skrivit klart (\u003Ccode>0\u003C/code> = inaktivera), \u003Ccode>killTrailingSpaceOnSave\u003C/code> tar automatiskt bort efterföljande mellanslag i varje rad när du sparar, \u003Ccode>showTrailingSpace\u003C/code> visar de efterföljande mellanslagen som punkter."
+   },
+   "descScriptTemplate": {
+      "message": "Variabler som stöds: \u003C{{name}}>, \u003C{{url}}>, \u003C{{date}}>, \u003C{{date:format}}> med MomentJS-kompatibelt format, för exempel \u003C{{date:YYYY-MM-DD}}>."
+   },
+   "disabledScriptsGroup": {
+      "message": "grupp"
+   },
+   "disabledScriptsHide": {
+      "message": "dölj"
+   },
+   "disabledScriptsSelector": {
+      "message": "Inaktiverade skript:"
+   },
+   "disabledScriptsShow": {
+      "message": "visa"
+   },
+   "editHelpDocumention": {
+      "message": "Dokumentation om användarskriptmetadatablock och \u003Ccode>GM\u003C/code> API:"
+   },
+   "editHelpKeyboard": {
+      "message": "Tangentbordsgenvägar:"
+   },
+   "editHowToHint": {
+      "message": "Använd en annan redigerare?"
+   },
+   "editLabelMeta": {
+      "message": "Anpassad metadata"
+   },
+   "editLabelSettings": {
+      "message": "Skriptinställningar"
+   },
+   "editLongLine": {
+      "message": "Raden är för lång"
+   },
+   "editLongLineTooltip": {
+      "message": "Den här raden är för lång så texten är komprimerad för att undvika fördröjningar vid redigering.\nDu kan justera gränsen i avancerade inställningar, till exempel:\n\"maxDisplayLength\": 20000"
+   },
+   "editNavCode": {
+      "message": "Kod"
+   },
+   "editNavSettings": {
+      "message": "Inställningar"
+   },
+   "editNavValues": {
+      "message": "Värden"
+   },
+   "editValueAllHint": {
+      "message": "Visa/redigera hela skriptvärdeslagringen"
+   },
+   "extDescription": {
+      "message": "En användarskripthanterare med öppen källkod som stöder många webbläsare"
+   },
+   "extName": {
+      "message": "Violentmonkey"
+   },
+   "failureReasonBlacklisted": {
+      "message": "Svartlistad i Violentmonkey's inställningar"
+   },
+   "failureReasonNoninjectable": {
+      "message": "Violentmonkey kan inte köra användarskript på den här sidan\n(vanliga exempel: webbläsar-UI, tillägg, blockerad via policyer, en sökmotorsida i Opera)"
+   },
+   "failureReasonRestarted": {
+      "message": "Violentmonkey har startats om. Ladda om fliken för att köra användarskript."
+   },
+   "fileInstallBlocked": {
+      "message": "Det finns flera metoder för att installera eller spåra redigeringar i en lokal fil: \u003C1> Dra och släpp filen till en öppen Violentmonkey-sida eller popup, inklusive denna. \u003C2> Installera en lokal HTTP-server för denna fil och öppna den via http://localhost. \u003C3> Aktivera \"Tillåt åtkomst till filwebbadresser\" i detaljer för Violentmonkey på sidan chrome://extensions. Detta är farligt eftersom alla användarskript kan läsa alla lokala filer."
+   },
+   "filterAlphabeticalOrder": {
+      "message": "alfabetisk"
+   },
+   "filterExecutionOrder": {
+      "message": "exekution"
+   },
+   "filterLastUpdateOrder": {
+      "message": "senaste uppdateringstid"
+   },
+   "filterSize": {
+      "message": "storlek"
+   },
+   "genericError": {
+      "message": "Fel"
+   },
+   "genericOff": {
+      "message": "av"
+   },
+   "genericOn": {
+      "message": "på"
+   },
+   "genericUseGlobal": {
+      "message": "använd globala inställningar"
+   },
+   "hashPatternWarning": {
+      "message": "\"#\"-mönster fungerar endast när du öppnar webbplatsen eller laddar om fliken: $1"
+   },
+   "headerRecycleBin": {
+      "message": "Papperskorg"
+   },
+   "helpForLocalFile": {
+      "message": "Visa instruktionerna för drag och släpp för lokala skript"
+   },
+   "hintForBatchAction": {
+      "message": "för $1 matchande skript"
+   },
+   "hintInputURL": {
+      "message": "Ange webbadress:"
+   },
+   "hintRecycleBin": {
+      "message": "Borttagna skript listas här och kommer att sparas i 7 dagar."
+   },
+   "hintUseDownloadURL": {
+      "message": "Använd @downloadURL"
+   },
+   "hintVacuum": {
+      "message": "Förkasta redundansen och försök ladda om de saknade resurserna i cachen."
+   },
+   "install": {
+      "message": "Installera"
+   },
+   "installFrom": {
+      "message": "Installera från $1"
+   },
+   "installOptionTrackTooltip": {
+      "message": "Källfilsfliken bör hållas öppen i Firefox 68 och senare."
+   },
+   "labelAdvanced": {
+      "message": "Avancerat"
+   },
+   "labelAllowUpdate": {
+      "message": "Tillåt uppdatering"
+   },
+   "labelAuthor": {
+      "message": "Upphovsman: "
+   },
+   "labelAutoReloadCurrentTab": {
+      "message": "Ladda om aktuell flik efter att ha aktiverat/inaktiverat ett skript från menyn"
+   },
+   "labelAutoUpdate": {
+      "message": "Sök efter skriptuppdateringar var $1 dag, ange 0 för att inaktivera"
+   },
+   "labelBackupMaintenance": {
+      "message": "Säkerhetskopiera och underhåll"
+   },
+   "labelBadge": {
+      "message": "Bricka:"
+   },
+   "labelBadgeColors": {
+      "message": "Brickfärger: "
+   },
+   "labelBadgeNone": {
+      "message": "inga"
+   },
+   "labelBadgeTotal": {
+      "message": "antal skript som körs"
+   },
+   "labelBadgeUnique": {
+      "message": "antal unika skript som körs"
+   },
+   "labelBlacklist": {
+      "message": "Svartlista"
+   },
+   "labelContributors": {
+      "message": "Bidragsgivare"
+   },
+   "labelCurrentLang": {
+      "message": "Aktuellt språk: "
+   },
+   "labelCustomCSS": {
+      "message": "Anpassad stil"
+   },
+   "labelDownloadURL": {
+      "message": "Nerladdningswebbadress:"
+   },
+   "labelEditValue": {
+      "message": "Redigera skriptvärde"
+   },
+   "labelEditValueAll": {
+      "message": "Redigera skriptlagring"
+   },
+   "labelEditor": {
+      "message": "Redigerare"
+   },
+   "labelEnabledScriptsOnly": {
+      "message": "endast aktiva skript"
+   },
+   "labelExclude": {
+      "message": "@uteslutna regler"
+   },
+   "labelExcludeMatch": {
+      "message": "@exclude-match regler"
+   },
+   "labelExportScriptData": {
+      "message": "Exportera skriptdata"
+   },
+   "labelExposeStatus": {
+      "message": "Visa installerad version på användarskriptkatalogsidor: $1"
+   },
+   "labelFastFirefoxInject": {
+      "message": "Alternativt $1-läge i Firefox"
+   },
+   "labelFastFirefoxInjectHint": {
+      "message": "En alternativ injektionsmetod för \u003Cdocument-start> skript sedan Firefox 59, snabbare än standardläget. På samma sätt som \"Synkront sidläge\" ökar det också minnesförbrukningen, så du kanske vill inaktivera det om dina skript fungerar korrekt utan detta alternativ."
+   },
+   "labelFeedback": {
+      "message": "Återkoppling"
+   },
+   "labelGeneral": {
+      "message": "Allmänt"
+   },
+   "labelHelpTranslate": {
+      "message": "Hjälp med översättning"
+   },
+   "labelHomepage": {
+      "message": "Hemsida"
+   },
+   "labelHomepageURL": {
+      "message": "Hemsidans webbadress"
+   },
+   "labelIconURL": {
+      "message": "Ikonens webbadress:"
+   },
+   "labelImportScriptData": {
+      "message": "Importera skriptdata"
+   },
+   "labelImportSettings": {
+      "message": "Importera inställningar"
+   },
+   "labelInclude": {
+      "message": "@inkluderade regler"
+   },
+   "labelInjectionMode": {
+      "message": "Injektionsläge: "
+   },
+   "labelInstall": {
+      "message": "Installerar skript"
+   },
+   "labelKeepOriginal": {
+      "message": "Behåll originalet"
+   },
+   "labelLastUpdatedAt": {
+      "message": "Senast uppdaterad $1"
+   },
+   "labelLineNumber": {
+      "message": "Radnr.: "
+   },
+   "labelMatch": {
+      "message": "@matchande regler"
+   },
+   "labelName": {
+      "message": "Namn:"
+   },
+   "labelNoFrames": {
+      "message": "Kör i ramar: "
+   },
+   "labelNoName": {
+      "message": "Inget namn"
+   },
+   "labelNoSearchScripts": {
+      "message": "Hittade inga skript."
+   },
+   "labelNotifyThisUpdated": {
+      "message": ", meddela sedan:"
+   },
+   "labelNotifyUpdates": {
+      "message": "Visa meddelande om skriptuppdateringar"
+   },
+   "labelNotifyUpdatesGlobal": {
+      "message": "ignorera avisering per skript (\"inställningar\" i redigeraren)"
+   },
+   "labelPrivacyPolicy": {
+      "message": "Integritetspolicy"
+   },
+   "labelReinstall": {
+      "message": "Återinstallera skriptet"
+   },
+   "labelRelated": {
+      "message": "Ladda om länkarna: "
+   },
+   "labelRemovedAt": {
+      "message": "Borttagen vid $1"
+   },
+   "labelReplace": {
+      "message": "Ersatt med: "
+   },
+   "labelRunAt": {
+      "message": "Kör vid: "
+   },
+   "labelRunAtDefault": {
+      "message": "(Standard)"
+   },
+   "labelScriptTemplate": {
+      "message": "Anpassad skriptmall"
+   },
+   "labelSearch": {
+      "message": "Sök efter: "
+   },
+   "labelSearchScript": {
+      "message": "Sök skript..."
+   },
+   "labelSettings": {
+      "message": "Inställningar"
+   },
+   "labelShowOrder": {
+      "message": "Visa exekveringsorderpositioner"
+   },
+   "labelSync": {
+      "message": "Synka"
+   },
+   "labelSyncAnonymous": {
+      "message": "Använd anonymt konto"
+   },
+   "labelSyncAuthorize": {
+      "message": "Auktorisera"
+   },
+   "labelSyncAuthorizing": {
+      "message": "Auktoriserar"
+   },
+   "labelSyncDisabled": {
+      "message": "Inga"
+   },
+   "labelSyncPassword": {
+      "message": "Lösenord: "
+   },
+   "labelSyncRevoke": {
+      "message": "Återkalla"
+   },
+   "labelSyncScriptStatus": {
+      "message": "Skriptstatus för synkronisering"
+   },
+   "labelSyncServerUrl": {
+      "message": "Serverwebbadress: "
+   },
+   "labelSyncService": {
+      "message": "Synka till"
+   },
+   "labelSyncUsername": {
+      "message": "Användarnamn: "
+   },
+   "labelTags": {
+      "message": "Taggar (separera med mellanslag):"
+   },
+   "labelTheme": {
+      "message": "Tema: "
+   },
+   "labelUpdateURL": {
+      "message": "Uppdateringswebbadress:"
+   },
+   "labelViewSingleColumn": {
+      "message": "Enkel kolumn"
+   },
+   "labelViewTable": {
+      "message": "Tabellvy"
+   },
+   "labelWidth": {
+      "message": "Bredd:"
+   },
+   "labelXhrInject": {
+      "message": "Synkront $1-läge"
+   },
+   "labelXhrInjectHint": {
+      "message": "Aktivera endast om du har ett skript som måste köras innan sidan börjar laddas och för närvarande körs för sent. Precis som omedelbart injektionsläge i Tampermonkey använder det här alternativet den föråldrade synkrona XHR, så i Chrome/Chromium kommer du att se varningar i devtools-konsolen, även om du säkert kan ignorera dem eftersom de negativa effekterna är försumbara i det här fallet. Du kan dölja varningarna för gott genom att högerklicka på en."
+   },
+   "labelXhrInjectNote": {
+      "message": "(förutom inkognito och webbplatser med inaktiverade cookies)"
+   },
+   "lastSync": {
+      "message": "Senaste synkronisering $1"
+   },
+   "learnBlacklist": {
+      "message": "Läs mer om svartlistade mönster."
+   },
+   "learnInjectionMode": {
+      "message": "Lär dig mer om injektionslägen."
+   },
+   "menuDashboard": {
+      "message": "Öppna informationspanel"
+   },
+   "menuExclude": {
+      "message": "Uteslut..."
+   },
+   "menuExcludeHint": {
+      "message": "Den aktuella fliken kommer att laddas om automatiskt om du aktiverade det här alternativet i allmänna inställningar.\nFör att verkställa ändringar på alla andra flikar, ladda om dem manuellt.\nAnvänd fliken \"Inställningar\" i redigeraren för mer flexibilitet."
+   },
+   "menuFeedback": {
+      "message": "Återkoppling"
+   },
+   "menuFindScripts": {
+      "message": "Hitta skript för den här webbplatsen"
+   },
+   "menuInjectionFailed": {
+      "message": "Det gick inte att injicera vissa skript."
+   },
+   "menuInjectionFailedFix": {
+      "message": "Försök igen i \"auto-läge\""
+   },
+   "menuMatchedDisabledScripts": {
+      "message": "Matchade inaktiverade skript"
+   },
+   "menuMatchedFrameScripts": {
+      "message": "Endast underramsskript"
+   },
+   "menuMatchedScripts": {
+      "message": "Matchade skript"
+   },
+   "menuNewScript": {
+      "message": "Skapa ett nytt skript"
+   },
+   "menuScriptDisabled": {
+      "message": "Skript inaktiverade"
+   },
+   "menuScriptEnabled": {
+      "message": "Skript aktiverade"
+   },
+   "msgCheckingForUpdate": {
+      "message": "Sök efter uppdateringar..."
+   },
+   "msgDateFormatInfo": {
+      "message": "Klicka för att öppna MomentJS-dokumentationen. Tillåtna tokens: $1. Använd [hakparenteser] för att skydda det som är text."
+   },
+   "msgErrorFetchingResource": {
+      "message": "Fel vid hämtning av resurs!"
+   },
+   "msgErrorFetchingScript": {
+      "message": "Det gick inte att hämta skriptet!"
+   },
+   "msgErrorFetchingUpdateInfo": {
+      "message": "Det gick inte att hämta uppdateringsinformationen!"
+   },
+   "msgErrorLoadingData": {
+      "message": "Det gick inte att ladda skriptdata."
+   },
+   "msgErrorLoadingDependency": {
+      "message": "Fel vid laddning av behövande filer."
+   },
+   "msgImported": {
+      "message": "$1 objekt importerades."
+   },
+   "msgIncognitoChanges": {
+      "message": "Ändringar du gör i privatläget gäller även i din huvudprofil."
+   },
+   "msgInstalled": {
+      "message": "Skript installerat."
+   },
+   "msgInvalidScript": {
+      "message": "Ogiltigt skript!"
+   },
+   "msgLoadingData": {
+      "message": "Laddar skriptdata..."
+   },
+   "msgLoadingDependency": {
+      "message": "Laddar behövande filer... ($1/$2)"
+   },
+   "msgMissingResources": {
+      "message": "Saknar nödvändiga resurser."
+   },
+   "msgNamespaceConflict": {
+      "message": "Ett sådant skript är redan installerat.\nAnvänd antingen ett annat @namn och @namnutrymme här eller redigera det skriptet i stället."
+   },
+   "msgNamespaceConflictRestore": {
+      "message": "Ett skript med samma @namn och @namnrymd är redan installerat."
+   },
+   "msgNewVersion": {
+      "message": "Ny version hittades."
+   },
+   "msgNoUpdate": {
+      "message": "Ingen uppdatering hittades."
+   },
+   "msgOpenUpdateErrors": {
+      "message": "Fel vid uppdatering av skript. Klicka för att öppna dem."
+   },
+   "msgReinstallScripts": {
+      "message": "Spara eller installera om dessa skript:"
+   },
+   "msgSameCode": {
+      "message": " (koden är densamma)"
+   },
+   "msgScriptUpdated": {
+      "message": "Skript [$1] är uppdaterad!"
+   },
+   "msgShowHide": {
+      "message": "Visa/dölj"
+   },
+   "msgSyncError": {
+      "message": "Synkroniseringsfel!"
+   },
+   "msgSyncInit": {
+      "message": "Initierar..."
+   },
+   "msgSyncInitError": {
+      "message": "Initieringsfel!"
+   },
+   "msgSyncNoAuthYet": {
+      "message": "Inte auktoriserad ännu."
+   },
+   "msgSyncReady": {
+      "message": "Synkroniseringen startar snart..."
+   },
+   "msgSyncing": {
+      "message": "Synkronisering pågår..."
+   },
+   "msgSyntaxError": {
+      "message": "Syntaxfel?"
+   },
+   "msgTardyMatch": {
+      "message": "Skriptet fanns inte eller matchade inte webbadressen när sidan laddades, vilket händer på ensidiga applikationswebbplatser som Facebook eller Instagram som använder falsk navigering. Du kan ladda om fliken för att köra skriptet. För att fixa skriptet använd @match för hela webbplatsen och upptäck sedan ändringar med MutationObserver eller window.navigation-API."
+   },
+   "msgUpdated": {
+      "message": "Skript uppdaterad."
+   },
+   "msgUpdating": {
+      "message": "Uppdaterar..."
+   },
+   "noValues": {
+      "message": "Inget lagrat värde"
+   },
+   "optionEditorWindow": {
+      "message": "Öppna redigeraren från popup i ett nytt fönster"
+   },
+   "optionEditorWindowHint": {
+      "message": "Positionen på redigeringsfönstret kommer endast att kommas ihåg när du ändrar storlek eller sparar"
+   },
+   "optionEditorWindowSimple": {
+      "message": "Dölj omnibox"
+   },
+   "optionPopup": {
+      "message": "Popup-meny och ikon"
+   },
+   "optionPopupEnabledFirst": {
+      "message": "Aktiverade först"
+   },
+   "optionPopupGroupRunAt": {
+      "message": "Gruppera efter @körskede"
+   },
+   "optionShowEnabledFirst": {
+      "message": "Visa aktiverade skript först"
+   },
+   "optionUiTheme": {
+      "message": "UI-tema: "
+   },
+   "optionUiThemeAuto": {
+      "message": "automatisk"
+   },
+   "optionUiThemeDark": {
+      "message": "mörkt"
+   },
+   "optionUiThemeLight": {
+      "message": "ljust"
+   },
+   "optionUpdate": {
+      "message": "Uppdatera"
+   },
+   "popupSettings": {
+      "message": "Popup-inställningar"
+   },
+   "popupSettingsHint": {
+      "message": "Högerklick: popup-inställningar"
+   },
+   "readonly": {
+      "message": "Skrivskyddad"
+   },
+   "readonlyNote": {
+      "message": "Automatiskt uppdaterade skript är skrivskyddade om du inte inaktiverar uppdateringar eller tillåter redigering."
+   },
+   "readonlyOpt": {
+      "message": "Tillåt redigering"
+   },
+   "readonlyOptWarn": {
+      "message": "(nästa uppdatering kommer att skriva över dem)"
+   },
+   "reinstall": {
+      "message": "Installera om"
+   },
+   "reloadTab": {
+      "message": "Ladda om fliken"
+   },
+   "reloadTabTrackHint": {
+      "message": "Aktiverad kommer den aktiva fliken att laddas om när ändringar upptäcks och det här skriptet matchar flikens webbadress."
+   },
+   "searchCaseSensitive": {
+      "message": "Skiftlägeskänslig"
+   },
+   "searchUseRegex": {
+      "message": "Använd Regex"
+   },
+   "sideMenuAbout": {
+      "message": "Om"
+   },
+   "sideMenuInstalled": {
+      "message": "Installerade skript"
+   },
+   "sideMenuSettings": {
+      "message": "Inställningar"
+   },
+   "skipScripts": {
+      "message": "Ladda om sidan utan användarskript"
+   },
+   "skipScriptsMsg": {
+      "message": "Du har inaktiverat användarskript för den här sidan. För att köra dem, ladda om eller navigera på fliken."
+   },
+   "sortOrder": {
+      "message": "Sorteringsordning:"
+   },
+   "stopTracking": {
+      "message": "Sluta spåra"
+   },
+   "titleBadgeColor": {
+      "message": "Normal brickfärg"
+   },
+   "titleBadgeColorBlocked": {
+      "message": "Brickfärg när platsen är icke-injicerbar (svartlistad eller stöds inte)"
+   },
+   "titleSearchHintV2": {
+      "message": "* \u003Ckbd>Returtangenten\u003C/kbd> lägger till texten i historiken för autoslutförande\n* Alla villkor är skiftlägesokänsliga\n* Utrymmesseparerade förhållanden kan kombineras\n* Sök efter metadata: \u003Ccode>\"skriptnamn\" \"beskrivning\"\u003C/code>\n* Sök efter taggar: \u003Ccode>#tagg1 #tagg2\u003C/code>\n* Sök efter skriptnamn: \u003Ccode>name:\"skriptnamn\"\u003C/code>\n* Sök efter skriptkod: \u003Ccode>code:\"kod i skriptet\"\u003C/code>\n* Negativ sökning: \u003Ccode>!#tagg2 !name:\"oönskat skript\"\u003C/code>\n* Reguljära uttryck: \u003Ccode>/\\w+?/\u003C/code>, \u003Ccode>/\\w+?/gi\u003C/code>, \u003Ccode>name:/\\w+?/\u003C/code>, \u003Ccode>name+re:\"\\w+? med mellanslag\"\u003C/code>"
+   },
+   "toggleInjection": {
+      "message": "Toggle userscript injection"
+   },
+   "trackEdits": {
+      "message": "Spåra externa redigeringar"
+   },
+   "trackEditsNote": {
+      "message": "Håll den här sidan öppen för att spåra dina redigeringar i lokal fil"
+   },
+   "updateListedCmd": {
+      "message": "Uppdatera skript ($1)"
+   },
+   "updateScript": {
+      "message": "Uppdatera"
+   },
+   "updateScriptsAll": {
+      "message": "Uppdatera alla skript"
+   },
+   "updateScriptsInTab": {
+      "message": "Uppdatera nuvarande fliks skript"
+   },
+   "valueLabelKey": {
+      "message": "Nyckel (sträng)"
+   },
+   "valueLabelValue": {
+      "message": "Värden (serialiserade som JSON)"
+   },
+   "valueLabelValueAll": {
+      "message": "Alla värden (serialiserade som JSON)"
+   }
+}

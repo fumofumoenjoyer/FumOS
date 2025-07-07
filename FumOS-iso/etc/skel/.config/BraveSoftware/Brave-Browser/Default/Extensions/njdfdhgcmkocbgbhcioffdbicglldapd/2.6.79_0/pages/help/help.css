@@ -1,0 +1,87 @@
+code {
+    line-height: 2;
+}
+
+.table-ublock {
+    border-collapse: separate;
+    border-spacing: 3em 1em;
+}
+
+.code-red, .code-blue {
+    word-break: break-all;
+}
+
+.code-red {
+    border: 1px solid black;
+    color: red;
+}
+
+.code-blue {
+    color: blue;
+}
+
+.statistic-demo > code {
+    line-height: 0;
+    white-space: pre;
+}
+
+.table-browser-compatibility {
+    border-collapse: collapse;
+    max-width: 500px;
+}
+
+.table-browser-compatibility > tbody > tr > td {
+    border: 1px solid #777;
+}
+
+.table-browser-compatibility > tbody > tr > td:nth-child(1) {
+    font-family: consolas,"Liberation Mono",courier,monospace;
+    padding: 10px;
+    width: 100%;
+}
+
+.browser-compatibility {
+    border-top: 0;
+    height: 200px;
+    padding: 6px 0;
+    vertical-align: bottom;
+}
+
+.browser-compatibility > th > span {
+    display: inline-block;
+    font-weight: bold;
+    height: 20px;
+    margin: 12px;
+    padding: 0;
+    text-align: left;
+    transform: rotate(-90deg);
+    white-space: nowrap;
+    width: 20px;
+}
+
+.browser-compatibility-support-yes, .browser-compatibility-support-no {
+    font-weight: bold;
+    text-align: center;
+}
+
+.browser-compatibility-support-no {
+	background-color: #ffbdbd;
+	background-image: linear-gradient(to bottom right,rgba(94,3,6,.1) 0,rgba(94,3,6,.1) 1px,transparent 0,transparent 67px,rgba(94,3,6,.1) 0,rgba(94,3,6,.1) 73px,transparent 0,transparent 138px,rgba(94,3,6,.1) 0,rgba(94,3,6,.1) 144px,transparent 0),linear-gradient(to bottom left,rgba(94,3,6,.1) 0,rgba(94,3,6,.1) 1px,transparent 0,transparent 67px,rgba(94,3,6,.1) 0,rgba(94,3,6,.1) 73px,transparent 0,transparent 138px,rgba(94,3,6,.1) 0,rgba(94,3,6,.1) 144px,transparent 0);
+	background-position: 50% 50%,50% 50%;
+	background-repeat: no-repeat;
+	background-size: 100px 100px,100px 100px;
+}
+
+.browser-compatibility-support-yes {
+    background-color: #ebf8e1;
+}
+
+#notice-locale {
+    display: none;
+}
+
+@media (prefers-color-scheme: dark) {
+    .code-blue {
+        color: #8484ff;
+    }
+}

@@ -1,0 +1,70 @@
+{
+   "advancedLabel": {
+      "description": "Advanced label.",
+      "message": "מתקדם"
+   },
+   "amountInjectedDescription": {
+      "description": "Amount injected description.",
+      "message": "כמות תוכן מקומי שהוזרק במקום רשתות אספקת תוכן מאז התקנת התוכנה."
+   },
+   "amountInjectedTitle": {
+      "description": "Amount injected title.",
+      "message": "מונה משאבים מקומיים שהוזרקו"
+   },
+   "blockMissingDescription": {
+      "description": "Block requests for missing resources description.",
+      "message": "בטל בקשה מיורטת, אם המשאב הדרוש אינו זמין באופן מקומי."
+   },
+   "blockMissingTitle": {
+      "description": "Block requests for missing resources title.",
+      "message": "חסום בקשות למשאבים חסרים"
+   },
+   "disablePrefetchDescription": {
+      "description": "Disable prefetch description.",
+      "message": "מנע הדלפה של בקשות לא-מאושרות לתוך רשתות אספקת תכנים."
+   },
+   "disablePrefetchTitle": {
+      "description": "Disable prefetch title.",
+      "message": "בטל הורדה-מוקדמת של לינקים"
+   },
+   "disableProtectionTitle": {
+      "description": "Disable protection title.",
+      "message": "נטרול ההגנה עבור אתר זה"
+   },
+   "enableProtectionTitle": {
+      "description": "Enable protection title.",
+      "message": "הפעלת הגנה"
+   },
+   "extensionDescription": {
+      "description": "Extension description.",
+      "message": "מגן עליך מפני מעקב המבוצע דרך רשתות אספקת תוכן ריכוזיות ו\"חינמיות\"."
+   },
+   "optionsTitle": {
+      "description": "Options title.",
+      "message": "אפשרויות"
+   },
+   "showIconBadgeDescription": {
+      "description": "Show icon badge description.",
+      "message": "הצג את מספר התכנים המוזרקים על סמלון התוספת."
+   },
+   "showIconBadgeTitle": {
+      "description": "Show icon badge title.",
+      "message": "הצג מונה הזרקות תוכן על סמל התכנה"
+   },
+   "stripMetadataDescription": {
+      "description": "Strip metadata description.",
+      "message": "להגברת הפרטיות, מחק מידע רגיש מבקשות מאושרות לרשתות אספקת תוכן."
+   },
+   "stripMetadataTitle": {
+      "description": "Strip metadata title.",
+      "message": "מחק מטא-דאטה מבקשות שאושרו"
+   },
+   "whitelistedDomainsDescription": {
+      "description": "Whitelisted domains description.",
+      "message": "הזן דומיינים שברצונך להוסיף לרשימת התרים. הפרד ערכים מרובים באמצעות נקודה-פסיק (;)."
+   },
+   "whitelistedDomainsTitle": {
+      "description": "Whitelisted domains title.",
+      "message": "אל תכלול דומיינים כחלק מהבדיקה"
+   }
+}

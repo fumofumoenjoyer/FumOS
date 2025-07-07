@@ -1,0 +1,92 @@
+{
+    "possible": {
+        "message": "Ndryshe, mund të trupëzoni vetë një ndërmjetës Snowflake brenda një faqeje në sajtin tuaj (p.sh., <a href=\"https://relay.love\">relay.love</a>). Vizitorët te sajti juaj mund të hyjnë te faqja, të aktivizojnë ndërmjetësin dhe ta lënë të hapët, për t’u lejuar njerëzve ta përdorin (sillet dhe duket saktësisht si zgjerimi web)."
+    },
+    "StandaloneTitle": {
+        "message": "Xhironi një ndërmjetës më vete"
+    },
+    "webBadgeTitle": {
+        "message": "Lëreni hapur këtë skedë të shfletuesit, ose trupëzoni në sajtin tuaj një stemë web"
+    },
+    "webBadgeInstructions": {
+        "message": "Nëse aktivizoni Snowflake-un më poshtë dhe e lini hapur skedën e shfletuesit, një përdorues mund të lidhet përmes ndërmjetësit tuaj të ri!"
+    },
+    "websiteIntro": {
+        "message": "Snowflake-u është një sistem që <strong>u lejon personave nga anembanë bota të përdorin sajte dhe aplikacione të censuruar</strong>. Në mënyrë të ngjashme me se si VPN-të i ndihmojnë përdoruesit të anashkalojnë censurimin në Internet, Snowflake-u ju ndihmon të shmangni rënien në sy të censorëve të Internetit, duke e bërë veprimtarinë tuaj Internet të duket sikur po përdorni Internetin për një thirrje të zakonshme video ose audio."
+    },
+    "websiteIntro2": {
+        "message": "Ka të gatshme mjete të shumta, fjala vjen, Snowflake, që e “shndërrojnë” veprimtarinë në Internet, secili duke përdorur një teknikë të ndryshme. Disa e ridrejtojnë trafikun internet të duket sikur vjen nga shërbime re popullore, bie fjala, Microsoft Azure dhe Amazon Web Services. Të tjerë e përziejnë trafikun Internet me qëllim për ta bërë të duket si tërësisht kuturu."
+    },
+    "websiteIntro3": {
+        "message": "Ndaj për censorët bëhet e kushtueshme të shohin mundësinë e bllokimit të mjeteve të tilla të anashkalimit, ngaqë kjo do të kërkonte bllokimin e pjesësh të mëdha të Internetit, për të arritur synimin fillestar."
+    },
+    "browser": {
+        "message": "Përdoreni Snowflake-un për të anashkaluar censurimin"
+    },
+    "censoredUsers": {
+        "message": "Ndryshe nga VPN-të, nuk ju duhet të instaloni një aplikacion më vete për t’u lidhur me një ndërmjetës Snowflake dhe të anashkaloni censurimin. Zakonisht është një veçori anashkalimi e trupëzuar brenda aplikacionesh ekzistuese. Aktualisht Snowflake-i është i gatshëm brenda <a href=\"https://torproject.org/download\">Shfletuesit Tor</a> në Desktop dhe Android, <a href=\"https://onionbrowser.com\">Shfletuesit Onion</a> në iOS dhe <a href=\"https://orbot.app\">Orbot-it</a> në Android dhe iOS. Nëse keni shkarkuar dhe instaluar cilindo nga këta aplikacione dhe ata censurohen në vendin tuaj, mund ta anshkaloni censurimin duke aktivizuar Snowflake-un që nga faqja e rregullimeve të aplikacionit."
+    },
+    "extension": {
+        "message": "Ndihmoni të anashkalohet censurimi: mbani në punë një ndërmjetës Snowflake"
+    },
+    "installExtension": {
+        "message": "A dinit se ndërmjetësit Snowflake mbahen në punë tërësisht nga vullnetarë? Me fjalë të tjera, një përdoruesi i përshoqërohet një ndërmjetës kuturu Snowflake vullnetari, që mbahet në punë nga një vullnetar si ju! Ndaj, nëse dëshironi të ndihmoni njerëzit të anashkalojnë censurimin, shihni mundësinë e instalimit dhe xhirimit të një ndërmjetësi Snowflake. E vetmja kërkesë paraprake është që Interneti në vendin tuaj të <strong>mos</strong> jetë i censuruar rëndë."
+    },
+    "volunteer": {
+        "message": "Mund të bëheni tok me mijëra vullnetarë nga anembanë bota që kanë të instaluar dhe xhirojnë Snowflake. S’ka nevojë të vrisni mendjen se cilët sajte përdorin njerëzit përmes ndërmjetësit tuaj Snowflake. Adresa IP e dukshme e tyre do të lidhet me nyjën dalëse Tor, jo tuajën."
+    },
+    "installOptions": {
+        "message": "Ka mënyra të ndryshme për të xhiruar një ndërmjetës Snowflake (nga fillestar te i përparuar):"
+    },
+    "installWebExtensionIntro": {
+        "message": "Instaloni zgjerimin web"
+    },
+    "installWebExtension": {
+        "message": "Zgjerimi web është rruga më e kollajtë për të xhiruar një ndërmjetës Snowflake. Thjesht instalojeni në <a href=\"https://addons.mozilla.org/en-US/firefox/addon/torproject-snowflake/\">Firefox</a> apo <a href=\"https://chrome.google.com/webstore/detail/snowflake/mafpmfcccpbjnhfhjnllmmalhifmlcie\">Chrome</a>, aktivizojeni zgjerimin dhe shihni se si ikona bëhet e gjelbër, kur një përdorues lidhet përmes ndërmjetësit tuaj!"
+    },
+    "installFirefox": {
+        "message": "Instalojeni në Firefox"
+    },
+    "installChrome": {
+        "message": "Instalojeni në Chrome"
+    },
+    "installStandalone": {
+        "message": "Nëse dëshironi të xhironi një version për rresht urdhrash të ndërmjetësit Snowflake, në desktopin apo shërbyesin tuaj, shihni <a href=\"https://community.torproject.org/relay/setup/snowflake/standalone/\">udhërrëfyesin</a> tonë për xhirimin e një ndërmjetësi Snowflake më vete."
+    },
+    "reportingBugs": {
+        "message": "Njoftim të Metash"
+    },
+    "fileBug": {
+        "message": "Nëse hasni probleme me Snowflake-un - qoftë kur e përdorni, apo mbani në punë një ndërmjetës -, ju lutemi, shihni mundësinë e parashtrimit të një njoftimi të mete.  Ka dy rrugë për të parashtruar njoftim të mete:"
+    },
+    "sharedAccount": {
+        "message": "Parashtroni një <a href=\"https://anonticket.onionize.space/\">pusullë anonime</a> duke prodhuar një identifikues dhe duke hyrë me të. Mandej, gjeni projektin Snowflake te <strong>Lista e krejt projekteve</strong> dhe krijoni një çështje të re."
+    },
+    "bugTracker": {
+        "message": "<a href=\"https://gitlab.onionize.space/\">Kërkoni një llogari</a> te Tor Project GitLab, mandej <a href=\"https://gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/snowflake/-/issues\">hapni një çështje të re</a> te projekti Snowflake."
+    },
+    "descriptive": {
+        "message": "Ju lutemi, përpiquni të jeni sa më i hollësishëm sa mundet me çështjen tuaj, dhe mundësisht përfshini mesazhe regjistri, të cilat do të na ndihmojnë të riprodhojmë të metën."
+    },
+    "contactSnowflakeDevs": {
+        "message": "Nëse ju intereson përdorimi i Snowflake-ut brenda aplikacionit tuaj, lidhuni me <a href=\"https://lists.torproject.org/cgi-bin/mailman/listinfo/anti-censorship-team\">ekipin anti-censurim</a>."
+    },
+    "howSnowflakeWorks": {
+        "message": "Mësoni më tepër se si funksionon Snowflake-u"
+    },
+    "snowflakeTechOverview": {
+        "message": "Snowflake-u është një teknologji e re anashkalimi, pjesë e familjes <a href=\"https://gitweb.torproject.org/torspec.git/tree/pt-spec.txt\">Transporte Shtojcë</a>, që përmirësohet vazhdimisht. Kureshtarë të mësoni më tepër mbi arkitekturën e tij? Mos ngurroni të shihni këtë <a href=\"https://gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/snowflake/-/wikis/Technical%20Overview\">Përmbledhje teknike</a> (në anglisht)."
+    },
+    "embed": {
+        "message": "Trupëzoje"
+    },
+    "faq": {
+        "message": "Po kërkoni asistencë mbi përdorimin e Snowflake-ut"
+    },
+    "support": {
+        "message": "Nëse hasni probleme teksa provoni të lidheni me Tor-in duke përdorur Snowflake-un, kanali i asistencës për Tor-in mund të përdoret përmes <a href=\"https://t.me/TorProjectSupportBot\">Telegram-it</a>. Për përgjigje mundeni edhe të shfletoni <a href=\"https://support.torproject.org/censorship/\">Portalin e Asistencës së Tor-it</a> dhe <a href=\"https://forum.torproject.org/tag/snowflake\">Forumin e Tor-it</a>."
+    },
+    "installEdge": {
+        "message": "Instalojeni në Edge"
+    }
+}

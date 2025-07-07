@@ -1,0 +1,65 @@
+{
+   "appDesc": {
+      "message": "Cho phép người dùng ở các quốc gia bị kiểm duyệt sử dụng kết nối mạng của bạn để truy cập mạng lưới Tor Network."
+   },
+   "badgeLocalStorageOff": {
+      "message": "Local storage is not enabled."
+   },
+   "consent": {
+      "message": "Tôi đồng thuận"
+   },
+   "consented": {
+      "message": "Bạn đã sẵn sàng rồi đó! Xin cảm tạ bạn lần nữa vì đã kích hoạt vận hành proxy cho snowflake!"
+   },
+   "extensionConsent": {
+      "message": "Nhằm cung cấp tính năng sơ yếu, các proxy Snowflake (tiện ích mà bạn vừa cài đặt trong trình duyệt của mình) sẽ gửi một số dữ liệu metadata (siêu dữ liệu) tới cục trao đổi Snowflake broker về thiết lập mạng của proxy. Metadata này, nói một cách quán triệt, bao gồm: địa chỉ IP của proxy (địa chỉ IP của bạn), kiểu NAT được báo cáo của bạn, phiên bản protocol Snowflake (phiên bản của proxy) mà bạn đang cho chạy, thông tin xác nhận rằng proxy (tiện ích mà bạn vừa cài) là một tiện ích web, cùng với số lượng những máy khách client hiện đã kết nối tới proxy (của chính tiện ích web của bạn). Bộ dữ liệu này chỉ được sử dụng cho việc thiết lập kết nối và tổng hợp làm thống kê mà thôi và sẽ không được lưu trữ lại trong broker. Xin vui lòng ghé thăm \u003Ca href=\"https://addons.mozilla.org/en-US/firefox/addon/torproject-snowflake/privacy\"> chính sách riêng tư của chúng tôi\u003C/a> để biết thêm chi tiết về thông tin mà chúng tôi thâu thập cũng như hiển thị. Một khi bạn đã sẵn sàng, bạn có thể đồng thuận để bật kích hoạt proxy Snowflake của bạn thông qua nút bấm ngay dưới đây."
+   },
+   "extensionOnboard": {
+      "message": "Xin chân thành cảm tạ bạn đã cài đặt tiện ích bổ sung Snowflake!"
+   },
+   "extensionOptout": {
+      "message": "Tiện ích bổ sung này chỉ truyền tải lượng dữ liệu cần thiết tối thiểu để vận hành như một proxy Snowflake. Nếu bạn cảm thấy không thoải mái với việc truyền tải dữ liệu được liệt kê ở trên hoặc với bất kỳ mục nào trong chính sách riêng tư của chúng tôi, chúng tôi khuyên bạn nên gỡ bỏ tiện ích bổ sung Snowflake."
+   },
+   "popupBridgeUnreachable": {
+      "message": "Đã không thể kết nối đến cầu Bridge."
+   },
+   "popupConsent": {
+      "message": "Mở trang đồng thuận"
+   },
+   "popupDescOn": {
+      "message": "Số lượng người dùng đã được Snowflake của bạn giúp đỡ vượt qua sự kiểm duyệt trong vòng 24 giờ qua: $1"
+   },
+   "popupEnabled": {
+      "message": "Đã kích hoạt"
+   },
+   "popupLearnMore": {
+      "message": "Tìm hiểu thêm"
+   },
+   "popupNeedConsent": {
+      "message": "Vui lòng đồng thuận với chính sách quyền riêng tư của chúng tôi trước khi bật Snowflake."
+   },
+   "popupRetry": {
+      "message": "Thử lại"
+   },
+   "popupRetrying": {
+      "message": "Đang thử lại ..."
+   },
+   "popupRunInBackground": {
+      "message": "Tiếp tục chạy khi trình duyệt bị đóng"
+   },
+   "popupStatusOff": {
+      "message": "Snowflake đã tắt"
+   },
+   "popupStatusOn": {
+      "message": "Số lượng người dùng hiện tại đã được kết nối: $1"
+   },
+   "popupStatusReady": {
+      "message": "Snowflake của bạn đã sẵn sàng để giúp đỡ mọi người vượt qua sự kiểm duyệt"
+   },
+   "popupWebRTCOff": {
+      "message": "Tính năng WebRTC không được phát hiện."
+   },
+   "remove": {
+      "message": "Gỡ bỏ tiện ích bổ sung Snowflake"
+   }
+}

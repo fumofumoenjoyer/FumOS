@@ -1,0 +1,530 @@
+{
+   "advancedLabel": {
+      "description": "Advanced label",
+      "message": "Avansat"
+   },
+   "allowlistedDomainsDescription": {
+      "description": "Enter domains to disable LocalCDN there. One entry per line.",
+      "message": "Introduceți domeniile în care nu doriți ca LocalCDN să fie activ. Introduceți nu mai mult de un domeniu per rând."
+   },
+   "allowlistedDomainsTitle": {
+      "description": "Deactivate LocalCDN for these domains:",
+      "message": "Dezactivează LocalCDN pentru următoarele domenii:"
+   },
+   "amountInjectedDescription": {
+      "description": "Amount injected description.",
+      "message": "Numărul de resurse injectate de CDN-ul local de la momentul instalării extensiei."
+   },
+   "betaLabel": {
+      "description": "beta",
+      "message": "Beta"
+   },
+   "blockGoogleFontsDescription": {
+      "description": "If requests for missing resources are allowed, connections to \"fonts.googleapis.com\" are not blocked. Enable this option to block these requests.",
+      "message": "Chiar dacă sunt permise substituirea resurselor conexiunea către \"fonts.googleapis.com\" nu este blocată. Activați această opțiune pentru a bloca cererea."
+   },
+   "blockGoogleFontsTitle": {
+      "description": "Block Google Fonts",
+      "message": "Blochează fonturile Google"
+   },
+   "blockMissingDescription": {
+      "description": "Block requests for missing resources description.",
+      "message": "Anulează cererea de interceptare dacă resursa solicitată nu este disponibilă local pe dispozitiv."
+   },
+   "blockMissingTitle": {
+      "description": "Block requests for missing resources title",
+      "message": "Blochează cererile pentru resursele care nu sunt disponibile local"
+   },
+   "btnAdvanced": {
+      "description": "Advanced",
+      "message": "Avansate"
+   },
+   "btnGeneral": {
+      "description": "Basic",
+      "message": "Setări standard"
+   },
+   "btnInfo": {
+      "description": "Info",
+      "message": "Info"
+   },
+   "btnOther": {
+      "description": "Other",
+      "message": "Alte setări"
+   },
+   "changeBadgeColorMissingResourcesDescription": {
+      "description": "Change the badge color if resources are missing.",
+      "message": "Schimbă culoarea insignei dacă lipsesc resurse."
+   },
+   "changeBadgeColorMissingResourcesTitle": {
+      "description": "Indicate missing resources on the icon",
+      "message": "Ilustrează pe pictogramă dacă sunt resurse lipsă"
+   },
+   "chooseIconStyle": {
+      "description": "Choose an icon for this extension",
+      "message": "Alegeți o pictogramă pentru această extensie"
+   },
+   "copyRuleSet": {
+      "description": "Text of button to copy ruleset",
+      "message": "Copiați"
+   },
+   "counterBlocked": {
+      "description": "Blocked",
+      "message": ""
+   },
+   "counterMissing": {
+      "description": "Missing",
+      "message": ""
+   },
+   "dialogConfirmDeleteStatistics": {
+      "description": "Are you sure you want to delete all the statistics?",
+      "message": "Sunteți sigur că vreți să ștergeți aceste statistici?"
+   },
+   "dialogImportFailed": {
+      "description": "Import failed",
+      "message": "Import eșuat"
+   },
+   "dialogImportSuccessful": {
+      "description": "Import successful",
+      "message": "Import reușit"
+   },
+   "disablePrefetchDescription": {
+      "description": "Disable prefetch description.",
+      "message": "Nu permite ca cereri refuzate să ajungă la terțe CDN-uri."
+   },
+   "disablePrefetchTitle": {
+      "description": "Disable prefetch title",
+      "message": "Dezactivează pre-încărcarea de linkuri"
+   },
+   "extensionDescription": {
+      "description": "Protects you against tracking through CDNs (Content Delivery Networks) by redirecting to local resources.",
+      "message": "Vă protejează împotriva urmăririi de către CDN-uri (Content Delivery Networks) prin redirecționarea către resurse locale stocate pe dispozitiv."
+   },
+   "featureBreaksWebsitesButton": {
+      "description": "Disable",
+      "message": "Dezactivați"
+   },
+   "featureBreaksWebsitesDescription": {
+      "description": "This feature breaks websites. Do not leave it enabled, unless you are prepared to manually add affected domains to the allow list.",
+      "message": "Această caracteristică poate strica afișarea site-urilor web. Nu o lăsați activată decât dacă sunteți de acord să mutați manual domeniile ce vor fi afectate în lista de domenii permise."
+   },
+   "generateRuleSetDescription": {
+      "description": "In case you are using an adblocker you can generate the rules here. You have to add these rules manually in your adblocker.",
+      "message": "În cazul în care aveți un adblocker instalat puteți genera reguli pentru el de aici. Nu uitați că trebuie să adăugați aceste reguli manual în adblocker-ul respectiv."
+   },
+   "generateRuleSetTitle": {
+      "description": "Generate rule sets for your adblocker",
+      "message": "Generați reguli pentru adblocker-ul pe care îl aveți instalat"
+   },
+   "headerImportExport": {
+      "description": "Import/Export",
+      "message": "Import/Export"
+   },
+   "headerStatistics": {
+      "description": "Statistics. The header of a statistics page.",
+      "message": "Statistici"
+   },
+   "headerStorageType": {
+      "description": "Storage type",
+      "message": "Tipuri de stocare"
+   },
+   "helpBlockGoogleFontsDescription": {
+      "description": "LocalCDN can replace »Google Material Icons«. To catch the connection your adblocker (e.g. uBlock Origin, uMatrix or AdGuard) must allow the request. LocalCDN listens on these requests and if the query contains »Google Material Icons«, the resource will be replaced. If you uncheck the »Block requests for missing content« option, non-existent resources will be allowed to pass and »Google Fonts« will be loaded, because »Google Material Icons« and »Google Fonts« use the same domain. If you don‘t want this, you can block »Google Fonts« on LocalCDN.",
+      "message": "LocalCDN poate înlocui »Google Material Icons«. Pentru a prinde conexiunea, adblocker-ul dvs. (de exemplu, uBlock Origin, uMatrix sau AdGuard) trebuie să permită solicitarea. LocalCDN ascultă aceste cereri și dacă interogarea conține »Google Material Icons«, resursa va fi înlocuită. Dacă debifați opțiunea »Blochează cererile pentru conținut lipsă«, resursele inexistente vor fi lăsate să treacă și »Google Fonts« va fi încărcat, deoarece »Google Material Icons« și »Google Fonts« folosesc același domeniu. Dacă nu doriți acest lucru, puteți bloca »Google Fonts« pe LocalCDN."
+   },
+   "helpBlockGoogleFontsTitle": {
+      "description": "Why is there a »Block Google Fonts« option?",
+      "message": "De ce este opțiunea »Blochează fonturile Google«?"
+   },
+   "helpBrowserCompatibility": {
+      "description": "Browser compatibility",
+      "message": "Compatibilitatea cu browserul"
+   },
+   "helpBrowserCompatibilityTitle": {
+      "description": "Browser compatibility",
+      "message": "Compatibilitatea cu browser-ul"
+   },
+   "helpData": {
+      "description": "Data",
+      "message": "Date"
+   },
+   "helpExplanationChrome": {
+      "description": "All Chromium based Browser",
+      "message": "Toate browserele bazate pe Chromium"
+   },
+   "helpHtmlFilterAfter": {
+      "description": "The result then looks like this:",
+      "message": "Rezultatul arată în felul următor:"
+   },
+   "helpHtmlFilterBefore": {
+      "description": "The HTML filter removes the red characters from this example:",
+      "message": "Filtrul HTML elimină caractere roșii din acest exemplu:"
+   },
+   "helpHtmlFilterCrossorigin": {
+      "description": "The crossorigin attribute prevents the replacement because the destination does not match the requested one.",
+      "message": "Atributul crossorigin împiedică înlocuirea, deoarece destinația nu se potrivește cu cea solicitată."
+   },
+   "helpHtmlFilterDescription": {
+      "description": "In most cases LocalCDN can easily replace embedded frameworks and improves privacy. In some cases the website may try to prevent this by setting certain options in the HTML source code. LocalCDN reads the HTML source code before it is displayed in the browser and removes these part (red).",
+      "message": "În cele mai multe cazuri, LocalCDN poate înlocui cu ușurință framework-urile încorporate și îmbunătățește confidențialitatea. În unele cazuri, site-ul web poate încerca să împiedice acest lucru prin setarea anumitor opțiuni în codul sursă HTML. LocalCDN citește codul sursă HTML înainte ca acesta să fie afișat în browser și elimină această parte (roșu)."
+   },
+   "helpHtmlFilterErrors": {
+      "description": "Unfortunately, it sometimes happens that special characters are then displayed incorrectly. In this case you can deactivate the setting again, to display the umlauts correctly.",
+      "message": "Din păcate, se întâmplă uneori ca caracterele speciale să fie afișate incorect. În acest caz, puteți dezactiva din nou această setare pentru a afișa corect literele umlaut."
+   },
+   "helpHtmlFilterIntegrity": {
+      "description": "To save disk space and to deliver more frameworks LocalCDN upgrades a framework. An integrity tag is the hash value of a file. If the check fails, the browser won‘t include a framework. The integrity check will fail because the hash values for e.g. jQuery 1.10.1 and jQuery 1.12.4 are different.",
+      "message": "Pentru a economisi spațiu pe disc și pentru a livra mai multe framework-uri, LocalCDN actualizează un frameworks. O etichetă de integritate este valoarea hash a unui fișier. Dacă verificarea eșuează, browserul nu va include un frameworks. Verificarea integrității va eșua deoarece valorile hash pentru, de exemplu, jQuery 1.10.1 și jQuery 1.12.4 sunt diferite."
+   },
+   "helpHtmlFilterTitle": {
+      "description": "What is »HTML filter«?",
+      "message": "Ce este »filtrul HTML«?"
+   },
+   "helpHtmlFilterWhyTitle": {
+      "description": "Why is it necessary to remove crossorigin and integrity attributes?",
+      "message": "De ce este necesar să se elimine atributele crossorigin și de integritate?"
+   },
+   "helpIcons": {
+      "description": "Default, Light, Blue/Grey",
+      "message": "Implicit, deschis, albastru/gri"
+   },
+   "helpIntroductionDescription": {
+      "description": "LocalCDN is a web browser extension that emulates Content Delivery Networks to improve your online privacy. It intercepts traffic, finds supported frameworks/libraries locally, and injects them into the website. Feel free to use the following testing utility to find out if you are properly protected. For more information read the tutorial or our Wiki pages.",
+      "message": "LocalCDN este o extensie de browser web care simulează rețelele de livrare de conținut (CDN) pentru a vă îmbunătăți confidențialitatea online. Aceasta interceptează traficul, găsește framework-urile/bibliotecile suportate la nivel local și le injectează în site-ul web. Nu ezitați să utilizați următorul utilitar de testare pentru a afla dacă sunteți protejat corespunzător. Pentru mai multe informații, citiți tutorialul sau paginile noastre Wiki."
+   },
+   "helpIntroductionTitle": {
+      "description": "Introduction",
+      "message": "Introducere"
+   },
+   "helpLimitation": {
+      "description": "This is not a limitation of LocalCDN, but missing API support of Chromium based browsers.",
+      "message": "Aceasta nu este o limitare a LocalCDN, ci lipsa suportului API al browserelor bazate pe Chromium."
+   },
+   "helpLinkTestUtility": {
+      "description": "Testing utility",
+      "message": "Utilitatea de testare"
+   },
+   "helpLinkTutorial": {
+      "description": "Tutorial",
+      "message": "Tutorial"
+   },
+   "helpLinkWikiPages": {
+      "description": "Wiki pages",
+      "message": "Pagini de Wiki"
+   },
+   "helpNo": {
+      "description": "No",
+      "message": "Nu"
+   },
+   "helpNumberOfInjections": {
+      "description": "Numbers of injections",
+      "message": "Numărul de injecții"
+   },
+   "helpPermissionDescription": {
+      "description": "LocalCDN needs to know which requests are created by a website to redirect or block it. With the introduction of MV3, this permission is listed as an optional permission.",
+      "message": ""
+   },
+   "helpReplace": {
+      "description": "Replace",
+      "message": "Înlocuire"
+   },
+   "helpReplaceOther": {
+      "description": "Replace other resources",
+      "message": "Înlocuire cu alte resurse"
+   },
+   "helpRuleGeneratorDescription": {
+      "description": "If you want to automatically redirect all supported CDN connections to LocalCDN, you can add these rules to your adblocker to allow these redirections. If you do not want to add these rules, you must allow each CDN connection individually for each website.",
+      "message": "Dacă doriți să redirecționați automat toate conexiunile CDN acceptate către LocalCDN, puteți adăuga aceste reguli la adblocker pentru a permite aceste redirecționări. Dacă nu doriți să adăugați aceste reguli, trebuie să permiteți fiecare conexiune CDN în mod individual pentru fiecare site web."
+   },
+   "helpRuleGeneratorTitle": {
+      "description": "Rule generator",
+      "message": "Generator de reguli"
+   },
+   "helpRuleGeneratorUblockDescription": {
+      "description": "These rules are only relevant in »medium« or »hard« mode, because it blocks all 3rd-party resources. They are not necessary in »default«, »easy« or »very-easy« mode. For more information, please visit the uBlock Origin Wiki.",
+      "message": "Aceste reguli sunt relevante doar în modul »mediu« sau »greu«, deoarece blochează toate resursele terților. Ele nu sunt necesare în modurile »implicit«, »ușor« sau »foarte ușor«. Pentru mai multe informații, vă rugăm să vizitați uBlock Origin Wiki."
+   },
+   "helpRuleGeneratorUblockTableDefaultEasy": {
+      "description": "Default/Easy",
+      "message": "Implicit/Ușor"
+   },
+   "helpRuleGeneratorUblockTableHard": {
+      "description": "Hard",
+      "message": "Greu"
+   },
+   "helpRuleGeneratorUblockTableIcon": {
+      "description": "Icon",
+      "message": "Pictogramă"
+   },
+   "helpRuleGeneratorUblockTableMedium": {
+      "description": "Medium",
+      "message": "Mediu"
+   },
+   "helpRuleGeneratorUblockTableMode": {
+      "description": "Mode",
+      "message": "Mod"
+   },
+   "helpRuleGeneratorUblockTableUseful": {
+      "description": "Rules useful",
+      "message": "Reguli utile"
+   },
+   "helpRuleGeneratorUblockTitle": {
+      "description": "Only uBlock Origin:",
+      "message": "Numai uBlock Origin:"
+   },
+   "helpStatisticsContent": {
+      "description": "The statistics contain no information about the browser, operating system, requesting website, IP addresses or any other information. Just date, CDN+counter and framework+counter. It shows you which frameworks are replaced by LocalCDNs how often and which CDNs were requested.",
+      "message": "Statisticile nu conțin informații despre browser, sistemul de operare, site-ul web solicitant, adresele IP sau orice alte informații. Doar data, CDN+contoare și framework+contoare. Aceasta vă arată ce framework-uri sunt înlocuite de LocalCDNs, cât de des și ce CDN-uri au fost solicitate."
+   },
+   "helpStatisticsDescription": {
+      "description": "Don‘t panic, nothing will be transmitted. It would be against all my principles. The statistics (JSON format) contains the following information: Date, CDN+counter and framework+counter. That‘s all. I‘ve an example here:",
+      "message": "Nu intrați în panică, nu se va transmite nimic. Ar fi împotriva tuturor principiilor mele. Statisticile (format JSON) conțin următoarele informații: Data, CDN+contor și framework+contor. Asta este tot. Aveți un exemplu aici:"
+   },
+   "helpStatisticsTitle": {
+      "description": "What about the statistics? Is anything transferred to any servers?",
+      "message": "Cum rămâne cu statisticile? Este ceva transferat pe vreun server?"
+   },
+   "helpStatisticsTruthDescription": {
+      "description": "The extension storage can be viewed directly with the Firefox browser. Open the URL »about:debugging«, switch to »Storage« and select »Extension Storage«. Under the key »internalStatisticsData« you will find the collected data. Just copy it and put it into a JSON PrettyPrinter to make it more readable. Please note that you have to remove the first and last quotation mark and the key to it. You should be able to see this clearly in this video.",
+      "message": "Stocarea extensiilor poate fi vizualizată direct cu ajutorul browserului Firefox. Deschideți URL-ul »about:debugging«, treceți la »Stocare« și selectați »Stocarea extensiilor«. Sub cheia »internalStatisticsData« veți găsi datele colectate. Copiați-le și puneți-le într-un JSON PrettyPrinter pentru a le face mai ușor de citit. Vă rugăm să rețineți că trebuie să eliminați primul și ultimul ghilimele și cheia de la acesta. Ar trebui să puteți vedea acest lucru în mod clar în acest videoclip."
+   },
+   "helpStatisticsTruthTitle": {
+      "description": "How do I know that‘s true?",
+      "message": "Cum știu că asta e adevărat?"
+   },
+   "helpSyncAccount": {
+      "description": "If you don‘t have a sync account, nothing will be synchronized. In that case it makes no difference what type of storage you have selected.",
+      "message": "Dacă nu aveți un cont de sincronizare, nu se va sincroniza nimic. În acest caz, nu contează ce tip de stocare ați selectat."
+   },
+   "helpSyncContentEver": {
+      "description": "Settings that will be synchronized:",
+      "message": "Setări care vor fi sincronizate:"
+   },
+   "helpSyncContentLinks": {
+      "description": "More information about Firefox Sync:",
+      "message": "Mai multe informații despre Firefox Sync:"
+   },
+   "helpSyncContentNever": {
+      "description": "Things that are never synchronized:",
+      "message": "Lucruri care nu sunt niciodată sincronizate:"
+   },
+   "helpSyncDescription": {
+      "description": "Sync will only work if you are logged in with a Firefox account on the device and have allowed add-ons to sync in the settings. A separate sync server under your control will also work. This will synchronize most of the settings of LocalCDN across all devices.",
+      "message": "Sincronizarea va funcționa numai dacă sunteți conectat cu un cont Firefox pe dispozitiv și dacă ați permis sincronizarea suplimentelor în setări. Va funcționa și un server de sincronizare separat, aflat sub controlul dvs. Acesta va sincroniza majoritatea setărilor din LocalCDN pe toate dispozitivele."
+   },
+   "helpSyncTitle": {
+      "description": "What will be synchronized when I select »sync« as storage type?",
+      "message": "Ce va fi sincronizat atunci când selectez »sincronizare« ca tip de stocare?"
+   },
+   "helpUpgradeAllResources": {
+      "description": "Upgrade all resources",
+      "message": "Actualizați toate resursele"
+   },
+   "helpWebsiteIssuesDescription": {
+      "description": "There are two possible reasons: Either a framework/library is required that LocalCDN doesn‘t (yet) deliver or an SOP. A SOP (Same origin policy) is a security mechanism that determines what data the browser is allowed to load. It helps to isolate malicious documents and thus reduce possible attack vectors. This policy prevents the browser from loading the external frameworks of LocalCDN. Unfortunately there is no solution for this at the moment.",
+      "message": "Există două motive posibile: Fie este necesar un framework/bibliotecă pe care LocalCDN nu o oferă (încă), fie un SOP. O SOP (Same origin policy) este un mecanism de securitate care determină ce date poate încărca browserul. Acesta ajută la izolarea documentelor periculoase și, astfel, la reducerea posibililor vectori de atac. Această politică împiedică browserul să încarce cadrele externe ale LocalCDN. Din păcate, nu există nicio soluție pentru acest lucru în acest moment."
+   },
+   "helpWebsiteIssuesTitle": {
+      "description": "Some websites look strange or are not easy to use",
+      "message": "Unele site-uri ar putea arăta ciudat sau să fie greu de utilizat"
+   },
+   "helpWhatWillBeSynchronizedTitle": {
+      "description": "What will be synchronized when I select »sync« as storage type?",
+      "message": "Ce va fi sincronizat atunci când selectez »sincronizare« ca tip de stocare?"
+   },
+   "helpWhyThisPermission": {
+      "description": "Why does this extension need this permission?",
+      "message": ""
+   },
+   "helpYes": {
+      "description": "Yes",
+      "message": "Da"
+   },
+   "hideDonationButton": {
+      "description": "Hide donation button",
+      "message": "Ascunde butonul de donații"
+   },
+   "htmlFilterDomainsDescription": {
+      "description": "Enter the domains to be handled or ignored by the HTML filter. One entry per line.",
+      "message": "Introduceți domeniile care urmează să fie modificate sau ignorate de filtrul HTML. Scrieți un singur domeniu per rând."
+   },
+   "htmlFilterDomainsTitleExclude": {
+      "description": "Do not apply HTML filter to these domains:",
+      "message": "Nu aplica filtre HTML pentru aceste domenii:"
+   },
+   "htmlFilterDomainsTitleInclude": {
+      "description": "Apply HTML filter for these domains:",
+      "message": "Utilizați filtru HTML pentru aceste domenii:"
+   },
+   "internalStatisticsDescription": {
+      "description": "No data transmission. It’s all local on your device.",
+      "message": "Această funcție este momentan experimentală. Datele nu sunt transmise către un server. Totul rămâne pe dispozitivul dvs."
+   },
+   "internalStatisticsTitle": {
+      "description": "Internal statistics",
+      "message": "Statistici interne"
+   },
+   "labelAll": {
+      "description": "Statistics view over the whole time range",
+      "message": "Toate"
+   },
+   "labelAvg": {
+      "description": "Followed by a number of average injections per day within a specific period.",
+      "message": "Media (Înlocuiri pe zi)"
+   },
+   "labelDelete": {
+      "description": "Button to delete all statistics data.",
+      "message": "Ștergeți"
+   },
+   "labelDomainsAllowlistGoogleFonts": {
+      "description": "These domains are allowed to load Google Fonts. One entry per line.",
+      "message": "Acestor domenii le este permis să utilizeze fonturi Google. Introduceți nu mai mult de un domeniu per rând."
+   },
+   "labelDonate": {
+      "description": "Donate",
+      "message": "Donați"
+   },
+   "labelExportData": {
+      "description": "Back up to file",
+      "message": "Creați un fișier back-up"
+   },
+   "labelImportData": {
+      "description": "Restore from file",
+      "message": "Restaurați folosind un fișier din dispozitiv"
+   },
+   "labelInjectedFrameworks": {
+      "description": "Followed by a number of injections within a specific period.",
+      "message": "Framework-uri înlocuite"
+   },
+   "labelManipulateDOM": {
+      "description": "Filter HTML source code",
+      "message": "Filtrați codul sursă HTML"
+   },
+   "labelPastMonth": {
+      "description": "Statistics view for past month.",
+      "message": "Luna trecută"
+   },
+   "labelPastWeek": {
+      "description": "Statistics view for past week.",
+      "message": "Săptămâna trecută"
+   },
+   "labelPastYear": {
+      "description": "Statistics view for past year.",
+      "message": "Anul trecut"
+   },
+   "labelStorageTypeLocal": {
+      "description": "Local",
+      "message": "Locală"
+   },
+   "labelStorageTypeSync": {
+      "description": "Sync",
+      "message": "Sincronizată"
+   },
+   "labelToday": {
+      "description": "Statistics view for today.",
+      "message": "Astăzi"
+   },
+   "lastUpdate": {
+      "description": "Last update:",
+      "message": "Ultima actualizare:"
+   },
+   "loggingDescription": {
+      "description": "You can open the log with the icon in the menu. The log will be deleted when you close the browser or disable logging.",
+      "message": "Puteți deschide jurnalul cu ajutorul pictogramei din meniu. Intrarea din jurnalul va fi ștearsă atunci când închideți browserul sau când dezactivați înregistrarea."
+   },
+   "loggingTitle": {
+      "description": "Enable logging",
+      "message": "Activează jurnalul"
+   },
+   "negateHtmlFilterListDescription": {
+      "description": "Enable this option to always apply the HTML filter. The domains in the list will be ignored then. If this option is disabled, the HTML filter is only applied to domains in the list.",
+      "message": "Activați această opțiune pentru a aplica mereu filtrul HTML. Domeniile din listă vor fi apoi ignorate. Dacă această opțiune este dezactivată, filtrul HTML va fi aplicat doar la domeniile din listă."
+   },
+   "negateHtmlFilterListTitle": {
+      "description": "Invert HTML filter",
+      "message": "Inversează filtru HTML"
+   },
+   "negateHtmlFilterListWarning": {
+      "description": "This function can break websites. Please note the information on the Wiki page.",
+      "message": "Această funcție poate afecta afișarea site-urilor. Vă rugăm să aveți în vedere informațiile din pagina Wiki a extensiei."
+   },
+   "optionsTitle": {
+      "description": "Options title",
+      "message": "Opțiuni"
+   },
+   "permissionAllow": {
+      "description": "Allow",
+      "message": ""
+   },
+   "permissionMissing": {
+      "description": "Missing permission",
+      "message": ""
+   },
+   "permissionMoreInfo": {
+      "description": "More info",
+      "message": ""
+   },
+   "permissionRevokedDescription": {
+      "description": "Please do not disable the permission. LocalCDN needs the permission to detect and redirect requests to CDNs.",
+      "message": ""
+   },
+   "permissionRevokedHeader": {
+      "description": "Permission revoked",
+      "message": ""
+   },
+   "permissionRevokedPermissionName": {
+      "description": "The exact name of the permission. Exactly as it is displayed in Firefox.",
+      "message": ""
+   },
+   "showIconBadgeDescription": {
+      "description": "Show icon badge description.",
+      "message": "Afișează numărul de resurse injectate pe iconița extensiei."
+   },
+   "showIconBadgeTitle": {
+      "description": "Show icon badge title",
+      "message": "Afișează numărul de injecții de resurse pe iconiță"
+   },
+   "stripMetadataDescription": {
+      "description": "Strip metadata description.",
+      "message": "Șterge date sensibile din cererile permise pentru îmbunătățirea confidențialității."
+   },
+   "stripMetadataTitle": {
+      "description": "Strip metadata title",
+      "message": "Scoate metadatele din cererile permise"
+   },
+   "titleBadgeDefault": {
+      "description": "Default badge",
+      "message": "Insignă implicită"
+   },
+   "titleBadgeHTMLFilter": {
+      "description": "HTML filter badge",
+      "message": "Insignă filtru HTML"
+   },
+   "titleBadgeMissingResource": {
+      "description": "Missing or blocked resources badge",
+      "message": "Insignă lipsă resursă"
+   },
+   "titleHelp": {
+      "description": "Help",
+      "message": "Ajutor"
+   },
+   "updateNotificationAlways": {
+      "description": "Always",
+      "message": "Întotdeauna"
+   },
+   "updateNotificationNever": {
+      "description": "Never (Silent Updates)",
+      "message": "Niciodată (actualizări silențioase)"
+   },
+   "updateNotificationOnlyRules": {
+      "description": "Only if new CDNs and rules",
+      "message": "Afișează doar dacă au fost introduse noi reguli sau CDN-uri"
+   },
+   "updateNotificationTitle": {
+      "description": "Notification after an update",
+      "message": "Arată-mi o notificare după orice actualizare"
+   },
+   "websiteBroken": {
+      "description": "Website broken?",
+      "message": "Site-ul nu arată cum trebuie?"
+   }
+}

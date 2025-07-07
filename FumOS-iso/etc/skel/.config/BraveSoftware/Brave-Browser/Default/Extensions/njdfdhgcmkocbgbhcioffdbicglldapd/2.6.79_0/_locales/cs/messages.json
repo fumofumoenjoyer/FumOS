@@ -1,0 +1,530 @@
+{
+   "advancedLabel": {
+      "description": "Advanced label",
+      "message": "Rozšířené"
+   },
+   "allowlistedDomainsDescription": {
+      "description": "Enter domains to disable LocalCDN there. One entry per line.",
+      "message": "Zadejte domény pro jejich vynechání z kontroly. Jedna doména na řádek."
+   },
+   "allowlistedDomainsTitle": {
+      "description": "Deactivate LocalCDN for these domains:",
+      "message": "Nekontrolovat pro domény:"
+   },
+   "amountInjectedDescription": {
+      "description": "Amount injected description.",
+      "message": "Počet lokálně uložených zdrojů vložených od instalace."
+   },
+   "betaLabel": {
+      "description": "beta",
+      "message": "Beta"
+   },
+   "blockGoogleFontsDescription": {
+      "description": "If requests for missing resources are allowed, connections to \"fonts.googleapis.com\" are not blocked. Enable this option to block these requests.",
+      "message": "Pokud jsou požadavky na chybějící prostředky povoleny, připojení k \"fonts.googleapis.com\" nejsou blokována. Povolením této možnosti tyto požadavky zablokujete."
+   },
+   "blockGoogleFontsTitle": {
+      "description": "Block Google Fonts",
+      "message": "Zablokovat Google Fonts"
+   },
+   "blockMissingDescription": {
+      "description": "Block requests for missing resources description.",
+      "message": "Zrušit požadavky na sledované zdroje, pokud nejsou lokálně dostupné."
+   },
+   "blockMissingTitle": {
+      "description": "Block requests for missing resources title",
+      "message": "Blokovat požadavky na chybějící zdroje"
+   },
+   "btnAdvanced": {
+      "description": "Advanced",
+      "message": "Pokročilý"
+   },
+   "btnGeneral": {
+      "description": "Basic",
+      "message": "Základní"
+   },
+   "btnInfo": {
+      "description": "Info",
+      "message": "Info"
+   },
+   "btnOther": {
+      "description": "Other",
+      "message": "Ostatní"
+   },
+   "changeBadgeColorMissingResourcesDescription": {
+      "description": "Change the badge color if resources are missing.",
+      "message": "Změňit barvu odznaku, pokud chybí zdroje."
+   },
+   "changeBadgeColorMissingResourcesTitle": {
+      "description": "Indicate missing resources on the icon",
+      "message": "Zobrazovat chybějící zdroje na ikoně"
+   },
+   "chooseIconStyle": {
+      "description": "Choose an icon for this extension",
+      "message": "Vybraná ikona tohoto rozšíření"
+   },
+   "copyRuleSet": {
+      "description": "Text of button to copy ruleset",
+      "message": "Kopírovat"
+   },
+   "counterBlocked": {
+      "description": "Blocked",
+      "message": "Zablokovaných"
+   },
+   "counterMissing": {
+      "description": "Missing",
+      "message": "Chybějících"
+   },
+   "dialogConfirmDeleteStatistics": {
+      "description": "Are you sure you want to delete all the statistics?",
+      "message": "Jste si jistý, že chcete smazat všechny statistiky?"
+   },
+   "dialogImportFailed": {
+      "description": "Import failed",
+      "message": "Import selhal"
+   },
+   "dialogImportSuccessful": {
+      "description": "Import successful",
+      "message": "Import úspěšný"
+   },
+   "disablePrefetchDescription": {
+      "description": "Disable prefetch description.",
+      "message": "Předejte nepovoleným požadavkům do sítí pro doručování obsahu."
+   },
+   "disablePrefetchTitle": {
+      "description": "Disable prefetch title",
+      "message": "Zakázat přednačítání odkazů"
+   },
+   "extensionDescription": {
+      "description": "Protects you against tracking through CDNs (Content Delivery Networks) by redirecting to local resources.",
+      "message": "Chrání před sledováním skrze centrálně doručovaný obsah pomocí přesměrování na lokální zdroje."
+   },
+   "featureBreaksWebsitesButton": {
+      "description": "Disable",
+      "message": "Zakázat"
+   },
+   "featureBreaksWebsitesDescription": {
+      "description": "This feature breaks websites. Do not leave it enabled, unless you are prepared to manually add affected domains to the allow list.",
+      "message": "Tato funkce poškozuje stránky. Nenechávejte zapnuté, pokud nejste připraveni vlastnoručně přidat poškozené stránky do povoleného seznamu."
+   },
+   "generateRuleSetDescription": {
+      "description": "In case you are using an adblocker you can generate the rules here. You have to add these rules manually in your adblocker.",
+      "message": "V případě, že používáte adblocker, si zde můžete vygenerovat pravidla. Tato pravidla musíte přidat do vašeho adblockeru manuálně."
+   },
+   "generateRuleSetTitle": {
+      "description": "Generate rule sets for your adblocker",
+      "message": "Generujte sady pravidel pro váš adblocker"
+   },
+   "headerImportExport": {
+      "description": "Import/Export",
+      "message": "Importovat/Exportovat"
+   },
+   "headerStatistics": {
+      "description": "Statistics. The header of a statistics page.",
+      "message": "Statistiky"
+   },
+   "headerStorageType": {
+      "description": "Storage type",
+      "message": "Typ uložení"
+   },
+   "helpBlockGoogleFontsDescription": {
+      "description": "LocalCDN can replace »Google Material Icons«. To catch the connection your adblocker (e.g. uBlock Origin, uMatrix or AdGuard) must allow the request. LocalCDN listens on these requests and if the query contains »Google Material Icons«, the resource will be replaced. If you uncheck the »Block requests for missing content« option, non-existent resources will be allowed to pass and »Google Fonts« will be loaded, because »Google Material Icons« and »Google Fonts« use the same domain. If you don‘t want this, you can block »Google Fonts« on LocalCDN.",
+      "message": "LocalCDN může nahradit »Google Material Icons«. Chcete-li zachytit připojení, váš blokátor reklam (např. uBlock Origin, uMatrix nebo AdGuard) musí požadavek povolit. LocalCDN naslouchá těmto požadavkům a pokud dotaz obsahuje »Google Material Icons«, zdroj bude nahrazen. Pokud zrušíte zaškrtnutí možnosti »Blokovat požadavky na chybějící obsah«, bude povolen průchod neexistujícím zdrojům a načte se »Google Fonts«, protože »Google Material Icons« a »Google Fonts« používají stejnou doménu. Pokud si to nepřejete, můžete zablokovat »Google Fonts« na LocalCDN ."
+   },
+   "helpBlockGoogleFontsTitle": {
+      "description": "Why is there a »Block Google Fonts« option?",
+      "message": "Proč existuje možnost \"Blokovat písma Google\"?"
+   },
+   "helpBrowserCompatibility": {
+      "description": "Browser compatibility",
+      "message": "Kompatibilita prohlížečů"
+   },
+   "helpBrowserCompatibilityTitle": {
+      "description": "Browser compatibility",
+      "message": "Kompatibilita prohlížečů"
+   },
+   "helpData": {
+      "description": "Data",
+      "message": "Data"
+   },
+   "helpExplanationChrome": {
+      "description": "All Chromium based Browser",
+      "message": "Všechny prohlížeče založené na Chromiu"
+   },
+   "helpHtmlFilterAfter": {
+      "description": "The result then looks like this:",
+      "message": "Výsledek poté vypadá takto:"
+   },
+   "helpHtmlFilterBefore": {
+      "description": "The HTML filter removes the red characters from this example:",
+      "message": "HTML filtr odstraní červené znaky z tohoto příkladu:"
+   },
+   "helpHtmlFilterCrossorigin": {
+      "description": "The crossorigin attribute prevents the replacement because the destination does not match the requested one.",
+      "message": "Atribut crossorigin brání nahrazení, protože cíl neodpovídá požadovanému."
+   },
+   "helpHtmlFilterDescription": {
+      "description": "In most cases LocalCDN can easily replace embedded frameworks and improves privacy. In some cases the website may try to prevent this by setting certain options in the HTML source code. LocalCDN reads the HTML source code before it is displayed in the browser and removes these part (red).",
+      "message": "Ve většině případů může LocalCDN snadno nahradit vložená rozhraní a zlepšit soukromí. V některých případech se tomu může webová stránka pokusit zabránit nastavením určitých možností ve zdrojovém kódu HTML. LocalCDN přečte zdrojový kód HTML před jeho zobrazením v prohlížeči a tyto části odstraní (červeně)."
+   },
+   "helpHtmlFilterErrors": {
+      "description": "Unfortunately, it sometimes happens that special characters are then displayed incorrectly. In this case you can deactivate the setting again, to display the umlauts correctly.",
+      "message": "Bohužel se někdy stane, že jsou poté špatně zobrazeny speciální znaky. V tom případě můžete nastavení znovu deaktivovat, aby se přehlásky zobrazovaly správně."
+   },
+   "helpHtmlFilterIntegrity": {
+      "description": "To save disk space and to deliver more frameworks LocalCDN upgrades a framework. An integrity tag is the hash value of a file. If the check fails, the browser won‘t include a framework. The integrity check will fail because the hash values for e.g. jQuery 1.10.1 and jQuery 1.12.4 are different.",
+      "message": "Chcete-li ušetřit místo na disku a dodat více rámců LocalCDN upgraduje rámec. Značka integrity je hash hodnotou souboru. Pokud se kontrola nezdaří, prohlížeč nebude obsahovat framework. Kontrola integrity se nezdaří, protože hodnoty hash pro např. jQuery 1.10.1 a jQuery 1.12.4 se liší."
+   },
+   "helpHtmlFilterTitle": {
+      "description": "What is »HTML filter«?",
+      "message": "Co je »HTML filtr«?"
+   },
+   "helpHtmlFilterWhyTitle": {
+      "description": "Why is it necessary to remove crossorigin and integrity attributes?",
+      "message": "Proč je nutné odstranit atributy crossorigin a integrity?"
+   },
+   "helpIcons": {
+      "description": "Default, Light, Blue/Grey",
+      "message": "Výchozí, světlá, modrá/šedá"
+   },
+   "helpIntroductionDescription": {
+      "description": "LocalCDN is a web browser extension that emulates Content Delivery Networks to improve your online privacy. It intercepts traffic, finds supported frameworks/libraries locally, and injects them into the website. Feel free to use the following testing utility to find out if you are properly protected. For more information read the tutorial or our Wiki pages.",
+      "message": "LocalCDN je rozšíření webového prohlížeče, které emuluje sítě pro doručování obsahu a zlepšuje tak vaše soukromí na internetu. Zachytí provoz, lokálně vyhledá podporované frameworky/knihovny a vloží je do webové stránky. Neváhejte použít následující testovací nástroj, abyste zjistili, zda jste řádně chráněni. Další informace naleznete v návodu nebo na našich stránkách Wiki."
+   },
+   "helpIntroductionTitle": {
+      "description": "Introduction",
+      "message": "Úvod"
+   },
+   "helpLimitation": {
+      "description": "This is not a limitation of LocalCDN, but missing API support of Chromium based browsers.",
+      "message": "Toto není omezení LocalCDN, ale chybějící API v prohlížečích založených na Chromiu."
+   },
+   "helpLinkTestUtility": {
+      "description": "Testing utility",
+      "message": "Testovací nástroj"
+   },
+   "helpLinkTutorial": {
+      "description": "Tutorial",
+      "message": "Tutoriál"
+   },
+   "helpLinkWikiPages": {
+      "description": "Wiki pages",
+      "message": "Wiki stránky"
+   },
+   "helpNo": {
+      "description": "No",
+      "message": "Ne"
+   },
+   "helpNumberOfInjections": {
+      "description": "Numbers of injections",
+      "message": "Počet vložení"
+   },
+   "helpPermissionDescription": {
+      "description": "LocalCDN needs to know which requests are created by a website to redirect or block it. With the introduction of MV3, this permission is listed as an optional permission.",
+      "message": "LocalCDN potřebuje znát, které požadavky jsou vytvořeny webovou stránkou pro jejich přesměrování nebo blokování. Po představení MV3 je toto oprávnění volitelné."
+   },
+   "helpReplace": {
+      "description": "Replace",
+      "message": "Nahradit"
+   },
+   "helpReplaceOther": {
+      "description": "Replace other resources",
+      "message": "Nahradit ostatní zdroje"
+   },
+   "helpRuleGeneratorDescription": {
+      "description": "If you want to automatically redirect all supported CDN connections to LocalCDN, you can add these rules to your adblocker to allow these redirections. If you do not want to add these rules, you must allow each CDN connection individually for each website.",
+      "message": "Pokud chcete automaticky přesměrovat všechna podporovaná připojení k CDN do LocalCDN, můžete přidat tato pravidla do vašeho blokovače reklam pro povolení těchto přesměrování. Pokud pravidla nechcete přidat, musíte povolit každé CDN zvlášť na každé webové stránce."
+   },
+   "helpRuleGeneratorTitle": {
+      "description": "Rule generator",
+      "message": "Generátor pravidel"
+   },
+   "helpRuleGeneratorUblockDescription": {
+      "description": "These rules are only relevant in »medium« or »hard« mode, because it blocks all 3rd-party resources. They are not necessary in »default«, »easy« or »very-easy« mode. For more information, please visit the uBlock Origin Wiki.",
+      "message": "Tato pravidla jsou relevantní pouze ve »středním« nebo »těžkém« režimu, protože blokuje veškeré zdroje třetích stran. Nejsou potřeba ve »výchozím«, »jednoduchém« nebo »velmi jednoduchém« režimu. Pro více informací navštivte Wiki uBlock Origin."
+   },
+   "helpRuleGeneratorUblockTableDefaultEasy": {
+      "description": "Default/Easy",
+      "message": "Výchozí/lehký"
+   },
+   "helpRuleGeneratorUblockTableHard": {
+      "description": "Hard",
+      "message": "Přísný"
+   },
+   "helpRuleGeneratorUblockTableIcon": {
+      "description": "Icon",
+      "message": "Ikona"
+   },
+   "helpRuleGeneratorUblockTableMedium": {
+      "description": "Medium",
+      "message": "Střední"
+   },
+   "helpRuleGeneratorUblockTableMode": {
+      "description": "Mode",
+      "message": "Mód"
+   },
+   "helpRuleGeneratorUblockTableUseful": {
+      "description": "Rules useful",
+      "message": "Týká se"
+   },
+   "helpRuleGeneratorUblockTitle": {
+      "description": "Only uBlock Origin:",
+      "message": "Pouze uBlock Origin:"
+   },
+   "helpStatisticsContent": {
+      "description": "The statistics contain no information about the browser, operating system, requesting website, IP addresses or any other information. Just date, CDN+counter and framework+counter. It shows you which frameworks are replaced by LocalCDNs how often and which CDNs were requested.",
+      "message": "Statistiky neobsahují informace o prohlížeči, operačním systému, webové stránce, IP adrese ani jiné informace. Jen datum, CDN+počítadlo a framework+počítadlo. Ukazují vám frameworky, které byly nahrazeny LocalCDN, a jak často a které CDN byly vyžádány."
+   },
+   "helpStatisticsDescription": {
+      "description": "Don‘t panic, nothing will be transmitted. It would be against all my principles. The statistics (JSON format) contains the following information: Date, CDN+counter and framework+counter. That‘s all. I‘ve an example here:",
+      "message": "Nepanikařte, nic nebude přeneseno. Bylo by to proti všem mým zásadám. Statistiky (formát JSON) obsahují následující informace: datum, CDN+počítadlo a framework+počítadlo. To je vše, tady je příklad:"
+   },
+   "helpStatisticsTitle": {
+      "description": "What about the statistics? Is anything transferred to any servers?",
+      "message": "Jak je to se statistikami? Je něco přeneseno na jakékoliv servery?"
+   },
+   "helpStatisticsTruthDescription": {
+      "description": "The extension storage can be viewed directly with the Firefox browser. Open the URL »about:debugging«, switch to »Storage« and select »Extension Storage«. Under the key »internalStatisticsData« you will find the collected data. Just copy it and put it into a JSON PrettyPrinter to make it more readable. Please note that you have to remove the first and last quotation mark and the key to it. You should be able to see this clearly in this video.",
+      "message": "Úložiště rozšíření lze zobrazit přímo v prohlížeči Firefox. Otevřete URL »about:debugging«, přepněte na »Úložiště« a zvolte »Extension Storage«. Pod klíčem »internalStatisticsData« najdete shromážděná data. Stačí jej zkopírovat a vložit do tiskárny JSON PrettyPrinter, aby byl čitelnější. Vezměte prosím na vědomí, že musíte odstranit první a poslední uvozovky a klíč k nim. V tomto videu byste to měli jasně vidět."
+   },
+   "helpStatisticsTruthTitle": {
+      "description": "How do I know that‘s true?",
+      "message": "Jak mohu vědět, že je to pravda?"
+   },
+   "helpSyncAccount": {
+      "description": "If you don‘t have a sync account, nothing will be synchronized. In that case it makes no difference what type of storage you have selected.",
+      "message": "Pokud nemáte účet pro synchronizaci, nic nebude synchronizováno. V tomto případě nemá výběr vliv."
+   },
+   "helpSyncContentEver": {
+      "description": "Settings that will be synchronized:",
+      "message": "Nastavení, která budou synchronizována:"
+   },
+   "helpSyncContentLinks": {
+      "description": "More information about Firefox Sync:",
+      "message": "Více informací o Firefox Sync:"
+   },
+   "helpSyncContentNever": {
+      "description": "Things that are never synchronized:",
+      "message": "Položky, které nikdy nebudou synchronizovány:"
+   },
+   "helpSyncDescription": {
+      "description": "Sync will only work if you are logged in with a Firefox account on the device and have allowed add-ons to sync in the settings. A separate sync server under your control will also work. This will synchronize most of the settings of LocalCDN across all devices.",
+      "message": "Synchronizace bude fungovat pouze pokud jste přihlášeni Firefox účtem ve vašem zařízení a dovolili jste synchronizaci nastavení doplňků. Zvláštní server pro synchronizaci pod vaší kontrolou bude též fungovat. Bude se synchronizovat většina nastavení LocalCDN napříč všemi zařízeními."
+   },
+   "helpSyncTitle": {
+      "description": "What will be synchronized when I select »sync« as storage type?",
+      "message": "Co bude synchronizováno, když vyberu »synchronizovaný« typ úložiště?"
+   },
+   "helpUpgradeAllResources": {
+      "description": "Upgrade all resources",
+      "message": "Nahradit všechny zdroje"
+   },
+   "helpWebsiteIssuesDescription": {
+      "description": "There are two possible reasons: Either a framework/library is required that LocalCDN doesn‘t (yet) deliver or an SOP. A SOP (Same origin policy) is a security mechanism that determines what data the browser is allowed to load. It helps to isolate malicious documents and thus reduce possible attack vectors. This policy prevents the browser from loading the external frameworks of LocalCDN. Unfortunately there is no solution for this at the moment.",
+      "message": "Jsou tu dvě možné příčiny: buď požadovaný framework/knihovna není (zatím) poskytována LocalCDN nebo SOP. SOP (Same origin policy) je bezpečnostní mechanizmus, který určuje, jaká data může prohlížeč načíst. Pomáhá izolovat zákeřné dokumenty a snižuje tím možné způsoby útoku. Tato zásada znemožňuje prohlížeči načíst externí frameworky LocalCDN. Bohužel to v současnosti nemá žádné řešení."
+   },
+   "helpWebsiteIssuesTitle": {
+      "description": "Some websites look strange or are not easy to use",
+      "message": "Některé webové stránky vypadají podivně nebo nejsou snadno použitelné"
+   },
+   "helpWhatWillBeSynchronizedTitle": {
+      "description": "What will be synchronized when I select »sync« as storage type?",
+      "message": "Co se bude synchronizovat, když jako typ úložiště vyberu \"synchronizovat\"?"
+   },
+   "helpWhyThisPermission": {
+      "description": "Why does this extension need this permission?",
+      "message": "Proč toto rozšíření potřebuje toto oprávnění?"
+   },
+   "helpYes": {
+      "description": "Yes",
+      "message": "Ano"
+   },
+   "hideDonationButton": {
+      "description": "Hide donation button",
+      "message": "Skrýt tlačítko pro přispění"
+   },
+   "htmlFilterDomainsDescription": {
+      "description": "Enter the domains to be handled or ignored by the HTML filter. One entry per line.",
+      "message": "Zadejte domény, které má filtr HTML zpracovávat nebo ignorovat. Na každém řádku uveďte jednu položku."
+   },
+   "htmlFilterDomainsTitleExclude": {
+      "description": "Do not apply HTML filter to these domains:",
+      "message": "Nepoužívat HTML filtr na těchto stránkách:"
+   },
+   "htmlFilterDomainsTitleInclude": {
+      "description": "Apply HTML filter for these domains:",
+      "message": "Použít HTML filtr na tyto stránky:"
+   },
+   "internalStatisticsDescription": {
+      "description": "No data transmission. It’s all local on your device.",
+      "message": "Tato funkce je momentálně v experimentální fázi. Žádný přenos dat. Vše je lokálně na vašem zařízení."
+   },
+   "internalStatisticsTitle": {
+      "description": "Internal statistics",
+      "message": "Interní statistiky"
+   },
+   "labelAll": {
+      "description": "Statistics view over the whole time range",
+      "message": "Vše"
+   },
+   "labelAvg": {
+      "description": "Followed by a number of average injections per day within a specific period.",
+      "message": "Průměr (Nahrazení za den)"
+   },
+   "labelDelete": {
+      "description": "Button to delete all statistics data.",
+      "message": "Smazat"
+   },
+   "labelDomainsAllowlistGoogleFonts": {
+      "description": "These domains are allowed to load Google Fonts. One entry per line.",
+      "message": "Tyto domény mohou načítat písma Google. Jedna položka na řádek."
+   },
+   "labelDonate": {
+      "description": "Donate",
+      "message": "Darovat"
+   },
+   "labelExportData": {
+      "description": "Back up to file",
+      "message": "Zazálohovat do souboru"
+   },
+   "labelImportData": {
+      "description": "Restore from file",
+      "message": "Obnovit ze souboru"
+   },
+   "labelInjectedFrameworks": {
+      "description": "Followed by a number of injections within a specific period.",
+      "message": "Nahrazené frameworky"
+   },
+   "labelManipulateDOM": {
+      "description": "Filter HTML source code",
+      "message": "Filtrovat zdrojový kód HTML"
+   },
+   "labelPastMonth": {
+      "description": "Statistics view for past month.",
+      "message": "Minulý měsíc"
+   },
+   "labelPastWeek": {
+      "description": "Statistics view for past week.",
+      "message": "Minulý týden"
+   },
+   "labelPastYear": {
+      "description": "Statistics view for past year.",
+      "message": "Minulý rok"
+   },
+   "labelStorageTypeLocal": {
+      "description": "Local",
+      "message": "Lokální"
+   },
+   "labelStorageTypeSync": {
+      "description": "Sync",
+      "message": "Synchronizované"
+   },
+   "labelToday": {
+      "description": "Statistics view for today.",
+      "message": "Dnes"
+   },
+   "lastUpdate": {
+      "description": "Last update:",
+      "message": "Poslední aktualizace:"
+   },
+   "loggingDescription": {
+      "description": "You can open the log with the icon in the menu. The log will be deleted when you close the browser or disable logging.",
+      "message": "Protokol můžete otevřít pomocí ikony v menu. Protokol bude vymazán, pokud zavřete prohlížeč nebo protokolování vypnete."
+   },
+   "loggingTitle": {
+      "description": "Enable logging",
+      "message": "Povolit protokolování"
+   },
+   "negateHtmlFilterListDescription": {
+      "description": "Enable this option to always apply the HTML filter. The domains in the list will be ignored then. If this option is disabled, the HTML filter is only applied to domains in the list.",
+      "message": "Tuto možnost povolte, chcete-li vždy použít filtr HTML. Domény v seznamu pak budou ignorovány. Pokud je tato možnost zakázána, filtr HTML se použije pouze na domény v seznamu."
+   },
+   "negateHtmlFilterListTitle": {
+      "description": "Invert HTML filter",
+      "message": "Invertovat HTML filtr"
+   },
+   "negateHtmlFilterListWarning": {
+      "description": "This function can break websites. Please note the information on the Wiki page.",
+      "message": "Tato funkce může poškodit webové stránky. Více informací najdete ve Wiki."
+   },
+   "optionsTitle": {
+      "description": "Options title",
+      "message": "Možnosti"
+   },
+   "permissionAllow": {
+      "description": "Allow",
+      "message": "Povolit"
+   },
+   "permissionMissing": {
+      "description": "Missing permission",
+      "message": "Chybějící oprávnění"
+   },
+   "permissionMoreInfo": {
+      "description": "More info",
+      "message": "Další informace"
+   },
+   "permissionRevokedDescription": {
+      "description": "Please do not disable the permission. LocalCDN needs the permission to detect and redirect requests to CDNs.",
+      "message": "Prosíme, nezakazujte toto oprávnění. LocalCDN potřebuje toto oprávnění pro detekci a přesměrování požadavků na CDN."
+   },
+   "permissionRevokedHeader": {
+      "description": "Permission revoked",
+      "message": "Oprávnění odebráno"
+   },
+   "permissionRevokedPermissionName": {
+      "description": "The exact name of the permission. Exactly as it is displayed in Firefox.",
+      "message": "Přistupovat k vašim datům pro všechny webové stránky"
+   },
+   "showIconBadgeDescription": {
+      "description": "Show icon badge description.",
+      "message": "Zobrazit počet vložených zdrojů u ikony rozšíření."
+   },
+   "showIconBadgeTitle": {
+      "description": "Show icon badge title",
+      "message": "Zobrazovat počet vložení u ikony"
+   },
+   "stripMetadataDescription": {
+      "description": "Strip metadata description.",
+      "message": "Pro zlepšení soukromí odstraní citlivá data z povolených požadavků na CDN."
+   },
+   "stripMetadataTitle": {
+      "description": "Strip metadata title",
+      "message": "Odstranit metadata z povolených požadavků"
+   },
+   "titleBadgeDefault": {
+      "description": "Default badge",
+      "message": "Výchozí odznak"
+   },
+   "titleBadgeHTMLFilter": {
+      "description": "HTML filter badge",
+      "message": "Odznak HTML filtru"
+   },
+   "titleBadgeMissingResource": {
+      "description": "Missing or blocked resources badge",
+      "message": "Odznak chybějících nebo blokovaných zdrojů"
+   },
+   "titleHelp": {
+      "description": "Help",
+      "message": "Nápověda"
+   },
+   "updateNotificationAlways": {
+      "description": "Always",
+      "message": "Vždy"
+   },
+   "updateNotificationNever": {
+      "description": "Never (Silent Updates)",
+      "message": "Nikdy (Tiché aktualizace)"
+   },
+   "updateNotificationOnlyRules": {
+      "description": "Only if new CDNs and rules",
+      "message": "Jen pokud jsou nové CDN a pravidla"
+   },
+   "updateNotificationTitle": {
+      "description": "Notification after an update",
+      "message": "Upozornění po aktualizaci"
+   },
+   "websiteBroken": {
+      "description": "Website broken?",
+      "message": "Stránka nefunguje správně?"
+   }
+}

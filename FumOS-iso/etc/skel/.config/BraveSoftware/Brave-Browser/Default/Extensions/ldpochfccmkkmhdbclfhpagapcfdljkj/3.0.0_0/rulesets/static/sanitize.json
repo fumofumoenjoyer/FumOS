@@ -1,0 +1,242 @@
+[
+    {
+        "id": 1,
+        "priority": 4,
+        "action": {
+            "type": "modifyHeaders",
+            "requestHeaders": [
+                {"header": "cookie", "operation": "remove"},
+                {"header": "origin", "operation": "remove"},
+                {"header": "referer", "operation": "remove"}
+            ]
+        },
+        "condition": {
+            "urlFilter": "|https://ajax.googleapis.com/ajax/libs/",
+            "resourceTypes": ["font", "image", "main_frame", "media", "object", "other", "script", "stylesheet", "sub_frame", "xmlhttprequest"]
+        }
+    },
+    {
+        "id": 2,
+        "priority": 4,
+        "action": {
+            "type": "modifyHeaders",
+            "requestHeaders": [
+                {"header": "cookie", "operation": "remove"},
+                {"header": "origin", "operation": "remove"},
+                {"header": "referer", "operation": "remove"}
+            ]
+        },
+        "condition": {
+            "urlFilter": "|https://ajax.aspnetcdn.com/ajax/",
+            "resourceTypes": ["font", "image", "main_frame", "media", "object", "other", "script", "stylesheet", "sub_frame", "xmlhttprequest"]
+        }
+    },
+    {
+        "id": 3,
+        "priority": 4,
+        "action": {
+            "type": "modifyHeaders",
+            "requestHeaders": [
+                {"header": "cookie", "operation": "remove"},
+                {"header": "origin", "operation": "remove"},
+                {"header": "referer", "operation": "remove"}
+            ]
+        },
+        "condition": {
+            "urlFilter": "|https://ajax.microsoft.com/ajax/",
+            "resourceTypes": ["font", "image", "main_frame", "media", "object", "other", "script", "stylesheet", "sub_frame", "xmlhttprequest"]
+        }
+    },
+    {
+        "id": 4,
+        "priority": 4,
+        "action": {
+            "type": "modifyHeaders",
+            "requestHeaders": [
+                {"header": "cookie", "operation": "remove"},
+                {"header": "origin", "operation": "remove"},
+                {"header": "referer", "operation": "remove"}
+            ]
+        },
+        "condition": {
+            "urlFilter": "|https://cdnjs.cloudflare.com/ajax/libs/",
+            "resourceTypes": ["font", "image", "main_frame", "media", "object", "other", "script", "stylesheet", "sub_frame", "xmlhttprequest"]
+        }
+    },
+    {
+        "id": 5,
+        "priority": 4,
+        "action": {
+            "type": "modifyHeaders",
+            "requestHeaders": [
+                {"header": "cookie", "operation": "remove"},
+                {"header": "origin", "operation": "remove"},
+                {"header": "referer", "operation": "remove"}
+            ]
+        },
+        "condition": {
+            "urlFilter": "|https://code.jquery.com/",
+            "resourceTypes": ["font", "image", "main_frame", "media", "object", "other", "script", "stylesheet", "sub_frame", "xmlhttprequest"]
+        }
+    },
+    {
+        "id": 6,
+        "priority": 4,
+        "action": {
+            "type": "modifyHeaders",
+            "requestHeaders": [
+                {"header": "cookie", "operation": "remove"},
+                {"header": "origin", "operation": "remove"},
+                {"header": "referer", "operation": "remove"}
+            ]
+        },
+        "condition": {
+            "urlFilter": "|https://cdn.jsdelivr.net/",
+            "resourceTypes": ["font", "image", "main_frame", "media", "object", "other", "script", "stylesheet", "sub_frame", "xmlhttprequest"]
+        }
+    },
+    {
+        "id": 7,
+        "priority": 4,
+        "action": {
+            "type": "modifyHeaders",
+            "requestHeaders": [
+                {"header": "cookie", "operation": "remove"},
+                {"header": "origin", "operation": "remove"},
+                {"header": "referer", "operation": "remove"}
+            ]
+        },
+        "condition": {
+            "urlFilter": "|https://yastatic.net/",
+            "resourceTypes": ["font", "image", "main_frame", "media", "object", "other", "script", "stylesheet", "sub_frame", "xmlhttprequest"]
+        }
+    },
+    {
+        "id": 8,
+        "priority": 4,
+        "action": {
+            "type": "modifyHeaders",
+            "requestHeaders": [
+                {"header": "cookie", "operation": "remove"},
+                {"header": "origin", "operation": "remove"},
+                {"header": "referer", "operation": "remove"}
+            ]
+        },
+        "condition": {
+            "urlFilter": "|https://yandex.st/",
+            "resourceTypes": ["font", "image", "main_frame", "media", "object", "other", "script", "stylesheet", "sub_frame", "xmlhttprequest"]
+        }
+    },
+    {
+        "id": 9,
+        "priority": 4,
+        "action": {
+            "type": "modifyHeaders",
+            "requestHeaders": [
+                {"header": "cookie", "operation": "remove"},
+                {"header": "origin", "operation": "remove"},
+                {"header": "referer", "operation": "remove"}
+            ]
+        },
+        "condition": {
+            "urlFilter": "|https://apps.bdimg.com/libs/",
+            "resourceTypes": ["font", "image", "main_frame", "media", "object", "other", "script", "stylesheet", "sub_frame", "xmlhttprequest"]
+        }
+    },
+    {
+        "id": 10,
+        "priority": 4,
+        "action": {
+            "type": "modifyHeaders",
+            "requestHeaders": [
+                {"header": "cookie", "operation": "remove"},
+                {"header": "origin", "operation": "remove"},
+                {"header": "referer", "operation": "remove"}
+            ]
+        },
+        "condition": {
+            "urlFilter": "|https://libs.baidu.com/",
+            "resourceTypes": ["font", "image", "main_frame", "media", "object", "other", "script", "stylesheet", "sub_frame", "xmlhttprequest"]
+        }
+    },
+    {
+        "id": 11,
+        "priority": 4,
+        "action": {
+            "type": "modifyHeaders",
+            "requestHeaders": [
+                {"header": "cookie", "operation": "remove"},
+                {"header": "origin", "operation": "remove"},
+                {"header": "referer", "operation": "remove"}
+            ]
+        },
+        "condition": {
+            "urlFilter": "|https://lib.sinaapp.com/js/",
+            "resourceTypes": ["font", "image", "main_frame", "media", "object", "other", "script", "stylesheet", "sub_frame", "xmlhttprequest"]
+        }
+    },
+    {
+        "id": 12,
+        "priority": 4,
+        "action": {
+            "type": "modifyHeaders",
+            "requestHeaders": [
+                {"header": "cookie", "operation": "remove"},
+                {"header": "origin", "operation": "remove"},
+                {"header": "referer", "operation": "remove"}
+            ]
+        },
+        "condition": {
+            "urlFilter": "|https://upcdn.b0.upaiyun.com/libs/",
+            "resourceTypes": ["font", "image", "main_frame", "media", "object", "other", "script", "stylesheet", "sub_frame", "xmlhttprequest"]
+        }
+    },
+    {
+        "id": 13,
+        "priority": 4,
+        "action": {
+            "type": "modifyHeaders",
+            "requestHeaders": [
+                {"header": "cookie", "operation": "remove"},
+                {"header": "origin", "operation": "remove"},
+                {"header": "referer", "operation": "remove"}
+            ]
+        },
+        "condition": {
+            "urlFilter": "|https://cdn.bootcss.com/",
+            "resourceTypes": ["font", "image", "main_frame", "media", "object", "other", "script", "stylesheet", "sub_frame", "xmlhttprequest"]
+        }
+    },
+    {
+        "id": 14,
+        "priority": 4,
+        "action": {
+            "type": "modifyHeaders",
+            "requestHeaders": [
+                {"header": "cookie", "operation": "remove"},
+                {"header": "origin", "operation": "remove"},
+                {"header": "referer", "operation": "remove"}
+            ]
+        },
+        "condition": {
+            "urlFilter": "|https://sdn.geekzu.org/ajax/ajax/libs/",
+            "resourceTypes": ["font", "image", "main_frame", "media", "object", "other", "script", "stylesheet", "sub_frame", "xmlhttprequest"]
+        }
+    },
+    {
+        "id": 15,
+        "priority": 4,
+        "action": {
+            "type": "modifyHeaders",
+            "requestHeaders": [
+                {"header": "cookie", "operation": "remove"},
+                {"header": "origin", "operation": "remove"},
+                {"header": "referer", "operation": "remove"}
+            ]
+        },
+        "condition": {
+            "urlFilter": "|https://ajax.proxy.ustclug.org/ajax/libs/",
+            "resourceTypes": ["font", "image", "main_frame", "media", "object", "other", "script", "stylesheet", "sub_frame", "xmlhttprequest"]
+        }
+    }
+]

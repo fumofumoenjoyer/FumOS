@@ -1,0 +1,70 @@
+{
+   "advancedLabel": {
+      "description": "Advanced label.",
+      "message": "За напреднали"
+   },
+   "amountInjectedDescription": {
+      "description": "Amount injected description.",
+      "message": "Количество на местни вмъквания на ресурси от началото на инсталацията."
+   },
+   "amountInjectedTitle": {
+      "description": "Amount injected title.",
+      "message": "Брояч за местно вмъкнати ресурси"
+   },
+   "blockMissingDescription": {
+      "description": "Block requests for missing resources description.",
+      "message": "Отмяна на прехванатата заявка, ако изисквания ресурс не е наличен на местно ниво."
+   },
+   "blockMissingTitle": {
+      "description": "Block requests for missing resources title.",
+      "message": "Блокиране на заявки за липсващи ресурси"
+   },
+   "disablePrefetchDescription": {
+      "description": "Disable prefetch description.",
+      "message": "Предотвратява изтичането на забранени заявки към мрежи за доставка."
+   },
+   "disablePrefetchTitle": {
+      "description": "Disable prefetch title.",
+      "message": "Изключване на предварителното извличане на препратки"
+   },
+   "disableProtectionTitle": {
+      "description": "Disable protection title.",
+      "message": "Изключване на защитата за страницата"
+   },
+   "enableProtectionTitle": {
+      "description": "Enable protection title.",
+      "message": "Включване на защита"
+   },
+   "extensionDescription": {
+      "description": "Extension description.",
+      "message": "Защитава ви от следене чрез свободна, централизирана доставка на съдържание."
+   },
+   "optionsTitle": {
+      "description": "Options title.",
+      "message": "Настройки"
+   },
+   "showIconBadgeDescription": {
+      "description": "Show icon badge description.",
+      "message": "Показване на броя на вмъкнатите ресурси в иконката на разширението."
+   },
+   "showIconBadgeTitle": {
+      "description": "Show icon badge title.",
+      "message": "Показване на броя на вмъкванията в иконката"
+   },
+   "stripMetadataDescription": {
+      "description": "Strip metadata description.",
+      "message": "Изтриване на чувствителни данни от допустимите заявки от МДС за подобряване на неприкосновеността."
+   },
+   "stripMetadataTitle": {
+      "description": "Strip metadata title.",
+      "message": "Премахване на метаданните от разрешени заявки"
+   },
+   "whitelistedDomainsDescription": {
+      "description": "Whitelisted domains description.",
+      "message": "Въведете домейни, които да се добавят в белия списък. Отделете стойностите с точка и запетая."
+   },
+   "whitelistedDomainsTitle": {
+      "description": "Whitelisted domains title.",
+      "message": "Изключване на домейни от проверки"
+   }
+}

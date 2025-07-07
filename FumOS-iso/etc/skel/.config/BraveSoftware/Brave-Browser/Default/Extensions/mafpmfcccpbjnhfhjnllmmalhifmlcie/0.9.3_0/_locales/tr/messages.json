@@ -1,0 +1,65 @@
+{
+   "appDesc": {
+      "message": "Sansür uygulanan ülkelerdeki kullanıcıların, ağ bağlantınızı kullanarak Tor ağına ulaşmasını sağlayın."
+   },
+   "badgeLocalStorageOff": {
+      "message": "Yerel depolama alanı etkinleştirilmemiş."
+   },
+   "consent": {
+      "message": "Rızamı veriyorum"
+   },
+   "consented": {
+      "message": "Hazırsınız! Bir Snowflake vekil sunucusu işlettiğiniz için teşekkür ederiz!"
+   },
+   "extensionConsent": {
+      "message": "Temel işlevselliği sağlamak için Snowflake vekil sunucuları (tarayıcınıza yüklediğiniz eklenti), Snowflake aracısına vekil sunucunun ağ kurulumu ile ilgili bazı üst veriler gönderir. Bu üst veriler kapsamlı olarak şunlardır: Vekil sunucunun IP adresi (IP adresiniz), bildirilen NAT türünüz, çalıştırdığınız Snowflake iletişim kuralının sürümü (proxy), vekil sunucunun (kurduğunuz eklentinin) bir İnternet eklentisi ve vekil sunucuya (kurduğunuz eklentiye) o anda bağlı olan istemcilerin sayısı. Bu veriler yalnızca bağlantının kurulması ve toplam istatistiklerin oluşturulması için kullanılır ve aracı üzerinde tutulmaz. Topladığımız ve gösterdiğimiz bilgiler hakkında ayrıntılı bilgi almak için \u003Ca href=\"https://addons.mozilla.org/en-US/firefox/addon/torproject-snowflake/privacy\">gizlilik ilkemizi\u003C/a> inceleyebilirsiniz. Hazır olduğunuzda aşağıdaki düğmeye tıklayarak Snowflake vekil sunucunuzun etkinleştirilmesine rızanızı verebilirsiniz."
+   },
+   "extensionOnboard": {
+      "message": "Snowflake İnternet eklentisini kurduğunuz için teşekkürler!"
+   },
+   "extensionOptout": {
+      "message": "Bu eklenti yalnızca Snowflake vekil sunucusu olarak çalışmak için gereken en az verileri iletir. Yukarıda belirtilen verilerin iletilmesinden veya gizlilik ilkemizin herhangi bir bölümünden rahatsız oluyorsanız Snowflake eklentisini kaldırmanızı öneririz."
+   },
+   "popupBridgeUnreachable": {
+      "message": "Köprü ile bağlantı kurulamadı."
+   },
+   "popupConsent": {
+      "message": "Rıza verme sayfasını aç"
+   },
+   "popupDescOn": {
+      "message": "Snowflake uygulamanızın son 24 saatte sansürü aşmasına yardımcı olduğu kullanıcı sayısı: $1"
+   },
+   "popupEnabled": {
+      "message": "Etkin"
+   },
+   "popupLearnMore": {
+      "message": "Ayrıntılı bilgi alın"
+   },
+   "popupNeedConsent": {
+      "message": "Snowflake etkinleştirmeden önce lütfen gizlilik ilkemize rıza verin."
+   },
+   "popupRetry": {
+      "message": "Yeniden dene"
+   },
+   "popupRetrying": {
+      "message": "Yeniden deneniyor..."
+   },
+   "popupRunInBackground": {
+      "message": "Tarayıcı kapatıldığında çalışmayı sürdürsün"
+   },
+   "popupStatusOff": {
+      "message": "Snowflake kapalı"
+   },
+   "popupStatusOn": {
+      "message": "Şu anda bağlı olan kullanıcı sayısı: $1"
+   },
+   "popupStatusReady": {
+      "message": "Snowflake uygulamanız kullanıcıların sansürü aşmasına yardımcı olmaya hazır"
+   },
+   "popupWebRTCOff": {
+      "message": "WebRTC özelliği algılanamadı."
+   },
+   "remove": {
+      "message": "Snowflake eklentisini kaldır"
+   }
+}

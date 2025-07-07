@@ -1,0 +1,7 @@
+.qowt-view-layout {
+  height: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}

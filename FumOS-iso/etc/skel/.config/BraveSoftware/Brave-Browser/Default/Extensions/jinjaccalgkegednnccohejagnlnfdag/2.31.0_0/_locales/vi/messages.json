@@ -1,0 +1,764 @@
+{
+   "buttonApply": {
+      "message": "Áp dụng"
+   },
+   "buttonCancel": {
+      "message": "Hủy"
+   },
+   "buttonClose": {
+      "message": "Đóng"
+   },
+   "buttonDisable": {
+      "message": "Vô hiệu hoá"
+   },
+   "buttonEdit": {
+      "message": "Sửa"
+   },
+   "buttonEditClickHint": {
+      "message": "Bạn có thể bấm chuột phải, giữ Ctrl và click, bấm chuột giữa vào tên script."
+   },
+   "buttonEmptyRecycleBin": {
+      "message": "Thùng rác trống!"
+   },
+   "buttonEnable": {
+      "message": "Kích hoạt"
+   },
+   "buttonExportData": {
+      "message": "Xuất ra tập tin zip"
+   },
+   "buttonHome": {
+      "message": "Trang chủ"
+   },
+   "buttonImportData": {
+      "message": "Nhập từ tập tin zip"
+   },
+   "buttonInstallFromURL": {
+      "message": "Cài đặt từ URL"
+   },
+   "buttonNew": {
+      "message": "Tạo mới"
+   },
+   "buttonOK": {
+      "message": "Đồng ý"
+   },
+   "buttonRecycleBin": {
+      "message": "Thùng rác"
+   },
+   "buttonRemove": {
+      "message": "Xoá"
+   },
+   "buttonReplace": {
+      "message": "Thay thế"
+   },
+   "buttonReplaceAll": {
+      "message": "Tất cả"
+   },
+   "buttonReset": {
+      "message": "Thiết lập lại"
+   },
+   "buttonResetSettings": {
+      "message": "Đặt lại cài đặt"
+   },
+   "buttonRestore": {
+      "message": "Khôi phục"
+   },
+   "buttonSave": {
+      "message": "Lưu"
+   },
+   "buttonSaveClose": {
+      "message": "Lưu & Đóng"
+   },
+   "buttonSaved": {
+      "message": "Đã lưu"
+   },
+   "buttonShowEditorState": {
+      "message": "Các cài đặt mẫu"
+   },
+   "buttonSupport": {
+      "message": "Hỗ trợ"
+   },
+   "buttonUndo": {
+      "message": "Hoàn tác"
+   },
+   "buttonUpdate": {
+      "message": "Cập nhật"
+   },
+   "buttonVacuum": {
+      "message": "Làm trống dữ liệu"
+   },
+   "buttonVacuumed": {
+      "message": "Đã làm trống dữ liệu"
+   },
+   "buttonVacuuming": {
+      "message": "Làm trống dữ liệu..."
+   },
+   "confirmManualUpdate": {
+      "message": "Tự động cập nhật bị vô hiệu hóa cho kịch bản này!\nNhấp Đồng ý để cập nhật nó."
+   },
+   "confirmNotSaved": {
+      "message": "Thay đổi chưa được lưu!\nBấm Đồng ý để không lưu hoặc Huỷ để quay lại và sửa."
+   },
+   "confirmUndoImport": {
+      "message": "Hoàn nguyên tất cả các thay đổi được thực hiện cho cơ sở dữ liệu (nhập, cập nhật, chỉnh sửa, tùy chỉnh)"
+   },
+   "descBlacklist": {
+      "message": "Danh sách đen chặn tiêm mã (script sẽ không chạy trong các trang web khớp)"
+   },
+   "descBlacklistNet": {
+      "message": "Danh sách đen mạng (các script sẽ không kết nối đến các trang web khớp và cookie của chúng)."
+   },
+   "descCustomCSS": {
+      "message": "CSS tùy chỉnh cho trang tùy chọn và trang script đã cài đặt. Nếu không hiểu rõ xin đừng sửa."
+   },
+   "descEditorOptions": {
+      "message": "Tùy chọn cài đặt cho CodeMirror và addons trong đối tượng JSON như\u003Ccode>{\"indentUnit\":2, \"smartIndent\":true}\u003C/code> . Tuy nhiên, lưu ý rằng một số cài đặt có thể không hoạt động trong Violentmonkey. \u003Ca href=\"https://codemirror.net/doc/manual.html#config\" target=\"_blank\" rel=\"noopener noreferrer\">Xem chi tiết.\u003C/a>"
+   },
+   "descEditorOptionsGeneric": {
+      "message": "Các tùy chọn Boolean có thể được bật bằng cách nhấp đúp vào giá trị \u003Ccode>true\u003C/code> = enabled, \u003Ccode>false\u003C/code> = disabled. Tùy chọn số kết thúc bằng \u003Ccode>Delay\u003C/code>, \u003Ccode>Interval\u003C/code>, \u003Ccode>Rate\u003C/code>, \u003Ccode>Time\u003C/code> tính bằng mili giây."
+   },
+   "descEditorOptionsVM": {
+      "message": "Các tùy chọn không chuẩn: 1autocompleteOnTyping1 là độ trễ tính bằng mili giây để hiển thị gợi ý tự động hoàn thành sau khi nhập (202 = tắt), 3killTrailingSpaceOnSave3 tự động xóa khoảng trắng ở cuối mỗi dòng khi lưu, 4showTrailingSpace4 hiển thị khoảng trắng ở cuối dòng dưới dạng dấu chấm."
+   },
+   "descScriptTemplate": {
+      "message": "Các biến được hỗ trợ: \u003C{{name}}>, \u003C{{url}}>, \u003C{{date}}>, \u003C{{date:format}}> với định dạng tương thích MomentJS, ví dụ như \u003C{{date:YYYY-MM-DD}}>."
+   },
+   "disabledScriptsGroup": {
+      "message": "Nhóm"
+   },
+   "disabledScriptsHide": {
+      "message": "Ẩn"
+   },
+   "disabledScriptsSelector": {
+      "message": "Tập lệnh bị vô hiệu hóa:"
+   },
+   "disabledScriptsShow": {
+      "message": "Hiện"
+   },
+   "editHelpDocumention": {
+      "message": "Các tài liệu về API đọc ở đây:"
+   },
+   "editHelpKeyboard": {
+      "message": "Phím tắt:"
+   },
+   "editHowToHint": {
+      "message": "Bạn có trình chỉnh sửa khác?"
+   },
+   "editLabelMeta": {
+      "message": "Tuỳ chỉnh thẻ dữ liệu"
+   },
+   "editLabelSettings": {
+      "message": "Cài đặt Script"
+   },
+   "editLongLine": {
+      "message": "Dòng quá dài"
+   },
+   "editLongLineTooltip": {
+      "message": "Dòng này quá dài nên văn bản của nó được thu gọn để tránh bị chậm trễ khi chỉnh sửa.\nBạn có thể điều chỉnh giới hạn trong cài đặt nâng cao, ví dụ:\n\"maxDisplayLength\": 20000"
+   },
+   "editNavCode": {
+      "message": "Mã nguồn"
+   },
+   "editNavSettings": {
+      "message": "Cài đặt"
+   },
+   "editNavValues": {
+      "message": "Các giá trị"
+   },
+   "editValueAllHint": {
+      "message": "Hiển thị/chỉnh sửa toàn bộ bộ lưu trữ giá trị script"
+   },
+   "extDescription": {
+      "message": "Hỗ trợ chạy userscript trên trình duyệt."
+   },
+   "extName": {
+      "message": "Violentmonkey"
+   },
+   "failureReasonBlacklisted": {
+      "message": "Đã ở trong danh sách đen của Violentmonkey"
+   },
+   "failureReasonNoninjectable": {
+      "message": "Violentmonkey không hoạt động ở đây."
+   },
+   "failureReasonRestarted": {
+      "message": "Violentmonkey đã được khởi động lại. Vui lòng tải lại tab để chạy userscripts."
+   },
+   "fileInstallBlocked": {
+      "message": "Có một số phương pháp để cài đặt hoặc theo dõi chỉnh sửa trong một tệp cục bộ: \u003C1> Kéo và thả tệp vào một trang hoặc cửa sổ Violentmonkey đang mở, bao gồm cả trang này. \u003C2> Cài đặt một máy chủ HTTP cục bộ cho tệp này và mở nó qua http://localhost. \u003C3> Bật \"Cho phép truy cập vào URL tệp\" trong chi tiết cho Violentmonkey trong trang chrome://extensions. Điều này nguy hiểm vì bất kỳ tập lệnh người dùng nào cũng có thể đọc bất kỳ tệp cục bộ nào."
+   },
+   "filterAlphabeticalOrder": {
+      "message": "Theo bảng chữ cái"
+   },
+   "filterExecutionOrder": {
+      "message": "Thực thi"
+   },
+   "filterLastUpdateOrder": {
+      "message": "cập nhật cuối"
+   },
+   "filterSize": {
+      "message": "kích thước"
+   },
+   "genericError": {
+      "message": "Lỗi"
+   },
+   "genericOff": {
+      "message": "tắt"
+   },
+   "genericOn": {
+      "message": "bật"
+   },
+   "genericUseGlobal": {
+      "message": "Sử dụng cài đặt khuyên dùng"
+   },
+   "hashPatternWarning": {
+      "message": "Mẫu \"#\" (dấu thăng) chỉ hoạt động khi mở trang web lần đầu hoặc tải lại tab: $1"
+   },
+   "headerRecycleBin": {
+      "message": "Thùng rác"
+   },
+   "helpForLocalFile": {
+      "message": "Hiển thị hướng dẫn cho việc kéo và thả các tập lệnh cục bộ."
+   },
+   "hintForBatchAction": {
+      "message": "Đối với các tập lệnh khớp với $1"
+   },
+   "hintInputURL": {
+      "message": "URL đầu vào:"
+   },
+   "hintRecycleBin": {
+      "message": "Các tập lệnh bị xóa được liệt kê ở đây và sẽ được lưu giữ trong 7 ngày."
+   },
+   "hintUseDownloadURL": {
+      "message": "Dùng @downloadURL"
+   },
+   "hintVacuum": {
+      "message": "Bỏ qua dữ liệu thừa và cố gắng tải lại nguồn dữ liệu thiếu từ bộ nhớ đệm."
+   },
+   "install": {
+      "message": "Cài đặt"
+   },
+   "installFrom": {
+      "message": "Cài đặt từ $1"
+   },
+   "installOptionTrackTooltip": {
+      "message": "Bạn cần Firefox 68 hoặc phiên bản cao hơn để mở."
+   },
+   "labelAdvanced": {
+      "message": "Nâng cao"
+   },
+   "labelAllowUpdate": {
+      "message": "Cho phép cập nhật"
+   },
+   "labelAuthor": {
+      "message": "Tác giả: "
+   },
+   "labelAutoReloadCurrentTab": {
+      "message": "Tải lại trang khi bật/tắt script từ menu"
+   },
+   "labelAutoUpdate": {
+      "message": "Kiểm tra cập nhật mỗi  $1 ngày, 0 = tắt"
+   },
+   "labelBackupMaintenance": {
+      "message": "Sao lưu và bảo trì"
+   },
+   "labelBadge": {
+      "message": "Huy hiệu:"
+   },
+   "labelBadgeColors": {
+      "message": "Màu huy hiệu: "
+   },
+   "labelBadgeNone": {
+      "message": "Không có gì"
+   },
+   "labelBadgeTotal": {
+      "message": "Số script đang chạy"
+   },
+   "labelBadgeUnique": {
+      "message": "Số script không trùng lặp đang chạy"
+   },
+   "labelBlacklist": {
+      "message": "Danh sách đen"
+   },
+   "labelContributors": {
+      "message": "Người đóng góp"
+   },
+   "labelCurrentLang": {
+      "message": "Ngôn ngữ hiện tại: "
+   },
+   "labelCustomCSS": {
+      "message": "Giao diện tùy chỉnh"
+   },
+   "labelDownloadURL": {
+      "message": "URL tải về:"
+   },
+   "labelEditValue": {
+      "message": "Sửa giá trị script"
+   },
+   "labelEditValueAll": {
+      "message": "Đang chỉnh sửa lưu trữ script"
+   },
+   "labelEditor": {
+      "message": "Trình chỉnh sửa"
+   },
+   "labelEnabledScriptsOnly": {
+      "message": "Chỉ bật kịch bản"
+   },
+   "labelExclude": {
+      "message": "Bỏ qua"
+   },
+   "labelExcludeMatch": {
+      "message": "Quy tắc bỏ qua"
+   },
+   "labelExportScriptData": {
+      "message": "Xuất dữ liệu script"
+   },
+   "labelExposeStatus": {
+      "message": "Hiển thị phiên bản đã cài đặt trên các trang web danh mục phiên bản người dùng: $1"
+   },
+   "labelFastFirefoxInject": {
+      "message": "Chế độ $1 thay thế trong Firefox"
+   },
+   "labelFastFirefoxInjectHint": {
+      "message": "Kể từ Firefox 59, phương pháp tiêm thay thế cho 1 kịch bản nhanh hơn chế độ mặc định. Tương tự như \"Sync Page Mode\", nó cũng làm tăng mức tiêu thụ bộ nhớ, vì vậy nếu kịch bản của bạn hoạt động tốt mà không có tùy chọn này, bạn có thể muốn vô hiệu hóa nó."
+   },
+   "labelFeedback": {
+      "message": "Phản hồi"
+   },
+   "labelGeneral": {
+      "message": "Chung"
+   },
+   "labelHelpTranslate": {
+      "message": "Giúp chúng tôi dịch"
+   },
+   "labelHomepage": {
+      "message": "Trang chủ"
+   },
+   "labelHomepageURL": {
+      "message": "Liên kết trang chủ:"
+   },
+   "labelIconURL": {
+      "message": "URL biểu tượng:"
+   },
+   "labelImportScriptData": {
+      "message": "Nhập dữ liệu script"
+   },
+   "labelImportSettings": {
+      "message": "Nhập cài đặt"
+   },
+   "labelInclude": {
+      "message": "Thực thi"
+   },
+   "labelInjectionMode": {
+      "message": "Chế độ tiêm: "
+   },
+   "labelInstall": {
+      "message": "Đang cài đặt script"
+   },
+   "labelKeepOriginal": {
+      "message": "Giữ bản gốc"
+   },
+   "labelLastUpdatedAt": {
+      "message": "Cập nhật lần cuối lúc $1"
+   },
+   "labelLineNumber": {
+      "message": "Dòng số.: "
+   },
+   "labelMatch": {
+      "message": "Trùng khớp"
+   },
+   "labelName": {
+      "message": "Tên:"
+   },
+   "labelNoFrames": {
+      "message": "Chạy trong frames: "
+   },
+   "labelNoName": {
+      "message": "Không có tên"
+   },
+   "labelNoSearchScripts": {
+      "message": "Không thấy script nào"
+   },
+   "labelNotifyThisUpdated": {
+      "message": ", thì thông báo:"
+   },
+   "labelNotifyUpdates": {
+      "message": "Thông báo có cập nhật script"
+   },
+   "labelNotifyUpdatesGlobal": {
+      "message": "Bỏ qua thông báo trên mỗi script (thay đổi trong cài đặt ở mục chỉnh sửa script)"
+   },
+   "labelPrivacyPolicy": {
+      "message": "Chính sách bảo mật"
+   },
+   "labelReinstall": {
+      "message": "Cài đặt lại script"
+   },
+   "labelRelated": {
+      "message": "Liên kết gợi ý: "
+   },
+   "labelRemovedAt": {
+      "message": "Đã bị xoá lúc $1"
+   },
+   "labelReplace": {
+      "message": "Thay thế bằng: "
+   },
+   "labelRunAt": {
+      "message": "Chạy khi: "
+   },
+   "labelRunAtDefault": {
+      "message": "(Mặc định)"
+   },
+   "labelScriptTemplate": {
+      "message": "Script template tuỳ chỉnh"
+   },
+   "labelSearch": {
+      "message": "Tìm kiếm: "
+   },
+   "labelSearchScript": {
+      "message": "Tìm kiếm...."
+   },
+   "labelSettings": {
+      "message": "Cài đặt"
+   },
+   "labelShowOrder": {
+      "message": "Hiển thị thứ tự sắp xếp thực thi"
+   },
+   "labelSync": {
+      "message": "Đồng bộ"
+   },
+   "labelSyncAnonymous": {
+      "message": "Sử dụng tài khoản ẩn danh"
+   },
+   "labelSyncAuthorize": {
+      "message": "Xác thực"
+   },
+   "labelSyncAuthorizing": {
+      "message": "Đang xác thực"
+   },
+   "labelSyncDisabled": {
+      "message": "Không có"
+   },
+   "labelSyncPassword": {
+      "message": "Mật khẩu: "
+   },
+   "labelSyncRevoke": {
+      "message": "Thu hồi"
+   },
+   "labelSyncScriptStatus": {
+      "message": "Trạng thái đồng bộ script"
+   },
+   "labelSyncServerUrl": {
+      "message": "URL máy chủ: "
+   },
+   "labelSyncService": {
+      "message": "Đồng bộ tới"
+   },
+   "labelSyncUsername": {
+      "message": "Tài khoản: "
+   },
+   "labelTags": {
+      "message": "Thẻ (cách nhau bằng dấu cách):"
+   },
+   "labelTheme": {
+      "message": "Giao diện: "
+   },
+   "labelUpdateURL": {
+      "message": "URL Cập nhật:"
+   },
+   "labelViewSingleColumn": {
+      "message": "Một cột"
+   },
+   "labelViewTable": {
+      "message": "Chế độ xem bảng"
+   },
+   "labelWidth": {
+      "message": "Chiều rộng:"
+   },
+   "labelXhrInject": {
+      "message": "Chế độ đồng bộ $1"
+   },
+   "labelXhrInjectHint": {
+      "message": "Chỉ bật nếu bạn có một tập lệnh cần chạy trước khi trang bắt đầu đang tải và hiện nó đang chạy quá muộn. Cũng giống như tiêm tức thì trong Tampermonkey, tùy chọn này đang sử dụng XHR đồng bộ không được dùng nữa, vì vậy trong Chrome / Chromium, bạn sẽ thấy cảnh báo trong bảng điều khiển devtools, mặc dù bạn có thể bỏ qua chúng một cách an toàn vì các tác động xấu là không đáng kể trong trường hợp này. Bạn có thể ẩn các cảnh báo bằng cách nhấp chuột phải vào một cảnh báo."
+   },
+   "labelXhrInjectNote": {
+      "message": "(trừ chế độ ẩn danh và các trang web với cookie bị vô hiệu hóa)"
+   },
+   "lastSync": {
+      "message": "Đồng bộ cuối lúc $1"
+   },
+   "learnBlacklist": {
+      "message": "Tìm hiểu thêm về quy tắc danh sách đen."
+   },
+   "learnInjectionMode": {
+      "message": "Tìm hiểu thêm về các chế độ tiêm."
+   },
+   "menuDashboard": {
+      "message": "Mở bảng điều khiển"
+   },
+   "menuExclude": {
+      "message": "Bỏ qua..."
+   },
+   "menuExcludeHint": {
+      "message": "Tab hiện tại sẽ tự động tải lại nếu bạn đã bật tùy chọn này nói chung cài đặt.\nĐể áp dụng các thay đổi cho tất cả các tab khác, vui lòng tải lại chúng theo cách thủ công.\nSử dụng tab \"Cài đặt\" của trình chỉnh sửa để linh hoạt hơn."
+   },
+   "menuFeedback": {
+      "message": "Phản hồi"
+   },
+   "menuFindScripts": {
+      "message": "Tìm script cho trang này"
+   },
+   "menuInjectionFailed": {
+      "message": "Không thể tiêm một số script"
+   },
+   "menuInjectionFailedFix": {
+      "message": "Thử lại ở chế độ \"tự động\""
+   },
+   "menuMatchedDisabledScripts": {
+      "message": "Các script bị vô hiệu hóa phù hợp"
+   },
+   "menuMatchedFrameScripts": {
+      "message": "Chỉ hoạt động ở Khung phụ"
+   },
+   "menuMatchedScripts": {
+      "message": "Script trùng khớp"
+   },
+   "menuNewScript": {
+      "message": "Tạo script mới"
+   },
+   "menuScriptDisabled": {
+      "message": "Đã vô hiệu hoá script"
+   },
+   "menuScriptEnabled": {
+      "message": "Đã kích hoạt script"
+   },
+   "msgCheckingForUpdate": {
+      "message": "Đang kiểm tra cập nhật..."
+   },
+   "msgDateFormatInfo": {
+      "message": "Nhấp để mở tài liệu MomentJS. Mã thông báo được phép: $1. Sử dụng [hình vuông ngoặc] để bảo vệ văn bản theo nghĩa đen."
+   },
+   "msgErrorFetchingResource": {
+      "message": "Lỗi nạp tài nguyên"
+   },
+   "msgErrorFetchingScript": {
+      "message": "Có lỗi khi tìm phiên bản mới!"
+   },
+   "msgErrorFetchingUpdateInfo": {
+      "message": "Tìm kiếm thông tin cập nhật thất bại."
+   },
+   "msgErrorLoadingData": {
+      "message": "Không thể tải script."
+   },
+   "msgErrorLoadingDependency": {
+      "message": "Lỗi tải thư viện."
+   },
+   "msgImported": {
+      "message": "Đã nhập $1 script."
+   },
+   "msgIncognitoChanges": {
+      "message": "Những thay đổi bạn thực hiện trong chế độ ẩn danh cũng áp dụng cho cài đặt của bạn."
+   },
+   "msgInstalled": {
+      "message": "Đã cài đặt script."
+   },
+   "msgInvalidScript": {
+      "message": "Script không hợp lệ!"
+   },
+   "msgLoadingData": {
+      "message": "Đang tải thông tin script..."
+   },
+   "msgLoadingDependency": {
+      "message": "Đang tải thư viện... ($1/$2)"
+   },
+   "msgMissingResources": {
+      "message": "Thiếu tài nguyên bắt buộc."
+   },
+   "msgNamespaceConflict": {
+      "message": "Xung đột namespace! Vui lòng sửa @name và @namespace."
+   },
+   "msgNamespaceConflictRestore": {
+      "message": "Một tập lệnh có cùng @name và @namespace đã được cài đặt.\n\n "
+   },
+   "msgNewVersion": {
+      "message": "Có phiên bản mới."
+   },
+   "msgNoUpdate": {
+      "message": "Không có cập nhật mới."
+   },
+   "msgOpenUpdateErrors": {
+      "message": "Lỗi cập nhật tập lệnh. Nhấn vào đây để mở chúng."
+   },
+   "msgReinstallScripts": {
+      "message": "Vui lòng lưu lại hoặc cài đặt lại (các) tập lệnh này:"
+   },
+   "msgSameCode": {
+      "message": " (mã nguồn không đổi)"
+   },
+   "msgScriptUpdated": {
+      "message": "Script [$1] đã được cập nhật!"
+   },
+   "msgShowHide": {
+      "message": "Hiện/ẩn"
+   },
+   "msgSyncError": {
+      "message": "Đồng bộ lỗi!"
+   },
+   "msgSyncInit": {
+      "message": "Đang khởi tạo..."
+   },
+   "msgSyncInitError": {
+      "message": "Khởi tạo lỗi!"
+   },
+   "msgSyncNoAuthYet": {
+      "message": "Chưa được ủy quyền."
+   },
+   "msgSyncReady": {
+      "message": "Đồng bộ sẽ chạy sớm..."
+   },
+   "msgSyncing": {
+      "message": "Đang đồng bộ..."
+   },
+   "msgSyntaxError": {
+      "message": "Lỗi cú pháp?"
+   },
+   "msgTardyMatch": {
+      "message": "Tập lệnh không tồn tại hoặc không khớp với URL khi trang được tải, điều này xảy ra trong các trang Ứng dụng một trang như fb hoặc instagram đang sử dụng điều hướng giả mạo. Bạn có thể tải lại tab để chạy tập lệnh. Để sửa tập lệnh, hãy sử dụng @match cho toàn bộ trang web, sau đó phát hiện các thay đổi bằng MutationObserver hoặc API window.navigation."
+   },
+   "msgUpdated": {
+      "message": "Đã cập nhật script."
+   },
+   "msgUpdating": {
+      "message": "Đang cập nhật..."
+   },
+   "noValues": {
+      "message": "Không có giá trị nào được lưu trữ"
+   },
+   "optionEditorWindow": {
+      "message": "Mở trình chỉnh sửa trong popup ở của sổ mới"
+   },
+   "optionEditorWindowHint": {
+      "message": "Editor window position will be remembered only on resizing or saving"
+   },
+   "optionEditorWindowSimple": {
+      "message": "Vị trí cửa sổ trình chỉnh sửa sẽ chỉ được ghi nhớ khi thay đổi kích thước hoặc lưu"
+   },
+   "optionPopup": {
+      "message": "Popup menu và icon"
+   },
+   "optionPopupEnabledFirst": {
+      "message": "Đã bật ở trước"
+   },
+   "optionPopupGroupRunAt": {
+      "message": "Nhóm theo giai đoạn @run-at"
+   },
+   "optionShowEnabledFirst": {
+      "message": "Hiển thị script được bật ở trước"
+   },
+   "optionUiTheme": {
+      "message": "Chủ đề UI"
+   },
+   "optionUiThemeAuto": {
+      "message": "Tự động"
+   },
+   "optionUiThemeDark": {
+      "message": "Tối"
+   },
+   "optionUiThemeLight": {
+      "message": "Sáng"
+   },
+   "optionUpdate": {
+      "message": "Cập nhật"
+   },
+   "popupSettings": {
+      "message": "Cài đặt menu ngữ cảnh"
+   },
+   "popupSettingsHint": {
+      "message": "Nhấp chuột phải: cài đặt menu ngữ cảnh (popup)"
+   },
+   "readonly": {
+      "message": "Chỉ đọc"
+   },
+   "readonlyNote": {
+      "message": "Tập lệnh tự động cập nhật chỉ được phép đọc trừ khi bạn tắt cập nhật hoặc cho phép chỉnh sửa."
+   },
+   "readonlyOpt": {
+      "message": "Cho phép chỉnh sửa"
+   },
+   "readonlyOptWarn": {
+      "message": "(Cập nhật tiếp theo sẽ ghi đè chúng)"
+   },
+   "reinstall": {
+      "message": "Cài đặt lại"
+   },
+   "reloadTab": {
+      "message": "Tải lại trang"
+   },
+   "reloadTabTrackHint": {
+      "message": "Nếu được bật, tab đang hoạt động sẽ được tải lại khi phát hiện có thay đổi và tập lệnh này khớp với URL của tab."
+   },
+   "searchCaseSensitive": {
+      "message": "Phân biệt hoa thường"
+   },
+   "searchUseRegex": {
+      "message": "Dùng biểu thức chính quy"
+   },
+   "sideMenuAbout": {
+      "message": "Thông tin"
+   },
+   "sideMenuInstalled": {
+      "message": "Script đã cài đặt"
+   },
+   "sideMenuSettings": {
+      "message": "Cài đặt"
+   },
+   "skipScripts": {
+      "message": "Tải lại trang không có tập lệnh người dùng\n\n "
+   },
+   "skipScriptsMsg": {
+      "message": "Bạn đã tắt userscript (tập lệnh người dùng) cho trang này. Để chạy chúng, hãy tải lại hoặc điều hướng tab."
+   },
+   "sortOrder": {
+      "message": "Thứ tự sắp xếp:"
+   },
+   "stopTracking": {
+      "message": "Dừng theo dõi"
+   },
+   "titleBadgeColor": {
+      "message": "Màu huy hiệu bình thường"
+   },
+   "titleBadgeColorBlocked": {
+      "message": "Màu huy hiệu khi trang web không thể đưa vào (danh sách đen hoặc không được hỗ trợ)"
+   },
+   "titleSearchHintV2": {
+      "message": "Phím 1Enter1 thêm văn bản vào lịch sử tự động hoàn thànhTất cả các điều kiện không phân biệt chữ hoa chữ thườngCác điều kiện phân tách bằng dấu cách có thể được kết hợpTìm kiếm theo siêu dữ liệu: 2\"Kịch bản tuyệt vời\" \"Mô tả\"2Tìm kiếm theo thẻ: 3#thẻ1 #thẻ23Tìm kiếm theo tên kịch bản: 4name:\"tên tuyệt vời\"4Tìm kiếm theo mã kịch bản: 5code:\"mã tuyệt vời\"5Tìm kiếm phủ định: 6!#thẻ2 !name:\"không mong muốn\"6Biểu thức chính quy: 7/\\w+?/7, 8/\\w+?/gi8, 9name:/\\w+?/9, 10name+re:\"\\w+? có khoảng trắng\"10"
+   },
+   "toggleInjection": {
+      "message": "Toggle userscript injection"
+   },
+   "trackEdits": {
+      "message": "Theo dõi chỉnh sửa bên ngoài"
+   },
+   "trackEditsNote": {
+      "message": "Giữ trang này mở để theo dõi các chỉnh sửa của bạn trong tệp cục bộ"
+   },
+   "updateListedCmd": {
+      "message": "Cập nhật tập lệnh ($1)"
+   },
+   "updateScript": {
+      "message": "Cập nhật"
+   },
+   "updateScriptsAll": {
+      "message": "Cập nhật tất cả tập lệnh"
+   },
+   "updateScriptsInTab": {
+      "message": "Cập nhật các tập lệnh của tab hiện tại"
+   },
+   "valueLabelKey": {
+      "message": "Khóa (chuỗi)"
+   },
+   "valueLabelValue": {
+      "message": "Giá trị (đã đưa về dạng JSON)"
+   },
+   "valueLabelValueAll": {
+      "message": "Tất cả giá trị (đã đưa về dạng JSON)"
+   }
+}

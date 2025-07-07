@@ -1,0 +1,530 @@
+{
+   "advancedLabel": {
+      "description": "Advanced label",
+      "message": "Avansert"
+   },
+   "allowlistedDomainsDescription": {
+      "description": "Enter domains to disable LocalCDN there. One entry per line.",
+      "message": "Skriv inn domener LocalCDN skal slås av for. Én oppføring per linje."
+   },
+   "allowlistedDomainsTitle": {
+      "description": "Deactivate LocalCDN for these domains:",
+      "message": "Slå av LocalCDN for disse domenene:"
+   },
+   "amountInjectedDescription": {
+      "description": "Amount injected description.",
+      "message": "Antall lokale injeksjoner av CDN-ressurser siden installering."
+   },
+   "betaLabel": {
+      "description": "beta",
+      "message": "Beta"
+   },
+   "blockGoogleFontsDescription": {
+      "description": "If requests for missing resources are allowed, connections to \"fonts.googleapis.com\" are not blocked. Enable this option to block these requests.",
+      "message": "Hvis forespørsler etter manglende ressurser er tillatt, blir tilkoblinger til \"fonts.googleapis.com\" ikke blokkert. Slå på dette alternativet for å blokkere disse forespørslene."
+   },
+   "blockGoogleFontsTitle": {
+      "description": "Block Google Fonts",
+      "message": "Blokker Google Fonts"
+   },
+   "blockMissingDescription": {
+      "description": "Block requests for missing resources description.",
+      "message": "Avbryt oppfanget forespørsel dersom den påkrevde ressursen ikke er lokalt tilgjengelig."
+   },
+   "blockMissingTitle": {
+      "description": "Block requests for missing resources title",
+      "message": "Blokker forespørsler etter manglende ressurser"
+   },
+   "btnAdvanced": {
+      "description": "Advanced",
+      "message": "Avansert"
+   },
+   "btnGeneral": {
+      "description": "Basic",
+      "message": "Generelt"
+   },
+   "btnInfo": {
+      "description": "Info",
+      "message": "Info"
+   },
+   "btnOther": {
+      "description": "Other",
+      "message": "Annet"
+   },
+   "changeBadgeColorMissingResourcesDescription": {
+      "description": "Change the badge color if resources are missing.",
+      "message": "Endre farge på tellermerke hvis ressurser mangler."
+   },
+   "changeBadgeColorMissingResourcesTitle": {
+      "description": "Indicate missing resources on the icon",
+      "message": "Indiker manglende ressurser på ikonet"
+   },
+   "chooseIconStyle": {
+      "description": "Choose an icon for this extension",
+      "message": "Velg et ikon for denne utvidelsen"
+   },
+   "copyRuleSet": {
+      "description": "Text of button to copy ruleset",
+      "message": "Kopier"
+   },
+   "counterBlocked": {
+      "description": "Blocked",
+      "message": "Blokkert"
+   },
+   "counterMissing": {
+      "description": "Missing",
+      "message": "Manglende"
+   },
+   "dialogConfirmDeleteStatistics": {
+      "description": "Are you sure you want to delete all the statistics?",
+      "message": "Er du sikker på at du vil slette all statistikk?"
+   },
+   "dialogImportFailed": {
+      "description": "Import failed",
+      "message": "Import mislyktes"
+   },
+   "dialogImportSuccessful": {
+      "description": "Import successful",
+      "message": "Import vellykket"
+   },
+   "disablePrefetchDescription": {
+      "description": "Disable prefetch description.",
+      "message": "Hindre at ikke tillatte forespørsler lekker ut til leveringsnettverk."
+   },
+   "disablePrefetchTitle": {
+      "description": "Disable prefetch title",
+      "message": "Slå av forhåndshenting av lenker"
+   },
+   "extensionDescription": {
+      "description": "Protects you against tracking through CDNs (Content Delivery Networks) by redirecting to local resources.",
+      "message": "Beskytter mot sporing gjennom CDN-er (innholdsleveransenettverk) ved å videresende til lokale ressurser."
+   },
+   "featureBreaksWebsitesButton": {
+      "description": "Disable",
+      "message": "Slå av"
+   },
+   "featureBreaksWebsitesDescription": {
+      "description": "This feature breaks websites. Do not leave it enabled, unless you are prepared to manually add affected domains to the allow list.",
+      "message": "Denne funksjonen kan forårsake feil på noen nettsteder. Ikke la den være slått på, med mindre du er forberedt på å manuelt sette berørte domener på tillatelseslisten."
+   },
+   "generateRuleSetDescription": {
+      "description": "In case you are using an adblocker you can generate the rules here. You have to add these rules manually in your adblocker.",
+      "message": "I tilfelle du bruker en reklameblokkerer kan reglene genereres her. Reglene må legges til manuelt i reklameblokkereren."
+   },
+   "generateRuleSetTitle": {
+      "description": "Generate rule sets for your adblocker",
+      "message": "Generer regelsett for din reklameblokkerer"
+   },
+   "headerImportExport": {
+      "description": "Import/Export",
+      "message": "Import/Eksport"
+   },
+   "headerStatistics": {
+      "description": "Statistics. The header of a statistics page.",
+      "message": "Statistikk"
+   },
+   "headerStorageType": {
+      "description": "Storage type",
+      "message": "Lagringstype"
+   },
+   "helpBlockGoogleFontsDescription": {
+      "description": "LocalCDN can replace »Google Material Icons«. To catch the connection your adblocker (e.g. uBlock Origin, uMatrix or AdGuard) must allow the request. LocalCDN listens on these requests and if the query contains »Google Material Icons«, the resource will be replaced. If you uncheck the »Block requests for missing content« option, non-existent resources will be allowed to pass and »Google Fonts« will be loaded, because »Google Material Icons« and »Google Fonts« use the same domain. If you don‘t want this, you can block »Google Fonts« on LocalCDN.",
+      "message": "LocalCDN kan erstatte »Google Material Icons«. For å få forbindelsen må adblockeren din (f.eks. UBlock Origin, uMatrix eller AdGuard) tillate forespørselen. LocalCDN lytter på disse forespørslene, og hvis spørringen inneholder »Google Material Icons«, blir ressursen erstattet. Hvis du fjerner merket for alternativet »Blokker forespørsler om manglende innhold«, vil ikke-eksisterende ressurser få passere og »Google Fonts« lastes inn, fordi »Google Material Icons« og »Google Fonts« bruker samme domene. Hvis du ikke vil ha dette, kan du blokkere »Google Fonts« på LocalCDN."
+   },
+   "helpBlockGoogleFontsTitle": {
+      "description": "Why is there a »Block Google Fonts« option?",
+      "message": "Hvorfor er det et alternativ »Blokker Google Fonts«?"
+   },
+   "helpBrowserCompatibility": {
+      "description": "Browser compatibility",
+      "message": "Nettleserkompatibilitet"
+   },
+   "helpBrowserCompatibilityTitle": {
+      "description": "Browser compatibility",
+      "message": "Nettleserkompatibilitet"
+   },
+   "helpData": {
+      "description": "Data",
+      "message": "Data"
+   },
+   "helpExplanationChrome": {
+      "description": "All Chromium based Browser",
+      "message": "Alle Chromium-baserte nettlesere"
+   },
+   "helpHtmlFilterAfter": {
+      "description": "The result then looks like this:",
+      "message": "Resultatet ser da slik ut:"
+   },
+   "helpHtmlFilterBefore": {
+      "description": "The HTML filter removes the red characters from this example:",
+      "message": "HTML-filteret fjerner de røde tegnene fra dette eksemplet:"
+   },
+   "helpHtmlFilterCrossorigin": {
+      "description": "The crossorigin attribute prevents the replacement because the destination does not match the requested one.",
+      "message": "Crossorigin-attributtet forhindrer erstatning fordi destinasjonen ikke samsvarer med den forespurte."
+   },
+   "helpHtmlFilterDescription": {
+      "description": "In most cases LocalCDN can easily replace embedded frameworks and improves privacy. In some cases the website may try to prevent this by setting certain options in the HTML source code. LocalCDN reads the HTML source code before it is displayed in the browser and removes these part (red).",
+      "message": "I de fleste tilfeller kan LocalCDN enkelt erstatte innebygde rammeverk og forbedre personvernet. I noen tilfeller kan nettstedet prøve å forhindre dette ved å sette visse alternativer i HTML-kildekoden. LocalCDN leser HTML-kildekoden før den vises i nettleseren og fjerner denne delen (rød)."
+   },
+   "helpHtmlFilterErrors": {
+      "description": "Unfortunately, it sometimes happens that special characters are then displayed incorrectly. In this case you can deactivate the setting again, to display the umlauts correctly.",
+      "message": "Dessverre hender det noen ganger at spesialtegn da vises feil. I dette tilfellet kan du deaktivere innstillingen på nytt for å vise umlautene riktig."
+   },
+   "helpHtmlFilterIntegrity": {
+      "description": "To save disk space and to deliver more frameworks LocalCDN upgrades a framework. An integrity tag is the hash value of a file. If the check fails, the browser won‘t include a framework. The integrity check will fail because the hash values for e.g. jQuery 1.10.1 and jQuery 1.12.4 are different.",
+      "message": "For å spare diskplass og levere flere rammeverk oppgraderer LocalCDN et rammeverk. Et integritetsmerke er hash-verdien til en fil. Hvis sjekken mislykkes, vil nettleseren ikke inkludere et rammeverk. Integritetskontrollen vil mislykkes fordi hash-verdiene for f.eks. jQuery 1.10.1 og jQuery 1.12.4 er forskjellige."
+   },
+   "helpHtmlFilterTitle": {
+      "description": "What is »HTML filter«?",
+      "message": "Hva er »HTML-filter«?"
+   },
+   "helpHtmlFilterWhyTitle": {
+      "description": "Why is it necessary to remove crossorigin and integrity attributes?",
+      "message": "Hvorfor er det nødvendig å fjerne crossorigin- og integritetsattributter?"
+   },
+   "helpIcons": {
+      "description": "Default, Light, Blue/Grey",
+      "message": "Standard, Lys, Blå/Grå"
+   },
+   "helpIntroductionDescription": {
+      "description": "LocalCDN is a web browser extension that emulates Content Delivery Networks to improve your online privacy. It intercepts traffic, finds supported frameworks/libraries locally, and injects them into the website. Feel free to use the following testing utility to find out if you are properly protected. For more information read the tutorial or our Wiki pages.",
+      "message": "LocalCDN er en nettleserutvidelse som etterligner Content Delivery Network for å forbedre personvernet ditt på nettet. Den snapper opp trafikk, finner støttede rammeverk/biblioteker lokalt, og injiserer dem inn på nettstedet. Bruk gjerne følgende testverktøy for å finne ut om du er ordentlig beskyttet. For mer informasjon, les bruksanvisningen eller våre Wiki-sider."
+   },
+   "helpIntroductionTitle": {
+      "description": "Introduction",
+      "message": "Introduksjon"
+   },
+   "helpLimitation": {
+      "description": "This is not a limitation of LocalCDN, but missing API support of Chromium based browsers.",
+      "message": "Dette er ikke en begrensning av LocalCDN, men manglende API-støtte for Chromium-baserte nettlesere."
+   },
+   "helpLinkTestUtility": {
+      "description": "Testing utility",
+      "message": "Testverktøy"
+   },
+   "helpLinkTutorial": {
+      "description": "Tutorial",
+      "message": "Bruksanvisning"
+   },
+   "helpLinkWikiPages": {
+      "description": "Wiki pages",
+      "message": "Wiki-sider"
+   },
+   "helpNo": {
+      "description": "No",
+      "message": "Nei"
+   },
+   "helpNumberOfInjections": {
+      "description": "Numbers of injections",
+      "message": "Antall injeksjoner"
+   },
+   "helpPermissionDescription": {
+      "description": "LocalCDN needs to know which requests are created by a website to redirect or block it. With the introduction of MV3, this permission is listed as an optional permission.",
+      "message": "LocalCDN må vite hvilke forespørsler som opprettes av et nettsted for å omdirigere eller blokkere dem. Med innføringen av MV3 er denne tillatelsen oppført som en valgfri tillatelse."
+   },
+   "helpReplace": {
+      "description": "Replace",
+      "message": "Erstatt"
+   },
+   "helpReplaceOther": {
+      "description": "Replace other resources",
+      "message": "Erstatt andre ressurser"
+   },
+   "helpRuleGeneratorDescription": {
+      "description": "If you want to automatically redirect all supported CDN connections to LocalCDN, you can add these rules to your adblocker to allow these redirections. If you do not want to add these rules, you must allow each CDN connection individually for each website.",
+      "message": "Hvis du vil omdirigere alle støttede CDN-tilkoblinger automatisk til LocalCDN, kan du legge til disse reglene i adblockeren din for å tillate disse omdirigeringene. Hvis du ikke vil legge til disse reglene, må du tillate hver CDN-forbindelse individuelt for hvert nettsted."
+   },
+   "helpRuleGeneratorTitle": {
+      "description": "Rule generator",
+      "message": "Regel-generator"
+   },
+   "helpRuleGeneratorUblockDescription": {
+      "description": "These rules are only relevant in »medium« or »hard« mode, because it blocks all 3rd-party resources. They are not necessary in »default«, »easy« or »very-easy« mode. For more information, please visit the uBlock Origin Wiki.",
+      "message": "Disse reglene er bare relevante i modusene »medium« eller »hard«, fordi de blokkerer alle tredjepartsressurser. De er ikke nødvendige i modusene »standard«, »lett« eller »veldig lett«. For mer informasjon, besøk uBlock Origin Wiki."
+   },
+   "helpRuleGeneratorUblockTableDefaultEasy": {
+      "description": "Default/Easy",
+      "message": "Standard/Lett"
+   },
+   "helpRuleGeneratorUblockTableHard": {
+      "description": "Hard",
+      "message": "Hard"
+   },
+   "helpRuleGeneratorUblockTableIcon": {
+      "description": "Icon",
+      "message": "Ikon"
+   },
+   "helpRuleGeneratorUblockTableMedium": {
+      "description": "Medium",
+      "message": "Medium"
+   },
+   "helpRuleGeneratorUblockTableMode": {
+      "description": "Mode",
+      "message": "Modus"
+   },
+   "helpRuleGeneratorUblockTableUseful": {
+      "description": "Rules useful",
+      "message": "Regler nyttige"
+   },
+   "helpRuleGeneratorUblockTitle": {
+      "description": "Only uBlock Origin:",
+      "message": "Bare uBlock Origin:"
+   },
+   "helpStatisticsContent": {
+      "description": "The statistics contain no information about the browser, operating system, requesting website, IP addresses or any other information. Just date, CDN+counter and framework+counter. It shows you which frameworks are replaced by LocalCDNs how often and which CDNs were requested.",
+      "message": "Statistikken inneholder ingen informasjon om nettleseren, operativsystemet, forespørsel om nettsted, IP-adresser eller annen informasjon. Bare dato, CDN+teller og framework+teller. Den viser deg hvilke framework som erstattes av LocalCDN, hvor ofte og hvilke CDN-er som ble forespurt."
+   },
+   "helpStatisticsDescription": {
+      "description": "Don‘t panic, nothing will be transmitted. It would be against all my principles. The statistics (JSON format) contains the following information: Date, CDN+counter and framework+counter. That‘s all. I‘ve an example here:",
+      "message": "Ikke få panikk, ingenting vil bli overført. Det ville være i strid med alle prinsippene mine. Statistikken (JSON-format) inneholder følgende informasjon: Dato, CDN+teller og framework+teller. Det er alt. Jeg har et eksempel her:"
+   },
+   "helpStatisticsTitle": {
+      "description": "What about the statistics? Is anything transferred to any servers?",
+      "message": "Hva med statistikken? Overføres noe til servere?"
+   },
+   "helpStatisticsTruthDescription": {
+      "description": "The extension storage can be viewed directly with the Firefox browser. Open the URL »about:debugging«, switch to »Storage« and select »Extension Storage«. Under the key »internalStatisticsData« you will find the collected data. Just copy it and put it into a JSON PrettyPrinter to make it more readable. Please note that you have to remove the first and last quotation mark and the key to it. You should be able to see this clearly in this video.",
+      "message": "Utvidelseslageret kan vises direkte med Firefox-nettleseren. Åpne siden »about:debugging«, skift til »Storage« og velg »Extension Storage«. Under nøkkelen »internalStatisticsData« finner du de innsamlede dataene. Bare kopier disse og legg de i en JSON PrettyPrinter for å gjøre den mer lesbar. Vær oppmerksom på at du må fjerne det første og siste anførselstegnet og nøkkelen. Du bør kunne se dette tydelig i denne videoen."
+   },
+   "helpStatisticsTruthTitle": {
+      "description": "How do I know that‘s true?",
+      "message": "Hvordan vet jeg at det er sant?"
+   },
+   "helpSyncAccount": {
+      "description": "If you don‘t have a sync account, nothing will be synchronized. In that case it makes no difference what type of storage you have selected.",
+      "message": "Hvis du ikke har en synkroniseringskonto, blir ingenting synkronisert. I så fall gjør det ingen forskjell hvilken type lagring du har valgt."
+   },
+   "helpSyncContentEver": {
+      "description": "Settings that will be synchronized:",
+      "message": "Innstillinger som skal synkroniseres:"
+   },
+   "helpSyncContentLinks": {
+      "description": "More information about Firefox Sync:",
+      "message": "Mer informasjon om Firefox Sync:"
+   },
+   "helpSyncContentNever": {
+      "description": "Things that are never synchronized:",
+      "message": "Ting som aldri blir synkronisert:"
+   },
+   "helpSyncDescription": {
+      "description": "Sync will only work if you are logged in with a Firefox account on the device and have allowed add-ons to sync in the settings. A separate sync server under your control will also work. This will synchronize most of the settings of LocalCDN across all devices.",
+      "message": "Synkronisering fungerer bare hvis du er logget inn med en Firefox-konto på enheten og har tillatt tillegg å synkronisere i innstillingene. En egen synkroniseringsserver under din kontroll vil også fungere. Dette vil synkronisere de fleste innstillingene til LocalCDN på alle enheter."
+   },
+   "helpSyncTitle": {
+      "description": "What will be synchronized when I select »sync« as storage type?",
+      "message": "Hva blir synkronisert når jeg velger »Synkronisert« som lagringstype?"
+   },
+   "helpUpgradeAllResources": {
+      "description": "Upgrade all resources",
+      "message": "Oppgrader alle ressursene"
+   },
+   "helpWebsiteIssuesDescription": {
+      "description": "There are two possible reasons: Either a framework/library is required that LocalCDN doesn‘t (yet) deliver or an SOP. A SOP (Same origin policy) is a security mechanism that determines what data the browser is allowed to load. It helps to isolate malicious documents and thus reduce possible attack vectors. This policy prevents the browser from loading the external frameworks of LocalCDN. Unfortunately there is no solution for this at the moment.",
+      "message": "Det er to mulige årsaker: Det kreves enten et rammeverk/bibliotek som LocalCDN ikke (ennå) leverer eller en SOP. En SOP (Same origin policy) er en sikkerhetsmekanisme som bestemmer hvilke data nettleseren har lov til å laste inn. Det hjelper til å isolere ondsinnede dokumenter og dermed redusere mulige angrepsvektorer. Denne praksisen forhindrer nettleseren å laste inn de eksterne rammeverkene fra LocalCDN. Dessverre er det ingen løsning på dette for øyeblikket."
+   },
+   "helpWebsiteIssuesTitle": {
+      "description": "Some websites look strange or are not easy to use",
+      "message": "Noen nettsteder ser rare ut eller er ikke enkle å bruke"
+   },
+   "helpWhatWillBeSynchronizedTitle": {
+      "description": "What will be synchronized when I select »sync« as storage type?",
+      "message": "Hva blir synkronisert når jeg velger »Synkronisert« som lagringstype?"
+   },
+   "helpWhyThisPermission": {
+      "description": "Why does this extension need this permission?",
+      "message": "Hvorfor trenger denne utvidelsen denne tillatelsen?"
+   },
+   "helpYes": {
+      "description": "Yes",
+      "message": "Ja"
+   },
+   "hideDonationButton": {
+      "description": "Hide donation button",
+      "message": "Skjul donasjonsknapp"
+   },
+   "htmlFilterDomainsDescription": {
+      "description": "Enter the domains to be handled or ignored by the HTML filter. One entry per line.",
+      "message": "Skriv inn domener som vil bli behandlet eller ignorert av HTML-filteret. En oppføring per linje."
+   },
+   "htmlFilterDomainsTitleExclude": {
+      "description": "Do not apply HTML filter to these domains:",
+      "message": "Ikke bruk HTML-filter på disse domenene:"
+   },
+   "htmlFilterDomainsTitleInclude": {
+      "description": "Apply HTML filter for these domains:",
+      "message": "Bruk HTML-filter på disse domenene:"
+   },
+   "internalStatisticsDescription": {
+      "description": "No data transmission. It’s all local on your device.",
+      "message": "Denne funksjonen er for tiden eksperimentell. Ingen dataoverføring. Alt er lokalt på din enhet."
+   },
+   "internalStatisticsTitle": {
+      "description": "Internal statistics",
+      "message": "Intern statistikk"
+   },
+   "labelAll": {
+      "description": "Statistics view over the whole time range",
+      "message": "Alle"
+   },
+   "labelAvg": {
+      "description": "Followed by a number of average injections per day within a specific period.",
+      "message": "Gjennomsnitt (erstatninger per dag)"
+   },
+   "labelDelete": {
+      "description": "Button to delete all statistics data.",
+      "message": "Slett"
+   },
+   "labelDomainsAllowlistGoogleFonts": {
+      "description": "These domains are allowed to load Google Fonts. One entry per line.",
+      "message": "Disse domenene tillates å laste Google Fonts. En oppføring per linje."
+   },
+   "labelDonate": {
+      "description": "Donate",
+      "message": "Doner"
+   },
+   "labelExportData": {
+      "description": "Back up to file",
+      "message": "Sikkerhetskopier til fil"
+   },
+   "labelImportData": {
+      "description": "Restore from file",
+      "message": "Gjenopprett fra fil"
+   },
+   "labelInjectedFrameworks": {
+      "description": "Followed by a number of injections within a specific period.",
+      "message": "Erstattede rammeverk"
+   },
+   "labelManipulateDOM": {
+      "description": "Filter HTML source code",
+      "message": "Filtrer HTML-kildekode"
+   },
+   "labelPastMonth": {
+      "description": "Statistics view for past month.",
+      "message": "Siste måned"
+   },
+   "labelPastWeek": {
+      "description": "Statistics view for past week.",
+      "message": "Siste uke"
+   },
+   "labelPastYear": {
+      "description": "Statistics view for past year.",
+      "message": "Siste år"
+   },
+   "labelStorageTypeLocal": {
+      "description": "Local",
+      "message": "Lokal"
+   },
+   "labelStorageTypeSync": {
+      "description": "Sync",
+      "message": "Synkronisert"
+   },
+   "labelToday": {
+      "description": "Statistics view for today.",
+      "message": "I dag"
+   },
+   "lastUpdate": {
+      "description": "Last update:",
+      "message": "Siste oppdatering:"
+   },
+   "loggingDescription": {
+      "description": "You can open the log with the icon in the menu. The log will be deleted when you close the browser or disable logging.",
+      "message": "Du kan åpne loggen med ikonet i menyen. Loggen blir slettet når du lukker nettleseren eller slår av logging."
+   },
+   "loggingTitle": {
+      "description": "Enable logging",
+      "message": "Slå på logging"
+   },
+   "negateHtmlFilterListDescription": {
+      "description": "Enable this option to always apply the HTML filter. The domains in the list will be ignored then. If this option is disabled, the HTML filter is only applied to domains in the list.",
+      "message": "Slå på dette alternativet for å alltid bruke HTML-filteret. Domenene i listen blir da ignorert. Hvis dette alternativet er slått av, blir HTML-filteret bare brukt på domener i listen."
+   },
+   "negateHtmlFilterListTitle": {
+      "description": "Invert HTML filter",
+      "message": "Inverter HTML-filter"
+   },
+   "negateHtmlFilterListWarning": {
+      "description": "This function can break websites. Please note the information on the Wiki page.",
+      "message": "Denne funksjonen kan forårsake feil på noen nettsteder. Vær oppmerksom på informasjonen på Wiki-siden."
+   },
+   "optionsTitle": {
+      "description": "Options title",
+      "message": "Innstillinger"
+   },
+   "permissionAllow": {
+      "description": "Allow",
+      "message": "Tillat"
+   },
+   "permissionMissing": {
+      "description": "Missing permission",
+      "message": "Manglende tillatelse"
+   },
+   "permissionMoreInfo": {
+      "description": "More info",
+      "message": "Mer info"
+   },
+   "permissionRevokedDescription": {
+      "description": "Please do not disable the permission. LocalCDN needs the permission to detect and redirect requests to CDNs.",
+      "message": "Ikke deaktiver tillatelsen. LocalCDN trenger tillatelsen for å oppdage og omdirigere forespørsler til CDN-er."
+   },
+   "permissionRevokedHeader": {
+      "description": "Permission revoked",
+      "message": "Tillatelse tilbakekalt"
+   },
+   "permissionRevokedPermissionName": {
+      "description": "The exact name of the permission. Exactly as it is displayed in Firefox.",
+      "message": "Få tilgang til dine data for alle nettsteder"
+   },
+   "showIconBadgeDescription": {
+      "description": "Show icon badge description.",
+      "message": "Vis antallet injiserte ressurser på utvidelsens ikon."
+   },
+   "showIconBadgeTitle": {
+      "description": "Show icon badge title",
+      "message": "Vis antall injeksjoner på ikonet"
+   },
+   "stripMetadataDescription": {
+      "description": "Strip metadata description.",
+      "message": "Slett sensitive data fra tillatte CDN-forespørsler for bedret personvern."
+   },
+   "stripMetadataTitle": {
+      "description": "Strip metadata title",
+      "message": "Fjern metadata fra tillatte forespørsler"
+   },
+   "titleBadgeDefault": {
+      "description": "Default badge",
+      "message": "Standard-tellermerke"
+   },
+   "titleBadgeHTMLFilter": {
+      "description": "HTML filter badge",
+      "message": "HTML-filter-tellermerke"
+   },
+   "titleBadgeMissingResource": {
+      "description": "Missing or blocked resources badge",
+      "message": "Manglende/blokkert ressurs-tellermerke"
+   },
+   "titleHelp": {
+      "description": "Help",
+      "message": "Hjelp"
+   },
+   "updateNotificationAlways": {
+      "description": "Always",
+      "message": "Alltid"
+   },
+   "updateNotificationNever": {
+      "description": "Never (Silent Updates)",
+      "message": "Aldri (stille oppdateringer)"
+   },
+   "updateNotificationOnlyRules": {
+      "description": "Only if new CDNs and rules",
+      "message": "Bare hvis nye CDN-er og regler"
+   },
+   "updateNotificationTitle": {
+      "description": "Notification after an update",
+      "message": "Varsel etter en oppdatering"
+   },
+   "websiteBroken": {
+      "description": "Website broken?",
+      "message": "Nettside defekt?"
+   }
+}

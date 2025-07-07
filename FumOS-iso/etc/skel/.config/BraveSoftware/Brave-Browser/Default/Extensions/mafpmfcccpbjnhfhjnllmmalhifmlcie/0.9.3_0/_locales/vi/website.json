@@ -1,0 +1,92 @@
+{
+    "installFirefox": {
+        "message": "Cài đặt trên Firefox"
+    },
+    "installChrome": {
+        "message": "Cài đặt trên Chrome"
+    },
+    "reportingBugs": {
+        "message": "Báo cáo lỗi"
+    },
+    "bugTracker": {
+        "message": "<a href=\"https://gitlab.onionize.space/\">Yêu cầu được cung cấp một tài khoản</a> tại Tor Project Gitlab, sau đó <a href=\"https://gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/snowflake/-/issues\">phản ánh về một vướng mắc mới</a> trong dự án Snowflake."
+    },
+    "descriptive": {
+        "message": "Hãy điền mô tả chi tiết nhất có thể với phiếu của bạn, và nếu có thể, hãy kèm theo nhật kí để chúng tôi có thể dễ dàng sửa lỗi."
+    },
+    "embed": {
+        "message": "Nhúng"
+    },
+    "websiteIntro": {
+        "message": "Snowflake là một hệ thống <strong>cho phép mọi người từ khắp nơi trên thế giới truy cập các trang web và ứng dụng bị kiểm duyệt</strong>. Tương tự như cách mà VPN hỗ trợ người dùng vượt qua kiểm duyệt Internet, Snowflake giúp bạn tránh bị chú ý bởi những bên kiểm duyệt Internet bằng cách khiến cho hoạt động Internet của bạn hiển thị như thể bạn đang sử dụng Internet cho một cuộc gọi thoại hoặc video thông thường."
+    },
+    "websiteIntro2": {
+        "message": "Có rất nhiều công cụ có sẵn, chẳng hạn như Snowflake, \"biến đổi\" hoạt động Internet, mỗi công cụ sử dụng một kỹ thuật khác nhau. Một số chuyển hướng lưu lượng truy cập, khiến cho chúng trông như là đến từ các nhà cung cấp đám mây phổ biến như Microsoft Azure và Amazon Web Service. Một số công cụ khác thì lại xáo trộn lưu lượng truy cập Internet để làm cho nó trông như hoàn toàn ngẫu nhiên."
+    },
+    "websiteIntro3": {
+        "message": "Do đó, việc xem xét ngăn chặn các công cụ vượt tường lửa như vậy trở nên tốn kém đối với các nhà kiểm duyệt vì nó sẽ yêu cầu chặn các phần lớn lưu lượng của Internet để đạt được mục tiêu đã định ban đầu."
+    },
+    "browser": {
+        "message": "Sử dụng Snowflake để vượt qua kiểm duyệt"
+    },
+    "censoredUsers": {
+        "message": "Không như các VPN, bạn không cần phải cài đặt một chương trình riêng biệt để kết nối tới một proxy Snowflake và vượt qua kiểm duyệt. Nó thông thường là một tính năng vượt qua kiểm duyệt được tích hợp sẵn ngay trong các app hiện tại. Giờ đây Snowflake có sẵn trong <a href=\"https://torproject.org/download\">Trình duyệt Tor Browser</a> trên máy bàn Desktop và Android, <a href=\"https://onionbrowser.com\">Trình duyệt Onion</a> trên iOS, và <a href=\"https://orbot.app\">Orbot</a> trên Android và iOS. Nếu đã tải về và cài đặt một trong những app này, và chúng bị kiểm duyệt tại quốc gia bạn sống, bạn có thể vượt qua sự kiểm duyệt bằng cách kích hoạt Snowflake thông qua trang cài đặt của app."
+    },
+    "extension": {
+        "message": "Giúp mọi người vượt qua kiểm duyệt: vận hành một proxy Snowflake"
+    },
+    "installExtension": {
+        "message": "Bạn có biết rằng, các proxy Snowflake được vận hành hoàn toàn bởi các tình nguyện viên chứ? Nói theo cách khác, một người dùng sẽ được ghép ngẫu nhiên với một proxy Snowflake bất kỳ, vận hành bởi một tình nguyện viên nào đó giống như bạn vậy! Do đó, nếu bạn muốn giúp đỡ mọi người vượt qua sự kiểm duyệt, hãy chiêm nghiệm rồi xem xét cài đặt và chạy một proxy Snowflake nhé. Điều kiện tiên quyết duy nhất đó là internet tại quốc gia lãnh thổ của bạn vẫn <strong>không</strong> bị kiểm duyệt gắt gao nặng nề."
+    },
+    "volunteer": {
+        "message": "Bạn có thể sát cánh, góp sức cùng hàng nghìn tình nguyện viên đến từ khắp nơi trên thế giới, những người đã và đang vận hành các proxy Snowflake. Không có gì phải lo lắng hay thắc mắc về việc liệu có những trang web nào mà mọi người đang truy cập thông qua proxy Snowflake của bạn cả. Địa chỉ IP duyệt web chính chủ của họ sẽ ăn khớp với nút giao Tor thoát ra (Tor exit node) của họ, chứ không phải địa chỉ của bạn."
+    },
+    "installWebExtensionIntro": {
+        "message": "Cài đặt tiện ích web"
+    },
+    "installOptions": {
+        "message": "Có nhiều cách khác nhau để chạy proxy Snowflake (từ người mới bắt đầu đến nâng cao):"
+    },
+    "possible": {
+        "message": "Ngoài ra, bạn có thể tự nhúng proxy Snowflake vào bên trong một trang trong trang web của riêng mình (e.g., <a href=\"https://relay.love\">relay.love</a>). Khách truy cập vào trang web của bạn có thể vào trang, bật proxy và để nó mở để cho phép mọi người ủy quyền qua nó (nó hoạt động và trông giống hệt như tiện ích mở rộng web)."
+    },
+    "installStandalone": {
+        "message": "Nếu bạn muốn chạy phiên bản dòng lệnh của proxy Snowflake trên máy tính để bàn hoặc máy chủ của mình, hãy xem <a href=\"https://community.torproject.org/relay/setup/snowflake/standalone/\">hướng dẫn</a> của chúng tôi để chạy proxy độc lập Snowflake."
+    },
+    "fileBug": {
+        "message": "Nếu như bạn gặp phải sự cố với Snowflake - cho dù là bạn đang sử dụng hay là đang vận hành nó -, xin hãy cân nhắc gửi một phản hồi cho chúng tôi để chúng tôi giải quyết lỗi.  Có hai phương cách để gửi một báo cáo lỗi như sau:"
+    },
+    "sharedAccount": {
+        "message": "Gửi một <a href=\"https://anonticket.onionize.space/\">tin báo ẩn danh</a> bằng cách tạo một mã nhận dạng (identifier) và đăng nhập bằng mã đó. Sau đó, tìm tới dự án Snowflake trong <strong>Danh sách tất cả các dự án</strong> và trình bày một thắc mắc mới."
+    },
+    "contactSnowflakeDevs": {
+        "message": "Nếu bạn quan tâm đến việc sử dụng Snowflake bên trong ứng dụng của mình, hãy liên hệ với <a href=\"https://lists.torproject.org/cgi-bin/mailman/listinfo/anti-censorship-team\">đội chống kiểm duyệt</a>."
+    },
+    "snowflakeTechOverview": {
+        "message": "Snowflake là một công nghệ vượt tường lửa mới, một phần của <a href=\"https://gitweb.torproject.org/torspec.git/tree/pt-spec.txt\">Các truyền tải Tích hợp</a> gia đình, điều đó đang tiếp tục được cải thiện. Bạn muốn tìm hiểu thêm về kiến trúc của nó? Hãy kiểm tra điều này <a href=\"https://gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/snowflake/-/wikis/Technical%20Overview\">Tổng quan về kỹ thuật</a> (trong Tiếng Anh)."
+    },
+    "faq": {
+        "message": "Tìm kiếm hỗ trợ về việc sử dụng Snowflake"
+    },
+    "support": {
+        "message": "Nếu bạn gặp sự cố khi cố gắng kết nối tới Tor bằng Snowflake, bạn có thể liên hệ với kênh hỗ trợ Tor trên <a href=\"https://t.me/TorProjectSupportBot\">Telegram</a>. Bạn cũng có thể ghé thăm <a href=\"https://support.torproject.org/censorship/\">Cổng thông tin hỗ trợ Tor</a> và <a href=\"https://forum.torproject.org/tag/snowflake\">Diễn đàn Tor</a> để được giải đáp."
+    },
+    "installWebExtension": {
+        "message": "Tiện ích web là cách đơn giản nhất để chạy proxy Snowflake. Chỉ cần cài đặt nó trên <a href=\"https://addons.mozilla.org/en-US/firefox/addon/torproject-snowflake/\">Firefox</a> hoặc <a href=\"https://chrome.google.com/webstore/detail/snowflake/mafpmfcccpbjnhfhjnllmmalhifmlcie\">Chrome</a>, bật tiện ích mở rộng lên, và xem biểu tượng chuyển sang màu xanh lục khi có người dùng nào đó kết nối thông qua proxy của bạn!"
+    },
+    "webBadgeTitle": {
+        "message": "Để tab trình duyệt này mở hoặc nhúng huy hiệu web vào trang web của bạn"
+    },
+    "webBadgeInstructions": {
+        "message": "Nếu bạn bật Snowflake bên dưới và để tab trình duyệt mở, người dùng có thể kết nối thông qua proxy mới của bạn!"
+    },
+    "StandaloneTitle": {
+        "message": "Chạy một proxy độc lập"
+    },
+    "howSnowflakeWorks": {
+        "message": "Tìm hiểu thêm về cách hoạt động của Snowflake"
+    },
+    "installEdge": {
+        "message": "Cài đặt trên Edge"
+    }
+}

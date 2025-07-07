@@ -1,0 +1,764 @@
+{
+   "buttonApply": {
+      "message": "Alkalmaz"
+   },
+   "buttonCancel": {
+      "message": "Mégsem"
+   },
+   "buttonClose": {
+      "message": "Bezárás"
+   },
+   "buttonDisable": {
+      "message": "Kikapcsol"
+   },
+   "buttonEdit": {
+      "message": "Szerkeszt"
+   },
+   "buttonEditClickHint": {
+      "message": "Használhatod a jobb klikket, a Ctrl+klikket és a görgő klikket a szkript nevén."
+   },
+   "buttonEmptyRecycleBin": {
+      "message": "Kuka kiűrítése most!"
+   },
+   "buttonEnable": {
+      "message": "Bekapcsol"
+   },
+   "buttonExportData": {
+      "message": "Exportálás zip-ként"
+   },
+   "buttonHome": {
+      "message": "Kezdőlap"
+   },
+   "buttonImportData": {
+      "message": "Importálás zip-ből"
+   },
+   "buttonInstallFromURL": {
+      "message": "Telepítés URL-ről"
+   },
+   "buttonNew": {
+      "message": "Új"
+   },
+   "buttonOK": {
+      "message": "Oké"
+   },
+   "buttonRecycleBin": {
+      "message": "Kuka"
+   },
+   "buttonRemove": {
+      "message": "Eltávolít"
+   },
+   "buttonReplace": {
+      "message": "Lecserél"
+   },
+   "buttonReplaceAll": {
+      "message": "Összes"
+   },
+   "buttonReset": {
+      "message": "Visszaállít"
+   },
+   "buttonResetSettings": {
+      "message": "Beállítások alaphelyzetbe állítása"
+   },
+   "buttonRestore": {
+      "message": "Helyreállít"
+   },
+   "buttonSave": {
+      "message": "Mentés"
+   },
+   "buttonSaveClose": {
+      "message": "Mentés & Bezárás"
+   },
+   "buttonSaved": {
+      "message": "Elmentve"
+   },
+   "buttonShowEditorState": {
+      "message": "Szerkesztő állapotának mutatása"
+   },
+   "buttonSupport": {
+      "message": "Támogatói oldal"
+   },
+   "buttonUndo": {
+      "message": "Visszavonás"
+   },
+   "buttonUpdate": {
+      "message": "Frissítés"
+   },
+   "buttonVacuum": {
+      "message": "Adatbázis takarítása"
+   },
+   "buttonVacuumed": {
+      "message": "Adatok feltakarítva"
+   },
+   "buttonVacuuming": {
+      "message": "Adatok feltakarítása..."
+   },
+   "confirmManualUpdate": {
+      "message": "Az automatikus frissítés le van tiltva ennél a szkriptnél.\nNyomj az \"Oké\"-ra, hogy mégis frissítsd."
+   },
+   "confirmNotSaved": {
+      "message": "A módosítások nincsenek mentve!\nKattints az \"Oké\"-ra, hogy elvesd őket, vagy a \"Mégse\"-re, ha maradni akarsz a szerkesztőben."
+   },
+   "confirmUndoImport": {
+      "message": "Az adatbázisban végzett összes módosítás visszaállítása (importálás, frissítés, szerkesztés, testreszabás)"
+   },
+   "descBlacklist": {
+      "message": "Az URL-ek, amik egyeznek ebben a listában, nem lesznek injektálva szkriptekkel."
+   },
+   "descBlacklistNet": {
+      "message": "Network blacklist (scripts won't connect to the matching sites and their cookies)"
+   },
+   "descCustomCSS": {
+      "message": "Egyedi CSS az itt található, kiegészítőn belüli oldalakra. Ha nem vagy biztos benne, hogy ez mire való akkor kérlek ne módosítsd."
+   },
+   "descEditorOptions": {
+      "message": "Egyedi beállítások a CodeMirror és bővítményei számára JSON objektumként, mint például: \u003Ccode>{\"indentUnit\":2, \"smartIndent\":true}\u003C/code> Megeshet, hogy van amelyik nem működik a Violentmonkey-n belül. Itt a \u003Ca href=\"https://codemirror.net/doc/manual.html#config\" target=\"_blank\" rel=\"noopener noreferrer\">teljes lista\u003C/a>."
+   },
+   "descEditorOptionsGeneric": {
+      "message": "Boolean options may be toggled by double-clicking on the value: \u003Ccode>true\u003C/code> = enabled, \u003Ccode>false\u003C/code> = disabled. Numeric options ending with \u003Ccode>Delay\u003C/code>, \u003Ccode>Interval\u003C/code>, \u003Ccode>Rate\u003C/code>, \u003Ccode>Time\u003C/code> are in milliseconds."
+   },
+   "descEditorOptionsVM": {
+      "message": "Nonstandard options: \u003Ccode>autocompleteOnTyping\u003C/code> is a delay in milliseconds to display autocomplete hints after typing (\u003Ccode>0\u003C/code> = disable), \u003Ccode>killTrailingSpaceOnSave\u003C/code> automatically removes trailing spaces in each line when saving, \u003Ccode>showTrailingSpace\u003C/code> shows the trailing spaces as dots."
+   },
+   "descScriptTemplate": {
+      "message": "Támogatott változók: \u003C{{name}}>, \u003C{{url}}>, \u003C{{date}}> és \u003C{{date:formátum}}>, ami a MomentJS formátumaival kompatibilis, pl. \u003C{{date:YYYY-MM-DD}}>."
+   },
+   "disabledScriptsGroup": {
+      "message": "group"
+   },
+   "disabledScriptsHide": {
+      "message": "hide"
+   },
+   "disabledScriptsSelector": {
+      "message": "Disabled scripts:"
+   },
+   "disabledScriptsShow": {
+      "message": "show"
+   },
+   "editHelpDocumention": {
+      "message": "Dokumentáció a userscript metaadat blokkjához és a \u003Ccode>GM\u003C/code> API-hoz:"
+   },
+   "editHelpKeyboard": {
+      "message": "Gyorsbillentyűk:"
+   },
+   "editHowToHint": {
+      "message": "Másik szerkesztőt szeretnél használni?"
+   },
+   "editLabelMeta": {
+      "message": "Egyedi metaadat"
+   },
+   "editLabelSettings": {
+      "message": "Szkript beállítások"
+   },
+   "editLongLine": {
+      "message": "Túl hosszú a sor"
+   },
+   "editLongLineTooltip": {
+      "message": "Ez a sor túl hosszú, ezért a szöveget összecsuktuk, hogy ne lassuljon le a szerkesztő.\nA haladó beállításokban átállíthatod a korlátot az alábbi érték módosításával, például:\n\"maxDisplayLength\": 20000"
+   },
+   "editNavCode": {
+      "message": "Kód"
+   },
+   "editNavSettings": {
+      "message": "Beállítások"
+   },
+   "editNavValues": {
+      "message": "Értékek"
+   },
+   "editValueAllHint": {
+      "message": "A teljes értéktár mutatása/szerkesztése"
+   },
+   "extDescription": {
+      "message": "Egy nyílt forráskódú userscript menedzser, ami rengeteg böngészőt támogat!"
+   },
+   "extName": {
+      "message": "Violentmonkey"
+   },
+   "failureReasonBlacklisted": {
+      "message": "Ez az oldal szerepel a Violentmonkey beállításainak feketelistáján"
+   },
+   "failureReasonNoninjectable": {
+      "message": "A Violentmonkey nem tud futtatni userscript-et ezen az oldalon\n(gyakori példák erre: böngésző felhasználói felülete, egy bővítményé, házirend által blokkolt, keresőmotor oldala Opera-ban)"
+   },
+   "failureReasonRestarted": {
+      "message": "Violentmonkey was restarted. Please reload the tab to run userscripts."
+   },
+   "fileInstallBlocked": {
+      "message": "Több módja is létezik helyi fájloknak a telepítésére, vagy szerkesztésük követésére: \u003C1> Húzd a fájlt egy megnyitott Violentmonkey oldalra vagy felugró menüre, beleértve ezt is. \u003C2> Telepíts egy helyi HTTP szervert ehhez a fájlhoz és nyisd meg azt a http://localhost-on keresztül. \u003C3> Engedélyezd a \"Fájl URL-ek elérése\"-t a Violentmonkey részleteiben a böngésző 'Kiegészítők' oldalán. Ez veszélyes, mert így bármelyik szkript elérhet bármilyen helyi fájlt."
+   },
+   "filterAlphabeticalOrder": {
+      "message": "ábécésorrend szerint"
+   },
+   "filterExecutionOrder": {
+      "message": "futtatási sorrend szerint"
+   },
+   "filterLastUpdateOrder": {
+      "message": "utolsó módosítás szerint"
+   },
+   "filterSize": {
+      "message": "méret alapján"
+   },
+   "genericError": {
+      "message": "Hiba"
+   },
+   "genericOff": {
+      "message": "ki"
+   },
+   "genericOn": {
+      "message": "be"
+   },
+   "genericUseGlobal": {
+      "message": "globális beállítás használata"
+   },
+   "hashPatternWarning": {
+      "message": "\"#\" patterns work only when initially opening the site or reloading the tab: $1"
+   },
+   "headerRecycleBin": {
+      "message": "Kuka"
+   },
+   "helpForLocalFile": {
+      "message": "Az oldalra húzott helyi szkriptekre vonatkozó instrukciók mutatása"
+   },
+   "hintForBatchAction": {
+      "message": "for $1 matching scripts"
+   },
+   "hintInputURL": {
+      "message": "Add meg az URL-t:"
+   },
+   "hintRecycleBin": {
+      "message": "Itt találhatóak a törölt szkriptek, amik 7 nap után végleg törlődnek."
+   },
+   "hintUseDownloadURL": {
+      "message": "Használd a @downloadURL-t"
+   },
+   "hintVacuum": {
+      "message": "Redundanciák elhagyása és a gyorsítótárból hiányzó erőforrások újratöltése."
+   },
+   "install": {
+      "message": "Telepítés"
+   },
+   "installFrom": {
+      "message": "Telepítés innen: $1"
+   },
+   "installOptionTrackTooltip": {
+      "message": "Ehhez a forrásfájl lapjának nyitva kell maradnia Firefox 68 és újabb verzióknál."
+   },
+   "labelAdvanced": {
+      "message": "Haladó"
+   },
+   "labelAllowUpdate": {
+      "message": "Frissítés engedélyezése"
+   },
+   "labelAuthor": {
+      "message": "Készítő: "
+   },
+   "labelAutoReloadCurrentTab": {
+      "message": "Aktuális lap újratöltése egy szkript ki/bekapcsolása után a menüben"
+   },
+   "labelAutoUpdate": {
+      "message": "Szkript frissítések keresése $1 naponta. Állítsd 0-ra, hogy kikapcsold."
+   },
+   "labelBackupMaintenance": {
+      "message": "Visszaállítás és karbantartás"
+   },
+   "labelBadge": {
+      "message": "Jelvényen mutat:"
+   },
+   "labelBadgeColors": {
+      "message": "Jelvény színek: "
+   },
+   "labelBadgeNone": {
+      "message": "egyik sem"
+   },
+   "labelBadgeTotal": {
+      "message": "futó szkriptek száma"
+   },
+   "labelBadgeUnique": {
+      "message": "egyedi futó szkriptek száma"
+   },
+   "labelBlacklist": {
+      "message": "Feketelista"
+   },
+   "labelContributors": {
+      "message": "Közreműködők"
+   },
+   "labelCurrentLang": {
+      "message": "Jelenlegi nyelv: "
+   },
+   "labelCustomCSS": {
+      "message": "Egyedi stílus"
+   },
+   "labelDownloadURL": {
+      "message": "Letöltési URL:"
+   },
+   "labelEditValue": {
+      "message": "Szkript érték szerkesztése"
+   },
+   "labelEditValueAll": {
+      "message": "Szkript értéktár szerkesztése"
+   },
+   "labelEditor": {
+      "message": "Szerkesztő"
+   },
+   "labelEnabledScriptsOnly": {
+      "message": "csak bekapcsolt szkriptek"
+   },
+   "labelExclude": {
+      "message": "@exclude szabályok"
+   },
+   "labelExcludeMatch": {
+      "message": "@exclude-match szabályok"
+   },
+   "labelExportScriptData": {
+      "message": "Szkript adatok exportálása"
+   },
+   "labelExposeStatus": {
+      "message": "Telepített verzió felfedése userscript katalógus oldalakon: $1"
+   },
+   "labelFastFirefoxInject": {
+      "message": "Alternatív $1 módszer Firefox-ban"
+   },
+   "labelFastFirefoxInjectHint": {
+      "message": "Egy alternatív injektálási módszer \u003Cdocument-start> szkriptekhez Firefox 59-től, ami gyorsabb, mint az alapértelmezett. A \"Szinkron page módhoz\" hasonlóan ez is megnöveli a memória használatot, így ha a szkripted enélkül is megfelelően fut, akkor nem tanácsos ezt használni."
+   },
+   "labelFeedback": {
+      "message": "Visszajelzés"
+   },
+   "labelGeneral": {
+      "message": "Általános"
+   },
+   "labelHelpTranslate": {
+      "message": "Segíts a fordításban!"
+   },
+   "labelHomepage": {
+      "message": "Honlap"
+   },
+   "labelHomepageURL": {
+      "message": "Weboldal:"
+   },
+   "labelIconURL": {
+      "message": "Icon URL:"
+   },
+   "labelImportScriptData": {
+      "message": "Szkript adatok importálása"
+   },
+   "labelImportSettings": {
+      "message": "Beállítások importálása"
+   },
+   "labelInclude": {
+      "message": "@include szabályok"
+   },
+   "labelInjectionMode": {
+      "message": "Injektálási mód: "
+   },
+   "labelInstall": {
+      "message": "Szkript telepítése:"
+   },
+   "labelKeepOriginal": {
+      "message": "Eredeti megtartása"
+   },
+   "labelLastUpdatedAt": {
+      "message": "Utoljára frissítve: $1"
+   },
+   "labelLineNumber": {
+      "message": "Sor száma: "
+   },
+   "labelMatch": {
+      "message": "@match szabályok"
+   },
+   "labelName": {
+      "message": "Név:"
+   },
+   "labelNoFrames": {
+      "message": "Futás keretekben: "
+   },
+   "labelNoName": {
+      "message": "Hiányzik a név"
+   },
+   "labelNoSearchScripts": {
+      "message": "Egy szkript sem található."
+   },
+   "labelNotifyThisUpdated": {
+      "message": ", majd értesítés:"
+   },
+   "labelNotifyUpdates": {
+      "message": "Értesítés szkript frissítéséről"
+   },
+   "labelNotifyUpdatesGlobal": {
+      "message": "szkriptenkénti szabályok figyelmen kívül hagyása (\"Beállítások\" fül a szerkesztőben)"
+   },
+   "labelPrivacyPolicy": {
+      "message": "Adatvédelmi irányelvek"
+   },
+   "labelReinstall": {
+      "message": "Szkript újratelepítése:"
+   },
+   "labelRelated": {
+      "message": "Kapcsolódó linkek: "
+   },
+   "labelRemovedAt": {
+      "message": "Törölve: $1"
+   },
+   "labelReplace": {
+      "message": "Csere erre: "
+   },
+   "labelRunAt": {
+      "message": "Futtatás ekkor: "
+   },
+   "labelRunAtDefault": {
+      "message": "(Alapértelmezett)"
+   },
+   "labelScriptTemplate": {
+      "message": "Egyedi Szkript Sablon"
+   },
+   "labelSearch": {
+      "message": "Keresés erre: "
+   },
+   "labelSearchScript": {
+      "message": "Keresés a szkriptekben..."
+   },
+   "labelSettings": {
+      "message": "Beállítások"
+   },
+   "labelShowOrder": {
+      "message": "Futtatási sorrend számozásának mutatása"
+   },
+   "labelSync": {
+      "message": "Szinkronizálás"
+   },
+   "labelSyncAnonymous": {
+      "message": "Névtelen fiók használata"
+   },
+   "labelSyncAuthorize": {
+      "message": "Hitelesít"
+   },
+   "labelSyncAuthorizing": {
+      "message": "Hitelesítés"
+   },
+   "labelSyncDisabled": {
+      "message": "Egyik sem"
+   },
+   "labelSyncPassword": {
+      "message": "Jelszó: "
+   },
+   "labelSyncRevoke": {
+      "message": "Visszavonás"
+   },
+   "labelSyncScriptStatus": {
+      "message": "Szkript állapot szinkronizálása"
+   },
+   "labelSyncServerUrl": {
+      "message": "Szerver URL: "
+   },
+   "labelSyncService": {
+      "message": "Szinkronizálás a következővel:"
+   },
+   "labelSyncUsername": {
+      "message": "Felhasználónév: "
+   },
+   "labelTags": {
+      "message": "Címkék (szóközzel tagolva):"
+   },
+   "labelTheme": {
+      "message": "Téma: "
+   },
+   "labelUpdateURL": {
+      "message": "Frissítési URL:"
+   },
+   "labelViewSingleColumn": {
+      "message": "Egy oszlop"
+   },
+   "labelViewTable": {
+      "message": "Táblázat nézet"
+   },
+   "labelWidth": {
+      "message": "Width:"
+   },
+   "labelXhrInject": {
+      "message": "Szinkron $1 mód"
+   },
+   "labelXhrInjectHint": {
+      "message": "Csak akkor engedélyezd, hogyha van olyan szkripted, aminek már akkor futnia kéne, amikor az oldal elkezd betölteni; illetve az jelenleg túl későn kezd el futni. Csak úgy, mint a Tampermonkey Azonnali injektálási módjánál, ez a opció is elavult szinkron XHR-t használ, vagyis Chrome/Chromium böngészőkben figyelmeztetéseket láthatsz a fejlesztői-eszközök konzolban, noha ezeket nyugodtan figyelmen kívül hagyhatod, mivel ebben az esetben ez semmilyen valódi kellemetlenséget nem okoz. Tartósan el is rejtheted ezeket a figyelmeztetéseket jobb gombbal rájuk kattintva."
+   },
+   "labelXhrInjectNote": {
+      "message": "(kivéve inkognitóban és oldalakon, ahol le vannak tiltva a sütik)"
+   },
+   "lastSync": {
+      "message": "Utoljára szinkronizálva: $1"
+   },
+   "learnBlacklist": {
+      "message": "Tudj meg többet a feketelista mintákról."
+   },
+   "learnInjectionMode": {
+      "message": "Tudj meg többet az injektálási módokról."
+   },
+   "menuDashboard": {
+      "message": "Irányítópult megnyitása"
+   },
+   "menuExclude": {
+      "message": "Kizárás..."
+   },
+   "menuExcludeHint": {
+      "message": "A jelenlegi lap újra fog töltődni, ha engedélyezted ezt az általános beállításokban.\nAhhoz, hogy érvényre jusson a változtatás az összes többi lapon, ahhoz kérlek frissítsd őket manuálisan.\nHasználd a \"Beállítások\" fület a szerkesztőben a nagyobb rugalmasság érdekében."
+   },
+   "menuFeedback": {
+      "message": "Visszajelzés"
+   },
+   "menuFindScripts": {
+      "message": "Szkriptek keresése ehhez az oldalhoz"
+   },
+   "menuInjectionFailed": {
+      "message": "Néhány szkript injektálása nem sikerült."
+   },
+   "menuInjectionFailedFix": {
+      "message": "Újrapróbálás \"auto\" móddal"
+   },
+   "menuMatchedDisabledScripts": {
+      "message": "Egyező kikapcsolt szkriptek"
+   },
+   "menuMatchedFrameScripts": {
+      "message": "Csak alkeretben futó szkriptek"
+   },
+   "menuMatchedScripts": {
+      "message": "Egyező szkriptek"
+   },
+   "menuNewScript": {
+      "message": "Új szkript készítése"
+   },
+   "menuScriptDisabled": {
+      "message": "Szkript kikapcsolva"
+   },
+   "menuScriptEnabled": {
+      "message": "Szkript bekapcsolva"
+   },
+   "msgCheckingForUpdate": {
+      "message": "Frissítések keresése..."
+   },
+   "msgDateFormatInfo": {
+      "message": "Kattints a MomentJS dokumentáció megnyitásához. Érvényes tokenek: $1. Használj [szögletes zárójeleket] az egyszerű szöveg megóvásához."
+   },
+   "msgErrorFetchingResource": {
+      "message": "Hiba az erőforrás lekérésekor!"
+   },
+   "msgErrorFetchingScript": {
+      "message": "Hiba a szkript lekérésekor!"
+   },
+   "msgErrorFetchingUpdateInfo": {
+      "message": "A frissítési információk lekérése nem sikerült."
+   },
+   "msgErrorLoadingData": {
+      "message": "Hiba a szkript adatok betöltésekor."
+   },
+   "msgErrorLoadingDependency": {
+      "message": "Hiba a függőségek betöltésekor."
+   },
+   "msgImported": {
+      "message": "$1 elem importálva."
+   },
+   "msgIncognitoChanges": {
+      "message": "A változtatások, amiket inkognitó módban végzel érvényesek lesznek a fő profilodban is."
+   },
+   "msgInstalled": {
+      "message": "Szkript telepítve."
+   },
+   "msgInvalidScript": {
+      "message": "Érvénytelen szkript!"
+   },
+   "msgLoadingData": {
+      "message": "Szkript adatok betötése..."
+   },
+   "msgLoadingDependency": {
+      "message": "Függőségek betöltése... ($1/$2)"
+   },
+   "msgMissingResources": {
+      "message": "Szükséges erőforrások hiányoznak."
+   },
+   "msgNamespaceConflict": {
+      "message": "Egy ugyanilyen szkript már telepítve van.\nKérlek vagy használj más @name, vagy @namespace értékeket itt, vagy szerkeszd a meglévőt."
+   },
+   "msgNamespaceConflictRestore": {
+      "message": "Egy szkript ugyanezzel a @name és @namespace értékkel már telepítve van."
+   },
+   "msgNewVersion": {
+      "message": "Új verzió érhető el."
+   },
+   "msgNoUpdate": {
+      "message": "Nem található frissítés."
+   },
+   "msgOpenUpdateErrors": {
+      "message": "Hiba a szkriptek frissítésekor. Kattints a megnyitásukhoz."
+   },
+   "msgReinstallScripts": {
+      "message": "Kérlek mentsd le újra, vagy telepítsd újra ez(eke)t a szkript(ek)et, mert hiányos(ak):"
+   },
+   "msgSameCode": {
+      "message": " (a kód azonos)"
+   },
+   "msgScriptUpdated": {
+      "message": "A(z) [$1] szkript frissítve!"
+   },
+   "msgShowHide": {
+      "message": "Mutat/elrejt"
+   },
+   "msgSyncError": {
+      "message": "Szinkronizálási hiba!"
+   },
+   "msgSyncInit": {
+      "message": "Inicializálás..."
+   },
+   "msgSyncInitError": {
+      "message": "Hiba inicializáláskor!"
+   },
+   "msgSyncNoAuthYet": {
+      "message": "Még nincs hitelesítve."
+   },
+   "msgSyncReady": {
+      "message": "A szinkronizálás hamarosan megkezdődik..."
+   },
+   "msgSyncing": {
+      "message": "Szinkronizálás folyamatban..."
+   },
+   "msgSyntaxError": {
+      "message": "Szintaktikai hiba?"
+   },
+   "msgTardyMatch": {
+      "message": "The script didn't exist or didn't match the URL when the page loaded, which happens in Single-Page Application sites like fb or instagram that are using fake navigation. You can reload the tab to run the script. To fix the script use @match for the entire site and then detect changes using MutationObserver or window.navigation API."
+   },
+   "msgUpdated": {
+      "message": "Szkript frissítve."
+   },
+   "msgUpdating": {
+      "message": "Frissítés..."
+   },
+   "noValues": {
+      "message": "Nincs érték eltárolva"
+   },
+   "optionEditorWindow": {
+      "message": "Szerkesztő megnyitása a felugró menüből új ablakban"
+   },
+   "optionEditorWindowHint": {
+      "message": "A szerkesztő ablak mérete csak átméretezéskor vagy mentéskor lesz megjegyezve"
+   },
+   "optionEditorWindowSimple": {
+      "message": "Omnibox elrejtése"
+   },
+   "optionPopup": {
+      "message": "Felugró menü és ikon"
+   },
+   "optionPopupEnabledFirst": {
+      "message": "Bekapcsoltak elöl"
+   },
+   "optionPopupGroupRunAt": {
+      "message": "Csoportosítás @run-at szerint"
+   },
+   "optionShowEnabledFirst": {
+      "message": "Bekapcsolt szkriptek mutatása elöl"
+   },
+   "optionUiTheme": {
+      "message": "Felület témája: "
+   },
+   "optionUiThemeAuto": {
+      "message": "automatikus"
+   },
+   "optionUiThemeDark": {
+      "message": "sötét"
+   },
+   "optionUiThemeLight": {
+      "message": "világos"
+   },
+   "optionUpdate": {
+      "message": "Frissítés"
+   },
+   "popupSettings": {
+      "message": "Popup settings"
+   },
+   "popupSettingsHint": {
+      "message": "Right-click: popup settings"
+   },
+   "readonly": {
+      "message": "Csak olvasható"
+   },
+   "readonlyNote": {
+      "message": "Az automatikusan frissülő szkriptek csak olvashatóak, hacsak nem tiltod a frissítéseket, vagy engedélyezed a szerkesztést."
+   },
+   "readonlyOpt": {
+      "message": "Szerkesztés engedélyezése"
+   },
+   "readonlyOptWarn": {
+      "message": "(a következő frissítés felül fogja írni)"
+   },
+   "reinstall": {
+      "message": "Újratelepítés"
+   },
+   "reloadTab": {
+      "message": "Lap frissítése"
+   },
+   "reloadTabTrackHint": {
+      "message": "Ha engedélyezve van, akkor az aktív lap frissülni fog változások észlelésekor, hogyha az URL-e összeillik a szkripttel."
+   },
+   "searchCaseSensitive": {
+      "message": "Kis- és nagybetűk megkülönböztetése"
+   },
+   "searchUseRegex": {
+      "message": "Regex használata"
+   },
+   "sideMenuAbout": {
+      "message": "Rólunk"
+   },
+   "sideMenuInstalled": {
+      "message": "Telepített szkriptek"
+   },
+   "sideMenuSettings": {
+      "message": "Beállítások"
+   },
+   "skipScripts": {
+      "message": "Oldal újratöltése userscript-ek nélkül"
+   },
+   "skipScriptsMsg": {
+      "message": "A userscript-ek le lettek tiltva ezen az oldalon. Hogy futtasd őket frissítsd az oldalt, vagy navigálj egy másikra."
+   },
+   "sortOrder": {
+      "message": "Sort order:"
+   },
+   "stopTracking": {
+      "message": "Nyomon követés leállítása"
+   },
+   "titleBadgeColor": {
+      "message": "Normál jelvény szín"
+   },
+   "titleBadgeColorBlocked": {
+      "message": "Jelvény szín, amikor az oldal nem injektálható (feketelistázott vagy nem támogatott)"
+   },
+   "titleSearchHintV2": {
+      "message": "* Az \u003Ckbd>Enter\u003C/kbd> billentyűvel hozzáadódik a keresés az automata-kiegészítés előzményekhez\n* Minden keresési feltétel kis- és nagybetű érzékeny\n* A szóközzel elválasztott feltételek kombinálhatóak\n* Keresés metadatokra: \u003Ccode>\"Lenyűgöző szkript\" \"Leírás\"\u003C/code>\n* Keresés címkékre: \u003Ccode>#címke1 #címke2\u003C/code>\n* Keresés szkript nevére: \u003Ccode>name:\"lenyűgöző név\"\u003C/code>\n* Keresés szkript kódra: \u003Ccode>code:\"lenyűgöző kód\"\u003C/code>\n* Kizáró keresés: \u003Ccode>!#címke2 !name:\"nemkívánt\"\u003C/code>\n* Reguláris kifejezések: \u003Ccode>/\\w+?/\u003C/code>, \u003Ccode>/\\w+?/gi\u003C/code>, \u003Ccode>name:/\\w+?/\u003C/code>, \u003Ccode>name+re:\"\\w+? szóközzel elválasztva\"\u003C/code>"
+   },
+   "toggleInjection": {
+      "message": "Toggle userscript injection"
+   },
+   "trackEdits": {
+      "message": "Külső módosítások nyomon követése"
+   },
+   "trackEditsNote": {
+      "message": "Tartsd nyitva ezt az oldalt a helyi fájl módosításainak követéséhez"
+   },
+   "updateListedCmd": {
+      "message": "Szkriptek frissítése ($1)"
+   },
+   "updateScript": {
+      "message": "Frissítés"
+   },
+   "updateScriptsAll": {
+      "message": "Update all scripts"
+   },
+   "updateScriptsInTab": {
+      "message": "Update current tab's scripts"
+   },
+   "valueLabelKey": {
+      "message": "Kulcs (sztring)"
+   },
+   "valueLabelValue": {
+      "message": "Érték (JSON-ként sorosítva)"
+   },
+   "valueLabelValueAll": {
+      "message": "Összes érték (JSON-ként sorosítva)"
+   }
+}

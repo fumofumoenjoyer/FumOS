@@ -1,0 +1,92 @@
+{
+    "descriptive": {
+        "message": "Pyri kuvailemaan ongelmasi mahdollisimman tarkasti ja jos mahdollista, sisällytä myös lokitiedot, jotka voivat auttaa meitä todentamaan vian."
+    },
+    "embed": {
+        "message": "Upota"
+    },
+    "bugTracker": {
+        "message": "<a href=\"https://gitlab.onionize.space/\">Pyydä tili</a> Tor-projektin GitLabiin, jonka jälkeen voit avata Snowflake-projektiin <a href=\"https://gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/snowflake/-/issues\">uuden ongelmatapauksen</a>."
+    },
+    "browser": {
+        "message": "Ohita sensuuri Snowflaken avulla"
+    },
+    "installWebExtensionIntro": {
+        "message": "Asenna web-laajennus"
+    },
+    "installFirefox": {
+        "message": "Asenna Firefoxiin"
+    },
+    "installChrome": {
+        "message": "Asenna Chromeen"
+    },
+    "reportingBugs": {
+        "message": "Vikojen ilmoittaminen"
+    },
+    "fileBug": {
+        "message": "Jos kohtaat Snowflaken kanssa ongelmia, olitpa sitten käyttäjä tai ylläpitäjä, harkitse vikailmoituksen tekemistä. Tämä onnistuu kahdella tavalla:"
+    },
+    "websiteIntro3": {
+        "message": "Näin ollen tämän tyyppisten kiertotyökalujen estäminen on sensuroiville tahoille kallista, koska halutun tuloksen saavuttamiseksi olisi estettävä suuria osia koko Internetistä."
+    },
+    "censoredUsers": {
+        "message": "VPN-yhteyksistä poiketen sinun ei tarvitse asentaa erillistä sovellusta yhdistääksesi Snowflake-välityspalvelimeen ja ohittaaksesi sensuurin. Se on yleensä sovelluksiin valmiiksi sisäänrakennettu kierto-ominaisuus. Tällä hetkellä Snowflake löytyy <a href=\"https://torproject.org/download\">Tor-selaimen</a> työpöytä- ja Android-versioista, <a href=\"https://onionbrowser.com\">Onion-selaimen</a> iOS-versiosta ja <a href=\"https://orbot.app\">Orbotin</a> Android- ja iOS-versioista. Jos olet ladannut ja asentanut näitä sovelluksia ja niiden yhteydet on sijainnissasi estetty, voit välttää sensuurin aktivoimalla Snowflaken sovellusten asetuksista."
+    },
+    "sharedAccount": {
+        "message": "Lähetä <a href=\"https://anonticket.onionize.space/\">nimetön tiketti</a> luomalla tunniste ja kirjautumalla sillä sisään. Etsi sitten Snowflake kohdasta <strong>List of all projects</strong> ja luo uusi ongelmatapaus."
+    },
+    "websiteIntro2": {
+        "message": "Snowflaken kaltaisia Internet-toimintaa \"muuttavia\" erilaisia tekniikoita käyttäviä työkaluja on saatavilla useita. Jotkut uudelleenohjaavat Internet-tietoliikenteen ja saavat sen näyttämään siltä kuin se olisi lähtöisin suositusita pilvipalveluista, kuten Microsoft Azure tai Amazon Web -palveluista. Toiset sekoittavat Internet-tietoliikenteen saadakseen sen näytämään täysin satunnaiselta."
+    },
+    "extension": {
+        "message": "Auta muita kiertämään sensuuri ylläpitämällä Snowflake-välityspalvelinta"
+    },
+    "installExtension": {
+        "message": "Tiesitkö, että Snowflake-välityspalvelimet ovat vapaaehtoisten ylläpitämiä? Toisin sanoen, jokainen käyttäjä paritetaan satunnaisen, kaltaisesi vapaaehtoisen ylläpitämän Snowflake-välityspalvelimen kanssa. Jos haluat auttaa muita kiertämään sensuuria, harkitse oman Snowflake-välityspalvelimen asentamiosta ja ylläpitämistä. Ainoa vaatimus on, että Internet <strong>ei</strong> ole omassa maassasi jo valmiiksi vahvasti sensuroitu."
+    },
+    "volunteer": {
+        "message": "Voit liittyä tuhansien vapaaehtoisten Snowflake-välityspalvelinylläpitäjien maailmanlaajuiseen joukkoon. Sinun ei tarvitse huolehtia mitä verkkosivustoja Snowflake-välityspalvelimesi kautta käytetään, koska heidän ulospäin näkyvä IP-osoite on sinun osoitteesi sijaan käytetyn Tor-päätössolmun osoite."
+    },
+    "installOptions": {
+        "message": "Snowflake-välityspalvelimia voidaan suorittaa eri tavoin (aloittelijoille ja edistyneille käyttäjille):"
+    },
+    "installWebExtension": {
+        "message": "Web-laajennus on helpoin tapa suorittaa Snowflake-välityspalvelin. Asenna se vain <a href=\"https://addons.mozilla.org/en-US/firefox/addon/torproject-snowflake/\">Firefoxiin</a> tai <a href=\"https://chrome.google.com/webstore/detail/snowflake/mafpmfcccpbjnhfhjnllmmalhifmlcie\">Chromeen</a>, aktivoi laajennus ja näe kuvakkeen muuttuvan vihreäksi kun käyttäjä muodostaa yhteyden välityspalvelimesi kautta!"
+    },
+    "webBadgeTitle": {
+        "message": "Jätä selaimen tämä välilehti auki tai upota verkkosivu omalle sivustollesi"
+    },
+    "webBadgeInstructions": {
+        "message": "Jos aktivoit Snowflaken alta ja jätät selaimen välilehden auki, käyttäjä voit muodostaa yhteyden uuden välityspalvelimesi kautta!"
+    },
+    "StandaloneTitle": {
+        "message": "Suorita itsenäinen välityspalvelin"
+    },
+    "possible": {
+        "message": "Vaihtoehtoisesti voit upottaa Snowflake-välityspalvelimen itse oman verkkosivustosi sivulle (esim. <a href=\"https://relay.love\">relay.love</a>). Sivustosi käyttäjät voivat avata sivun, aktivoida välityspalvelimen ja jättää sen auki jolloin sen kautta voidaan muodostaa yhteys (se toimii täsmälleen web-laajennuksen tavoin)."
+    },
+    "installStandalone": {
+        "message": "Jos haluat suorittaa Snowflake-völityspalvelimen komentoriviversion pöytä- tai palvelinkoneella, tutustu itsenäisen Snowflake-välityspalvelimen <a href=\"https://community.torproject.org/relay/setup/snowflake/standalone/\">suoritusoppaaseemme</a>."
+    },
+    "contactSnowflakeDevs": {
+        "message": "Jos olet kiinnostunut hyödyntämään Snowflakea omassa sovelluksessasi, ota yhteyttä <a href=\"https://lists.torproject.org/cgi-bin/mailman/listinfo/anti-censorship-team\">Anti-Censorship-ryhmään</a>."
+    },
+    "snowflakeTechOverview": {
+        "message": "Snowflake on uusi kiertotekniikka, joka on osa <a href=\"https://gitweb.torproject.org/torspec.git/tree/pt-spec.txt\">Pluggable Transports</a> -perhettä, jota parannetaan jatkuvasti. Haluatko tietää arkkitehtuurista lisää? Tutustu tähän <a href=\"https://gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/snowflake/-/wikis/Technical%20Overview\">Tekniseen yhteenvetoon</a> (englanniksi)."
+    },
+    "support": {
+        "message": "Jos kohtaat ongelmia yhdistäessäsi Tor-verkkoon Snowflaken avulla, tavoitat Torin tukikikavan <a href=\"https://t.me/TorProjectSupportBot\">Telegramilla</a>. Voit etsiä vastauksia myös <a href=\"https://support.torproject.org/censorship/\">Torin tukisivustolta</a> ja <a href=\"https://forum.torproject.org/tag/snowflake\">keskustelualueelta</a>."
+    },
+    "websiteIntro": {
+        "message": "Snowflake on järjestelmä, jonka avulla <strong>voidaan käyttää sensuroituja verkkosivuja ja applikaatioita kaikkialta maailmasta</strong>. Samalla tavalla kuin VPN-yhteydet auttavat ohittamaan Internet- sensuurin, auttaa Snowflake välttämään Internet-sensorit saamalla Internet-toimintasi näytäämään tavallisilta video- ja äänipuheluilta."
+    },
+    "howSnowflakeWorks": {
+        "message": "Lue lisää Snowflaken toiminnasta"
+    },
+    "faq": {
+        "message": "Etsitkö tukea Snowflaken käyttöön"
+    },
+    "installEdge": {
+        "message": "Asenna Edgeen"
+    }
+}

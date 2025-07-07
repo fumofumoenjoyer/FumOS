@@ -1,0 +1,764 @@
+{
+   "buttonApply": {
+      "message": "Apply"
+   },
+   "buttonCancel": {
+      "message": "Ακύρωση"
+   },
+   "buttonClose": {
+      "message": "Κλείσιμο"
+   },
+   "buttonDisable": {
+      "message": "Απενεργοποίηση"
+   },
+   "buttonEdit": {
+      "message": "Επεξεργασία"
+   },
+   "buttonEditClickHint": {
+      "message": "You can also Right-click, Ctrl-click, Wheel-click on the script name."
+   },
+   "buttonEmptyRecycleBin": {
+      "message": "Άδειασμα κάδου ανακύκλωσης τώρα!"
+   },
+   "buttonEnable": {
+      "message": "Ενεργοποίηση"
+   },
+   "buttonExportData": {
+      "message": "Εξαγωγή σε zip"
+   },
+   "buttonHome": {
+      "message": "Αρχική σελίδα"
+   },
+   "buttonImportData": {
+      "message": "Εισαγωγή από zip"
+   },
+   "buttonInstallFromURL": {
+      "message": "Εγκατάσταση από URL"
+   },
+   "buttonNew": {
+      "message": "Νέο"
+   },
+   "buttonOK": {
+      "message": "Εντάξει"
+   },
+   "buttonRecycleBin": {
+      "message": "Κάδος Ανακύκλωσης"
+   },
+   "buttonRemove": {
+      "message": "Αφαίρεση"
+   },
+   "buttonReplace": {
+      "message": "Αντικατάσταση"
+   },
+   "buttonReplaceAll": {
+      "message": "Όλα"
+   },
+   "buttonReset": {
+      "message": "Επαναφορά"
+   },
+   "buttonResetSettings": {
+      "message": "Reset settings"
+   },
+   "buttonRestore": {
+      "message": "Επαναφορά"
+   },
+   "buttonSave": {
+      "message": "Αποθήκευση"
+   },
+   "buttonSaveClose": {
+      "message": "Αποθήκευση και Κλείσιμο"
+   },
+   "buttonSaved": {
+      "message": "Saved"
+   },
+   "buttonShowEditorState": {
+      "message": "Εμφάνιση κατάστασης επεξεργαστή κώδικα"
+   },
+   "buttonSupport": {
+      "message": "Βοήθεια"
+   },
+   "buttonUndo": {
+      "message": "Αναίρεση"
+   },
+   "buttonUpdate": {
+      "message": "Ενημέρωση"
+   },
+   "buttonVacuum": {
+      "message": "Εκκαθάριση βάσης δεδομένων"
+   },
+   "buttonVacuumed": {
+      "message": "Δεδομένα διαγράφηκαν"
+   },
+   "buttonVacuuming": {
+      "message": "Διαγραφή δεδομένων..."
+   },
+   "confirmManualUpdate": {
+      "message": "Auto-update is disabled for this script!\nClick OK to update it anyway."
+   },
+   "confirmNotSaved": {
+      "message": "'Οι αλλαγές δεν αποθηκεύτηκαν!'\n'Πατήστε Εντάξει για να τις απορρίψετε ή Άκυρο για να παραμείνετε.'"
+   },
+   "confirmUndoImport": {
+      "message": "Revert all changes made to the database (importing, updating, editing, customizing)"
+   },
+   "descBlacklist": {
+      "message": "Στα URL που ταιριάζουν σε αυτήν την λίστα δεν θα εκτελούνται σενάρια εντολών."
+   },
+   "descBlacklistNet": {
+      "message": "Network blacklist (scripts won't connect to the matching sites and their cookies)"
+   },
+   "descCustomCSS": {
+      "message": "'Προσαρμοσμένη CSS για την σελίδα των επιλογών και την σελίδα εγκατάστασης σεναρίων. Αν δεν είστε σίγουρος(η) τι είναι αυτό, παρακαλώ μην το αλλάξετε.'"
+   },
+   "descEditorOptions": {
+      "message": "Custom options for CodeMirror and addons in JSON object like \u003Ccode>{\"indentUnit\":2, \"smartIndent\":true}\u003C/code> however note that some of them may not work in Violentmonkey. See \u003Ca href=\"https://codemirror.net/doc/manual.html#config\" target=\"_blank\" rel=\"noopener noreferrer\">full list\u003C/a>."
+   },
+   "descEditorOptionsGeneric": {
+      "message": "Boolean options may be toggled by double-clicking on the value: \u003Ccode>true\u003C/code> = enabled, \u003Ccode>false\u003C/code> = disabled. Numeric options ending with \u003Ccode>Delay\u003C/code>, \u003Ccode>Interval\u003C/code>, \u003Ccode>Rate\u003C/code>, \u003Ccode>Time\u003C/code> are in milliseconds."
+   },
+   "descEditorOptionsVM": {
+      "message": "Nonstandard options: \u003Ccode>autocompleteOnTyping\u003C/code> is a delay in milliseconds to display autocomplete hints after typing (\u003Ccode>0\u003C/code> = disable), \u003Ccode>killTrailingSpaceOnSave\u003C/code> automatically removes trailing spaces in each line when saving, \u003Ccode>showTrailingSpace\u003C/code> shows the trailing spaces as dots."
+   },
+   "descScriptTemplate": {
+      "message": "Supported variables: \u003C{{name}}>, \u003C{{url}}>, \u003C{{date}}>, \u003C{{date:format}}> with MomentJS-compatible format, for example \u003C{{date:YYYY-MM-DD}}>."
+   },
+   "disabledScriptsGroup": {
+      "message": "group"
+   },
+   "disabledScriptsHide": {
+      "message": "hide"
+   },
+   "disabledScriptsSelector": {
+      "message": "Disabled scripts:"
+   },
+   "disabledScriptsShow": {
+      "message": "show"
+   },
+   "editHelpDocumention": {
+      "message": "Οδηγίες για τα μεταδεδομένα και το \u003Ccode>GM\u003C/code> API"
+   },
+   "editHelpKeyboard": {
+      "message": "Συντομεύσεις πληκτρολογίου:"
+   },
+   "editHowToHint": {
+      "message": "Θέλετε να χρησιμοποιήσετε έναν άλλο επεξεργαστή κώδικα;"
+   },
+   "editLabelMeta": {
+      "message": "Προσαρμοσμένα μεταδεδομένα"
+   },
+   "editLabelSettings": {
+      "message": "Ρυθμίσεις δέσμης ενεργειών"
+   },
+   "editLongLine": {
+      "message": "Αυτή η γραμμή είναι πολύ μεγάλη"
+   },
+   "editLongLineTooltip": {
+      "message": "Αυτή η γραμμή περιέχει υπερβολικά πολλούς χαρακτήρες και δεν εμφανίζεται ολόκληρη για να μην υπάρχουν καθυστερήσεις στην επεξεργασία.\nΜπορείτε να προσαρμόσετε το όριο στις προχωρημένες ρυθμίσεις, π.χ.:\n\"maxDisplayLength\": 20000"
+   },
+   "editNavCode": {
+      "message": "Κώδικας"
+   },
+   "editNavSettings": {
+      "message": "Ρυθμίσεις"
+   },
+   "editNavValues": {
+      "message": "Τιμές"
+   },
+   "editValueAllHint": {
+      "message": "Show/edit the entire script value storage"
+   },
+   "extDescription": {
+      "message": "Προσφέρει υποστήριξη για σενάρια χρηστών για τους φυλλομετρητές."
+   },
+   "extName": {
+      "message": "Violentmonkey"
+   },
+   "failureReasonBlacklisted": {
+      "message": "Blacklisted in Violentmonkey's settings"
+   },
+   "failureReasonNoninjectable": {
+      "message": "Το Violentmonkey δεν μπορεί να εκτελέσει τα userscripts σε αυτήν τη σελίδα\n(πιθανότατα βρίσκεστε σε μία σελίδα είτε του περιηγητή σας είτε μία επέκτασης)"
+   },
+   "failureReasonRestarted": {
+      "message": "Violentmonkey was restarted. Please reload the tab to run userscripts."
+   },
+   "fileInstallBlocked": {
+      "message": "There are several methods to install or track edits in a local file: \u003C1> Drag'n'drop the file into an open Violentmonkey page or popup, including this one. \u003C2> Install a local HTTP server for this file and open it via http://localhost. \u003C3> Enable \"Allow access to file URLs\" in details for Violentmonkey in chrome://extensions page. This is dangerous because any userscript may read any local file."
+   },
+   "filterAlphabeticalOrder": {
+      "message": "αλφαβητική σειρά"
+   },
+   "filterExecutionOrder": {
+      "message": "σειρά εκτέλεσης"
+   },
+   "filterLastUpdateOrder": {
+      "message": "τελευταία ενημέρωση"
+   },
+   "filterSize": {
+      "message": "size"
+   },
+   "genericError": {
+      "message": "Σφάλμα"
+   },
+   "genericOff": {
+      "message": "off"
+   },
+   "genericOn": {
+      "message": "on"
+   },
+   "genericUseGlobal": {
+      "message": "use global setting"
+   },
+   "hashPatternWarning": {
+      "message": "\"#\" patterns work only when initially opening the site or reloading the tab: $1"
+   },
+   "headerRecycleBin": {
+      "message": "Κάδος Ανακύκλωσης"
+   },
+   "helpForLocalFile": {
+      "message": "Show the instruction for drag'n'dropped local scripts"
+   },
+   "hintForBatchAction": {
+      "message": "for $1 matching scripts"
+   },
+   "hintInputURL": {
+      "message": "Εισαγωγή URL:"
+   },
+   "hintRecycleBin": {
+      "message": "Τα scripts που διαγράφονται φαίνονται εδώ και διατηρούνται για 7 ημέρες."
+   },
+   "hintUseDownloadURL": {
+      "message": "Χρήση @downloadURL"
+   },
+   "hintVacuum": {
+      "message": "Απόρριψη των περιττών και προσπάθεια επαναφόρτωσης των πόρων που λείπουν στην cache."
+   },
+   "install": {
+      "message": "Install"
+   },
+   "installFrom": {
+      "message": "Εγκατάσταση από $1"
+   },
+   "installOptionTrackTooltip": {
+      "message": "The source file tab should be kept open in Firefox 68 and newer."
+   },
+   "labelAdvanced": {
+      "message": "Για προχωρημένους"
+   },
+   "labelAllowUpdate": {
+      "message": "Επιτρέψτε αναβαθμίσεις"
+   },
+   "labelAuthor": {
+      "message": "Συγγραφέας: "
+   },
+   "labelAutoReloadCurrentTab": {
+      "message": "Επαναφόρτωση τρέχουσας καρτέλας μετά την ενεργοποίηση/απενεργοποίηση ενός σεναρίου από το μενού"
+   },
+   "labelAutoUpdate": {
+      "message": "Έλεγχος για ενημερώσεις κάθε $1 ημέρα/ημέρες, χρησιμοποιήστε 0 για απενεργοποίηση"
+   },
+   "labelBackupMaintenance": {
+      "message": "Backup and maintenance"
+   },
+   "labelBadge": {
+      "message": "Εμφάνιση στο εικονίδιο:"
+   },
+   "labelBadgeColors": {
+      "message": "Badge colors: "
+   },
+   "labelBadgeNone": {
+      "message": "τίποτα"
+   },
+   "labelBadgeTotal": {
+      "message": "αριθμός των σεναρίων που εκτελούνται"
+   },
+   "labelBadgeUnique": {
+      "message": "αριθμός των μοναδικών σεναρίων που εκτελούνται"
+   },
+   "labelBlacklist": {
+      "message": "Μαύρη λίστα"
+   },
+   "labelContributors": {
+      "message": "Συνεισφέροντες"
+   },
+   "labelCurrentLang": {
+      "message": "Τρέχουσα Γλώσσα: "
+   },
+   "labelCustomCSS": {
+      "message": "Προσαρμοσμένο Στυλ"
+   },
+   "labelDownloadURL": {
+      "message": "URL Λήψης:"
+   },
+   "labelEditValue": {
+      "message": "Editing script value"
+   },
+   "labelEditValueAll": {
+      "message": "Επεξεργασία αποθηκευτικού χώρου του script"
+   },
+   "labelEditor": {
+      "message": "Επεξεργαστής κώδικα"
+   },
+   "labelEnabledScriptsOnly": {
+      "message": "enabled scripts only"
+   },
+   "labelExclude": {
+      "message": "Κανόνες @exclude"
+   },
+   "labelExcludeMatch": {
+      "message": "Κανόνες @exclude-match"
+   },
+   "labelExportScriptData": {
+      "message": "Εξαγωγή δεδομένων σεναρίου"
+   },
+   "labelExposeStatus": {
+      "message": "Expose installed version on userscript catalog sites: $1"
+   },
+   "labelFastFirefoxInject": {
+      "message": "Alternative $1 mode in Firefox"
+   },
+   "labelFastFirefoxInjectHint": {
+      "message": "An alternative injection method for \u003Cdocument-start> scripts since Firefox 59, faster than the default mode. Similarly to \"Synchronous page mode\" it also increases memory consumption, so you may want to disable it if your scripts work correctly without this option."
+   },
+   "labelFeedback": {
+      "message": "Σχόλια"
+   },
+   "labelGeneral": {
+      "message": "Γενικές"
+   },
+   "labelHelpTranslate": {
+      "message": "Βοηθήστε στη μετάφραση"
+   },
+   "labelHomepage": {
+      "message": "Αρχική σελίδα"
+   },
+   "labelHomepageURL": {
+      "message": "URL Αρχικής Σελίδας:"
+   },
+   "labelIconURL": {
+      "message": "Icon URL:"
+   },
+   "labelImportScriptData": {
+      "message": "Εισαγωγή script"
+   },
+   "labelImportSettings": {
+      "message": "Ρυθμίσεις εισαγωγής"
+   },
+   "labelInclude": {
+      "message": "Κανόνες @include"
+   },
+   "labelInjectionMode": {
+      "message": "Injection mode: "
+   },
+   "labelInstall": {
+      "message": "Σενάριο εγκατάστασης"
+   },
+   "labelKeepOriginal": {
+      "message": "Κρατήστε τα αρχικά"
+   },
+   "labelLastUpdatedAt": {
+      "message": "Τελευταία ενημέρωση στις $1"
+   },
+   "labelLineNumber": {
+      "message": "Αριθμός γραμμής: "
+   },
+   "labelMatch": {
+      "message": "Κανόνες @match"
+   },
+   "labelName": {
+      "message": "Όνομα:"
+   },
+   "labelNoFrames": {
+      "message": "Run in frames: "
+   },
+   "labelNoName": {
+      "message": "Χωρίς Όνομα"
+   },
+   "labelNoSearchScripts": {
+      "message": "Δεν βρέθηκε σενάριο."
+   },
+   "labelNotifyThisUpdated": {
+      "message": ", then notify:"
+   },
+   "labelNotifyUpdates": {
+      "message": "Ειδοποίηση ενημερώσεων σεναρίου"
+   },
+   "labelNotifyUpdatesGlobal": {
+      "message": "ignore per-script notification (\"settings\" tab in editor)"
+   },
+   "labelPrivacyPolicy": {
+      "message": "Πολιτική Απορρήτου"
+   },
+   "labelReinstall": {
+      "message": "Re-installing script"
+   },
+   "labelRelated": {
+      "message": "Σχετικοί σύνδεσμοι: "
+   },
+   "labelRemovedAt": {
+      "message": "Διαγράφηκε στις $1"
+   },
+   "labelReplace": {
+      "message": "Αντικατάσταση με: "
+   },
+   "labelRunAt": {
+      "message": "Εκτέλεση κατά: "
+   },
+   "labelRunAtDefault": {
+      "message": "(Προκαθορισμένο)"
+   },
+   "labelScriptTemplate": {
+      "message": "Custom Script Template"
+   },
+   "labelSearch": {
+      "message": "Αναζήτηση για: "
+   },
+   "labelSearchScript": {
+      "message": "Αναζήτηση σεναρίων..."
+   },
+   "labelSettings": {
+      "message": "Ρυθμίσεις"
+   },
+   "labelShowOrder": {
+      "message": "Show execution order positions"
+   },
+   "labelSync": {
+      "message": "Συγχρονισμός"
+   },
+   "labelSyncAnonymous": {
+      "message": "Χρήση ανώνυμου λογαριασμού"
+   },
+   "labelSyncAuthorize": {
+      "message": "Εξουσιοδότησε"
+   },
+   "labelSyncAuthorizing": {
+      "message": "Εξουσιοδότηση"
+   },
+   "labelSyncDisabled": {
+      "message": "Κανένας"
+   },
+   "labelSyncPassword": {
+      "message": "Κωδικός: "
+   },
+   "labelSyncRevoke": {
+      "message": "Ανάκληση"
+   },
+   "labelSyncScriptStatus": {
+      "message": "Κατάσταση συγχρονισμού σεναρίου"
+   },
+   "labelSyncServerUrl": {
+      "message": "Διεύθυνση URL διακομιστή: "
+   },
+   "labelSyncService": {
+      "message": "Συγχρονισμός σε"
+   },
+   "labelSyncUsername": {
+      "message": "Όνομα χρήστη: "
+   },
+   "labelTags": {
+      "message": "Tags (space separated):"
+   },
+   "labelTheme": {
+      "message": "Theme: "
+   },
+   "labelUpdateURL": {
+      "message": "URL Ενημέρωσης:"
+   },
+   "labelViewSingleColumn": {
+      "message": "Single column"
+   },
+   "labelViewTable": {
+      "message": "Table view"
+   },
+   "labelWidth": {
+      "message": "Width:"
+   },
+   "labelXhrInject": {
+      "message": "Synchronous $1 mode"
+   },
+   "labelXhrInjectHint": {
+      "message": "Enable only if you have a script that needs to run before the page starts loading and currently it's running too late. Just like Instant injection mode in Tampermonkey, this option is using the deprecated synchronous XHR, so in Chrome/Chromium you'll see warnings in devtools console, although you can safely ignore them as the adverse affects are negligible in this case. You can hide the warnings for good by right-clicking one."
+   },
+   "labelXhrInjectNote": {
+      "message": "(except incognito and sites with disabled cookies)"
+   },
+   "lastSync": {
+      "message": "Τελευταίος συγχρονισμός στις $1"
+   },
+   "learnBlacklist": {
+      "message": "Μάθετε περισσότερα για τα πρότυπα της μαύρης λίστας."
+   },
+   "learnInjectionMode": {
+      "message": "Learn more about injection modes."
+   },
+   "menuDashboard": {
+      "message": "Άνοιγμα Ταμπλό"
+   },
+   "menuExclude": {
+      "message": "Exclude..."
+   },
+   "menuExcludeHint": {
+      "message": "The current tab will auto-reload if you enabled this option in general settings.\nTo apply changes to all other tabs please reload them manually.\nUse \"Settings\" tab of the editor for more flexibility."
+   },
+   "menuFeedback": {
+      "message": "Σχόλια"
+   },
+   "menuFindScripts": {
+      "message": "Βρείτε σενάρια γι᾽ αυτήν την σελίδα"
+   },
+   "menuInjectionFailed": {
+      "message": "Could not inject some scripts."
+   },
+   "menuInjectionFailedFix": {
+      "message": "Retry in \"auto\" mode"
+   },
+   "menuMatchedDisabledScripts": {
+      "message": "Matched disabled scripts"
+   },
+   "menuMatchedFrameScripts": {
+      "message": "Sub-frames only scripts"
+   },
+   "menuMatchedScripts": {
+      "message": "Σενάρια που ταιριάζουν"
+   },
+   "menuNewScript": {
+      "message": "Δημιουργία νέου script"
+   },
+   "menuScriptDisabled": {
+      "message": "Σενάρια απενεργοποιήθηκαν"
+   },
+   "menuScriptEnabled": {
+      "message": "Σενάρια ενεργοποιήθηκαν"
+   },
+   "msgCheckingForUpdate": {
+      "message": "Έλεγχος για αναβαθμίσεις..."
+   },
+   "msgDateFormatInfo": {
+      "message": "Click to open MomentJS documentation. Allowed tokens: $1. Use [square brackets] to protect literal text."
+   },
+   "msgErrorFetchingResource": {
+      "message": "Σφάλμα λήψης σεναρίου (resource)!"
+   },
+   "msgErrorFetchingScript": {
+      "message": "Σφάλμα λήψης σεναρίου!"
+   },
+   "msgErrorFetchingUpdateInfo": {
+      "message": "Αδυναμία λήψης πληροφοριών ενημέρωσης."
+   },
+   "msgErrorLoadingData": {
+      "message": "Σφάλμα φόρτωσης δεδομένων σεναρίων."
+   },
+   "msgErrorLoadingDependency": {
+      "message": "Σφάλμα φόρτωσης εξαρτήσεων."
+   },
+   "msgImported": {
+      "message": "$1 αντικείμενο(α) εισήχθησαν."
+   },
+   "msgIncognitoChanges": {
+      "message": "Οι αλλαγές που θα κάνετε στην ανώνυμη περιήγηση θα εφαρμοστούν και στο κυρίως προφίλ σας."
+   },
+   "msgInstalled": {
+      "message": "Σενάριο εγκαταστάθηκε."
+   },
+   "msgInvalidScript": {
+      "message": "Μη έγκυρο σενάριο!"
+   },
+   "msgLoadingData": {
+      "message": "Φόρτωση δεδομένων σεναρίου..."
+   },
+   "msgLoadingDependency": {
+      "message": "Φόρτωση εξαρτήσεων... ($1/$2)"
+   },
+   "msgMissingResources": {
+      "message": "Missing required resources."
+   },
+   "msgNamespaceConflict": {
+      "message": "Σύγκρουση χώρου ονόματος σεναρίου! Παρακαλώ αλλάξτε το @name και το @namespace."
+   },
+   "msgNamespaceConflictRestore": {
+      "message": "A script with the same @name and @namespace is already installed."
+   },
+   "msgNewVersion": {
+      "message": "Βρέθηκε νέα έκδοση."
+   },
+   "msgNoUpdate": {
+      "message": "Δεν βρέθηκε ενημέρωση."
+   },
+   "msgOpenUpdateErrors": {
+      "message": "Error updating scripts. Click to open them."
+   },
+   "msgReinstallScripts": {
+      "message": "Please re-save or reinstall these script(s):"
+   },
+   "msgSameCode": {
+      "message": " (code is the same)"
+   },
+   "msgScriptUpdated": {
+      "message": "Το σενάριο [$1] είναι ενημερωμένο!"
+   },
+   "msgShowHide": {
+      "message": "Εμφάνιση/απόκρυψη"
+   },
+   "msgSyncError": {
+      "message": "Σφάλμα συγχρονισμού!"
+   },
+   "msgSyncInit": {
+      "message": "Αρχικοποίηση..."
+   },
+   "msgSyncInitError": {
+      "message": "Σφάλμα αρχικοποίησης!"
+   },
+   "msgSyncNoAuthYet": {
+      "message": "Not authorized yet."
+   },
+   "msgSyncReady": {
+      "message": "Ο συγχρονισμός θα ξεκινήσει σύντομα..."
+   },
+   "msgSyncing": {
+      "message": "Συγχρονισμός σε εξέλιξη..."
+   },
+   "msgSyntaxError": {
+      "message": "Syntax error?"
+   },
+   "msgTardyMatch": {
+      "message": "The script didn't exist or didn't match the URL when the page loaded, which happens in Single-Page Application sites like fb or instagram that are using fake navigation. You can reload the tab to run the script. To fix the script use @match for the entire site and then detect changes using MutationObserver or window.navigation API."
+   },
+   "msgUpdated": {
+      "message": "Σενάριο ενημερώθηκε."
+   },
+   "msgUpdating": {
+      "message": "Ενημέρωση..."
+   },
+   "noValues": {
+      "message": "No value is stored"
+   },
+   "optionEditorWindow": {
+      "message": "Άνοιγμα επεξεργαστή από το αναδυόμενο παράθυρο σε νέο παράθυρο"
+   },
+   "optionEditorWindowHint": {
+      "message": "Editor window position will be remembered only on resizing or saving"
+   },
+   "optionEditorWindowSimple": {
+      "message": "Hide omnibox"
+   },
+   "optionPopup": {
+      "message": "Popup menu and icon"
+   },
+   "optionPopupEnabledFirst": {
+      "message": "Enabled first"
+   },
+   "optionPopupGroupRunAt": {
+      "message": "Group by @run-at stage"
+   },
+   "optionShowEnabledFirst": {
+      "message": "Εμφάνιση των ενεργοποιημένων σεναρίων πρώτα"
+   },
+   "optionUiTheme": {
+      "message": "UI theme: "
+   },
+   "optionUiThemeAuto": {
+      "message": "automatic"
+   },
+   "optionUiThemeDark": {
+      "message": "dark"
+   },
+   "optionUiThemeLight": {
+      "message": "light"
+   },
+   "optionUpdate": {
+      "message": "Ενημέρωση"
+   },
+   "popupSettings": {
+      "message": "Popup settings"
+   },
+   "popupSettingsHint": {
+      "message": "Right-click: popup settings"
+   },
+   "readonly": {
+      "message": "Read-only"
+   },
+   "readonlyNote": {
+      "message": "Auto-updated script is read-only unless you disable updates or allow editing."
+   },
+   "readonlyOpt": {
+      "message": "Allow edits"
+   },
+   "readonlyOptWarn": {
+      "message": "(next update will overwrite them)"
+   },
+   "reinstall": {
+      "message": "Reinstall"
+   },
+   "reloadTab": {
+      "message": "Reload tab"
+   },
+   "reloadTabTrackHint": {
+      "message": "If enabled, the active tab will be reloaded when changes are detected and this script matches the tab's URL."
+   },
+   "searchCaseSensitive": {
+      "message": "Διάκριση πεζών-κεφαλαίων"
+   },
+   "searchUseRegex": {
+      "message": "Χρήση Regex"
+   },
+   "sideMenuAbout": {
+      "message": "Σχετικά"
+   },
+   "sideMenuInstalled": {
+      "message": "Εγκατεστημένα σενάρια"
+   },
+   "sideMenuSettings": {
+      "message": "Ρυθμίσεις"
+   },
+   "skipScripts": {
+      "message": "Reload page without userscripts"
+   },
+   "skipScriptsMsg": {
+      "message": "You disabled userscripts for this page. To run them, reload or navigate the tab."
+   },
+   "sortOrder": {
+      "message": "Sort order:"
+   },
+   "stopTracking": {
+      "message": "Stop tracking"
+   },
+   "titleBadgeColor": {
+      "message": "Normal badge color"
+   },
+   "titleBadgeColorBlocked": {
+      "message": "Badge color when the site is non-injectable (blacklisted or unsupported)"
+   },
+   "titleSearchHintV2": {
+      "message": "* \u003Ckbd>Enter\u003C/kbd> key adds the text to autocomplete history\n* All conditions are case-insensitive\n* Space separated conditions can be combined\n* Search by metadata: \u003Ccode>\"Awesome Script\" \"Description\"\u003C/code>\n* Search by tags: \u003Ccode>#tag1 #tag2\u003C/code>\n* Search by script name: \u003Ccode>name:\"awesome name\"\u003C/code>\n* Search by script code: \u003Ccode>code:\"awesome code\"\u003C/code>\n* Negative search: \u003Ccode>!#tag2 !name:\"unwanted\"\u003C/code>\n* Regular expressions: \u003Ccode>/\\w+?/\u003C/code>, \u003Ccode>/\\w+?/gi\u003C/code>, \u003Ccode>name:/\\w+?/\u003C/code>, \u003Ccode>name+re:\"\\w+? with space\"\u003C/code>"
+   },
+   "toggleInjection": {
+      "message": "Toggle userscript injection"
+   },
+   "trackEdits": {
+      "message": "Track external edits"
+   },
+   "trackEditsNote": {
+      "message": "Keep this page open to track your edits in local file"
+   },
+   "updateListedCmd": {
+      "message": "Update scripts ($1)"
+   },
+   "updateScript": {
+      "message": "Ενημέρωση"
+   },
+   "updateScriptsAll": {
+      "message": "Update all scripts"
+   },
+   "updateScriptsInTab": {
+      "message": "Update current tab's scripts"
+   },
+   "valueLabelKey": {
+      "message": "Key (string)"
+   },
+   "valueLabelValue": {
+      "message": "Τιμή (σε μορφή JSON)"
+   },
+   "valueLabelValueAll": {
+      "message": "Όλες οι τιμές (σε μορφή JSON)"
+   }
+}

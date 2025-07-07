@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Logging | LocalCDN</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="utf-8" />
+        <link rel="shortcut icon" href="../images/favicon.ico" type="image/x-icon">
+        <link rel="icon" href="../images/favicon.ico" type="image/x-icon">
+        <link rel="stylesheet" type="text/css" href="../base.css">
+        <link rel="stylesheet" type="text/css" href="logging.css">
+        <script src="logging.js"></script>
+    </head>
+    <body>
+        <h1>SimpleLog</h1>
+        <div class="button-group">
+            <div id="btn-reload" class="button">Refresh</div>
+            <div id="btn-copy" class="button">Copy</div>
+            <div id="btn-delete" class="button">Clear</div>
+        </div>
+        <p id="no-logging-content">no data</p>
+        <div>
+            <div id="copy-to-clipboard-section">
+                <div class="button-group">
+                    <div id="btn-raw" class="button button-copy button-active">Raw</div>
+                    <div id="btn-markdown" class="button button-copy button-inactive">Markdown</div>
+                </div>
+                <textarea id="copied-data"></textarea>
+            </div>
+            <table id="logging-content">
+                <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>Initiator</th>
+                        <th>Resource</th>
+                        <th>Redirected to</th>
+                    </tr>
+                </thead>
+                <tbody>
+                </tbody>
+            </table>
+            <br>
+            <p>
+                Legend
+                <br>
+                <span>(i) = A website includes this iframe. It's possible that the request is from there.</span>
+            </p>
+        </div>
+    </body>
+</html>

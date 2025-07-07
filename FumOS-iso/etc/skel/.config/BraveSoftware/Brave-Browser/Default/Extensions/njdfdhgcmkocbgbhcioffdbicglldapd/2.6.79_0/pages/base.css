@@ -1,0 +1,321 @@
+h2 {
+    color: #5a8f79;
+}
+
+h3 {
+	margin: 28px 0 0 0;
+	text-decoration: underline;
+}
+
+a {
+    background: url('../../icons/link-dark.svg') no-repeat right center;
+    background-size: 10px 10px;
+    color: #777;
+    padding-right: 13px;
+    text-decoration: underline;
+}
+
+a:hover {
+    background: url('../../icons/link-light.svg') no-repeat right center;
+    background-size: 10px 10px;
+    color: #c4c4c4;
+    cursor: pointer;
+    filter: invert(0.2);
+    text-decoration: none;
+}
+
+.no-icon {
+    background-image: none !important;
+}
+
+#button-copy-rule-set, textarea {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+#button-copy-rule-set {
+    display: none;
+    font-size: 1.3em;
+    line-height: 2;
+    padding: 5px;
+    text-align: center;
+}
+
+#button-copy-rule-set:hover {
+    cursor: pointer;
+}
+
+#button-copy-rule-set-icon {
+    background: url('../../icons/copy-dark.svg') no-repeat right center;
+    background-size: 20px 20px;
+    padding-right: 23px;
+}
+
+#generated-rules {
+    display: none;
+}
+
+textarea {
+    margin-top: 20px;
+}
+
+.btns {
+    background-color: #f0f0f0;
+    border: 1px solid #aeaeae;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    font-size: 1em;
+    line-height: 1.5;
+    padding: 5px 10px;
+    text-align: center;
+}
+
+.btns:hover {
+    background-color: #c1c1c1;
+    cursor: pointer;
+}
+
+.btns-active {
+    background-color: #c4c4c4 !important;
+    color: #515151 !important;
+}
+
+.b-contain *, .b-contain *::before, .b-contain *::after {
+    box-sizing: content-box !important;
+}
+
+.b-contain input {
+    opacity: 0;
+    position: absolute;
+    z-index: -1;
+}
+
+.b-contain span {
+    font-family: inherit;
+    font-size: 12px;
+}
+
+.b-contain {
+    cursor: pointer;
+    display: table;
+    line-height: 1.2;
+    padding-left: 25px;
+    position: relative;
+}
+
+.b-contain input[type="checkbox"] ~ .b-input {
+    background: rgba(241, 245, 248, 1);
+    border: 1px solid rgba(184, 194, 204, 1);
+    border-radius: 2px;
+    height: 16px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    transition: background 250ms;
+    width: 16px;
+}
+
+.b-contain input[type="radio"] ~ .b-input {
+    background: rgba(241, 245, 248, 1);
+    border: 1px solid rgba(184, 194, 204, 1);
+    border-radius: 10px;
+    height: 16px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    transition: background 250ms;
+    width: 16px;
+}
+
+.b-contain input[type="checkbox"] ~ .b-input::after {
+    border: solid rgba(255, 255, 255, 1);
+    border-width: 0 2px 2px 0;
+    content: '';
+    display: none;
+    height: 10px;
+    left: 5px;
+    position: absolute;
+    top: 1px;
+    transform: rotate(45deg);
+    transition: background 250ms;
+    width: 4px;
+}
+
+.b-contain input[type="radio"] ~ .b-input::after {
+    background: rgba(255, 255, 255, 1);
+    border-radius: 4px;
+    content: '';
+    display: none;
+    height: 8px;
+    left: 4px;
+    position: absolute;
+    top: 4px;
+    transition: background 250ms;
+    width: 8px;
+}
+
+.b-contain input:disabled ~ .b-input::after {
+    border-color: rgba(135, 149, 161, 1);
+}
+
+.b-contain input:checked ~ .b-input::after {
+    display: block;
+}
+
+.b-contain:hover input ~ .b-input,
+.b-contain input:focus ~ .b-input {
+    background: rgb(231, 238, 243);
+}
+
+.b-contain input:focus ~ .b-input {
+    box-shadow: 0 0 0 2px rgba(52, 144, 220, 0.5);
+}
+
+.b-contain input:checked ~ .b-input {
+    background: rgba(0, 130, 243, 1);
+    border-color: rgba(0, 130, 243, 1);
+}
+
+.b-contain input[type="checkbox"]:disabled ~ .b-input {
+    background: rgba(241, 245, 248, 1);
+    border-color: rgba(184, 194, 204, 1);
+    cursor: not-allowed;
+    opacity: 0.6;
+}
+
+.b-contain input[type="radio"]:disabled ~ .b-input {
+    background: rgba(241, 245, 248, 1);
+    border-color: rgba(184, 194, 204, 1);
+    cursor: not-allowed;
+    opacity: 0.6;
+}
+
+.b-contain input[type="radio"]:disabled ~ .b-input::after {
+    background: rgba(135, 149, 161, 1);
+}
+
+.b-contain input:checked:focus ~ .b-input, .b-contain:hover input:not([disabled]):checked ~ .b-input {
+    background: rgba(13, 143, 255, 1);
+    border-color: rgba(13, 143, 255, 1);
+}
+
+.b-contain .b-input::before {
+    background: rgba(0, 130, 243, 1);
+    border-radius: 2rem;
+    content: '';
+    display: block;
+    height: 3rem;
+    left: 0;
+    margin-left: -0.85rem;
+    margin-top: -0.85rem;
+    opacity: 0.6;
+    position: absolute;
+    top: 0;
+    transform: scale(0);
+    visibility: hidden;
+    width: 3rem;
+    z-index: 99999;
+}
+
+.b-contain input + .b-input::before {
+    animation: b-ripple 250ms ease-out;
+}
+
+.b-contain input:checked + .b-input::before {
+    animation-name: b-ripple-duplicate;
+}
+
+.b-contain input:focus + .b-input::before {
+    visibility: visible;
+}
+
+.b-contain:first-child .b-input::before {
+    visibility: hidden;
+}
+
+#notice-locale {
+    background-color: #ffa500;
+    border-radius: 3px;
+    box-sizing: border-box;
+    color: white;
+    margin-top: 25px;
+    padding: 14px 16px;
+}
+
+@media (prefers-color-scheme: dark) {
+    a {
+        background: url('../../icons/link-light.svg') no-repeat right center;
+        background-size: 10px 10px;
+        color: #f2f2f2;
+        font-weight: bold;
+        padding-right: 13px;
+    }
+
+    a:hover {
+        background: url('../../icons/link-dark.svg') no-repeat right center; /* csslint allow: duplicate-background-images */
+        background-size: 10px 10px;
+    }
+
+    .subtle-hint, body, h3, p, .option-buttons {
+        color: #aeaeae !important;
+    }
+
+    .option-buttons:hover {
+        background-color: #434343;
+    }
+
+    #button-copy-rule-set, textarea {
+        border: 1px solid #222;
+    }
+
+    textarea {
+        background-color: #434343;
+        color: #aeaeae !important;
+    }
+
+    #button-copy-rule-set {
+        color: #aeaeae;
+    }
+
+    #button-copy-rule-set-icon {
+        background: url('../../icons/copy-light.svg') no-repeat right center;
+        background-size: 20px 20px;
+    }
+
+    .important, .important > p {
+        color: #555 !important;
+    }
+
+    .important > p > a {
+        background: url('../../icons/link-dark.svg') no-repeat right center; /* csslint allow: duplicate-background-images */
+        background-size: 10px 10px;
+        color: #555;
+        font-weight: normal;
+        padding-right: 13px;
+        text-decoration: underline;
+    }
+
+    .important > p > a:hover {
+        color: #777;
+        cursor: pointer;
+        text-decoration: none;
+    }
+
+    .btns {
+        background-color: #3c3c3c;
+        border-color: #616161;
+        color: #bbb;
+    }
+
+    .btns:hover {
+        background-color: #616161;
+    }
+
+    .btns-active {
+        background-color: #9f9f9f !important;
+        color: #222 !important;
+    }
+}

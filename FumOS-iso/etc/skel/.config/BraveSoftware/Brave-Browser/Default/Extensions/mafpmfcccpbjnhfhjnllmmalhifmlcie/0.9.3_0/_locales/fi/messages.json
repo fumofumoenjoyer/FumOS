@@ -1,0 +1,65 @@
+{
+   "appDesc": {
+      "message": "Salli sensuroiduissa maissa olevien käyttäjien käyttää verkkoyhteyttäsi Tor-verkkoon yhdistäessä."
+   },
+   "badgeLocalStorageOff": {
+      "message": "Local storage is not enabled."
+   },
+   "consent": {
+      "message": "Hyväksyn"
+   },
+   "consented": {
+      "message": "Kaikki on valmiina! Kiitos snowflake-välityspalvelimen pyörittämisestä!"
+   },
+   "extensionConsent": {
+      "message": "Tarjotakseen perustoiminnallisuuden, Snowflake välityspalvelimet (asentamasi selaimen lisäosa) lähettää jotakin metadataa välityspalvelinten asetuksista Snowflake-välittäjälle. Tämä metadata koostuu: välityspalvelimen IP-osoitteesta (IP-osoitteesi), raportoimastasi NAT-tyypistä, käyttämästäsi (välityspalvelimen) snowflake:n protokollan versiosta, tiedon siitä että välityspalvelin (asentamasi lisäosa) on laajennus, ja tiedon välityspalvelimen käyttäjien määrästä. Tätä dataa käytetään ainoastaan yhteyden muodostukseen ja koottuun tilastointiin, eikä dataa säilötä välittäjään. Katso \u003Ca href=\"https://addons.mozilla.org/en-US/firefox/addon/torproject-snowflake/privacy\">tietosuojalausekkeemme\u003C/a> saadaksesi lisätietoa keräämästämme ja esittämästämme datasta. Kun olet valmis, voit hyväksyä Snowflake-välityspalvelimen käyttöönoton klikkaamalla alla olevaa painiketta."
+   },
+   "extensionOnboard": {
+      "message": "Kiitos Snowflake-laajennuksen asentamisesta!"
+   },
+   "extensionOptout": {
+      "message": "Tämä lisäosa lähettää ainoastaan minimaalisen määrän dataa, joka vaaditaan Snowflake-välityspalvelimen muodostamiseen. Jos et tahdo yllä lueteltua tai tietosuojakäytännössä mainittua dataa lähetettävän, suosittelemme poistamaan Snowflake-lisäosan."
+   },
+   "popupBridgeUnreachable": {
+      "message": "Ei voitu yhdistää siltaan."
+   },
+   "popupConsent": {
+      "message": "Avaa suostumus-sivu"
+   },
+   "popupDescOn": {
+      "message": "Sinun Snowflake on auttanut viimeisen 24 tunnin aikana seuraavan määrän käyttäjiä kiertämään sensuuria: $1"
+   },
+   "popupEnabled": {
+      "message": "Käytössä"
+   },
+   "popupLearnMore": {
+      "message": "Lue lisää"
+   },
+   "popupNeedConsent": {
+      "message": "Ole hyvä ja hyväksy tietosuojakäytäntömme ennne Snowflake:n kytkemistä päälle."
+   },
+   "popupRetry": {
+      "message": "Yritä uudelleen"
+   },
+   "popupRetrying": {
+      "message": "Yritetään uudelleen..."
+   },
+   "popupRunInBackground": {
+      "message": "Pidä käynnissä kun selain on suljettu"
+   },
+   "popupStatusOff": {
+      "message": "Snowflake on pois päältä"
+   },
+   "popupStatusOn": {
+      "message": "Yhteyden muodostaneita käyttäjiä nyt: $1"
+   },
+   "popupStatusReady": {
+      "message": "Snowflake on valmis auttamaan käyttäjiä sensuurin kiertämisessä"
+   },
+   "popupWebRTCOff": {
+      "message": "WebRTC-ominaisuutta ei havaittu."
+   },
+   "remove": {
+      "message": "Poista Snowflake-lisäosa"
+   }
+}

@@ -1,0 +1,92 @@
+{
+    "websiteIntro": {
+        "message": "Snowflake — это система, которая <strong>позволяет людям со всего мира получать доступ к заблокированным веб-сайтам и приложениям</strong>. Подобно тому, как VPN помогают пользователям обходить интернет-цензуру, Snowflake помогает вам не быть замеченным интернет-цензорами, создавая впечатление, что вы используете Интернет для обычного видео или голосового звонка."
+    },
+    "browser": {
+        "message": "Используйте Snowflake для обхода цензуры"
+    },
+    "webBadgeInstructions": {
+        "message": "Если вы включите Snowflake ниже и оставите вкладку браузера открытой, пользователи смогут подключиться через ваш новый прокси!"
+    },
+    "installFirefox": {
+        "message": "Установить в Firefox"
+    },
+    "websiteIntro2": {
+        "message": "Доступно множество инструментов, таких как Snowflake, которые \"трансформируют\" активность в Интернете, и каждый из них использует свою технику. Некоторые перенаправляют интернет-трафик, будто он исходит от популярных облачных провайдеров, таких как Microsoft Azure и Amazon Web Services. Другие шифруют интернет-трафик, чтобы он выглядел полностью случайным."
+    },
+    "extension": {
+        "message": "Помогите людям обойти цензуру: используйте прокси-сервер Snowflake"
+    },
+    "installOptions": {
+        "message": "Существуют разные способы запуска прокси Snowflake (от начинающего до продвинутого):"
+    },
+    "webBadgeTitle": {
+        "message": "Оставьте эту вкладку браузера открытой или встройте веб-значок на свой сайт"
+    },
+    "installWebExtensionIntro": {
+        "message": "Установить веб-расширение"
+    },
+    "installWebExtension": {
+        "message": "Веб-расширение — это самый простой способ запустить прокси Snowflake. Просто установите его в <a href=\"https://addons.mozilla.org/ru/firefox/addon/torproject-snowflake/\">Firefox</a> или <a href=\"https://chrome.google.com/webstore/detail/snowflake/mafpmfcccpbjnhfhjnllmmalhifmlcie?hl=ru\">Chrome</a>, включите расширение и наблюдайте, как значок становится зелёным, когда пользователь подключается через ваш прокси-сервер!"
+    },
+    "reportingBugs": {
+        "message": "Сообщить об ошибке"
+    },
+    "installChrome": {
+        "message": "Установить в Chrome"
+    },
+    "possible": {
+        "message": "Ещё вы можете самостоятельно встроить прокси-сервер Snowflake на страницу вашего веб-сайта (например, <a href=\"https://relay.love\">relay.love</a>). Посетители вашего сайта могут войти на страницу, включить прокси и оставить её открытой, чтобы люди могли использовать через неё прокси (он ведёт себя и выглядит точно так же, как веб-расширение)."
+    },
+    "StandaloneTitle": {
+        "message": "Запуск отдельного прокси"
+    },
+    "websiteIntro3": {
+        "message": "Таким образом, цензорам становится дорого рассматривать блокировки таких инструментов обхода цензуры, так как для достижения первоначальной цели потребуется блокировать большие участки Интернета."
+    },
+    "bugTracker": {
+        "message": "<a href=\"https://gitlab.onionize.space/\">Запросить учётную запись</a> в GitLab Tor Project, затем <a href=\"https://gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/snowflake/-/issues\">создать новый вопрос</a> в проекте Snowflake."
+    },
+    "descriptive": {
+        "message": "Пожалуйста, постарайтесь быть как можно более описательным в своем заявлении и, если возможно, включите сообщения логов, которые помогут нам воспроизвести ошибку."
+    },
+    "howSnowflakeWorks": {
+        "message": "Узнайте больше о том, как работает Snowflake"
+    },
+    "embed": {
+        "message": "Встроить"
+    },
+    "installStandalone": {
+        "message": "Также есть консольная версия Snowflake-прокси. Она подойдёт для выделенного сервера или ПК. Вот <a href=\"https://community.torproject.org/ru/relay/setup/snowflake/standalone/\">руководство по настройке</a>."
+    },
+    "fileBug": {
+        "message": "Если вы столкнулись проблемой – как с использованием Snowflake для обхода блокировок, так и с запуском своего прокси – пожалуйста, сообщите об этом нам. Есть два способа:"
+    },
+    "censoredUsers": {
+        "message": "В отличие от классических VPN, пользователям не нужно устанавливать отдельное приложение. Snowflake-клиент обычно поставляется во встроенном виде. К примеру, он включен в <a href=\"https://torproject.org/ru/download/\">Tor Browser</a>, <a href=\"https://onionbrowser.com\">Onion Browser</a> (для iOS) и <a href=\"https://orbot.app\">Orbot</a> (для Android и iOS). Если блокировки не позволяют пользоваться приложением, можно попробовать включить Snowflake-клиент в его настройках."
+    },
+    "installExtension": {
+        "message": "А знали ли вы, что вся сеть Snowflake держится исключительно на волонтёрах? Да-да! Когда кто-то использует Snowflake для обхода цензуры, он подключается к такому же случайному волонтёру, как и вы! Так что если хотите дать людям доступ к свободному интернету, подумайте над установкой Snowflake-прокси. Всё, что требуется — это чтобы Tor <strong>не</strong> был заблокирован в стране, где вы находитесь."
+    },
+    "volunteer": {
+        "message": "Запуская Snowflake прокси вы присоединяетесь к тысячам волонтёров со всего света. И нет, можно не беспокоится о том, какие сайты посещают через ваш прокси — конечное соединение производится не с вашего устройства, а из сети Tor."
+    },
+    "sharedAccount": {
+        "message": "Оставить <a href=\"https://anonticket.onionize.space/\">анонимное сообщение</a>, сгенерировав идентификатор, и осуществив с его помощью вход. Найдите Snowflake в \"<strong>List of all projects</strong>\" и создайте новое сообщение."
+    },
+    "contactSnowflakeDevs": {
+        "message": "Если вы заинтересованы в использовании Snowflake в своем приложении, свяжитесь с <a href=\"https://lists.torproject.org/cgi-bin/mailman/listinfo/anti-censorship-team\">anti- группа цензуры</a>."
+    },
+    "snowflakeTechOverview": {
+        "message": "Snowflake – это новая, активно развивающаяся технология обхода цензуры; один из множества <a href=\"https://gitweb.torproject.org/torspec.git/tree/pt-spec.txt\">подключаемых транспортов</a>. Хотите узнать в подробностях, как она работает? Вам <a href=\"https://gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/snowflake/-/wikis/Technical%20Overview\">сюда</a> (статья на английском)."
+    },
+    "faq": {
+        "message": "Поддержка"
+    },
+    "support": {
+        "message": "Проблемы с подключением к Tor через Snowflake? <a href=\"https://t.me/TorProjectSupportBot\">Напишите нам в Telegram</a>. Также можете поискать информацию на нашем <a href=\"https://support.torproject.org/ru/censorship/\">сайте поддержки</a> и <a href=\"https://forum.torproject.org/tag/snowflake\">форуме Tor</a>."
+    },
+    "installEdge": {
+        "message": "Установить в Edge"
+    }
+}

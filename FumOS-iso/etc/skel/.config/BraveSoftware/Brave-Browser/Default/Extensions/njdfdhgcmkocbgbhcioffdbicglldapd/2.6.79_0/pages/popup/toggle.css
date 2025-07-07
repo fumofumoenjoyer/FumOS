@@ -1,0 +1,155 @@
+/**
+ * Toggles
+ */
+
+#protection-toggle, #manipulateDOM-toggle, #google-fonts-toggle {
+    cursor: pointer;
+    float: right;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+.toggle {
+    cursor: pointer;
+}
+
+button.toggle {
+    background-color: transparent;
+    border: 0;
+    font: inherit;
+    padding: 0;
+}
+
+.toggle__input {
+    opacity: 0;
+    position: absolute;
+}
+
+.toggle__display {
+    align-items: center;
+    background-color: #b54b4b;
+    border-radius: 100vw;
+    box-sizing: content-box;
+    display: inline-flex;
+    height: 24px;
+    justify-content: space-around;
+    position: relative;
+    transition: 0.1s;
+    width: 44px;
+}
+
+.toggle__display::before {
+    background-color: white;
+    border-radius: 50%;
+    box-sizing: border-box;
+    content: "";
+    height: 20px;
+    left: 2px;
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    transition: inherit;
+    width: 20px;
+    will-change: transform;
+    z-index: 2;
+}
+
+.toggle__display:hover {
+    background-color: #7e0000;
+}
+
+
+.toggle:focus .toggle__display,
+.toggle__input:focus + .toggle__display {
+    outline: 1px dotted #212121;
+    outline: 1px auto -webkit-focus-ring-color;
+    outline-offset: 2px;
+}
+
+.toggle:focus,
+.toggle:focus:not(:focus-visible) .toggle__display,
+.toggle__input:focus:not(:focus-visible) + .toggle__display {
+    outline: 0;
+}
+
+.toggle[aria-pressed="true"] .toggle__display,
+.toggle__input:checked + .toggle__display {
+    background-color: #6bb798;
+}
+
+.toggle__input:checked + .toggle__display:hover {
+    background-color: #4b806a;
+}
+
+.toggle[aria-pressed="true"] .toggle__display::before,
+.toggle__input:checked + .toggle__display::before {
+    transform: translate(100%, -50%);
+}
+
+.toggle[disabled] .toggle__display,
+.toggle__input:disabled + .toggle__display {
+    background-color: lightgray;
+    cursor: not-allowed;
+}
+
+[dir="rtl"] .toggle__display::before {
+    left: auto;
+    right: 2px;
+}
+
+[dir="rtl"] .toggle[aria-pressed="true"] + .toggle__display::before,
+[dir="rtl"] .toggle__input:checked + .toggle__display::before {
+    transform: translate(-100%, -50%);
+}
+
+.toggle__icon {
+    color: inherit;
+    display: inline-block;
+    fill: currentcolor;
+    height: 1em;
+    overflow: hidden;
+    vertical-align: middle;
+    width: 1em;
+}
+
+.toggle__icon--cross {
+    color: #f0f0f0;
+    font-size: 85%;
+}
+
+.toggle__icon--checkmark {
+    color: #f0f0f0;
+}
+
+.toggle__img {
+    width: 12px;
+}
+
+*,
+::before,
+::after {
+    box-sizing: border-box;
+}
+
+
+@media (prefers-color-scheme: dark) {
+    .toggle__icon--checkmark,
+    .toggle__icon--cross {
+        color: #323232;
+    }
+    .toggle__display::before {
+        background-color: #323232;
+    }
+
+    .toggle[disabled] .toggle__display,
+    .toggle__input:disabled + .toggle__display {
+        background-color: #777;
+        cursor: not-allowed;
+    }
+
+    .slider-disabled::before {
+        background-color: #323232;
+    }
+}

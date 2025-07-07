@@ -1,0 +1,70 @@
+{
+   "advancedLabel": {
+      "description": "Advanced label.",
+      "message": "高级"
+   },
+   "amountInjectedDescription": {
+      "description": "Amount injected description.",
+      "message": "自安装以来，从本地的“内容交付网络”发送的资源总量。"
+   },
+   "amountInjectedTitle": {
+      "description": "Amount injected title.",
+      "message": "本地发送资源的计数器"
+   },
+   "blockMissingDescription": {
+      "description": "Block requests for missing resources description.",
+      "message": "取消被拦截的请求，如果请求的资源在本地不可用。"
+   },
+   "blockMissingTitle": {
+      "description": "Block requests for missing resources title.",
+      "message": "阻止缺失资源的请求"
+   },
+   "disablePrefetchDescription": {
+      "description": "Disable prefetch description.",
+      "message": "避免本应禁止的请求发到网络。"
+   },
+   "disablePrefetchTitle": {
+      "description": "Disable prefetch title.",
+      "message": "禁用链接预读取"
+   },
+   "disableProtectionTitle": {
+      "description": "Disable protection title.",
+      "message": "在此网站上禁用保护"
+   },
+   "enableProtectionTitle": {
+      "description": "Enable protection title.",
+      "message": "启用保护"
+   },
+   "extensionDescription": {
+      "description": "Extension description.",
+      "message": "保护您免受集中式的内容交付网络（CDN）的跟踪。"
+   },
+   "optionsTitle": {
+      "description": "Options title.",
+      "message": "选项"
+   },
+   "showIconBadgeDescription": {
+      "description": "Show icon badge description.",
+      "message": "在扩展图标上显示已注入资源的数量。"
+   },
+   "showIconBadgeTitle": {
+      "description": "Show icon badge title.",
+      "message": "在图标上显示注入数量"
+   },
+   "stripMetadataDescription": {
+      "description": "Strip metadata description.",
+      "message": "被允许的 CDN 请求剥去敏感数据以保护隐私。"
+   },
+   "stripMetadataTitle": {
+      "description": "Strip metadata title.",
+      "message": "允许的请求剥去元数据"
+   },
+   "whitelistedDomainsDescription": {
+      "description": "Whitelisted domains description.",
+      "message": "输入白名单的域名。用分号 (;) 分隔多项。"
+   },
+   "whitelistedDomainsTitle": {
+      "description": "Whitelisted domains title.",
+      "message": "排除要检查的域名"
+   }
+}

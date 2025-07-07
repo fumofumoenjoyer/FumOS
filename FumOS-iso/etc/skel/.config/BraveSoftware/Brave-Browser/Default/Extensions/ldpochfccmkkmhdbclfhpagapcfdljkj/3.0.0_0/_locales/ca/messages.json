@@ -1,0 +1,70 @@
+{
+   "advancedLabel": {
+      "description": "Advanced label.",
+      "message": "Avançat"
+   },
+   "amountInjectedDescription": {
+      "description": "Amount injected description.",
+      "message": "Quantitat d'injeccions de recursos locals de xarxes de distribució de continguts des de la instal·lació"
+   },
+   "amountInjectedTitle": {
+      "description": "Amount injected title.",
+      "message": "Comptador de recursos injectats localment"
+   },
+   "blockMissingDescription": {
+      "description": "Block requests for missing resources description.",
+      "message": "Cancel·la les peticions interceptades si el recurs sol·licitat no està disponible localment."
+   },
+   "blockMissingTitle": {
+      "description": "Block requests for missing resources title.",
+      "message": "Bloqueja peticions per falta de recursos"
+   },
+   "disablePrefetchDescription": {
+      "description": "Disable prefetch description.",
+      "message": "Prevenir que que les peticions no permeses s'escapin cap a les xarxes de distribució."
+   },
+   "disablePrefetchTitle": {
+      "description": "Disable prefetch title.",
+      "message": "Deshabilitar pre-càrrega d'enllaços"
+   },
+   "disableProtectionTitle": {
+      "description": "Disable protection title.",
+      "message": "Deshabilitar protecció per aquest lloc"
+   },
+   "enableProtectionTitle": {
+      "description": "Enable protection title.",
+      "message": "Habilitar protecció"
+   },
+   "extensionDescription": {
+      "description": "Extension description.",
+      "message": "Us protegeix contra el seguiment mitjançant un lliurament de contingut \"gratuït\" i centralitzat."
+   },
+   "optionsTitle": {
+      "description": "Options title.",
+      "message": "Opcions"
+   },
+   "showIconBadgeDescription": {
+      "description": "Show icon badge description.",
+      "message": "Mostra el número de recursos injectats a la icona de l'extensió"
+   },
+   "showIconBadgeTitle": {
+      "description": "Show icon badge title.",
+      "message": "Mostrar la quantitat d'injeccions a la icona"
+   },
+   "stripMetadataDescription": {
+      "description": "Strip metadata description.",
+      "message": "Esborrar dades sensibles de peticions CDN autorizades para millorar la privacitat."
+   },
+   "stripMetadataTitle": {
+      "description": "Strip metadata title.",
+      "message": "Esborrar metadades de peticions permeses"
+   },
+   "whitelistedDomainsDescription": {
+      "description": "Whitelisted domains description.",
+      "message": "Introduir els dominis que seran ignorats. Separar més d'una entrada amb punt i coma (;)"
+   },
+   "whitelistedDomainsTitle": {
+      "description": "Whitelisted domains title.",
+      "message": "Excloure dominis de les inspeccions"
+   }
+}

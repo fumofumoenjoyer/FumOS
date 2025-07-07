@@ -1,0 +1,92 @@
+{
+    "embed": {
+        "message": "埋め込む"
+    },
+    "installWebExtensionIntro": {
+        "message": "ウェブ拡張機能をインストール"
+    },
+    "installFirefox": {
+        "message": "Firefox にインストール"
+    },
+    "installChrome": {
+        "message": "Chrome にインストール"
+    },
+    "reportingBugs": {
+        "message": "バグを報告する"
+    },
+    "bugTracker": {
+        "message": "Tor Project の GitLab から<a href=\"https://gitlab.onionize.space/\">アカウントをリクエスト</a>し、Snowflake プロジェクトで<a href=\"https://gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/snowflake/-/issues\">課題を開きます</a>。"
+    },
+    "descriptive": {
+        "message": "バグに関する情報をできるだけ詳細にご説明ください。可能であればバグを再現するのに役立つログメッセージも記載してください。"
+    },
+    "howSnowflakeWorks": {
+        "message": "Snowflake の仕組みの詳細"
+    },
+    "censoredUsers": {
+        "message": "VPN とは異なり、Snowflake プロキシに接続して検閲をバイパスするために別のアプリケーションをインストールする必要はありません。 これは通常、既存のアプリに組み込まれた回避機能です。 現在、Snowflake は、デスクトップおよび Android の <a href=\"https://torproject.org/download\">Tor Browser</a>、<a href=\"https://onionbrowser.com\">Onion Browser</a> 内で利用できます。 iOS では、Android と iOS では <a href=\"https://orbot.app\">Orbot</a> です。 これらのアプリのいずれかをダウンロードしてインストールし、それらがお住まいの国で検閲されている場合は、アプリの設定から Snowflake を有効にすることで検閲を回避できます。"
+    },
+    "installExtension": {
+        "message": "Snowflake プロキシはすべてボランティアによって運用されていることをご存知ですか？つまり、ユーザーは、あなたのようなボランティアによって運用されているランダムな Snowflake ボランティアプロキシと一致するのです。 したがって、人々の検閲回避を支援したい場合は、Snowflake プロキシをインストールして実行することをご検討ください。 唯一の前提条件は、お住まいの国のインターネットがまだ厳しく検閲されて<strong>いない</strong>ことです。"
+    },
+    "volunteer": {
+        "message": "Snowflake プロキシをインストールして実行している世界中の何千人ものボランティアに参加できます。 ユーザーがSnowflake プロキシを介してアクセスしているウェブサイトについて心配する必要はありません。 彼らの目に見えるブラウジング IP アドレスは、あなたのものではなく、Tor 出口ノードと一致します。"
+    },
+    "installStandalone": {
+        "message": "デスクトップまたはサーバーでコマンドラインバージョンのSnowflakeプロキシを実行したい場合は、Snowflakeスタンドアローンプロキシの実行に関する<a href=\"https://community.torproject.org/relay/setup/snowflake/standalone/\">ガイド</a>をご覧ください。"
+    },
+    "sharedAccount": {
+        "message": "識別子を生成してログインし、<a href=\"https://anonticket.onionize.space/\">匿名チケット</a>を提出します。 次に、<strong>すべてのプロジェクトのリスト</strong>から Snowflake プロジェクトを見つけて、新しい課題を作成します。"
+    },
+    "contactSnowflakeDevs": {
+        "message": "あなたのアプリケーションで Snowflake を使用することにご興味がございましたら、<a href=\"https://lists.torproject.org/cgi-bin/mailman/listinfo/anti-censorship-team\">反検閲チーム</a>までご連絡ください。"
+    },
+    "fileBug": {
+        "message": "Snowflake を使用中、または実行中に問題が発生した場合は、バグレポートの提出をご検討ください。 バグレポートを提出する方法は、次の2つがあります。"
+    },
+    "snowflakeTechOverview": {
+        "message": "Snowflake は、<a href=\"https://gitweb.torproject.org/torspec.git/tree/pt-spec.txt\">Pluggable Transport</a> ファミリーに属する最先端の検閲回避技術で、継続的に改良されています。その構造についてもっと知りたいですか？この <a href=\"https://gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/snowflake/-/wikis/Technical%20Overview\">技術概要</a> (英語) をご覧ください。"
+    },
+    "faq": {
+        "message": "Snowflake の使用に関するサポートを求める"
+    },
+    "support": {
+        "message": "Snowflake を使用して Tor に接続しようとして問題が発生した場合は、Tor サポート チャネルに<a href=\"https://t.me/TorProjectSupportBot\">Telegram</a> で連絡することができます。また、 <a href=\"https://support.torproject.org/ja/censorship/\">Tor サポート ポータル</a>と<a href=\"https://forum.torproject.org/tag/snowflake\">Tor Forum</a>で回答を得ることもできます。"
+    },
+    "websiteIntro": {
+        "message": "Snowflake は、<strong>世界中の人々が検閲されたウェブサイトやアプリケーションにアクセスできるようにする</strong>システムです。VPN がインターネット検閲を回避するためにユーザーを支援するのと同様に、Snowflake は、あなたのインターネット活動を、あたかも通常のビデオまたは音声通話にインターネットを使用しているように偽装することによって、検閲されないようにします。"
+    },
+    "websiteIntro2": {
+        "message": "Snowflake など、インターネットの活動を「変換」するツールは数多く存在し、それぞれ異なる方法で作動しています。Microsoft Azure や Amazon Web Services といった一般的なクラウドプロバイダーから発信されているよう見えるようにインターネットトラフィックをリダイレクトするものもあります。また、インターネットトラフィックを攪乱させ、完全にランダムに見えるようにするものもあります。"
+    },
+    "websiteIntro3": {
+        "message": "したがって、検閲当局がこのような回避ツールのブロックを検討することは、最初の目標達成のためにインターネットの大部分をブロックする必要があるため、コストがかかります。"
+    },
+    "browser": {
+        "message": "検閲を回避するために Snowflake を使用する"
+    },
+    "extension": {
+        "message": "検閲回避を支援する: Snowflake プロキシの運用"
+    },
+    "installOptions": {
+        "message": "Snowflake のプロキシを実行する方法はいくつかあります（初心者向けから上級者向けまで）。"
+    },
+    "installWebExtension": {
+        "message": "ウェブ拡張機能は、Snowflake プロキシを実行する最も簡単な方法です。 <a href=\"https://addons.mozilla.org/en-US/firefox/addon/torproject-snowflake/\">Firefox</a> または <a href=\"https://chrome.google.com/webstore/detail/snowflake/mafpmfcccpbjnhfhjnllmmalhifmlcie\">Chrome</a> にアクセスし、拡張機能を有効にして、ユーザーがプロキシ経由で接続するとアイコンが緑色に変わるのを確認してください！"
+    },
+    "webBadgeTitle": {
+        "message": "このブラウザータブを開いたままにしておくか、ウェブサイトにウェブバッジを埋め込んでください"
+    },
+    "webBadgeInstructions": {
+        "message": "下の Snowflake のスイッチを入れて、ブラウザーのタブを開いたままにしておくと、ユーザーは新しいプロキシを通して接続することができます！"
+    },
+    "possible": {
+        "message": "また、Snowflake プロキシを自分のウェブサイトのページ内に埋め込むこともできます（例: <a href=\"https://relay.love\">relay.love</a> ）。あなたのサイトへの訪問者は、ページを閲覧し、プロキシを有効にし、開いたままにすることでユーザーがプロキシを介してアクセスできるようにすることができます（ウェブ拡張機能とまったく同じように動作し、見えます）。"
+    },
+    "StandaloneTitle": {
+        "message": "スタンドアローンプロキシの実行"
+    },
+    "installEdge": {
+        "message": "Edge にインストール"
+    }
+}

@@ -1,0 +1,92 @@
+{
+    "howSnowflakeWorks": {
+        "message": "Lærðu meira um hvernig Snowflake virkar"
+    },
+    "browser": {
+        "message": "Notaðu Snowflake til að komast hjá ritskoðun"
+    },
+    "extension": {
+        "message": "Hjálpaðu fólki við að komast framhjá ritskoðun: rektu Snowflake-milliþjón"
+    },
+    "websiteIntro2": {
+        "message": "Til eru margvísleg tól á borð við Snowflake sem \"umbreyta\" virkni á internetinu, hvert með sinni tæknilegu útfærslunni. Sum þeirra endurbeina netumferð þannig að hún líkist samskiptum við vinsælar skýjaþjónustur á borð við Microsoft Azure og Amazon Web Services. Aðrar rugla eða tæta netumferð svo hún líti út fyrir að vera algerlega tilviljanakennd."
+    },
+    "installWebExtensionIntro": {
+        "message": "Settu vefviðaukann (web extension)"
+    },
+    "installWebExtension": {
+        "message": "Vefviðaukinn (web extension) er einfaldasta leiðin til að reka Snowflake-milliþjón. Settu hann einfaldlega upp á <a href=\"https://addons.mozilla.org/en-US/firefox/addon/torproject-snowflake/\">Firefox</a> eða <a href=\"https://chrome.google.com/webstore/detail/snowflake/mafpmfcccpbjnhfhjnllmmalhifmlcie\">Chrome</a>, virkjaðu viðaukann, og fylgstu með taknmyndinni verða græna þegar notandi tengist í gegnum milliþjóninn þinn!"
+    },
+    "installFirefox": {
+        "message": "Setja upp í Firefox"
+    },
+    "installChrome": {
+        "message": "Setja upp í Chrome"
+    },
+    "webBadgeTitle": {
+        "message": "Skildu þennan vafraflipa eftir opinn eða ívefðu vefskjöld á vefsvæðinu þínu"
+    },
+    "StandaloneTitle": {
+        "message": "Keyrðu sjálfstæðan milliþjón"
+    },
+    "reportingBugs": {
+        "message": "Tilkynna villur"
+    },
+    "embed": {
+        "message": "Ívefja"
+    },
+    "faq": {
+        "message": "Leita að aðstoð við að nota Snowflake"
+    },
+    "websiteIntro3": {
+        "message": "Það yrði ærið kostnaðarsamt fyrir ritskoðunaraðila að loka á slík framhjáveitutól þar sem það myndi útheimta lokun á stórum hlutum internetsins að ná fram markmiðum um fullnægjandi ritskoðun."
+    },
+    "websiteIntro": {
+        "message": "Snowflake er kerfi sem <strong>gerir fólki út um víða veröld kleift að ná sambandi við ritskoðuð vefsvæði og hugbúnað</strong>. Ekki ólíkt því hvernig VPN-kerfi hjálpa notendum að komast framhjá ritskoðun á internetinu, þá hjálpar Snowflake þér að dyljast á netinu þannig að aðgerðir þínar þar líta út fyrir að vera meinlaust áhorf á myndskeið eða venjuleg símtöl."
+    },
+    "censoredUsers": {
+        "message": "Ólíkt VPN-kerfum, þarftu ekki að setja upp sérstakt forrit til að tengjast við Snowflake-milliþjón og komast þá framhjá ritskoðun. Í staðinn er þetta venjulega eiginleiki sem er innbyggður í fyrirliggjandi forrit. Í augnablikinu er Snowflake til staðar í <a href=\"https://torproject.org/download\">Tor-vafranum</a> fyrir vinnutölvur og Android, í <a href=\"https://onionbrowser.com\">Onion-vafranum</a> á iOS og <a href=\"https://orbot.app\">Orbot</a> á Android og iOS. Ef þú hefur sótt og sett upp einhvern af þessum hugbúnaði, og þessi forrit séu ritskoðuð í landinu þínu, þá geturðu komist framhjá ritskoðun með því að virkja Snowflake í stillingasíðum þessarra forrita."
+    },
+    "bugTracker": {
+        "message": "<a href=\"https://gitlab.onionize.space/\">Biddu um aðgang</a> á GitLab-þjóni Tor-verkefnisins, síðan ættirðu að <a href=\"https://gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/snowflake/-/issues\">opna nýja verkbeiðni</a> í Snowflake-verkefninu."
+    },
+    "descriptive": {
+        "message": "Reyndu að gera verkbeiðnina eins greinargóða og lýsandi og auðið er, hafa jafnvel með þau skilaboð úr atvikaskráningu (log) sem geta hjálpað við að endurgera villuna."
+    },
+    "support": {
+        "message": "Ef þú rekst á vandamál við að tengjast við Tor með Snowflake, þá er hægt að nýta aðstoðarrás Tor á <a href=\"https://t.me/TorProjectSupportBot\">Telegram</a>. Þú getur líka skoðað <a href=\"https://support.torproject.org/censorship/\">Tor-aðstoðargáttina</a> og <a href=\"https://forum.torproject.org/tag/snowflake\">Tor-spjallsvæðið</a> til að fá svör og lausnir."
+    },
+    "fileBug": {
+        "message": "Ef þú lendir í vandamálum með Snowflake - hvort sem þú ert að nýta þér það eða keyra það - þá skaltu íhuga að senda inn skýrslu.  Tvær leiðir eru til að senda inn villuskýrslu:"
+    },
+    "installOptions": {
+        "message": "Það eru nokkrar mismunandi leiðir við að reka Snowflake-milliþjón (byrjendur til vanra notenda):"
+    },
+    "webBadgeInstructions": {
+        "message": "Ef þú kveikir á Snowflake hér fyrir neðan and og skilur vafraflipann eftir opinn, getur notandi tengst í gegnum nýja milliþjóninn þinn!"
+    },
+    "installExtension": {
+        "message": "Vissir þú að Snowflake-milliþjónar eru alfarið reknir af sjálfboðaliðum? Með öðrum orðum, notandi er paraður tilviljanakennt við milliþjón Snowflake-sjálfboðaliða, sem gæti eins verið þú! Þannig að ef þig langar að hjálpa fólki við að komast framhjá ritskoðun, ættirðu að íhuga að setja upp og keyra Snowflake-milliþjón. Einu kröfurnar eru að internetið í landinu þínu sé <strong>ekki</strong> alvarlega ritskoðað nú um stundir."
+    },
+    "possible": {
+        "message": "Auk þess geturðu líka ígrætt Snowflake-milliþjón inni í síðu á vefsvæðinu þínu (t.d. <a href=\"https://relay.love\">relay.love</a>). Gestir á vefnum þínum geta sett inn slóðina á síðunni, virkjað milliþjóninn og skilja síðuna eftir opna til að gefa fólki kost á að nýta sér milliþjóninn (þetta hegðar sér og lítur út nákvæmlega eins og vefviðaukinn)."
+    },
+    "installStandalone": {
+        "message": "Ef þú vilt keyra skipanalínu-útgáfuna af Snowflake-milliþjóni á vinnutölvu eða netþjóni, ættirðu að skoða <a href=\"https://community.torproject.org/relay/setup/snowflake/standalone/\">leiðbeiningarnar</a> fyrir að keyra sjálfstæðan Snowflake-milliþjón."
+    },
+    "volunteer": {
+        "message": "Þú getur gengið til liðs við þúsundir annarra sjálfboðaliða úti um víða veröld sem eru með Snowflake-milliþjón uppsettann og í gangi. Það þarf ekki að hafa neinar áhyggjur af því hvaða vefsíður fólk sé að skoða í gegnum Snowflake-milliþjóninn þinn. Sýnilega IP-vistfangið þeirra mun samsvara Tor-útgangsgátt þeirra, ekki IP-vistfanginu þínu."
+    },
+    "sharedAccount": {
+        "message": "Sendu inn <a href=\"https://anonticket.onionize.space/\">nafnlausa verkbeiðni</a> með því að útbúa auðkenni og skrá þig inn með því. Síðan skaltu finna Snowflake-verkefnið í <strong>Listi yfir öll verkefni</strong> og útbúa nýja verkbeiðni."
+    },
+    "contactSnowflakeDevs": {
+        "message": "Ef þú hefur áhuga á að nota Snowflake innan þíns eigin hugbúnaðar, skaltu hafa samband við <a href=\"https://lists.torproject.org/cgi-bin/mailman/listinfo/anti-censorship-team\">anti-ritskoðunar-teymið</a>."
+    },
+    "snowflakeTechOverview": {
+        "message": "Snowflake er ný tækni við gerð hjáleiða, hluti af <a href=\"https://gitweb.torproject.org/torspec.git/tree/pt-spec.txt\">Pluggable Transports tengileiðunum</a>, sem alltaf er verið að bæta. Leikur þér forvitni á að vita hvernig þetta er uppbyggt? Þá ættirðu að kynna þér þetta <a href=\"https://gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/snowflake/-/wikis/Technical%20Overview\">tæknilega yfirlit</a> (á ensku)."
+    },
+    "installEdge": {
+        "message": "Setja upp í Edge"
+    }
+}

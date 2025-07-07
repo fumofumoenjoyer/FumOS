@@ -1,0 +1,70 @@
+{
+   "advancedLabel": {
+      "description": "Advanced label.",
+      "message": "Напредно"
+   },
+   "amountInjectedDescription": {
+      "description": "Amount injected description.",
+      "message": "Број локално убризганих ресурса са мрежа за доставу садржаја од инсталације."
+   },
+   "amountInjectedTitle": {
+      "description": "Amount injected title.",
+      "message": "Бројач локално убризганих ресурса"
+   },
+   "blockMissingDescription": {
+      "description": "Block requests for missing resources description.",
+      "message": "Откажи пресретнути захтев ако потребни ресурс није локално доступан."
+   },
+   "blockMissingTitle": {
+      "description": "Block requests for missing resources title.",
+      "message": "Блокирај захтеве ка недостајућим ресурсима"
+   },
+   "disablePrefetchDescription": {
+      "description": "Disable prefetch description.",
+      "message": "Спречи цурење недозвољених захтева ка мрежама за доставу."
+   },
+   "disablePrefetchTitle": {
+      "description": "Disable prefetch title.",
+      "message": "Откажи преучитавање везе"
+   },
+   "disableProtectionTitle": {
+      "description": "Disable protection title.",
+      "message": "Онемогући заштиту на овом сајту"
+   },
+   "enableProtectionTitle": {
+      "description": "Enable protection title.",
+      "message": "Омогући заштиту"
+   },
+   "extensionDescription": {
+      "description": "Extension description.",
+      "message": "Штити вас од праћења преко „бесплатних“, централизованих достава садржаја."
+   },
+   "optionsTitle": {
+      "description": "Options title.",
+      "message": "Опције"
+   },
+   "showIconBadgeDescription": {
+      "description": "Show icon badge description.",
+      "message": "Прикажи број убризганих ресурса на иконици проширења."
+   },
+   "showIconBadgeTitle": {
+      "description": "Show icon badge title.",
+      "message": "Прикажи број убризгавања на иконици"
+   },
+   "stripMetadataDescription": {
+      "description": "Strip metadata description.",
+      "message": "Обриши осетљиве податке са дозвољених CDN захтева зарад веће приватности."
+   },
+   "stripMetadataTitle": {
+      "description": "Strip metadata title.",
+      "message": "Скини мета-податке са дозвољених захтева"
+   },
+   "whitelistedDomainsDescription": {
+      "description": "Whitelisted domains description.",
+      "message": "Унесите домене да их ставите на бели списак. Одвојите више ставки са тачка-запетама (;)."
+   },
+   "whitelistedDomainsTitle": {
+      "description": "Whitelisted domains title.",
+      "message": "Прескочи домене приликом провере"
+   }
+}

@@ -1,0 +1,13 @@
+/*
+ * Interceptor Font Awesome v4
+ * Belongs to LocalCDN (since 2021-03-10)
+ *
+ */
+@import url('../font-awesome/4.7.0/css/font-awesome.min.css');
+
+@font-face {
+  font-family: 'FontAwesome';
+  src: url('../font-awesome/4.7.0/fonts/fontawesome-webfont.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}

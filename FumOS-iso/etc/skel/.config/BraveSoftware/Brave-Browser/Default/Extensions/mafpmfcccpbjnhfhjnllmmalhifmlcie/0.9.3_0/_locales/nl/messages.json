@@ -1,0 +1,65 @@
+{
+   "appDesc": {
+      "message": "Sta gebruikers in gecensureerde landen toe om je netwerkverbinding te gebruiken om toegang te krijgen tot het Tor-netwerk."
+   },
+   "badgeLocalStorageOff": {
+      "message": "Lokale opslag is niet ingeschakeld."
+   },
+   "consent": {
+      "message": "Ik ga akkoord"
+   },
+   "consented": {
+      "message": "Helemaal klaar! Bedankt om een snowflake proxy te draaien!"
+   },
+   "extensionConsent": {
+      "message": "Om basisfunctionaliteit te voorzien sturen Snowflake proxies (de extensie die u in uw browser installeerde) bepaalde metadata over de netwerkconfiguratie van de proxy naar de Snowflake broker. De volgende items is het totaal van de gestuurde metadata: het IP adres van de proxy (uw IP adres), uw type van NAT, de versie van het Snowflake protocol dat uw proxy aanbiedt, het feit dat de proxy (de extensie die u heeft geïnstalleerd) een web extensie is, en het aantal gebruikers die verbonden zijn met de proxy (met de extensie die u heeft geïnstalleerd). Deze metadata wordt uitsluitend gebruikt om de verbinding op te bouwen en geaggregeerde statistieken aan te maken, en wordt niet opgeslagen in de broker. Gelieve ons \u003Ca href=\"https://addons.mozilla.org/en-US/firefox/addon/torproject-snowflake/privacy\">privacybeleid\u003C/a> de lezen voor meer details over welke informatie we verzamelen en publiceren. Wanneer u er klaar voor bent, kan u toestemming verlenen om uw Snowflake proxy te activeren door op de knop hieronder te klikken."
+   },
+   "extensionOnboard": {
+      "message": "Bedankt voor het installeren van de Snowflake web extensie!"
+   },
+   "extensionOptout": {
+      "message": "Deze extensie stuurt enkel de minimale hoeveelheid data door die nodig is om te functioneren als Snowflake proxy. Indien u bedenkingen heeft bij de verzending van de hierboven opgelijste data, of met een onderdeel van ons privacybeleid, raden we u aan de Snowflake extensie te verwijderen."
+   },
+   "popupBridgeUnreachable": {
+      "message": "Kon geen verbinding maken met de brug."
+   },
+   "popupConsent": {
+      "message": "Open de toestemmingspagina"
+   },
+   "popupDescOn": {
+      "message": "Aantal gebruikers die dankzij uw Snowflake de afgelopen 24 uur censuur hebben kunnen omzeilen: $1"
+   },
+   "popupEnabled": {
+      "message": "Ingeschakeld"
+   },
+   "popupLearnMore": {
+      "message": "Meer info"
+   },
+   "popupNeedConsent": {
+      "message": "Gelieve akkoord te gaan met ons privacybeleid voordat u Snowflake inschakelt."
+   },
+   "popupRetry": {
+      "message": "Opnieuw proberen"
+   },
+   "popupRetrying": {
+      "message": "Opnieuw proberen..."
+   },
+   "popupRunInBackground": {
+      "message": "Blijf draaien als de browser is afgesloten"
+   },
+   "popupStatusOff": {
+      "message": "Snowflake staat uit"
+   },
+   "popupStatusOn": {
+      "message": "Aantal momenteel verbonden gebruikers: $1"
+   },
+   "popupStatusReady": {
+      "message": "Uw Snowflake kan nu gebruikers helpen censuur te omzeilen"
+   },
+   "popupWebRTCOff": {
+      "message": "WebRTC-functie is niet gedetecteerd."
+   },
+   "remove": {
+      "message": "De Snowflake extensie verwijderen"
+   }
+}

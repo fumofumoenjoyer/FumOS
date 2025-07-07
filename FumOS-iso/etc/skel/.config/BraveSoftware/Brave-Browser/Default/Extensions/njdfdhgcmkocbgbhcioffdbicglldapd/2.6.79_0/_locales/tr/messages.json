@@ -1,0 +1,530 @@
+{
+   "advancedLabel": {
+      "description": "Advanced label",
+      "message": "Gelişmiş"
+   },
+   "allowlistedDomainsDescription": {
+      "description": "Enter domains to disable LocalCDN there. One entry per line.",
+      "message": "Her satırda bir girdi olacak şekilde, LocalCDN'nin devre dışı bırakılacağı etki alanlarını girin."
+   },
+   "allowlistedDomainsTitle": {
+      "description": "Deactivate LocalCDN for these domains:",
+      "message": "Bu etki alanları için LocalCDN'yi devre dışı bırak:"
+   },
+   "amountInjectedDescription": {
+      "description": "Amount injected description.",
+      "message": "Kurulumdan bu yana yerel İçerik Dağıtım Ağı kaynak enjeksiyonlarının miktarı."
+   },
+   "betaLabel": {
+      "description": "beta",
+      "message": "Beta"
+   },
+   "blockGoogleFontsDescription": {
+      "description": "If requests for missing resources are allowed, connections to \"fonts.googleapis.com\" are not blocked. Enable this option to block these requests.",
+      "message": "Eksik kaynaklar için isteklere izin verilirse, \"fonts.googleapis.com\" adresiyle yapılan bağlantılar engellenmez. Bu istekleri engellemek için bu seçeneği etkinleştirin."
+   },
+   "blockGoogleFontsTitle": {
+      "description": "Block Google Fonts",
+      "message": "Google Yazı Tiplerini Engelle"
+   },
+   "blockMissingDescription": {
+      "description": "Block requests for missing resources description.",
+      "message": "İstenilen kaynak yerel olarak bulunmuyorsa, yakalanan isteği iptal et."
+   },
+   "blockMissingTitle": {
+      "description": "Block requests for missing resources title",
+      "message": "Eksik kaynaklar için gelen istekleri engelle"
+   },
+   "btnAdvanced": {
+      "description": "Advanced",
+      "message": "Gelişmiş"
+   },
+   "btnGeneral": {
+      "description": "Basic",
+      "message": "Temel"
+   },
+   "btnInfo": {
+      "description": "Info",
+      "message": "Bilgi"
+   },
+   "btnOther": {
+      "description": "Other",
+      "message": "Diğer"
+   },
+   "changeBadgeColorMissingResourcesDescription": {
+      "description": "Change the badge color if resources are missing.",
+      "message": "Kaynaklar eksikse rozet rengini değiştir."
+   },
+   "changeBadgeColorMissingResourcesTitle": {
+      "description": "Indicate missing resources on the icon",
+      "message": "Simgede eksik kaynakları belirt"
+   },
+   "chooseIconStyle": {
+      "description": "Choose an icon for this extension",
+      "message": "Bu uzantı için bir simge seç"
+   },
+   "copyRuleSet": {
+      "description": "Text of button to copy ruleset",
+      "message": "Kopyala"
+   },
+   "counterBlocked": {
+      "description": "Blocked",
+      "message": "Engellendi"
+   },
+   "counterMissing": {
+      "description": "Missing",
+      "message": "Eksik"
+   },
+   "dialogConfirmDeleteStatistics": {
+      "description": "Are you sure you want to delete all the statistics?",
+      "message": "Tüm istatistikleri silmek istediğinizden emin misiniz?"
+   },
+   "dialogImportFailed": {
+      "description": "Import failed",
+      "message": "İçe aktarma başarısız"
+   },
+   "dialogImportSuccessful": {
+      "description": "Import successful",
+      "message": "İçe aktarma başarılı"
+   },
+   "disablePrefetchDescription": {
+      "description": "Disable prefetch description.",
+      "message": "İzin verilmeyen isteklerin dağıtım ağlarına sızmasını engelleyin."
+   },
+   "disablePrefetchTitle": {
+      "description": "Disable prefetch title",
+      "message": "Bağlantı önalımını devre dışı bırak"
+   },
+   "extensionDescription": {
+      "description": "Protects you against tracking through CDNs (Content Delivery Networks) by redirecting to local resources.",
+      "message": "Yerel kaynaklara yönlendirerek sizi CDN'ler (Content Delivery Networks - İçerik Dağıtım Ağları) üzerinden izlenmeye karşı korur."
+   },
+   "featureBreaksWebsitesButton": {
+      "description": "Disable",
+      "message": "Devre dışı bırak"
+   },
+   "featureBreaksWebsitesDescription": {
+      "description": "This feature breaks websites. Do not leave it enabled, unless you are prepared to manually add affected domains to the allow list.",
+      "message": "Bu özellik web sitelerini bozar. Etkilenen alan adlarını elle izin listesine eklemeye hazır değilseniz, etkinleştirilmiş olarak bırakmayın."
+   },
+   "generateRuleSetDescription": {
+      "description": "In case you are using an adblocker you can generate the rules here. You have to add these rules manually in your adblocker.",
+      "message": "Bir reklam engelleyici kullanıyorsanız kuralları buradan oluşturabilirsiniz. Bu kuralları reklam engelleyicinize elle eklemeniz gerekir."
+   },
+   "generateRuleSetTitle": {
+      "description": "Generate rule sets for your adblocker",
+      "message": "Reklam engelleyiciniz için kural kümeleri oluşturun"
+   },
+   "headerImportExport": {
+      "description": "Import/Export",
+      "message": "İçe/Dışa aktar"
+   },
+   "headerStatistics": {
+      "description": "Statistics. The header of a statistics page.",
+      "message": "İstatistikler"
+   },
+   "headerStorageType": {
+      "description": "Storage type",
+      "message": "Depolama türü"
+   },
+   "helpBlockGoogleFontsDescription": {
+      "description": "LocalCDN can replace »Google Material Icons«. To catch the connection your adblocker (e.g. uBlock Origin, uMatrix or AdGuard) must allow the request. LocalCDN listens on these requests and if the query contains »Google Material Icons«, the resource will be replaced. If you uncheck the »Block requests for missing content« option, non-existent resources will be allowed to pass and »Google Fonts« will be loaded, because »Google Material Icons« and »Google Fonts« use the same domain. If you don‘t want this, you can block »Google Fonts« on LocalCDN.",
+      "message": "LocalCDN, »Google Material Simgelerini« değiştirebilir. Bağlantıyı yakalamak için reklam engelleyicinizin (örn. uBlock Origin, uMatrix veya AdGuard) isteğe izin vermesi gerekir. LocalCDN bu istekleri dinler ve sorgu »Google Material Simgelerini« içeriyorsa, kaynak değiştirilecektir. »Eksik içerik için gelen istekleri engelle« seçeneğinin işaretini kaldırırsanız, var olmayan kaynakların geçişine izin verilecek ve »Google Yazı Tipleri« yüklenecektir çünkü »Google Material Simgeleri« ve »Google Yazı Tipleri« aynı etki alanını kullanır. Bunu istemiyorsanız, LocalCDN'de »Google Yazı Tiplerini« engelleyebilirsiniz."
+   },
+   "helpBlockGoogleFontsTitle": {
+      "description": "Why is there a »Block Google Fonts« option?",
+      "message": "Neden bir »Google Yazı Tiplerini Engelle« seçeneği var?"
+   },
+   "helpBrowserCompatibility": {
+      "description": "Browser compatibility",
+      "message": "Tarayıcı uyumluluğu"
+   },
+   "helpBrowserCompatibilityTitle": {
+      "description": "Browser compatibility",
+      "message": "Tarayıcı uyumluluğu"
+   },
+   "helpData": {
+      "description": "Data",
+      "message": "Veri"
+   },
+   "helpExplanationChrome": {
+      "description": "All Chromium based Browser",
+      "message": "Tüm Chromium tabanlı tarayıcılar"
+   },
+   "helpHtmlFilterAfter": {
+      "description": "The result then looks like this:",
+      "message": "Sonuç daha sonra şu şekilde görünür:"
+   },
+   "helpHtmlFilterBefore": {
+      "description": "The HTML filter removes the red characters from this example:",
+      "message": "HTML filtresi bu örnekten kırmızı karakterleri kaldırır:"
+   },
+   "helpHtmlFilterCrossorigin": {
+      "description": "The crossorigin attribute prevents the replacement because the destination does not match the requested one.",
+      "message": "Çapraz kaynak niteliği, hedefin istenilen ile eşleşmemesi nedeniyle değiştirmeyi engeller."
+   },
+   "helpHtmlFilterDescription": {
+      "description": "In most cases LocalCDN can easily replace embedded frameworks and improves privacy. In some cases the website may try to prevent this by setting certain options in the HTML source code. LocalCDN reads the HTML source code before it is displayed in the browser and removes these part (red).",
+      "message": "Çoğu durumda LocalCDN, gömülü çerçeveleri kolayca değiştirebilir ve gizliliği iyileştirebilir. Bazı durumlarda web sitesi, HTML kaynak kodunda belirli seçenekleri ayarlayarak bunu engellemeye çalışabilir. LocalCDN, tarayıcıda görüntülenmeden önce HTML kaynak kodunu okur ve bu kısımları (kırmızı) kaldırır."
+   },
+   "helpHtmlFilterErrors": {
+      "description": "Unfortunately, it sometimes happens that special characters are then displayed incorrectly. In this case you can deactivate the setting again, to display the umlauts correctly.",
+      "message": "Ne yazık ki, bazen özel karakterlerin yanlış görüntülenmesi söz konusudur. Bu durumda, üzeri çift noktalı karakterleri (umlaut) doğru şekilde görüntülemek için ayarı tekrar devre dışı bırakabilirsiniz."
+   },
+   "helpHtmlFilterIntegrity": {
+      "description": "To save disk space and to deliver more frameworks LocalCDN upgrades a framework. An integrity tag is the hash value of a file. If the check fails, the browser won‘t include a framework. The integrity check will fail because the hash values for e.g. jQuery 1.10.1 and jQuery 1.12.4 are different.",
+      "message": "Disk alanından tasarruf etmek ve daha fazla çerçeve sunmak için LocalCDN çerçeveleri yükseltir. Bütünlük etiketi, bir dosyanın sağlama toplamı değeridir. Denetim başarısız olursa, tarayıcı o çerçeveyi dahil etmez. Örneğin, jQuery 1.10.1 ve jQuery 1.12.4 için sağlama toplamları farklı olduğu için bütünlük denetimi başarısız olacaktır."
+   },
+   "helpHtmlFilterTitle": {
+      "description": "What is »HTML filter«?",
+      "message": "»HTML filtresi« nedir?"
+   },
+   "helpHtmlFilterWhyTitle": {
+      "description": "Why is it necessary to remove crossorigin and integrity attributes?",
+      "message": "Çapraz kaynak (crossorigin) ve bütünlük (integrity) niteliklerini kaldırmak neden gereklidir?"
+   },
+   "helpIcons": {
+      "description": "Default, Light, Blue/Grey",
+      "message": "Öntanımlı, Açık, Mavi/Gri"
+   },
+   "helpIntroductionDescription": {
+      "description": "LocalCDN is a web browser extension that emulates Content Delivery Networks to improve your online privacy. It intercepts traffic, finds supported frameworks/libraries locally, and injects them into the website. Feel free to use the following testing utility to find out if you are properly protected. For more information read the tutorial or our Wiki pages.",
+      "message": "LocalCDN, çevrim içi gizliliğinizi iyileştirmek için İçerik Dağıtım Ağlarını taklit eden bir web tarayıcısı uzantısıdır. Trafiği yakalar, yerel olarak desteklenen çerçeveleri/kütüphaneleri bulur ve bunları web sitesine enjekte eder. Uygun şekilde korunup korunmadığınızı öğrenmek için aşağıdaki test aracını kullanmaktan çekinmeyin. Daha fazla bilgi için öğreticiyi veya Wiki sayfalarımızı okuyun."
+   },
+   "helpIntroductionTitle": {
+      "description": "Introduction",
+      "message": "Giriş"
+   },
+   "helpLimitation": {
+      "description": "This is not a limitation of LocalCDN, but missing API support of Chromium based browsers.",
+      "message": "Bu, LocalCDN'nin bir sınırlaması değildir, ancak Chromium tabanlı tarayıcılar için API desteği eksiktir."
+   },
+   "helpLinkTestUtility": {
+      "description": "Testing utility",
+      "message": "Test aracı"
+   },
+   "helpLinkTutorial": {
+      "description": "Tutorial",
+      "message": "Öğretici"
+   },
+   "helpLinkWikiPages": {
+      "description": "Wiki pages",
+      "message": "Wiki sayfaları"
+   },
+   "helpNo": {
+      "description": "No",
+      "message": "Hayır"
+   },
+   "helpNumberOfInjections": {
+      "description": "Numbers of injections",
+      "message": "Enjeksiyon sayısı"
+   },
+   "helpPermissionDescription": {
+      "description": "LocalCDN needs to know which requests are created by a website to redirect or block it. With the introduction of MV3, this permission is listed as an optional permission.",
+      "message": "LocalCDN, yönlendirmek veya engellemek için bir web sitesi tarafından hangi isteklerin oluşturulduğunu bilmelidir. MV3'ün gelmesiyle birlikte bu izin isteğe bağlı bir izin olarak listelendi."
+   },
+   "helpReplace": {
+      "description": "Replace",
+      "message": "Değiştir"
+   },
+   "helpReplaceOther": {
+      "description": "Replace other resources",
+      "message": "Diğer kaynakları değiştir"
+   },
+   "helpRuleGeneratorDescription": {
+      "description": "If you want to automatically redirect all supported CDN connections to LocalCDN, you can add these rules to your adblocker to allow these redirections. If you do not want to add these rules, you must allow each CDN connection individually for each website.",
+      "message": "Desteklenen tüm CDN bağlantılarını LocalCDN'e otomatik olarak yeniden yönlendirmek istiyorsanız, bu yeniden yönlendirmelere izin vermek için bu kuralları reklam engelleyicinize ekleyebilirsiniz. Bu kuralları eklemek istemiyorsanız, her web sitesi için her CDN bağlantısına ayrı ayrı izin vermelisiniz."
+   },
+   "helpRuleGeneratorTitle": {
+      "description": "Rule generator",
+      "message": "Kural oluşturucu"
+   },
+   "helpRuleGeneratorUblockDescription": {
+      "description": "These rules are only relevant in »medium« or »hard« mode, because it blocks all 3rd-party resources. They are not necessary in »default«, »easy« or »very-easy« mode. For more information, please visit the uBlock Origin Wiki.",
+      "message": "Bu kurallar, tüm 3. taraf kaynaklarını engellediği için yalnızca »orta« veya »zor« modunda geçerlidir. »öntanımlı«, »kolay« veya »çok-kolay« modunda gerekli değildir. Daha fazla bilgi için lütfen uBlock Origin Wiki sayfasını ziyaret edin."
+   },
+   "helpRuleGeneratorUblockTableDefaultEasy": {
+      "description": "Default/Easy",
+      "message": "Öntanımlı/Kolay"
+   },
+   "helpRuleGeneratorUblockTableHard": {
+      "description": "Hard",
+      "message": "Zor"
+   },
+   "helpRuleGeneratorUblockTableIcon": {
+      "description": "Icon",
+      "message": "Simge"
+   },
+   "helpRuleGeneratorUblockTableMedium": {
+      "description": "Medium",
+      "message": "Orta"
+   },
+   "helpRuleGeneratorUblockTableMode": {
+      "description": "Mode",
+      "message": "Mod"
+   },
+   "helpRuleGeneratorUblockTableUseful": {
+      "description": "Rules useful",
+      "message": "Faydalı kurallar"
+   },
+   "helpRuleGeneratorUblockTitle": {
+      "description": "Only uBlock Origin:",
+      "message": "Yalnızca uBlock Origin:"
+   },
+   "helpStatisticsContent": {
+      "description": "The statistics contain no information about the browser, operating system, requesting website, IP addresses or any other information. Just date, CDN+counter and framework+counter. It shows you which frameworks are replaced by LocalCDNs how often and which CDNs were requested.",
+      "message": "İstatistikler tarayıcı, işletim sistemi, isteyen web sitesi, IP adresleri veya diğer herhangi bir bilgiyi içermez. Yalnızca tarih, CDN+sayaç ve çerçeve+sayaç. Hangi çerçevelerin LocalCDN tarafından ne sıklıkla değiştirildiğini ve hangi CDN'lerin istenildiğini gösterir."
+   },
+   "helpStatisticsDescription": {
+      "description": "Don‘t panic, nothing will be transmitted. It would be against all my principles. The statistics (JSON format) contains the following information: Date, CDN+counter and framework+counter. That‘s all. I‘ve an example here:",
+      "message": "Endişelenmeyin, hiçbir şey iletilmeyecek. Bu, tüm prensiplerime aykırı olur. İstatistikler (JSON biçimi) aşağıdaki bilgileri içerir: Tarih, CDN+sayaç ve çerçeve+sayaç. Bu kadar. Burada bir örneğim var:"
+   },
+   "helpStatisticsTitle": {
+      "description": "What about the statistics? Is anything transferred to any servers?",
+      "message": "Peki ya istatistikler? Herhangi bir sunucuya herhangi bir şey aktarıldı mı?"
+   },
+   "helpStatisticsTruthDescription": {
+      "description": "The extension storage can be viewed directly with the Firefox browser. Open the URL »about:debugging«, switch to »Storage« and select »Extension Storage«. Under the key »internalStatisticsData« you will find the collected data. Just copy it and put it into a JSON PrettyPrinter to make it more readable. Please note that you have to remove the first and last quotation mark and the key to it. You should be able to see this clearly in this video.",
+      "message": "Uzantı deposu doğrudan Firefox tarayıcısı ile görüntülenebilir. »about:debugging« URL'sini açın, »Storage« bölümüne geçin ve »Extension Storage« ögesini seçin. »internalStatisticsData« anahtarı altında toplanan verileri bulacaksınız. Bunu kopyalayın ve daha okunaklı hale getirmek için bir JSON biçimlendiricisine yapıştırın. Lütfen ilk ve son tırnak işaretini ve anahtarını kaldırmanız gerektiğini unutmayın. Bunu bu videoda net bir şekilde görebilirsiniz."
+   },
+   "helpStatisticsTruthTitle": {
+      "description": "How do I know that‘s true?",
+      "message": "Bunun doğru olduğunu nasıl bilebilirim?"
+   },
+   "helpSyncAccount": {
+      "description": "If you don‘t have a sync account, nothing will be synchronized. In that case it makes no difference what type of storage you have selected.",
+      "message": "Eşzamanlama hesabınız yoksa, hiçbir şey eşzamanlanmayacaktır. Bu durumda, ne tür bir depolama alanı seçmiş olduğunuz fark etmez."
+   },
+   "helpSyncContentEver": {
+      "description": "Settings that will be synchronized:",
+      "message": "Eşzamanlanacak ayarlar:"
+   },
+   "helpSyncContentLinks": {
+      "description": "More information about Firefox Sync:",
+      "message": "Firefox Sync hakkında daha fazla bilgi:"
+   },
+   "helpSyncContentNever": {
+      "description": "Things that are never synchronized:",
+      "message": "Asla eşzamanlanmayan şeyler:"
+   },
+   "helpSyncDescription": {
+      "description": "Sync will only work if you are logged in with a Firefox account on the device and have allowed add-ons to sync in the settings. A separate sync server under your control will also work. This will synchronize most of the settings of LocalCDN across all devices.",
+      "message": "İşzamanlama, yalnızca aygıtta bir Firefox hesabıyla oturum açtıysanız ve ayarlarda eklentilerin eşzamanlanmasına izin verdiyseniz çalışır. Denetiminiz altındaki ayrı bir eşzamanlama sunucusu da çalışacaktır. Bu, LocalCDN ayarlarının çoğunu tüm aygıtlarda eşzamanlayacaktır."
+   },
+   "helpSyncTitle": {
+      "description": "What will be synchronized when I select »sync« as storage type?",
+      "message": "Depolama türü olarak »eşzamanla« seçeneğini seçtiğimde ne eşzamanlanacak?"
+   },
+   "helpUpgradeAllResources": {
+      "description": "Upgrade all resources",
+      "message": "Tüm kaynakları yükselt"
+   },
+   "helpWebsiteIssuesDescription": {
+      "description": "There are two possible reasons: Either a framework/library is required that LocalCDN doesn‘t (yet) deliver or an SOP. A SOP (Same origin policy) is a security mechanism that determines what data the browser is allowed to load. It helps to isolate malicious documents and thus reduce possible attack vectors. This policy prevents the browser from loading the external frameworks of LocalCDN. Unfortunately there is no solution for this at the moment.",
+      "message": "Bunun iki olası nedeni vardır: Ya LocalCDN'nin (henüz) sunmadığı bir çerçeve/kütüphane gereklidir ya da bir SOP. SOP (Same origin policy - Aynı kaynak ilkesi), tarayıcının hangi verileri yüklemesine izin verileceğini belirleyen bir güvenlik mekanizmasıdır. Kötü amaçlı belgelerin ayrılmasına ve böylece olası saldırı ihtimallerinin azaltılmasına yardımcı olur. Bu ilke, tarayıcının LocalCDN'nin harici çerçevelerini yüklemesini engeller. Ne yazık ki şu anda bunun için bir çözüm yoktur."
+   },
+   "helpWebsiteIssuesTitle": {
+      "description": "Some websites look strange or are not easy to use",
+      "message": "Bazı web siteleri tuhaf görünüyor veya kullanımı kolay değil"
+   },
+   "helpWhatWillBeSynchronizedTitle": {
+      "description": "What will be synchronized when I select »sync« as storage type?",
+      "message": "Depolama türü olarak »eşzamanla« seçeneğini seçtiğimde ne eşzamanlanacak?"
+   },
+   "helpWhyThisPermission": {
+      "description": "Why does this extension need this permission?",
+      "message": "Bu uzantı neden bu izne ihtiyaç duyuyor?"
+   },
+   "helpYes": {
+      "description": "Yes",
+      "message": "Evet"
+   },
+   "hideDonationButton": {
+      "description": "Hide donation button",
+      "message": "Bağış düğmesini gizle"
+   },
+   "htmlFilterDomainsDescription": {
+      "description": "Enter the domains to be handled or ignored by the HTML filter. One entry per line.",
+      "message": "Her satırda bir girdi olacak şekilde, HTML filtresi tarafından işlenecek veya yok sayılacak etki alanlarını girin."
+   },
+   "htmlFilterDomainsTitleExclude": {
+      "description": "Do not apply HTML filter to these domains:",
+      "message": "Bu etki alanlarına HTML filtresi uygulama:"
+   },
+   "htmlFilterDomainsTitleInclude": {
+      "description": "Apply HTML filter for these domains:",
+      "message": "Bu etki alanları için HTML filtresini uygula:"
+   },
+   "internalStatisticsDescription": {
+      "description": "No data transmission. It’s all local on your device.",
+      "message": "Bu işlev şu anda deneysel bir aşamadadır. Veri aktarımı yok. Hepsi aygıtınızda yereldir."
+   },
+   "internalStatisticsTitle": {
+      "description": "Internal statistics",
+      "message": "Dahili istatistikler"
+   },
+   "labelAll": {
+      "description": "Statistics view over the whole time range",
+      "message": "Tümü"
+   },
+   "labelAvg": {
+      "description": "Followed by a number of average injections per day within a specific period.",
+      "message": "Ortalama (Günlük değiştirme sayısı)"
+   },
+   "labelDelete": {
+      "description": "Button to delete all statistics data.",
+      "message": "Sil"
+   },
+   "labelDomainsAllowlistGoogleFonts": {
+      "description": "These domains are allowed to load Google Fonts. One entry per line.",
+      "message": "Her satırda bir girdi olacak şekilde, bu etki alanlarının Google Yazı Tiplerini yüklemesine izin verilir."
+   },
+   "labelDonate": {
+      "description": "Donate",
+      "message": "Bağış yap"
+   },
+   "labelExportData": {
+      "description": "Back up to file",
+      "message": "Dosyaya yedekle"
+   },
+   "labelImportData": {
+      "description": "Restore from file",
+      "message": "Dosyadan geri yükle"
+   },
+   "labelInjectedFrameworks": {
+      "description": "Followed by a number of injections within a specific period.",
+      "message": "Değiştirilen çerçeveler"
+   },
+   "labelManipulateDOM": {
+      "description": "Filter HTML source code",
+      "message": "HTML kaynak kodunu filtrele"
+   },
+   "labelPastMonth": {
+      "description": "Statistics view for past month.",
+      "message": "Geçen ay"
+   },
+   "labelPastWeek": {
+      "description": "Statistics view for past week.",
+      "message": "Geçen hafta"
+   },
+   "labelPastYear": {
+      "description": "Statistics view for past year.",
+      "message": "Geçen yıl"
+   },
+   "labelStorageTypeLocal": {
+      "description": "Local",
+      "message": "Yerel"
+   },
+   "labelStorageTypeSync": {
+      "description": "Sync",
+      "message": "Eşzamanla"
+   },
+   "labelToday": {
+      "description": "Statistics view for today.",
+      "message": "Bugün"
+   },
+   "lastUpdate": {
+      "description": "Last update:",
+      "message": "Son güncelleme:"
+   },
+   "loggingDescription": {
+      "description": "You can open the log with the icon in the menu. The log will be deleted when you close the browser or disable logging.",
+      "message": "Günlüğü menüdeki simgesi ile açabilirsiniz. Tarayıcıyı kapattığınızda veya günlük kaydını devre dışı bıraktığınızda günlük silinecektir."
+   },
+   "loggingTitle": {
+      "description": "Enable logging",
+      "message": "Günlük kaydını etkinleştir"
+   },
+   "negateHtmlFilterListDescription": {
+      "description": "Enable this option to always apply the HTML filter. The domains in the list will be ignored then. If this option is disabled, the HTML filter is only applied to domains in the list.",
+      "message": "HTML filtresini her zaman uygulamak için bu seçeneği etkinleştirin. Listedeki etki alanları göz ardı edilecektir. Bu seçenek devre dışı bırakılırsa, HTML filtresi sadece listedeki etki alanlarına uygulanır."
+   },
+   "negateHtmlFilterListTitle": {
+      "description": "Invert HTML filter",
+      "message": "HTML filtresini tersine çevir"
+   },
+   "negateHtmlFilterListWarning": {
+      "description": "This function can break websites. Please note the information on the Wiki page.",
+      "message": "Bu işlev web sitelerini bozabilir. Lütfen Wiki sayfasındaki bilgilere göz atın."
+   },
+   "optionsTitle": {
+      "description": "Options title",
+      "message": "Seçenekler"
+   },
+   "permissionAllow": {
+      "description": "Allow",
+      "message": "İzin ver"
+   },
+   "permissionMissing": {
+      "description": "Missing permission",
+      "message": "Eksik izin"
+   },
+   "permissionMoreInfo": {
+      "description": "More info",
+      "message": "Daha fazla bilgi"
+   },
+   "permissionRevokedDescription": {
+      "description": "Please do not disable the permission. LocalCDN needs the permission to detect and redirect requests to CDNs.",
+      "message": "Lütfen izni devre dışı bırakmayın. LocalCDN, istekleri algılamak ve CDN'lere yönlendirmek için izne ihtiyaç duyar."
+   },
+   "permissionRevokedHeader": {
+      "description": "Permission revoked",
+      "message": "İzin iptal edildi"
+   },
+   "permissionRevokedPermissionName": {
+      "description": "The exact name of the permission. Exactly as it is displayed in Firefox.",
+      "message": "Tüm web siteleri için verilerinize erişim"
+   },
+   "showIconBadgeDescription": {
+      "description": "Show icon badge description.",
+      "message": "Enjekte edilen kaynakların sayısını uzantı simgesinde gösterin."
+   },
+   "showIconBadgeTitle": {
+      "description": "Show icon badge title",
+      "message": "Simgede enjeksiyon sayaçlarını göster"
+   },
+   "stripMetadataDescription": {
+      "description": "Strip metadata description.",
+      "message": "İleri düzey gizlilik için, izin verilen CDN isteklerinden hassas verileri sil."
+   },
+   "stripMetadataTitle": {
+      "description": "Strip metadata title",
+      "message": "Meta verilerini izin verilen isteklerden ayır"
+   },
+   "titleBadgeDefault": {
+      "description": "Default badge",
+      "message": "Öntanımlı rozet"
+   },
+   "titleBadgeHTMLFilter": {
+      "description": "HTML filter badge",
+      "message": "HTML filtre rozeti"
+   },
+   "titleBadgeMissingResource": {
+      "description": "Missing or blocked resources badge",
+      "message": "Eksik veya engellenen kaynak rozeti"
+   },
+   "titleHelp": {
+      "description": "Help",
+      "message": "Yardım"
+   },
+   "updateNotificationAlways": {
+      "description": "Always",
+      "message": "Her zaman"
+   },
+   "updateNotificationNever": {
+      "description": "Never (Silent Updates)",
+      "message": "Asla (Sessiz Güncellemeler)"
+   },
+   "updateNotificationOnlyRules": {
+      "description": "Only if new CDNs and rules",
+      "message": "Yalnızca yeni CDN'ler ve kurallar olduğunda"
+   },
+   "updateNotificationTitle": {
+      "description": "Notification after an update",
+      "message": "Güncellemeden sonra bildirim"
+   },
+   "websiteBroken": {
+      "description": "Website broken?",
+      "message": "Web sitesi bozuk mu?"
+   }
+}

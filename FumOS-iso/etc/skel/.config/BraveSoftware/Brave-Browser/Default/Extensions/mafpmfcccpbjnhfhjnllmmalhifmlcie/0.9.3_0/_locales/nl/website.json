@@ -1,0 +1,92 @@
+{
+    "bugTracker": {
+        "message": "<a href=\"https://gitlab.onionize.space/\">Vraag een account aan</a> bij het Tor Project GitLab, <a href=\"https://gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/snowflake/-/issues\">open daarna een nieuwe issue</a> in het Sneeuwvlok-project."
+    },
+    "installChrome": {
+        "message": "Installeren in Chrome"
+    },
+    "installFirefox": {
+        "message": "Installeren in Firefox"
+    },
+    "reportingBugs": {
+        "message": "Bugs melden"
+    },
+    "descriptive": {
+        "message": "Probeer zo uitvoerig mogelijk te zijn in uw ticket en sluit zo mogelijk logboekberichten bij die ons kunnen helpen de bug te reproduceren."
+    },
+    "embed": {
+        "message": "Inbedden"
+    },
+    "censoredUsers": {
+        "message": "In tegenstelling tot VPNs hoef je geen aparte applicatie te installeren om te verbinden met een Sneeuwvlok-proxy en censuur te passeren. Het is gewoonlijk een omzeilingsfunctie die ingebouwd is in bestaande applicaties. Op dit moment is Sneeuwvlok beschikbaar in <a href=\"https://torproject.org/nl/download\">Tor Browser</a> op Desktop en Android, <a href=\"https://onionbrowser.com\">Onion Browser</a> op iOS en <a href=\"https://orbot.app\">Orbot</a> op Android en iOS. Als je een van deze applicaties hebt gedownload en geïnstalleerd en ze worden gecensureerd in jouw land, kun je de censuur passeren door Sneeuwvlok te activeren in de instellingenpagina van de betreffende applicatie."
+    },
+    "installExtension": {
+        "message": "Wist je dat Sneeuwvlok-proxies volledig beheerd worden door vrijwilligers? In andere woorden wordt een gebruiker gekoppeld aan een willekeurige vrijwillige-Sneeuwvlok-proxy die wordt gedraaid door een vrijwilliger zoals jij! Dus als je mensen wilt helpen censuur te passeren, overweeg dan een Sneeuwvlok-proxy te installeren en draaien. De enige voorwaarde is dat het internet in jouw land <strong>niet</strong> al hevig gecensureerd is."
+    },
+    "volunteer": {
+        "message": "Je kunt meedoen met duizenden vrijwilligers over de hele wereld die een Sneeuwvlok-proxy hebben geïnstalleerd en draaien. Er is geen reden om je zorgen te maken welke websites mensen bezoeken via jouw Sneeuwvlok-proxy. Hun zichtbare browse-IP-adres zal overeenkomen met hun Tor-uitgangsnode, niet dat van jou."
+    },
+    "installOptions": {
+        "message": "Er zijn verschillende manieren om een Sneeuwvlok-proxy te draaien (van beginner tot gevorderd):"
+    },
+    "installWebExtension": {
+        "message": "De webextensie is de makkelijkste manier om een Sneeuwvlok-proxy te draaien. Installeer het eenvoudig op <a href=\"https://addons.mozilla.org/en-US/firefox/addon/torproject-snowflake/\">Firefox</a> of <a href=\"https://chrome.google.com/webstore/detail/snowflake/mafpmfcccpbjnhfhjnllmmalhifmlcie\">Chrome</a>, schakel de extensie in en zie het icoon groen worden zodra een gebruiker verbindt met jouw proxy!"
+    },
+    "webBadgeTitle": {
+        "message": "Laat dit browsertabblad open of sluit een web-badge in op je website"
+    },
+    "installWebExtensionIntro": {
+        "message": "Install the web extension"
+    },
+    "webBadgeInstructions": {
+        "message": "Als je de Sneeuwvlok hieronder inschakelt en je browsertabblad openhoudt, kan een gebruiker verbinden door jouw nieuwe proxy!"
+    },
+    "StandaloneTitle": {
+        "message": "Draai een losstaande proxy"
+    },
+    "possible": {
+        "message": "Als alternatief kun je zelf een Sneeuwvlok-proxy insluiten op een pagina van je eigen website (bijv. <a href=\"https://relay.love\">relay.love</a>). Bezoekers van jouw website kunnen de pagina openen, de proxy aanzetten en deze open laten staan om mensen toe te staan om daarmee te verbinden (het gedraagt zich en ziet er net zo uit als de webextensie)."
+    },
+    "installStandalone": {
+        "message": "Als je een commandoregelversie van de Sneeuwvlok-proxy wilt draaien op je desktop of server, bekijk dan onze <a href=\"https://community.torproject.org/relay/setup/snowflake/standalone/\">gids</a> om een losstaande Sneeuwvlok-proxy te draaien."
+    },
+    "fileBug": {
+        "message": "Als je problemen tegenkomt met Sneeuwvlok - of je deze nu gebruikt of draait -, overweeg dan een foutrapport in te sturen. · · Er zijn twee manieren om een foutrapport in te dienen:"
+    },
+    "sharedAccount": {
+        "message": "Dien een <a href=\"https://anonticket.onionize.space/\">anoniem ticket</a> in door een identifier te genereren en daarmee in te loggen. Vind daarna het Sneeuwvlok-project in de <strong>Lijst van alle projecten</strong> en maak een nieuw issue."
+    },
+    "howSnowflakeWorks": {
+        "message": "Leer meer over hoe Sneeuwvlok werkt"
+    },
+    "contactSnowflakeDevs": {
+        "message": "Als je geïnteresseerd bent in het gebruikmaken van Sneeuwvlok in jouw applicatie, neem dan contact op met <a href=\"https://lists.torproject.org/cgi-bin/mailman/listinfo/anti-censorship-team\">anti-censuur-team</a>."
+    },
+    "faq": {
+        "message": "Ondersteuning zoeken met gebruik van Sneeuwvlok"
+    },
+    "snowflakeTechOverview": {
+        "message": "Sneeuwvlok is een nieuwe omzeilingstechnologie, onderdeel van de <a href=\"https://gitweb.torproject.org/torspec.git/tree/pt-spec.txt\">Pluggable Transports</a>-familie, die voortdurend wordt verbeterd. Nieuwsgierig om meer te leren over de architectuur? Voel je vrij om dit te bekijken <a href=\"https://gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/snowflake/-/wikis/Technical%20Overview\">Technical overview</a> (in het Engels)."
+    },
+    "websiteIntro": {
+        "message": "Sneeuwvlok is een systeem dat <strong>mogelijk maakt dat mensen van over de hele wereld toegang hebben tot gecensureerde websites en applicaties</strong>. Soortgelijk aan hoe VPNs gebruikers helpen om internetcensuur te omzeilen, helpt Sneeuwvlok vermijden opgemerkt te worden door internetcensoren door je internetgebruik te laten lijken alsof je het internet gebruikt voor een gewone video- of spraakoproep."
+    },
+    "websiteIntro2": {
+        "message": "Er zijn talloze tools beschikbaar zoals Sneeuwvlok die internetactiviteit \"transformeren\", elk met een andere techniek. Sommige sturen internetverkeer door alsof het lijkt te komen van populaire cloudproviders zoals Microsoft Azure en Amazon Web Services. Andere husselen internetverkeer, zodat het volkomen willekeurig lijkt."
+    },
+    "websiteIntro3": {
+        "message": "Het wordt daarom duur voor censoren om te overwegen dergelijke omzeilingstools te blokkeren, omdat grote delen van het internet geblokkeerd zouden moeten worden om het aanvankelijke doel te bereiken."
+    },
+    "browser": {
+        "message": "Gebruik Sneeuwvlok om censuur te omzeilen"
+    },
+    "extension": {
+        "message": "Help mensen censuur te omzeilen: beheer een Sneeuwvlok-proxy"
+    },
+    "support": {
+        "message": "Als je problemen tegenkomt terwijl je probeert te verbinden met Tor via Sneeuwvlok, kan het Tor-ondersteuningskanaal bereikt worden op <a href=\"https://t.me/TorProjectSupportBot\">Telegram</a>. Je kunt ook bladeren door het <a href=\"https://support.torproject.org/censorship/\">Tor Ondersteuningsportaal</a> en het <a href=\"https://forum.torproject.org/tag/snowflake\">Tor Forum</a> naar antwoorden."
+    },
+    "installEdge": {
+        "message": "Installeer in Edge"
+    }
+}

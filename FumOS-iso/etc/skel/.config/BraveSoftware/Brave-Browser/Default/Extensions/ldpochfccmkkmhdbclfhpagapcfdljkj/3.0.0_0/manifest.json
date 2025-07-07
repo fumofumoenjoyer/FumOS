@@ -1,0 +1,66 @@
+{
+   "action": {
+      "default_icon": {
+         "16": "images/icons/action/default/16.png",
+         "18": "images/icons/action/default/18.png",
+         "19": "images/icons/action/default/19.png",
+         "32": "images/icons/action/default/32.png",
+         "36": "images/icons/action/default/36.png",
+         "38": "images/icons/action/default/38.png",
+         "64": "images/icons/action/default/64.png"
+      },
+      "default_popup": "pages/popup/popup.html"
+   },
+   "author": "Thomas Rientjes",
+   "background": {
+      "service_worker": "code/main.js",
+      "type": "module"
+   },
+   "declarative_net_request": {
+      "rule_resources": [ {
+         "enabled": true,
+         "id": "redirect/stable",
+         "path": "rulesets/static/redirect/stable.json"
+      }, {
+         "enabled": false,
+         "id": "redirect/staging",
+         "path": "rulesets/static/redirect/staging.json"
+      }, {
+         "enabled": false,
+         "id": "block",
+         "path": "rulesets/static/block.json"
+      }, {
+         "enabled": true,
+         "id": "sanitize",
+         "path": "rulesets/static/sanitize.json"
+      }, {
+         "enabled": true,
+         "id": "transform",
+         "path": "rulesets/static/transform.json"
+      } ]
+   },
+   "default_locale": "en_US",
+   "description": "__MSG_extensionDescription__",
+   "host_permissions": [ "*://*/*" ],
+   "icons": {
+      "128": "images/icons/extension/128.png",
+      "16": "images/icons/extension/16.png",
+      "48": "images/icons/extension/48.png",
+      "96": "images/icons/extension/96.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAhu1cIJlIwhM5mXgaoEs9l7TXrn9LrNvR+P3lr7WpbN9Mn5hRgNPG+AEwnhgEoFSuxP8SnyMZARSbmH9neZ5qvAO8GHEKmmciQhak9mpwdy95dGFiYvXQ9MvsVVRuIGjdOR/K8DS9fN8xK4hp94PDA/u50q6xlU1/gz1UYxFWoQlQUa6zj1XGRzNSxymN+T4uym9L5s7fQQPySRblcZlP8iDXKT0b1LTrurONbDnoWB/50R7NL0xBKvlLbMcVGfXTGTGKvHYG4WwyriyCDNhHoJGtF9NB16dIyD1FXEV1f1gLK1LZlNrOPqCmaAEh7Jczob3HTgsUU3jaKvNYM/74MQIDAQAB",
+   "manifest_version": 3,
+   "minimum_chrome_version": "101",
+   "name": "Decentraleyes",
+   "options_ui": {
+      "page": "pages/options/options.html"
+   },
+   "permissions": [ "privacy", "webNavigation", "declarativeNetRequestWithHostAccess", "webRequest", "unlimitedStorage", "storage" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "3.0.0",
+   "web_accessible_resources": [ {
+      "matches": [ "\u003Call_urls>" ],
+      "resources": [ "resources/*" ],
+      "use_dynamic_url": true
+   } ]
+}

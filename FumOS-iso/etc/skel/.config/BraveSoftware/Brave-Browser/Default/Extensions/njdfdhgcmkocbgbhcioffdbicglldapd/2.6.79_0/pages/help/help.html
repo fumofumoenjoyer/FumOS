@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Help | LocalCDN</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="../style.css">
+        <link rel="stylesheet" type="text/css" href="../base.css">
+        <link rel="stylesheet" type="text/css" href="help.css">
+        <link rel="shortcut icon" href="../images/favicon.ico" type="image/x-icon">
+        <link rel="icon" href="../images/favicon.ico" type="image/x-icon">
+        <script src="../../modules/internal/helpers.js"></script>
+        <script src="help.js"></script>
+    </head>
+    <body>
+        <img src="../images/logo.svg" alt="" class="logo">
+        <h1 data-i18n-content="titleHelp">Help</h1>
+        <div class="notice notice-default hidden" id="notice-locale">
+            <p>Your preferred language is not yet fully supported. Please help out by translating this add-on on <a class="button button-notice button-warning" href="https://hosted.weblate.org/projects/localcdn/localcdn/" target="_blank" rel="noopener noreferrer">Weblate</a>.</p>
+        </div>
+        <div class="notice">
+            <div class="index">
+                <ul>
+                    <li><a class="no-icon" href="#introduction" data-i18n-content="helpIntroductionTitle">Introduction</a></li>
+                    <li><a class="no-icon" href="#html-filter" data-i18n-content="helpHtmlFilterTitle">What is "HTML filter"?</a></li>
+                    <li><a class="no-icon" href="#rule-generator" data-i18n-content="helpRuleGeneratorTitle">Rule generator</a></li>
+                    <li><a class="no-icon" href="#websites-issues" data-i18n-content="helpWebsiteIssuesTitle">Some websites look strange or are not easy to use</a></li>
+                    <li><a class="no-icon" href="#google-fonts" data-i18n-content="helpBlockGoogleFontsTitle">Why is there a "Block Google Fonts" option?</a></li>
+                    <li><a class="no-icon" href="#statistics" data-i18n-content="helpStatisticsTitle">What about the statistics? Is anything transferred to any servers?</a></li>
+                    <li><a class="no-icon" href="#sync" data-i18n-content="helpWhatWillBeSynchronizedTitle">What will be synchronized when I select "sync" as storage type?</a></li>
+                    <li><a class="no-icon" href="#browser-compatibility" data-i18n-content="helpBrowserCompatibilityTitle">Browser compatibility</a></li>
+                </ul>
+            </div>
+        </div>
+        <div id="introduction" class="notice">
+            <h2 data-i18n-content="helpIntroductionTitle">Introduction</h2>
+            <p data-i18n-content="helpIntroductionDescription">LocalCDN is a web browser extension that emulates Content Delivery Networks to improve your online privacy. It intercepts traffic, finds supported frameworks/libraries locally, and injects them into the website. Feel free to use the following testing utility to find out if you are properly protected. For more information read the tutorial or our Wiki pages.</p>
+            <a href="https://www.localcdn.org/test" rel="nofollow noopener noreferrer" data-i18n-content="helpLinkTestUtility">Testing utility</a><br>
+            <a href="https://www.localcdn.org/tutorial" rel="nofollow noopener noreferrer" data-i18n-content="helpLinkTutorial">Tutorial</a><br>
+            <a href="https://codeberg.org/nobody/LocalCDN/wiki" target="_blank" rel="nofollow noopener noreferrer" data-i18n-content="helpLinkWikiPages">Wiki pages</a>
+        </div>
+        <div id="html-filter" class="notice">
+            <h2 data-i18n-content="helpHtmlFilterTitle">What is "HTML filter"? (Firefox only)</h2>
+            <p data-i18n-content="helpHtmlFilterDescription">In most cases LocalCDN can easily replace embedded frameworks and improves privacy. In some cases the website may try to prevent this by setting certain options in the HTML source code. LocalCDN reads the HTML source code before it is displayed in the browser and removes these part (red).</p>
+            <p>
+                <span data-i18n-content="helpHtmlFilterBefore">The HTML filter removes the red characters from this example:</span><br>
+                <code><span class="code-blue">&lt;script&nbsp;src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"</span>&nbsp;<span class="code-red">integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="&nbsp;crossorigin="anonymous"</span><span class="code-blue">>&lt;/script></span></code><br><br>
+                <span data-i18n-content="helpHtmlFilterAfter">The result then looks like this:</span><br>
+                <code><span class="code-blue">&lt;script&nbsp;src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js">&lt;/script></span></code><br><br><br>
+            </p>
+            <p><em><span data-i18n-content="helpHtmlFilterWhyTitle">Why is it necessary to remove crossorigin and integrity attributes?</span></em></p>
+            <p data-i18n-content="helpHtmlFilterCrossorigin">The crossorigin attribute prevents the replacement because the destination does not match the requested one.</p>
+            <p data-i18n-content="helpHtmlFilterIntegrity">To save disk space and to deliver more frameworks LocalCDN upgrades a framework. An integrity tag is the hash value of a file. If the check fails, the browser won't include a framework. The integrity check will fail because the hash values for e.g. jQuery 1.10.1 and jQuery 1.12.4 are different.</p>
+            <p data-i18n-content="helpHtmlFilterErrors">Unfortunately, it sometimes happens that special characters are then displayed incorrectly. In this case you can deactivate the setting again, to display the umlauts correctly.</p>
+        </div>
+        <div id="rule-generator" class="notice">
+            <h2 data-i18n-content="helpRuleGeneratorTitle">Rule generator</h2>
+            <p>
+                <span data-i18n-content="helpRuleGeneratorDescription">If you want to automatically redirect all supported CDN connections to LocalCDN, you can add these rules to your adblocker to allow these redirections. If you do not want to add these rules, you must allow each CDN connection individually for each website.</span>
+                <span><a href="https://codeberg.org/nobody/LocalCDN/wiki" target="_blank" rel="nofollow noopener noreferrer">More information about the generated rules</a></span>
+            <h3 data-i18n-content="helpRuleGeneratorUblockTitle">Only uBlock Origin:</h3>
+            <p data-i18n-content="helpRuleGeneratorUblockDescription">These rules are only relevant in "medium" or "hard" mode, because it blocks all 3rd-party resources. They are not necessary in "default", "easy" or "very-easy" mode. For more information, please visit the uBlock Origin Wiki.</p>
+            <table class="table-ublock">
+                <thead>
+                    <tr>
+                        <th scope="col" data-i18n-content="helpRuleGeneratorUblockTableIcon">Icon</th>
+                        <th scope="col" data-i18n-content="helpRuleGeneratorUblockTableMode">Mode</th>
+                        <th scope="col" data-i18n-content="helpRuleGeneratorUblockTableUseful">Rules useful</th>
+                        <th scope="col">uBlock Wiki</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><img src="ublock-easy.png" alt=""></td>
+                        <td data-i18n-content="helpRuleGeneratorUblockTableDefaultEasy">Default/Easy</td>
+                        <td data-i18n-content="helpNo">No</td>
+                        <td><a href="https://github.com/gorhill/uBlock/wiki/Blocking-mode#very-easy-mode-details-" rel="nofollow">Link (github.com)</a></td>
+                    </tr>
+                    <tr>
+                        <td><img src="ublock-medium.png" alt=""></td>
+                        <td data-i18n-content="helpRuleGeneratorUblockTableMedium">Medium</td>
+                        <td data-i18n-content="helpYes">Yes</td>
+                        <td><a href="https://github.com/gorhill/uBlock/wiki/Blocking-mode:-medium-mode" rel="nofollow">Link (github.com)</a></td>
+                    </tr>
+                    <tr>
+                        <td><img src="ublock-hard.png" alt=""></td>
+                        <td data-i18n-content="helpRuleGeneratorUblockTableHard">Hard</td>
+                        <td data-i18n-content="helpYes">Yes</td>
+                        <td><a href="https://github.com/gorhill/uBlock/wiki/Blocking-mode:-hard-mode" rel="nofollow">Link (github.com)</a></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div id="websites-issues" class="notice">
+            <h2 data-i18n-content="helpWebsiteIssuesTitle">Some websites look strange or are not easy to use</h2>
+            <p data-i18n-content="helpWebsiteIssuesDescription">There are two possible reasons: Either a framework/library is required that LocalCDN doesn't (yet) deliver or an SOP. A SOP (Same origin policy) is a security mechanism that determines what data the browser is allowed to load. It helps to isolate malicious documents and thus reduce possible attack vectors. This policy prevents the browser from loading the external frameworks of LocalCDN. Unfortunately there is no solution for this at the moment.</p>
+        </div>
+        <div id="google-fonts" class="notice">
+            <h2 data-i18n-content="helpBlockGoogleFontsTitle">Why is there a "Block Google Fonts" option?</h2>
+            <p data-i18n-content="helpBlockGoogleFontsDescription">LocalCDN can replace "Google Material Icons". To catch the connection your adblocker (e.g. uBlock Origin, uMatrix or AdGuard) must allow the request. LocalCDN listens on these requests and if the query contains "Google Material Icons", the resource will be replaced. If you uncheck the "Block requests for missing content" option, non-existent resources will be allowed to pass and "Google Fonts" will be loaded, because "Google Material Icons" and "Google Fonts" use the same domain. If you don't want this, you can block "Google Fonts" on LocalCDN.</p>
+        </div>
+        <div id="statistics" class="notice">
+            <h2 data-i18n-content="helpStatisticsTitle">What about the statistics? Is anything transferred to any servers?</h2>
+            <p data-i18n-content="helpStatisticsDescription">Don't panic, nothing will be transmitted. It would be against all my principles. The statistics (JSON format) contains the following information: Date, CDN+counter and framework+counter. That's all. I've an example here:</p>
+            <div class="statistic-demo">
+                <code>"2020-08-10": {</code><br>
+                <code>    "frameworks": {</code><br>
+                <code>        "resources/jquery/1.12.4/jquery.min.jsm": 5</code><br>
+                <code>    },</code><br>
+                <code>    "cdns": {</code><br>
+                <code>        "ajax.googleapis.com": 5</code><br>
+                <code>    }</code><br>
+                <code>}</code><br>
+            </div>
+            <p data-i18n-content="helpStatisticsContent">The statistics contain no information about the browser, operating system, requesting website, IP addresses or any other information. Just date, CDN+counter and framework+counter. It shows you which frameworks are replaced by LocalCDNs how often and which CDNs were requested.</p>
+            <h3 data-i18n-content="helpStatisticsTruthTitle">How do I know that's true?</h3>
+            <p>
+                <span data-i18n-content="helpStatisticsTruthDescription">The extension storage can be viewed directly with the Firefox browser. Open the URL "about:debugging", switch to "Storage" and select "Extension Storage". Under the key "internalStatisticsData" you will find the collected data. Just copy it and put it into a JSON PrettyPrinter to make it more readable. Please note that you have to remove the first and last quotation mark and the key to it. You should be able to see this clearly in this video.</span><br>
+                <a href="https://www.localcdn.org/view-extension-storage.mp4">https://www.localcdn.org/view-extension-storage.mp4</a>
+            </p>
+        </div>
+        <div id="sync" class="notice">
+            <h2 data-i18n-content="helpSyncTitle">What will be synchronized when I select "sync" as storage type?</h2>
+            <p data-i18n-content="helpSyncDescription">Sync will only work if you are logged in with a Firefox account on the device and have allowed add-ons to sync in the settings. A separate sync server under your control will also work. This will synchronize most of the settings of LocalCDN across all devices.</p>
+            <p data-i18n-content="helpSyncAccount">If you don't have a sync account, nothing will be synchronized. In that case it makes no difference what type of storage you have selected.</p>
+            <p data-i18n-content="helpSyncContentNever">Things that are never synchronized:</p>
+            <ul>
+                <li><span data-i18n-content="labelInjectedFrameworks">Injected frameworks</span> <em>(<span data-i18n-content="helpNumberOfInjections">Numbers of injections</span>)</em></li>
+                <li><span data-i18n-content="internalStatisticsTitle">Internal statistics</span> <em>(<span data-i18n-content="helpYes">Yes</span>, <span data-i18n-content="helpNo">No</span>)</em></li>
+                <li><span data-i18n-content="internalStatisticsTitle">Internal statistics</span> <em>(<span data-i18n-content="helpData">Data</span>)</em></li>
+            </ul>
+            <p data-i18n-content="helpSyncContentEver">Settings that will be synchronized:</p>
+            <ul>
+                <li><span data-i18n-content="showIconBadgeTitle">Display injection counts on icon</span> <em>(<span data-i18n-content="helpYes">Yes</span>, <span data-i18n-content="helpNo">No</span>)</em></li>
+                <li><span data-i18n-content="updateNotificationTitle">Notification after an update</span> <em>(Never, New CDNs/Rules, Always)</em></li>
+                <li><span data-i18n-content="disablePrefetchTitle">Disable link prefetching</span> <em>(<span data-i18n-content="helpYes">Yes</span>, <span data-i18n-content="helpNo">No</span>)</em></li>
+                <li><span data-i18n-content="stripMetadataTitle">Strip metadata from allowed requests</span> <em>(<span data-i18n-content="helpYes">Yes</span>, <span data-i18n-content="helpNo">No</span>)</em></li>
+                <li><span data-i18n-content="allowlistedDomainsTitle">Deactivate LocalCDN for domains</span> <em>(URLs)</em></li>
+                <li><span data-i18n-content="blockMissingTitle">Block requests for missing resources</span> <em>(<span data-i18n-content="helpYes">Yes</span>, <span data-i18n-content="helpNo">No</span>)</em></li>
+                <li><span data-i18n-content="blockGoogleFontsTitle">Block Google Fonts</span> <em>(<span data-i18n-content="helpYes">Yes</span>, <span data-i18n-content="helpNo">No</span>, URLs)</em></li>
+                <li><span data-i18n-content="loggingTitle">Enable logging</span> <em>(<span data-i18n-content="helpYes">Yes</span>, <span data-i18n-content="helpNo">No</span>)</em></li>
+                <li><span data-i18n-content="htmlFilterDomainsTitleInclude">Apply HTML filter for these domains</span> <em>(URLs)</em></li>
+                <li><span data-i18n-content="negateHtmlFilterListTitle">Invert HTML filter</span> <em>(<span data-i18n-content="helpYes">Yes</span>, <span data-i18n-content="helpNo">No</span>)</em></li>
+                <li><span data-i18n-content="chooseIconStyle">Choose an icon for this extension</span> <em>(<span data-i18n-content="helpIcons">Default, Light, Blue/Grey</span>)</em></li>
+            </ul>
+            <p data-i18n-content="helpSyncContentLinks">More information about Firefox Sync:</p>
+            <ul>
+                <li><a href="https://en.wikipedia.org/wiki/Firefox_Sync">Wikipedia - Firefox Sync</a></li>
+                <li><a href="https://support.mozilla.org/en-US/products/firefox/sync">support.mozilla.org</a></li>
+            </ul>
+        </div>
+        <div id="browser-compatibility" class="notice">
+            <h2 data-i18n-content="helpBrowserCompatibility">Browser compatibility</h2>
+            <table class="table-browser-compatibility">
+                <thead>
+                    <tr class="browser-compatibility">
+                       <th></th>
+                       <th class="browser-compatibility-chrome"><span class="bc-head-txt-label bc-head-icon-chrome">Chrome*</span></th>
+                       <th class="browser-compatibility-firefox"><span class="bc-head-txt-label bc-head-icon-firefox">Firefox</span></th>
+                       <th class="browser-compatibility-chrome_android"><span class="bc-head-txt-label bc-head-icon-chrome_android">Chrome* Android</span></th>
+                       <th class="browser-compatibility-firefox_android"><span class="bc-head-txt-label bc-head-icon-firefox_android">Firefox for Android</span></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><a href="#html-filter" data-i18n-content="labelManipulateDOM">HTML filter</a></td>
+                        <td class="browser-compatibility-support-no"><span data-i18n-content="helpNo">No</span></td>
+                        <td class="browser-compatibility-support-yes"><span data-i18n-content="helpYes">Yes</span></td>
+                        <td class="browser-compatibility-support-no"><span data-i18n-content="helpNo">No</span></td>
+                        <td class="browser-compatibility-support-yes"><span data-i18n-content="helpYes">Yes</span></td>
+                    </tr>
+                    <tr>
+                        <td><span data-i18n-content="helpReplace">Replace</span> "Font Awesome"</td>
+                        <td class="browser-compatibility-support-no"><span data-i18n-content="helpNo">No</span></td>
+                        <td class="browser-compatibility-support-yes"><span data-i18n-content="helpYes">Yes</span></td>
+                        <td class="browser-compatibility-support-no"><span data-i18n-content="helpNo">No</span></td>
+                        <td class="browser-compatibility-support-yes"><span data-i18n-content="helpYes">Yes</span></td>
+                    </tr>
+                    <tr>
+                        <td><span data-i18n-content="helpReplace">Replace</span> "Google Material Icons"</td>
+                        <td class="browser-compatibility-support-no"><span data-i18n-content="helpNo">No</span></td>
+                        <td class="browser-compatibility-support-yes"><span data-i18n-content="helpYes">Yes</span></td>
+                        <td class="browser-compatibility-support-no"><span data-i18n-content="helpNo">No</span></td>
+                        <td class="browser-compatibility-support-yes"><span data-i18n-content="helpYes">Yes</span></td>
+                    </tr>
+                    <tr>
+                        <td><span data-i18n-content="helpReplace">Replace</span> Fonts of "Bootstrap"</td>
+                        <td class="browser-compatibility-support-no"><span data-i18n-content="helpNo">No</span></td>
+                        <td class="browser-compatibility-support-yes"><span data-i18n-content="helpYes">Yes</span></td>
+                        <td class="browser-compatibility-support-no"><span data-i18n-content="helpNo">No</span></td>
+                        <td class="browser-compatibility-support-yes"><span data-i18n-content="helpYes">Yes</span></td>
+                    </tr>
+                    <tr>
+                        <td><span data-i18n-content="helpReplaceOther">Replace other resources</span></td>
+                        <td class="browser-compatibility-support-yes"><span data-i18n-content="helpYes">Yes</span></td>
+                        <td class="browser-compatibility-support-yes"><span data-i18n-content="helpYes">Yes</span></td>
+                        <td class="browser-compatibility-support-yes"><span data-i18n-content="helpYes">Yes</span></td>
+                        <td class="browser-compatibility-support-yes"><span data-i18n-content="helpYes">Yes</span></td>
+                    </tr>
+                    <tr>
+                        <td><span data-i18n-content="helpUpgradeAllResources">Upgrade all resources</span></td>
+                        <td class="browser-compatibility-support-yes"><span data-i18n-content="helpYes">Yes</span></td>
+                        <td class="browser-compatibility-support-yes"><span data-i18n-content="helpYes">Yes</span></td>
+                        <td class="browser-compatibility-support-yes"><span data-i18n-content="helpYes">Yes</span></td>
+                        <td class="browser-compatibility-support-yes"><span data-i18n-content="helpYes">Yes</span></td>
+                    </tr>
+                    <tr>
+                        <td><span data-i18n-content="helpReplace">Replace</span> "Google Fonts"</td>
+                        <td class="browser-compatibility-support-no"><span data-i18n-content="helpNo">No</span></td>
+                        <td class="browser-compatibility-support-no"><span data-i18n-content="helpNo">No</span></td>
+                        <td class="browser-compatibility-support-no"><span data-i18n-content="helpNo">No</span></td>
+                        <td class="browser-compatibility-support-no"><span data-i18n-content="helpNo">No</span></td>
+                    </tr>
+                </tbody>
+            </table>
+            <p>*) Chrome = <span data-i18n-content="helpExplanationChrome">All Chromium based Browser</span></p>
+            <p><span data-i18n-content="helpLimitation">This is not a limitation of LocalCDN, but missing API support of Chromium based browsers.</span></p>
+        </div>
+    </body>
+</html>

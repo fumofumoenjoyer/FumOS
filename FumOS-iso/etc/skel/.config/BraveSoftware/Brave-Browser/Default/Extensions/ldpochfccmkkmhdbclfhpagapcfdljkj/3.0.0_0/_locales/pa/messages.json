@@ -1,0 +1,70 @@
+{
+  "extensionDescription": {
+    "message": "ਖੁਦ ਨੂੰ \"ਮੁਫ਼ਤ\", ਕੇਂਦਰੀਕ੍ਰਿਤ, ਸਮੱਗਰੀ ਪਹੁੰਚ ਰਾਹੀਂ ਟਰੈਕਿੰਗ ਤੋਂ ਸੁਰੱਖਿਅਤ ਕਰੋ।",
+    "description": "Extension description."
+  },
+  "disableProtectionTitle": {
+    "message": "ਇਸ ਸਾਈਟ ਲਈ ਸੁਰੱਖਿਆ ਅਸਮਰੱਥ ਕਰੋ",
+    "description": "Disable protection title."
+  },
+  "enableProtectionTitle": {
+    "message": "ਸੁਰੱਖਿਆ ਸਮਰੱਥ ਕਰੋ",
+    "description": "Enable protection title."
+  },
+  "amountInjectedTitle": {
+    "message": "ਲੋਕਲ ਪਾਏ ਸਰੋਤਾਂ ਦੀ ਗਿਣਤੀ",
+    "description": "Amount injected title."
+  },
+  "amountInjectedDescription": {
+    "message": "ਇੰਸਟਾਲੇਸ਼ਨ ਦੇ ਬਾਅਦ ਲੋਕਲ ਸਮੱਗਰੀ ਡਿਲਵਰੀ ਨੈੱਟਵਰਕ ਸਰੋਤਾਂ ਦੀ ਮਾਤਰਾ ਹੈ।",
+    "description": "Amount injected description."
+  },
+  "optionsTitle": {
+    "message": "ਚੋਣਾਂ",
+    "description": "Options title."
+  },
+  "showIconBadgeTitle": {
+    "message": "ਆਈਕਾਨ ਉੱਤੇ ਪਾਇਆ ਦੀ ਗਿਣਤੀ ਵੇਖਾਓ",
+    "description": "Show icon badge title."
+  },
+  "showIconBadgeDescription": {
+    "message": "Show the number of injected resources on the extension icon.",
+    "description": "Show icon badge description."
+  },
+  "blockMissingTitle": {
+    "message": "Block requests for missing resources",
+    "description": "Block requests for missing resources title."
+  },
+  "blockMissingDescription": {
+    "message": "Cancel intercepted request if the required resource is not locally available.",
+    "description": "Block requests for missing resources description."
+  },
+  "disablePrefetchTitle": {
+    "message": "Disable link prefetching",
+    "description": "Disable prefetch title."
+  },
+  "disablePrefetchDescription": {
+    "message": "Prevent disallowed requests from leaking out to delivery networks.",
+    "description": "Disable prefetch description."
+  },
+  "stripMetadataTitle": {
+    "message": "Strip metadata from allowed requests",
+    "description": "Strip metadata title."
+  },
+  "stripMetadataDescription": {
+    "message": "Erase sensitive data from allowed CDN requests for improved privacy.",
+    "description": "Strip metadata description."
+  },
+  "whitelistedDomainsTitle": {
+    "message": "Exclude domains from inspections",
+    "description": "Whitelisted domains title."
+  },
+  "whitelistedDomainsDescription": {
+    "message": "Enter domains to whitelist them. Separate multiple entries with semi-colons (;).",
+    "description": "Whitelisted domains description."
+  },
+  "advancedLabel": {
+    "message": "ਤਕਨੀਕੀ",
+    "description": "Advanced label."
+  }
+}

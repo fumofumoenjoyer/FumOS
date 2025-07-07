@@ -1,0 +1,530 @@
+{
+   "advancedLabel": {
+      "description": "Advanced label",
+      "message": "進階"
+   },
+   "allowlistedDomainsDescription": {
+      "description": "Enter domains to disable LocalCDN there. One entry per line.",
+      "message": "輸入網域即可在該處停用 LocalCDN。每行一個條目。"
+   },
+   "allowlistedDomainsTitle": {
+      "description": "Deactivate LocalCDN for these domains:",
+      "message": "要排除檢查的網域:"
+   },
+   "amountInjectedDescription": {
+      "description": "Amount injected description.",
+      "message": "安裝以來，由本機檔案所取代的 CDN 資源數量。"
+   },
+   "betaLabel": {
+      "description": "beta",
+      "message": "測試"
+   },
+   "blockGoogleFontsDescription": {
+      "description": "If requests for missing resources are allowed, connections to \"fonts.googleapis.com\" are not blocked. Enable this option to block these requests.",
+      "message": "如果「封鎖缺少資源時的連線請求」被啟用，\"fonts.googleapis.com\" 的連線請求不會被封鎖。啟用這個選項來封鎖這些請求。"
+   },
+   "blockGoogleFontsTitle": {
+      "description": "Block Google Fonts",
+      "message": "封鎖 Google Fonts"
+   },
+   "blockMissingDescription": {
+      "description": "Block requests for missing resources description.",
+      "message": "若本機沒有所請求的資源，就取消該請求。"
+   },
+   "blockMissingTitle": {
+      "description": "Block requests for missing resources title",
+      "message": "封鎖缺少資源時的連線請求"
+   },
+   "btnAdvanced": {
+      "description": "Advanced",
+      "message": "進階設定"
+   },
+   "btnGeneral": {
+      "description": "Basic",
+      "message": "基本設定"
+   },
+   "btnInfo": {
+      "description": "Info",
+      "message": "資訊"
+   },
+   "btnOther": {
+      "description": "Other",
+      "message": "其他設定"
+   },
+   "changeBadgeColorMissingResourcesDescription": {
+      "description": "Change the badge color if resources are missing.",
+      "message": "若缺失資源則改變圖章顏色。"
+   },
+   "changeBadgeColorMissingResourcesTitle": {
+      "description": "Indicate missing resources on the icon",
+      "message": "用圖標表示缺失資源"
+   },
+   "chooseIconStyle": {
+      "description": "Choose an icon for this extension",
+      "message": "為 LocalCDN 選擇一個圖示"
+   },
+   "copyRuleSet": {
+      "description": "Text of button to copy ruleset",
+      "message": "複製"
+   },
+   "counterBlocked": {
+      "description": "Blocked",
+      "message": "阻止的"
+   },
+   "counterMissing": {
+      "description": "Missing",
+      "message": "遺失的"
+   },
+   "dialogConfirmDeleteStatistics": {
+      "description": "Are you sure you want to delete all the statistics?",
+      "message": "您確定要刪除所有統計數據嗎？"
+   },
+   "dialogImportFailed": {
+      "description": "Import failed",
+      "message": "匯入失敗"
+   },
+   "dialogImportSuccessful": {
+      "description": "Import successful",
+      "message": "匯入成功"
+   },
+   "disablePrefetchDescription": {
+      "description": "Disable prefetch description.",
+      "message": "防止發出不被允許的請求到 CDN 網路。"
+   },
+   "disablePrefetchTitle": {
+      "description": "Disable prefetch title",
+      "message": "停用連結預讀功能"
+   },
+   "extensionDescription": {
+      "description": "Protects you against tracking through CDNs (Content Delivery Networks) by redirecting to local resources.",
+      "message": "透過重定向至本地資源來保護您不受內容傳遞網路（CDN）的追蹤。"
+   },
+   "featureBreaksWebsitesButton": {
+      "description": "Disable",
+      "message": "停用"
+   },
+   "featureBreaksWebsitesDescription": {
+      "description": "This feature breaks websites. Do not leave it enabled, unless you are prepared to manually add affected domains to the allow list.",
+      "message": "此功能會讓網站無法正常運作。不要啟用此選項，除非你已準備好將所有被影響的網域手動加入白名單。"
+   },
+   "generateRuleSetDescription": {
+      "description": "In case you are using an adblocker you can generate the rules here. You have to add these rules manually in your adblocker.",
+      "message": "如果你使用廣告攔截軟體，你可在此產生過濾規則。你須手動加入這些規則到廣告攔截軟體中。"
+   },
+   "generateRuleSetTitle": {
+      "description": "Generate rule sets for your adblocker",
+      "message": "產生用於廣告攔截軟體的規則集合"
+   },
+   "headerImportExport": {
+      "description": "Import/Export",
+      "message": "匯入／匯出"
+   },
+   "headerStatistics": {
+      "description": "Statistics. The header of a statistics page.",
+      "message": "統計"
+   },
+   "headerStorageType": {
+      "description": "Storage type",
+      "message": "儲存類型"
+   },
+   "helpBlockGoogleFontsDescription": {
+      "description": "LocalCDN can replace »Google Material Icons«. To catch the connection your adblocker (e.g. uBlock Origin, uMatrix or AdGuard) must allow the request. LocalCDN listens on these requests and if the query contains »Google Material Icons«, the resource will be replaced. If you uncheck the »Block requests for missing content« option, non-existent resources will be allowed to pass and »Google Fonts« will be loaded, because »Google Material Icons« and »Google Fonts« use the same domain. If you don‘t want this, you can block »Google Fonts« on LocalCDN.",
+      "message": "LocalCDN可以將Google Material Icons圖示字型。為了攔截針對這些字型的連接，您的廣告阻擋器——例如uBlock Origin、uMatrix、Adguard——必須允許這些請求。LocalCDN監聽這些請求，以在當請求包含Google Material Icons時置換資源。若您取消選擇「阻擋缺失資源」選項，不存在的資源會被允許以致Google Fonts字體會被載入，因為Google Material Icons與Google Fonts使用同一個域名。如果您不希望如此，您可以使用LocalCDN阻擋Google Fonts。"
+   },
+   "helpBlockGoogleFontsTitle": {
+      "description": "Why is there a »Block Google Fonts« option?",
+      "message": "為什麼會有 »阻擋 Google Fonts» 的選項？"
+   },
+   "helpBrowserCompatibility": {
+      "description": "Browser compatibility",
+      "message": "瀏覽器相容性"
+   },
+   "helpBrowserCompatibilityTitle": {
+      "description": "Browser compatibility",
+      "message": "瀏覽器兼容性"
+   },
+   "helpData": {
+      "description": "Data",
+      "message": "資料"
+   },
+   "helpExplanationChrome": {
+      "description": "All Chromium based Browser",
+      "message": "所有基於 Chromium 的瀏覽器"
+   },
+   "helpHtmlFilterAfter": {
+      "description": "The result then looks like this:",
+      "message": "結果看起來會是這樣："
+   },
+   "helpHtmlFilterBefore": {
+      "description": "The HTML filter removes the red characters from this example:",
+      "message": "HTML 過濾器從此示例中刪除紅色字符："
+   },
+   "helpHtmlFilterCrossorigin": {
+      "description": "The crossorigin attribute prevents the replacement because the destination does not match the requested one.",
+      "message": "crossorigin 屬性阻止替換，因爲目標與請求的目標不匹配。"
+   },
+   "helpHtmlFilterDescription": {
+      "description": "In most cases LocalCDN can easily replace embedded frameworks and improves privacy. In some cases the website may try to prevent this by setting certain options in the HTML source code. LocalCDN reads the HTML source code before it is displayed in the browser and removes these part (red).",
+      "message": "在大多數情況下，LocalCDN 可以輕鬆替換嵌入式框架並保護隱私。 在某些情況下，網站可能會嘗試通過在 HTML 源始碼中設置某些選項來防止這種情況發生。 LocalCDN 會在瀏覽器中顯示 HTML 源始碼之前讀取並刪除這些部分（紅色）。"
+   },
+   "helpHtmlFilterErrors": {
+      "description": "Unfortunately, it sometimes happens that special characters are then displayed incorrectly. In this case you can deactivate the setting again, to display the umlauts correctly.",
+      "message": "然而，這設定有時會令特殊字符不能正確顯示。此時您可以再次停用設定，以正確顯示元音字符。"
+   },
+   "helpHtmlFilterIntegrity": {
+      "description": "To save disk space and to deliver more frameworks LocalCDN upgrades a framework. An integrity tag is the hash value of a file. If the check fails, the browser won‘t include a framework. The integrity check will fail because the hash values for e.g. jQuery 1.10.1 and jQuery 1.12.4 are different.",
+      "message": "為了節省磁碟空間並分發更多框架，LocalCDN 會升級取代相容的舊框架。如果瀏覽器完整性檢查失敗，將不會使用框架。檔案的完整性以雜湊值標記，而框架升級後，完整性檢查將會失敗，如 jQuery 1.10.1 和 jQuery 1.12.4 兩者的雜湊值是不同的。"
+   },
+   "helpHtmlFilterTitle": {
+      "description": "What is »HTML filter«?",
+      "message": "什麼是 HTML 過濾器？"
+   },
+   "helpHtmlFilterWhyTitle": {
+      "description": "Why is it necessary to remove crossorigin and integrity attributes?",
+      "message": "為什麼需要刪除跨域和完整性屬性？"
+   },
+   "helpIcons": {
+      "description": "Default, Light, Blue/Grey",
+      "message": "預設、淺色、藍色/灰色"
+   },
+   "helpIntroductionDescription": {
+      "description": "LocalCDN is a web browser extension that emulates Content Delivery Networks to improve your online privacy. It intercepts traffic, finds supported frameworks/libraries locally, and injects them into the website. Feel free to use the following testing utility to find out if you are properly protected. For more information read the tutorial or our Wiki pages.",
+      "message": "LocalCDN 是一款會以模仿內容分發網絡的方式，進一步保障您隱私的擴充功能。它將會攔截流量，以本機支援的框架/程式庫注入網站取以代之。您可以使用以下測試工具檢查您是否已受到適當的保護。欲知詳情，請瀏覽教程或 Wiki 頁面。"
+   },
+   "helpIntroductionTitle": {
+      "description": "Introduction",
+      "message": "介紹"
+   },
+   "helpLimitation": {
+      "description": "This is not a limitation of LocalCDN, but missing API support of Chromium based browsers.",
+      "message": "這不是 LocalCDN 的限制，而是缺少基於 Chromium 的瀏覽器的 API 支援。"
+   },
+   "helpLinkTestUtility": {
+      "description": "Testing utility",
+      "message": "測試工具"
+   },
+   "helpLinkTutorial": {
+      "description": "Tutorial",
+      "message": "教學"
+   },
+   "helpLinkWikiPages": {
+      "description": "Wiki pages",
+      "message": "維基頁面"
+   },
+   "helpNo": {
+      "description": "No",
+      "message": "否"
+   },
+   "helpNumberOfInjections": {
+      "description": "Numbers of injections",
+      "message": "取代次數"
+   },
+   "helpPermissionDescription": {
+      "description": "LocalCDN needs to know which requests are created by a website to redirect or block it. With the introduction of MV3, this permission is listed as an optional permission.",
+      "message": "LocalCDN 需要知道網站創建了哪些請求來重定向或封鎖它。隨著MV3的引入，該權限被列為可選權限。"
+   },
+   "helpReplace": {
+      "description": "Replace",
+      "message": "替換"
+   },
+   "helpReplaceOther": {
+      "description": "Replace other resources",
+      "message": "替換其他資源"
+   },
+   "helpRuleGeneratorDescription": {
+      "description": "If you want to automatically redirect all supported CDN connections to LocalCDN, you can add these rules to your adblocker to allow these redirections. If you do not want to add these rules, you must allow each CDN connection individually for each website.",
+      "message": "若想自動重定向所有可用的CDN連線至LocalCDN，你可以將這些規則添加至你的廣告攔截器以啟用重定向。若你不願添加這些規則，則必須為每個網站分別手動啟用CDN連線。"
+   },
+   "helpRuleGeneratorTitle": {
+      "description": "Rule generator",
+      "message": "規則生成器"
+   },
+   "helpRuleGeneratorUblockDescription": {
+      "description": "These rules are only relevant in »medium« or »hard« mode, because it blocks all 3rd-party resources. They are not necessary in »default«, »easy« or »very-easy« mode. For more information, please visit the uBlock Origin Wiki.",
+      "message": "這些規則只適用於 »Medium« 或 »Hard« 模式，因為它們會阻擋所有第三方資源。在 »Default«、»Easy« 或 »Very-easy« 模式下則不是必需的。有關更多信息，請瀏覽 uBlock Origin Wiki。"
+   },
+   "helpRuleGeneratorUblockTableDefaultEasy": {
+      "description": "Default/Easy",
+      "message": "預設／簡易"
+   },
+   "helpRuleGeneratorUblockTableHard": {
+      "description": "Hard",
+      "message": "困難"
+   },
+   "helpRuleGeneratorUblockTableIcon": {
+      "description": "Icon",
+      "message": "圖示"
+   },
+   "helpRuleGeneratorUblockTableMedium": {
+      "description": "Medium",
+      "message": "中等"
+   },
+   "helpRuleGeneratorUblockTableMode": {
+      "description": "Mode",
+      "message": "模式"
+   },
+   "helpRuleGeneratorUblockTableUseful": {
+      "description": "Rules useful",
+      "message": "需要規則"
+   },
+   "helpRuleGeneratorUblockTitle": {
+      "description": "Only uBlock Origin:",
+      "message": "僅uBlock Origin:"
+   },
+   "helpStatisticsContent": {
+      "description": "The statistics contain no information about the browser, operating system, requesting website, IP addresses or any other information. Just date, CDN+counter and framework+counter. It shows you which frameworks are replaced by LocalCDNs how often and which CDNs were requested.",
+      "message": "統計數據並不包含瀏覽器、作業系統、請求網站、IP位址或其他資訊，僅包含日期、CDN+使用次數、框架+使用次數。從這些資訊可以確認 LocalCDN 替換了哪些框架和 CDN，以及替換頻率。"
+   },
+   "helpStatisticsDescription": {
+      "description": "Don‘t panic, nothing will be transmitted. It would be against all my principles. The statistics (JSON format) contains the following information: Date, CDN+counter and framework+counter. That‘s all. I‘ve an example here:",
+      "message": "無須擔心，我不會傳送任何隱私，不會違背原則。統計數據（JSON格式）僅包含：日期、CDN+使用次數、框架+使用次數。範例："
+   },
+   "helpStatisticsTitle": {
+      "description": "What about the statistics? Is anything transferred to any servers?",
+      "message": "那些統計數據呢？有什麼東西被傳到伺服器嗎？"
+   },
+   "helpStatisticsTruthDescription": {
+      "description": "The extension storage can be viewed directly with the Firefox browser. Open the URL »about:debugging«, switch to »Storage« and select »Extension Storage«. Under the key »internalStatisticsData« you will find the collected data. Just copy it and put it into a JSON PrettyPrinter to make it more readable. Please note that you have to remove the first and last quotation mark and the key to it. You should be able to see this clearly in this video.",
+      "message": "Firefox 瀏覽器可直接檢視擴充功能儲存空間。開啟 URL »about:debugging«，切換到 »儲存空間« 並選擇 »擴充套件儲存空間«。在鍵值 »internalStatisticsData« 下便是已收集的資料。只需複製它並放入 JSON PrettyPrinter 中，便可更易閲讀當中的資訊。請注意，您必須刪除首尾的引號及其鍵值。詳細過程可在以下影片中觀看。"
+   },
+   "helpStatisticsTruthTitle": {
+      "description": "How do I know that‘s true?",
+      "message": "我要如何查證這説法？"
+   },
+   "helpSyncAccount": {
+      "description": "If you don‘t have a sync account, nothing will be synchronized. In that case it makes no difference what type of storage you have selected.",
+      "message": "如果您沒有同步帳戶，則不會同步任何內容。在這種情況下，您選擇什麼儲存的類型都沒有區別。"
+   },
+   "helpSyncContentEver": {
+      "description": "Settings that will be synchronized:",
+      "message": "會被同步的設定："
+   },
+   "helpSyncContentLinks": {
+      "description": "More information about Firefox Sync:",
+      "message": "更多關於Firefox Sync的資訊:"
+   },
+   "helpSyncContentNever": {
+      "description": "Things that are never synchronized:",
+      "message": "永遠不同步的東西："
+   },
+   "helpSyncDescription": {
+      "description": "Sync will only work if you are logged in with a Firefox account on the device and have allowed add-ons to sync in the settings. A separate sync server under your control will also work. This will synchronize most of the settings of LocalCDN across all devices.",
+      "message": "只有當您在裝置上使用 Firefox 帳戶登入並在設定中允許擴充套件同步設定同步才會起作用，您控制下的單獨同步伺服器也可以工作，這將在所有裝置上同步 LocalCDN 的大部分設定。"
+   },
+   "helpSyncTitle": {
+      "description": "What will be synchronized when I select »sync« as storage type?",
+      "message": "選擇 »同步« 儲存類型時，同步了什麼？"
+   },
+   "helpUpgradeAllResources": {
+      "description": "Upgrade all resources",
+      "message": "升級所有資源"
+   },
+   "helpWebsiteIssuesDescription": {
+      "description": "There are two possible reasons: Either a framework/library is required that LocalCDN doesn‘t (yet) deliver or an SOP. A SOP (Same origin policy) is a security mechanism that determines what data the browser is allowed to load. It helps to isolate malicious documents and thus reduce possible attack vectors. This policy prevents the browser from loading the external frameworks of LocalCDN. Unfortunately there is no solution for this at the moment.",
+      "message": "這有兩個可能的原因：因為頁面需要一個LocalCDN尚不支援的函式庫，或是因為同源策略。同源策略（Same origin policy）是一個瀏覽器用來區分資料是否允許被載入的安全機制。同源機制幫助我們區分有害的檔案，藉此減少潛在的攻擊媒介。這個策略會阻止瀏覽器從LocalCDN載入一些外部的框架。不幸的是，目前並沒有針對這個問題的解決方法。"
+   },
+   "helpWebsiteIssuesTitle": {
+      "description": "Some websites look strange or are not easy to use",
+      "message": "某些網站看起來很奇怪或者不好用"
+   },
+   "helpWhatWillBeSynchronizedTitle": {
+      "description": "What will be synchronized when I select »sync« as storage type?",
+      "message": "當我選取了 »Sync« 當作儲存空間將會有什麼東西被同步？"
+   },
+   "helpWhyThisPermission": {
+      "description": "Why does this extension need this permission?",
+      "message": "為什麼這個擴充需要這個權限？"
+   },
+   "helpYes": {
+      "description": "Yes",
+      "message": "是"
+   },
+   "hideDonationButton": {
+      "description": "Hide donation button",
+      "message": "隱藏捐款按鈕"
+   },
+   "htmlFilterDomainsDescription": {
+      "description": "Enter the domains to be handled or ignored by the HTML filter. One entry per line.",
+      "message": "輸入 HTML 過濾器要處理或忽略的網域。每行一個條目。"
+   },
+   "htmlFilterDomainsTitleExclude": {
+      "description": "Do not apply HTML filter to these domains:",
+      "message": "不要將 HTML 過濾器套用於這些網域:"
+   },
+   "htmlFilterDomainsTitleInclude": {
+      "description": "Apply HTML filter for these domains:",
+      "message": "對這些網域套用 HTML 過濾器:"
+   },
+   "internalStatisticsDescription": {
+      "description": "No data transmission. It’s all local on your device.",
+      "message": "此功能目前還在開發中。所有資料僅儲存在裝置上，不會被上傳。"
+   },
+   "internalStatisticsTitle": {
+      "description": "Internal statistics",
+      "message": "內部統計數據"
+   },
+   "labelAll": {
+      "description": "Statistics view over the whole time range",
+      "message": "全部"
+   },
+   "labelAvg": {
+      "description": "Followed by a number of average injections per day within a specific period.",
+      "message": "平均（每天替換數量）"
+   },
+   "labelDelete": {
+      "description": "Button to delete all statistics data.",
+      "message": "刪除"
+   },
+   "labelDomainsAllowlistGoogleFonts": {
+      "description": "These domains are allowed to load Google Fonts. One entry per line.",
+      "message": "這些網域獲准載入 Google Fonts。每行一個條目。"
+   },
+   "labelDonate": {
+      "description": "Donate",
+      "message": "贊助"
+   },
+   "labelExportData": {
+      "description": "Back up to file",
+      "message": "備份到檔案"
+   },
+   "labelImportData": {
+      "description": "Restore from file",
+      "message": "從檔案還原"
+   },
+   "labelInjectedFrameworks": {
+      "description": "Followed by a number of injections within a specific period.",
+      "message": "被替換的框架"
+   },
+   "labelManipulateDOM": {
+      "description": "Filter HTML source code",
+      "message": "過濾 HTML 原始碼"
+   },
+   "labelPastMonth": {
+      "description": "Statistics view for past month.",
+      "message": "上個月"
+   },
+   "labelPastWeek": {
+      "description": "Statistics view for past week.",
+      "message": "上週"
+   },
+   "labelPastYear": {
+      "description": "Statistics view for past year.",
+      "message": "去年"
+   },
+   "labelStorageTypeLocal": {
+      "description": "Local",
+      "message": "本地"
+   },
+   "labelStorageTypeSync": {
+      "description": "Sync",
+      "message": "同步"
+   },
+   "labelToday": {
+      "description": "Statistics view for today.",
+      "message": "今天"
+   },
+   "lastUpdate": {
+      "description": "Last update:",
+      "message": "更新時間："
+   },
+   "loggingDescription": {
+      "description": "You can open the log with the icon in the menu. The log will be deleted when you close the browser or disable logging.",
+      "message": "你可以在菜單中打開日誌紀錄。紀錄將會在你關閉瀏覽器或停用日誌紀錄後清除。"
+   },
+   "loggingTitle": {
+      "description": "Enable logging",
+      "message": "啟用日誌記錄"
+   },
+   "negateHtmlFilterListDescription": {
+      "description": "Enable this option to always apply the HTML filter. The domains in the list will be ignored then. If this option is disabled, the HTML filter is only applied to domains in the list.",
+      "message": "開啟此選項以永遠使用 HTML 過濾器。清單中的網域將被忽略。如果關閉這個選項，則 HTML 篩選器只在清單中的網域使用。"
+   },
+   "negateHtmlFilterListTitle": {
+      "description": "Invert HTML filter",
+      "message": "反向 HTML 過濾器"
+   },
+   "negateHtmlFilterListWarning": {
+      "description": "This function can break websites. Please note the information on the Wiki page.",
+      "message": "此功能可能會使網站顯示不正確。請注意 Wiki 頁面上的資訊。"
+   },
+   "optionsTitle": {
+      "description": "Options title",
+      "message": "選項"
+   },
+   "permissionAllow": {
+      "description": "Allow",
+      "message": "允許"
+   },
+   "permissionMissing": {
+      "description": "Missing permission",
+      "message": "缺少權限"
+   },
+   "permissionMoreInfo": {
+      "description": "More info",
+      "message": "更多資訊"
+   },
+   "permissionRevokedDescription": {
+      "description": "Please do not disable the permission. LocalCDN needs the permission to detect and redirect requests to CDNs.",
+      "message": "請勿停用該權限。 LocalCDN 需要該權限偵測請求並將請求重新導向到 CDN 。"
+   },
+   "permissionRevokedHeader": {
+      "description": "Permission revoked",
+      "message": "權限被撤銷"
+   },
+   "permissionRevokedPermissionName": {
+      "description": "The exact name of the permission. Exactly as it is displayed in Firefox.",
+      "message": "存取您在所有網站上的數據"
+   },
+   "showIconBadgeDescription": {
+      "description": "Show icon badge description.",
+      "message": "在擴充套件圖示上，顯示被取代的資源數量。"
+   },
+   "showIconBadgeTitle": {
+      "description": "Show icon badge title",
+      "message": "在圖示上顯示被取代的資源數量"
+   },
+   "stripMetadataDescription": {
+      "description": "Strip metadata description.",
+      "message": "清除放行的 CDN 請求當中的敏感資料，以保護隱私權。"
+   },
+   "stripMetadataTitle": {
+      "description": "Strip metadata title",
+      "message": "移除放行請求當中的後設資料"
+   },
+   "titleBadgeDefault": {
+      "description": "Default badge",
+      "message": "預設標籤"
+   },
+   "titleBadgeHTMLFilter": {
+      "description": "HTML filter badge",
+      "message": "HTML 過濾器標籤"
+   },
+   "titleBadgeMissingResource": {
+      "description": "Missing or blocked resources badge",
+      "message": "資源標籤遺失或被阻止"
+   },
+   "titleHelp": {
+      "description": "Help",
+      "message": "幫助"
+   },
+   "updateNotificationAlways": {
+      "description": "Always",
+      "message": "總是"
+   },
+   "updateNotificationNever": {
+      "description": "Never (Silent Updates)",
+      "message": "絕不 (靜默更新)"
+   },
+   "updateNotificationOnlyRules": {
+      "description": "Only if new CDNs and rules",
+      "message": "僅限新的 CDN 和規則"
+   },
+   "updateNotificationTitle": {
+      "description": "Notification after an update",
+      "message": "更新通知"
+   },
+   "websiteBroken": {
+      "description": "Website broken?",
+      "message": "網站壞掉了?"
+   }
+}

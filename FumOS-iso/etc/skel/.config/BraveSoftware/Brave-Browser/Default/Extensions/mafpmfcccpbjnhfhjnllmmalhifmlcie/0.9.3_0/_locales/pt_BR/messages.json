@@ -1,0 +1,65 @@
+{
+   "appDesc": {
+      "message": "Permita que usuários em países censurados usem sua conexão de rede para acessar a rede Tor."
+   },
+   "badgeLocalStorageOff": {
+      "message": "O armazenamento local não está ativado."
+   },
+   "consent": {
+      "message": "Concordar"
+   },
+   "consented": {
+      "message": "Está tudo pronto! Obrigado por executar um proxy snowflake!"
+   },
+   "extensionConsent": {
+      "message": "Para fornecer funcionalidade básica, os proxies Snowflake (complemento que você instalou em seu navegador) enviam alguns metadados ao corretor Snowflake sobre a configuração de rede do proxy. Esses metadados são, exaustivamente: o endereço IP do proxy (seu endereço IP), o tipo de NAT relatado, a versão do protocolo snowflake que você (proxy) está executando, o fato de que o proxy (complemento que você instalou) é uma extensão web e o número de clientes já conectados ao proxy (complemento que você instalou). Esses dados são utilizados apenas para o estabelecimento da conexão e agregação estática e não são armazenados na corretora. Consulte nossa \u003Ca href=\"https://addons.mozilla.org/en-US/firefox/addon/torproject-snowflake/privacy\">política de privacidade\u003C/a> para obter mais detalhes sobre as informações que coletamos e exibimos. Quando estiver pronto, você pode permitir a ativação do proxy Snowflake clicando no botão abaixo."
+   },
+   "extensionOnboard": {
+      "message": "Obrigado por instalar a extensão da web Snowflake!"
+   },
+   "extensionOptout": {
+      "message": "Este complemento transmite apenas a quantidade mínima de dados necessária para funcionar como um proxy Snowflake. Se você não se sentir confortável com a transmissão dos dados enumerados acima ou com qualquer parte de nossa política de privacidade, recomendamos que você remova o complemento Snowflake."
+   },
+   "popupBridgeUnreachable": {
+      "message": "Não foi possível se conectar à ponte."
+   },
+   "popupConsent": {
+      "message": "Abrir página de consentimento"
+   },
+   "popupDescOn": {
+      "message": "Número de pessoas que driblaram censura com ajuda do seu Snowflake nas últimas 24 horas: $1"
+   },
+   "popupEnabled": {
+      "message": "Habilitado"
+   },
+   "popupLearnMore": {
+      "message": "Saber mais"
+   },
+   "popupNeedConsent": {
+      "message": "Concordar com a nossa política de privacidade antes de ativar o Snowflake."
+   },
+   "popupRetry": {
+      "message": "Tentar novamente"
+   },
+   "popupRetrying": {
+      "message": "Tentando novamente ..."
+   },
+   "popupRunInBackground": {
+      "message": "Continuar executando quando o navegador estiver fechado"
+   },
+   "popupStatusOff": {
+      "message": "Snowflake está desligado"
+   },
+   "popupStatusOn": {
+      "message": "Número de pessoas conectadas agora: $1"
+   },
+   "popupStatusReady": {
+      "message": "Seu Snowflake está pronto para ajudar pessoas a driblar censura"
+   },
+   "popupWebRTCOff": {
+      "message": "O recurso WebRTC não foi detectado."
+   },
+   "remove": {
+      "message": "Remova complemento Snowflake"
+   }
+}

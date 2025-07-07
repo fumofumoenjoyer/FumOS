@@ -1,0 +1,70 @@
+{
+   "advancedLabel": {
+      "description": "Advanced label.",
+      "message": "Розширені"
+   },
+   "amountInjectedDescription": {
+      "description": "Amount injected description.",
+      "message": "Кількість ресурсів наданих локальною Мережею Розповсюдження Контенту (CDN) з початку встановлення."
+   },
+   "amountInjectedTitle": {
+      "description": "Amount injected title.",
+      "message": "Лічильник ресурсів замінених локальними"
+   },
+   "blockMissingDescription": {
+      "description": "Block requests for missing resources description.",
+      "message": "Скасувати перехоплений запит, якщо необхідний ресурс відсутній локально."
+   },
+   "blockMissingTitle": {
+      "description": "Block requests for missing resources title.",
+      "message": "Блокувати запити для відсутніх ресурсів"
+   },
+   "disablePrefetchDescription": {
+      "description": "Disable prefetch description.",
+      "message": "Запобігти витік заборонених запитів в мережі розповсюдження."
+   },
+   "disablePrefetchTitle": {
+      "description": "Disable prefetch title.",
+      "message": "Відключити попереднє завантаженя посилань"
+   },
+   "disableProtectionTitle": {
+      "description": "Disable protection title.",
+      "message": "Вимкнути захист на цій сторінці"
+   },
+   "enableProtectionTitle": {
+      "description": "Enable protection title.",
+      "message": "Увімкнути захист"
+   },
+   "extensionDescription": {
+      "description": "Extension description.",
+      "message": "Захищає вас від стеження \"безкоштовними\", централізованими мережами розповсюдження ресурсів."
+   },
+   "optionsTitle": {
+      "description": "Options title.",
+      "message": "Параметри"
+   },
+   "showIconBadgeDescription": {
+      "description": "Show icon badge description.",
+      "message": "Показувати кількість локально наданих ресурсів на іконці розширення."
+   },
+   "showIconBadgeTitle": {
+      "description": "Show icon badge title.",
+      "message": "Показувати кількість ін'єкцій на іконці"
+   },
+   "stripMetadataDescription": {
+      "description": "Strip metadata description.",
+      "message": "Стерти чутливі дані з запитів до дозволених CDN для кращої приватності."
+   },
+   "stripMetadataTitle": {
+      "description": "Strip metadata title.",
+      "message": "Видалити метадані з дозволених запитів"
+   },
+   "whitelistedDomainsDescription": {
+      "description": "Whitelisted domains description.",
+      "message": "Введіть домени для включення в білий список. У якості розділювача використовуйте крапку з комою (;)."
+   },
+   "whitelistedDomainsTitle": {
+      "description": "Whitelisted domains title.",
+      "message": "Вимкнути перевірку для доменів"
+   }
+}

@@ -1,0 +1,70 @@
+{
+   "advancedLabel": {
+      "description": "Advanced label.",
+      "message": "Avançado"
+   },
+   "amountInjectedDescription": {
+      "description": "Amount injected description.",
+      "message": "Total de injeções locais de recursos de Redes de Distribuição de Conteúdo desde a instalação."
+   },
+   "amountInjectedTitle": {
+      "description": "Amount injected title.",
+      "message": "Contador de recursos injetados localmente"
+   },
+   "blockMissingDescription": {
+      "description": "Block requests for missing resources description.",
+      "message": "Cancela requisições interceptadas se o recurso necessário não está disponível localmente."
+   },
+   "blockMissingTitle": {
+      "description": "Block requests for missing resources title.",
+      "message": "Bloquear requisições a recursos faltosos"
+   },
+   "disablePrefetchDescription": {
+      "description": "Disable prefetch description.",
+      "message": "Impede que requisições não permitidas vazem para as redes de distribuição de conteúdo."
+   },
+   "disablePrefetchTitle": {
+      "description": "Disable prefetch title.",
+      "message": "Desabilitar pré-carregamento de links"
+   },
+   "disableProtectionTitle": {
+      "description": "Disable protection title.",
+      "message": "Desabilitar a proteção neste site"
+   },
+   "enableProtectionTitle": {
+      "description": "Enable protection title.",
+      "message": "Habilitar proteção"
+   },
+   "extensionDescription": {
+      "description": "Extension description.",
+      "message": "Lhe protege de rastreamento feito usando centrais de disponibilização de conteúdo \"gratuitas\"."
+   },
+   "optionsTitle": {
+      "description": "Options title.",
+      "message": "Opções"
+   },
+   "showIconBadgeDescription": {
+      "description": "Show icon badge description.",
+      "message": "Mostra o total de injeções de recursos no ícone do complemento."
+   },
+   "showIconBadgeTitle": {
+      "description": "Show icon badge title.",
+      "message": "Exibir total de injeções no ícone"
+   },
+   "stripMetadataDescription": {
+      "description": "Strip metadata description.",
+      "message": "Apaga dados sensíveis de requisições à CDNs permitidas visando melhorar a privacidade."
+   },
+   "stripMetadataTitle": {
+      "description": "Strip metadata title.",
+      "message": "Remover metadados de requisições permitidas"
+   },
+   "whitelistedDomainsDescription": {
+      "description": "Whitelisted domains description.",
+      "message": "Digite os domínios que não devem ser analisados. Separe múltiplos domínios com ponto e vírgula (;)."
+   },
+   "whitelistedDomainsTitle": {
+      "description": "Whitelisted domains title.",
+      "message": "Remover domínios das inspeções"
+   }
+}

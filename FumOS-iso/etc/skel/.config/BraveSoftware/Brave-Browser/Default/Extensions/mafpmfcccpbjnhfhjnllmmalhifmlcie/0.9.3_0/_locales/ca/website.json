@@ -1,0 +1,92 @@
+{
+    "installFirefox": {
+        "message": "Instal·la al Firefox"
+    },
+    "bugTracker": {
+        "message": "<a href=\"https://gitlab.onionize.space/\">Demaneu un compte</a> al GitLab del Tor Project i, llavors <a href=\"https://gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/snowflake/-/issues\">obriu una incidència nova</a> al projecte Snowflake."
+    },
+    "descriptive": {
+        "message": "Sigueu tan descriptius com us sigui possible i incloeu-hi, si és possible, un registre de missatges que ajudi a reproduir l'error."
+    },
+    "reportingBugs": {
+        "message": "Informació d'errors"
+    },
+    "installChrome": {
+        "message": "Instal·la al Chrome"
+    },
+    "embed": {
+        "message": "Incrusta"
+    },
+    "censoredUsers": {
+        "message": "A diferència de les VPN, no cal que instal·leu una aplicació independent per connectar-vos a un servidor intermediari Snowflake i evitar la censura. Normalment és una funció d'elusió integrada a les aplicacions existents. Actualment, Snowflake està disponible al <a href=\"https://torproject.org/download\">Navegador Tor</a> a l'escriptori i Android, <a href=\"https://onionbrowser.com\">Navegador Onion</a> a iOS i <a href=\"https://orbot.app\">Orbot</a> a Android i iOS. Si heu baixat i instal·lat alguna d'aquestes aplicacions, i estan censurades al vostre país, podeu evitar la censura activant Snowflake a través de la pàgina de configuració de les aplicacions."
+    },
+    "installExtension": {
+        "message": "Sabíeu que els servidors intermediaris Snowflake estan gestionats completament per voluntaris? En altres paraules, un usuari es relaciona amb un servidor intermediari voluntari Snowflake aleatori, que està dirigit per un voluntari com tu! Per tant, si voleu ajudar la gent a evitar la censura, considereu instal·lar i executar un servidor intermediari Snowflake. L'únic requisit previ és que Internet al vostre país <strong>no</strong> estigui molt censurat."
+    },
+    "volunteer": {
+        "message": "Podeu unir-vos a milers de voluntaris d'arreu del món que tenen instal·lat i en funcionament un servidor intermediari Snowflake. No cal que us preocupeu dels llocs web als quals accedeix la gent mitjançant el vostre servidor intermediari Snowflake. La seva adreça IP de navegació visible coincidirà amb el seu node de sortida Tor, no amb el vostre."
+    },
+    "installOptions": {
+        "message": "Hi ha diferents maneres d'executar un servidor intermediari Snowflake (de principiant a avançat):"
+    },
+    "installWebExtension": {
+        "message": "L'extensió web és la manera més senzilla d'executar un servidor intermediari Snowflake. Simplement instal·leu-la a <a href=\"https://addons.mozilla.org/en-US/firefox/addon/torproject-snowflake/\">Firefox</a> o <a href=\"https://chrome.google.com/webstore/detail/snowflake/mafpmfcccpbjnhfhjnllmmalhifmlcie\">Chrome</a>, activeu l'extensió i observeu que la icona es torna verda quan un usuari es connecta mitjançant el vostre servidor intermediari!"
+    },
+    "webBadgeTitle": {
+        "message": "Deixeu aquesta pestanya del navegador oberta o incrusteu una insígnia web al vostre lloc web"
+    },
+    "webBadgeInstructions": {
+        "message": "Si activeu Snowflake a continuació i deixeu la pestanya del navegador oberta, un usuari es pot connectar mitjançant el vostre nou servidor intermediari!"
+    },
+    "possible": {
+        "message": "De manera alternativa, podeu inserir un servidor intermediari Snowflake a una pàgina del vostre lloc web (per exemple, <a href=\"https://relay.love\">relay.love</a>). Els visitants del vostre lloc poden entrar a la pàgina, habilitar el servidor intermediari i deixar-lo obert per permetre que les persones puguin utilitzar el servidor intermediari (es comporta i es mostra exactament com l'extensió web)."
+    },
+    "StandaloneTitle": {
+        "message": "Executeu un servidor intermediari autònom"
+    },
+    "installStandalone": {
+        "message": "Si voleu executar una versió de línia d'ordres del servidor intermediari Snowflake al vostre escriptori o servidor, consulteu la nostra <a href=\"https://community.torproject.org/relay/setup/snowflake/standalone/\">guia</a> per executar un servidor intermediari autònom de Snowflake."
+    },
+    "fileBug": {
+        "message": "Si trobeu problemes amb Snowflake, ja sigui que l'utilitzeu o que l'executeu, considereu presentar un informe d'error. Hi ha dues maneres de presentar un informe d'error:"
+    },
+    "sharedAccount": {
+        "message": "Envieu un <a href=\"https://anonticket.onionize.space/\">tiquet anònim</a> generant un identificador i iniciant sessió amb ell. A continuació, cerqueu el projecte Snowflake a la <strong>Llista de tots els projectes</strong> i creeu un tiquet nou."
+    },
+    "contactSnowflakeDevs": {
+        "message": "Si esteu interessat en fer ús de Snowflake dins de la vostra aplicació, poseu-vos en contacte amb l'<a href=\"https://lists.torproject.org/cgi-bin/mailman/listinfo/anti-censorship-team\">equip contra la censura</a>."
+    },
+    "howSnowflakeWorks": {
+        "message": "Obteniu més informació sobre com funciona Snowflake"
+    },
+    "snowflakeTechOverview": {
+        "message": "Snowflake és una nova tecnologia d'elusió, que forma part de la família de <a href=\"https://gitweb.torproject.org/torspec.git/tree/pt-spec.txt\">Transports Integrables</a>, que s'està millorant contínuament. Teniu curiositat per saber més sobre la seva arquitectura? No dubteu en consultar aquesta <a href=\"https://gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/snowflake/-/wikis/Technical%20Overview\">Visió general tècnica</a> (en anglès)."
+    },
+    "faq": {
+        "message": "Buscar suport per utilitzar Snowflake"
+    },
+    "websiteIntro": {
+        "message": "Snowflake és un sistema que <strong>permet a persones de tot el món accedir a llocs web i aplicacions censurades</strong>. De manera similar a com les VPN ajuden els usuaris a evitar la censura d'Internet, Snowflake us ajuda a evitar que els censors d'Internet us notin fent que la vostra activitat a Internet sembli com si utilitzéssiu Internet per a una trucada de veu o de vídeo normal."
+    },
+    "websiteIntro2": {
+        "message": "Hi ha nombroses eines disponibles, com ara Snowflake, que \"transformen\" l'activitat d'Internet, cadascuna utilitzant una tècnica diferent. Algunes redirigeix el trànsit d'Internet per a fer veure que prové de proveïdors de núvol populars com el Microsoft Azure i l'Amazon Web Services. Altres barregen el trànsit d'Internet per tal que sembli completament aleatori."
+    },
+    "websiteIntro3": {
+        "message": "Per tant, és costós per als censors considerar bloquejar aquestes eines d'elusió, ja que caldria bloquejar grans parts d'Internet per assolir el seu objectiu."
+    },
+    "browser": {
+        "message": "Utilitzeu Snowflake per evitar la censura"
+    },
+    "extension": {
+        "message": "Ajudeu la gent a evitar la censura: gestioneu un servidor intermediari Snowflake"
+    },
+    "installWebExtensionIntro": {
+        "message": "Instal·leu l'extensió web"
+    },
+    "support": {
+        "message": "Si trobeu problemes mentre intenteu connectar-vos a Tor amb Snowflake, podeu contactar amb el canal d'assistència de Tor a <a href=\"https://t.me/TorProjectSupportBot\">Telegram</a>. També podeu navegar pel <a href=\"https://support.torproject.org/censorship/\">Portal d'assistència de Tor</a> i el <a href=\"https://forum.torproject.org/tag/snowflake\">Fòrum de Tor</a> per obtenir respostes."
+    },
+    "installEdge": {
+        "message": "Instal·lar a Edge"
+    }
+}

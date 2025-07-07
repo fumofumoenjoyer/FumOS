@@ -1,0 +1,92 @@
+{
+    "installChrome": {
+        "message": "Kuweka kwenye Chrome"
+    },
+    "descriptive": {
+        "message": "Tafadhali jaribu kua kama kuelezea kuwezekana katika tiketi yako na kama inawezekana ni pamoja na ujumbe wa logi ambayo itatusaidia kupata hitilafu."
+    },
+    "installFirefox": {
+        "message": "Kuweka kwenye Firefox"
+    },
+    "reportingBugs": {
+        "message": "Ripoti kirusi"
+    },
+    "embed": {
+        "message": "Pachika"
+    },
+    "installExtension": {
+        "message": "Je ulijua kwamba proxies za Snowflake tangu mwanzo zinaendeshwa na wanaojitolea? Kwa maneno mengine,mtumiaji anakutana na proxy ya kujitolea ya Snowflake isiyo katika moangilio, ambayo inatumiwa na wanaojitolea kama wewe! Kwahiyo, ikama unataka kusaidia watu kukwepa udhibiti, zingatia kusanikisha na kutumiaproxy y a Snowflake. Angalizo pekee ni kwamba mtandao katika nchi yako uwe umedhibitiwa tayari <strong>not</strong>."
+    },
+    "volunteer": {
+        "message": "Unaweza ungana na maelfu ya watu wanajitolea duniani kote ambao wana poxy ya Snowflake imesankiwa na kutumia. Hakuna haja ya kuwa na wasiwasi kuhusu tovuti watu wayoipata kupitia proxy ya Snowflake. Anwani yao ya IP inayoonekana itaoana na Tor exit node, yao sio yakwako."
+    },
+    "webBadgeTitle": {
+        "message": "Acha kichupo hiki cha kivinjari wazi au pachika beji ya wavuti kwenye tovuti yako"
+    },
+    "installWebExtension": {
+        "message": "Kuongeza uwezo wa kufanya kazi tovuti ni njia rahisi ya kutumia proxy ya Snowflake. Kwa urahisi isakini katika <a href=\"https://addons.mozilla.org/en-US/firefox/addon/torproject-snowflake/\">Firefox</a> or <a href=\"https://chrome.google.com/webstore/detail/snowflake/mafpmfcccpbjnhfhjnllmmalhifmlcie\">Chrome</a>, wezesha maongezo, na angalia nembo kuwa ya kiijani pale ambapo mtumiaji anajiunga kwa kutumia proxy yako!"
+    },
+    "webBadgeInstructions": {
+        "message": "Kama ukizima Snowflake chini na uache wazi kichupo cha kivinjari, mtumiaji anaweza kuunganisha kuptia proxi mpya!"
+    },
+    "StandaloneTitle": {
+        "message": "Endesha seva mbadala ianyojitegemea"
+    },
+    "possible": {
+        "message": "Mbadala, unaweza kuweka proxy ya Snowflake wewe mwenyewe katika kurasa ya tovuti yako mwenyewe (mfano., <a href=\"https://relay.love\">relay.love</a>). Watembeleaji katika tovuti yako wataingiza kurasa, kuwezesha proxy, na kuicha wazi ili kuruhusu watu kufanya proxy kupitia iyo (inatabia na kufanana kabisa na kuongeza uwezo wa kufanya kazi tovuti)."
+    },
+    "installStandalone": {
+        "message": "kama ungependa kuendesha mstari wa amri toleo la proxi ya Snowflake katika kitendea kazi chako au seva, angalia muongozo wetu kwa kuendesha Snowflake kwa kujitegemea <a href=\"https://community.torproject.org/sw/relay/setup/snowflake/standalone/\">guide</a> ."
+    },
+    "fileBug": {
+        "message": "Ukikutana na tatizo na Snowflake - Vyovyote kwa kutumia au kwa kuiendesha -, Tafadhali fikiria kuwasilisha ripoti ya hitilafu.  kuna njia mbili ya kuwasilisha ripoti ya hitilafu:"
+    },
+    "sharedAccount": {
+        "message": "Zifaili<a href=\"https://anonticket.onionize.space/\">anonymous ticket</a>kwa kutengeneza kitambuzi na kuingia kwa kutumia hiyo. Kisha, tafuta mradi wa Snowflake katika <strong>List of all projects</strong> na tengeneza jambo jipya."
+    },
+    "bugTracker": {
+        "message": "<a href=\"https://gitlab.onionize.space/\">Omba akaunti</a> katika Tor Project GitLab, kisha <a href=\"https://gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/snowflake/-/issues\">open a new issue</a> katika mradi wa Snowflake."
+    },
+    "contactSnowflakeDevs": {
+        "message": "Kama unapenda kutumia Snowflake katika programu zako, wasiliana na <a href=\"https://lists.torproject.org/cgi-bin/mailman/listinfo/anti-censorship-team\">kikosi cha kuzuia udhibiti."
+    },
+    "howSnowflakeWorks": {
+        "message": "Jifunze zaidi kuhusu kazi za Snowflake"
+    },
+    "snowflakeTechOverview": {
+        "message": "Snowflake ni kifaa kipya cha tekinolojia, ni aina ya familia<a href=\"https://gitweb.torproject.org/torspec.git/tree/pt-spec.txt\">Plugga Transports</a> , ambayo inaendelea kuimarika. kutaka kujifunza zaidi kuhusukama ina usanidi? jiskie huru kuangalia hii <a href=\"https://gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/snowflake/-/wikis/Technical%20Overview\">muhtasari wa kitekiniki</a> (kwa kiingereza)."
+    },
+    "faq": {
+        "message": "Tafuta msaada kwa kutumia Snowflake"
+    },
+    "support": {
+        "message": "Ukikutana na matatizo wakati unajiunga na Tor kwa kutumia Snowflake, msaada kwa watumiaji wa Tor support unapatikana katika <a href=\"https://t.me/TorProjectSupportBot\">Telegram</a>. Pia unaweza kuperuzi katika <a href=\"https://support.torproject.org/sw/censorship/\">Tor Support Portal</a> and the <a href=\"https://forum.torproject.org/tag/snowflake\">Tor Forum</a> kwa majibu."
+    },
+    "websiteIntro": {
+        "message": "Snowflake ni mfumo ambao <strong>unaruhusu watu kutoka ulimwenguni kote kufikia udhibiti wa tovuti na maombi</strong>. Ni sawa na jinsi VPNs inasaidia watumiaji kupata udhibiti wa mtandao , Snowflake inakusaidia kuepuka taarifa kupitia udhibiti wa mtandao kwa kufanya shughuli zako za mtandao kua bora kutumia mtandao kwa video moja au simu ya sauti."
+    },
+    "websiteIntro2": {
+        "message": "Kuna dhana nyingi zinazopatikana, kama vile Snowflake,ambayo \"inapelekea\" mtandao kufanya kazi vizuri, kwa kila moja inatumia tekiniki tofauti. Baadhi ya trafiki ya mtandao inaelekezwa kwingine kuonekana kutoka kwa mtoa huduma kama Microsoft Azure na tovuti ya huduma ya . Trafiki zingine za mtandao kwa kuifanya ionekane randam iliyokamilika."
+    },
+    "websiteIntro3": {
+        "message": "Kwahivyo inakua gharama kwa wachunguzi kufikiria kuzuia zana kama hizo kwani ingehitaji kuzuia sehemu kubwa ya mtandao ili kufikia lengo lililowekwa awali."
+    },
+    "browser": {
+        "message": "Tumia Snowflake kwa udhibiti wa kupita"
+    },
+    "censoredUsers": {
+        "message": "Tofauti na VPNs, utahitaji kusakini programu tofauti ili kuunganishwa na proxy ya Snowflake ili kukwepa udhibiti. Kwa kawaida huwa ni tabia ya kukwepa udhibiti inayokuwepo katika programu husika. Kwasasa Snowflake inapatikana katika <a href=\"https://torproject.org/download\">Tor Browser</a> katika Kompyuta na Android, <a href=\"https://onionbrowser.com\">Onion Browser</a> on iOS, and <a href=\"https://orbot.app\">Orbot</a> katika Android na iOS. Kama umepakua na kusakinisha programu yoyote kati ya hizi, na zimedhibitiwa katika nchi yako, unaweza kukwepa udhibiti kwa kuwasha Snowflake kupitia kurasa ya mpangilio wa programu."
+    },
+    "extension": {
+        "message": "Saidia watu kkukwepa udhibiti: fanyia kazi Snowflake proxy"
+    },
+    "installOptions": {
+        "message": "Kuna njia tofauti ya kuendesha proxi ya Snowflake (anaeanza kwenda juu):"
+    },
+    "installWebExtensionIntro": {
+        "message": "Imesakinisha kiendelezi cha wavuti"
+    },
+    "installEdge": {
+        "message": "Install in Edge"
+    }
+}

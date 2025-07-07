@@ -1,0 +1,764 @@
+{
+   "buttonApply": {
+      "message": "Apply"
+   },
+   "buttonCancel": {
+      "message": "Atcelt"
+   },
+   "buttonClose": {
+      "message": "Aizvērt"
+   },
+   "buttonDisable": {
+      "message": "Atspējot"
+   },
+   "buttonEdit": {
+      "message": "Rediģēt"
+   },
+   "buttonEditClickHint": {
+      "message": "You can also Right-click, Ctrl-click, Wheel-click on the script name."
+   },
+   "buttonEmptyRecycleBin": {
+      "message": "Empty recycle bin now!"
+   },
+   "buttonEnable": {
+      "message": "Iespējot"
+   },
+   "buttonExportData": {
+      "message": "Eksportēt kā zip arhīvu"
+   },
+   "buttonHome": {
+      "message": "Mājas lapa"
+   },
+   "buttonImportData": {
+      "message": "Importēt zip arhīvu"
+   },
+   "buttonInstallFromURL": {
+      "message": "Install from URL"
+   },
+   "buttonNew": {
+      "message": "New"
+   },
+   "buttonOK": {
+      "message": "Labi"
+   },
+   "buttonRecycleBin": {
+      "message": "Recycle Bin"
+   },
+   "buttonRemove": {
+      "message": "Remove"
+   },
+   "buttonReplace": {
+      "message": "Replace"
+   },
+   "buttonReplaceAll": {
+      "message": "All"
+   },
+   "buttonReset": {
+      "message": "Reset"
+   },
+   "buttonResetSettings": {
+      "message": "Reset settings"
+   },
+   "buttonRestore": {
+      "message": "Restore"
+   },
+   "buttonSave": {
+      "message": "Saglabāt"
+   },
+   "buttonSaveClose": {
+      "message": "Saglabāt & Aizvērt"
+   },
+   "buttonSaved": {
+      "message": "Saglabāts"
+   },
+   "buttonShowEditorState": {
+      "message": "Show editor state"
+   },
+   "buttonSupport": {
+      "message": "Atbalsta lapa"
+   },
+   "buttonUndo": {
+      "message": "Undo"
+   },
+   "buttonUpdate": {
+      "message": "Atjaunināt"
+   },
+   "buttonVacuum": {
+      "message": "Vacuum database"
+   },
+   "buttonVacuumed": {
+      "message": "Data vacuumed"
+   },
+   "buttonVacuuming": {
+      "message": "Vacuuming data..."
+   },
+   "confirmManualUpdate": {
+      "message": "Auto-update is disabled for this script!\nClick OK to update it anyway."
+   },
+   "confirmNotSaved": {
+      "message": "Modifications are not saved!\nClick OK to discard them or cancel to stay."
+   },
+   "confirmUndoImport": {
+      "message": "Revert all changes made to the database (importing, updating, editing, customizing)"
+   },
+   "descBlacklist": {
+      "message": "Injection blacklist (scripts won't run in the matching sites)"
+   },
+   "descBlacklistNet": {
+      "message": "Network blacklist (scripts won't connect to the matching sites and their cookies)"
+   },
+   "descCustomCSS": {
+      "message": "Custom CSS for options page and script installation page. If you are not sure what this is for, please do not edit it."
+   },
+   "descEditorOptions": {
+      "message": "Custom options for CodeMirror and addons in JSON object like \u003Ccode>{\"indentUnit\":2, \"smartIndent\":true}\u003C/code> however note that some of them may not work in Violentmonkey. See \u003Ca href=\"https://codemirror.net/doc/manual.html#config\" target=\"_blank\" rel=\"noopener noreferrer\">full list\u003C/a>."
+   },
+   "descEditorOptionsGeneric": {
+      "message": "Boolean options may be toggled by double-clicking on the value: \u003Ccode>true\u003C/code> = enabled, \u003Ccode>false\u003C/code> = disabled. Numeric options ending with \u003Ccode>Delay\u003C/code>, \u003Ccode>Interval\u003C/code>, \u003Ccode>Rate\u003C/code>, \u003Ccode>Time\u003C/code> are in milliseconds."
+   },
+   "descEditorOptionsVM": {
+      "message": "Nonstandard options: \u003Ccode>autocompleteOnTyping\u003C/code> is a delay in milliseconds to display autocomplete hints after typing (\u003Ccode>0\u003C/code> = disable), \u003Ccode>killTrailingSpaceOnSave\u003C/code> automatically removes trailing spaces in each line when saving, \u003Ccode>showTrailingSpace\u003C/code> shows the trailing spaces as dots."
+   },
+   "descScriptTemplate": {
+      "message": "Supported variables: \u003C{{name}}>, \u003C{{url}}>, \u003C{{date}}>, \u003C{{date:format}}> with MomentJS-compatible format, for example \u003C{{date:YYYY-MM-DD}}>."
+   },
+   "disabledScriptsGroup": {
+      "message": "group"
+   },
+   "disabledScriptsHide": {
+      "message": "hide"
+   },
+   "disabledScriptsSelector": {
+      "message": "Atspējotie skripti:"
+   },
+   "disabledScriptsShow": {
+      "message": "show"
+   },
+   "editHelpDocumention": {
+      "message": "Documentation on userscript metadata block and \u003Ccode>GM\u003C/code> API:"
+   },
+   "editHelpKeyboard": {
+      "message": "Keyboard shortcuts:"
+   },
+   "editHowToHint": {
+      "message": "Use another editor?"
+   },
+   "editLabelMeta": {
+      "message": "Custom metadata"
+   },
+   "editLabelSettings": {
+      "message": "Script settings"
+   },
+   "editLongLine": {
+      "message": "Rinda ir pārāk gara"
+   },
+   "editLongLineTooltip": {
+      "message": "This line is too long so its text is collapsed to avoid delays when editing.\nYou can adjust the limit in advanced settings, for example:\n\"maxDisplayLength\": 20000"
+   },
+   "editNavCode": {
+      "message": "Code"
+   },
+   "editNavSettings": {
+      "message": "Iestatījumi"
+   },
+   "editNavValues": {
+      "message": "Values"
+   },
+   "editValueAllHint": {
+      "message": "Show/edit the entire script value storage"
+   },
+   "extDescription": {
+      "message": "An open source userscript manager that supports a lot of browsers"
+   },
+   "extName": {
+      "message": "Violentmonkey"
+   },
+   "failureReasonBlacklisted": {
+      "message": "Blacklisted in Violentmonkey's settings"
+   },
+   "failureReasonNoninjectable": {
+      "message": "Violentmonkey cannot run userscripts in this page\n(common examples: browser UI, an extension, blocked via policies, a search engine site in Opera)"
+   },
+   "failureReasonRestarted": {
+      "message": "Violentmonkey was restarted. Please reload the tab to run userscripts."
+   },
+   "fileInstallBlocked": {
+      "message": "There are several methods to install or track edits in a local file: \u003C1> Drag'n'drop the file into an open Violentmonkey page or popup, including this one. \u003C2> Install a local HTTP server for this file and open it via http://localhost. \u003C3> Enable \"Allow access to file URLs\" in details for Violentmonkey in chrome://extensions page. This is dangerous because any userscript may read any local file."
+   },
+   "filterAlphabeticalOrder": {
+      "message": "alfabētiski"
+   },
+   "filterExecutionOrder": {
+      "message": "execution"
+   },
+   "filterLastUpdateOrder": {
+      "message": "last update time"
+   },
+   "filterSize": {
+      "message": "size"
+   },
+   "genericError": {
+      "message": "Kļūda"
+   },
+   "genericOff": {
+      "message": "izslēgts"
+   },
+   "genericOn": {
+      "message": "on"
+   },
+   "genericUseGlobal": {
+      "message": "use global setting"
+   },
+   "hashPatternWarning": {
+      "message": "\"#\" patterns work only when initially opening the site or reloading the tab: $1"
+   },
+   "headerRecycleBin": {
+      "message": "Recycle Bin"
+   },
+   "helpForLocalFile": {
+      "message": "Show the instruction for drag'n'dropped local scripts"
+   },
+   "hintForBatchAction": {
+      "message": "for $1 matching scripts"
+   },
+   "hintInputURL": {
+      "message": "Input URL:"
+   },
+   "hintRecycleBin": {
+      "message": "Scripts removed are listed here and will be kept for 7 days."
+   },
+   "hintUseDownloadURL": {
+      "message": "Use @downloadURL"
+   },
+   "hintVacuum": {
+      "message": "Discard the redundancy and try to reload the missing resources in cache."
+   },
+   "install": {
+      "message": "Install"
+   },
+   "installFrom": {
+      "message": "Install from $1"
+   },
+   "installOptionTrackTooltip": {
+      "message": "The source file tab should be kept open in Firefox 68 and newer."
+   },
+   "labelAdvanced": {
+      "message": "Advanced"
+   },
+   "labelAllowUpdate": {
+      "message": "Allow update"
+   },
+   "labelAuthor": {
+      "message": "Author: "
+   },
+   "labelAutoReloadCurrentTab": {
+      "message": "Reload current tab after switching on/off a script from menu"
+   },
+   "labelAutoUpdate": {
+      "message": "Check for script updates every $1 day(s), use 0 to disable"
+   },
+   "labelBackupMaintenance": {
+      "message": "Dublēšana un apkope"
+   },
+   "labelBadge": {
+      "message": "Badge:"
+   },
+   "labelBadgeColors": {
+      "message": "Badge colors: "
+   },
+   "labelBadgeNone": {
+      "message": "none"
+   },
+   "labelBadgeTotal": {
+      "message": "number of running scripts"
+   },
+   "labelBadgeUnique": {
+      "message": "number of unique running scripts"
+   },
+   "labelBlacklist": {
+      "message": "Blacklist"
+   },
+   "labelContributors": {
+      "message": "Contributors"
+   },
+   "labelCurrentLang": {
+      "message": "Current Language: "
+   },
+   "labelCustomCSS": {
+      "message": "Custom Style"
+   },
+   "labelDownloadURL": {
+      "message": "Download URL:"
+   },
+   "labelEditValue": {
+      "message": "Editing script value"
+   },
+   "labelEditValueAll": {
+      "message": "Editing script storage"
+   },
+   "labelEditor": {
+      "message": "Editor"
+   },
+   "labelEnabledScriptsOnly": {
+      "message": "enabled scripts only"
+   },
+   "labelExclude": {
+      "message": "@exclude rules"
+   },
+   "labelExcludeMatch": {
+      "message": "@exclude-match rules"
+   },
+   "labelExportScriptData": {
+      "message": "Eksportēt skripta datus"
+   },
+   "labelExposeStatus": {
+      "message": "Expose installed version on userscript catalog sites: $1"
+   },
+   "labelFastFirefoxInject": {
+      "message": "Alternative $1 mode in Firefox"
+   },
+   "labelFastFirefoxInjectHint": {
+      "message": "An alternative injection method for \u003Cdocument-start> scripts since Firefox 59, faster than the default mode. Similarly to \"Synchronous page mode\" it also increases memory consumption, so you may want to disable it if your scripts work correctly without this option."
+   },
+   "labelFeedback": {
+      "message": "Feedback"
+   },
+   "labelGeneral": {
+      "message": "General"
+   },
+   "labelHelpTranslate": {
+      "message": "Help with translation"
+   },
+   "labelHomepage": {
+      "message": "Mājas lapa"
+   },
+   "labelHomepageURL": {
+      "message": "Homepage URL:"
+   },
+   "labelIconURL": {
+      "message": "Icon URL:"
+   },
+   "labelImportScriptData": {
+      "message": "Import script data"
+   },
+   "labelImportSettings": {
+      "message": "Importēt iestatījumus"
+   },
+   "labelInclude": {
+      "message": "@include rules"
+   },
+   "labelInjectionMode": {
+      "message": "Injection mode: "
+   },
+   "labelInstall": {
+      "message": "Installing script"
+   },
+   "labelKeepOriginal": {
+      "message": "Keep original"
+   },
+   "labelLastUpdatedAt": {
+      "message": "Last updated at $1"
+   },
+   "labelLineNumber": {
+      "message": "Line no.: "
+   },
+   "labelMatch": {
+      "message": "@match rules"
+   },
+   "labelName": {
+      "message": "Name:"
+   },
+   "labelNoFrames": {
+      "message": "Run in frames: "
+   },
+   "labelNoName": {
+      "message": "No Name"
+   },
+   "labelNoSearchScripts": {
+      "message": "No script is found."
+   },
+   "labelNotifyThisUpdated": {
+      "message": ", then notify:"
+   },
+   "labelNotifyUpdates": {
+      "message": "Notify script updates"
+   },
+   "labelNotifyUpdatesGlobal": {
+      "message": "ignore per-script notification (\"settings\" tab in editor)"
+   },
+   "labelPrivacyPolicy": {
+      "message": "Privacy Policy"
+   },
+   "labelReinstall": {
+      "message": "Re-installing script"
+   },
+   "labelRelated": {
+      "message": "Related links: "
+   },
+   "labelRemovedAt": {
+      "message": "Removed at $1"
+   },
+   "labelReplace": {
+      "message": "Replace with: "
+   },
+   "labelRunAt": {
+      "message": "Run-At: "
+   },
+   "labelRunAtDefault": {
+      "message": "(Default)"
+   },
+   "labelScriptTemplate": {
+      "message": "Custom Script Template"
+   },
+   "labelSearch": {
+      "message": "Search for: "
+   },
+   "labelSearchScript": {
+      "message": "Search scripts..."
+   },
+   "labelSettings": {
+      "message": "Iestatījumi"
+   },
+   "labelShowOrder": {
+      "message": "Show execution order positions"
+   },
+   "labelSync": {
+      "message": "Sync"
+   },
+   "labelSyncAnonymous": {
+      "message": "Use anonymous account"
+   },
+   "labelSyncAuthorize": {
+      "message": "Authorize"
+   },
+   "labelSyncAuthorizing": {
+      "message": "Authorizing"
+   },
+   "labelSyncDisabled": {
+      "message": "None"
+   },
+   "labelSyncPassword": {
+      "message": "Password: "
+   },
+   "labelSyncRevoke": {
+      "message": "Revoke"
+   },
+   "labelSyncScriptStatus": {
+      "message": "Sync script status"
+   },
+   "labelSyncServerUrl": {
+      "message": "Server URL: "
+   },
+   "labelSyncService": {
+      "message": "Sync to"
+   },
+   "labelSyncUsername": {
+      "message": "Username: "
+   },
+   "labelTags": {
+      "message": "Birkas (atdalīt ar atstarpi):"
+   },
+   "labelTheme": {
+      "message": "Theme: "
+   },
+   "labelUpdateURL": {
+      "message": "Update URL:"
+   },
+   "labelViewSingleColumn": {
+      "message": "Single column"
+   },
+   "labelViewTable": {
+      "message": "Table view"
+   },
+   "labelWidth": {
+      "message": "Platums:"
+   },
+   "labelXhrInject": {
+      "message": "Synchronous $1 mode"
+   },
+   "labelXhrInjectHint": {
+      "message": "Enable only if you have a script that needs to run before the page starts loading and currently it's running too late. Just like Instant injection mode in Tampermonkey, this option is using the deprecated synchronous XHR, so in Chrome/Chromium you'll see warnings in devtools console, although you can safely ignore them as the adverse affects are negligible in this case. You can hide the warnings for good by right-clicking one."
+   },
+   "labelXhrInjectNote": {
+      "message": "(except incognito and sites with disabled cookies)"
+   },
+   "lastSync": {
+      "message": "Last sync at $1"
+   },
+   "learnBlacklist": {
+      "message": "Learn more about blacklist patterns."
+   },
+   "learnInjectionMode": {
+      "message": "Learn more about injection modes."
+   },
+   "menuDashboard": {
+      "message": "Open Dashboard"
+   },
+   "menuExclude": {
+      "message": "Exclude..."
+   },
+   "menuExcludeHint": {
+      "message": "The current tab will auto-reload if you enabled this option in general settings.\nTo apply changes to all other tabs please reload them manually.\nUse \"Settings\" tab of the editor for more flexibility."
+   },
+   "menuFeedback": {
+      "message": "Feedback"
+   },
+   "menuFindScripts": {
+      "message": "Find scripts for this site"
+   },
+   "menuInjectionFailed": {
+      "message": "Could not inject some scripts."
+   },
+   "menuInjectionFailedFix": {
+      "message": "Retry in \"auto\" mode"
+   },
+   "menuMatchedDisabledScripts": {
+      "message": "Matched disabled scripts"
+   },
+   "menuMatchedFrameScripts": {
+      "message": "Sub-frames only scripts"
+   },
+   "menuMatchedScripts": {
+      "message": "Matched scripts"
+   },
+   "menuNewScript": {
+      "message": "Create a new script"
+   },
+   "menuScriptDisabled": {
+      "message": "Scripts disabled"
+   },
+   "menuScriptEnabled": {
+      "message": "Scripts enabled"
+   },
+   "msgCheckingForUpdate": {
+      "message": "Checking for updates..."
+   },
+   "msgDateFormatInfo": {
+      "message": "Click to open MomentJS documentation. Allowed tokens: $1. Use [square brackets] to protect literal text."
+   },
+   "msgErrorFetchingResource": {
+      "message": "Error fetching resource!"
+   },
+   "msgErrorFetchingScript": {
+      "message": "Error fetching script!"
+   },
+   "msgErrorFetchingUpdateInfo": {
+      "message": "Failed fetching update information."
+   },
+   "msgErrorLoadingData": {
+      "message": "Error loading script data."
+   },
+   "msgErrorLoadingDependency": {
+      "message": "Error loading dependencies."
+   },
+   "msgImported": {
+      "message": "$1 item(s) are imported."
+   },
+   "msgIncognitoChanges": {
+      "message": "Changes you make in the incognito mode also apply to your main profile."
+   },
+   "msgInstalled": {
+      "message": "Script installed."
+   },
+   "msgInvalidScript": {
+      "message": "Invalid script!"
+   },
+   "msgLoadingData": {
+      "message": "Loading script data..."
+   },
+   "msgLoadingDependency": {
+      "message": "Loading dependencies... ($1/$2)"
+   },
+   "msgMissingResources": {
+      "message": "Missing required resources."
+   },
+   "msgNamespaceConflict": {
+      "message": "A script like this is already installed.\nPlease either use a different @name and @namespace here or edit that script instead."
+   },
+   "msgNamespaceConflictRestore": {
+      "message": "A script with the same @name and @namespace is already installed."
+   },
+   "msgNewVersion": {
+      "message": "New version found."
+   },
+   "msgNoUpdate": {
+      "message": "No update found."
+   },
+   "msgOpenUpdateErrors": {
+      "message": "Error updating scripts. Click to open them."
+   },
+   "msgReinstallScripts": {
+      "message": "Please re-save or reinstall these script(s):"
+   },
+   "msgSameCode": {
+      "message": " (code is the same)"
+   },
+   "msgScriptUpdated": {
+      "message": "Script [$1] is updated!"
+   },
+   "msgShowHide": {
+      "message": "Show/hide"
+   },
+   "msgSyncError": {
+      "message": "Sync error!"
+   },
+   "msgSyncInit": {
+      "message": "Initializing..."
+   },
+   "msgSyncInitError": {
+      "message": "Initializing error!"
+   },
+   "msgSyncNoAuthYet": {
+      "message": "Not authorized yet."
+   },
+   "msgSyncReady": {
+      "message": "Sync will start soon..."
+   },
+   "msgSyncing": {
+      "message": "Sync in progress..."
+   },
+   "msgSyntaxError": {
+      "message": "Syntax error?"
+   },
+   "msgTardyMatch": {
+      "message": "The script didn't exist or didn't match the URL when the page loaded, which happens in Single-Page Application sites like fb or instagram that are using fake navigation. You can reload the tab to run the script. To fix the script use @match for the entire site and then detect changes using MutationObserver or window.navigation API."
+   },
+   "msgUpdated": {
+      "message": "Skripts atjaunināts."
+   },
+   "msgUpdating": {
+      "message": "Updating..."
+   },
+   "noValues": {
+      "message": "No value is stored"
+   },
+   "optionEditorWindow": {
+      "message": "Open editor from popup in a new window"
+   },
+   "optionEditorWindowHint": {
+      "message": "Editor window position will be remembered only on resizing or saving"
+   },
+   "optionEditorWindowSimple": {
+      "message": "Hide omnibox"
+   },
+   "optionPopup": {
+      "message": "Popup menu and icon"
+   },
+   "optionPopupEnabledFirst": {
+      "message": "Enabled first"
+   },
+   "optionPopupGroupRunAt": {
+      "message": "Group by @run-at stage"
+   },
+   "optionShowEnabledFirst": {
+      "message": "Vispirms rādīt iespējotos skriptus"
+   },
+   "optionUiTheme": {
+      "message": "UI theme: "
+   },
+   "optionUiThemeAuto": {
+      "message": "automatic"
+   },
+   "optionUiThemeDark": {
+      "message": "dark"
+   },
+   "optionUiThemeLight": {
+      "message": "light"
+   },
+   "optionUpdate": {
+      "message": "Atjaunināt"
+   },
+   "popupSettings": {
+      "message": "Popup settings"
+   },
+   "popupSettingsHint": {
+      "message": "Right-click: popup settings"
+   },
+   "readonly": {
+      "message": "Read-only"
+   },
+   "readonlyNote": {
+      "message": "Auto-updated script is read-only unless you disable updates or allow editing."
+   },
+   "readonlyOpt": {
+      "message": "Allow edits"
+   },
+   "readonlyOptWarn": {
+      "message": "(next update will overwrite them)"
+   },
+   "reinstall": {
+      "message": "Reinstall"
+   },
+   "reloadTab": {
+      "message": "Pārlādēt cilni"
+   },
+   "reloadTabTrackHint": {
+      "message": "If enabled, the active tab will be reloaded when changes are detected and this script matches the tab's URL."
+   },
+   "searchCaseSensitive": {
+      "message": "Case sensitive"
+   },
+   "searchUseRegex": {
+      "message": "Use Regex"
+   },
+   "sideMenuAbout": {
+      "message": "Par"
+   },
+   "sideMenuInstalled": {
+      "message": "Installed scripts"
+   },
+   "sideMenuSettings": {
+      "message": "Iestatījumi"
+   },
+   "skipScripts": {
+      "message": "Pārlādēt lapu bez lietotājskriptiem"
+   },
+   "skipScriptsMsg": {
+      "message": "Jūs atspējojāt lietotājskriptus šai lapai. Lai tos izmantotu, atkārtoti ielādējiet vai pārvietojieties pa cilni."
+   },
+   "sortOrder": {
+      "message": "Sort order:"
+   },
+   "stopTracking": {
+      "message": "Stop tracking"
+   },
+   "titleBadgeColor": {
+      "message": "Normal badge color"
+   },
+   "titleBadgeColorBlocked": {
+      "message": "Badge color when the site is non-injectable (blacklisted or unsupported)"
+   },
+   "titleSearchHintV2": {
+      "message": "* \u003Ckbd>Enter\u003C/kbd> key adds the text to autocomplete history\n* All conditions are case-insensitive\n* Space separated conditions can be combined\n* Search by metadata: \u003Ccode>\"Awesome Script\" \"Description\"\u003C/code>\n* Search by tags: \u003Ccode>#tag1 #tag2\u003C/code>\n* Search by script name: \u003Ccode>name:\"awesome name\"\u003C/code>\n* Search by script code: \u003Ccode>code:\"awesome code\"\u003C/code>\n* Negative search: \u003Ccode>!#tag2 !name:\"unwanted\"\u003C/code>\n* Regular expressions: \u003Ccode>/\\w+?/\u003C/code>, \u003Ccode>/\\w+?/gi\u003C/code>, \u003Ccode>name:/\\w+?/\u003C/code>, \u003Ccode>name+re:\"\\w+? with space\"\u003C/code>"
+   },
+   "toggleInjection": {
+      "message": "Toggle userscript injection"
+   },
+   "trackEdits": {
+      "message": "Track external edits"
+   },
+   "trackEditsNote": {
+      "message": "Keep this page open to track your edits in local file"
+   },
+   "updateListedCmd": {
+      "message": "Update scripts ($1)"
+   },
+   "updateScript": {
+      "message": "Atjaunināt"
+   },
+   "updateScriptsAll": {
+      "message": "Update all scripts"
+   },
+   "updateScriptsInTab": {
+      "message": "Update current tab's scripts"
+   },
+   "valueLabelKey": {
+      "message": "Key (string)"
+   },
+   "valueLabelValue": {
+      "message": "Value (serialized as JSON)"
+   },
+   "valueLabelValueAll": {
+      "message": "All values (serialized as JSON)"
+   }
+}

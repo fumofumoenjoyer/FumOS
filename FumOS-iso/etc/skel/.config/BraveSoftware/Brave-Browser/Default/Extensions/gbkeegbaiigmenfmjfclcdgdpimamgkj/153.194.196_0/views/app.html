@@ -1,0 +1,71 @@
+<html>
+
+<head>
+<title></title>
+  <style type="text/css">
+  #sandbox {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      border: none;
+      display: block;
+  }
+
+  #reloadBlock {
+      position : relative;
+      font-size : 18px;
+      display: none;
+    }
+  #reload-button {
+    background-color: #1a73e8;
+    background-image: -webkit-linear-gradient(top, #1a73e8, #4787ED);
+    background-image: linear-gradient(top, #1a73e8, #4787ED);
+    border: 1px solid #3079ED;
+    color: #fff;
+    border-radius: 2px;
+    cursor: default;
+    display: inline-block;
+    font-size: 11px;
+    font-weight: bold;
+    height: 29px;
+    min-width: 72px;
+    outline: 0;
+    padding: 0 8px;
+    text-align: center;
+    -webkit-user-select: none;
+  }
+  </style>
+
+  <script src="../scripts/third_party/webcomponentsjs/webcomponents-lite.min.js"></script>
+
+  <link rel="stylesheet" type="text/css" href="../scripts/lib/qowt/assets/common.css" />
+  <link rel="stylesheet" type="text/css" href="../css/application.css" />
+
+  <link rel="import" href="../scripts/common/elements/google-consumer-survey/google-consumer-survey.html">
+
+  <script src="../scripts/configs/requirejsConfig.js"></script>
+  <script data-main="../scripts/mainApp" src="../scripts/third_party/requireJs/require.js"></script>
+
+</head>
+<body>
+
+<iframe id="sandbox" name="sandbox" allowfullscreen="true" sandbox="allow-scripts allow-modals allow-same-origin allow-popups" src="qowt.html"></iframe>
+<div id="reloadBlock">
+  <div id="error-shim" class="center-outer-container error-container">
+      <div class="center-inner-container">
+      <div id="error-icon"></div>
+      <div id="error-text">
+          <div id="error-message">An unexpected error occurred</div>
+          <div id="error-details">To return to your last viewed file, select Reload</div>
+          <div id="error-link">
+          <button id="reload-button" tabindex="0">Reload</button>
+          </div>
+      </div>
+  </div>
+  </div>
+</div>
+</body>
+
+</html>

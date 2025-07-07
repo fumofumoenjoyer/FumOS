@@ -1,0 +1,70 @@
+{
+   "advancedLabel": {
+      "description": "Advanced label.",
+      "message": "متقدم"
+   },
+   "amountInjectedDescription": {
+      "description": "Amount injected description.",
+      "message": "إجمالي موارد الـ CDN اللتي تم حقنها محليا منذ التثبيت."
+   },
+   "amountInjectedTitle": {
+      "description": "Amount injected title.",
+      "message": "عداد محلي للموارد المحقونة"
+   },
+   "blockMissingDescription": {
+      "description": "Block requests for missing resources description.",
+      "message": "إلغاء طلب الموارد إذا كانت متوفرة محليا."
+   },
+   "blockMissingTitle": {
+      "description": "Block requests for missing resources title.",
+      "message": "حظر طلبات الموارد المفقودة"
+   },
+   "disablePrefetchDescription": {
+      "description": "Disable prefetch description.",
+      "message": "الحيلولة دون تسرّب الطلبات الممنوعة الى شبكات التوصيل."
+   },
+   "disablePrefetchTitle": {
+      "description": "Disable prefetch title.",
+      "message": "تعطيل الجلب المسبق للرابط"
+   },
+   "disableProtectionTitle": {
+      "description": "Disable protection title.",
+      "message": "أوقف الحماية لهذا الموقع"
+   },
+   "enableProtectionTitle": {
+      "description": "Enable protection title.",
+      "message": "فعّل الحماية"
+   },
+   "extensionDescription": {
+      "description": "Extension description.",
+      "message": "يحميك من التتبع المرتبط بالوصول للمحتوى \"مجاني\"، مركزية."
+   },
+   "optionsTitle": {
+      "description": "Options title.",
+      "message": "الخيارات"
+   },
+   "showIconBadgeDescription": {
+      "description": "Show icon badge description.",
+      "message": "إظهار عدد الموارد المحقونة على أيقونة الملحق."
+   },
+   "showIconBadgeTitle": {
+      "description": "Show icon badge title.",
+      "message": "عرض مجموع الحقن على الأيقونة"
+   },
+   "stripMetadataDescription": {
+      "description": "Strip metadata description.",
+      "message": "مسح البيانات الحساسة من طلبات CDN المسموحة لتحسين الخصوصية."
+   },
+   "stripMetadataTitle": {
+      "description": "Strip metadata title.",
+      "message": "إزالة بيانات التعريف من الطلبات المسموحة"
+   },
+   "whitelistedDomainsDescription": {
+      "description": "Whitelisted domains description.",
+      "message": "حدد النطاقات التي سوف يتم تجاهلها. إفصل المداخل المتعددة بـفاصلة منقوطة (;)."
+   },
+   "whitelistedDomainsTitle": {
+      "description": "Whitelisted domains title.",
+      "message": "لا تتفحص النطاقات"
+   }
+}

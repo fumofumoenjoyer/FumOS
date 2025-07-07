@@ -1,0 +1,764 @@
+{
+   "buttonApply": {
+      "message": "적용"
+   },
+   "buttonCancel": {
+      "message": "취소"
+   },
+   "buttonClose": {
+      "message": "닫기"
+   },
+   "buttonDisable": {
+      "message": "비활성화"
+   },
+   "buttonEdit": {
+      "message": "편집"
+   },
+   "buttonEditClickHint": {
+      "message": "스크립트 이름을 마우스 오른쪽 버튼 클릭, Ctrl 클릭, 휠 클릭할 수도 있습니다."
+   },
+   "buttonEmptyRecycleBin": {
+      "message": "지금 휴지통 비우기!"
+   },
+   "buttonEnable": {
+      "message": "활성화"
+   },
+   "buttonExportData": {
+      "message": "ZIP 파일로 내보내기"
+   },
+   "buttonHome": {
+      "message": "홈페이지"
+   },
+   "buttonImportData": {
+      "message": "ZIP 파일에서 불러오기"
+   },
+   "buttonInstallFromURL": {
+      "message": "URL에서 설치"
+   },
+   "buttonNew": {
+      "message": "새로운 유저스크립트"
+   },
+   "buttonOK": {
+      "message": "확인"
+   },
+   "buttonRecycleBin": {
+      "message": "휴지통"
+   },
+   "buttonRemove": {
+      "message": "삭제"
+   },
+   "buttonReplace": {
+      "message": "바꾸기"
+   },
+   "buttonReplaceAll": {
+      "message": "모두 바꾸기"
+   },
+   "buttonReset": {
+      "message": "초기화"
+   },
+   "buttonResetSettings": {
+      "message": "설정 초기화"
+   },
+   "buttonRestore": {
+      "message": "복구"
+   },
+   "buttonSave": {
+      "message": "저장"
+   },
+   "buttonSaveClose": {
+      "message": "저장하고 닫기"
+   },
+   "buttonSaved": {
+      "message": "저장 완료"
+   },
+   "buttonShowEditorState": {
+      "message": "편집기 상태 보기"
+   },
+   "buttonSupport": {
+      "message": "지원 페이지"
+   },
+   "buttonUndo": {
+      "message": "실행 취소"
+   },
+   "buttonUpdate": {
+      "message": "업데이트"
+   },
+   "buttonVacuum": {
+      "message": "데이터베이스 청소"
+   },
+   "buttonVacuumed": {
+      "message": "데이터 청소됨"
+   },
+   "buttonVacuuming": {
+      "message": "데이터 청소 중..."
+   },
+   "confirmManualUpdate": {
+      "message": "이 스크립트의 자동 업데이트가 꺼져 있습니다!\n업데이트를 진행하려면 '확인'을 누르세요."
+   },
+   "confirmNotSaved": {
+      "message": "변경사항이 저장되지 않았습니다!\n무시하려면 확인 버튼을, 계속 머무르려면 취소 버튼을 눌러주세요."
+   },
+   "confirmUndoImport": {
+      "message": "데이터베이스의 모든 변경 사항 되돌리기 (가져오기, 업데이트, 수정, 사용자 지정)"
+   },
+   "descBlacklist": {
+      "message": "이 목록과 일치하는 URL에는 스크립트가 삽입되지 않습니다."
+   },
+   "descBlacklistNet": {
+      "message": "Network blacklist (scripts won't connect to the matching sites and their cookies)"
+   },
+   "descCustomCSS": {
+      "message": "옵션 페이지와 스크립트 설치 페이지를 위한 커스텀 CSS입니다. 만약 이게 뭔지 모르신다면 수정하지 마세요."
+   },
+   "descEditorOptions": {
+      "message": "CodeMirror와 애드온의 설정은 \u003Ccode>{\"indentUnit\":2, \"smartIndent\":true}\u003C/code> 와 같은 JSON 오브젝트로 할 수 있으며 몇몇 설정은 Violentmonkey 에서 작동하지 않을 수 있습니다. \u003Ca href=\"https://codemirror.net/doc/manual.html#config\" target=\"_blank\" rel=\"noopener noreferrer\">전체 목록\u003C/a>을 확인하세요."
+   },
+   "descEditorOptionsGeneric": {
+      "message": "값을 더블 클릭하여 설정을 켜고 끌 수 있습니다.\u003Ccode>true\u003C/code> = 활성화, \u003Ccode>false\u003C/code> = 비활성화. \u003Ccode>지연\u003C/code>, \u003Ccode>주기\u003C/code>, \u003Ccode>속도\u003C/code>, \u003Ccode>시간\u003C/code> 등 수로 입력하는 설정의 단위는 밀리초입니다."
+   },
+   "descEditorOptionsVM": {
+      "message": "비표준 설정: \u003Ccode>autocompleteOnTyping\u003C/code>으로 입력 후 자동 완성 힌트를 표시할 때까지의 지연 시간(밀리초)을 설정할 수 있고 (\u003Ccode>0\u003C/code> = 비활성화), \u003Ccode>killTrailingSpaceOnSave\u003C/code>는 저장할 때 후행 공백을 자동으로 제거하고, \u003Ccode>showTrailingSpace\u003C/code>는 후행 공백을 점으로 표시합니다."
+   },
+   "descScriptTemplate": {
+      "message": "지원하는 변수: MomentJS와 호환되는 \u003C{{name}}>, \u003C{{url}}>, \u003C{{date}}>, \u003C{{date:format}}> 형식. 예: \u003C{{date:YYYY-MM-DD}}>."
+   },
+   "disabledScriptsGroup": {
+      "message": "group"
+   },
+   "disabledScriptsHide": {
+      "message": "hide"
+   },
+   "disabledScriptsSelector": {
+      "message": "Disabled scripts:"
+   },
+   "disabledScriptsShow": {
+      "message": "show"
+   },
+   "editHelpDocumention": {
+      "message": "유저스크립트의 메타데이터와 \u003Ccode>GM\u003C/code> API 문서:"
+   },
+   "editHelpKeyboard": {
+      "message": "키보드 단축키:"
+   },
+   "editHowToHint": {
+      "message": "다른 편집기를 사용하시나요?"
+   },
+   "editLabelMeta": {
+      "message": "커스텀 메타데이터"
+   },
+   "editLabelSettings": {
+      "message": "스크립트 설정"
+   },
+   "editLongLine": {
+      "message": "줄이 너무 깁니다"
+   },
+   "editLongLineTooltip": {
+      "message": "줄이 너무 길어서 편집 중 지연을 피하기 위해 텍스트가 접혀 있습니다.\n고급 설정에서 제한을 조정할 수 있습니다. 예시:\n\"maxDisplayLength\": 20000"
+   },
+   "editNavCode": {
+      "message": "코드"
+   },
+   "editNavSettings": {
+      "message": "설정"
+   },
+   "editNavValues": {
+      "message": "값"
+   },
+   "editValueAllHint": {
+      "message": "전체 스크립트 값 저장소 표시/편집"
+   },
+   "extDescription": {
+      "message": "유저스크립트를 실행합니다."
+   },
+   "extName": {
+      "message": "Violentmonkey"
+   },
+   "failureReasonBlacklisted": {
+      "message": "Violentmonkey 블랙리스트 목록에 추가되어 있습니다"
+   },
+   "failureReasonNoninjectable": {
+      "message": "Violentmonkey가 이 페이지의 유저스크립트를 실행하지 못했습니다\n(대표적인 원인 예시: 브라우저 UI, 확장 기능, 정책, Opera 내 검색엔진 사이트)"
+   },
+   "failureReasonRestarted": {
+      "message": "Violentmonkey가 재시작되었습니다. 유저스크립트를 실행하려면 탭을 새로고침하세요."
+   },
+   "fileInstallBlocked": {
+      "message": "로컬 파일의 변경사항을 적용하거나 추적하는 방법이 몇 가지 있습니다. \u003C1> 파일을 이 페이지처럼 열려 있는 Violentmonkey 페이지나 팝업으로 끌어다 놓습니다. \u003C2> 이 파일의 로컬 HTTP 서버를 설치한 뒤 http://localhost 주소로 파일을 엽니다. \u003C3> chrome://extensions 페이지의 확장 세부정보에서 \"파일 URL에 대한 액세스 허용\"을 켭니다. 이 방식은 모든 유저스크립트에서 모든 파일에 접근할 수 있게 되므로 위험합니다."
+   },
+   "filterAlphabeticalOrder": {
+      "message": "가나다 순"
+   },
+   "filterExecutionOrder": {
+      "message": "실행 순"
+   },
+   "filterLastUpdateOrder": {
+      "message": "최근 업데이트 순"
+   },
+   "filterSize": {
+      "message": "크기 순"
+   },
+   "genericError": {
+      "message": "오류"
+   },
+   "genericOff": {
+      "message": "끄기"
+   },
+   "genericOn": {
+      "message": "켜기"
+   },
+   "genericUseGlobal": {
+      "message": "전역 설정 사용"
+   },
+   "hashPatternWarning": {
+      "message": "\"#\" 패턴은 사이트를 처음 열거나 탭을 새로 고침할 때만 작동합니다 : $1"
+   },
+   "headerRecycleBin": {
+      "message": "휴지통"
+   },
+   "helpForLocalFile": {
+      "message": "끌어다 놓은 로컬 스크립트에 대한 지침 표시"
+   },
+   "hintForBatchAction": {
+      "message": "일치하는 스크립트 $1개"
+   },
+   "hintInputURL": {
+      "message": "URL 입력:"
+   },
+   "hintRecycleBin": {
+      "message": "삭제된 스크립트는 이 곳에 추가되고 7일 간 보관됩니다."
+   },
+   "hintUseDownloadURL": {
+      "message": "@downloadURL 사용"
+   },
+   "hintVacuum": {
+      "message": "불필요한 중복 데이터를 버리고 캐시에 없는 리소스를 다시 불러오도록 시도합니다."
+   },
+   "install": {
+      "message": "설치"
+   },
+   "installFrom": {
+      "message": "$1에서 설치"
+   },
+   "installOptionTrackTooltip": {
+      "message": "소스 파일 탭은 Firefox 68 이상에서 열린 상태로 유지되어야 합니다."
+   },
+   "labelAdvanced": {
+      "message": "고급"
+   },
+   "labelAllowUpdate": {
+      "message": "업데이트 허용"
+   },
+   "labelAuthor": {
+      "message": "작성자: "
+   },
+   "labelAutoReloadCurrentTab": {
+      "message": "메뉴에서 스크립트를 끄거나 켜면 해당 탭을 새로고침"
+   },
+   "labelAutoUpdate": {
+      "message": "$1일마다 업데이트를 확인합니다. (0 = 비활성화)"
+   },
+   "labelBackupMaintenance": {
+      "message": "백업 및 유지보수"
+   },
+   "labelBadge": {
+      "message": "배지 표시: "
+   },
+   "labelBadgeColors": {
+      "message": "배지 색상: "
+   },
+   "labelBadgeNone": {
+      "message": "없음"
+   },
+   "labelBadgeTotal": {
+      "message": "실행 중인 스크립트의 수"
+   },
+   "labelBadgeUnique": {
+      "message": "실행 중인 스크립트의 고유 수"
+   },
+   "labelBlacklist": {
+      "message": "블랙리스트"
+   },
+   "labelContributors": {
+      "message": "기여자"
+   },
+   "labelCurrentLang": {
+      "message": "현재 언어: "
+   },
+   "labelCustomCSS": {
+      "message": "커스텀 스타일"
+   },
+   "labelDownloadURL": {
+      "message": "다운로드 URL:"
+   },
+   "labelEditValue": {
+      "message": "스크립트 변수 수정"
+   },
+   "labelEditValueAll": {
+      "message": "스크립트 저장소 수정"
+   },
+   "labelEditor": {
+      "message": "편집기"
+   },
+   "labelEnabledScriptsOnly": {
+      "message": "활성화된 스크립트만"
+   },
+   "labelExclude": {
+      "message": "@exclude 규칙"
+   },
+   "labelExcludeMatch": {
+      "message": "@exclude-match 규칙"
+   },
+   "labelExportScriptData": {
+      "message": "스크립트 데이터 불러오기"
+   },
+   "labelExposeStatus": {
+      "message": "유저스크립트 카탈로그 사이트에 설치된 버전 표시: $1"
+   },
+   "labelFastFirefoxInject": {
+      "message": "Firefox에서 대체 $1 모드"
+   },
+   "labelFastFirefoxInjectHint": {
+      "message": "Firefox 59 이후 \u003Cdocument-start> 스크립트를 기본 모드보다 빠르게 인젝션하는 방식이 도입되었습니다. \"페이지 동기화 모드\"처럼 메모리 사용량이 증가하므로, 이 옵션 없이도 스크립트가 올바르게 동작한다면 끄실 수 있습니다."
+   },
+   "labelFeedback": {
+      "message": "피드백"
+   },
+   "labelGeneral": {
+      "message": "일반"
+   },
+   "labelHelpTranslate": {
+      "message": "번역 도와주기"
+   },
+   "labelHomepage": {
+      "message": "홈페이지"
+   },
+   "labelHomepageURL": {
+      "message": "홈페이지 URL:"
+   },
+   "labelIconURL": {
+      "message": "Icon URL:"
+   },
+   "labelImportScriptData": {
+      "message": "스크립트 데이터 가져오기"
+   },
+   "labelImportSettings": {
+      "message": "불러오기 설정"
+   },
+   "labelInclude": {
+      "message": "@include 규칙"
+   },
+   "labelInjectionMode": {
+      "message": "인젝션 모드: "
+   },
+   "labelInstall": {
+      "message": "스크립트 설치"
+   },
+   "labelKeepOriginal": {
+      "message": "기존 규칙 유지"
+   },
+   "labelLastUpdatedAt": {
+      "message": "$1에 마지막으로 업데이트됨"
+   },
+   "labelLineNumber": {
+      "message": "줄 번호: "
+   },
+   "labelMatch": {
+      "message": "@match 규칙"
+   },
+   "labelName": {
+      "message": "이름:"
+   },
+   "labelNoFrames": {
+      "message": "프레임에서 실행:"
+   },
+   "labelNoName": {
+      "message": "이름 없음"
+   },
+   "labelNoSearchScripts": {
+      "message": "스크립트를 찾을 수 없습니다."
+   },
+   "labelNotifyThisUpdated": {
+      "message": ", 알림:"
+   },
+   "labelNotifyUpdates": {
+      "message": "스크립트 업데이트 알림"
+   },
+   "labelNotifyUpdatesGlobal": {
+      "message": "각 스크립트의 알림 설정을 무시하고 전역 설정 사용"
+   },
+   "labelPrivacyPolicy": {
+      "message": "개인정보 보호정책"
+   },
+   "labelReinstall": {
+      "message": "스크립트 재설치 중"
+   },
+   "labelRelated": {
+      "message": "관련된 링크: "
+   },
+   "labelRemovedAt": {
+      "message": "$1 에 삭제됨"
+   },
+   "labelReplace": {
+      "message": "바꿀 내용: "
+   },
+   "labelRunAt": {
+      "message": "실행 시점:"
+   },
+   "labelRunAtDefault": {
+      "message": "(기본 값)"
+   },
+   "labelScriptTemplate": {
+      "message": "사용자 스크립트 템플릿"
+   },
+   "labelSearch": {
+      "message": "찾을 내용: "
+   },
+   "labelSearchScript": {
+      "message": "스크립트 검색..."
+   },
+   "labelSettings": {
+      "message": "설정"
+   },
+   "labelShowOrder": {
+      "message": "실행 순서 표시"
+   },
+   "labelSync": {
+      "message": "동기화"
+   },
+   "labelSyncAnonymous": {
+      "message": "익명 계정 사용"
+   },
+   "labelSyncAuthorize": {
+      "message": "인증"
+   },
+   "labelSyncAuthorizing": {
+      "message": "인증 중"
+   },
+   "labelSyncDisabled": {
+      "message": "없음"
+   },
+   "labelSyncPassword": {
+      "message": "비밀번호: "
+   },
+   "labelSyncRevoke": {
+      "message": "인증 폐기"
+   },
+   "labelSyncScriptStatus": {
+      "message": "스크립트 동기화 상태"
+   },
+   "labelSyncServerUrl": {
+      "message": "서버 URL: "
+   },
+   "labelSyncService": {
+      "message": "동기화"
+   },
+   "labelSyncUsername": {
+      "message": "사용자: "
+   },
+   "labelTags": {
+      "message": "태그 (공백으로 구분):"
+   },
+   "labelTheme": {
+      "message": "테마: "
+   },
+   "labelUpdateURL": {
+      "message": "업데이트 URL:"
+   },
+   "labelViewSingleColumn": {
+      "message": "1열 형식"
+   },
+   "labelViewTable": {
+      "message": "표 형식"
+   },
+   "labelWidth": {
+      "message": "Width:"
+   },
+   "labelXhrInject": {
+      "message": "$1 동기화 모드"
+   },
+   "labelXhrInjectHint": {
+      "message": "페이지 로드를 시작하기 전에 실행해야 하는 스크립트가 있고 현재 너무 늦게 실행되고 있는 경우에만 활성화합니다. Tampermonkey의 Instant injection 모드처럼, 이 옵션은 더 이상 사용되지 않는 동기식 XHR을 사용하므로 Chrome/Chromium에서 devtools 콘솔에 경고가 표시됩니다, 이 경우 부작용은 무시해도 됩니다. 경고를 마우스 오른쪽 버튼으로 클릭하여 영구적으로 숨길 수 있습니다."
+   },
+   "labelXhrInjectNote": {
+      "message": "(시크릿 모드 및 쿠키를 끈 사이트 제외)"
+   },
+   "lastSync": {
+      "message": "$1에 마지막으로 동기화됨"
+   },
+   "learnBlacklist": {
+      "message": "블랙리스트 패턴에 대해 자세히 알아보기"
+   },
+   "learnInjectionMode": {
+      "message": "인젝션 모드에 대해 자세히 알아보기"
+   },
+   "menuDashboard": {
+      "message": "대시보드 열기"
+   },
+   "menuExclude": {
+      "message": "제외..."
+   },
+   "menuExcludeHint": {
+      "message": "일반 설정에서 이 옵션을 활성화한 경우 현재 탭이 자동으로 새로고침됩니다.\n다른 모든 탭에 변경 사항을 적용하려면 수동으로 새로고침하세요.\n더 많은 유연성을 위해 편집기의 '설정' 탭을 사용하세요."
+   },
+   "menuFeedback": {
+      "message": "피드백"
+   },
+   "menuFindScripts": {
+      "message": "이 사이트의 스크립트 찾기"
+   },
+   "menuInjectionFailed": {
+      "message": "일부 스크립트를 삽입할 수 없습니다."
+   },
+   "menuInjectionFailedFix": {
+      "message": "\"자동\" 모드로 재시도"
+   },
+   "menuMatchedDisabledScripts": {
+      "message": "일치하는 비활성화된 스크립트"
+   },
+   "menuMatchedFrameScripts": {
+      "message": "하위 프레임 전용 스크립트"
+   },
+   "menuMatchedScripts": {
+      "message": "일치하는 스크립트"
+   },
+   "menuNewScript": {
+      "message": "새 스크립트 만들기"
+   },
+   "menuScriptDisabled": {
+      "message": "스크립트 비활성화됨"
+   },
+   "menuScriptEnabled": {
+      "message": "스크립트 활성화됨"
+   },
+   "msgCheckingForUpdate": {
+      "message": "업데이트 확인중..."
+   },
+   "msgDateFormatInfo": {
+      "message": "MomentJS 문서를 열려면 클릭합니다. 허용된 토큰 : $1. 리터럴 텍스트를 보호하려면 [대괄호]를 사용하세요."
+   },
+   "msgErrorFetchingResource": {
+      "message": "리소스를 받아오는 중 오류가 발생했습니다!"
+   },
+   "msgErrorFetchingScript": {
+      "message": "스크립트를 받아오는 중 오류가 발생했습니다!"
+   },
+   "msgErrorFetchingUpdateInfo": {
+      "message": "업데이트 정보를 받아오는 데 실패했습니다."
+   },
+   "msgErrorLoadingData": {
+      "message": "스크립트 데이터를 볼러오는 중 오류가 발생했습니다."
+   },
+   "msgErrorLoadingDependency": {
+      "message": "의존성을 불러오는 중 오류가 발생했습니다."
+   },
+   "msgImported": {
+      "message": "$1개의 스크립트를 불러왔습니다."
+   },
+   "msgIncognitoChanges": {
+      "message": "시크릿 모드에서 변경한 사항은 기본 프로필에도 적용됩니다."
+   },
+   "msgInstalled": {
+      "message": "스크립트 설치됨."
+   },
+   "msgInvalidScript": {
+      "message": "유효하지 않은 스크립트!"
+   },
+   "msgLoadingData": {
+      "message": "스크립트 데이터를 불러오는 중..."
+   },
+   "msgLoadingDependency": {
+      "message": "의존성을 불러오는 중... ($1/$2)"
+   },
+   "msgMissingResources": {
+      "message": "요구되는 리소스가 손실됨."
+   },
+   "msgNamespaceConflict": {
+      "message": "스크립트의 네임스페이스가 충돌했습니다! @name과 @namespace를 수정해주세요."
+   },
+   "msgNamespaceConflictRestore": {
+      "message": "@name과 @namespace가 동일한 스크립트가 이미 설치되었습니다."
+   },
+   "msgNewVersion": {
+      "message": "새 버전 발견됨."
+   },
+   "msgNoUpdate": {
+      "message": "업데이트 없음."
+   },
+   "msgOpenUpdateErrors": {
+      "message": "스크립트 업데이트 오류. 클릭해서 열기."
+   },
+   "msgReinstallScripts": {
+      "message": "스크립트를 재설치하시거나 다시 저장하세요."
+   },
+   "msgSameCode": {
+      "message": " (변경 없음)"
+   },
+   "msgScriptUpdated": {
+      "message": "스크립트 [$1]이(가) 업데이트됨!"
+   },
+   "msgShowHide": {
+      "message": "표시/숨김"
+   },
+   "msgSyncError": {
+      "message": "동기화 오류!"
+   },
+   "msgSyncInit": {
+      "message": "초기화 중..."
+   },
+   "msgSyncInitError": {
+      "message": "초기화 오류!"
+   },
+   "msgSyncNoAuthYet": {
+      "message": "아직 승인되지 않았습니다."
+   },
+   "msgSyncReady": {
+      "message": "동기화가 곧 시작합니다...."
+   },
+   "msgSyncing": {
+      "message": "동기화 진행 중..."
+   },
+   "msgSyntaxError": {
+      "message": "구문 오류?"
+   },
+   "msgTardyMatch": {
+      "message": "페이지가 로드될 때 스크립트가 존재하지 않거나 URL과 일치하지 않는데, 이는 페이크 내비게이션을 사용하는 페이스북이나 인스타그램과 같은 단일 페이지 애플리케이션 사이트에서 발생합니다. 탭을 새로고침하여 스크립트를 실행할 수 있습니다. 스크립트를 수정하려면 전체 사이트에 @match를 사용한 다음 MutationObserver 또는 window.navigation API를 사용하여 변경 사항을 감지합니다."
+   },
+   "msgUpdated": {
+      "message": "스크립트 업데이트됨."
+   },
+   "msgUpdating": {
+      "message": "업데이트 중..."
+   },
+   "noValues": {
+      "message": "저장된 값이 없습니다."
+   },
+   "optionEditorWindow": {
+      "message": "새 창의 팝업에서 편집기 열기"
+   },
+   "optionEditorWindowHint": {
+      "message": "편집기 창 위치는 크기를 조정하거나 저장할 때만 기억됩니다."
+   },
+   "optionEditorWindowSimple": {
+      "message": "omnibox 숨기기"
+   },
+   "optionPopup": {
+      "message": "팝업 메뉴 및 아이콘"
+   },
+   "optionPopupEnabledFirst": {
+      "message": "활성화된 것 먼저"
+   },
+   "optionPopupGroupRunAt": {
+      "message": "@run-at stage로 묶기"
+   },
+   "optionShowEnabledFirst": {
+      "message": "활성화된 스크립트 먼저 보여주기"
+   },
+   "optionUiTheme": {
+      "message": "UI 테마: "
+   },
+   "optionUiThemeAuto": {
+      "message": "자동"
+   },
+   "optionUiThemeDark": {
+      "message": "다크"
+   },
+   "optionUiThemeLight": {
+      "message": "라이트"
+   },
+   "optionUpdate": {
+      "message": "업데이트"
+   },
+   "popupSettings": {
+      "message": "Popup settings"
+   },
+   "popupSettingsHint": {
+      "message": "Right-click: popup settings"
+   },
+   "readonly": {
+      "message": "읽기 전용"
+   },
+   "readonlyNote": {
+      "message": "자동 업데이트된 스크립트는 업데이트를 끄거나 편집을 허용하기 전까지 읽기 전용 상태입니다."
+   },
+   "readonlyOpt": {
+      "message": "편집 허용"
+   },
+   "readonlyOptWarn": {
+      "message": "(다음 업데이트에서 편집 사항을 덮어씀)"
+   },
+   "reinstall": {
+      "message": "재설치"
+   },
+   "reloadTab": {
+      "message": "탭 새로고침"
+   },
+   "reloadTabTrackHint": {
+      "message": "켜진 경우, 활성화된 탭의 URL에 해당하는 스크립트가 바뀌면 탭을 새로고침합니다."
+   },
+   "searchCaseSensitive": {
+      "message": "대소문자 확인"
+   },
+   "searchUseRegex": {
+      "message": "정규표현식 사용"
+   },
+   "sideMenuAbout": {
+      "message": "정보"
+   },
+   "sideMenuInstalled": {
+      "message": "설치된 스크립트"
+   },
+   "sideMenuSettings": {
+      "message": "설정"
+   },
+   "skipScripts": {
+      "message": "유저스크립트를 끄고 페이지 새로고침"
+   },
+   "skipScriptsMsg": {
+      "message": "이 페이지에서 유저스크립트를 비활성화했습니다. 스크립트를 실행하려면 탭을 새로고침하거나 탐색하세요."
+   },
+   "sortOrder": {
+      "message": "Sort order:"
+   },
+   "stopTracking": {
+      "message": "추적 중단"
+   },
+   "titleBadgeColor": {
+      "message": "일반 배지 색상"
+   },
+   "titleBadgeColorBlocked": {
+      "message": "주입할 수 없는 사이트의 배지 색상(블랙리스트 또는 지원되지 않음)"
+   },
+   "titleSearchHintV2": {
+      "message": "* \u003Ckbd>Enter\u003C/kbd> 키를 누르면 텍스트가 자동 완성 내역에 추가됩니다\n* 모든 조건은 대소문자를 구분하지 않습니다\n* 조건은 공백으로 구분해 여러 개 입력할 수 있습니다\n* 메타데이터 검색: \u003Ccode>\"Awesome Script\" \"Description\"\u003C/code>\n* 태그 검색: \u003Ccode>#tag1 #tag2\u003C/code>\n* 스크립트 이름 검색: \u003Ccode>name:\"awesome name\"\u003C/code>\n* 스크립트 코드 검색: \u003Ccode>code:\"awesome code\"\u003C/code>\n* 검색에서 제외: \u003Ccode>!#tag2 !name:\"unwanted\"\u003C/code>\n* 정규표현식: \u003Ccode>/\\w+?/\u003C/code>, \u003Ccode>/\\w+?/gi\u003C/code>, \u003Ccode>name:/\\w+?/\u003C/code>, \u003Ccode>name+re:\"\\w+? with space\"\u003C/code>"
+   },
+   "toggleInjection": {
+      "message": "Toggle userscript injection"
+   },
+   "trackEdits": {
+      "message": "외부 편집 추적"
+   },
+   "trackEditsNote": {
+      "message": "로컬 파일의 편집을 추적하려면 이 페이지를 계속 열어두세요"
+   },
+   "updateListedCmd": {
+      "message": "스크립트 업데이트 ($1)"
+   },
+   "updateScript": {
+      "message": "업데이트"
+   },
+   "updateScriptsAll": {
+      "message": "Update all scripts"
+   },
+   "updateScriptsInTab": {
+      "message": "Update current tab's scripts"
+   },
+   "valueLabelKey": {
+      "message": "키 (문자열)"
+   },
+   "valueLabelValue": {
+      "message": "문자열 (JSON 직렬화)"
+   },
+   "valueLabelValueAll": {
+      "message": "모든 값 (JSON 직렬화)"
+   }
+}
