@@ -15,7 +15,7 @@ FumOS 2025.1 "Cirno" is here!
 
 Standard ISO:
 
-https://drive.google.com/file/d/1eFbwFbMu34eLvZj0WPeyuJMg-1UrR99w/view?usp=sharing
+https://drive.proton.me/urls/8RXFQED0ZR#AZB7D9h1ODI1
 
 ## Build Instructions
 Install the [Chaotic AUR repo](https://aur.chaotic.cx/), then clone this repo and run ```steps.sh``` as root on an archlinux compatible machine to build the ISO, it should appear in the ```out``` directory.
